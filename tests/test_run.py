@@ -31,3 +31,17 @@ def test_run_invokes_llm_and_logs_tokens(tmp_path, monkeypatch):
     log = (tmp_path / "state" / "token-log.jsonl").read_text(encoding="utf-8").strip()
     assert json.loads(log)["output_tokens"] == 7
     assert finalized["done"] == "2026-06-14"
+
+def test_run_skips_finalize_when_llm_fails(tmp_path, monkeypatch):
+    called = {"finalize": 0, "tokenlog": 0}
+    monkeypatch.setattr(runmod, "collect",
+                        lambda root, today=None: {"item_count": 1, "deferred": 0,
+                                                  "batch_path": "b", "today": "2026-06-14"})
+    monkeypatch.setattr(runmod, "_invoke_claude", lambda prompt, root: "")  # 빈 출력 = 실패
+    monkeypatch.setattr(runmod.tokenlog, "append_token_log",
+                        lambda *a, **k: called.__setitem__("tokenlog", 1))
+    monkeypatch.setattr(runmod, "finalize",
+                        lambda root, today=None: called.__setitem__("finalize", 1))
+    result = runmod.run(root=tmp_path)
+    assert called["finalize"] == 0          # 상태 전진 안 함
+    assert result["status"] == "llm_failed"
