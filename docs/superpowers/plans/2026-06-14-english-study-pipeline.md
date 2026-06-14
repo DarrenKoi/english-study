@@ -196,6 +196,7 @@ Expected: FAIL (`ModuleNotFoundError: No module named 'pipeline.config'` 또는 
 - [ ] **Step 3: 최소 구현 작성** (`scripts/pipeline/config.py`)
 
 ```python
+import copy
 import json
 from pathlib import Path
 
@@ -217,11 +218,11 @@ def load_config(path: Path | None = None) -> dict:
 
 def load_state(path: Path | None = None) -> dict:
     path = Path(path) if path else state_path()
+    # deepcopy 로 매 호출 독립 사본 반환 (DEFAULT_STATE 중첩 dict 오염 방지)
     if not path.exists():
-        return dict(DEFAULT_STATE)
+        return copy.deepcopy(DEFAULT_STATE)
     data = json.loads(path.read_text(encoding="utf-8"))
-    # 누락 키 보정
-    return {**DEFAULT_STATE, **data}
+    return {**copy.deepcopy(DEFAULT_STATE), **data}
 
 def save_state(state: dict, path: Path | None = None) -> None:
     path = Path(path) if path else state_path()
