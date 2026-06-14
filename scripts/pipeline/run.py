@@ -6,10 +6,12 @@ from pipeline.collect import collect
 from pipeline.finalize import finalize
 
 def _invoke_claude(prompt: str, root: Path) -> str:
-    # 무인 실행: 격리된 학습 repo이므로 권한 프롬프트를 건너뛴다
+    # 무인 실행: 도구를 파일 계열로만 제한한다. 배치에 섞일 수 있는
+    # 프롬프트 인젝션이 Bash·네트워크로 번지지 못하게 막는 방어선.
+    # (git push 는 LLM 이 아니라 finalize 의 Python 이 수행)
     res = subprocess.run(
         ["claude", "-p", prompt, "--output-format", "json",
-         "--dangerously-skip-permissions"],
+         "--allowedTools", "Read,Edit,Write,Glob"],
         cwd=str(root), capture_output=True, text=True)
     return res.stdout
 
