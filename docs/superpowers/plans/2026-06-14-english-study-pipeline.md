@@ -1076,6 +1076,8 @@ def _invoke_claude(prompt: str, root: Path) -> str:
         ["claude", "-p", prompt, "--output-format", "json",
          "--allowedTools", "Read,Edit,Write,Glob"],
         cwd=str(root), capture_output=True, text=True)
+    if res.returncode != 0:
+        return ""
     return res.stdout
 
 def run(root: Path | None = None) -> dict:
@@ -1088,6 +1090,10 @@ def run(root: Path | None = None) -> dict:
 
     prompt = _build_prompt(root, info)
     out = _invoke_claude(prompt, root)
+    # LLM 호출 실패 시 상태를 전진시키지 않는다 (다음 실행에서 재시도, 데이터 유실 방지)
+    if not out.strip():
+        print(f"[{today}] LLM 호출 실패 — 상태를 전진시키지 않고 종료(다음 실행에서 재시도).")
+        return {"status": "llm_failed", "today": today}
     usage = tokenlog.parse_usage(out)
     tokenlog.append_token_log(root, today, usage, info["item_count"])
 
