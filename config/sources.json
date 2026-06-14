@@ -1,0 +1,12 @@
+{
+  "base_path": "~/Codes",
+  "transcripts_dir": "~/.claude/projects",
+  "char_budget": 200000,
+  "digest_min": 5,
+  "digest_max": 7,
+  "repos": [
+    { "name": "skewnono_v3_nuxt",   "globs": ["docs/**/*.md"] },
+    { "name": "auto_recipe_creator", "globs": ["**/*.md"] },
+    { "name": "wiki_for_office",     "globs": ["docs/**/*.md"] }
+  ]
+}
