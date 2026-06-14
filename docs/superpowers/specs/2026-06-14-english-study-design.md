@@ -150,11 +150,15 @@ launchd (매일 23:00) → scripts/run.sh
 - 새벽 작업이 읽어 `daily/<date>/requests/`에 결과 생성
 - 처리 후 `requests/done/<date>-<name>.md`로 이동 → 다음 날 재실행 방지(멱등성)
 
-## 9. 미해결/추후 결정
+## 9. 확정된 파라미터
 
-- 일일 처리 상한 구체값 (파일/문자 수)
-- 다이제스트 표현 개수 N
-- 중복제거 판정 기준 (정확 일치 vs 의미 유사)
-- `english-study` GitHub remote 생성 (현재 로컬 git만)
-- Windows 대화 훅 (미래 확장)
+- 다이제스트 표현 개수 N: **하루 5~7개**
+- 일일 처리 상한: **약 50k 토큰/밤** (토큰 예산 기준)
+- 중복제거 판정: **표현 텍스트 정확 일치** 우선 (의미 유사 매칭은 추후)
+- GitHub remote: **`DarrenKoi/english-study` private repo** 신규 생성
+
+### 추후 확장 (이번 범위 밖)
+- Windows 대화 훅 (`Stop`/`SessionEnd` → git push → Mac pull)
+- 의미 유사 기반 중복제거
+- git SHA 증분의 rebase/force-push 대응(현재는 단순 선형 히스토리 가정)
 ```
