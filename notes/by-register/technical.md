@@ -27,3 +27,9 @@
 - **never refactor while RED; get to GREEN first** — 실패 중엔 리팩터 금지, 통과부터.
 - **progressive disclosure** — 핵심만 먼저, 상세는 단계적으로 드러내는 설계.
 - **hot path** — 가장 자주/성능에 민감하게 도는 핵심 실행 경로.
+
+### auto_recipe_creator 배치 (4회차: grill-with-docs)
+- **stress-test (a plan/scenario)** — 극단 시나리오로 두드려 약점을 찾다.
+- **don't couple X to Y** — 두 관심사를 서로 얽매지 마라 (loose coupling).
+- **pin down (a faint box)** — 흐릿한 것을 정확히 짚어내다.
+- **benchmark against (real data)** — 실데이터를 기준으로 성능을 재다.

@@ -311,3 +311,88 @@
 - 한국어: 되돌릴 수 없는 작업을 하기 전에.
 - 설명: `irreversible` = 비가역의. 저장/실행처럼 무를 수 없는 동작 앞에 사람 확인(human-in-the-loop checkpoint)을 두는 설계 원칙을 말할 때.
 - 예문: Require explicit approval before an irreversible action like saving the recipe.
+
+---
+
+## 추가 발굴 — grill-with-docs / 저널 (야간 4회차)
+
+> 출처: `repo:auto_recipe_creator .agents/skills/grill-with-docs/SKILL.md` 외. 기존 노트에 없는 것만.
+
+## "sharpen fuzzy language"
+- 레지스터: professional
+- 출처: repo:auto_recipe_creator grill-with-docs/SKILL.md
+- 맥락: 회의·리뷰에서 상대의 모호한 용어를 *정확한 표준 용어로 좁혀줄* 때(격식·구어 모두).
+- 한국어: 두루뭉술한 말을 날카롭게 다듬다 / 용어를 또렷하게 만들다.
+- 설명: `fuzzy` = 흐릿한·경계가 모호한. `sharpen` 은 칼을 갈 듯 말의 경계를 또렷이 한다는 비유. "what do you mean by X?" 를 한 단어로 압축한 표현.
+- 예문: Before we commit, let's sharpen this fuzzy language — "account" could mean the Customer or the User.
+
+## "stress-test (a plan / a scenario)"
+- 레지스터: professional, technical
+- 출처: repo:auto_recipe_creator grill-with-docs/SKILL.md
+- 맥락: 설계·계획을 *극단 시나리오로 두드려* 약점을 찾을 때(엔지니어링·기획 공통).
+- 한국어: (계획을) 압박 시험하다 / 까다로운 경우로 두드려보다.
+- 설명: 원래 금융·구조공학의 "stress test"에서 온 표현. 구체적 엣지 케이스(specific scenarios)를 던져 개념의 경계를 강제로 드러낸다.
+- 예문: Stress-test the relationship with specific scenarios that probe the edge cases.
+
+## "call it out"
+- 레지스터: conversational, professional
+- 출처: repo:auto_recipe_creator grill-with-docs/SKILL.md
+- 맥락: 모순·문제를 *그 자리에서 짚어 말할* 때(구어에 가깝지만 업무에서도 자주).
+- 한국어: (잘못·모순을) 대놓고 지적하다 / 짚고 넘어가다.
+- 설명: "넘어가지 않고 명시적으로 언급한다"는 뉘앙스. 비슷한 `surface it`(드러내다)와 짝. 격식 글에선 `flag` / `point out`.
+- 예문: When a term conflicts with the glossary, call it out immediately.
+
+## "don't batch these up — capture them as they happen"
+- 레지스터: professional, technical
+- 출처: repo:auto_recipe_creator grill-with-docs/SKILL.md
+- 맥락: 기록·작업을 *모아뒀다 한꺼번에* 하지 말고 *그때그때* 하라고 권할 때(문서·구어).
+- 한국어: 모아뒀다 처리하지 말고, 생기는 즉시 붙잡아 기록하라.
+- 설명: `batch up` = 여러 건을 묶어 한 번에 처리. `as they happen` = 발생하는 그 순간에. 미루지 말라는 실무 격언.
+- 예문: When a term is resolved, update CONTEXT.md right there — don't batch these up.
+
+## "offer (something) sparingly"
+- 레지스터: professional
+- 출처: repo:auto_recipe_creator grill-with-docs/SKILL.md
+- 맥락: 어떤 행동을 *아껴서·드물게만* 하라고 지침을 줄 때(격식 문서).
+- 한국어: 아껴서/드물게만 제안하라.
+- 설명: `sparingly` = 인색하게·드물게(부사). 남발하지 말라는 뜻을 한 단어로. 반대는 `liberally`(후하게·자주).
+- 예문: Offer ADRs sparingly — only when the decision is hard to reverse.
+
+## "don't couple X to Y"
+- 레지스터: technical, professional
+- 출처: repo:auto_recipe_creator grill-with-docs/SKILL.md
+- 맥락: 설계에서 두 관심사를 *서로 얽매지 말라*고 할 때(엔지니어링 격식).
+- 한국어: X 를 Y 에 결합/종속시키지 마라.
+- 설명: `couple A to B` = 둘을 묶어 한쪽이 바뀌면 다른 쪽도 바뀌게 만들다. 소프트웨어의 "낮은 결합도(loose coupling)" 원칙의 동사형.
+- 예문: Don't couple CONTEXT.md to implementation details — keep it about the domain.
+
+## "as decisions crystallise"
+- 레지스터: professional
+- 출처: repo:auto_recipe_creator grill-with-docs (description)
+- 맥락: 논의가 진행되며 *결정이 또렷해지는 순간순간* 무언가를 함께 하라고 할 때(격식 문어).
+- 한국어: 결정이 (서서히) 굳어지면서 / 또렷해지는 대로.
+- 설명: `crystallise` = (생각·계획이) 결정(結晶)처럼 또렷한 형태로 굳다. 점진적으로 명확해지는 과정을 우아하게 표현하는 문어체 동사.
+- 예문: Update the documentation inline as decisions crystallise, not in one batch at the end.
+
+---
+
+## 한글→영어 코칭 (저널 원문 → 자연스러운 영어)
+
+> 이번 transcript 는 `/clear` 명령뿐이라, 한국어 기술 산문이 풍부한 저널
+> (white-box vs crosshair 제거)에서 코칭 소재를 뽑았습니다.
+
+### 1) 검출 난이도의 원인
+- 내가 쓴 한글: "검출 난이도를 가른 건 대비·두께가 아니라 구조의 전역성 여부다."
+- 자연스러운 영어: **What made detection hard wasn't contrast or thickness — it was whether the structure spans the whole frame.**
+- 왜 이렇게: 한국어의 "가른 건 …이다"는 영어에서 `What ... was ~` (의사분열문, cleft)로 옮기면 강조가 산다. "A가 아니라 B"는 `not A — it was B` 로 대시를 써서 대비. "전역성 여부"처럼 추상명사("-성 여부")는 영어에선 `whether ...` 절로 풀어 쓰는 게 자연스럽다.
+
+### 2) 한계를 정직하게 인정
+- 내가 쓴 한글: "순수 CV 로는 dense 배경의 흐릿한 박스를 신뢰성 있게 못 짚는다."
+- 자연스러운 영어: **Pure CV can't reliably pin down a faint box against a dense background.**
+- 왜 이렇게: "못 짚다"는 단순 `can't find` 보다 `pin down`(정확히 짚어내다)이 뉘앙스를 살린다. "신뢰성 있게"는 부사 `reliably` 한 단어. "~를 배경으로"는 `against a ... background` — 한국어 "dense 배경에서"의 "에서"를 `in` 으로 직역하면 어색하고, 대비를 뜻할 땐 `against` 가 관용적.
+
+### 3) 다음 단계 권고
+- 내가 쓴 한글: "실 office 데이터로 먼저 측정한 뒤 판단하자."
+- 자연스러운 영어: **Let's measure on real office data first, then decide.** (구어)
+  / **We should benchmark against real office data before drawing any conclusions.** (격식)
+- 왜 이렇게: "먼저 …한 뒤 판단"은 `measure first, then decide` 로 짧게(앞서 배운 *measure first, fix second* 와 같은 리듬). 격식 글에선 `draw conclusions`(결론을 내리다)·`benchmark against`(~를 기준으로 성능을 재다)로 한 단계 올린다.

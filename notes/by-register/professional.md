@@ -28,3 +28,10 @@
 - **reads like a specification** — (테스트·코드가) 명세서처럼 읽힌다.
 - **backstop** — 모든 게 실패해도 받쳐주는 최후방 안전장치.
 - **before an irreversible action** — 되돌릴 수 없는 작업을 하기 전에 (확인 게이트).
+
+### auto_recipe_creator 배치 (4회차: grill-with-docs)
+- **sharpen fuzzy language** — 두루뭉술한 말을 표준 용어로 또렷이 다듬다.
+- **call it out** — 모순·문제를 그 자리에서 짚어 말하다 (격식: flag / point out).
+- **don't batch these up — capture them as they happen** — 모아뒀다 말고 생기는 즉시 기록하라.
+- **offer (something) sparingly** — 아껴서·드물게만 하라 (반대: liberally).
+- **as decisions crystallise** — 결정이 또렷이 굳어가는 대로 (문어).

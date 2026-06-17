@@ -19,3 +19,7 @@
 - **earning its keep** — 제 밥값을 하다 / 존재 가치를 증명하다.
 - **a strong read, not a menu** — 선택지 나열 말고 소신 있는 견해를 강하게.
 - **safety net** — 실패해도 큰 사고를 막는 안전망 (lean vs load-bearing).
+
+### auto_recipe_creator 배치 (4회차)
+- **call it out** — 대놓고 짚다 / 짚고 넘어가다.
+- **measure first, then decide** — 일단 재보고 나서 판단하자.

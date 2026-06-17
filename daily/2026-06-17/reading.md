@@ -45,3 +45,48 @@
 **핵심 표현**
 - **through the same code path** — "같은 코드 경로를 거쳐". 테스트가 실제 동작과 *같은 길*을 타야 한다는 실무 표현.
 - **not truly ready until both pass** — "둘 다 통과해야 진짜 준비 완료". 완료 기준(definition of done)을 못 박는 문장.
+
+---
+
+## 단락 3 — 출처: repo:auto_recipe_creator grill-with-docs/SKILL.md ("Offer ADRs sparingly")
+
+> Only offer to create an ADR when all three are true:
+> 1. **Hard to reverse** — the cost of changing your mind later is meaningful
+> 2. **Surprising without context** — a future reader will wonder "why did they do it this way?"
+> 3. **The result of a real trade-off** — there were genuine alternatives and you picked one for specific reasons
+>
+> If any of the three is missing, skip the ADR.
+
+**문법·구조**
+- `Only offer ... when all three are true` — 문두 `Only` + `when` 조건절. "세 조건이 *모두* 참일 때**만**" 이라는 강한 제한. `Only` 를 앞에 빼서 "예외적으로만 하라"는 톤을 만든다.
+- 세 항목이 **명사구/형용사구 병렬**: `Hard to reverse` / `Surprising without context` / `The result of a real trade-off`. 주어·동사를 생략한 *헤드라인 문체* — 체크리스트에서 자주 보는 압축 형태.
+- `the cost of changing your mind later is meaningful` — 동명사구 주어(`changing your mind`)를 `the cost of ...` 가 감싼 명사구. "마음을 바꾸는 비용이 (무시 못 할 만큼) 크다"를 `meaningful` 한 단어로.
+- `a future reader will wonder "why ...?"` — 미래시제 `will` 로 *가상의 독자*를 세워 판단 기준을 의인화. 직접 인용부호로 그 독자의 속마음을 그대로 옮겼다.
+- `If any of the three is missing, skip the ADR` — `any ... is`(단수 일치) + 명령형 귀결. "하나라도 빠지면 → 하지 마라"는 단호한 if-then.
+
+**핵심 표현**
+- **hard to reverse** — "되돌리기 어려운". 의사결정의 *비가역성*을 한마디로. (앞서 본 `before an irreversible action` 과 짝)
+- **the result of a real trade-off** — "진짜 맞바꿈의 결과". 선택지가 실제로 있었고 무언가를 *포기하고* 골랐다는 뜻. `trade-off` 가 없으면 기록할 가치도 없다는 논리.
+
+**격식 짝**
+- refined(문어): *Only document a decision when reversing it would be costly, the rationale is non-obvious, and a genuine alternative was rejected.* (작성)
+- plain(회화): *Only write it down if it'd be a pain to undo, isn't obvious, and you actually gave something up to choose it.* (작성)
+
+## 단락 4 — 출처: repo:auto_recipe_creator grill-with-docs/SKILL.md ("During the session")
+
+> When the user uses a term that conflicts with the existing language in CONTEXT.md, call it out immediately. When the user uses vague or overloaded terms, propose a precise canonical term. When domain relationships are being discussed, stress-test them with specific scenarios. When the user states how something works, check whether the code agrees. If you find a contradiction, surface it.
+
+**문법·구조**
+- 네 문장이 모두 `When ... , [명령형]` 의 **같은 골격**으로 반복된다. 동일 구조를 일부러 되풀이해(parallelism) "상황 → 즉각 행동" 규칙집의 리듬을 만든다. 영어 지침서의 전형적 문체.
+- `terms that conflict with ...`, `how something works` — 관계절·간접의문문이 목적어 자리에 들어가 한 문장에 조건을 촘촘히 싣는다.
+- `When domain relationships are being discussed` — **현재진행 수동태**(`are being discussed`). 행위자(누가 논의하는지)를 지우고 "논의가 벌어지는 동안"이라는 *상황 자체*에 초점.
+- `check whether the code agrees` — `whether` 명사절. agree 의 주어를 `the code` 로 의인화해 "코드가 동의하느냐(= 코드와 들어맞느냐)"로.
+
+**핵심 표현**
+- **overloaded term** — "한 단어에 뜻이 여러 개 얹힌" 과적재 용어. 프로그래밍 `overload` 비유.
+- **propose a precise canonical term** — "정확한 표준 용어를 제안하다". `canonical` = 정본의·표준의.
+- **surface it** — "(모순을) 표면으로 끌어올려 드러내다". `call it out` 보다 한 단계 점잖은 동의어.
+
+**격식 짝**
+- refined(문어): *When a stated behaviour contradicts the implementation, surface the discrepancy at once.* (작성)
+- plain(회화): *If what they say doesn't match the code, just call it out right away.* (작성)
