@@ -1,12 +1,66 @@
 import json
 import os
+import time
 from datetime import date
 from pathlib import Path
 
 from pipeline import config, gitutil, transcripts, spool, batch
 
+DEFAULT_DOC_DIRS = ["doc", "docs", "shared_docs"]
+DEFAULT_DOC_EXTS = [".md", ".txt"]
+DEFAULT_RECENT_DAYS = 14
+# 문서 탐색 중 들어가지 않을 디렉터리(빌드 산출물·벤더·VCS 내부).
+PRUNE_DIRS = {"node_modules", ".git", ".venv", "venv", "__pycache__",
+              "dist", "build", ".next", ".nuxt", ".output", "done"}
+
 def _expand(p: str) -> Path:
     return Path(os.path.expanduser(p))
+
+def _iter_doc_roots(project: Path, doc_dirs: set[str]):
+    """project 아래를 훑으며 이름이 doc_dirs 인 디렉터리를 깊이 제한 없이 찾는다.
+    node_modules·.git·hidden 등은 들어가지 않는다(가지치기)."""
+    for dirpath, dirnames, _ in os.walk(project):
+        dirnames[:] = [d for d in dirnames
+                       if d not in PRUNE_DIRS and not d.startswith(".")]
+        for d in dirnames:
+            if d in doc_dirs:
+                yield Path(dirpath) / d
+
+def discover_doc_files(base: Path, cfg: dict, now: float | None = None) -> list[dict]:
+    """~/Codes 아래 각 프로젝트의 doc/docs/shared_docs 폴더에서, 최근
+    recent_days 안에 수정된 .md/.txt 파일을 최신순으로 모은다."""
+    now = time.time() if now is None else now
+    doc_dirs = set(cfg.get("doc_dirs", DEFAULT_DOC_DIRS))
+    exts = {e.lower() for e in cfg.get("doc_exts", DEFAULT_DOC_EXTS)}
+    cutoff = now - cfg.get("recent_days", DEFAULT_RECENT_DAYS) * 86400
+    exclude = set(cfg.get("exclude_projects", []))
+    if not base.exists():
+        return []
+
+    found: dict[Path, dict] = {}   # 절대경로 기준 dedup(중첩 doc 폴더 대비)
+    for project in sorted(p for p in base.iterdir() if p.is_dir()):
+        if project.name in exclude or project.name.startswith("."):
+            continue
+        for docroot in _iter_doc_roots(project, doc_dirs):
+            for dirpath, dirnames, filenames in os.walk(docroot):
+                dirnames[:] = [d for d in dirnames
+                               if d not in PRUNE_DIRS and not d.startswith(".")]
+                for name in filenames:
+                    f = Path(dirpath) / name
+                    if f.suffix.lower() not in exts:
+                        continue
+                    try:
+                        mt = f.stat().st_mtime
+                    except OSError:
+                        continue
+                    if mt < cutoff:
+                        continue
+                    ap = f.resolve()
+                    if ap in found:
+                        continue
+                    found[ap] = {"mtime": mt, "project": project.name,
+                                 "relpath": f.relative_to(project).as_posix(), "path": f}
+    return sorted(found.values(), key=lambda d: d["mtime"], reverse=True)
 
 def collect(root: Path | None = None, today: str | None = None) -> dict:
     root = Path(root) if root else config.root()
@@ -15,8 +69,6 @@ def collect(root: Path | None = None, today: str | None = None) -> dict:
     state = config.load_state(root / "state" / "progress.json")
 
     units: list[dict] = []
-    # repo 별 이번 실행에서 다룬 파일 집합과 head 를 기록 (배치 후 queue/전진 계산용)
-    repo_plan: dict[str, dict] = {}
 
     # 1) spool 노트(사용자가 직접 적은 학습 질문) — 최우선
     for note in spool.pending_notes(root):
@@ -25,28 +77,19 @@ def collect(root: Path | None = None, today: str | None = None) -> dict:
                       "provenance": f"spool:{rel}", "text": note.read_text(encoding="utf-8"),
                       "advance": {"note": rel}})
 
-    # 2) repo 별 증분 마크다운 — 파일 1개 = 단위 1개 (예산이 파일 단위로 작동).
-    #    부분 소비 시 남은 파일을 repo_queue 로 기억해 SHA 는 전부 소진된 뒤에만 전진한다.
+    # 2) 문서 폴더 — ~/Codes 전 프로젝트의 doc/docs/shared_docs 에서 최근 수정 파일을
+    #    매 실행마다 다시 훑는다(상태 추적 없이 윈도 기반). 파일 1개 = 단위 1개.
     base = _expand(cfg["base_path"])
-    for r in cfg["repos"]:
-        name = r["name"]
-        repo_path = base / name
-        if not repo_path.exists():
+    exclude = set(cfg.get("exclude_projects", []))
+    for project in sorted(p for p in base.iterdir() if p.is_dir()) if base.exists() else []:
+        if project.name in exclude or project.name.startswith("."):
             continue
-        gitutil.pull(repo_path)
-        head = gitutil.head_sha(repo_path)
-        # 진행 중인 queue 가 같은 head 를 가리키면 재-diff 없이 남은 파일만 이어서 소진한다.
-        q = state["repo_queue"].get(name)
-        if q and q.get("target") == head:
-            files = [f for f in q.get("remaining", []) if (repo_path / f).exists()]
-        else:
-            files = gitutil.changed_md_files(repo_path, state["repos"].get(name), r["globs"])
-        repo_plan[name] = {"head": head, "files": list(files)}
-        for f in files:
-            units.append({"kind": "repo_file", "id": f"{name}/{f}",
-                          "provenance": f"repo:{name} {f}",
-                          "text": (repo_path / f).read_text(encoding="utf-8", errors="replace"),
-                          "advance": {"repo": name, "file": f}})
+        if (project / ".git").exists():
+            gitutil.pull(project)   # 최신 docs 반영(베스트에포트, 충돌 시 조용히 건너뜀)
+    for d in discover_doc_files(base, cfg):
+        units.append({"kind": "doc", "id": f"{d['project']}/{d['relpath']}",
+                      "provenance": f"repo:{d['project']} {d['relpath']}",
+                      "text": d["path"].read_text(encoding="utf-8", errors="replace")})
 
     # 3) 트랜스크립트 — 파일 1개 = 단위 1개
     tx_dir = _expand(cfg["transcripts_dir"])
@@ -62,27 +105,15 @@ def collect(root: Path | None = None, today: str | None = None) -> dict:
     # 예산 내 조립
     batch_text, consumed = batch.build_batch(units, cfg.get("char_budget", 200000), today)
 
-    # 매니페스트(소비 단위만 상태 전진 대상)
+    # 매니페스트(소비 단위만 상태 전진 대상). 문서는 윈도 기반이라 상태를 전진시키지 않는다.
     manifest = {"repos": {}, "repo_queue": {}, "transcripts": {}, "spool": [],
                 "deferred": len(units) - len(consumed)}
-    consumed_repo_files: dict[str, set[str]] = {}
     for u in consumed:
-        adv = u["advance"]
-        if u["kind"] == "repo_file":
-            consumed_repo_files.setdefault(adv["repo"], set()).add(adv["file"])
-        elif u["kind"] == "transcript":
+        adv = u.get("advance")
+        if u["kind"] == "transcript":
             manifest["transcripts"][adv["transcript"]] = adv["offset"]
         elif u["kind"] == "spool":
             manifest["spool"].append(adv["note"])
-
-    # repo 별 소진 여부 판정: 전부 소비됐으면 SHA 전진, 일부면 남은 파일을 queue 로.
-    for name, plan in repo_plan.items():
-        done = consumed_repo_files.get(name, set())
-        remaining = [f for f in plan["files"] if f not in done]
-        if remaining:
-            manifest["repo_queue"][name] = {"target": plan["head"], "remaining": remaining}
-        else:
-            manifest["repos"][name] = plan["head"]
 
     (root / "state").mkdir(parents=True, exist_ok=True)
     batch_path = root / "state" / f"batch-{today}.md"

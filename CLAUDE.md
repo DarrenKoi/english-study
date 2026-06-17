@@ -1,10 +1,14 @@
 # english-study — 자동 영어 학습 파이프라인
 
-매일 밤 23:00 Mac launchd 가 `scripts/run.sh` → `python3 -m pipeline.run` 을 실행한다.
+매일 00:01 Mac launchd 가 `scripts/run.sh` → `python3 -m pipeline.run` 을 실행한다.
 
 ## 흐름
-1. `collect` — `spool/` 노트(최우선) + git 공유 docs + Mac 트랜스크립트에서 새 영어를
-   토큰 예산 안에서 `state/batch-<날짜>.md` 로 모은다. 소비분은 `state/consumed-<날짜>.json` 에 기록.
+1. `collect` — `spool/` 노트(최우선) + `~/Codes` 전 프로젝트의 문서 폴더 + Mac 트랜스크립트에서
+   영어를 토큰 예산 안에서 `state/batch-<날짜>.md` 로 모은다. 소비분은 `state/consumed-<날짜>.json` 에 기록.
+   - 문서 폴더: 각 프로젝트 아래 깊이 무관하게 `doc`/`docs`/`shared_docs` 폴더를 찾아(설정 `doc_dirs`),
+     그 안의 `.md`/`.txt`(`doc_exts`) 중 **최근 `recent_days`(기본 7일) 안에 수정된** 파일만, 최신순으로.
+     `node_modules`·hidden·빌드 산출물은 건너뛰고, `exclude_projects`(기본 `english-study`)는 제외.
+     상태 추적 없이 매 실행마다 다시 훑으므로, 예산에 밀린 파일은 다음 실행에서 자연히 재시도된다.
 2. `claude -p` — `prompts/process.md` 지침대로 추출·분류·코칭하여 `daily/`·`notes/` 에 쓴다.
 3. `finalize` — 소비한 만큼만 `state/progress.json` 을 전진시키고, 처리한 spool 노트를
    `spool/done/<날짜>-<이름>` 으로 아카이브하고, commit & push.
