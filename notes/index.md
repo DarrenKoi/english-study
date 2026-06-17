@@ -8,6 +8,7 @@
 - [anchor on (the first plausible idea)](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [as decisions crystallise](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [As-Is / To-Be](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [at a glance](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [backstop](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [be opinionated](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [before an irreversible action](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -18,8 +19,10 @@
 - [call it out / surface it](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [carry lock-in](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [conservative default](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [converged (the design)](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [create X lazily — only when needed](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [deep module / shallow module](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [degrade gracefully](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [document what it actually returns, not what feels canonical](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [don't batch these up](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [don't couple X to Y](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -29,12 +32,17 @@
 - [first-class](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [hot path](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [human-readable](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [If the wiki adds work for the user, it has failed](daily/2026-06-18/new-expressions.md) — 2026-06-18
+- [kill switch](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [last resort](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [load-bearing (vs a lean safety net)](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [made structurally impossible / safe by construction](daily/2026-06-18/new-expressions.md) — 2026-06-18
+- [masquerade as](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [measure first, fix second](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [must implement these contracts identically](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [never refactor while RED; get to GREEN first](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [offer (something) sparingly](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [opt-in, default-OFF](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [outrun your headlights](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [overfit / rank-deficient](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [pin down](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -42,14 +50,21 @@
 - [re-litigate (a decision)](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [reads like a specification](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [safety net](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [shadow mode](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [sharpen fuzzy language](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [silently drift](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [single source of truth](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [sit behind (an interface)](daily/2026-06-18/new-expressions.md) — 2026-06-18
+- [stop earning its keep](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [stress-test (a plan / a design)](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [surfaced, never silently reconciled](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [that's a vibe](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [the bridge between X and Y](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [the explicit no's are as valuable as the yes's](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [the interface is the test surface](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [the system's own case law](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [tracer bullet (vertical slice)](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [train/serve skew](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [why on earth …?](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [worst-case](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [would take a quarter to swap out](daily/2026-06-17/new-expressions.md) — 2026-06-17

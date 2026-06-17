@@ -33,3 +33,21 @@
 - **don't couple X to Y** — 두 관심사를 서로 얽매지 마라 (loose coupling).
 - **pin down (a faint box)** — 흐릿한 것을 정확히 짚어내다.
 - **benchmark against (real data)** — 실데이터를 기준으로 성능을 재다.
+
+## 2026-06-18 — wiki_for_office 아키텍처 + ML 설계 spec 배치
+- **degrade gracefully / graceful degradation** — 의존 서비스가 없어도 죽지 않고 품질만 낮춰 계속 동작.
+  - 예: When the glossary service is unreachable, retrieval degrades gracefully — it just skips acronym expansion instead of failing the whole query.
+- **safe by construction** — 검사가 아니라 구성 방식 자체로 안전(≈ made structurally impossible).
+  - 예: The two-repo split is safe by construction: there is simply no public remote for the content to leak through.
+- **silently drift** — 기준에서 소리 없이(경고 없이) 어긋나다 / 표류하다.
+  - 예: A fact pinned to a regenerable extract can silently drift while still looking properly cited.
+- **opt-in, default-OFF** — 직접 켜야 동작하고 기본값은 꺼짐 (안전 기본값).
+  - 예: Auto-capture is an opt-in, default-OFF per-user toggle, so nothing is recorded unless the user turns it on.
+- **shadow mode** — 결정에 반영하지 않고 점수/결과만 기록하며 검증하는 출시 단계.
+  - 예: We'll ship the scorer in shadow mode first — it logs a score on every match but doesn't change the ranking.
+- **kill switch** — 문제 시 즉시 비활성화하는 비상 플래그 (보통 로드 실패 시 자동 폴백과 짝).
+  - 예: The metric scorer is flag-gated with a kill switch: if the model fails to load, it falls back to the old reranker and logs a warning.
+- **sit behind (an interface)** — 구현이 우리가 소유한 인터페이스 뒤에 가려져 교체·테스트 가능.
+  - 예: Company services sit behind wiki-owned interfaces, each with a real and a fake implementation, so the core stays testable off the company network.
+- **train/serve skew** — 학습 때와 추론 때 입력 처리가 달라 생기는 성능 괴리.
+  - 예: We extract candidate patches with the same function at train and serve time to keep train/serve skew to a minimum.

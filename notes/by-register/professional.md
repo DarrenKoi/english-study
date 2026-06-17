@@ -35,3 +35,19 @@
 - **don't batch these up — capture them as they happen** — 모아뒀다 말고 생기는 즉시 기록하라.
 - **offer (something) sparingly** — 아껴서·드물게만 하라 (반대: liberally).
 - **as decisions crystallise** — 결정이 또렷이 굳어가는 대로 (문어).
+
+## 2026-06-18 — wiki_for_office 아키텍처/ADR 배치
+- **If X, it has failed.** — 목표를 *반대 상황으로* 정의하는 단정형(조건절+현재완료).
+  - 예: If the migration makes the on-call engineer's job harder, it has failed, no matter how elegant the internals are.
+- **made structurally impossible** — 검사가 아니라 *구조 자체가* 불가능하게 만들다 (≈ safe by construction).
+  - 예: Keeping content in a separate repo with no public remote makes a leak structurally impossible, not just unlikely.
+- **surfaced, never silently reconciled** — 충돌을 숨겨 봉합하지 말고 *드러내다*.
+  - 예: Conflicting facts are surfaced for the human to judge, never silently reconciled into one tidy answer.
+- **masquerade as** — ~인 척 위장하다 / ~으로 둔갑하다 (버그가 정상처럼 보일 때).
+  - 예: Reading a renamed page by path could fetch the wrong file — a bug that would masquerade as "insufficient evidence".
+- **the system's own case law** — 자기 실수에서 쌓은 누적 규칙을 *판례*에 빗댄 비유.
+  - 예: Each approved constraint becomes part of the system's own case law — a rule learned from a past mistake and applied automatically thereafter.
+- **(the design) converged** — 반복 검토 끝에 더 다툴 게 없는 안정점에 *수렴*하다.
+  - 예: After three rounds of adversarial review, the design converged where further scrutiny would need real implementation code to verify.
+- **stop earning its keep** — (규칙·모듈이) 더는 제 값어치를 못 하다 → 폐기 판단의 근거.
+  - 예: A constraint moves to "retired" when it stops earning its keep — when the failure it guarded against can no longer occur.

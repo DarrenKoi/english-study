@@ -23,3 +23,11 @@
 ### auto_recipe_creator 배치 (4회차)
 - **call it out** — 대놓고 짚다 / 짚고 넘어가다.
 - **measure first, then decide** — 일단 재보고 나서 판단하자.
+
+## 2026-06-18 — wiki_for_office 배치
+- **at a glance** — 한눈에 / 척 보면 (요약·개요를 가리킬 때).
+  - 예: The dashboard shows, at a glance, which services are degraded and which are healthy.
+- **drop in (a file)** — (격식 없이) 툭 던져 넣다 (저마찰 입력 묘사).
+  - 예: Just drop in a screenshot and the system takes care of the rest.
+- **paper over it** — (문제를) 대충 덮다 (= 격식: silently reconcile; "flag it, don't paper over it").
+  - 예: If two specs conflict, flag it — don't paper over it and hope nobody notices.
