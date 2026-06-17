@@ -13,3 +13,9 @@
 - **be opinionated** — 미적대지 말고 소신 있게 정하라.
 - **call it out / surface it** — 문제·모순을 짚어 말하다 / 드러내다.
 - **last resort** — 최후의 수단.
+
+### auto_recipe_creator 배치 (추가 발굴)
+- **outrun your headlights** — 이해도 전에 분수에 넘게 앞서 나가다.
+- **earning its keep** — 제 밥값을 하다 / 존재 가치를 증명하다.
+- **a strong read, not a menu** — 선택지 나열 말고 소신 있는 견해를 강하게.
+- **safety net** — 실패해도 큰 사고를 막는 안전망 (lean vs load-bearing).

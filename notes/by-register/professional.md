@@ -18,3 +18,13 @@
 - **measure first, fix second** — 추측으로 손대기 전에 먼저 재라.
 - **As-Is / To-Be** — 현재 모습 / 목표 모습 (기획 보고서 단골).
 - **load-bearing** — 빠지면 전체가 무너지는 핵심 요소.
+
+### auto_recipe_creator 배치 (추가 발굴)
+- **earning its keep** — (모듈·코드가) 제 값어치를 하다.
+- **a strong read, not a menu** — 메뉴 나열 말고 소신 있는 추천 하나.
+- **re-litigate (a decision)** — 끝난 결정을 다시 끄집어내 따지다.
+- **would take a quarter to swap out** — 갈아치우는 데 한 분기는 걸릴 만큼 무거운.
+- **the explicit no's are as valuable as the yes's** — "안 한다"는 결정도 그만큼 값지다.
+- **reads like a specification** — (테스트·코드가) 명세서처럼 읽힌다.
+- **backstop** — 모든 게 실패해도 받쳐주는 최후방 안전장치.
+- **before an irreversible action** — 되돌릴 수 없는 작업을 하기 전에 (확인 게이트).

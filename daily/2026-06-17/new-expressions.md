@@ -191,3 +191,123 @@
 - 한국어: 최후의 수단.
 - 설명: 다른 방법이 다 안 될 때만 쓰는 마지막 카드. 원문에서 사람-개입 루프를 "Last resort" 로 표기. 종종 `as a last resort`.
 - 예문: Restarting the server is a last resort, not a fix.
+
+---
+
+# 새 표현 (3차 발굴) — `repo:auto_recipe_creator`
+
+> 같은 배치를 다시 훑어 1·2차에서 빠진 표현만 새로 골랐습니다. 스킬 문서(tdd, diagnose,
+> improve-codebase-architecture)의 영어가 워낙 알차서 관용구·설계 어휘가 더 나왔어요.
+> 이미 notes 에 있는 표현(stress-test, be opinionated 등)은 건너뛰었습니다.
+
+## "outrun your headlights"
+- 레지스터: conversational, casual
+- 출처: repo:skills/tdd/SKILL
+- 한국어: 자기 헤드라이트보다 앞서 달리다 → (앞이 안 보이는데) 분수에 넘게 앞서 나가다.
+- 설명: 밤 운전에서 전조등이 비추는 범위보다 빨리 달리면 위험하다는 비유. "아직 이해도 못 한 일을 미리 다 정해버리는" 성급함을 꼬집을 때. 원문: "You outrun your headlights, committing to test structure before understanding the implementation."
+- 예문: Writing all the tests up front means you outrun your headlights — you commit before you understand the code.
+
+## "earning its keep"
+- 레지스터: conversational, professional
+- 출처: repo:skills/improve-codebase-architecture/LANGUAGE (deletion test)
+- 한국어: 제 밥값을 하다 / 존재 가치를 증명하다.
+- 설명: `keep` = 먹여 살리는 비용. 어떤 모듈/코드가 그 자리를 차지할 만큼 값어치를 하는지 물을 때. 원문: "If complexity reappears across N callers, the module was earning its keep."
+- 예문: Delete it in your head — if the complexity scatters across callers, the module was earning its keep.
+
+## "a strong read, not a menu"
+- 레지스터: professional, conversational
+- 출처: repo:skills/improve-codebase-architecture/INTERFACE-DESIGN
+- 한국어: (선택지 나열이 아니라) 분명한 소신 있는 견해를 내라.
+- 설명: `a read` = 상황에 대한 판단/해석. `a menu` = 골라 먹으라는 식의 선택지 나열. 추천을 요청받았을 때 "이것저것 늘어놓지 말고 강하게 하나를 밀어라"는 뜻. `be opinionated` 와 짝.
+- 예문: When they ask which design wins, give a strong read, not a menu.
+
+## "re-litigate (a decision)"
+- 레지스터: professional
+- 출처: repo:skills/improve-codebase-architecture/SKILL
+- 한국어: (이미 끝난 결정을) 다시 끄집어내 따지다 / 재론하다.
+- 설명: 법정의 litigate(소송하다)에서 온 비유. 합의된 결정을 자꾸 처음부터 다시 논쟁하는 것을 막을 때. 원문: "ADRs record decisions the skill should not re-litigate."
+- 예문: The ADR exists so we don't re-litigate this every quarter.
+
+## "would take a quarter to swap out"
+- 레지스터: professional
+- 출처: repo:skills/grill-with-docs/ADR-FORMAT
+- 한국어: 갈아치우는 데 한 분기(3개월)는 걸릴 (만큼 무거운).
+- 설명: 비즈니스 영어에서 `a quarter` = 회계 분기. `swap out` = 통째로 교체하다. 교체 비용이 큰 핵심 기술을 가리킬 때. 원문: "just the ones that would take a quarter to swap out."
+- 예문: We only ADR the choices that would take a quarter to swap out — not every library.
+
+## "the explicit no's are as valuable as the yes's"
+- 레지스터: professional
+- 출처: repo:skills/grill-with-docs/ADR-FORMAT
+- 한국어: "안 한다"는 명시적 결정도 "한다"만큼 값지다.
+- 설명: 무엇을 안 하기로 했는지(scope 밖)를 기록하는 게 중요하다는 설계 격언. 범위/경계 결정을 정당화할 때.
+- 예문: Document the boundaries — the explicit no's are as valuable as the yes's.
+
+## "deep module / shallow module"
+- 레지스터: technical
+- 출처: repo:skills/tdd/deep-modules
+- 한국어: 깊은 모듈(작은 인터페이스 + 큰 구현) / 얕은 모듈(큰 인터페이스 + 빈약한 구현).
+- 설명: Ousterhout 'A Philosophy of Software Design' 용어. **deep** = 적게 노출하고 많이 숨김(좋음), **shallow** = 거의 통과만 하는 껍데기(피함). 설계 리뷰 단골.
+- 예문: Hide the complexity behind a small interface — make it a deep module.
+
+## "the interface is the test surface"
+- 레지스터: technical
+- 출처: repo:skills/improve-codebase-architecture/LANGUAGE
+- 한국어: 인터페이스가 곧 테스트 면(테스트가 닿는 지점)이다.
+- 설명: 내부 구현이 아니라 공개 인터페이스를 통해 테스트하라는 원칙. `test surface` = 테스트가 맞닿는 표면. 원문: "If you want to test past the interface, the module is the wrong shape."
+- 예문: Test through the public API — the interface is the test surface.
+
+## "tracer bullet (vertical slice)"
+- 레지스터: technical
+- 출처: repo:skills/tdd/SKILL
+- 한국어: 예광탄 = 끝에서 끝까지 관통하는 가장 얇은 한 줄기 구현.
+- 설명: 군사 예광탄처럼 "경로가 뚫리는지"를 먼저 한 방으로 확인하는 얇은 수직 슬라이스. 반대는 `horizontal slice`(테스트만 잔뜩, 구현은 나중). 원문: "Vertical slices via tracer bullets. One test → one implementation → repeat."
+- 예문: Build a tracer bullet first — one test, one impl, prove the path end-to-end.
+
+## "never refactor while RED; get to GREEN first"
+- 레지스터: technical
+- 출처: repo:skills/tdd/SKILL
+- 한국어: 테스트가 빨간불(실패)인 동안엔 리팩터링하지 마라 — 먼저 초록불(통과)을 만들어라.
+- 설명: TDD red-green-refactor 규율. 실패 상태에서 구조를 바꾸면 무엇이 깨졌는지 분간 못 하므로 "통과부터, 정리는 나중".
+- 예문: Don't clean it up yet — never refactor while RED, get to GREEN first.
+
+## "reads like a specification"
+- 레지스터: professional, technical
+- 출처: repo:skills/tdd/SKILL
+- 한국어: (명세서처럼) 읽힌다 / 읽으면 그대로 사양이 된다.
+- 설명: 좋은 테스트/코드가 "무엇을 하는가"를 그 자체로 설명한다는 칭찬. `X reads like Y` = X가 Y처럼 읽힌다(문장 구조에 주목). 원문: "A good test reads like a specification."
+- 예문: Name the test for the behavior so it reads like a specification.
+
+## "progressive disclosure"
+- 레지스터: technical, professional
+- 출처: repo:skills/write-a-skill/SKILL
+- 한국어: 점진적 공개 — 필요한 만큼만 먼저 보여주고 상세는 뒤로 미루는 설계.
+- 설명: UX/문서 설계 용어. 처음엔 핵심만, 깊은 내용은 링크/하위 파일로 단계적으로 드러냄. 정보 과부하 방지.
+- 예문: Keep SKILL.md short and link the details — that's progressive disclosure.
+
+## "hot path"
+- 레지스터: technical
+- 출처: repo:auto_recipe_creator CLAUDE.md
+- 한국어: 핫 패스 = 가장 자주/성능에 민감하게 실행되는 핵심 실행 경로.
+- 설명: 루프에서 매번 도는 성능 결정 구간. "NOT in the loop hot path" = 그 무거운 처리는 핵심 경로 밖이라 성능에 안 걸린다는 뜻.
+- 예문: Keep logging off the hot path; do it asynchronously.
+
+## "backstop"
+- 레지스터: professional, technical
+- 출처: repo:auto_recipe_creator CLAUDE.md ("popup backstop")
+- 한국어: 최후방 방어선 / 받쳐주는 안전장치.
+- 설명: 야구 포수 뒤 그물(backstop)에서 온 말. 앞의 모든 처리가 실패해도 마지막에 받아주는 보장 장치. 원문: cleanup이 step이 아니라 try/finally로 "guaranteed by a popup backstop".
+- 예문: The try/finally is a backstop — even if a step throws, the tool still closes.
+
+## "safety net"
+- 레지스터: conversational, professional
+- 출처: repo:journals/260603 handoff (안전망)
+- 한국어: 안전망.
+- 설명: 곡예사 아래 그물. 실패해도 큰 사고를 막아주는 대비책. 원문은 "tail safety net (lean)" vs "load-bearing(정식 구축)" 으로 규모를 대비 — 드물게만 필요하면 가벼운 안전망, 자주 필요하면 핵심 구조.
+- 예문: Keep the VLM fallback as a lean safety net, not the main path.
+
+## "before an irreversible action"
+- 레지스터: professional, technical
+- 출처: repo:project_plan/chatbot_collaboration_strategy (비가역 작업 전 확인 게이트)
+- 한국어: 되돌릴 수 없는 작업을 하기 전에.
+- 설명: `irreversible` = 비가역의. 저장/실행처럼 무를 수 없는 동작 앞에 사람 확인(human-in-the-loop checkpoint)을 두는 설계 원칙을 말할 때.
+- 예문: Require explicit approval before an irreversible action like saving the recipe.

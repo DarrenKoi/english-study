@@ -19,3 +19,11 @@
 - **fail-safe** — 불확실하면 안전한 거부로 떨어지는 설계.
 - **create X lazily — only when needed** — 최초 필요 시점까지 생성을 미루다.
 - **measure first, fix second** — (성능) 측정이 먼저, 수정은 그 다음.
+
+### auto_recipe_creator 배치 (추가 발굴)
+- **deep module / shallow module** — 작은 인터페이스+큰 구현(깊음) vs 껍데기(얕음).
+- **the interface is the test surface** — 공개 인터페이스를 통해 테스트하라.
+- **tracer bullet (vertical slice)** — 끝에서 끝까지 관통하는 가장 얇은 한 줄기 구현.
+- **never refactor while RED; get to GREEN first** — 실패 중엔 리팩터 금지, 통과부터.
+- **progressive disclosure** — 핵심만 먼저, 상세는 단계적으로 드러내는 설계.
+- **hot path** — 가장 자주/성능에 민감하게 도는 핵심 실행 경로.

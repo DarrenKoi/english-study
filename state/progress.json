@@ -4,7 +4,7 @@
   },
   "repo_queue": {
     "auto_recipe_creator": {
-      "target": "5cd4e2a69d43561dc02dca7263bcc2c94ee0b1d9",
+      "target": "12591581ed2587921fb6617696e6efcd9de6efd5",
       "remaining": [
         "docs/search_align_key.md",
         "docs/setup_vlms/01-runtime-layout-and-capacity.md",
