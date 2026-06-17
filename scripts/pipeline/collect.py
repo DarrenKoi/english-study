@@ -1,3 +1,4 @@
+import hashlib
 import json
 import os
 import time
@@ -15,6 +16,21 @@ PRUNE_DIRS = {"node_modules", ".git", ".venv", "venv", "__pycache__",
 
 def _expand(p: str) -> Path:
     return Path(os.path.expanduser(p))
+
+def _doc_key(project: str, relpath: str, text: str) -> str:
+    """문서의 동일성 키: 경로 + 내용 해시. 내용이 바뀌면 키가 달라져 재수집된다."""
+    h = hashlib.sha256(text.encode("utf-8")).hexdigest()[:12]
+    return f"{project}/{relpath}:{h}"
+
+def _load_today_doc_keys(root: Path, today: str) -> list[str]:
+    """오늘 이미 배치에 들어간 문서 키 목록(같은 날 재실행 중복 방지용)."""
+    p = root / "state" / f"consumed-{today}.json"
+    if not p.exists():
+        return []
+    try:
+        return json.loads(p.read_text(encoding="utf-8")).get("docs", [])
+    except (json.JSONDecodeError, OSError):
+        return []
 
 def _iter_doc_roots(project: Path, doc_dirs: set[str]):
     """project 아래를 훑으며 이름이 doc_dirs 인 디렉터리를 깊이 제한 없이 찾는다.
@@ -79,6 +95,10 @@ def collect(root: Path | None = None, today: str | None = None) -> dict:
 
     # 2) 문서 폴더 — ~/Codes 전 프로젝트의 doc/docs/shared_docs 에서 최근 수정 파일을
     #    매 실행마다 다시 훑는다(상태 추적 없이 윈도 기반). 파일 1개 = 단위 1개.
+    #    같은 날 재실행 시 중복을 막으려고, 오늘 이미 수집한 문서(경로+내용해시)는 건너뛴다.
+    #    원장(ledger)은 consumed-<날짜>.json 안에 있어 자정마다(날짜가 바뀌면) 리셋된다.
+    already = set(_load_today_doc_keys(root, today))
+    collected_keys = set(already)
     base = _expand(cfg["base_path"])
     exclude = set(cfg.get("exclude_projects", []))
     for project in sorted(p for p in base.iterdir() if p.is_dir()) if base.exists() else []:
@@ -87,9 +107,13 @@ def collect(root: Path | None = None, today: str | None = None) -> dict:
         if (project / ".git").exists():
             gitutil.pull(project)   # 최신 docs 반영(베스트에포트, 충돌 시 조용히 건너뜀)
     for d in discover_doc_files(base, cfg):
+        text = d["path"].read_text(encoding="utf-8", errors="replace")
+        key = _doc_key(d["project"], d["relpath"], text)
+        if key in already:
+            continue
         units.append({"kind": "doc", "id": f"{d['project']}/{d['relpath']}",
                       "provenance": f"repo:{d['project']} {d['relpath']}",
-                      "text": d["path"].read_text(encoding="utf-8", errors="replace")})
+                      "text": text, "advance": {"doc_key": key}})
 
     # 3) 트랜스크립트 — 파일 1개 = 단위 1개
     tx_dir = _expand(cfg["transcripts_dir"])
@@ -105,7 +129,8 @@ def collect(root: Path | None = None, today: str | None = None) -> dict:
     # 예산 내 조립
     batch_text, consumed = batch.build_batch(units, cfg.get("char_budget", 200000), today)
 
-    # 매니페스트(소비 단위만 상태 전진 대상). 문서는 윈도 기반이라 상태를 전진시키지 않는다.
+    # 매니페스트(소비 단위만 상태 전진 대상). 문서는 윈도 기반이라 progress 를 전진시키지 않지만,
+    # 같은 날 중복 방지를 위해 배치에 들어간 문서 키를 오늘 원장에 누적 기록한다.
     manifest = {"repos": {}, "repo_queue": {}, "transcripts": {}, "spool": [],
                 "deferred": len(units) - len(consumed)}
     for u in consumed:
@@ -114,6 +139,9 @@ def collect(root: Path | None = None, today: str | None = None) -> dict:
             manifest["transcripts"][adv["transcript"]] = adv["offset"]
         elif u["kind"] == "spool":
             manifest["spool"].append(adv["note"])
+        elif u["kind"] == "doc":
+            collected_keys.add(adv["doc_key"])   # 예산에 밀려 빠진 문서는 기록 안 함 → 같은 날 재실행에서 이어 처리
+    manifest["docs"] = sorted(collected_keys)
 
     (root / "state").mkdir(parents=True, exist_ok=True)
     batch_path = root / "state" / f"batch-{today}.md"

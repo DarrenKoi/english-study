@@ -115,3 +115,50 @@ def test_spool_notes_take_priority(tmp_path, monkeypatch):
 
     assert m["spool"] == ["spool/q.md"]
     assert result["item_count"] == 2   # spool 노트 + 문서 1개
+
+
+def test_same_day_rerun_skips_already_collected_docs(tmp_path, monkeypatch):
+    # 같은 날 두 번째 실행은 이미 수집한 문서를 다시 넣지 않는다(중복 방지).
+    root, codes = tmp_path / "study", tmp_path / "codes"
+    _sources(root, codes)
+    _no_transcripts(monkeypatch)
+    _no_git(monkeypatch)
+    _write(codes / "proj" / "docs" / "a.md", "First doc body.")
+    _write(codes / "proj" / "docs" / "b.md", "Second doc body.")
+
+    first = collect.collect(root=root, today="2026-06-18")
+    assert first["item_count"] == 2
+
+    second = collect.collect(root=root, today="2026-06-18")
+    assert second["item_count"] == 0          # 이미 처리한 문서 → 재수집 안 함
+    assert "First doc body." not in _batch(root)
+
+
+def test_same_day_rerun_picks_up_edited_doc(tmp_path, monkeypatch):
+    # 내용이 바뀐 문서는 같은 날이라도 다시 수집한다(해시가 달라지므로).
+    root, codes = tmp_path / "study", tmp_path / "codes"
+    _sources(root, codes)
+    _no_transcripts(monkeypatch)
+    _no_git(monkeypatch)
+    doc = codes / "proj" / "docs" / "a.md"
+    _write(doc, "Original body.")
+
+    collect.collect(root=root, today="2026-06-18")
+    _write(doc, "Edited body, now different.")     # 같은 날 수정
+    again = collect.collect(root=root, today="2026-06-18")
+
+    assert again["item_count"] == 1
+    assert "Edited body, now different." in _batch(root)
+
+
+def test_new_day_refeeds_window(tmp_path, monkeypatch):
+    # 날짜가 바뀌면 윈도 전체를 다시 훑는다(같은 문서라도 재수집).
+    root, codes = tmp_path / "study", tmp_path / "codes"
+    _sources(root, codes)
+    _no_transcripts(monkeypatch)
+    _no_git(monkeypatch)
+    _write(codes / "proj" / "docs" / "a.md", "Body.")
+
+    collect.collect(root=root, today="2026-06-18")
+    next_day = collect.collect(root=root, today="2026-06-19")
+    assert next_day["item_count"] == 1            # 새 날 → 다시 수집
