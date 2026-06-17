@@ -1,0 +1,13 @@
+# Technical register
+
+엔지니어링·통계·API 맥락의 전문 용어와 표현.
+
+## 2026-06-17
+- **single source of truth** — 단일 진실 공급원(SSOT). [→ daily](../../daily/2026-06-17/new-expressions.md)
+- **a row count separate from the row payload** — 데이터(payload) 와 별도의 행 개수(총계).
+- **first-class** — 일급 객체 / 정식 지원 대상.
+- **worst-case** — 최악값 기준.
+- **overfit / rank-deficient** — 과적합 / 행렬 계수 부족.
+- **borrow strength** — 유사 그룹의 정보를 빌려 추정을 안정화.
+- **human-readable** — 사람이 읽을 수 있는 (vs machine-readable).
+- **must implement these contracts identically** — 계약을 동일하게 구현.
