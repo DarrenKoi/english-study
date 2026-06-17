@@ -93,3 +93,101 @@
 - 한국어: 나중에 *주는* 게 *뺏는* 것보다 쉽다.
 - 설명: 권한·기능 설계의 격언. 비가역적 결정을 정당화할 때 쓰기 좋은 대비 구문 (`easier to A than to B`).
 - 예문: Lock it down first — it's easier to grant access later than to take it away.
+
+---
+
+# 2차 배치 — `repo:auto_recipe_creator` (docs · skills · journals)
+
+> 같은 날 두 번째 배치. 스킬 문서(diagnose/grill-with-docs 등)와 저널·연간 로드맵에서
+> 다른 글에도 통하는 자연스러운 영어 위주로 골랐습니다. 프로젝트 고유어(crosshair, recipe, RCS 등)는 제외.
+
+## "anchor on (the first plausible idea)"
+- 레지스터: professional, technical
+- 출처: repo:skills/diagnose/SKILL
+- 한국어: (처음 떠오른 그럴듯한 생각에) 고착되다 / 닻을 내리다.
+- 설명: 인지 편향 용어 "anchoring" 의 동사형. 첫 가설에 매여 더 나은 설명을 못 보는 상태를 경고할 때. 원문: "Single-hypothesis generation anchors on the first plausible idea."
+- 예문: Don't anchor on the first explanation — list three before you test any.
+
+## "that's a vibe" / "the hypothesis is a vibe"
+- 레지스터: casual, technical
+- 출처: repo:skills/diagnose/SKILL
+- 한국어: (근거 없는) 그냥 느낌·분위기일 뿐이다.
+- 설명: 최근 영어권 엔지니어 구어. 검증 가능한 근거가 없는 주장을 가볍게 깎아내릴 때. 원문: "If you cannot state the prediction, the hypothesis is a vibe — discard or sharpen it."
+- 예문: "It feels slow" isn't a measurement, that's just a vibe.
+
+## "stress-test (a plan / a design)"
+- 레지스터: professional
+- 출처: repo:skills/grill-with-docs/SKILL
+- 한국어: (계획·설계를) 압박해 시험하다, 한계까지 몰아붙여 검증하다.
+- 설명: 원래 금융·공학의 "stress test" 가 일반화된 표현. 아이디어를 일부러 까다로운 시나리오로 두드려 약점을 찾는다는 뜻.
+- 예문: Let's stress-test this design with a few edge-case scenarios before we commit.
+
+## "call it out" / "surface it"
+- 레지스터: professional, conversational
+- 출처: repo:skills/grill-with-docs/SKILL
+- 한국어: (문제·모순을) 짚어 말하다 / 겉으로 드러내다.
+- 설명: `call out` = 문제를 콕 집어 지적하다, `surface` = 묻혀 있던 것을 수면 위로 올리다(동사). 리뷰·회의에서 매우 자주 씀. 원문: "If you find a contradiction, surface it."
+- 예문: If the spec and the code disagree, call it out instead of guessing.
+
+## "why on earth …?"
+- 레지스터: casual
+- 출처: repo:skills/grill-with-docs/ADR-FORMAT
+- 한국어: 도대체 왜 …?
+- 설명: 의문문 강조 삽입구 `on earth` (= in the world). 황당함·강한 의문을 담아 "대체 왜"를 표현. 원문: "a future reader will wonder 'why on earth did they do it this way?'"
+- 예문: Why on earth is this function called twice on every render?
+
+## "be opinionated"
+- 레지스터: professional, conversational
+- 출처: repo:skills/grill-with-docs/CONTEXT-FORMAT
+- 한국어: 소신 있게 (하나로) 정하라 / 입장을 분명히 하라.
+- 설명: 칭찬·지침으로 쓰이는 긍정적 형용사. 여러 선택지를 미적대지 말고 "이게 정답"이라 못 박는 태도. 원문: "Be opinionated. When multiple words exist for the same concept, pick the best one."
+- 예문: A good style guide is opinionated — it picks one way and sticks to it.
+
+## "carry lock-in"
+- 레지스터: technical
+- 출처: repo:skills/grill-with-docs/ADR-FORMAT
+- 한국어: (기술 선택이) 종속(락인)을 수반하다.
+- 설명: `lock-in` = 한번 도입하면 갈아타기 어려운 종속. `carry` 와 묶여 "그 결정이 락인을 동반한다"는 뜻. 원문: "Technology choices that carry lock-in."
+- 예문: Picking a managed database carries real lock-in — migrating later is a quarter of work.
+
+## "load-bearing" (vs. a lean / tail safety net)
+- 레지스터: technical, professional
+- 출처: repo:journals/260603 handoff (VLM 백업 sizing)
+- 한국어: (구조를) 떠받치는 핵심의 / 없으면 무너지는.
+- 설명: 건축의 "내력벽(load-bearing wall)" 비유. 코드·계획에서 "이게 빠지면 전체가 무너진다"는 핵심 요소를 가리킴. 반대는 `lean`(군더더기 없는) 또는 `tail safety net`(드문 경우용 안전망). 원문: "Most pass → tail safety net (lean). Many fail → load-bearing (build it properly)."
+- 예문: That helper looks trivial, but it's load-bearing — half the pipeline calls it.
+
+## "fail-safe"
+- 레지스터: technical
+- 출처: repo:journals/260603 white-box-vs-crosshair
+- 한국어: 실패해도 안전한 쪽으로 떨어지는 (설계).
+- 설명: 오작동·불확실 시 "위험한 추측" 대신 "안전한 거부/폴백"을 택하도록 만든 설계. 원문: "The effect is fail-safe — on a busy background it rejects rather than mis-detects."
+- 예문: When the model isn't confident, fail safe: return nothing instead of a wrong coordinate.
+
+## "As-Is / To-Be"
+- 레지스터: professional
+- 출처: repo:project_plan/2026_annual_roadmap_ppt
+- 한국어: 현재 모습(As-Is) / 목표 모습(To-Be).
+- 설명: 기획·컨설팅 보고서 단골 짝. 현 상태와 지향 상태를 나란히 대비할 때. 슬라이드 제목으로 자주 등장.
+- 예문: Slide 2 shows the As-Is; slide 3 lays out the To-Be we want by year-end.
+
+## "create X lazily — only when needed"
+- 레지스터: technical
+- 출처: repo:skills/grill-with-docs/SKILL
+- 한국어: 필요해질 때 비로소 (게으르게) 생성하라.
+- 설명: `lazily` = 미리 만들지 않고 최초 필요 시점까지 미룸(lazy initialization). 디렉토리·파일·객체 생성 지침에 자주. 원문: "Create files lazily — only when you have something to write."
+- 예문: Don't pre-create the cache dir; build it lazily on the first write.
+
+## "measure first, fix second"
+- 레지스터: professional, technical
+- 출처: repo:skills/diagnose/SKILL
+- 한국어: 측정이 먼저, 수정은 그 다음.
+- 설명: 성능 튜닝 격언. 추측으로 손대기 전에 먼저 재서 병목을 확인하라는 순서 강조 (`A first, B second`). 원문: "Measure first, fix second."
+- 예문: Before optimizing the query, measure first, fix second — you might be wrong about the bottleneck.
+
+## "last resort"
+- 레지스터: conversational, professional
+- 출처: repo:skills/diagnose/SKILL
+- 한국어: 최후의 수단.
+- 설명: 다른 방법이 다 안 될 때만 쓰는 마지막 카드. 원문에서 사람-개입 루프를 "Last resort" 로 표기. 종종 `as a last resort`.
+- 예문: Restarting the server is a last resort, not a fix.

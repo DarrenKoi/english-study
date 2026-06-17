@@ -11,3 +11,11 @@
 - **borrow strength** — 유사 그룹의 정보를 빌려 추정을 안정화.
 - **human-readable** — 사람이 읽을 수 있는 (vs machine-readable).
 - **must implement these contracts identically** — 계약을 동일하게 구현.
+
+### auto_recipe_creator 배치
+- **anchor on (the first idea)** — 처음 가설에 고착되다 (anchoring 편향).
+- **carry lock-in** — (기술 선택이) 종속을 수반하다.
+- **load-bearing** — 빠지면 전체가 무너지는 핵심. 반대 `lean`.
+- **fail-safe** — 불확실하면 안전한 거부로 떨어지는 설계.
+- **create X lazily — only when needed** — 최초 필요 시점까지 생성을 미루다.
+- **measure first, fix second** — (성능) 측정이 먼저, 수정은 그 다음.
