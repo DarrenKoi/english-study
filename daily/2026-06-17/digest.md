@@ -43,3 +43,23 @@
 7. **backstop / safety net** — 앞이 다 실패해도 받쳐주는 최후 안전장치.
 
 > 처리 항목 16개 / 미뤄진 항목 0개 (배치 48개 문서 3차 재검토; 나머지는 코드·경로·도메인 고유어)
+
+---
+
+# 오늘의 표현 (4차 · 대화형 `/study`) — `repo:auto_recipe_creator` 셋업 문서
+
+VLM 서빙·셋업 문서(깔끔한 영어)에서 *맥락까지* 챙긴 표현들. 이번엔 **정독 단락**과 **웹 정독**도 함께.
+
+1. **keep the GPU busy across incoming requests** — 요청이 들어와도 GPU를 놀리지 않다. `keep X busy`.
+2. **the model is not truly ready until both pass** — 둘 다 통과해야 비로소 준비 완료. `not ... until` 강조.
+3. **a conservative / cold-start value** — 데이터 모이기 전 보수적 기본값(나중에 캘리브레이션).
+4. **pixel scores to OpenCV, vibe-reading to the VLM** — 정량 판단은 고전 CV, 분위기 파악은 VLM. (도메인 경험칙)
+5. **treat its verdict as an opinion, not a measurement** — 미검증 모델 판정은 '측정'이 아니라 '의견'으로 취급.
+6. **stale metaphor / the images clash** — (웹 정독) 진부한 비유 / 이미지가 서로 어긋난다.
+7. **I was wondering if you'd have time to ...** — (웹 정독) 가장 공손한 회화체 요청 틀.
+
+### 오늘의 정독
+- **단락**: `reading.md` — "prefix caching is useful **because** ... **while** only the image changes" (이유+대조를 한 문장에).
+- **웹**: `reading-web.md` — Orwell 의 명료한 글쓰기 단락(refined) + 코드 리뷰 정중히 부탁하기(plain).
+
+> 처리 항목 41개(샘플 정독) / 미뤄진 항목 1276개 · 대화형 실행(웹 검색 포함)
