@@ -46,6 +46,8 @@ english-study/
 
 **경계 원칙:** 각 모듈은 한 책임만 가진다. `gitutil`/`transcripts`/`requests_inbox`는 순수 입력 어댑터(테스트 쉬움), `batch`는 예산 로직, `collect`/`finalize`/`run`은 오케스트레이션, LLM 지식은 `prompts/process.md`에만 둔다.
 
+> **증분 단위 정밀도(개정):** repo 는 처음 "1 repo = 1 단위(all-or-nothing)" 였으나, 한 repo 의 docs 가 `char_budget` 을 통째로 넘기는 문제(492K vs 200K)로 **"1 파일 = 1 단위"** 로 분할했다. 예산이 파일 단위로 작동하고, 부분 소비 시 `repo_queue` 가 남은 파일을 기억해 SHA 를 전부 소진 후에만 전진시킨다.
+
 **표준 데이터 스키마 (전 태스크 공통):**
 
 `config/sources.json`
@@ -68,16 +70,19 @@ english-study/
 ```json
 {
   "repos": { "skewnono_v3_nuxt": "abc123" },
+  "repo_queue": { "wiki_for_office": { "target": "newsha", "remaining": ["docs/b.md"] } },
   "transcripts": { "<rel/path.jsonl>": 42 },
   "last_run": "2026-06-14"
 }
 ```
+> `repo_queue`: repo 의 변경 파일이 예산을 넘어 부분 소비될 때, 남은 파일을 기억한다.
+> repo 의 `repos` SHA 는 그 파일들이 전부 소진된 뒤에만 전진한다 (소비분 재처리·누락 방지).
 
-소비 단위(Unit) dict — collect 가 만들고 batch 가 소비:
+소비 단위(Unit) dict — collect 가 만들고 batch 가 소비. **repo 는 파일 1개 = 단위 1개**:
 ```python
-{ "kind": "request"|"repo"|"transcript",
-  "id": "wiki_for_office",            # 표시용 식별자
-  "provenance": "repo:wiki_for_office (docs/**/*.md)",
+{ "kind": "request"|"repo_file"|"transcript",
+  "id": "wiki_for_office/docs/a.md",  # 표시용 식별자
+  "provenance": "repo:wiki_for_office docs/a.md",
   "text": "...원문...",
   "advance": {...} }                  # finalize 가 상태 전진에 쓰는 데이터
 ```
@@ -85,10 +90,12 @@ english-study/
 `state/consumed-<date>.json` (매니페스트)
 ```json
 { "repos": {"wiki_for_office": "newsha"},
+  "repo_queue": {"auto_recipe_creator": {"target": "sha2", "remaining": ["a.md", "b.md"]}},
   "transcripts": {"<rel/path.jsonl>": 57},
   "requests": ["requests/inbox/poetic.md"],
   "deferred": 2 }
 ```
+> 전부 소진된 repo → `repos` 로 SHA 전진(+queue 제거). 부분 소비 → `repo_queue` 로 남은 파일 기록.
 
 ---
 
