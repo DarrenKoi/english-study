@@ -14,5 +14,9 @@
 - 아침에 `daily/<오늘날짜>/digest.md` 를 읽는다.
 - 토큰 사용 추이는 `state/token-log.jsonl`.
 
-## 수동 실행
-`PYTHONPATH=scripts uv run python -m pipeline.run`
+## 실행 방법
+- **야간 무인** (자리 비움): launchd → `pipeline.run` → `claude -p` (파일 도구만, 네트워크 차단).
+- **대화형** (자리에 있을 때): Claude Code 세션에서 `/study [토픽]` 입력.
+  같은 collect/finalize 골격을 쓰되 가운데 가공을 대화형 LLM 이 맡고, **웹 검색으로
+  고품질 영어·회화 원문을 정독 자료로 추가**합니다(감독 하에 실행되므로 안전).
+- **순수 수동**: `PYTHONPATH=scripts uv run python -m pipeline.run`
