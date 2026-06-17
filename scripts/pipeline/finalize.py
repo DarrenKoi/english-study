@@ -28,10 +28,10 @@ def finalize(root: Path | None = None, today: str | None = None) -> dict:
     state["last_run"] = today
     config.save_state(state, root / "state" / "progress.json")
 
-    # 처리된 요청을 done 으로 이동 (멱등성)
-    done_dir = root / "requests" / "done"
+    # 처리된 spool 노트를 spool/done 으로 날짜 접두사 붙여 아카이브 (멱등성)
+    done_dir = root / "spool" / "done"
     done_dir.mkdir(parents=True, exist_ok=True)
-    for rel in manifest.get("requests", []):
+    for rel in manifest.get("spool", []):
         src = root / rel
         if src.exists():
             shutil.move(str(src), str(done_dir / f"{today}-{src.name}"))

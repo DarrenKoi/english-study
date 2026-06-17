@@ -11,8 +11,8 @@ def test_collect_builds_batch_and_manifest(tmp_path, monkeypatch):
         "char_budget": 100000,
         "repos": [{"name": "proj", "globs": ["docs/**/*.md"]}],
     }), encoding="utf-8")
-    (root / "requests" / "inbox").mkdir(parents=True)
-    (root / "requests" / "inbox" / "poetic.md").write_text("시적으로", encoding="utf-8")
+    (root / "spool").mkdir(parents=True)
+    (root / "spool" / "poetic.md").write_text("시적으로", encoding="utf-8")
 
     # gitutil/transcripts 를 가짜로 대체
     monkeypatch.setattr(collect.gitutil, "pull", lambda repo: None)
@@ -35,5 +35,5 @@ def test_collect_builds_batch_and_manifest(tmp_path, monkeypatch):
         next((root / "state").glob("consumed-*.json")).read_text(encoding="utf-8"))
     assert manifest["repos"]["proj"] == "newsha"
     assert manifest["transcripts"]["s.jsonl"] == 1
-    assert manifest["requests"] == ["requests/inbox/poetic.md"]
-    assert result["item_count"] == 3   # request + repo + transcript
+    assert manifest["spool"] == ["spool/poetic.md"]
+    assert result["item_count"] == 3   # spool note + repo file + transcript

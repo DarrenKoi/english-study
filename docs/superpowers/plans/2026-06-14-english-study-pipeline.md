@@ -92,10 +92,16 @@ english-study/
 { "repos": {"wiki_for_office": "newsha"},
   "repo_queue": {"auto_recipe_creator": {"target": "sha2", "remaining": ["a.md", "b.md"]}},
   "transcripts": {"<rel/path.jsonl>": 57},
-  "requests": ["requests/inbox/poetic.md"],
+  "spool": ["spool/poetic.md"],
   "deferred": 2 }
 ```
 > 전부 소진된 repo → `repos` 로 SHA 전진(+queue 제거). 부분 소비 → `repo_queue` 로 남은 파일 기록.
+
+> **spool 개정:** 원래 `requests/inbox` (`.md` 전용, 처리 후 `requests/done` 으로 이동) 였던
+> 사용자 주문 메커니즘을 **`spool/`** (`.txt`+`.md`, 루트 폴더)로 바꿨다. 사용자가 궁금한 것을
+> 자유롭게 적으면 최우선으로 답하고, finalize 가 원본을 `spool/done/<날짜>-<이름>` 으로 아카이브한다.
+> 모듈은 `requests_inbox.py` → `spool.py`(`pending_notes`), unit kind `request` → `spool`,
+> 매니페스트 키 `requests` → `spool`. `spool/README.md` 는 학습 대상에서 제외.
 
 ---
 

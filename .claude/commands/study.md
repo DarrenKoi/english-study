@@ -36,5 +36,5 @@ PYTHONPATH=scripts uv run python -m pipeline.collect
 PYTHONPATH=scripts uv run python -m pipeline.finalize
 ```
 finalize 는 consumed 매니페스트만큼 `state/progress.json` 을 전진시키고,
-처리된 요청을 `requests/done/` 으로 옮기고, commit & push 합니다.
+처리된 spool 노트를 `spool/done/<날짜>-<이름>` 으로 아카이브하고, commit & push 합니다.
 사용자가 "아직 커밋하지 마" 라고 하면 finalize 를 건너뛰고 파일만 남겨둡니다.

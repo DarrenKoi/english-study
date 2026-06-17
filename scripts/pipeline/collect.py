@@ -3,7 +3,7 @@ import os
 from datetime import date
 from pathlib import Path
 
-from pipeline import config, gitutil, transcripts, requests_inbox, batch
+from pipeline import config, gitutil, transcripts, spool, batch
 
 def _expand(p: str) -> Path:
     return Path(os.path.expanduser(p))
@@ -18,12 +18,12 @@ def collect(root: Path | None = None, today: str | None = None) -> dict:
     # repo 별 이번 실행에서 다룬 파일 집합과 head 를 기록 (배치 후 queue/전진 계산용)
     repo_plan: dict[str, dict] = {}
 
-    # 1) 요청(주문서) — 최우선
-    for req in requests_inbox.pending_requests(root):
-        rel = req.relative_to(root).as_posix()
-        units.append({"kind": "request", "id": req.name,
-                      "provenance": f"request:{rel}", "text": req.read_text(encoding="utf-8"),
-                      "advance": {"request": rel}})
+    # 1) spool 노트(사용자가 직접 적은 학습 질문) — 최우선
+    for note in spool.pending_notes(root):
+        rel = note.relative_to(root).as_posix()
+        units.append({"kind": "spool", "id": note.name,
+                      "provenance": f"spool:{rel}", "text": note.read_text(encoding="utf-8"),
+                      "advance": {"note": rel}})
 
     # 2) repo 별 증분 마크다운 — 파일 1개 = 단위 1개 (예산이 파일 단위로 작동).
     #    부분 소비 시 남은 파일을 repo_queue 로 기억해 SHA 는 전부 소진된 뒤에만 전진한다.
@@ -63,7 +63,7 @@ def collect(root: Path | None = None, today: str | None = None) -> dict:
     batch_text, consumed = batch.build_batch(units, cfg.get("char_budget", 200000), today)
 
     # 매니페스트(소비 단위만 상태 전진 대상)
-    manifest = {"repos": {}, "repo_queue": {}, "transcripts": {}, "requests": [],
+    manifest = {"repos": {}, "repo_queue": {}, "transcripts": {}, "spool": [],
                 "deferred": len(units) - len(consumed)}
     consumed_repo_files: dict[str, set[str]] = {}
     for u in consumed:
@@ -72,8 +72,8 @@ def collect(root: Path | None = None, today: str | None = None) -> dict:
             consumed_repo_files.setdefault(adv["repo"], set()).add(adv["file"])
         elif u["kind"] == "transcript":
             manifest["transcripts"][adv["transcript"]] = adv["offset"]
-        elif u["kind"] == "request":
-            manifest["requests"].append(adv["request"])
+        elif u["kind"] == "spool":
+            manifest["spool"].append(adv["note"])
 
     # repo 별 소진 여부 판정: 전부 소비됐으면 SHA 전진, 일부면 남은 파일을 queue 로.
     for name, plan in repo_plan.items():
