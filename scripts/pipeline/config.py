@@ -2,7 +2,7 @@ import copy
 import json
 from pathlib import Path
 
-DEFAULT_STATE = {"repos": {}, "transcripts": {}, "last_run": None}
+DEFAULT_STATE = {"repos": {}, "repo_queue": {}, "transcripts": {}, "last_run": None}
 
 def root() -> Path:
     # scripts/pipeline/config.py -> english-study/

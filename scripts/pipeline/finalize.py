@@ -21,6 +21,10 @@ def finalize(root: Path | None = None, today: str | None = None) -> dict:
     state = config.load_state(root / "state" / "progress.json")
     state["repos"].update(manifest.get("repos", {}))
     state["transcripts"].update(manifest.get("transcripts", {}))
+    # 부분 소비된 repo 는 남은 파일을 queue 에 기록, 전부 소진된 repo(=repos 전진)는 queue 제거.
+    state["repo_queue"].update(manifest.get("repo_queue", {}))
+    for name in manifest.get("repos", {}):
+        state["repo_queue"].pop(name, None)
     state["last_run"] = today
     config.save_state(state, root / "state" / "progress.json")
 

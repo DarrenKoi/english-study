@@ -15,7 +15,8 @@ def collect(root: Path | None = None, today: str | None = None) -> dict:
     state = config.load_state(root / "state" / "progress.json")
 
     units: list[dict] = []
-    repo_heads: dict[str, str] = {}
+    # repo 별 이번 실행에서 다룬 파일 집합과 head 를 기록 (배치 후 queue/전진 계산용)
+    repo_plan: dict[str, dict] = {}
 
     # 1) 요청(주문서) — 최우선
     for req in requests_inbox.pending_requests(root):
@@ -24,25 +25,28 @@ def collect(root: Path | None = None, today: str | None = None) -> dict:
                       "provenance": f"request:{rel}", "text": req.read_text(encoding="utf-8"),
                       "advance": {"request": rel}})
 
-    # 2) repo 별 증분 마크다운 (repo 1개 = 단위 1개, all-or-nothing)
+    # 2) repo 별 증분 마크다운 — 파일 1개 = 단위 1개 (예산이 파일 단위로 작동).
+    #    부분 소비 시 남은 파일을 repo_queue 로 기억해 SHA 는 전부 소진된 뒤에만 전진한다.
     base = _expand(cfg["base_path"])
     for r in cfg["repos"]:
-        repo_path = base / r["name"]
+        name = r["name"]
+        repo_path = base / name
         if not repo_path.exists():
             continue
         gitutil.pull(repo_path)
-        since = state["repos"].get(r["name"])
-        files = gitutil.changed_md_files(repo_path, since, r["globs"])
-        repo_heads[r["name"]] = gitutil.head_sha(repo_path)
-        if not files:
-            continue
-        body = []
+        head = gitutil.head_sha(repo_path)
+        # 진행 중인 queue 가 같은 head 를 가리키면 재-diff 없이 남은 파일만 이어서 소진한다.
+        q = state["repo_queue"].get(name)
+        if q and q.get("target") == head:
+            files = [f for f in q.get("remaining", []) if (repo_path / f).exists()]
+        else:
+            files = gitutil.changed_md_files(repo_path, state["repos"].get(name), r["globs"])
+        repo_plan[name] = {"head": head, "files": list(files)}
         for f in files:
-            body.append(f"### {f}\n\n{(repo_path / f).read_text(encoding='utf-8', errors='replace')}")
-        units.append({"kind": "repo", "id": r["name"],
-                      "provenance": f"repo:{r['name']} ({','.join(r['globs'])})",
-                      "text": "\n\n".join(body),
-                      "advance": {"repo": r["name"], "sha": repo_heads[r["name"]]}})
+            units.append({"kind": "repo_file", "id": f"{name}/{f}",
+                          "provenance": f"repo:{name} {f}",
+                          "text": (repo_path / f).read_text(encoding="utf-8", errors="replace"),
+                          "advance": {"repo": name, "file": f}})
 
     # 3) 트랜스크립트 — 파일 1개 = 단위 1개
     tx_dir = _expand(cfg["transcripts_dir"])
@@ -59,15 +63,26 @@ def collect(root: Path | None = None, today: str | None = None) -> dict:
     batch_text, consumed = batch.build_batch(units, cfg.get("char_budget", 200000), today)
 
     # 매니페스트(소비 단위만 상태 전진 대상)
-    manifest = {"repos": {}, "transcripts": {}, "requests": [], "deferred": len(units) - len(consumed)}
+    manifest = {"repos": {}, "repo_queue": {}, "transcripts": {}, "requests": [],
+                "deferred": len(units) - len(consumed)}
+    consumed_repo_files: dict[str, set[str]] = {}
     for u in consumed:
         adv = u["advance"]
-        if u["kind"] == "repo":
-            manifest["repos"][adv["repo"]] = adv["sha"]
+        if u["kind"] == "repo_file":
+            consumed_repo_files.setdefault(adv["repo"], set()).add(adv["file"])
         elif u["kind"] == "transcript":
             manifest["transcripts"][adv["transcript"]] = adv["offset"]
         elif u["kind"] == "request":
             manifest["requests"].append(adv["request"])
+
+    # repo 별 소진 여부 판정: 전부 소비됐으면 SHA 전진, 일부면 남은 파일을 queue 로.
+    for name, plan in repo_plan.items():
+        done = consumed_repo_files.get(name, set())
+        remaining = [f for f in plan["files"] if f not in done]
+        if remaining:
+            manifest["repo_queue"][name] = {"target": plan["head"], "remaining": remaining}
+        else:
+            manifest["repos"][name] = plan["head"]
 
     (root / "state").mkdir(parents=True, exist_ok=True)
     batch_path = root / "state" / f"batch-{today}.md"

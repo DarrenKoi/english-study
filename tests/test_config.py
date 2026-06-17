@@ -10,7 +10,16 @@ def test_load_config_reads(tmp_path):
 
 def test_load_state_missing_returns_default(tmp_path):
     st = config.load_state(tmp_path / "nope.json")
-    assert st == {"repos": {}, "transcripts": {}, "last_run": None}
+    assert st == {"repos": {}, "repo_queue": {}, "transcripts": {}, "last_run": None}
+
+def test_load_state_old_file_gets_repo_queue_default(tmp_path):
+    # 구버전 progress.json (repo_queue 없음) 도 매끄럽게 로드돼야 한다
+    p = tmp_path / "progress.json"
+    p.write_text(json.dumps({"repos": {"a": "sha"}, "transcripts": {}, "last_run": "2026-06-14"}),
+                 encoding="utf-8")
+    st = config.load_state(p)
+    assert st["repo_queue"] == {}
+    assert st["repos"]["a"] == "sha"
 
 def test_save_then_load_state_roundtrip(tmp_path):
     p = tmp_path / "progress.json"
