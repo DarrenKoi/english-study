@@ -145,7 +145,34 @@
   "transcripts": {
     "-Users-daeyoung-Codes/52cf0b11-864e-4ebc-9ff5-3dbf65be7e9e.jsonl": 18,
     "-Users-daeyoung-Codes-auto-recipe-creator/17714c99-9de4-4a0e-b58b-196fb7e8bb4a.jsonl": 35,
-    "-Users-daeyoung-Codes-auto-recipe-creator/06e55162-c863-43ea-939d-4bae1aebfc71.jsonl": 12
+    "-Users-daeyoung-Codes-auto-recipe-creator/06e55162-c863-43ea-939d-4bae1aebfc71.jsonl": 12,
+    "-Users-daeyoung-Codes/6faf9734-9869-4c05-b256-641e5a28e80d.jsonl": 35,
+    "-Users-daeyoung-Codes/e85226de-2823-4f17-a6a9-4a8f0e4d1247.jsonl": 28,
+    "-Users-daeyoung-Codes-auto-recipe-creator/0887ea73-27e9-4027-af13-d5a78ea767de.jsonl": 57,
+    "-Users-daeyoung-Codes-auto-recipe-creator/08dd49e3-a756-4165-84bd-03471c8872ff.jsonl": 14,
+    "-Users-daeyoung-Codes-auto-recipe-creator/0c91f00c-d4c5-4c80-9215-899d98910b12.jsonl": 79
   },
-  "last_run": "2026-06-17"
+  "last_run": "2026-06-19",
+  "docs_today": {
+    "date": "2026-06-19",
+    "keys": [
+      "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
+      "auto_recipe_creator/docs/journals/260618/260618_133130_consensus-history-routed-combined-eval.md:1781757147.8687363:7134",
+      "auto_recipe_creator/poc/workflow_2/docs/study/adr/0003-workflow2-offline-ensemble-lab-experiments.md:1781750809.9714336:5463",
+      "auto_recipe_creator/poc/workflow_2/docs/study/adr/0004-routed-combined-eval-and-s-collection.md:1781757018.3363752:6582",
+      "auto_recipe_creator/poc/workflow_3/docs/specs/vlm_roi_prior_design_260616.md:1781592803.446626:10749",
+      "auto_recipe_creator/poc/workflow_3/docs/superpowers/plans/2026-06-18-drop-msr-from-production.md:1781748022.1547995:29194",
+      "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-06-18-drop-msr-from-production-design.md:1781747662.6292348:6418",
+      "auto_recipe_creator/poc/workflow_3/docs/weekly_report/2026-06-18/weekly_report.md:1781750785.0739539:5729",
+      "auto_recipe_creator/poc/workflow_3/docs/weekly_report/2026-06-18/weekly_report_slides.md:1781752702.924551:6323",
+      "flask_modules/docs/superpowers/specs/2026-06-17-minio-date-folder-retention-design.md:1781681477.492405:5528",
+      "skewnono_v3_nuxt/docs/datatables/beam_shape.txt:1781761391.5051842:1342",
+      "skewnono_v3_nuxt/docs/datatables/mdc_setting.txt:1781762120.5160608:943",
+      "skewnono_v3_nuxt/docs/datatables/network_fdc_cdsem.txt:1781760286.2220984:1712",
+      "skewnono_v3_nuxt/docs/datatables/reso_center_data.txt:1781763176.2773206:698",
+      "skewnono_v3_nuxt/docs/datatables/sce_setting.txt:1781763084.6675322:1269",
+      "wiki_for_office/docs/architecture/overview.md:1781592735.7536051:7070",
+      "wiki_for_office/docs/superpowers/plans/2026-06-14-v1_5a-debrief-manual-artifacts.md:1781592735.7553868:102254"
+    ]
+  }
 }

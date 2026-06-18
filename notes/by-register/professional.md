@@ -51,3 +51,11 @@
   - 예: After three rounds of adversarial review, the design converged where further scrutiny would need real implementation code to verify.
 - **stop earning its keep** — (규칙·모듈이) 더는 제 값어치를 못 하다 → 폐기 판단의 근거.
   - 예: A constraint moves to "retired" when it stops earning its keep — when the failure it guarded against can no longer occur.
+
+## 2026-06-19 — wiki_for_office 아키텍처 개요 + 장기실행 진단 배치
+- **the trust boundary is X, not Y** — 신뢰 경계가 어디냐를 한 줄로 못 박는 보안 정의문 (`X, not Y`로 흔한 오해를 먼저 부정).
+  - 예: The trust boundary is the company network, not one machine: data may flow to internal services but never to public ones.
+- **grounded in (the literature)** — 막연한 직관이 아니라 ~(선행연구·근거)에 단단히 기반을 둔 (수동태로 자주).
+  - 예: The wiki layer is grounded in the LLM-Wiki and Retrieval-as-Reasoning literature.
+- **deferred deliberately** — 빠뜨린 게 아니라 *일부러* 미룬 결정임을 강조 (스코프 방어).
+  - 예: Report drafting was deferred deliberately: it is the least valuable and least testable thing to build first.

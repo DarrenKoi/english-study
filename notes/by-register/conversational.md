@@ -31,3 +31,11 @@
   - 예: Just drop in a screenshot and the system takes care of the rest.
 - **paper over it** — (문제를) 대충 덮다 (= 격식: silently reconcile; "flag it, don't paper over it").
   - 예: If two specs conflict, flag it — don't paper over it and hope nobody notices.
+
+## 2026-06-19 — 장기실행 모니터 진단 배치
+- **the most likely to bite you** — 여러 위험 중 실제로 탈 날 확률이 제일 높은 것 (방치한 문제가 나중에 '물어뜯다').
+  - 예: Disk space is the one most likely to bite you: nothing ever prunes those capture folders.
+- **worth double-checking** — 한 번 더 확인해 둘 만하다 (명령 대신 가치를 제시하는 부드러운 권고).
+  - 예: That's the one file worth double-checking on the office machine.
+- **from a (memory) standpoint** — "~ 관점/측면에서는"으로 결론의 적용 범위를 정직하게 좁히기.
+  - 예: It's safe to run all day from a memory standpoint — but watch your disk usage.

@@ -5,6 +5,7 @@
 
 - [a row count separate from the row payload](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [a strong read, not a menu](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [a thin capture client](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [anchor on (the first plausible idea)](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [as decisions crystallise](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [As-Is / To-Be](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -22,14 +23,20 @@
 - [converged (the design)](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [create X lazily — only when needed](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [deep module / shallow module](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [deferred deliberately](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [degrade gracefully](daily/2026-06-18/new-expressions.md) — 2026-06-18
+- [derived and disposable](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [document what it actually returns, not what feels canonical](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [don't batch these up](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [don't couple X to Y](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [earning its keep](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [easier to grant later than to take away](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [edge-triggered](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [fail-safe](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [first-class](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [from a (memory) standpoint](daily/2026-06-19/new-expressions.md) — 2026-06-19
+- [grounded in (the literature)](daily/2026-06-19/new-expressions.md) — 2026-06-19
+- [grow without bound](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [hot path](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [human-readable](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [If the wiki adds work for the user, it has failed](daily/2026-06-18/new-expressions.md) — 2026-06-18
@@ -39,6 +46,7 @@
 - [made structurally impossible / safe by construction](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [masquerade as](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [measure first, fix second](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [metadata only (X is metadata only)](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [must implement these contracts identically](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [never refactor while RED; get to GREEN first](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [offer (something) sparingly](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -62,9 +70,12 @@
 - [the bridge between X and Y](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [the explicit no's are as valuable as the yes's](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [the interface is the test surface](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [the most likely to bite you](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [the system's own case law](daily/2026-06-18/new-expressions.md) — 2026-06-18
+- [the trust boundary is X, not Y](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [tracer bullet (vertical slice)](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [train/serve skew](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [why on earth …?](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [worst-case](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [worth double-checking](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [would take a quarter to swap out](daily/2026-06-17/new-expressions.md) — 2026-06-17

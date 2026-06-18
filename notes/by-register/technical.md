@@ -51,3 +51,15 @@
   - 예: Company services sit behind wiki-owned interfaces, each with a real and a fake implementation, so the core stays testable off the company network.
 - **train/serve skew** — 학습 때와 추론 때 입력 처리가 달라 생기는 성능 괴리.
   - 예: We extract candidate patches with the same function at train and serve time to keep train/serve skew to a minimum.
+
+## 2026-06-19 — wiki 아키텍처 + 장기실행 리소스 진단 배치
+- **derived and disposable** — 원본에서 파생된 것이라 버려도(지웠다 다시 만들어도) 되는 (↔ canonical). 흔히 `rebuildable`이 따라옴.
+  - 예: Canonical knowledge is human-curated Markdown; all search structures are derived and disposable.
+- **a thin client (thin capture client)** — 로직을 최소화해 캡처·전송만 하는 가벼운 단말 (↔ thick/fat client).
+  - 예: Each user runs a thin capture client that grabs the screen and ships images over an authenticated channel.
+- **X is metadata only** — 그 필드는 *기록만* 하고 강제(enforcement)는 안 한다고 범위를 좁히는 표현.
+  - 예: `visibility` is metadata only; there is no ACL enforcement in v1.
+- **edge-triggered** — 매 주기가 아니라 *상태가 바뀌는 순간*에만 발동 (↔ level-triggered / polled every cycle).
+  - 예: The expensive work is edge-triggered: it only runs when a new align-fail appears, not on every poll.
+- **grow without bound** — 상한 없이 한없이 커지다 (자원 누수 진단어; ↔ bounded/capped). 동의어 `grow indefinitely`.
+  - 예: The only thing that grows without bound is the filesystem, since nothing ever deletes the capture folders.
