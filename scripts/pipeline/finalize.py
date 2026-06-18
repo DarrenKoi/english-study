@@ -25,6 +25,12 @@ def finalize(root: Path | None = None, today: str | None = None) -> dict:
     state["repo_queue"].update(manifest.get("repo_queue", {}))
     for name in manifest.get("repos", {}):
         state["repo_queue"].pop(name, None)
+    # 오늘 처리한 문서 원장: 성공(=finalize)했을 때만 승격해 같은 날 재실행 중복을 막는다.
+    # 날짜가 바뀌면 리셋하므로 매일 첫 실행은 윈도 전체를 다시 훑는다.
+    dt = state.get("docs_today") or {}
+    prev = set(dt.get("keys", [])) if dt.get("date") == today else set()
+    state["docs_today"] = {"date": today,
+                           "keys": sorted(prev | set(manifest.get("docs", [])))}
     state["last_run"] = today
     config.save_state(state, root / "state" / "progress.json")
 

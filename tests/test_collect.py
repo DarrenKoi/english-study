@@ -3,7 +3,13 @@ import os
 import time
 from pathlib import Path
 
-from pipeline import collect
+from pipeline import collect, finalize as finalize_mod
+
+
+def _finalize(root, today, monkeypatch):
+    """성공 시 진행 상태를 전진시키는 finalize 를 git 없이 돌린다(원장 승격 확인용)."""
+    monkeypatch.setattr(finalize_mod, "_git_commit_push", lambda root, msg: None)
+    finalize_mod.finalize(root=root, today=today)
 
 
 def _write(path: Path, text: str, *, age_days: float = 0.0) -> None:
@@ -117,8 +123,9 @@ def test_spool_notes_take_priority(tmp_path, monkeypatch):
     assert result["item_count"] == 2   # spool 노트 + 문서 1개
 
 
-def test_same_day_rerun_skips_already_collected_docs(tmp_path, monkeypatch):
-    # 같은 날 두 번째 실행은 이미 수집한 문서를 다시 넣지 않는다(중복 방지).
+def test_rerun_without_finalize_recollects(tmp_path, monkeypatch):
+    # finalize(=성공) 전에는 원장이 전진하지 않으므로, LLM 실패 후 같은 날 재실행은
+    # 그 문서들을 다시 집어야 한다(처리되지 않은 문서가 유실되면 안 됨).
     root, codes = tmp_path / "study", tmp_path / "codes"
     _sources(root, codes)
     _no_transcripts(monkeypatch)
@@ -128,14 +135,32 @@ def test_same_day_rerun_skips_already_collected_docs(tmp_path, monkeypatch):
 
     first = collect.collect(root=root, today="2026-06-18")
     assert first["item_count"] == 2
+    # finalize 를 부르지 않음(LLM 실패 시뮬레이션)
+    second = collect.collect(root=root, today="2026-06-18")
+    assert second["item_count"] == 2          # 재수집됨 — 유실 없음
+    assert "First doc body." in _batch(root)
+
+
+def test_same_day_rerun_skips_after_successful_finalize(tmp_path, monkeypatch):
+    # finalize 가 성공한 뒤의 같은 날 재실행은 이미 처리한 문서를 다시 넣지 않는다.
+    root, codes = tmp_path / "study", tmp_path / "codes"
+    _sources(root, codes)
+    _no_transcripts(monkeypatch)
+    _no_git(monkeypatch)
+    _write(codes / "proj" / "docs" / "a.md", "First doc body.")
+    _write(codes / "proj" / "docs" / "b.md", "Second doc body.")
+
+    first = collect.collect(root=root, today="2026-06-18")
+    assert first["item_count"] == 2
+    _finalize(root, "2026-06-18", monkeypatch)
 
     second = collect.collect(root=root, today="2026-06-18")
-    assert second["item_count"] == 0          # 이미 처리한 문서 → 재수집 안 함
+    assert second["item_count"] == 0          # 처리 완료 문서 → 재수집 안 함
     assert "First doc body." not in _batch(root)
 
 
 def test_same_day_rerun_picks_up_edited_doc(tmp_path, monkeypatch):
-    # 내용이 바뀐 문서는 같은 날이라도 다시 수집한다(해시가 달라지므로).
+    # 내용이 바뀐 문서는 같은 날이라도 다시 수집한다(mtime/크기가 달라지므로).
     root, codes = tmp_path / "study", tmp_path / "codes"
     _sources(root, codes)
     _no_transcripts(monkeypatch)
@@ -144,15 +169,16 @@ def test_same_day_rerun_picks_up_edited_doc(tmp_path, monkeypatch):
     _write(doc, "Original body.")
 
     collect.collect(root=root, today="2026-06-18")
-    _write(doc, "Edited body, now different.")     # 같은 날 수정
+    _finalize(root, "2026-06-18", monkeypatch)
+    _write(doc, "Edited body, now clearly different and longer.")   # 같은 날 수정
     again = collect.collect(root=root, today="2026-06-18")
 
     assert again["item_count"] == 1
-    assert "Edited body, now different." in _batch(root)
+    assert "Edited body, now clearly different and longer." in _batch(root)
 
 
 def test_new_day_refeeds_window(tmp_path, monkeypatch):
-    # 날짜가 바뀌면 윈도 전체를 다시 훑는다(같은 문서라도 재수집).
+    # 날짜가 바뀌면 원장이 리셋돼 윈도 전체를 다시 훑는다(같은 문서라도 재수집).
     root, codes = tmp_path / "study", tmp_path / "codes"
     _sources(root, codes)
     _no_transcripts(monkeypatch)
@@ -160,5 +186,6 @@ def test_new_day_refeeds_window(tmp_path, monkeypatch):
     _write(codes / "proj" / "docs" / "a.md", "Body.")
 
     collect.collect(root=root, today="2026-06-18")
+    _finalize(root, "2026-06-18", monkeypatch)
     next_day = collect.collect(root=root, today="2026-06-19")
     assert next_day["item_count"] == 1            # 새 날 → 다시 수집

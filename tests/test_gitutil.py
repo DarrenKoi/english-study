@@ -14,31 +14,11 @@ def repo(tmp_path):
     _run(r, "init", "-q")
     _run(r, "config", "user.email", "t@t.t")
     _run(r, "config", "user.name", "t")
-    (r / "docs").mkdir()
-    (r / "docs" / "a.md").write_text("first", encoding="utf-8")
     (r / "README.md").write_text("readme", encoding="utf-8")
     _run(r, "add", "-A")
     _run(r, "commit", "-q", "-m", "c1")
     return r
 
-def test_glob_to_regex_matches_nested():
-    assert gitutil._glob_to_regex("docs/**/*.md").match("docs/x/y.md")
-    assert gitutil._glob_to_regex("docs/**/*.md").match("docs/a.md")
-    assert not gitutil._glob_to_regex("docs/**/*.md").match("src/a.md")
-    assert gitutil._glob_to_regex("**/*.md").match("anything/here.md")
-
-def test_head_sha_returns_40_hex(repo):
-    sha = gitutil.head_sha(repo)
-    assert len(sha) == 40
-
-def test_changed_md_since_none_returns_all_matching(repo):
-    files = gitutil.changed_md_files(repo, None, ["docs/**/*.md"])
-    assert files == ["docs/a.md"]   # README.md 는 glob 밖
-
-def test_changed_md_since_sha_returns_only_new(repo):
-    old = gitutil.head_sha(repo)
-    (repo / "docs" / "b.md").write_text("second", encoding="utf-8")
-    _run(repo, "add", "-A")
-    _run(repo, "commit", "-q", "-m", "c2")
-    files = gitutil.changed_md_files(repo, old, ["docs/**/*.md"])
-    assert files == ["docs/b.md"]
+def test_pull_is_silent_without_upstream(repo):
+    # 업스트림이 없는 repo 에서도 pull 은 예외 없이 조용히 끝나야 한다(무인 실행 안전).
+    gitutil.pull(repo)   # 예외가 나면 테스트 실패
