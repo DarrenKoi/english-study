@@ -59,3 +59,11 @@
   - 예: The wiki layer is grounded in the LLM-Wiki and Retrieval-as-Reasoning literature.
 - **deferred deliberately** — 빠뜨린 게 아니라 *일부러* 미룬 결정임을 강조 (스코프 방어).
   - 예: Report drafting was deferred deliberately: it is the least valuable and least testable thing to build first.
+
+## 2026-06-20 — skewnono 하드웨어 mock spec/plan 배치
+- **in scope / out of scope** — 이번 라운드에 *할 일 / 안 할 일*의 경계를 못 박는 표준 쌍.
+  - 예: The skewvoir button is out of scope this round; the hardware page only needs to read the deep-link params.
+- **coexist by design** — 둘이 나란히 있는 게 실수가 아니라 *의도된* 결정(중복 오해 방어). ↔ accidental duplication.
+  - 예: The two BSM representations coexist by design; reconciling them is deferred to a future round.
+- **honour (a constraint / rule)** — (제약·규칙을) 준수하다(미국식 honor; respect 보다 격식). ↔ violate/break.
+  - 예: These are project-wide rules; every task must honour all of them.

@@ -63,3 +63,19 @@
   - 예: The expensive work is edge-triggered: it only runs when a new align-fail appears, not on every poll.
 - **grow without bound** — 상한 없이 한없이 커지다 (자원 누수 진단어; ↔ bounded/capped). 동의어 `grow indefinitely`.
   - 예: The only thing that grows without bound is the filesystem, since nothing ever deletes the capture folders.
+
+## 2026-06-20 — skewnono 하드웨어 mock spec/plan + auto_recipe modality 배치
+- **blast radius** — (코드) 변경이 건드리는 영향 범위/파장. "작다(contained)"가 좋다. ↔ contained/localized change.
+  - 예: The blast radius is contained: only the hardware route changes, and pm_planning is left untouched.
+- **faithful (to the source)** — 오타·메타데이터까지 원본 그대로 충실한. ↔ simplified/lossy.
+  - 예: These are faithful raw docs — every field is preserved, including the source misspelling "Ellipicity".
+- **as-of (date / snapshot)** — 특정 *시점 기준*의 값(회계·데이터의 "as of June 1"). ↔ time-series.
+  - 예: The mdc service returns a single as-of snapshot — the settings effective at or just before `end`.
+- **deep-link-ready** — URL 파라미터로 특정 화면·상태를 바로 열 수 있게 준비된. ↔ lands on the default view only.
+  - 예: The hardware page reads `eqp_id`/`start`/`end` off the query so it is deep-link-ready.
+- **orthogonal** — 서로 간섭하지 않고 독립적인. ↔ coupled/entangled.
+  - 예: L1 is orthogonal and unconditional — it improves classification without touching the localization path.
+- **thread (a value) through** — 인자를 여러 호출 계층에 죽 꿰어 전달하다.
+  - 예: We thread `start` and `end` through `get_hardware_service` so the provider receives the time window.
+- **exercise (a code path)** — 특정 코드 경로를 실제로 실행시켜 동작을 검증하다. ↔ leave it untested.
+  - 예: This runs on the office Windows machine, so I couldn't exercise the actual capture path here.

@@ -39,3 +39,9 @@
   - 예: That's the one file worth double-checking on the office machine.
 - **from a (memory) standpoint** — "~ 관점/측면에서는"으로 결론의 적용 범위를 정직하게 좁히기.
   - 예: It's safe to run all day from a memory standpoint — but watch your disk usage.
+
+## 2026-06-20 — auto_recipe_creator 트랜스크립트 배치
+- **a wrinkle worth flagging** — 짚어둘 만한 (사소한) 걸림돌/변수. `wrinkle`=계획에 생긴 작은 주름.
+  - 예: I read both sides of the contract before changing anything — there's a wrinkle worth flagging.
+- **just say the word** — "말씀만 하세요, 바로 합니다"(정중하지만 편한 협조 표현).
+  - 예: I won't amend the commit message unless you want it — just say the word.

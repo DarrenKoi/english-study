@@ -7,7 +7,12 @@
     "-Users-daeyoung-Codes/e85226de-2823-4f17-a6a9-4a8f0e4d1247.jsonl": 28,
     "-Users-daeyoung-Codes-auto-recipe-creator/0887ea73-27e9-4027-af13-d5a78ea767de.jsonl": 57,
     "-Users-daeyoung-Codes-auto-recipe-creator/08dd49e3-a756-4165-84bd-03471c8872ff.jsonl": 14,
-    "-Users-daeyoung-Codes-auto-recipe-creator/0c91f00c-d4c5-4c80-9215-899d98910b12.jsonl": 79
+    "-Users-daeyoung-Codes-auto-recipe-creator/0c91f00c-d4c5-4c80-9215-899d98910b12.jsonl": 79,
+    "-Users-daeyoung-Codes-auto-recipe-creator/15a1d642-15ac-4476-b82c-b27bca325375.jsonl": 131,
+    "-Users-daeyoung-Codes-auto-recipe-creator/1bad2cfe-43ab-4487-8192-aa46e0793219.jsonl": 34,
+    "-Users-daeyoung-Codes-auto-recipe-creator/22594f45-cfc1-4256-9e42-40b06ad77a35.jsonl": 17,
+    "-Users-daeyoung-Codes-auto-recipe-creator/310c0e3d-f292-497a-afb7-1c98d6707030.jsonl": 18,
+    "-Users-daeyoung-Codes-auto-recipe-creator/35f98605-4c10-457f-9d91-f96946318ea6.jsonl": 17
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -26,7 +31,11 @@
     "skewnono_v3_nuxt/docs/datatables/reso_center_data.txt": "skewnono_v3_nuxt/docs/datatables/reso_center_data.txt:1781763176.2773206:698",
     "skewnono_v3_nuxt/docs/datatables/sce_setting.txt": "skewnono_v3_nuxt/docs/datatables/sce_setting.txt:1781763084.6675322:1269",
     "wiki_for_office/docs/architecture/overview.md": "wiki_for_office/docs/architecture/overview.md:1781592735.7536051:7070",
-    "wiki_for_office/docs/superpowers/plans/2026-06-14-v1_5a-debrief-manual-artifacts.md": "wiki_for_office/docs/superpowers/plans/2026-06-14-v1_5a-debrief-manual-artifacts.md:1781592735.7553868:102254"
+    "wiki_for_office/docs/superpowers/plans/2026-06-14-v1_5a-debrief-manual-artifacts.md": "wiki_for_office/docs/superpowers/plans/2026-06-14-v1_5a-debrief-manual-artifacts.md:1781592735.7553868:102254",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-19-hardware-raw-doc-mocks-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-19-hardware-raw-doc-mocks-design.md:1781881288.5732074:14048",
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-06-19-hardware-raw-doc-mocks-plan2-frontend.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-06-19-hardware-raw-doc-mocks-plan2-frontend.md:1781881288.572945:86364",
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-06-19-hardware-raw-doc-mocks-plan1-backend.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-06-19-hardware-raw-doc-mocks-plan1-backend.md:1781881288.5726914:81478",
+    "auto_recipe_creator/poc/workflow_2/docs/superpowers/specs/2026-06-19-om-sem-modality-split-eval-design.md": "auto_recipe_creator/poc/workflow_2/docs/superpowers/specs/2026-06-19-om-sem-modality-split-eval-design.md:1781881273.637121:13466"
   },
-  "last_run": "2026-06-19"
+  "last_run": "2026-06-20"
 }
