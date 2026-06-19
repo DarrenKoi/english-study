@@ -45,7 +45,7 @@
   ```
   ## "표현"
   - 레지스터: conversational, professional
-  - 출처: repo:wiki_for_office
+  - 출처: repo:<project> <상대경로>   (예: repo:wiki_for_office docs/architecture/overview.md)
   - 맥락: 언제·어떤 상황·어느 격식에서 쓰는지 (한 줄)
   - 한국어: ...
   - 설명: ...

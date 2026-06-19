@@ -8,12 +8,12 @@ def test_finalize_advances_state_and_moves_requests(tmp_path, monkeypatch):
     (root / "spool").mkdir(parents=True)
     (root / "spool" / "poetic.md").write_text("시적", encoding="utf-8")
 
-    config.save_state({"repos": {}, "transcripts": {}, "last_run": None},
+    config.save_state({"transcripts": {}, "docs_seen": {}, "last_run": None},
                       root / "state" / "progress.json")
     (root / "state" / "consumed-2026-06-14.json").write_text(json.dumps({
-        "repos": {"proj": "newsha"},
         "transcripts": {"s.jsonl": 5},
         "spool": ["spool/poetic.md"],
+        "docs": {"proj/docs/a.md": "proj/docs/a.md:111.0:42"},
         "deferred": 0,
     }), encoding="utf-8")
 
@@ -23,7 +23,6 @@ def test_finalize_advances_state_and_moves_requests(tmp_path, monkeypatch):
     finalize.finalize(root=root, today="2026-06-14")
 
     st = config.load_state(root / "state" / "progress.json")
-    assert st["repos"]["proj"] == "newsha"
     assert st["transcripts"]["s.jsonl"] == 5
     assert st["last_run"] == "2026-06-14"
     # spool 노트가 날짜 접두사로 spool/done 으로 보관(아카이브)
@@ -31,37 +30,42 @@ def test_finalize_advances_state_and_moves_requests(tmp_path, monkeypatch):
     assert (root / "spool" / "done" / "2026-06-14-poetic.md").exists()
 
 
-def test_finalize_sets_repo_queue_on_partial(tmp_path, monkeypatch):
+def test_finalize_promotes_docs_to_persistent_ledger(tmp_path, monkeypatch):
+    # 처리한 문서(경로→키)는 영구 원장 docs_seen 에 누적된다.
     root = tmp_path
     (root / "state").mkdir()
-    config.save_state({"repos": {}, "repo_queue": {}, "transcripts": {}, "last_run": None},
+    config.save_state({"transcripts": {}, "last_run": None,
+                       "docs_seen": {"proj/docs/old.md": "proj/docs/old.md:1.0:9"}},
                       root / "state" / "progress.json")
     (root / "state" / "consumed-2026-06-14.json").write_text(json.dumps({
-        "repos": {}, "transcripts": {}, "requests": [],
-        "repo_queue": {"proj": {"target": "head1", "remaining": ["docs/b.md"]}},
-        "deferred": 1,
+        "transcripts": {}, "spool": [],
+        "docs": {"proj/docs/new.md": "proj/docs/new.md:2.0:5"},
+        "deferred": 0,
     }), encoding="utf-8")
     monkeypatch.setattr(finalize, "_git_commit_push", lambda root, msg: None)
 
     finalize.finalize(root=root, today="2026-06-14")
     st = config.load_state(root / "state" / "progress.json")
-    assert st["repo_queue"]["proj"]["remaining"] == ["docs/b.md"]
-    assert "proj" not in st["repos"]
+    assert st["docs_seen"]["proj/docs/old.md"] == "proj/docs/old.md:1.0:9"   # 기존 유지
+    assert st["docs_seen"]["proj/docs/new.md"] == "proj/docs/new.md:2.0:5"   # 새로 승격
 
 
-def test_finalize_clears_queue_when_repo_drained(tmp_path, monkeypatch):
+def test_finalize_archives_same_name_note_without_clobber(tmp_path, monkeypatch):
+    # 같은 날 같은 이름 노트가 또 처리되면 기존 아카이브를 덮어쓰지 않는다.
     root = tmp_path
     (root / "state").mkdir()
-    config.save_state({"repos": {}, "transcripts": {}, "last_run": None,
-                       "repo_queue": {"proj": {"target": "head1", "remaining": ["docs/b.md"]}}},
+    (root / "spool").mkdir(parents=True)
+    (root / "spool" / "done").mkdir(parents=True)
+    (root / "spool" / "done" / "2026-06-14-q.md").write_text("first", encoding="utf-8")
+    (root / "spool" / "q.md").write_text("second", encoding="utf-8")
+    config.save_state({"transcripts": {}, "docs_seen": {}, "last_run": None},
                       root / "state" / "progress.json")
     (root / "state" / "consumed-2026-06-14.json").write_text(json.dumps({
-        "repos": {"proj": "head1"}, "transcripts": {}, "requests": [],
-        "repo_queue": {}, "deferred": 0,
+        "transcripts": {}, "spool": ["spool/q.md"], "docs": {}, "deferred": 0,
     }), encoding="utf-8")
     monkeypatch.setattr(finalize, "_git_commit_push", lambda root, msg: None)
 
     finalize.finalize(root=root, today="2026-06-14")
-    st = config.load_state(root / "state" / "progress.json")
-    assert st["repos"]["proj"] == "head1"
-    assert "proj" not in st["repo_queue"]   # 소진된 repo 의 queue 는 제거
+    done = root / "spool" / "done"
+    assert (done / "2026-06-14-q.md").read_text(encoding="utf-8") == "first"   # 보존
+    assert (done / "2026-06-14-q-2.md").read_text(encoding="utf-8") == "second"  # 새 이름

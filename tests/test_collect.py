@@ -83,8 +83,10 @@ def test_collect_discovers_recent_docs_across_projects(tmp_path, monkeypatch):
 
     assert result["item_count"] == 4
     m = _manifest(root)
-    assert m["repos"] == {}            # 더 이상 SHA 를 전진시키지 않는다
-    assert m["repo_queue"] == {}
+    # docs 는 경로→키 매핑(SHA 추적은 사라졌다). 발견한 4개 문서가 모두 들어간다.
+    assert set(m["docs"]) == {
+        "projA/docs/fresh.md", "projB/service/sub/docs/deep.md",
+        "projB/docs/notes.txt", "projC/shared_docs/shared.md"}
 
 
 def test_budget_prefers_newest_and_defers_rest(tmp_path, monkeypatch):
@@ -177,8 +179,8 @@ def test_same_day_rerun_picks_up_edited_doc(tmp_path, monkeypatch):
     assert "Edited body, now clearly different and longer." in _batch(root)
 
 
-def test_new_day_refeeds_window(tmp_path, monkeypatch):
-    # 날짜가 바뀌면 원장이 리셋돼 윈도 전체를 다시 훑는다(같은 문서라도 재수집).
+def test_new_day_skips_unchanged_doc(tmp_path, monkeypatch):
+    # 영구 원장이므로 날짜가 바뀌어도 내용이 그대로인 문서는 다시 처리하지 않는다.
     root, codes = tmp_path / "study", tmp_path / "codes"
     _sources(root, codes)
     _no_transcripts(monkeypatch)
@@ -188,4 +190,20 @@ def test_new_day_refeeds_window(tmp_path, monkeypatch):
     collect.collect(root=root, today="2026-06-18")
     _finalize(root, "2026-06-18", monkeypatch)
     next_day = collect.collect(root=root, today="2026-06-19")
-    assert next_day["item_count"] == 1            # 새 날 → 다시 수집
+    assert next_day["item_count"] == 0            # 변경 없는 문서 → 재수집 안 함
+
+
+def test_new_day_picks_up_edited_doc(tmp_path, monkeypatch):
+    # 날이 바뀌고 내용이 바뀐 문서는 다시 수집한다(키가 달라지므로).
+    root, codes = tmp_path / "study", tmp_path / "codes"
+    _sources(root, codes)
+    _no_transcripts(monkeypatch)
+    _no_git(monkeypatch)
+    doc = codes / "proj" / "docs" / "a.md"
+    _write(doc, "Body.")
+
+    collect.collect(root=root, today="2026-06-18")
+    _finalize(root, "2026-06-18", monkeypatch)
+    _write(doc, "Body, revised the next day with more content.")
+    next_day = collect.collect(root=root, today="2026-06-19")
+    assert next_day["item_count"] == 1            # 내용 변경 → 재수집

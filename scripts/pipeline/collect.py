@@ -90,11 +90,12 @@ def collect(root: Path | None = None, today: str | None = None) -> dict:
                       "advance": {"note": rel}})
 
     # 2) 문서 폴더 — ~/Codes 전 프로젝트의 doc/docs/shared_docs 에서 최근 수정 파일을
-    #    매 실행마다 다시 훑는다(상태 추적 없이 윈도 기반). 파일 1개 = 단위 1개.
-    #    같은 날 이미 처리(=finalize)한 문서는 오늘 원장(state["docs_today"])에 있어 건너뛴다.
-    #    원장은 finalize 가 성공 시에만 전진시키므로, LLM 실패 후 재실행은 그 문서를 다시 집는다.
-    dt = state.get("docs_today") or {}
-    already = set(dt.get("keys", [])) if dt.get("date") == today else set()
+    #    매 실행마다 윈도 기반으로 다시 훑는다. 파일 1개 = 단위 1개.
+    #    한 번 처리(=finalize)한 문서는 영구 원장(state["docs_seen"]: 경로→키)에 남아,
+    #    내용이 바뀌지 않는 한(=mtime/크기 동일) 다시 집지 않는다. 파일이 바뀌면 키가
+    #    달라져 재수집된다. 원장은 finalize 가 성공 시에만 전진하므로, LLM 실패 후
+    #    재실행은 그 문서를 다시 집는다.
+    seen = state.get("docs_seen") or {}
     base = _expand(cfg["base_path"])
     exclude = set(cfg.get("exclude_projects", []))
     for project in _iter_projects(base, exclude):
@@ -103,16 +104,17 @@ def collect(root: Path | None = None, today: str | None = None) -> dict:
     char_budget = cfg.get("char_budget", 200000)
     doc_chars, unread = 0, 0
     for d in discover_doc_files(base, cfg):
+        doc_id = f"{d['project']}/{d['relpath']}"
         key = _doc_key(d["project"], d["relpath"], d["mtime"], d["size"])
-        if key in already:
+        if seen.get(doc_id) == key:
             continue
         if doc_chars >= char_budget:
             unread += 1          # 예산을 이미 채움 → 읽지 않고 미룬다(다음 실행에서 재시도)
             continue
         text = d["path"].read_text(encoding="utf-8", errors="replace")
-        units.append({"kind": "doc", "id": f"{d['project']}/{d['relpath']}",
+        units.append({"kind": "doc", "id": doc_id,
                       "provenance": f"repo:{d['project']} {d['relpath']}",
-                      "text": text, "advance": {"doc_key": key}})
+                      "text": text, "advance": {"doc_id": doc_id, "doc_key": key}})
         doc_chars += len(text)
 
     # 3) 트랜스크립트 — 파일 1개 = 단위 1개
@@ -129,9 +131,9 @@ def collect(root: Path | None = None, today: str | None = None) -> dict:
     # 예산 내 조립
     batch_text, consumed = batch.build_batch(units, char_budget, today)
 
-    # 매니페스트(소비 단위만 상태 전진 대상). 이번 실행에서 배치에 들어간 문서 키는 "docs" 에
-    # 적어 finalize 가 성공 시 오늘 원장으로 승격시킨다(예산에 밀려 빠진 문서는 기록 안 함).
-    manifest = {"repos": {}, "repo_queue": {}, "transcripts": {}, "spool": [], "docs": [],
+    # 매니페스트(소비 단위만 상태 전진 대상). 배치에 들어간 문서는 docs(경로→키)에 적어
+    # finalize 가 성공 시 영구 원장으로 승격시킨다(예산에 밀려 빠진 문서는 기록 안 함).
+    manifest = {"transcripts": {}, "spool": [], "docs": {},
                 "deferred": (len(units) - len(consumed)) + unread}
     for u in consumed:
         adv = u.get("advance")
@@ -140,8 +142,7 @@ def collect(root: Path | None = None, today: str | None = None) -> dict:
         elif u["kind"] == "spool":
             manifest["spool"].append(adv["note"])
         elif u["kind"] == "doc":
-            manifest["docs"].append(adv["doc_key"])
-    manifest["docs"].sort()
+            manifest["docs"][adv["doc_id"]] = adv["doc_key"]
 
     (root / "state").mkdir(parents=True, exist_ok=True)
     batch_path = root / "state" / f"batch-{today}.md"
