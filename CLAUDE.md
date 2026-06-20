@@ -9,6 +9,9 @@
      그 안의 `.md`/`.txt`(`doc_exts`) 중 **최근 `recent_days`(기본 7일) 안에 수정된** 파일만, 최신순으로.
      `node_modules`·hidden·빌드 산출물은 건너뛰고, `exclude_projects`(기본 `english-study`)는 제외.
      상태 추적 없이 매 실행마다 다시 훑으므로, 예산에 밀린 파일은 다음 실행에서 자연히 재시도된다.
+   - **빈 날 폴백**: 새 항목이 0개면 ① `backlog_days`(기본 14일) 윈도로 7일 너머
+     미처리 문서를 따라잡고, 그래도 없으면 ② `notes/` 누적 표현 중 아직 복습 안 한
+     것을 골라 복습본을 생성한다(`state/reviewed.json` 추적). 둘 다 없으면 중단한다.
 2. `claude -p` — `prompts/process.md` 지침대로 추출·분류·코칭하여 `daily/`·`notes/` 에 쓴다.
 3. `finalize` — 소비한 만큼만 `state/progress.json` 을 전진시키고, 처리한 spool 노트를
    `spool/done/<날짜>-<이름>` 으로 아카이브하고, commit & push.
