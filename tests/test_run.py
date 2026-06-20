@@ -47,9 +47,10 @@ def test_run_skips_finalize_when_llm_fails(tmp_path, monkeypatch):
     assert result["status"] == "llm_failed"
 
 def test_run_empty_mode_skips_llm(tmp_path, monkeypatch):
+    # item_count 를 1로 두어 mode=="empty" 가드 자체를 고립 검증한다(item_count==0 가드에 기대지 않음).
     calls = {"claude": 0}
     monkeypatch.setattr(runmod, "collect",
-                        lambda root, today=None: {"item_count": 0, "deferred": 0,
+                        lambda root, today=None: {"item_count": 1, "deferred": 0,
                                                   "batch_path": "x", "today": "2026-06-21",
                                                   "mode": "empty"})
     monkeypatch.setattr(runmod, "_invoke_claude",
