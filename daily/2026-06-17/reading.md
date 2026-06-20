@@ -5,15 +5,15 @@
 
 ---
 
-## 단락 1 — 출처: `docs/setup_vlms/01-runtime-layout-and-capacity.md`
+## 단락 1
 
-> "The server does not only load weights. It also needs the correct tokenizer,
-> processor, chat template, and preprocessor configuration. … `PagedAttention`
-> gives better KV-cache memory management, continuous batching keeps the GPU busy
-> across incoming requests, and prefix caching reuses shared prompt prefixes. In
-> this repo's workload, prefix caching is useful **because** many requests share
-> long fixed prompt instructions **while** only the image and a small amount of
-> context change."
+"The server does not only load weights. It also needs the correct tokenizer,
+processor, chat template, and preprocessor configuration. … `PagedAttention`
+gives better KV-cache memory management, continuous batching keeps the GPU busy
+across incoming requests, and prefix caching reuses shared prompt prefixes. In
+this repo's workload, prefix caching is useful **because** many requests share
+long fixed prompt instructions **while** only the image and a small amount of
+context change."
 
 **문법·구조**
 - `not only ... It also ...` — "단지 ~만이 아니라, ~도". 두 문장에 걸친 강조 병렬. 글에서 핵심을 *쌓아 올릴* 때.
@@ -31,12 +31,14 @@
 | 요청이 들어와도 GPU가 안 논다 | *Continuous batching keeps the GPU busy across incoming requests.* | *It keeps the GPU working even when new requests come in.* |
 | 고정 부분이 많아 캐싱이 잘 듣는다 | *Prefix caching is useful because requests share fixed instructions.* | *Caching helps a lot since most of the prompt stays the same.* |
 
+<sub>출처: `docs/setup_vlms/01-runtime-layout-and-capacity.md`</sub>
+
 ---
 
-## 단락 2 — 출처: `docs/setup_vlms/02-model-bringup-and-special-settings.md`
+## 단락 2
 
-> "Always validate both `/v1/models` health and one real screenshot request through
-> the same code path used by `poc/work2`. The model is not truly ready until both pass."
+"Always validate both `/v1/models` health and one real screenshot request through
+the same code path used by `poc/work2`. The model is not truly ready until both pass."
 
 **문법·구조**
 - `validate both A and B` — `both ... and ...` 상관접속. "둘 다" 검증하라는 *완결 요구*.
@@ -46,16 +48,18 @@
 - **through the same code path** — "같은 코드 경로를 거쳐". 테스트가 실제 동작과 *같은 길*을 타야 한다는 실무 표현.
 - **not truly ready until both pass** — "둘 다 통과해야 진짜 준비 완료". 완료 기준(definition of done)을 못 박는 문장.
 
+<sub>출처: `docs/setup_vlms/02-model-bringup-and-special-settings.md`</sub>
+
 ---
 
-## 단락 3 — 출처: repo:auto_recipe_creator grill-with-docs/SKILL.md ("Offer ADRs sparingly")
+## 단락 3
 
-> Only offer to create an ADR when all three are true:
-> 1. **Hard to reverse** — the cost of changing your mind later is meaningful
-> 2. **Surprising without context** — a future reader will wonder "why did they do it this way?"
-> 3. **The result of a real trade-off** — there were genuine alternatives and you picked one for specific reasons
->
-> If any of the three is missing, skip the ADR.
+Only offer to create an ADR when all three are true:
+1. **Hard to reverse** — the cost of changing your mind later is meaningful
+2. **Surprising without context** — a future reader will wonder "why did they do it this way?"
+3. **The result of a real trade-off** — there were genuine alternatives and you picked one for specific reasons
+
+If any of the three is missing, skip the ADR.
 
 **문법·구조**
 - `Only offer ... when all three are true` — 문두 `Only` + `when` 조건절. "세 조건이 *모두* 참일 때**만**" 이라는 강한 제한. `Only` 를 앞에 빼서 "예외적으로만 하라"는 톤을 만든다.
@@ -72,9 +76,11 @@
 - refined(문어): *Only document a decision when reversing it would be costly, the rationale is non-obvious, and a genuine alternative was rejected.* (작성)
 - plain(회화): *Only write it down if it'd be a pain to undo, isn't obvious, and you actually gave something up to choose it.* (작성)
 
-## 단락 4 — 출처: repo:auto_recipe_creator grill-with-docs/SKILL.md ("During the session")
+<sub>출처: repo:auto_recipe_creator grill-with-docs/SKILL.md ("Offer ADRs sparingly")</sub>
 
-> When the user uses a term that conflicts with the existing language in CONTEXT.md, call it out immediately. When the user uses vague or overloaded terms, propose a precise canonical term. When domain relationships are being discussed, stress-test them with specific scenarios. When the user states how something works, check whether the code agrees. If you find a contradiction, surface it.
+## 단락 4
+
+When the user uses a term that conflicts with the existing language in CONTEXT.md, call it out immediately. When the user uses vague or overloaded terms, propose a precise canonical term. When domain relationships are being discussed, stress-test them with specific scenarios. When the user states how something works, check whether the code agrees. If you find a contradiction, surface it.
 
 **문법·구조**
 - 네 문장이 모두 `When ... , [명령형]` 의 **같은 골격**으로 반복된다. 동일 구조를 일부러 되풀이해(parallelism) "상황 → 즉각 행동" 규칙집의 리듬을 만든다. 영어 지침서의 전형적 문체.
@@ -90,3 +96,5 @@
 **격식 짝**
 - refined(문어): *When a stated behaviour contradicts the implementation, surface the discrepancy at once.* (작성)
 - plain(회화): *If what they say doesn't match the code, just call it out right away.* (작성)
+
+<sub>출처: repo:auto_recipe_creator grill-with-docs/SKILL.md ("During the session")</sub>

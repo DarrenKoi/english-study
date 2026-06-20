@@ -5,9 +5,9 @@
 
 ---
 
-## 단락 1 — 출처: repo:auto_recipe_creator poc/workflow_2/docs/superpowers/plans/2026-06-10-production-trust-consensus-cache-and-decision-layer.md
+## 단락 1
 
-> Many cycles raised the matcher score (ensemble C1/C2/C3 RRF + NCC rerank; consensus re-registration +0.442 in_topk in lab). Scores are high but **not enough for production**. Exploration found two structural gaps. The consensus cache is gathered but never consumed. The consensus build lives only in `poc/workflow_2/consensus_template.py` and is never imported by workflow_3. The biggest lab win is structurally disconnected from the production loop — likely *the* reason "high scores aren't enough": the office matches against drift-stale templates.
+Many cycles raised the matcher score (ensemble C1/C2/C3 RRF + NCC rerank; consensus re-registration +0.442 in_topk in lab). Scores are high but **not enough for production**. Exploration found two structural gaps. The consensus cache is gathered but never consumed. The consensus build lives only in `poc/workflow_2/consensus_template.py` and is never imported by workflow_3. The biggest lab win is structurally disconnected from the production loop — likely *the* reason "high scores aren't enough": the office matches against drift-stale templates.
 
 **문법·구조**:
 - **현재완료 vs 단순과거의 대비**: 첫 문장 `Many cycles **raised** the score` 는 단순과거(완료된 일련의 사이클). 반면 `The cache **is gathered** but never **consumed**` 는 **현재시제 수동태**로 "지금도 계속 그런 상태"라는 *지속되는 사실*을 말합니다. 시제만으로 "한 번 일어난 일"과 "여전히 그런 구조"를 구분하고 있어요.
@@ -26,11 +26,13 @@
 - *Scores are high but not enough for production.* (refined)
   ↔ *The numbers look great, but they won't cut it in production.* (plain; "won't cut it" = 성에 안 찬다/기준 미달)
 
+<sub>출처: repo:auto_recipe_creator poc/workflow_2/docs/superpowers/plans/2026-06-10-production-trust-consensus-cache-and-decision-layer.md</sub>
+
 ---
 
-## 단락 2 — 모범 단락(작성)
+## 단락 2
 
-> When a system can't be sure, the safest move is often to do nothing at all. Rather than click the wrong point, our gate will **abstain** and hand the case to an engineer. We keep one **escape hatch**, though: an operator can override the gate when they trust the match. Gathering fresh templates runs as a **best-effort** step — if it fails, the loop keeps the old cache and moves on, instead of crashing. None of this is free, so the office digest must report the full **trade-off curve**: every point we automate safely is weighed against every point we get wrong. Only once that curve looks healthy will we **green-light** the rollout.
+When a system can't be sure, the safest move is often to do nothing at all. Rather than click the wrong point, our gate will **abstain** and hand the case to an engineer. We keep one **escape hatch**, though: an operator can override the gate when they trust the match. Gathering fresh templates runs as a **best-effort** step — if it fails, the loop keeps the old cache and moves on, instead of crashing. None of this is free, so the office digest must report the full **trade-off curve**: every point we automate safely is weighed against every point we get wrong. Only once that curve looks healthy will we **green-light** the rollout.
 
 **문법·구조**:
 - **부정 주어 + 도치**: `**None of this is free**` 는 "이 중 어느 것도 공짜가 아니다". 부정어를 주어로 앞세워 단정적인 어조를 만듭니다.
@@ -45,3 +47,5 @@
 **격식 짝**:
 - *Our gate will abstain and hand the case to an engineer.* (refined)
   ↔ *When it's not sure, the system just backs off and lets a person decide.* (plain; "back off" = 물러서다/손 떼다)
+
+<sub>출처: 모범 단락(작성)</sub>

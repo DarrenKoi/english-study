@@ -2,9 +2,9 @@
 
 ---
 
-## 단락 1 — 출처: repo:wiki_for_office (architecture/overview.md, "What this is")
+## 단락 1
 
-> An internal, single-user-first **LLM wiki** for a semiconductor-memory manufacturing context. Users drop in screenshots/files/text; the system extracts, organizes, links, retrieves, and (later) drafts reports. Canonical knowledge is human-curated Markdown; all search structures are derived and disposable. If the wiki adds work for the user, it has failed.
+An internal, single-user-first **LLM wiki** for a semiconductor-memory manufacturing context. Users drop in screenshots/files/text; the system extracts, organizes, links, retrieves, and (later) drafts reports. Canonical knowledge is human-curated Markdown; all search structures are derived and disposable. If the wiki adds work for the user, it has failed.
 
 **문법·구조**:
 - 첫 문장은 동사가 없는 **명사구 정의문**(headline 스타일). 제품 소개·README에서 "이게 뭐냐"를 한 호흡에 던질 때 자주 쓴다. `single-user-first`처럼 `명사-명사-first` 하이픈 합성형용사로 "무엇을 우선하는 설계인지"를 압축.
@@ -21,11 +21,13 @@
 - refined: *Canonical knowledge is human-curated Markdown; all derived search structures are disposable and rebuildable.*
 - plain: *The real knowledge lives in Markdown that people write and clean up themselves. The search stuff is just built on top of that — you can wipe it and rebuild it anytime.*
 
+<sub>출처: repo:wiki_for_office (architecture/overview.md, "What this is")</sub>
+
 ---
 
-## 단락 2 — 출처: repo:wiki_for_office (architecture/overview.md, "How this was developed")
+## 단락 2
 
-> These decisions came out of a brainstorming session followed by three rounds of adversarial review (Codex): round 1 surfaced external/scope risks (auth, the DRM boundary, home-testability); round 2 caught self-inflicted invariant violations (provenance, prompt-injection, id-as-identity); round 3 caught second-order contradictions introduced by the round-2 fixes (interface drift, the approval-gate-vs-automation tradeoff, citation locators). The design converged where further scrutiny needs implementation code to verify.
+These decisions came out of a brainstorming session followed by three rounds of adversarial review (Codex): round 1 surfaced external/scope risks (auth, the DRM boundary, home-testability); round 2 caught self-inflicted invariant violations (provenance, prompt-injection, id-as-identity); round 3 caught second-order contradictions introduced by the round-2 fixes (interface drift, the approval-gate-vs-automation tradeoff, citation locators). The design converged where further scrutiny needs implementation code to verify.
 
 **문법·구조**:
 - 전체가 **과거시제 서사** — 끝난 검토 과정을 시간 순으로 보고. `came out of`(~에서 나왔다), `surfaced`(드러냈다), `caught`(잡아냈다)로 능동·구체적인 동사를 골라 "무엇이 무엇을 했다"를 또렷이 한다.
@@ -43,11 +45,13 @@
 - refined: *Round 2's fixes introduced second-order contradictions, which round 3 then had to resolve.*
 - plain: *The round-2 fixes ended up causing new problems of their own, and round 3 had to clean those up.*
 
+<sub>출처: repo:wiki_for_office (architecture/overview.md, "How this was developed")</sub>
+
 ---
 
-## 단락 3 — 출처: transcript (auto_recipe_creator, "하루 종일 돌려도 OOM 안 나나?" 진단)
+## 단락 3
 
-> The script itself is well-built for 24/7 running — no RAM leak in the code I can see. The expensive work (window capture, pywinauto enumeration, popup threads, PIL images) is edge-triggered: it only runs when a new align-fail appears, not on every 10-second poll. The only thing that grows without bound is the filesystem: every align-fail writes a new timestamped folder, and nothing ever deletes them. So it's safe to run all day from a memory standpoint — but watch disk usage, and verify the real fetcher closes its connections.
+The script itself is well-built for 24/7 running — no RAM leak in the code I can see. The expensive work (window capture, pywinauto enumeration, popup threads, PIL images) is edge-triggered: it only runs when a new align-fail appears, not on every 10-second poll. The only thing that grows without bound is the filesystem: every align-fail writes a new timestamped folder, and nothing ever deletes them. So it's safe to run all day from a memory standpoint — but watch disk usage, and verify the real fetcher closes its connections.
 
 **문법·구조**:
 - **기술 진단을 회화 톤으로** 푼 단락. `— no RAM leak in the code I can see`처럼 대시(`—`)로 핵심 결론을 덧붙이고, `I can see`(내가 본 한에서)로 *정직한 한정*을 단다. 단정과 겸손을 동시에.
@@ -63,3 +67,5 @@
 **격식 짝**:
 - refined: *From a memory standpoint the loop is safe for continuous operation; the outstanding risks are unbounded disk growth and the unaudited connection handling in the production fetcher.*
 - plain: *Memory-wise it's fine to leave running all day — just keep an eye on disk space, and double-check that the real fetcher isn't leaving connections open.*
+
+<sub>출처: transcript (auto_recipe_creator, "하루 종일 돌려도 OOM 안 나나?" 진단)</sub>

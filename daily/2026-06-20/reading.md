@@ -1,7 +1,7 @@
 # 2026-06-20 — 정독
 
-## 단락 1 — 출처: repo:skewnono_v3_nuxt docs/superpowers/plans/2026-06-19-hardware-raw-doc-mocks-plan1-backend.md
-> Feature-sliced Flask backend under `back_dev_home/ebeam/hitachi/hardware/`. The route layer (`routes.py`) parses the URL + query params and validates; the swap surface (`data.py`) selects mock vs. office provider; `providers/mock.py` dispatches per-service to faithful deterministic generators; `normalizers.py` wraps generated data into the canonical `HardwarePayload` envelope; `contracts.py` is the TypedDict source of truth; `metrics.py` is the beam_shape metric registry that the bsm generator fabricates from. Per the cross-phase principle, the home↔office swap stays isolated to `providers/`; `routes.py`/`normalizers.py`/`contracts.py` do not branch on phase.
+## 단락 1
+Feature-sliced Flask backend under `back_dev_home/ebeam/hitachi/hardware/`. The route layer (`routes.py`) parses the URL + query params and validates; the swap surface (`data.py`) selects mock vs. office provider; `providers/mock.py` dispatches per-service to faithful deterministic generators; `normalizers.py` wraps generated data into the canonical `HardwarePayload` envelope; `contracts.py` is the TypedDict source of truth; `metrics.py` is the beam_shape metric registry that the bsm generator fabricates from. Per the cross-phase principle, the home↔office swap stays isolated to `providers/`; `routes.py`/`normalizers.py`/`contracts.py` do not branch on phase.
 
 **문법·구조**:
 - **시제 — 현재 단순형(present simple)으로 시스템을 묘사**: `parses`, `selects`, `dispatches`, `wraps`, `stays isolated`, `do not branch`. 아키텍처·동작 설명은 "지금 한 번"이 아니라 "*항상 그렇게 동작한다*"는 일반 진리이므로 현재 단순형을 씁니다. 한국어 "~한다"에 해당. 절대 과거형(parsed)이나 미래형을 쓰지 않습니다.
@@ -18,10 +18,12 @@
 - refined: *The home/office swap stays isolated to `providers/`; the upper layers never branch on phase.* (작성)
 - plain: *Only `providers/` knows about home-vs-office — nothing above it cares which one is running.* (작성)
 
+<sub>출처: repo:skewnono_v3_nuxt docs/superpowers/plans/2026-06-19-hardware-raw-doc-mocks-plan1-backend.md</sub>
+
 ---
 
-## 단락 2 — 출처: transcript:-Users-daeyoung-Codes-auto-recipe-creator (15a1d642 세션, assistant)
-> If I prefix the timestamp onto the eqp_id folder (`20260530_133020_MCD916/...`), the captures get separated from the MES-downloaded recipe/measurement images for that same tool+recipe — they'd no longer sit side-by-side, and that tree wouldn't match workflow_2's expected layout. A cleaner way to get the same separation is a timestamped subfolder inside `captured_img_from_rcs/`, which keeps the eqp/class/recipe leaf intact and colocated.
+## 단락 2
+If I prefix the timestamp onto the eqp_id folder (`20260530_133020_MCD916/...`), the captures get separated from the MES-downloaded recipe/measurement images for that same tool+recipe — they'd no longer sit side-by-side, and that tree wouldn't match workflow_2's expected layout. A cleaner way to get the same separation is a timestamped subfolder inside `captured_img_from_rcs/`, which keeps the eqp/class/recipe leaf intact and colocated.
 
 **문법·구조**:
 - **조건문 — 1형식 가정에서 2형식 결과로 이어짐**: `If I prefix … , the captures get separated …` 는 현재형 조건절 + 현재형 결과(실제·반복 사실의 1형식). 이어서 같은 결과를 `they'd no longer sit side-by-side` (= they **would** not), `that tree **wouldn't** match` 로 **would** 를 써서 *가정된 결과의 함의* 를 부드럽게 풉니다. 같은 if 의 결과를 현재형(사실)→would(가정 함의)로 옮겨 단정 톤을 누그러뜨리는 자연스러운 구어 흐름입니다.
@@ -37,3 +39,5 @@
 **격식 짝**:
 - refined: *Nesting the captures in a timestamped subfolder keeps the existing leaf intact while still separating each event.* (작성)
 - plain: *Putting them in a per-event timestamp subfolder does the same thing without messing up the existing folders.* (작성)
+
+<sub>출처: transcript:-Users-daeyoung-Codes-auto-recipe-creator (15a1d642 세션, assistant)</sub>

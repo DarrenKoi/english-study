@@ -4,9 +4,9 @@
 
 ---
 
-## 단락 1 — 출처: repo:wiki_for_office (docs/architecture/overview.md, "What this is")
+## 단락 1
 
-> An internal, single-user-first **LLM wiki** for a semiconductor-memory manufacturing context. Users drop in screenshots/files/text; the system extracts, organizes, links, retrieves, and (later) drafts reports. Canonical knowledge is human-curated Markdown; all search structures are derived and disposable. If the wiki adds work for the user, it has failed.
+An internal, single-user-first **LLM wiki** for a semiconductor-memory manufacturing context. Users drop in screenshots/files/text; the system extracts, organizes, links, retrieves, and (later) drafts reports. Canonical knowledge is human-curated Markdown; all search structures are derived and disposable. If the wiki adds work for the user, it has failed.
 
 **문법·구조**
 - **명사구 한 방으로 정의**: 첫 문장엔 동사가 없습니다(`An internal … LLM wiki for …`). 설계문서·제품소개에서 "이건 X다"를 압축할 때 흔한 *headline noun phrase* — 형용사를 앞에 쌓아(`internal, single-user-first`) 한 줄로 정체성을 못 박습니다.
@@ -24,11 +24,13 @@
 - refined (문어): *All search structures are **derived and disposable**, rebuildable from the canonical store at any time.* (작성)
 - plain (회화): *Don't worry about the index — **we can just rebuild it** from the source whenever.* (작성)
 
+<sub>출처: repo:wiki_for_office (docs/architecture/overview.md, "What this is")</sub>
+
 ---
 
-## 단락 2 — 출처: repo:wiki_for_office (docs/architecture/overview.md, "How this was developed")
+## 단락 2
 
-> These decisions came out of a brainstorming session followed by three rounds of adversarial review (Codex): round 1 surfaced external/scope risks (auth, the DRM boundary, home-testability); round 2 caught self-inflicted invariant violations (provenance, prompt-injection, id-as-identity); round 3 caught second-order contradictions introduced by the round-2 fixes (interface drift, the approval-gate-vs-automation tradeoff, citation locators). The design converged where further scrutiny needs implementation code to verify.
+These decisions came out of a brainstorming session followed by three rounds of adversarial review (Codex): round 1 surfaced external/scope risks (auth, the DRM boundary, home-testability); round 2 caught self-inflicted invariant violations (provenance, prompt-injection, id-as-identity); round 3 caught second-order contradictions introduced by the round-2 fixes (interface drift, the approval-gate-vs-automation tradeoff, citation locators). The design converged where further scrutiny needs implementation code to verify.
 
 **문법·구조**
 - **과거시제 = 끝난 과정의 서술**: `came out of`, `surfaced`, `caught`. 단락 1(사양·현재)과 정반대로, "어떻게 만들어졌나"는 *완료된 사건*이라 과거시제. 같은 문서 안에서도 **설명하는 대상에 따라 시제가 갈린다**는 게 핵심.
@@ -45,3 +47,5 @@
 **격식 짝** — "그 수정 때문에 새 문제가 생겼다"
 - refined (문어): *Round 3 caught **second-order contradictions introduced by** the round-2 fixes.* (원문)
 - plain (회화): *Turns out fixing round 2 **broke a few other things** — that's what round 3 picked up.* (작성)
+
+<sub>출처: repo:wiki_for_office (docs/architecture/overview.md, "How this was developed")</sub>
