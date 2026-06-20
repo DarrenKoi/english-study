@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from pipeline import finalize, config
+from pipeline import finalize, config, review
 
 def test_finalize_advances_state_and_moves_requests(tmp_path, monkeypatch):
     root = tmp_path
@@ -69,3 +69,21 @@ def test_finalize_archives_same_name_note_without_clobber(tmp_path, monkeypatch)
     done = root / "spool" / "done"
     assert (done / "2026-06-14-q.md").read_text(encoding="utf-8") == "first"   # 보존
     assert (done / "2026-06-14-q-2.md").read_text(encoding="utf-8") == "second"  # 새 이름
+
+
+def test_finalize_advances_reviewed_ledger(tmp_path, monkeypatch):
+    # 복습한 표현은 state/reviewed.json 에 today 로 누적된다(성공 시에만).
+    root = tmp_path
+    (root / "state").mkdir()
+    config.save_state({"transcripts": {}, "docs_seen": {}, "last_run": None},
+                      root / "state" / "progress.json")
+    (root / "state" / "consumed-2026-06-21.json").write_text(json.dumps({
+        "transcripts": {}, "spool": [], "docs": {},
+        "reviewed": ["backstop", "blast radius"], "mode": "review", "deferred": 0,
+    }), encoding="utf-8")
+    monkeypatch.setattr(finalize, "_git_commit_push", lambda root, msg: None)
+
+    finalize.finalize(root=root, today="2026-06-21")
+
+    data = review.load_reviewed(root)
+    assert data == {"backstop": "2026-06-21", "blast radius": "2026-06-21"}

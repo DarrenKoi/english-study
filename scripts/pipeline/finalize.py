@@ -4,7 +4,7 @@ import subprocess
 from datetime import date
 from pathlib import Path
 
-from pipeline import config
+from pipeline import config, review
 
 def _git_commit_push(root: Path, msg: str) -> None:
     subprocess.run(["git", "-C", str(root), "add", "-A"], check=False)
@@ -27,6 +27,11 @@ def finalize(root: Path | None = None, today: str | None = None) -> dict:
     state["docs_seen"] = seen
     state["last_run"] = today
     config.save_state(state, root / "state" / "progress.json")
+
+    # 복습한 표현을 영구 ledger(reviewed.json)에 전진시킨다 — docs_seen 과 동일 규율.
+    reviewed = manifest.get("reviewed") or []
+    if reviewed:
+        review.mark_reviewed(root, reviewed, today)
 
     # 처리된 spool 노트를 spool/done 으로 날짜 접두사 붙여 아카이브 (멱등성).
     # 같은 날 같은 이름의 노트가 또 오면 기존 아카이브를 덮어쓰지 않도록 -2,-3… 을 붙인다.
