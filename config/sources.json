@@ -8,5 +8,6 @@
   "doc_exts": [".md", ".txt"],
   "recent_days": 7,
   "backlog_days": 14,
+  "daily_retention_days": 20,
   "exclude_projects": ["english-study"]
 }

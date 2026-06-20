@@ -14,7 +14,8 @@
      것을 골라 복습본을 생성한다(`state/reviewed.json` 추적). 둘 다 없으면 중단한다.
 2. `claude -p` — `prompts/process.md` 지침대로 추출·분류·코칭하여 `daily/`·`notes/` 에 쓴다.
 3. `finalize` — 소비한 만큼만 `state/progress.json` 을 전진시키고, 처리한 spool 노트를
-   `spool/done/<날짜>-<이름>` 으로 아카이브하고, commit & push.
+   `spool/done/<날짜>-<이름>` 으로 아카이브하고, `daily/` 에서 `daily_retention_days`(기본 20일)
+   넘게 오래된 날짜 폴더를 지운 뒤, commit & push.
 
 ## 직접 쓰는 법
 - 궁금한 것·공부하고 싶은 것을 `spool/` 에 `.txt`/`.md` 파일로 적어두면 다음 실행이 **최우선**으로 답한다.

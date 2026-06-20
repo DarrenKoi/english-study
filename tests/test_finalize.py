@@ -71,6 +71,49 @@ def test_finalize_archives_same_name_note_without_clobber(tmp_path, monkeypatch)
     assert (done / "2026-06-14-q-2.md").read_text(encoding="utf-8") == "second"  # 새 이름
 
 
+def test_prune_old_daily_removes_folders_past_retention(tmp_path):
+    # today 기준 retention_days 보다 더 오래된 날짜 폴더만 지운다(경계는 보존).
+    root = tmp_path
+    daily = root / "daily"
+    for d in ["2026-05-30", "2026-05-31", "2026-06-01", "2026-06-20", "2026-06-21"]:
+        (daily / d).mkdir(parents=True)
+        (daily / d / "digest.md").write_text("x", encoding="utf-8")
+    (daily / "_templates").mkdir()   # 날짜가 아닌 폴더는 건드리지 않는다
+
+    removed = finalize.prune_old_daily(root, today="2026-06-21", retention_days=20)
+
+    assert set(removed) == {"2026-05-30", "2026-05-31"}      # cutoff=2026-06-01 미만만
+    assert not (daily / "2026-05-30").exists()
+    assert not (daily / "2026-05-31").exists()
+    assert (daily / "2026-06-01").exists()                   # 정확히 20일 → 보존
+    assert (daily / "2026-06-21").exists()
+    assert (daily / "_templates").exists()                   # 비-날짜 폴더 보존
+
+
+def test_prune_old_daily_noop_when_dir_missing(tmp_path):
+    assert finalize.prune_old_daily(tmp_path, today="2026-06-21", retention_days=20) == []
+
+
+def test_finalize_prunes_old_daily(tmp_path, monkeypatch):
+    # finalize 가 오래된 daily 폴더를 정리한다(config 없으면 기본 20일).
+    root = tmp_path
+    (root / "state").mkdir()
+    (root / "daily" / "2026-05-01").mkdir(parents=True)
+    (root / "daily" / "2026-06-21").mkdir(parents=True)
+    config.save_state({"transcripts": {}, "docs_seen": {}, "last_run": None},
+                      root / "state" / "progress.json")
+    (root / "state" / "consumed-2026-06-21.json").write_text(json.dumps({
+        "transcripts": {}, "spool": [], "docs": {}, "deferred": 0,
+    }), encoding="utf-8")
+    monkeypatch.setattr(finalize, "_git_commit_push", lambda root, msg: None)
+
+    out = finalize.finalize(root=root, today="2026-06-21")
+
+    assert not (root / "daily" / "2026-05-01").exists()      # 51일 전 → 삭제
+    assert (root / "daily" / "2026-06-21").exists()          # 오늘 → 보존
+    assert out["pruned"] == ["2026-05-01"]
+
+
 def test_finalize_advances_reviewed_ledger(tmp_path, monkeypatch):
     # 복습한 표현은 state/reviewed.json 에 today 로 누적된다(성공 시에만).
     root = tmp_path
