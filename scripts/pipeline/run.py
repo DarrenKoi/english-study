@@ -21,7 +21,7 @@ def run(root: Path | None = None) -> dict:
     root = Path(root) if root else config.root()
     info = collect(root=root)
     today = info["today"]
-    if info["item_count"] == 0:
+    if info.get("mode") == "empty" or info["item_count"] == 0:
         print(f"[{today}] 처리할 새 항목 없음. 종료.")
         return {"status": "empty", "today": today}
 
@@ -39,8 +39,9 @@ def run(root: Path | None = None) -> dict:
     return {"status": "done", "today": today, **usage}
 
 def _build_prompt(root: Path, info: dict) -> str:
-    process_md = root / "prompts" / "process.md"
-    base = process_md.read_text(encoding="utf-8") if process_md.exists() else ""
+    fname = "review.md" if info.get("mode") == "review" else "process.md"
+    prompt_md = root / "prompts" / fname
+    base = prompt_md.read_text(encoding="utf-8") if prompt_md.exists() else ""
     today = info["today"]
     return (f"{base}\n\n---\n"
             f"처리할 배치 파일: {info['batch_path']}\n"
