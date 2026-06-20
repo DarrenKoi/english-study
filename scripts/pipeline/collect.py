@@ -4,7 +4,7 @@ import time
 from datetime import date
 from pathlib import Path
 
-from pipeline import config, gitutil, transcripts, spool, batch
+from pipeline import config, gitutil, transcripts, spool, batch, review
 
 DEFAULT_DOC_DIRS = ["doc", "docs", "shared_docs"]
 DEFAULT_DOC_EXTS = [".md", ".txt"]
@@ -96,6 +96,17 @@ def _doc_units(base: Path, cfg: dict, seen: dict, char_budget: int) -> tuple[lis
         doc_chars += len(text)
     return units, unread
 
+def _review_units(root: Path, cfg: dict) -> list[dict]:
+    """notes/ 미복습 표현을 골라 복습 단위 하나로 묶는다. 없으면 빈 리스트."""
+    picks = review.select_unreviewed(root, cfg.get("digest_max", 7))
+    if not picks:
+        return []
+    lines = "\n".join(f"- {p['expr']} ({p['link']})" for p in picks)
+    return [{"kind": "review", "id": "review", "provenance": "review",
+             "text": f"복습 대상 표현:\n{lines}",
+             "advance": {"reviewed": [p["expr"] for p in picks]}}]
+
+
 def collect(root: Path | None = None, today: str | None = None) -> dict:
     root = Path(root) if root else config.root()
     today = today or date.today().isoformat()
@@ -138,13 +149,24 @@ def collect(root: Path | None = None, today: str | None = None) -> dict:
                       "provenance": f"transcript:{fname}", "text": "\n\n".join(texts),
                       "advance": {"transcript": fname, "offset": new_offsets[fname]}})
 
-    # 예산 내 조립
+    # 예산 내 조립 (정상 패스)
     batch_text, consumed = batch.build_batch(units, char_budget, today)
+    mode = "normal"
 
-    # 매니페스트(소비 단위만 상태 전진 대상). 배치에 들어간 문서는 docs(경로→키)에 적어
-    # finalize 가 성공 시 영구 원장으로 승격시킨다(예산에 밀려 빠진 문서는 기록 안 함).
-    manifest = {"transcripts": {}, "spool": [], "docs": {},
-                "deferred": (len(units) - len(consumed)) + unread}
+    # 빈 날 폴백: 정상 패스가 비면 ① 백로그(7일 너머 노화 문서) → ② 복습(notes/ 미복습)
+    if not consumed:
+        backlog_cfg = {**cfg, "recent_days": cfg.get("backlog_days", DEFAULT_BACKLOG_DAYS)}
+        units, unread = _doc_units(base, backlog_cfg, seen, char_budget)
+        batch_text, consumed = batch.build_batch(units, char_budget, today)
+        mode = "backlog"
+        if not consumed:
+            units, unread = _review_units(root, cfg), 0
+            batch_text, consumed = batch.build_batch(units, char_budget, today)
+            mode = "review" if consumed else "empty"
+
+    # 매니페스트(소비 단위만 상태 전진 대상)
+    manifest = {"transcripts": {}, "spool": [], "docs": {}, "reviewed": [],
+                "mode": mode, "deferred": (len(units) - len(consumed)) + unread}
     for u in consumed:
         adv = u.get("advance")
         if u["kind"] == "transcript":
@@ -153,6 +175,8 @@ def collect(root: Path | None = None, today: str | None = None) -> dict:
             manifest["spool"].append(adv["note"])
         elif u["kind"] == "doc":
             manifest["docs"][adv["doc_id"]] = adv["doc_key"]
+        elif u["kind"] == "review":
+            manifest["reviewed"].extend(adv["reviewed"])
 
     (root / "state").mkdir(parents=True, exist_ok=True)
     batch_path = root / "state" / f"batch-{today}.md"
@@ -161,7 +185,7 @@ def collect(root: Path | None = None, today: str | None = None) -> dict:
         json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
 
     return {"item_count": len(consumed), "deferred": manifest["deferred"],
-            "batch_path": str(batch_path), "today": today}
+            "batch_path": str(batch_path), "today": today, "mode": mode}
 
 if __name__ == "__main__":
     print(collect())

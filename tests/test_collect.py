@@ -207,3 +207,68 @@ def test_new_day_picks_up_edited_doc(tmp_path, monkeypatch):
     _write(doc, "Body, revised the next day with more content.")
     next_day = collect.collect(root=root, today="2026-06-19")
     assert next_day["item_count"] == 1            # 내용 변경 → 재수집
+
+
+def _index(root: Path, body: str) -> None:
+    (root / "notes").mkdir(parents=True, exist_ok=True)
+    (root / "notes" / "index.md").write_text(body, encoding="utf-8")
+
+
+def test_empty_day_backlog_pass_picks_aged_doc(tmp_path, monkeypatch):
+    # 정상 윈도(7일) 밖, 백로그 윈도(14일) 안의 미처리 문서를 빈 날에 따라잡는다.
+    root, codes = tmp_path / "study", tmp_path / "codes"
+    _sources(root, codes, backlog_days=14)
+    _no_transcripts(monkeypatch)
+    _no_git(monkeypatch)
+    _write(codes / "proj" / "docs" / "aged.md", "Aged backlog body.", age_days=10)
+
+    result = collect.collect(root=root)
+    assert result["mode"] == "backlog"
+    assert result["item_count"] == 1
+    assert "Aged backlog body." in _batch(root)
+    assert set(_manifest(root)["docs"]) == {"proj/docs/aged.md"}
+
+
+def test_empty_day_review_pass_when_no_backlog(tmp_path, monkeypatch):
+    root, codes = tmp_path / "study", tmp_path / "codes"
+    _sources(root, codes, backlog_days=14, digest_max=7)
+    _no_transcripts(monkeypatch)
+    _no_git(monkeypatch)
+    _index(root,
+           "- [backstop](daily/2026-06-17/new-expressions.md) — 2026-06-17\n"
+           "- [blast radius](daily/2026-06-20/new-expressions.md) — 2026-06-20\n")
+
+    result = collect.collect(root=root)
+    assert result["mode"] == "review"
+    assert result["item_count"] == 1            # 복습 단위 하나
+    m = _manifest(root)
+    assert m["reviewed"] == ["backstop", "blast radius"]
+    assert "backstop" in _batch(root)
+
+
+def test_empty_day_returns_empty_when_nothing(tmp_path, monkeypatch):
+    root, codes = tmp_path / "study", tmp_path / "codes"
+    _sources(root, codes, backlog_days=14)
+    _no_transcripts(monkeypatch)
+    _no_git(monkeypatch)
+
+    result = collect.collect(root=root)
+    assert result["mode"] == "empty"
+    assert result["item_count"] == 0
+
+
+def test_review_pass_skips_already_reviewed(tmp_path, monkeypatch):
+    root, codes = tmp_path / "study", tmp_path / "codes"
+    _sources(root, codes, backlog_days=14)
+    _no_transcripts(monkeypatch)
+    _no_git(monkeypatch)
+    _index(root,
+           "- [backstop](daily/2026-06-17/new-expressions.md) — 2026-06-17\n"
+           "- [blast radius](daily/2026-06-20/new-expressions.md) — 2026-06-20\n")
+    (root / "state").mkdir(parents=True, exist_ok=True)
+    (root / "state" / "reviewed.json").write_text(
+        json.dumps({"backstop": "2026-06-19"}), encoding="utf-8")
+
+    result = collect.collect(root=root)
+    assert result["mode"] == "review"
+    assert _manifest(root)["reviewed"] == ["blast radius"]
