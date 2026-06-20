@@ -35,7 +35,20 @@
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-19-hardware-raw-doc-mocks-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-19-hardware-raw-doc-mocks-design.md:1781881288.5732074:14048",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-06-19-hardware-raw-doc-mocks-plan2-frontend.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-06-19-hardware-raw-doc-mocks-plan2-frontend.md:1781881288.572945:86364",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-06-19-hardware-raw-doc-mocks-plan1-backend.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-06-19-hardware-raw-doc-mocks-plan1-backend.md:1781881288.5726914:81478",
-    "auto_recipe_creator/poc/workflow_2/docs/superpowers/specs/2026-06-19-om-sem-modality-split-eval-design.md": "auto_recipe_creator/poc/workflow_2/docs/superpowers/specs/2026-06-19-om-sem-modality-split-eval-design.md:1781881273.637121:13466"
+    "auto_recipe_creator/poc/workflow_2/docs/superpowers/specs/2026-06-19-om-sem-modality-split-eval-design.md": "auto_recipe_creator/poc/workflow_2/docs/superpowers/specs/2026-06-19-om-sem-modality-split-eval-design.md:1781881273.637121:13466",
+    "auto_recipe_creator/poc/workflow_2/docs/superpowers/specs/2026-06-11-multi-tool-serial-queue-design.md": "auto_recipe_creator/poc/workflow_2/docs/superpowers/specs/2026-06-11-multi-tool-serial-queue-design.md:1781881273.6370013:21788",
+    "auto_recipe_creator/poc/workflow_2/docs/superpowers/specs/2026-06-11-matching-improvement-roadmap.md": "auto_recipe_creator/poc/workflow_2/docs/superpowers/specs/2026-06-11-matching-improvement-roadmap.md:1781881273.6365724:12828",
+    "auto_recipe_creator/poc/workflow_2/docs/superpowers/specs/2026-06-11-box-crop-localization-validation-design.md": "auto_recipe_creator/poc/workflow_2/docs/superpowers/specs/2026-06-11-box-crop-localization-validation-design.md:1781881273.6361487:8334",
+    "auto_recipe_creator/poc/workflow_2/docs/superpowers/specs/2026-06-10-peak-isolation-reregister-notify-design.md": "auto_recipe_creator/poc/workflow_2/docs/superpowers/specs/2026-06-10-peak-isolation-reregister-notify-design.md:1781881273.635686:11058",
+    "auto_recipe_creator/poc/workflow_2/docs/superpowers/specs/2026-06-10-consensus-gather-in-loop-design.md": "auto_recipe_creator/poc/workflow_2/docs/superpowers/specs/2026-06-10-consensus-gather-in-loop-design.md:1781881273.6353652:14192",
+    "auto_recipe_creator/poc/workflow_2/docs/superpowers/specs/2026-06-09-consensus-productization-design.md": "auto_recipe_creator/poc/workflow_2/docs/superpowers/specs/2026-06-09-consensus-productization-design.md:1781881273.634958:10380",
+    "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-19-om-sem-modality-split-eval.md": "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-19-om-sem-modality-split-eval.md:1781881273.6344845:36652",
+    "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-11-engineer-done-detector.md": "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-11-engineer-done-detector.md:1781881273.6343415:47126",
+    "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-11-box-crop-localization-validation.md": "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-11-box-crop-localization-validation.md:1781881273.6338701:20238",
+    "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-10-production-trust-consensus-cache-and-decision-layer.md": "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-10-production-trust-consensus-cache-and-decision-layer.md:1781881273.6334097:11068",
+    "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-10-consensus-gather-in-loop.md": "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-10-consensus-gather-in-loop.md:1781881273.6328495:33577",
+    "auto_recipe_creator/poc/workflow_2/docs/study/runbooks/golden_combined_office_runbook.md": "auto_recipe_creator/poc/workflow_2/docs/study/runbooks/golden_combined_office_runbook.md:1781881273.6322298:6262",
+    "auto_recipe_creator/docs/project_progress/README.md": "auto_recipe_creator/docs/project_progress/README.md:1781881273.6303623:2254"
   },
-  "last_run": "2026-06-20"
+  "last_run": "2026-06-21"
 }

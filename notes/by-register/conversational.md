@@ -45,3 +45,5 @@
   - 예: I read both sides of the contract before changing anything — there's a wrinkle worth flagging.
 - **just say the word** — "말씀만 하세요, 바로 합니다"(정중하지만 편한 협조 표현).
   - 예: I won't amend the commit message unless you want it — just say the word.
+- **a wash** — 득과 실이 상쇄돼 결국 차이가 없는 것(도긴개긴). ↔ a clear win / a net gain.
+  - 예: Even if the aggregate number is a wash, a hidden gain in the far-distance bin could still be there.

@@ -79,3 +79,9 @@
   - 예: We thread `start` and `end` through `get_hardware_service` so the provider receives the time window.
 - **exercise (a code path)** — 특정 코드 경로를 실제로 실행시켜 동작을 검증하다. ↔ leave it untested.
   - 예: This runs on the office Windows machine, so I couldn't exercise the actual capture path here.
+- **best-effort** — 되면 좋고 실패해도 전체를 막지 않는 비보장 작업(형용사). ↔ guaranteed/blocking.
+  - 예: Gathering the consensus images is a best-effort step — if it fails, the loop keeps the existing cache and moves on.
+- **trade-off curve** — 단일 평균값이 아니라, 한 축을 올리면 다른 축이 깎이는 맞교환 관계 곡선 전체. ↔ free lunch/win-win.
+  - 예: The digest must report the act/abstain trade-off curve, not just a single in_topk number.
+- **ground truth** — 모델 출력과 비교하는 검증된 실제 정답값(참값·정답 레이블). ↔ prediction/estimate.
+  - 예: Even when the template is placed exactly at the ground-truth location, the best chamfer peak still drifts 67% of the time.

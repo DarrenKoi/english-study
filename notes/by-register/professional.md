@@ -67,3 +67,11 @@
   - 예: The two BSM representations coexist by design; reconciling them is deferred to a future round.
 - **honour (a constraint / rule)** — (제약·규칙을) 준수하다(미국식 honor; respect 보다 격식). ↔ violate/break.
   - 예: These are project-wide rules; every task must honour all of them.
+- **escape hatch** — 기본 동작을 강제하되 필요시 빠져나갈 수 있게 남겨둔 예외 통로. ↔ hard constraint.
+  - 예: We force the ensemble matcher by default, but setting the flag to 0 is an escape hatch for baseline comparison.
+- **green-light (something)** — 검토 후 진행해도 좋다고 공식 승인하다(동사). ↔ block/put on hold.
+  - 예: The bin-level results green-light porting the box-crop feature to production.
+- **abstain** — 확신이 없을 때 행동하지 않고 보류·기권하다(시스템이 사람에게 넘김). ↔ act/commit.
+  - 예: When the score is ambiguous, the gate should abstain rather than click the wrong point.
+- **the headline ask** — 여러 요청 중 가장 핵심이 되는 요구사항(ask=명사 '요청'). ↔ a nice-to-have.
+  - 예: Phase 2 is the headline ask: make the fresh template actually flow into the correction path.

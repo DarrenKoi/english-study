@@ -6,7 +6,9 @@
 - [a row count separate from the row payload](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [a strong read, not a menu](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [a thin capture client](daily/2026-06-19/new-expressions.md) — 2026-06-19
+- [a wash](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [a wrinkle worth flagging](daily/2026-06-20/new-expressions.md) — 2026-06-20
+- [abstain](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [anchor on (the first plausible idea)](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [as decisions crystallise](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [as-of (date / snapshot)](daily/2026-06-20/new-expressions.md) — 2026-06-20
@@ -16,6 +18,7 @@
 - [be opinionated](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [before an irreversible action](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [benchmark against](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [best-effort](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [blast radius](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [borrow strength](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [bus-factor 1](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -37,11 +40,14 @@
 - [earning its keep](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [easier to grant later than to take away](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [edge-triggered](daily/2026-06-19/new-expressions.md) — 2026-06-19
+- [escape hatch](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [exercise (a code path)](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [fail-safe](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [faithful (to the source)](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [first-class](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [from a (memory) standpoint](daily/2026-06-19/new-expressions.md) — 2026-06-19
+- [green-light (something)](daily/2026-06-21/new-expressions.md) — 2026-06-21
+- [ground truth](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [grounded in (the literature)](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [grow without bound](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [hot path](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -80,12 +86,14 @@
 - [that's a vibe](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [the bridge between X and Y](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [the explicit no's are as valuable as the yes's](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [the headline ask](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [the interface is the test surface](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [the most likely to bite you](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [the system's own case law](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [the trust boundary is X, not Y](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [thread (a value) through](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [tracer bullet (vertical slice)](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [trade-off curve](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [train/serve skew](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [why on earth …?](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [worst-case](daily/2026-06-17/new-expressions.md) — 2026-06-17

@@ -4,3 +4,4 @@
 {"date": "2026-06-17", "input_tokens": 17248, "output_tokens": 14154, "cache_read_input_tokens": 1124182, "cost_usd": 1.5315210000000001, "items_processed": 42}
 {"date": "2026-06-19", "input_tokens": 14833, "output_tokens": 22191, "cache_read_input_tokens": 2109496, "cost_usd": 2.619598, "items_processed": 22}
 {"date": "2026-06-20", "input_tokens": 15860, "output_tokens": 23092, "cache_read_input_tokens": 2367461, "cost_usd": 2.784410499999999, "items_processed": 9}
+{"date": "2026-06-21", "input_tokens": 15408, "output_tokens": 22617, "cache_read_input_tokens": 1941661, "cost_usd": 2.5463755000000003, "items_processed": 14}
