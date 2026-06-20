@@ -7,5 +7,6 @@
   "doc_dirs": ["doc", "docs", "shared_docs"],
   "doc_exts": [".md", ".txt"],
   "recent_days": 7,
+  "backlog_days": 14,
   "exclude_projects": ["english-study"]
 }

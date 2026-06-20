@@ -9,6 +9,7 @@ from pipeline import config, gitutil, transcripts, spool, batch
 DEFAULT_DOC_DIRS = ["doc", "docs", "shared_docs"]
 DEFAULT_DOC_EXTS = [".md", ".txt"]
 DEFAULT_RECENT_DAYS = 7
+DEFAULT_BACKLOG_DAYS = 14
 # 문서 탐색 중 들어가지 않을 디렉터리(빌드 산출물·벤더·VCS 내부).
 PRUNE_DIRS = {"node_modules", ".git", ".venv", "venv", "__pycache__",
               "dist", "build", ".next", ".nuxt", ".output", "done"}
@@ -74,6 +75,27 @@ def discover_doc_files(base: Path, cfg: dict, now: float | None = None) -> list[
                                  "relpath": f.relative_to(project).as_posix(), "path": f}
     return sorted(found.values(), key=lambda d: d["mtime"], reverse=True)
 
+def _doc_units(base: Path, cfg: dict, seen: dict, char_budget: int) -> tuple[list[dict], int]:
+    """문서 폴더에서 ledger(seen)에 없는 최근 수정 문서를 예산 내에서 단위로 만든다.
+    cfg 의 recent_days 윈도를 그대로 쓰므로, 더 넓은 윈도(backlog)에도 재사용한다.
+    반환: (units, unread). unread = 예산에 밀려 읽지 않은 문서 수."""
+    units: list[dict] = []
+    doc_chars, unread = 0, 0
+    for d in discover_doc_files(base, cfg):
+        doc_id = f"{d['project']}/{d['relpath']}"
+        key = _doc_key(d["project"], d["relpath"], d["mtime"], d["size"])
+        if seen.get(doc_id) == key:
+            continue
+        if doc_chars >= char_budget:
+            unread += 1
+            continue
+        text = d["path"].read_text(encoding="utf-8", errors="replace")
+        units.append({"kind": "doc", "id": doc_id,
+                      "provenance": f"repo:{d['project']} {d['relpath']}",
+                      "text": text, "advance": {"doc_id": doc_id, "doc_key": key}})
+        doc_chars += len(text)
+    return units, unread
+
 def collect(root: Path | None = None, today: str | None = None) -> dict:
     root = Path(root) if root else config.root()
     today = today or date.today().isoformat()
@@ -102,20 +124,8 @@ def collect(root: Path | None = None, today: str | None = None) -> dict:
         if (project / ".git").exists():
             gitutil.pull(project)   # 최신 docs 반영(베스트에포트, 충돌 시 조용히 건너뜀)
     char_budget = cfg.get("char_budget", 200000)
-    doc_chars, unread = 0, 0
-    for d in discover_doc_files(base, cfg):
-        doc_id = f"{d['project']}/{d['relpath']}"
-        key = _doc_key(d["project"], d["relpath"], d["mtime"], d["size"])
-        if seen.get(doc_id) == key:
-            continue
-        if doc_chars >= char_budget:
-            unread += 1          # 예산을 이미 채움 → 읽지 않고 미룬다(다음 실행에서 재시도)
-            continue
-        text = d["path"].read_text(encoding="utf-8", errors="replace")
-        units.append({"kind": "doc", "id": doc_id,
-                      "provenance": f"repo:{d['project']} {d['relpath']}",
-                      "text": text, "advance": {"doc_id": doc_id, "doc_key": key}})
-        doc_chars += len(text)
+    doc_units, unread = _doc_units(base, cfg, seen, char_budget)
+    units.extend(doc_units)
 
     # 3) 트랜스크립트 — 파일 1개 = 단위 1개
     tx_dir = _expand(cfg["transcripts_dir"])
