@@ -114,6 +114,27 @@ def test_finalize_prunes_old_daily(tmp_path, monkeypatch):
     assert out["pruned"] == ["2026-05-01"]
 
 
+def test_finalize_prunes_dead_index_links(tmp_path, monkeypatch):
+    # finalize 가 복습 끝난 죽은 링크를 notes/index.md 에서 정리한다.
+    root = tmp_path
+    (root / "state").mkdir()
+    (root / "notes").mkdir()
+    (root / "notes" / "index.md").write_text(
+        "- [alpha](daily/2026-05-01/new-expressions.md) — 2026-05-01\n", encoding="utf-8")
+    review.save_reviewed(root, {"alpha": "2026-05-10"})
+    config.save_state({"transcripts": {}, "docs_seen": {}, "last_run": None},
+                      root / "state" / "progress.json")
+    (root / "state" / "consumed-2026-06-21.json").write_text(json.dumps({
+        "transcripts": {}, "spool": [], "docs": {}, "deferred": 0,
+    }), encoding="utf-8")
+    monkeypatch.setattr(finalize, "_git_commit_push", lambda root, msg: None)
+
+    out = finalize.finalize(root=root, today="2026-06-21")
+
+    assert out["pruned_index"] == ["alpha"]
+    assert "alpha" not in (root / "notes" / "index.md").read_text(encoding="utf-8")
+
+
 def test_finalize_advances_reviewed_ledger(tmp_path, monkeypatch):
     # 복습한 표현은 state/reviewed.json 에 today 로 누적된다(성공 시에만).
     root = tmp_path

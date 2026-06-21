@@ -78,9 +78,12 @@ def finalize(root: Path | None = None, today: str | None = None) -> dict:
     except FileNotFoundError:
         retention = 20
     pruned = prune_old_daily(root, today, retention)
+    # prune 로 죽은 notes/index.md 링크 중 복습 끝난 것 정리(미복습은 복습 큐로 보존).
+    pruned_index = review.prune_dead_index_links(root)
 
     _git_commit_push(root, f"study: nightly digest {today}")
-    return {"committed": True, "today": today, "pruned": pruned}
+    return {"committed": True, "today": today, "pruned": pruned,
+            "pruned_index": pruned_index}
 
 if __name__ == "__main__":
     print(finalize())

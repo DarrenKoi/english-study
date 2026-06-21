@@ -47,6 +47,30 @@ def mark_reviewed(root: Path, exprs: list[str], today: str) -> None:
     save_reviewed(root, data)
 
 
+def prune_dead_index_links(root: Path) -> list[str]:
+    """notes/index.md 에서 링크 대상이 사라졌고(=daily 폴더가 prune됨) **이미 복습한**
+    표현의 줄을 지운다. 미복습 표현은 죽은 링크여도 보존한다 — index 가 복습 큐라,
+    지우면 그 표현이 복습 대상에서 영영 빠지기 때문(맥락은 notes/by-register 에서 옴).
+    비-인덱스 줄(헤더 등)은 그대로 둔다. 지운 줄의 표현명을 반환한다.
+    """
+    path = Path(root) / "notes" / "index.md"
+    if not path.exists():
+        return []
+    reviewed = load_reviewed(root)
+    kept: list[str] = []
+    removed: list[str] = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        m = _LINE.match(line.strip())
+        if m and m.group("expr") in reviewed and not (Path(root) / m.group("link")).exists():
+            removed.append(m.group("expr"))
+            continue
+        kept.append(line)
+    if removed:
+        text = "\n".join(kept)
+        path.write_text(text + "\n" if text else text, encoding="utf-8")
+    return removed
+
+
 def select_unreviewed(root: Path, n: int) -> list[dict]:
     """아직 복습하지 않은 표현을 수집일 오래된 순으로 최대 n개 반환(표현 중복 제거)."""
     reviewed = load_reviewed(root)
