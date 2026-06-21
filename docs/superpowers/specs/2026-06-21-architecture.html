@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>english-study — 아키텍처 / 데이터 파이프라인</title>
+<style>
+  :root {
+    --bg: #0f1117; --panel: #171a23; --panel2: #1d212c; --border: #2a2f3d;
+    --ink: #e6e9ef; --muted: #9aa3b2; --accent: #6ea8fe; --accent2: #8ce99a;
+    --warn: #ffd43b; --pink: #f783ac; --mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: -apple-system, "Pretendard", "Apple SD Gothic Neo", Segoe UI, Roboto, sans-serif;
+    line-height: 1.65; font-size: 15px;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 48px 24px 96px; }
+  h1 { font-size: 30px; margin: 0 0 4px; letter-spacing: -0.02em; }
+  h2 { font-size: 22px; margin: 56px 0 14px; padding-bottom: 8px; border-bottom: 1px solid var(--border); letter-spacing: -0.01em; }
+  h3 { font-size: 17px; margin: 30px 0 10px; color: var(--accent); }
+  .sub { color: var(--muted); font-size: 14px; margin: 0 0 6px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  code { font-family: var(--mono); font-size: 0.86em; background: var(--panel2); padding: 1px 6px; border-radius: 5px; color: #d6e2ff; }
+  pre { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; overflow-x: auto; font-family: var(--mono); font-size: 12.5px; line-height: 1.55; color: #c8d0de; }
+  pre code { background: none; padding: 0; color: inherit; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 13.5px; }
+  th, td { border: 1px solid var(--border); padding: 8px 11px; text-align: left; vertical-align: top; }
+  th { background: var(--panel2); color: var(--ink); font-weight: 600; }
+  td code { font-size: 0.85em; }
+  .lead { font-size: 16px; color: var(--ink); background: var(--panel); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 8px; padding: 14px 18px; }
+  .note { background: var(--panel); border: 1px solid var(--border); border-left: 3px solid var(--warn); border-radius: 8px; padding: 12px 16px; margin: 16px 0; font-size: 14px; }
+  .tag { display: inline-block; font-family: var(--mono); font-size: 11px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--border); color: var(--muted); }
+  ul, ol { padding-left: 22px; }
+  li { margin: 4px 0; }
+  /* ---- diagram ---- */
+  .diagram { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 26px 18px; margin: 22px 0; }
+  .stage-row { display: flex; gap: 14px; justify-content: center; align-items: stretch; flex-wrap: wrap; }
+  .box { background: var(--panel2); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; flex: 1; min-width: 200px; }
+  .box h4 { margin: 0 0 6px; font-size: 15px; }
+  .box .who { font-family: var(--mono); font-size: 11px; color: var(--muted); }
+  .box ul { margin: 8px 0 0; padding-left: 18px; font-size: 12.5px; color: var(--muted); }
+  .box.collect { border-top: 3px solid var(--accent); }
+  .box.llm { border-top: 3px solid var(--pink); }
+  .box.finalize { border-top: 3px solid var(--accent2); }
+  .arrow { text-align: center; color: var(--muted); font-size: 22px; margin: 8px 0; font-family: var(--mono); }
+  .trigger { text-align: center; margin-bottom: 14px; }
+  .trigger code { font-size: 13px; background: #232838; }
+  .legend { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 18px; font-size: 12px; color: var(--muted); justify-content: center; }
+  .legend span::before { content: "■ "; }
+  .l1::before { color: var(--accent); } .l2::before { color: var(--pink); } .l3::before { color: var(--accent2); }
+  .footer { margin-top: 64px; padding-top: 18px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13px; }
+  .kv { color: var(--accent2); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>english-study — 아키텍처 / 데이터 파이프라인</h1>
+  <p class="sub">작성일 2026-06-21 · 현행 코드 기준(as-built) · <code>~/Codes/english-study</code></p>
+  <p class="sub">짝 문서(정본): <a href="2026-06-21-architecture.md">2026-06-21-architecture.md</a></p>
+
+  <p class="lead">
+    매일 밤 <code>~/Codes</code> 전 프로젝트와 Claude Code 대화 로그에서 영어를 자동 수집해,
+    그날의 <b>학습 다이제스트</b>(<code>daily/</code>)와 누적 <b>표현 노트</b>(<code>notes/</code>)로
+    가공하고 git push 한다. 평소 안 쓰고 남는 토큰을 학습에 돌린다.
+  </p>
+
+  <h2>1. 파이프라인 한눈에 보기</h2>
+
+  <div class="diagram">
+    <div class="trigger">
+      <span class="tag">launchd · 매일 00:01</span><br><br>
+      <code>scripts/run.sh</code> &nbsp;→&nbsp; <code>uv run python -m pipeline.run</code>
+    </div>
+    <div class="arrow">▼</div>
+    <div class="stage-row">
+      <div class="box collect">
+        <h4>① collect()</h4>
+        <span class="who">Python · collect.py</span>
+        <ul>
+          <li>spool 노트 (최우선)</li>
+          <li>~/Codes 문서 폴더 (7일 윈도)</li>
+          <li>대화 트랜스크립트 (오프셋 증분)</li>
+          <li>예산 조립 + 중복 필터</li>
+          <li>빈 날 폴백: backlog → review</li>
+        </ul>
+      </div>
+      <div class="box llm">
+        <h4>② claude -p</h4>
+        <span class="who">LLM · process.md / review.md</span>
+        <ul>
+          <li>표현 추출 · 레지스터 분류</li>
+          <li>맥락 · 유사어 · 격식 짝</li>
+          <li>정독 단락 · 한글→영어 코칭</li>
+          <li>도구: Read,Edit,Write,Glob 만</li>
+        </ul>
+      </div>
+      <div class="box finalize">
+        <h4>③ finalize()</h4>
+        <span class="who">Python · finalize.py</span>
+        <ul>
+          <li>상태 원장 전진 (소비분만)</li>
+          <li>spool → done 아카이브</li>
+          <li>오래된 daily prune (20일)</li>
+          <li>죽은 index 링크 정리</li>
+          <li>commit &amp; push</li>
+        </ul>
+      </div>
+    </div>
+    <div class="arrow">│&nbsp;&nbsp;&nbsp; state/batch-&lt;날짜&gt;.md &nbsp;+&nbsp; consumed-&lt;날짜&gt;.json &nbsp;&nbsp;&nbsp;│</div>
+    <div class="legend">
+      <span class="l1">수집·예산·중복필터 (코드)</span>
+      <span class="l2">추출·분류·코칭 (LLM)</span>
+      <span class="l3">상태전진·아카이브·push (코드)</span>
+    </div>
+  </div>
+
+  <h3>핵심 설계 원칙 — 역할 분리</h3>
+  <table>
+    <tr><th>책임</th><th>담당</th></tr>
+    <tr><td>파일 수집 · 증분(중복) 필터 · 토큰 예산 · 상태 전진 · git push</td><td><b>Python 코드</b> (<code>pipeline/*</code>)</td></tr>
+    <tr><td>영어 표현 추출 · 레지스터 분류 · 코칭 · 정독 단락</td><td><b><code>claude -p</code></b> (LLM, 파일 도구만)</td></tr>
+  </table>
+  <div class="note">
+    <b>보안 경계:</b> LLM 은 <code>Read,Edit,Write,Glob</code> 만 허용된다. 배치에 섞일 수 있는
+    프롬프트 인젝션이 Bash·네트워크로 번지지 못하게 막는 방어선이다. <code>git push</code> 는
+    LLM 이 아니라 <code>finalize</code> 의 Python 이 수행한다.
+  </div>
+
+  <h2>2. 디렉터리 구조</h2>
+<pre><code>english-study/
+├─ config/sources.json          <span class="kv"># 수집 소스·예산·보존 기간 등 모든 설정</span>
+├─ scripts/
+│  ├─ run.sh                     <span class="kv"># launchd 진입점 (PATH 설정 → uv run)</span>
+│  ├─ com.daeyoung.english-study.plist  <span class="kv"># launchd 잡 (매일 00:01)</span>
+│  └─ pipeline/                  <span class="kv"># 파이썬 패키지 (PYTHONPATH=scripts)</span>
+│     ├─ run.py                  <span class="kv"># 오케스트레이터: collect → claude -p → finalize</span>
+│     ├─ collect.py              <span class="kv"># 소스 수집 + 예산 조립 + 빈 날 폴백</span>
+│     ├─ batch.py                <span class="kv"># 단위 목록 → 예산 내 배치 텍스트</span>
+│     ├─ spool.py                <span class="kv"># 사용자 직접 노트 수집</span>
+│     ├─ transcripts.py          <span class="kv"># 대화 로그 증분 파싱 (오프셋)</span>
+│     ├─ gitutil.py              <span class="kv"># 소스 repo git pull (베스트에포트)</span>
+│     ├─ review.py               <span class="kv"># 복습 큐 / notes index 파싱·정리</span>
+│     ├─ finalize.py             <span class="kv"># 상태 전진·아카이브·prune·push</span>
+│     ├─ tokenlog.py             <span class="kv"># 토큰/비용 사용량 기록</span>
+│     └─ config.py               <span class="kv"># config/state 로더, 경로 헬퍼</span>
+├─ prompts/{process.md, review.md}   <span class="kv"># LLM 가공 지침 (정상 / 복습)</span>
+├─ spool/                        <span class="kv"># 사용자가 직접 적는 학습 질문 (.txt/.md)</span>
+│  └─ done/                      <span class="kv"># 처리된 노트 아카이브 (날짜 접두)</span>
+├─ state/                        <span class="kv"># 모든 런타임 상태</span>
+│  ├─ progress.json              <span class="kv"># 영구 원장: transcripts offset, docs_seen</span>
+│  ├─ reviewed.json              <span class="kv"># 복습 완료 표현 원장</span>
+│  ├─ batch-&lt;날짜&gt;.md            <span class="kv"># 그날 수집 배치 (LLM 입력)</span>
+│  ├─ consumed-&lt;날짜&gt;.json       <span class="kv"># 소비 매니페스트 (collect→finalize 핸드오프)</span>
+│  └─ token-log.jsonl           <span class="kv"># 일자별 토큰/비용 추이</span>
+├─ daily/&lt;날짜&gt;/                 <span class="kv"># 일일 산출물 (20일 보존)</span>
+└─ notes/                        <span class="kv"># 누적 표현 아카이브 (영구)</span>
+   ├─ by-register/*.md           <span class="kv"># 레지스터별 표현 정본 (한글 설명 + 예문)</span>
+   └─ index.md                   <span class="kv"># 표현 → daily 링크 = 복습 큐</span></code></pre>
+
+  <h2>3. 데이터 파이프라인 (3 단계)</h2>
+
+  <h3>단계 0 — 진입 (run.sh → run.py)</h3>
+  <p><code>run.sh</code> 는 launchd 의 최소 env 에서 호출되므로 <code>PATH</code>·<code>PYTHONPATH</code> 를
+  명시한 뒤 <code>uv run python -m pipeline.run</code> 을 실행한다(<code>uv</code> 가 Python·venv·의존성 자동 관리).
+  먼저 자기 repo 를 <code>git pull --ff-only</code>.</p>
+<pre><code>info = collect(root)
+  └─ 새 항목 0개 또는 mode == "empty"  →  종료 (상태 전진 없음)
+prompt = _build_prompt(root, info)        # mode 에 따라 process.md / review.md
+out = _invoke_claude(prompt, root)        # claude -p --allowedTools Read,Edit,Write,Glob
+  └─ 출력 비었으면(LLM 실패)  →  종료 (상태 전진 없음 → 다음 실행 재시도)
+tokenlog.append_token_log(...)            # 토큰/비용 기록
+finalize(root, today)                     # 상태 전진 + push</code></pre>
+  <div class="note">
+    <b>안전 속성:</b> <code>collect</code> 가 비거나 LLM 호출이 실패하면 <code>finalize</code> 를
+    <i>호출하지 않는다</i>. 상태 원장은 <code>finalize</code> 안에서만 전진하므로, 실패한 입력은
+    다음 실행에서 그대로 재시도된다.
+  </div>
+
+  <h3>단계 1 — collect() : 수집 · 예산 · 중복 필터</h3>
+  <p>4 종류 입력을 <b>단위(unit)</b> 리스트로 만든다. 수집 우선순위:</p>
+  <ol>
+    <li><b>spool 노트</b> (최우선) — <code>spool/*.{md,txt}</code>. 사용자가 직접 적은 질문</li>
+    <li><b>문서 폴더</b> — 각 프로젝트를 <code>git pull</code> 후, 깊이 무관하게
+      <code>doc/docs/shared_docs</code> 안의 <code>.md/.txt</code> 중 최근 <code>recent_days</code>(7일)
+      수정분만 최신순. <code>node_modules</code>·hidden·빌드 산출물 가지치기</li>
+    <li><b>트랜스크립트</b> — <code>~/.claude/projects/**/*.jsonl</code> 의 저장된 오프셋 이후 새 메시지 (파일당 단위 1개)</li>
+  </ol>
+  <p>단위는 <code>batch.build_batch()</code> 로 <code>char_budget</code>(200k자) 안에서 조립되며,
+  예산을 넘으면 건너뛰되 <b>최소 한 단위는 무조건 포함</b>한다.</p>
+
+  <h4>증분(중복 제거) — 두 개의 원장</h4>
+  <table>
+    <tr><th>입력</th><th>원장 (state)</th><th>동일성 키</th><th>키가 바뀌는 조건</th></tr>
+    <tr><td>문서</td><td><code>progress.json → docs_seen</code></td><td><code>project/relpath:mtime:size</code></td><td>파일 수정(mtime/크기 변동) → 재수집</td></tr>
+    <tr><td>트랜스크립트</td><td><code>progress.json → transcripts</code></td><td>줄 오프셋</td><td>새 줄 추가 → 그 줄부터 수집</td></tr>
+  </table>
+  <p><code>_doc_key()</code> 는 <b>stat 만으로</b>(mtime+size) 동일성을 판정해 변경 없는 파일은 읽지도
+  않는다. 원장은 <code>finalize</code> 성공 시에만 전진하므로 LLM 실패 후 재실행은 같은 문서를 다시 집는다.</p>
+
+  <h4>빈 날 폴백 (2 단계)</h4>
+<pre><code>정상 패스(mode="normal")에서 소비 0개면:
+
+① backlog (mode="backlog")
+   recent_days → backlog_days(14일)로 넓혀 7일 너머 미처리 문서 따라잡기
+        │ 그래도 0개면
+        ▼
+② review (mode="review")
+   notes/index.md 의 미복습 표현(reviewed.json 추적)을 오래된 순으로 복습 단위 1개로 묶음
+        │ 그래도 0개면
+        ▼
+   mode="empty"  →  run.py 즉시 종료</code></pre>
+
+  <h4>매니페스트 출력</h4>
+  <ul>
+    <li><code>state/batch-&lt;날짜&gt;.md</code> — LLM 입력 (provenance 헤더로 구분된 원문 묶음)</li>
+    <li><code>state/consumed-&lt;날짜&gt;.json</code> — <b>소비된 단위만</b> 기록. <code>transcripts</code>(파일→오프셋),
+      <code>spool</code>, <code>docs</code>(경로→키), <code>reviewed</code>, <code>mode</code>, <code>deferred</code>.
+      collect→finalize 사이 유일한 핸드오프</li>
+  </ul>
+
+  <h3>단계 2 — claude -p : LLM 가공</h3>
+  <p><code>process.md</code> 지침 요약 — ① 표현 추출 ② 레지스터 분류(professional/conversational/casual/technical)
+  ③ 맥락 설명 ④ 정독 단락(문법 in context) ⑤ 격식 짝(refined↔plain) ⑥ 유사어·반의어
+  ⑦ 한글→영어 코칭(내가 쓴 한국어 우선, 어시스턴트 고급 문장 보조 2~4문장).</p>
+  <p>산출물: <code>daily/&lt;날짜&gt;/{new-expressions,reading,coaching,digest}.md</code> + spool 답변 <code>spool/&lt;이름&gt;.md</code> +
+  <code>notes/by-register/*.md</code>(누적) + <code>notes/index.md</code>(복습 큐).
+  복습 모드(<code>review.md</code>)는 새 표현을 만들지 않고 <code>notes/by-register</code> 의 맥락으로
+  <code>review.md</code>+<code>digest.md</code> 복습본을 만든다.</p>
+
+  <h3>단계 3 — finalize() : 상태 전진 · 정리 · push</h3>
+  <p><code>consumed-&lt;날짜&gt;.json</code> 을 읽어 <b>소비한 만큼만</b> 전진:</p>
+  <ol>
+    <li><b>원장 전진</b> — <code>progress.json</code> 의 transcripts(오프셋)·docs_seen(키)·last_run 갱신</li>
+    <li><b>복습 전진</b> — 소비된 reviewed 표현을 <code>reviewed.json</code>(표현→날짜)에 누적</li>
+    <li><b>spool 아카이브</b> — 처리 노트를 <code>spool/done/&lt;날짜&gt;-&lt;이름&gt;</code> 으로 이동(멱등성: 충돌 시 <code>-2,-3…</code>)</li>
+    <li><b>오래된 daily prune</b> — <code>today</code> 기준 20일 넘은 <code>daily/&lt;날짜&gt;/</code> 삭제(경계 보존)</li>
+    <li><b>죽은 index 링크 정리</b> — 링크 대상이 사라졌고 <b>이미 복습한</b> 표현 줄만 삭제. 미복습은 죽은 링크여도 <b>보존</b>(복습 큐 유지; 맥락 정본은 by-register 에 있음)</li>
+    <li><b>commit &amp; push</b> — <code>study: nightly digest &lt;날짜&gt;</code></li>
+  </ol>
+
+  <h2>4. 상태 파일 모델</h2>
+  <table>
+    <tr><th>파일</th><th>쓰는 주체</th><th>역할</th><th>수명</th></tr>
+    <tr><td><code>state/progress.json</code></td><td>finalize</td><td>영구 원장: transcripts 오프셋, docs_seen 키, last_run</td><td>영구</td></tr>
+    <tr><td><code>state/reviewed.json</code></td><td>finalize(review)</td><td>복습 완료 표현 → 날짜</td><td>영구</td></tr>
+    <tr><td><code>state/batch-&lt;날짜&gt;.md</code></td><td>collect</td><td>그날 LLM 입력</td><td>1회용</td></tr>
+    <tr><td><code>state/consumed-&lt;날짜&gt;.json</code></td><td>collect</td><td>collect→finalize 핸드오프 매니페스트</td><td>1회용</td></tr>
+    <tr><td><code>state/token-log.jsonl</code></td><td>run(tokenlog)</td><td>일자별 input/output/cache/cost/items</td><td>누적</td></tr>
+    <tr><td><code>notes/index.md</code></td><td>LLM(process)</td><td>표현→daily 링크 = 복습 큐</td><td>영구</td></tr>
+    <tr><td><code>notes/by-register/*.md</code></td><td>LLM(process)</td><td>표현 정본(한글 설명+예문)</td><td>영구</td></tr>
+    <tr><td><code>daily/&lt;날짜&gt;/*</code></td><td>LLM</td><td>일일 산출물</td><td>20일</td></tr>
+  </table>
+
+  <h2>5. 설정 (config/sources.json)</h2>
+<pre><code>{
+  "base_path": "~/Codes",                  <span class="kv">// 문서 소스 루트</span>
+  "transcripts_dir": "~/.claude/projects", <span class="kv">// 대화 로그 루트</span>
+  "char_budget": 200000,                   <span class="kv">// 배치 1회 문자 예산</span>
+  "digest_min": 5, "digest_max": 7,        <span class="kv">// 다이제스트/복습 표현 개수</span>
+  "doc_dirs": ["doc", "docs", "shared_docs"],
+  "doc_exts": [".md", ".txt"],
+  "recent_days": 7,                        <span class="kv">// 정상 패스 mtime 윈도</span>
+  "backlog_days": 14,                      <span class="kv">// 빈 날 ① 백로그 윈도</span>
+  "daily_retention_days": 20,              <span class="kv">// daily/ 보존 기간</span>
+  "exclude_projects": ["english-study"]    <span class="kv">// 자기 자신 제외</span>
+}</code></pre>
+
+  <h2>6. 실행 모드</h2>
+  <table>
+    <tr><th>모드</th><th>트리거</th><th>가공 주체</th><th>웹 검색</th></tr>
+    <tr><td><b>야간 무인</b></td><td>launchd 00:01</td><td><code>claude -p</code> (파일 도구만, 네트워크 차단)</td><td>✗</td></tr>
+    <tr><td><b>대화형</b></td><td>Claude Code <code>/study [토픽]</code></td><td>대화형 LLM</td><td>✓ (고품질 원문 추가)</td></tr>
+    <tr><td><b>순수 수동</b></td><td><code>PYTHONPATH=scripts uv run python -m pipeline.run</code></td><td><code>claude -p</code></td><td>✗</td></tr>
+  </table>
+
+  <h2>7. 직접 쓰는 법</h2>
+  <ol>
+    <li>궁금한 것을 <code>spool/</code> 에 <code>.txt/.md</code> 로 적어두면 다음 실행이 <b>최우선</b>으로 답한다 (답: <code>daily/&lt;날짜&gt;/spool/&lt;이름&gt;.md</code>)</li>
+    <li>아침에 <code>daily/&lt;오늘날짜&gt;/digest.md</code> 를 읽는다</li>
+    <li>토큰/비용 추이는 <code>state/token-log.jsonl</code></li>
+    <li>누적 표현 <code>notes/by-register/*.md</code>, 복습 큐 <code>notes/index.md</code></li>
+  </ol>
+
+  <p class="footer">
+    테스트: <code>PYTHONPATH=scripts uv run pytest</code> (현재 53개 통과) ·
+    정본: <a href="2026-06-21-architecture.md">2026-06-21-architecture.md</a> ·
+    설계 배경: <a href="2026-06-14-english-study-design.md">2026-06-14-english-study-design.md</a>
+  </p>
+
+</div>
+</body>
+</html>
