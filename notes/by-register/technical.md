@@ -85,3 +85,25 @@
   - 예: The digest must report the act/abstain trade-off curve, not just a single in_topk number.
 - **ground truth** — 모델 출력과 비교하는 검증된 실제 정답값(참값·정답 레이블). ↔ prediction/estimate.
   - 예: Even when the template is placed exactly at the ground-truth location, the best chamfer peak still drifts 67% of the time.
+- **fast-follow** — 출시 직후 곧바로 이어 할 후속 작업. ↔ out of scope.
+  - 예: The set composable is built switcher-ready, so the switcher itself is a clean fast-follow.
+- **well-established** — 이미 표준으로 정립·검증된 기법. ↔ ad hoc / experimental.
+  - 예: The overall pattern is well-established and sound.
+- **hand-tuned** — 원리 유도가 아니라 사람이 손으로 맞춘. ↔ derived / calibrated.
+  - 예: The individual score components are reasonable but hand-tuned rather than derived from a published metric.
+- **cold-start values** — 실데이터 보정 전 초기 가동 기본값. ↔ calibrated values.
+  - 예: The 0.50 accept threshold and scorer weights are cold-start constants, not calibrated decision boundaries.
+- **ad hoc** — 그 경우만을 위한 임시변통의. ↔ principled / systematic.
+  - 예: The best-3-plus-worst weighting is explicitly ad hoc tolerance for one broken side.
+- **the main fragility is X** — "가장 큰 취약점은 ~다" 결론 문형.
+  - 예: The main fragility is the area-first pruning, which can discard a valid box before scoring.
+- **ordered by severity** — (목록을) 심각도 순으로 정렬함.
+  - 예: The concerns below are ordered by severity, with the most damaging one first.
+- **quarantined** — 위험·플랫폼 종속 코드를 한곳에 격리해 전파를 막다. ↔ entangled.
+  - 예: The Windows-only `rcs/` package is quarantined, so nothing in `vision` drags in a Windows dependency.
+- **transitively pull in** — 의존성을 간접적으로 줄줄이 끌어오다.
+  - 예: Importing the CV matcher would transitively pull in `pywinauto`, and nothing would run on your Mac.
+- **drill into / drill down** — 요약 뷰에서 세부로 파고들다. ↔ zoom out / roll up.
+  - 예: Show the overlap grid first, then drill into a parameter's attribute matrix.
+- **seeded from** — 초기 상태를 다른 출처의 값으로 미리 채워 시작한. ↔ empty by default.
+  - 예: It is a persistent multi-select working set, seeded from the search page.

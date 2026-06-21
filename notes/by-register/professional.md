@@ -75,3 +75,17 @@
   - 예: When the score is ambiguous, the gate should abstain rather than click the wrong point.
 - **the headline ask** — 여러 요청 중 가장 핵심이 되는 요구사항(ask=명사 '요청'). ↔ a nice-to-have.
   - 예: Phase 2 is the headline ask: make the fresh template actually flow into the correction path.
+- **fast-follow** — 지금은 범위 밖이지만 출시 직후 곧바로 이어 할 후속 작업. ↔ out of scope.
+  - 예: The in-page recipe switcher across those three views is the documented fast-follow.
+- **well-established (and sound)** — 이미 학계·업계에서 충분히 정립·검증된. ↔ ad hoc / experimental.
+  - 예: The overall pattern is well-established and sound.
+- **ad hoc** — 일반 원칙이 아니라 그 경우만을 위한 임시변통의(약간 부정적). ↔ principled / systematic.
+  - 예: The best-3-plus-worst weighting is explicitly ad hoc tolerance for one broken side.
+- **the main fragility is X** — 결론에서 "가장 큰 취약점은 ~다"라고 한 문장으로 짚는 문형.
+  - 예: The main fragility is the outermost-wall selection, which can discard the correct candidate.
+- **ordered by severity** — (목록을) 심각도 순으로 정렬했다고 헤더에서 밝힐 때.
+  - 예: The concerns below are ordered by severity, with the most damaging one first.
+- **drill into / drill down** — 요약·상위 뷰에서 세부 항목으로 파고들다.
+  - 예: Show the overlap grid first, then let the user drill into a parameter's attribute matrix.
+- **nudge (someone) toward** — 강제하지 않고 슬쩍 어떤 선택으로 유도하다. ↔ force / require.
+  - 예: The UI nudges the user toward the distribution view once the count passes a threshold.

@@ -47,3 +47,9 @@
   - 예: I won't amend the commit message unless you want it — just say the word.
 - **a wash** — 득과 실이 상쇄돼 결국 차이가 없는 것(도긴개긴). ↔ a clear win / a net gain.
   - 예: Even if the aggregate number is a wash, a hidden gain in the far-distance bin could still be there.
+- **quarantined** — 위험·종속 코드를 한곳에 가둬 번지지 않게 하다. ↔ entangled.
+  - 예: The Windows-only package is quarantined, so the rest still runs on your Mac.
+- **reads like the README** — 코드/글이 군더더기 없이 술술 읽힌다는 칭찬. ↔ reads like spaghetti.
+  - 예: Read `monitor/cycle.py` and it reads like the README: detect, connect, correct, notify, record.
+- **nudge (someone) toward** — 강제하지 않고 슬쩍 유도하다. ↔ force.
+  - 예: We don't block it — we just nudge people toward the safer option.
