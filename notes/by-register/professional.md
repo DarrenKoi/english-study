@@ -89,3 +89,15 @@
   - 예: Show the overlap grid first, then let the user drill into a parameter's attribute matrix.
 - **nudge (someone) toward** — 강제하지 않고 슬쩍 어떤 선택으로 유도하다. ↔ force / require.
   - 예: The UI nudges the user toward the distribution view once the count passes a threshold.
+- **course-correction(s)** — 진행 중 깨달은 잘못을 바로잡은 방향 수정. 회고·리뷰에서 "왜 바꿨나"를 묶을 때.
+  - 예: This section lists the key decisions and course-corrections we made mid-build.
+- **baked into (a plan/decision)** — 설계에 이미 박혀 떼어내기 어려운 전제. ↔ configurable.
+  - 예: These three assumptions are baked into the plan, so confirm them before executing.
+- **redirect here first** — 다른 접근을 원하면 작업 시작 전에 먼저 알려 달라는 협업 신호.
+  - 예: If you'd rather the counts live on the main table, redirect here first.
+- **a clean surface** — 레거시를 안 건드리고 새 기능에 주는 정돈된 독립 공간. ↔ a cluttered/legacy surface.
+  - 예: A new sibling page keeps the legacy view untouched and gives the descriptive view a clean surface.
+- **survivorship (bias)** — 실패분을 분모에서 빼 지표가 거짓 상승하는 통계 함정. 고정 분모로 방지.
+  - 예: To avoid survivorship, a no-candidate frame counts as a miss instead of being dropped from the denominator.
+- **generous (for the ~N target)** — 한도가 실제 필요보다 넉넉한. (수치의 여유) ↔ tight / conservative.
+  - 예: The 200-recipe cap is generous for the ~100 target; revisit it only if the office reuses the handler.

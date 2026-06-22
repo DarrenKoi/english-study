@@ -53,3 +53,9 @@
   - 예: Read `monitor/cycle.py` and it reads like the README: detect, connect, correct, notify, record.
 - **nudge (someone) toward** — 강제하지 않고 슬쩍 유도하다. ↔ force.
   - 예: We don't block it — we just nudge people toward the safer option.
+- **baked into (it)** — 이미 박혀서 떼어내기 어려운 전제. ↔ you can swap it out.
+  - 예: That assumption is baked into the whole flow, so changing it isn't a small tweak.
+- **redirect here first** — 다른 길을 원하면 시작 전에 먼저 말해 달라.
+  - 예: Want it on the main table instead? Redirect here first and I'll re-scope.
+- **generous (for ...)** — (수치가) 넉넉한, 여유 있는. ↔ tight.
+  - 예: 200 is generous for what we actually need — about 100.

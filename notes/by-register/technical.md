@@ -107,3 +107,15 @@
   - 예: Show the overlap grid first, then drill into a parameter's attribute matrix.
 - **seeded from** — 초기 상태를 다른 출처의 값으로 미리 채워 시작한. ↔ empty by default.
   - 예: It is a persistent multi-select working set, seeded from the search page.
+- **swap surface** — 나중에 통째로 갈아끼울 의도로 격리해 둔 코드 경계. ↔ frozen/internal core.
+  - 예: The office team swaps `data.py` later, so we keep it as the single swap surface.
+- **thin wrapper** — 자체 로직 없이 인자만 넘기는 얇은 위임 계층. ↔ fat layer.
+  - 예: The page is a thin wrapper that extracts the route param and delegates to the view component.
+- **drift (from)** — 같아야 할 두 사본이 시간이 지나며 조금씩 어긋남. ↔ stay in sync / in lockstep.
+  - 예: Review risk: the inlined block can drift from `recipeView.ts` if its field lists change.
+- **keep ... in sync** — 한쪽을 바꾸면 다른 쪽도 같이 고쳐 일치를 유지하다. ↔ let it drift.
+  - 예: The inlined metadata carries a "KEEP IN SYNC" comment so it tracks the source file.
+- **byte-identical** — 비트·바이트까지 완전히 같은(무변경 회귀 보증). ↔ approximately equal / lossy.
+  - 예: With a zero offset the behavior is byte-identical to the current code, pinned by a regression test.
+- **content-addressed (storage)** — 내용 해시를 키로 쓰는 저장(자동 dedup·무결성 검증). ↔ location/path-based.
+  - 예: Using the SHA-256 hash as the key makes the store content-addressed, so identical uploads dedupe automatically.
