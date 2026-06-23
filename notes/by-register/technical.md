@@ -119,3 +119,11 @@
   - 예: With a zero offset the behavior is byte-identical to the current code, pinned by a regression test.
 - **content-addressed (storage)** — 내용 해시를 키로 쓰는 저장(자동 dedup·무결성 검증). ↔ location/path-based.
   - 예: Using the SHA-256 hash as the key makes the store content-addressed, so identical uploads dedupe automatically.
+- **degrade silently, never crash the loop** — (오류로) 죽지 않고 조용히 기능을 낮춰 견디다. ↔ crash hard / blow up.
+  - 예: The glue follows a "module absent → degrade silently, never crash the loop" philosophy, so a missing downloader looks identical to a working-but-empty one.
+- **the last leaf in a chain** — 이미 존재하는 호출 사슬의 맨 끝 말단 노드. ↔ the entry point / the root.
+  - 예: Your two functions are the last leaf in a chain that already exists — the loop never imports them directly.
+- **burn the (full) retry budget** — 재시도 횟수·시간 예산을 (성과 없이) 다 써버리다. ↔ bail out early.
+  - 예: A genuinely-empty msr burns the full retry budget waiting for nothing.
+- **gathering ≠ using** — 모으는 것과 (실제로) 쓰는 것은 별개다. (게이트가 끼었을 때)
+  - 예: So gathering ≠ using — you need at least three valid S images per modality past the build gate.

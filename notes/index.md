@@ -2,8 +2,8 @@
 
 알파벳 순. 각 표현 → 처음 수집된 daily 링크.
 
-
 - [a clean surface](daily/2026-06-23/new-expressions.md) — 2026-06-23
+- [a request ceiling, not a guarantee](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [a row count separate from the row payload](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [a strong read, not a menu](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [a thin capture client](daily/2026-06-19/new-expressions.md) — 2026-06-19
@@ -24,6 +24,7 @@
 - [best-effort](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [blast radius](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [borrow strength](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [burn the (full) retry budget](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [bus-factor 1](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [byte-identical](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [call it out](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -40,7 +41,9 @@
 - [deep-link-ready](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [deferred deliberately](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [degrade gracefully](daily/2026-06-18/new-expressions.md) — 2026-06-18
+- [degrade silently, never crash the loop](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [derived and disposable](daily/2026-06-19/new-expressions.md) — 2026-06-19
+- [diminishing returns](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [document what it actually returns, not what feels canonical](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [don't batch these up](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [don't couple X to Y](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -56,6 +59,7 @@
 - [fast-follow](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [first-class](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [from a (memory) standpoint](daily/2026-06-19/new-expressions.md) — 2026-06-19
+- [gathering vs using](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [generous (for the ~100 target)](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [green-light (something)](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [ground truth](daily/2026-06-21/new-expressions.md) — 2026-06-21
@@ -66,6 +70,7 @@
 - [hot path](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [human-readable](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [If the wiki adds work for the user, it has failed](daily/2026-06-18/new-expressions.md) — 2026-06-18
+- [in lockstep with](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [in scope / out of scope](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [keep ... in sync](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [kill switch](daily/2026-06-18/new-expressions.md) — 2026-06-18
@@ -91,6 +96,7 @@
 - [reads like a specification](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [reads like the README](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [redirect here first](daily/2026-06-23/new-expressions.md) — 2026-06-23
+- [Right call given the data](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [safety net](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [say the word (just say the word)](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [seeded from](daily/2026-06-22/new-expressions.md) — 2026-06-22
@@ -105,10 +111,12 @@
 - [survivorship (bias)](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [swap surface](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [that's a vibe](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [That's the smoking gun](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [the bridge between X and Y](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [the explicit no's are as valuable as the yes's](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [the headline ask](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [the interface is the test surface](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [the last leaf in a chain](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [the main fragility is X](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [the most likely to bite you](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [the system's own case law](daily/2026-06-18/new-expressions.md) — 2026-06-18

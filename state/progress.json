@@ -22,7 +22,12 @@
     "-Users-daeyoung-Codes-auto-recipe-creator/45f03669-3761-4f21-9839-6cca32fe5df4/subagents/agent-a94e1247ace5e3392.jsonl": 4,
     "-Users-daeyoung-Codes-auto-recipe-creator/59cee5e6-9596-4927-b405-d7da35657e1b.jsonl": 17,
     "-Users-daeyoung-Codes-auto-recipe-creator/64e71ccb-74e3-4002-853d-06530c3a8a41.jsonl": 24,
-    "-Users-daeyoung-Codes-auto-recipe-creator/731cda79-56e3-414c-b290-5a943c78371e.jsonl": 12
+    "-Users-daeyoung-Codes-auto-recipe-creator/731cda79-56e3-414c-b290-5a943c78371e.jsonl": 12,
+    "-Users-daeyoung-Codes-auto-recipe-creator/052ec064-3121-40e4-ad2b-0d0fe6d16e7a.jsonl": 352,
+    "-Users-daeyoung-Codes-auto-recipe-creator/0bb8e050-0071-4b21-8bec-2b6cd169e31f/subagents/agent-a7ea15a1a1d3299ae.jsonl": 40,
+    "-Users-daeyoung-Codes-auto-recipe-creator/1fc1f209-67fe-4dc3-8250-ba3188479de6.jsonl": 295,
+    "-Users-daeyoung-Codes-auto-recipe-creator/678f9156-a9c6-4b19-9e3c-2e9c1fd6adf9.jsonl": 16,
+    "-Users-daeyoung-Codes-auto-recipe-creator/69358ef8-5c36-49be-bf5e-e8bfd3704c79.jsonl": 15
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -59,9 +64,9 @@
     "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-10-consensus-gather-in-loop.md": "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-10-consensus-gather-in-loop.md:1781881273.6328495:33577",
     "auto_recipe_creator/poc/workflow_2/docs/study/runbooks/golden_combined_office_runbook.md": "auto_recipe_creator/poc/workflow_2/docs/study/runbooks/golden_combined_office_runbook.md:1781881273.6322298:6262",
     "auto_recipe_creator/docs/project_progress/README.md": "auto_recipe_creator/docs/project_progress/README.md:1781881273.6303623:2254",
-    "auto_recipe_creator/docs/project_progress/05_status_roadmap.md": "auto_recipe_creator/docs/project_progress/05_status_roadmap.md:1781881273.6302745:5154",
+    "auto_recipe_creator/docs/project_progress/05_status_roadmap.md": "auto_recipe_creator/docs/project_progress/05_status_roadmap.md:1782187232.4860828:5851",
     "auto_recipe_creator/docs/project_progress/04_workflow_3.md": "auto_recipe_creator/docs/project_progress/04_workflow_3.md:1781881273.6301677:6079",
-    "auto_recipe_creator/docs/project_progress/03_workflow_2.md": "auto_recipe_creator/docs/project_progress/03_workflow_2.md:1781881273.6300607:4876",
+    "auto_recipe_creator/docs/project_progress/03_workflow_2.md": "auto_recipe_creator/docs/project_progress/03_workflow_2.md:1782187202.6428845:7067",
     "auto_recipe_creator/docs/project_progress/02_workflow_1.md": "auto_recipe_creator/docs/project_progress/02_workflow_1.md:1781881273.6299524:4115",
     "auto_recipe_creator/docs/project_progress/01_vlm_deployment.md": "auto_recipe_creator/docs/project_progress/01_vlm_deployment.md:1781881273.6298432:5940",
     "auto_recipe_creator/docs/project_progress/00_executive_summary.md": "auto_recipe_creator/docs/project_progress/00_executive_summary.md:1781881273.6297064:5735",
@@ -85,7 +90,16 @@
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-06-13-device-statistics-d22-INDEX.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-06-13-device-statistics-d22-INDEX.md:1781811112.0127854:2037",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-05-31-tool-skew-mgmt.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-05-31-tool-skew-mgmt.md:1781811112.012716:61859",
     "skewnono_v3_nuxt/docs/superpowers/journals/2026-06-14-recipe-comparison-build.md": "skewnono_v3_nuxt/docs/superpowers/journals/2026-06-14-recipe-comparison-build.md:1781811112.0125892:17003",
-    "skewnono_v3_nuxt/docs/issues/skewvoir/brainstorm-note.md": "skewnono_v3_nuxt/docs/issues/skewvoir/brainstorm-note.md:1781811112.0124736:6529"
+    "skewnono_v3_nuxt/docs/issues/skewvoir/brainstorm-note.md": "skewnono_v3_nuxt/docs/issues/skewvoir/brainstorm-note.md:1781811112.0124736:6529",
+    "auto_recipe_creator/poc/workflow_2/docs/plans/2026-06-23-reregister-phase2-eframe-confirmation-plan.md": "auto_recipe_creator/poc/workflow_2/docs/plans/2026-06-23-reregister-phase2-eframe-confirmation-plan.md:1782199695.1292346:29919",
+    "auto_recipe_creator/poc/workflow_2/docs/specs/2026-06-23-reregister-phase2-eframe-confirmation-design.md": "auto_recipe_creator/poc/workflow_2/docs/specs/2026-06-23-reregister-phase2-eframe-confirmation-design.md:1782199151.5700877:10926",
+    "auto_recipe_creator/docs/journals/260623/260623_155946_reregister-phase1-box-fidelity-debug.md": "auto_recipe_creator/docs/journals/260623/260623_155946_reregister-phase1-box-fidelity-debug.md:1782198034.1870825:5534",
+    "auto_recipe_creator/poc/workflow_2/docs/specs/2026-06-23-reregister-report-design.md": "auto_recipe_creator/poc/workflow_2/docs/specs/2026-06-23-reregister-report-design.md:1782186953.7544005:22412",
+    "auto_recipe_creator/poc/workflow_2/docs/plans/2026-06-23-reregister-report-plan.md": "auto_recipe_creator/poc/workflow_2/docs/plans/2026-06-23-reregister-report-plan.md:1782171635.6668851:40945",
+    "auto_recipe_creator/poc/workflow_2/docs/study/adr/0005-whitebox-box-crop-consensus-arm-rejected.md": "auto_recipe_creator/poc/workflow_2/docs/study/adr/0005-whitebox-box-crop-consensus-arm-rejected.md:1782167620.8124833:4242",
+    "skewnono_v3_nuxt/docs/issues/ground_rules/progress-and-next-steps.md": "skewnono_v3_nuxt/docs/issues/ground_rules/progress-and-next-steps.md:1781811112.0123882:9470",
+    "skewnono_v3_nuxt/docs/issues/ground_rules/grilling-log.md": "skewnono_v3_nuxt/docs/issues/ground_rules/grilling-log.md:1781811112.0122716:32887",
+    "skewnono_v3_nuxt/docs/datatables/recipe_params.txt": "skewnono_v3_nuxt/docs/datatables/recipe_params.txt:1781811112.0121312:1954"
   },
-  "last_run": "2026-06-23"
+  "last_run": "2026-06-24"
 }

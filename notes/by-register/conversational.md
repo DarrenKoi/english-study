@@ -59,3 +59,7 @@
   - 예: Want it on the main table instead? Redirect here first and I'll re-scope.
 - **generous (for ...)** — (수치가) 넉넉한, 여유 있는. ↔ tight.
   - 예: 200 is generous for what we actually need — about 100.
+- **That's the smoking gun** — 바로 그게 결정적 증거다 / 그게 범인이다. ↔ that's a red herring.
+  - 예: That's the smoking gun — the downloader writes real files, but at the wrong nesting level inside `dest_dir`.
+- **Right call given the data** — 데이터를 감안하면 옳은 결정이다. (근거 있는 동의)
+  - 예: Right call given the data — the value lives in three places the codebase keeps in sync.

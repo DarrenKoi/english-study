@@ -101,3 +101,9 @@
   - 예: To avoid survivorship, a no-candidate frame counts as a miss instead of being dropped from the denominator.
 - **generous (for the ~N target)** — 한도가 실제 필요보다 넉넉한. (수치의 여유) ↔ tight / conservative.
   - 예: The 200-recipe cap is generous for the ~100 target; revisit it only if the office reuses the handler.
+- **a request ceiling, not a guarantee** — 요청 상한일 뿐, 그만큼 받는다는 보장이 아니다. ↔ a guaranteed minimum / a floor.
+  - 예: `gather_max_events=8` is the request ceiling, not a guarantee — if the recipe has fewer recent successes, you get fewer.
+- **diminishing returns** — 수확 체감; 투입을 늘려도 추가 이득이 점점 줄어드는 구간. ↔ a step change.
+  - 예: From three to eight images there's no evidence of meaningful gain — likely diminishing returns.
+- **in lockstep with** — ~와 한 치 어긋남 없이 발맞춰 같이 움직이는. ↔ drift apart / get out of sync.
+  - 예: Use the shared helper so the cond location stays in lockstep with what the reader expects.
