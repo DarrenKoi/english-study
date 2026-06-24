@@ -3,6 +3,7 @@
 알파벳 순. 각 표현 → 처음 수집된 daily 링크.
 
 - [a clean surface](daily/2026-06-23/new-expressions.md) — 2026-06-23
+- [a known class of problem](daily/2026-06-25/new-expressions.md) — 2026-06-25
 - [a request ceiling, not a guarantee](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [a row count separate from the row payload](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [a strong read, not a menu](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -56,8 +57,10 @@
 - [exercise (a code path)](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [fail-safe](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [faithful (to the source)](daily/2026-06-20/new-expressions.md) — 2026-06-20
+- [falsify (an idea) cheaply](daily/2026-06-25/new-expressions.md) — 2026-06-25
 - [fast-follow](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [first-class](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [front-load](daily/2026-06-25/new-expressions.md) — 2026-06-25
 - [from a (memory) standpoint](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [gathering vs using](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [generous (for the ~100 target)](daily/2026-06-23/new-expressions.md) — 2026-06-23
@@ -77,6 +80,7 @@
 - [last resort](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [load-bearing (vs a lean safety net)](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [made structurally impossible / safe by construction](daily/2026-06-18/new-expressions.md) — 2026-06-18
+- [manufacture lift](daily/2026-06-25/new-expressions.md) — 2026-06-25
 - [masquerade as](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [measure first, fix second](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [metadata only (X is metadata only)](daily/2026-06-19/new-expressions.md) — 2026-06-19
@@ -97,6 +101,7 @@
 - [reads like the README](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [redirect here first](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [Right call given the data](daily/2026-06-24/new-expressions.md) — 2026-06-24
+- [rubber-stamp](daily/2026-06-25/new-expressions.md) — 2026-06-25
 - [safety net](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [say the word (just say the word)](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [seeded from](daily/2026-06-22/new-expressions.md) — 2026-06-22
@@ -117,6 +122,7 @@
 - [the headline ask](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [the interface is the test surface](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [the last leaf in a chain](daily/2026-06-24/new-expressions.md) — 2026-06-24
+- [the lever is X, not Y](daily/2026-06-25/new-expressions.md) — 2026-06-25
 - [the main fragility is X](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [the most likely to bite you](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [the system's own case law](daily/2026-06-18/new-expressions.md) — 2026-06-18
@@ -132,3 +138,4 @@
 - [worst-case](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [worth double-checking](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [would take a quarter to swap out](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [X proposes, Y disposes (division of labor)](daily/2026-06-25/new-expressions.md) — 2026-06-25

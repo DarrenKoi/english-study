@@ -27,7 +27,13 @@
     "-Users-daeyoung-Codes-auto-recipe-creator/0bb8e050-0071-4b21-8bec-2b6cd169e31f/subagents/agent-a7ea15a1a1d3299ae.jsonl": 40,
     "-Users-daeyoung-Codes-auto-recipe-creator/1fc1f209-67fe-4dc3-8250-ba3188479de6.jsonl": 295,
     "-Users-daeyoung-Codes-auto-recipe-creator/678f9156-a9c6-4b19-9e3c-2e9c1fd6adf9.jsonl": 16,
-    "-Users-daeyoung-Codes-auto-recipe-creator/69358ef8-5c36-49be-bf5e-e8bfd3704c79.jsonl": 15
+    "-Users-daeyoung-Codes-auto-recipe-creator/69358ef8-5c36-49be-bf5e-e8bfd3704c79.jsonl": 15,
+    "-Users-daeyoung-Codes-auto-recipe-creator/07b2cb20-26b2-418d-b774-d1cca7603190.jsonl": 441,
+    "-Users-daeyoung-Codes-auto-recipe-creator/0bb8e050-0071-4b21-8bec-2b6cd169e31f.jsonl": 233,
+    "-Users-daeyoung-Codes-auto-recipe-creator/22bf3627-1bd1-4b13-9449-1fdc1c6721e0.jsonl": 522,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ae50b7b-e9be-434c-8fdb-41ea944b66b3/subagents/agent-a1613268b18ab0e7d.jsonl": 63,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ae50b7b-e9be-434c-8fdb-41ea944b66b3/subagents/agent-a323480b3e951a49c.jsonl": 83,
+    "-Users-daeyoung-Codes-auto-recipe-creator/a6cc3465-71dc-4a60-ab99-013f55207560.jsonl": 22
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -99,7 +105,11 @@
     "auto_recipe_creator/poc/workflow_2/docs/study/adr/0005-whitebox-box-crop-consensus-arm-rejected.md": "auto_recipe_creator/poc/workflow_2/docs/study/adr/0005-whitebox-box-crop-consensus-arm-rejected.md:1782167620.8124833:4242",
     "skewnono_v3_nuxt/docs/issues/ground_rules/progress-and-next-steps.md": "skewnono_v3_nuxt/docs/issues/ground_rules/progress-and-next-steps.md:1781811112.0123882:9470",
     "skewnono_v3_nuxt/docs/issues/ground_rules/grilling-log.md": "skewnono_v3_nuxt/docs/issues/ground_rules/grilling-log.md:1781811112.0122716:32887",
-    "skewnono_v3_nuxt/docs/datatables/recipe_params.txt": "skewnono_v3_nuxt/docs/datatables/recipe_params.txt:1781811112.0121312:1954"
+    "skewnono_v3_nuxt/docs/datatables/recipe_params.txt": "skewnono_v3_nuxt/docs/datatables/recipe_params.txt:1781811112.0121312:1954",
+    "auto_recipe_creator/poc/workflow_2/docs/plans/2026-06-24-template-bank-matching-plan.md": "auto_recipe_creator/poc/workflow_2/docs/plans/2026-06-24-template-bank-matching-plan.md:1782285171.237397:40355",
+    "auto_recipe_creator/poc/workflow_3/docs/weekly_report/2026-06-24/weekly_report.md": "auto_recipe_creator/poc/workflow_3/docs/weekly_report/2026-06-24/weekly_report.md:1782284929.0568938:8140",
+    "auto_recipe_creator/poc/workflow_2/docs/specs/2026-06-24-template-bank-matching-design.md": "auto_recipe_creator/poc/workflow_2/docs/specs/2026-06-24-template-bank-matching-design.md:1782284418.4741526:15698",
+    "auto_recipe_creator/docs/journals/260624/260624_085047_reregister-phase2-eframe-confirmation-sdd.md": "auto_recipe_creator/docs/journals/260624/260624_085047_reregister-phase2-eframe-confirmation-sdd.md:1782281896.8589208:15061"
   },
-  "last_run": "2026-06-24"
+  "last_run": "2026-06-25"
 }

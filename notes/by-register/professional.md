@@ -107,3 +107,13 @@
   - 예: From three to eight images there's no evidence of meaningful gain — likely diminishing returns.
 - **in lockstep with** — ~와 한 치 어긋남 없이 발맞춰 같이 움직이는. ↔ drift apart / get out of sync.
   - 예: Use the shared helper so the cond location stays in lockstep with what the reader expects.
+- **falsify (an idea) cheaply** — 큰 투자 전에 아이디어를 적은 비용으로 반증하다(실험 우선 사고).
+  - 예: This spec is deliberately structured to falsify the idea cheaply before investing in a full eval arm.
+- **front-load** — 위험·검증·노력을 일정의 앞단으로 당겨 배치하다. ↔ back-load.
+  - 예: The kill-test is front-loaded so we rule out the failure mode before trusting any aggregate lift.
+- **rubber-stamp** — 제대로 검증 않고 형식적으로 통과시키다, 거수기 노릇을 하다.
+  - 예: The negative-case test proves the harness can detect its own failure mode rather than rubber-stamp the hypothesis.
+- **a known class of problem** — (우리만의 일이 아니라) 이미 알려진 부류의 문제다.
+  - 예: PaddleOCR-VL hallucinating text on UI screenshots is a known class of problem with VLM-based OCR.
+- **the lever is X, not Y** — 진짜 지렛대(핵심 수단)는 Y가 아니라 X다. ↔ a marginal tweak.
+  - 예: Record the negative result; the lever is re-registration, not this matcher change.

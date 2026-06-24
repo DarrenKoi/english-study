@@ -127,3 +127,7 @@
   - 예: A genuinely-empty msr burns the full retry budget waiting for nothing.
 - **gathering ≠ using** — 모으는 것과 (실제로) 쓰는 것은 별개다. (게이트가 끼었을 때)
   - 예: So gathering ≠ using — you need at least three valid S images per modality past the build gate.
+- **manufacture lift** — 자유 파라미터를 만져 성능 개선을 인위적으로 지어내다(경계 표현). ↔ a genuine gain.
+  - 예: Fewer free parameters means less room to manufacture lift, so a gain is more likely real.
+- **X proposes, Y disposes** — 한쪽이 후보를 제안하고 다른 쪽이 최종 결정한다(역할 분담 관용 패턴).
+  - 예: The two stages follow one rule: the VLM proposes the region, and the CV disposes by locking onto the exact border pixels.
