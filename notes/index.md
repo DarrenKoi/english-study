@@ -3,6 +3,7 @@
 알파벳 순. 각 표현 → 처음 수집된 daily 링크.
 
 - [a clean surface](daily/2026-06-23/new-expressions.md) — 2026-06-23
+- [a hard failure signal, not a quiet X](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [a known class of problem](daily/2026-06-25/new-expressions.md) — 2026-06-25
 - [a request ceiling, not a guarantee](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [a row count separate from the row payload](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -12,6 +13,7 @@
 - [a wrinkle worth flagging](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [abstain](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [ad hoc](daily/2026-06-22/new-expressions.md) — 2026-06-22
+- [ambiguous by construction](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [anchor on (the first plausible idea)](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [as decisions crystallise](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [As-Is / To-Be](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -28,6 +30,7 @@
 - [burn the (full) retry budget](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [bus-factor 1](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [byte-identical](daily/2026-06-23/new-expressions.md) — 2026-06-23
+- [calibration-fragile ↔ calibration-light](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [call it out](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [call it out / surface it](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [carry lock-in](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -43,6 +46,7 @@
 - [deferred deliberately](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [degrade gracefully](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [degrade silently, never crash the loop](daily/2026-06-24/new-expressions.md) — 2026-06-24
+- [de-risk (something) first](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [derived and disposable](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [diminishing returns](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [document what it actually returns, not what feels canonical](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -60,6 +64,7 @@
 - [falsify (an idea) cheaply](daily/2026-06-25/new-expressions.md) — 2026-06-25
 - [fast-follow](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [first-class](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [float up (the list)](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [front-load](daily/2026-06-25/new-expressions.md) — 2026-06-25
 - [from a (memory) standpoint](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [gathering vs using](daily/2026-06-24/new-expressions.md) — 2026-06-24
@@ -69,10 +74,12 @@
 - [grounded in (the literature)](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [grow without bound](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [hand-tuned](daily/2026-06-22/new-expressions.md) — 2026-06-22
+- [hit the same wall](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [honour (a constraint / rule)](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [hot path](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [human-readable](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [If the wiki adds work for the user, it has failed](daily/2026-06-18/new-expressions.md) — 2026-06-18
+- [impossible to miss](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [in lockstep with](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [in scope / out of scope](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [keep ... in sync](daily/2026-06-23/new-expressions.md) — 2026-06-23
@@ -96,6 +103,7 @@
 - [pin down](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [progressive disclosure](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [quarantined](daily/2026-06-22/new-expressions.md) — 2026-06-22
+- [rank them worst-first](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [re-litigate (a decision)](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [reads like a specification](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [reads like the README](daily/2026-06-22/new-expressions.md) — 2026-06-22
@@ -125,8 +133,11 @@
 - [the lever is X, not Y](daily/2026-06-25/new-expressions.md) — 2026-06-25
 - [the main fragility is X](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [the most likely to bite you](daily/2026-06-19/new-expressions.md) — 2026-06-19
+- [the one real implementation hazard](daily/2026-06-26/new-expressions.md) — 2026-06-26
+- [the payload for (X rows)](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [the system's own case law](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [the trust boundary is X, not Y](daily/2026-06-19/new-expressions.md) — 2026-06-19
+- [the validated next move](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [thin wrapper](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [thread (a value) through](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [tracer bullet (vertical slice)](daily/2026-06-17/new-expressions.md) — 2026-06-17

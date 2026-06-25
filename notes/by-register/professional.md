@@ -117,3 +117,17 @@
   - 예: PaddleOCR-VL hallucinating text on UI screenshots is a known class of problem with VLM-based OCR.
 - **the lever is X, not Y** — 진짜 지렛대(핵심 수단)는 Y가 아니라 X다. ↔ a marginal tweak.
   - 예: Record the negative result; the lever is re-registration, not this matcher change.
+
+## 2026-06-26 — auto_recipe_creator re-registration 스펙 배치
+- **hit the same wall** — 여러 다른 시도가 결국 *같은 한계*에 부딪히다 (한 번이면 hit a wall). ↔ break through.
+  - 예: Three matcher-fusion methods all hit the same wall: they recover the true point but rank it #1 only half the time.
+- **the validated next move** — 추측이 아니라 *검증으로 확정된* 다음 수순(전략적 "한 수"). ↔ an untested gamble.
+  - 예: Re-registration onto a more distinctive region is the validated next move.
+- **de-risk (something) first** — 본격 착수 전 가장 위험한 부분을 *맨 앞 태스크로 먼저 걷어내다*. ↔ leave it to chance.
+  - 예: Pin the join key first to de-risk the rest of the implementation.
+- **rank them worst-first** — 가장 *나쁜 것부터* 정렬해 우선순위를 매기다. ↔ best-first.
+  - 예: The worklist ranks recipes worst-first, so the engineer tackles the most broken keys before anything else.
+- **a hard failure signal, not a quiet X** — 조용히 넘기지 말고 *명백한 실패로* 다뤄라 (fail-fast 문어체). ↔ fail silently.
+  - 예: A near-zero match rate is a hard failure signal, not a quiet fallback.
+- **the one real X (hazard)** — 여럿처럼 보여도 *진짜 위험은 이것 하나*라고 콕 집다. ↔ a minor edge case.
+  - 예: Join-key mismatch is the one real implementation hazard here; everything else is mechanical.

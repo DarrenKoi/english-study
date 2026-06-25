@@ -63,3 +63,9 @@
   - 예: That's the smoking gun — the downloader writes real files, but at the wrong nesting level inside `dest_dir`.
 - **Right call given the data** — 데이터를 감안하면 옳은 결정이다. (근거 있는 동의)
   - 예: Right call given the data — the value lives in three places the codebase keeps in sync.
+
+## 2026-06-26 — auto_recipe_creator re-registration 스펙 배치
+- **float up (the list)** — (정렬·가중으로) 중요한 항목이 *위로 떠오르다/떠오르게 하다*. ↔ sink to the bottom / get buried.
+  - 예: We weight the harder fixes so they float up the list.
+- **impossible to miss** — *못 보고 지나칠 수 없게* 눈에 띄는. ↔ easy to overlook / fly under the radar.
+  - 예: Print the match count loudly — that way it's impossible to miss if the keys don't line up.

@@ -131,3 +131,11 @@
   - 예: Fewer free parameters means less room to manufacture lift, so a gain is more likely real.
 - **X proposes, Y disposes** — 한쪽이 후보를 제안하고 다른 쪽이 최종 결정한다(역할 분담 관용 패턴).
   - 예: The two stages follow one rule: the VLM proposes the region, and the CV disposes by locking onto the exact border pixels.
+
+## 2026-06-26 — auto_recipe_creator re-registration 스펙 배치
+- **calibration-fragile ↔ calibration-light** — 임계값·설정에 *민감해 깨지기 쉬운* ↔ *튜닝이 거의 필요 없는* 지표. (`X-fragile`/`X-light` 합성 패턴)
+  - 예: Its tier floors are calibration-fragile, so a cleaner, calibration-light signal is preferred.
+- **the payload for (X rows)** — 어느 케이스에서 *정작 쓸모 있는 알맹이*가 무엇인지 지정(네트워크 payload 비유). ↔ boilerplate / filler.
+  - 예: The whitebox suggestion is the payload for NEW_REGION rows; FRESH_SNAPSHOT rows don't need one.
+- **ambiguous by construction** — 우연이 아니라 *구조상 필연적으로* 모호한 (cf. safe by construction). ↔ distinctive / unambiguous.
+  - 예: If the matcher can't rank the true point #1 even on a clean frame, the key is ambiguous by construction.
