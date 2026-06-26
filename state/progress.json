@@ -36,7 +36,9 @@
     "-Users-daeyoung-Codes-auto-recipe-creator/a6cc3465-71dc-4a60-ab99-013f55207560.jsonl": 22,
     "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a0653a55082974a6a.jsonl": 55,
     "-Users-daeyoung-Codes-auto-recipe-creator/3f0e1d86-118d-4a4a-a0a4-9367045944ec.jsonl": 12,
-    "-Users-daeyoung-Codes-auto-recipe-creator/acabba25-8a05-4e29-8df2-a0a7da9b6bce.jsonl": 11
+    "-Users-daeyoung-Codes-auto-recipe-creator/acabba25-8a05-4e29-8df2-a0a7da9b6bce.jsonl": 11,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a35a51300ae633102.jsonl": 55,
+    "-Users-daeyoung-Codes-auto-recipe-creator/761dd87d-9de4-4fa1-9ebb-714c23a44bb5.jsonl": 13
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -117,9 +119,9 @@
     "auto_recipe_creator/side_projects/document_extraction/docs/rag_db_plan.md": "auto_recipe_creator/side_projects/document_extraction/docs/rag_db_plan.md:1782399673.0511596:7060",
     "auto_recipe_creator/side_projects/document_extraction/docs/pipeline_plan.md": "auto_recipe_creator/side_projects/document_extraction/docs/pipeline_plan.md:1782399673.0510075:9373",
     "auto_recipe_creator/side_projects/document_extraction/docs/pipeline_overview.md": "auto_recipe_creator/side_projects/document_extraction/docs/pipeline_overview.md:1782399673.0502052:10120",
-    "auto_recipe_creator/side_projects/document_extraction/docs/marp_roundtrip_design.md": "auto_recipe_creator/side_projects/document_extraction/docs/marp_roundtrip_design.md:1782399673.05005:12745",
+    "auto_recipe_creator/side_projects/document_extraction/docs/marp_roundtrip_design.md": "auto_recipe_creator/side_projects/document_extraction/docs/marp_roundtrip_design.md:1782428226.2376792:13738",
     "auto_recipe_creator/side_projects/document_extraction/docs/benchmark_plan.md": "auto_recipe_creator/side_projects/document_extraction/docs/benchmark_plan.md:1782399673.0497153:6136",
-    "auto_recipe_creator/side_projects/document_extraction/docs/README.md": "auto_recipe_creator/side_projects/document_extraction/docs/README.md:1782399673.0493069:4242",
+    "auto_recipe_creator/side_projects/document_extraction/docs/README.md": "auto_recipe_creator/side_projects/document_extraction/docs/README.md:1782428813.7782886:4426",
     "auto_recipe_creator/docs/journals/260625/260625_154241_reregister-phase3-spec-and-fixtype-review.md": "auto_recipe_creator/docs/journals/260625/260625_154241_reregister-phase3-spec-and-fixtype-review.md:1782369805.4426143:4933",
     "auto_recipe_creator/poc/workflow_3/docs/weekly_report/2026-06-25/weekly_report_slides.md": "auto_recipe_creator/poc/workflow_3/docs/weekly_report/2026-06-25/weekly_report_slides.md:1782367788.8384562:9535",
     "auto_recipe_creator/poc/workflow_3/docs/weekly_report/2026-06-25/weekly_report.md": "auto_recipe_creator/poc/workflow_3/docs/weekly_report/2026-06-25/weekly_report.md:1782367585.2607536:14427",
@@ -134,7 +136,24 @@
     "oss-mcp-fastapi/docs/journals/20260625-bugs-to-fix.md": "oss-mcp-fastapi/docs/journals/20260625-bugs-to-fix.md:1782346763.6913402:8772",
     "skewnono_v3_nuxt/docs/datatables/hardware.txt": "skewnono_v3_nuxt/docs/datatables/hardware.txt:1782346356.1802835:276",
     "oss-mcp-fastapi/docs/journals/20260625-member-info-mcp-handoff.md": "oss-mcp-fastapi/docs/journals/20260625-member-info-mcp-handoff.md:1782344562.9196239:6373",
-    "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-06-25-measurement-abort-job-design.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-06-25-measurement-abort-job-design.md:1782343233.333569:14389"
+    "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-06-25-measurement-abort-job-design.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-06-25-measurement-abort-job-design.md:1782343233.333569:14389",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-26-skewvoir-cd-outlier-detection-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-26-skewvoir-cd-outlier-detection-design.md:1782462655.937214:5227",
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-06-26-skewvoir-cd-outlier-detection.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-06-26-skewvoir-cd-outlier-detection.md:1782462111.740766:13066",
+    "skewnono_v3_nuxt/docs/datatables/msr_file_pickle.txt": "skewnono_v3_nuxt/docs/datatables/msr_file_pickle.txt:1782458606.4575021:1542",
+    "skewnono_v3_nuxt/docs/datatables/meas_hist.txt": "skewnono_v3_nuxt/docs/datatables/meas_hist.txt:1782456633.4559278:4260",
+    "skewnono_v3_nuxt/docs/datatables/network_sharpness_cdsem.txt": "skewnono_v3_nuxt/docs/datatables/network_sharpness_cdsem.txt:1782454943.3597815:1296",
+    "auto_recipe_creator/side_projects/document_extraction/docs/rag_context_architecture.md": "auto_recipe_creator/side_projects/document_extraction/docs/rag_context_architecture.md:1782439572.8721874:9056",
+    "auto_recipe_creator/side_projects/document_extraction/docs/phase1_rag_build_design.md": "auto_recipe_creator/side_projects/document_extraction/docs/phase1_rag_build_design.md:1782435508.4309576:12682",
+    "auto_recipe_creator/docs/journals/260626/260626_082506_reregister-eval-status-and-workflow3-pivot.md": "auto_recipe_creator/docs/journals/260626/260626_082506_reregister-eval-status-and-workflow3-pivot.md:1782433513.7537155:12600",
+    "auto_recipe_creator/side_projects/document_extraction/docs/study/pixelrag_application_methods.md": "auto_recipe_creator/side_projects/document_extraction/docs/study/pixelrag_application_methods.md:1782433048.9342003:10802",
+    "auto_recipe_creator/side_projects/document_extraction/docs/study/pixelrag_characteristics.md": "auto_recipe_creator/side_projects/document_extraction/docs/study/pixelrag_characteristics.md:1782432965.5036378:7000",
+    "auto_recipe_creator/side_projects/document_extraction/docs/study/README.md": "auto_recipe_creator/side_projects/document_extraction/docs/study/README.md:1782432909.0792575:1681",
+    "wiki_for_office/docs/study/pixelrag/README.md": "wiki_for_office/docs/study/pixelrag/README.md:1782432843.6682792:14569",
+    "auto_recipe_creator/side_projects/document_extraction/docs/status.md": "auto_recipe_creator/side_projects/document_extraction/docs/status.md:1782428821.6422186:5009",
+    "auto_recipe_creator/side_projects/document_extraction/docs/runbook.md": "auto_recipe_creator/side_projects/document_extraction/docs/runbook.md:1782428719.6184225:12065",
+    "auto_recipe_creator/side_projects/document_extraction/docs/journals/260626/260626_075738_marp-stage6-7-render-verify.md": "auto_recipe_creator/side_projects/document_extraction/docs/journals/260626/260626_075738_marp-stage6-7-render-verify.md:1782428296.615272:4681",
+    "auto_recipe_creator/poc/workflow_2/docs/plans/2026-06-26-reregister-phase3-rank1-worklist-plan.md": "auto_recipe_creator/poc/workflow_2/docs/plans/2026-06-26-reregister-phase3-rank1-worklist-plan.md:1782418358.1331394:39517",
+    "auto_recipe_creator/poc/workflow_3/docs/superpowers/plans/2026-06-25-measurement-abort-job.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/plans/2026-06-25-measurement-abort-job.md:1782342548.4249737:60252"
   },
-  "last_run": "2026-06-26"
+  "last_run": "2026-06-27"
 }

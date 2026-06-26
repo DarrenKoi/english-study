@@ -131,3 +131,15 @@
   - 예: A near-zero match rate is a hard failure signal, not a quiet fallback.
 - **the one real X (hazard)** — 여럿처럼 보여도 *진짜 위험은 이것 하나*라고 콕 집다. ↔ a minor edge case.
   - 예: Join-key mismatch is the one real implementation hazard here; everything else is mechanical.
+
+## 2026-06-27 — skewnono 설계/plan + document_extraction 배치
+- **fall back to (X)** — 정상 경로가 불가능·위험할 때 더 안전한 대안으로 물러나다(설계 근거 문어). ↔ stay on the primary path.
+  - 예: When the renderer can't launch Chromium, the stage falls back to HTML so the run never hard-fails.
+- **resistant to (X)** — (방법이) 교란 요인에 견고하다고 강점을 못 박을 때. ↔ fragile / sensitive to.
+  - 예: The chosen statistic is resistant to outliers, which is exactly why it suits the small MSR selections.
+- **surgical (역할·변경)** — 광범위하게 바꾸지 않고 꼭 필요한 곳만 정밀 개입. ↔ sweeping / broad-brush.
+  - 예: We keep the change surgical: only the hardware route is touched, and the detection logic stays put.
+- **self-hosted** — 데이터 반출 제약 때문에 vendor API 대신 사내 운영 모델을 쓴다고 못 박을 때. ↔ cloud/managed.
+  - 예: Data must not leave the network, so every model in the pipeline is self-hosted on-prem.
+- **X is what ships** — 이론상 상한이 아니라 실제 의사결정·반영 기준이 무엇인지 한 줄로 정할 때. ↔ a theoretical ceiling.
+  - 예: Compare rank-1, not in_topk — in_topk is a ceiling, but rank-1 is what ships.

@@ -61,10 +61,12 @@
 - [exercise (a code path)](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [fail-safe](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [faithful (to the source)](daily/2026-06-20/new-expressions.md) — 2026-06-20
+- [fall back to (X) / fallback](daily/2026-06-27/new-expressions.md) — 2026-06-27
 - [falsify (an idea) cheaply](daily/2026-06-25/new-expressions.md) — 2026-06-25
 - [fast-follow](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [first-class](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [float up (the list)](daily/2026-06-26/new-expressions.md) — 2026-06-26
+- [framework-free pure util](daily/2026-06-27/new-expressions.md) — 2026-06-27
 - [front-load](daily/2026-06-25/new-expressions.md) — 2026-06-25
 - [from a (memory) standpoint](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [gathering vs using](daily/2026-06-24/new-expressions.md) — 2026-06-24
@@ -82,11 +84,13 @@
 - [impossible to miss](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [in lockstep with](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [in scope / out of scope](daily/2026-06-20/new-expressions.md) — 2026-06-20
+- [inflate (a statistic / threshold)](daily/2026-06-27/new-expressions.md) — 2026-06-27
 - [keep ... in sync](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [kill switch](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [last resort](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [load-bearing (vs a lean safety net)](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [made structurally impossible / safe by construction](daily/2026-06-18/new-expressions.md) — 2026-06-18
+- [mask itself (masking)](daily/2026-06-27/new-expressions.md) — 2026-06-27
 - [manufacture lift](daily/2026-06-25/new-expressions.md) — 2026-06-25
 - [masquerade as](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [measure first, fix second](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -108,11 +112,15 @@
 - [reads like a specification](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [reads like the README](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [redirect here first](daily/2026-06-23/new-expressions.md) — 2026-06-23
+- [resistant to / robust to](daily/2026-06-27/new-expressions.md) — 2026-06-27
+- [round-trip (roundtrip)](daily/2026-06-27/new-expressions.md) — 2026-06-27
 - [Right call given the data](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [rubber-stamp](daily/2026-06-25/new-expressions.md) — 2026-06-25
 - [safety net](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [sanity check](daily/2026-06-27/new-expressions.md) — 2026-06-27
 - [say the word (just say the word)](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [seeded from](daily/2026-06-22/new-expressions.md) — 2026-06-22
+- [self-hosted](daily/2026-06-27/new-expressions.md) — 2026-06-27
 - [shadow mode](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [sharpen fuzzy language](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [silently drift](daily/2026-06-18/new-expressions.md) — 2026-06-18
@@ -121,6 +129,7 @@
 - [stop earning its keep](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [stress-test (a plan / a design)](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [surfaced, never silently reconciled](daily/2026-06-18/new-expressions.md) — 2026-06-18
+- [surgical (role / change)](daily/2026-06-27/new-expressions.md) — 2026-06-27
 - [survivorship (bias)](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [swap surface](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [that's a vibe](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -149,4 +158,5 @@
 - [worst-case](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [worth double-checking](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [would take a quarter to swap out](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [X is what ships](daily/2026-06-27/new-expressions.md) — 2026-06-27
 - [X proposes, Y disposes (division of labor)](daily/2026-06-25/new-expressions.md) — 2026-06-25

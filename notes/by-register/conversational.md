@@ -69,3 +69,9 @@
   - 예: We weight the harder fixes so they float up the list.
 - **impossible to miss** — *못 보고 지나칠 수 없게* 눈에 띄는. ↔ easy to overlook / fly under the radar.
   - 예: Print the match count loudly — that way it's impossible to miss if the keys don't line up.
+
+## 2026-06-27 — document_extraction 런북/plan 배치
+- **sanity check** — "일단 말이 되는지" 빠르게 확인하자는 가벼운 점검. cf. smoke test. ↔ full validation.
+  - 예: Let's just do a quick sanity check first — render one slide and see if it even looks right.
+- **X is what ships** — "결국 실전에 쓰이는 건 이거"라고 핵심 기준을 짚는 말. ↔ a nice-to-have.
+  - 예: Don't over-index on the ceiling number — rank-1 is what ships, so optimize that.

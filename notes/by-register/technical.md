@@ -139,3 +139,23 @@
   - 예: The whitebox suggestion is the payload for NEW_REGION rows; FRESH_SNAPSHOT rows don't need one.
 - **ambiguous by construction** — 우연이 아니라 *구조상 필연적으로* 모호한 (cf. safe by construction). ↔ distinctive / unambiguous.
   - 예: If the matcher can't rank the true point #1 even on a clean frame, the key is ambiguous by construction.
+
+## 2026-06-27 — skewnono outlier 설계/plan + auto_recipe document_extraction 배치
+- **fall back to (X) / fallback** — 기본 경로가 막히면 더 안전·단순한 방법으로 내려앉다. 명사·형용사는 한 단어 `fallback`. ↔ the primary/happy path.
+  - 예: When MAD is zero, the function falls back to a mean-absolute-deviation rule instead of dividing by zero.
+- **mask itself (masking)** — 극단값 하나가 평균·표준편차를 부풀려 자기 자신을 임계 밖에 못 잡게 숨기다. ↔ get flagged / stand out.
+  - 예: A single extreme value can mask itself when classic mean±std inflates the threshold past it.
+- **resistant to / robust to (X)** — 노이즈·이상치·입력 변동에도 결과가 망가지지 않는. ↔ fragile / sensitive to / brittle.
+  - 예: Median and MAD are resistant to a few extreme values the way mean and std are not.
+- **inflate (a statistic / threshold)** — 소수의 큰 값이 분산·임계치를 실제보다 키우다(부정적). ↔ deflate / pull down.
+  - 예: A couple of outliers inflate the threshold, so genuine anomalies no longer cross it.
+- **surgical (개입·변경)** — 전부 휘젓지 않고 모호한 한 점만 정밀하게 손대는 절제된 개입. ↔ sweeping / wholesale.
+  - 예: The VLM's role is surgical: it only captions figures and reconciles ambiguous tables, nothing else.
+- **sanity check** — 정밀 검증 전, 크게 어긋난 데 없나 싸게 보는 1차 점검. cf. smoke test. ↔ full validation.
+  - 예: If Chromium won't run, render to HTML first as a quick sanity check before debugging further.
+- **round-trip (roundtrip)** — 원본→변환→재복원의 왕복 변환(복원 충실도 평가 맥락). ↔ one-way conversion.
+  - 예: The round-trip is lossy: shapes and SmartArt can't survive the Markdown stage, so we re-insert them as cropped images.
+- **self-hosted** — 외부 클라우드가 아니라 자체 인프라에서 직접 띄운 모델·서비스. ↔ cloud-hosted / vendor-hosted.
+  - 예: External cloud VLMs are off-limits, so the pipeline runs only on self-hosted models inside the company network.
+- **framework-free pure util** — 런타임 의존 0이라 어디서든 단위 테스트 가능한 순수 함수 모듈. ↔ framework-coupled / runtime-bound.
+  - 예: The detector is a framework-free pure util, so it can be unit-tested with node --test off the app entirely.
