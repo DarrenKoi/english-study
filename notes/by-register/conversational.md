@@ -75,3 +75,11 @@
   - 예: Let's just do a quick sanity check first — render one slide and see if it even looks right.
 - **X is what ships** — "결국 실전에 쓰이는 건 이거"라고 핵심 기준을 짚는 말. ↔ a nice-to-have.
   - 예: Don't over-index on the ceiling number — rank-1 is what ships, so optimize that.
+
+## 2026-06-28 — auto_recipe_creator 트랜스크립트 배치
+- **a second opinion** — 1차 판단이 미덥지 않아 다른 주체에게 받는 재확인 의견(의료어 유래, 일상·업무 공용). ↔ the final say.
+  - 예: The VLM gives a second opinion on the region, but OpenCV still owns the final coordinates.
+- **for free** — 돈이 아니라 "추가 작업 없이 부수적으로 따라온다". ↔ at a cost / you have to pay for it.
+  - 예: Because combine already aggregates, a point with three signals becomes one badge for free.
+- **a coin flip** — 성공 확률 반반(0.5 근처) = 사실상 운, 못 쓴다는 생생한 비유. ↔ a reliable signal.
+  - 예: Heatmap SEM rank-1 came in at 0.49 — a coin flip, not a usable predictor.

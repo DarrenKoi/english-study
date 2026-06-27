@@ -3,10 +3,13 @@
 알파벳 순. 각 표현 → 처음 수집된 daily 링크.
 
 - [a clean surface](daily/2026-06-23/new-expressions.md) — 2026-06-23
+- [a coin flip](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [a hard failure signal, not a quiet X](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [a known class of problem](daily/2026-06-25/new-expressions.md) — 2026-06-25
+- [a recall illusion](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [a request ceiling, not a guarantee](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [a row count separate from the row payload](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [a second opinion](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [a strong read, not a menu](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [a thin capture client](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [a wash](daily/2026-06-21/new-expressions.md) — 2026-06-21
@@ -35,6 +38,7 @@
 - [call it out / surface it](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [carry lock-in](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [coexist by design](daily/2026-06-20/new-expressions.md) — 2026-06-20
+- [complementary, not a replacement](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [cold-start values](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [conservative default](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [content-addressed storage](daily/2026-06-23/new-expressions.md) — 2026-06-23
@@ -52,11 +56,13 @@
 - [document what it actually returns, not what feels canonical](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [don't batch these up](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [don't couple X to Y](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [downstream consumer](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [drift (from)](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [drill into / drill down](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [earning its keep](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [easier to grant later than to take away](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [edge-triggered](daily/2026-06-19/new-expressions.md) — 2026-06-19
+- [escalate to (a second opinion / a human)](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [escape hatch](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [exercise (a code path)](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [fail-safe](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -66,11 +72,13 @@
 - [fast-follow](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [first-class](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [float up (the list)](daily/2026-06-26/new-expressions.md) — 2026-06-26
+- [for free](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [framework-free pure util](daily/2026-06-27/new-expressions.md) — 2026-06-27
 - [front-load](daily/2026-06-25/new-expressions.md) — 2026-06-25
 - [from a (memory) standpoint](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [gathering vs using](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [generous (for the ~100 target)](daily/2026-06-23/new-expressions.md) — 2026-06-23
+- [gotcha (banked)](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [green-light (something)](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [ground truth](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [grounded in (the literature)](daily/2026-06-19/new-expressions.md) — 2026-06-19
@@ -82,6 +90,7 @@
 - [human-readable](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [If the wiki adds work for the user, it has failed](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [impossible to miss](daily/2026-06-26/new-expressions.md) — 2026-06-26
+- [ingest (X) and turn it into (Y)](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [in lockstep with](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [in scope / out of scope](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [inflate (a statistic / threshold)](daily/2026-06-27/new-expressions.md) — 2026-06-27
@@ -144,12 +153,15 @@
 - [the most likely to bite you](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [the one real implementation hazard](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [the payload for (X rows)](daily/2026-06-26/new-expressions.md) — 2026-06-26
+- [the seam (that X leaves you)](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [the system's own case law](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [the trust boundary is X, not Y](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [the validated next move](daily/2026-06-26/new-expressions.md) — 2026-06-26
+- [the X axis is exhausted](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [thin wrapper](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [thread (a value) through](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [tracer bullet (vertical slice)](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [trade away (X)](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [trade-off curve](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [train/serve skew](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [transitively pull in](daily/2026-06-22/new-expressions.md) — 2026-06-22

@@ -143,3 +143,15 @@
   - 예: Data must not leave the network, so every model in the pipeline is self-hosted on-prem.
 - **X is what ships** — 이론상 상한이 아니라 실제 의사결정·반영 기준이 무엇인지 한 줄로 정할 때. ↔ a theoretical ceiling.
   - 예: Compare rank-1, not in_topk — in_topk is a ceiling, but rank-1 is what ships.
+
+## 2026-06-28 — skewnono journal + auto_recipe_creator 트랜스크립트 배치
+- **escalate to (a second opinion / a human)** — 자체적으로 못 풀 때 상위 단계·다른 주체로 넘기다(폴백 흐름). ↔ handle inline / resolve locally.
+  - 예: When the CV matcher flags an ambiguous match, the system escalates to a VLM for a second opinion.
+- **X is complementary, not a replacement** — 새 기법을 대체가 아니라 보완으로 자리매김하는 정석 문형(과잉기대 억제). ↔ a drop-in replacement.
+  - 예: PixelRAG is complementary, not a replacement: it adds recall but produces no provenance or structured fields.
+- **the X axis is exhausted** — 한 방향의 개선 여지를 다 소진했다(→ 레버를 바꿔라). ↔ there's still headroom.
+  - 예: All three fusion methods hit the same wall, so the matcher-fusion axis is exhausted — the lever is key distinctiveness.
+- **the seam (that X leaves you)** — 앞 작업이 다음 단계에 남긴 깔끔한 이음매·확장 지점(handoff). ↔ a tangled boundary.
+  - 예: The seam Phase 1 leaves you is clean: scoring is stable, so Phase 2 only adds the detectors.
+- **trade away (X)** — 어떤 이점을 얻는 대가로 ~을 내주다(설계 절충의 동사형). ↔ preserve / retain.
+  - 예: A single-vector index stays fast, trading away the patch-level precision of late-interaction models.

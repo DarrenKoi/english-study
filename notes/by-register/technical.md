@@ -159,3 +159,13 @@
   - 예: External cloud VLMs are off-limits, so the pipeline runs only on self-hosted models inside the company network.
 - **framework-free pure util** — 런타임 의존 0이라 어디서든 단위 테스트 가능한 순수 함수 모듈. ↔ framework-coupled / runtime-bound.
   - 예: The detector is a framework-free pure util, so it can be unit-tested with node --test off the app entirely.
+
+## 2026-06-28 — auto_recipe_creator 트랜스크립트 + skewnono journal 배치
+- **a recall illusion** — 후보엔 정답이 있지만 1순위로 못 뽑는데도 지표(in_topk)가 좋아 보이는 착시. ↔ a production-faithful metric.
+  - 예: A high in_topk with a low rank-1 is a recall illusion — the true point is in the pool but never ranked first.
+- **downstream consumer** — 파이프라인에서 앞 단계 출력을 받아 쓰는 뒷단 모듈(상류 생산↔하류 소비). ↔ upstream producer / source.
+  - 예: The report is the downstream consumer of the eval's conclusions — it ingests the rank-1 numbers rather than recomputing them.
+- **ingest (X) and turn it into (Y)** — 앞 단계 산출물을 받아들여 다른 형태로 가공하다(재계산 아님, 소비). ↔ emit / re-derive.
+  - 예: It doesn't re-derive the conclusions; it ingests the eval's output and turns it into an action list.
+- **gotcha (banked)** — 디버깅 중 발에 걸린 함정을 다음을 위해 기록해 둠(엔지니어 메모). cf. footgun.
+  - 예: Gotcha banked: binding a control to a ref that arrives through a prop trips the no-mutating-props lint.
