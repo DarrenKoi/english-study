@@ -83,3 +83,7 @@
   - 예: Because combine already aggregates, a point with three signals becomes one badge for free.
 - **a coin flip** — 성공 확률 반반(0.5 근처) = 사실상 운, 못 쓴다는 생생한 비유. ↔ a reliable signal.
   - 예: Heatmap SEM rank-1 came in at 0.49 — a coin flip, not a usable predictor.
+- **a completely different animal** — 겉보기와 달리 본질이 전혀 다른 부류(구어 비유). ↔ cut from the same cloth.
+  - 예: It's a small, specialized vision model that's a completely different animal from your large VLMs.
+- **buy (you) one thing** — (대가는 있어도) 정확히 이것 하나는 얻게 해준다(buy 의 비유적 용법). ↔ cost you.
+  - 예: The median wash-out the design avoids actually buys one thing: it blurs the distractors harder than the key.

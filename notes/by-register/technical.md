@@ -169,3 +169,11 @@
   - 예: It doesn't re-derive the conclusions; it ingests the eval's output and turns it into an action list.
 - **gotcha (banked)** — 디버깅 중 발에 걸린 함정을 다음을 위해 기록해 둠(엔지니어 메모). cf. footgun.
   - 예: Gotcha banked: binding a control to a ref that arrives through a prop trips the no-mutating-props lint.
+- **a gated cascade** — 통과 조건(gate)을 만족할 때만 다음 단계로 넘기는 단계형 구조. ↔ a flat single-pass pipeline.
+  - 예: The answer isn't "DL or VLM" — it's a gated cascade where the peak-isolation predictor is the trigger.
+- **a negative-control arm** — 효과가 없어야 정상인 대조 팔; "향상"이 보이면 측정이 허상임을 드러냄. ↔ the treatment arm.
+  - 예: Run soft-voting heatmap accumulation as a negative-control arm before crediting the bank for the lift.
+- **circular (by construction)** — 전제가 곧 결론이라 아무것도 입증 못 하는 순환 논리. ↔ an independent check.
+  - 예: Reporting support on the selected winner is circular: the mechanism selects supported clusters, then observes support.
+- **the operating point** — 실제로 행동을 결정하는 동작점·임계점(평균 성능이 아니라). ↔ aggregate / average performance.
+  - 예: The gap is trustworthiness at the operating point, not the average matching score.

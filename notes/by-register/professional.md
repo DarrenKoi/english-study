@@ -155,3 +155,15 @@
   - 예: The seam Phase 1 leaves you is clean: scoring is stable, so Phase 2 only adds the detectors.
 - **trade away (X)** — 어떤 이점을 얻는 대가로 ~을 내주다(설계 절충의 동사형). ↔ preserve / retain.
   - 예: A single-vector index stays fast, trading away the patch-level precision of late-interaction models.
+- **hit a ceiling (a discriminability ceiling)** — 점수·성능이 더 못 오르는 한계 천장에 부딪히다.
+  - 예: You've hit a discriminability ceiling on the matcher itself, so a fourth edge channel won't help.
+- **trapped in the lab** — 실험·연구 단계에만 갇혀 정작 운영(프로덕션)으로 못 넘어가다. ↔ shipped / in the loop.
+  - 예: The abstain gate that would make the scores trustworthy is trapped in the eval harness.
+- **structurally disconnected from (production)** — 우연이 아니라 구조상 ~와 단절되어 있다. ↔ wired into / integrated with.
+  - 예: Your single biggest lab win is structurally disconnected from production.
+- **ground myself in (X)** — 주장·계획에 앞서 실제 현황·사실에 발을 디디다. ↔ speculate / guess.
+  - 예: Let me ground myself in the exact current architecture so my plan reuses your existing structures.
+- **pressure-test (a design)** — 설계·계획을 가혹하게 따져 약점을 캐다(= stress-test; 반박을 원할 때). ↔ rubber-stamp.
+  - 예: Pressure-test this matching design for flaws — I want an adversarial second opinion, not validation.
+- **reframe (the whole thing)** — 문제를 보는 틀 자체를 바꿔 "진짜 목표"를 다시 정의하다. ↔ take at face value.
+  - 예: That reframes the whole thing: raising the mean score is the wrong target.

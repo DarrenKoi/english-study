@@ -4,8 +4,11 @@
 
 - [a clean surface](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [a coin flip](daily/2026-06-28/new-expressions.md) — 2026-06-28
+- [a completely different animal](daily/2026-06-29/new-expressions.md) — 2026-06-29
+- [a gated cascade](daily/2026-06-29/new-expressions.md) — 2026-06-29
 - [a hard failure signal, not a quiet X](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [a known class of problem](daily/2026-06-25/new-expressions.md) — 2026-06-25
+- [a negative-control arm](daily/2026-06-29/new-expressions.md) — 2026-06-29
 - [a recall illusion](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [a request ceiling, not a guarantee](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [a row count separate from the row payload](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -32,11 +35,13 @@
 - [borrow strength](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [burn the (full) retry budget](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [bus-factor 1](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [buy (you) one thing](daily/2026-06-29/new-expressions.md) — 2026-06-29
 - [byte-identical](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [calibration-fragile ↔ calibration-light](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [call it out](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [call it out / surface it](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [carry lock-in](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [circular (by construction)](daily/2026-06-29/new-expressions.md) — 2026-06-29
 - [coexist by design](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [complementary, not a replacement](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [cold-start values](daily/2026-06-22/new-expressions.md) — 2026-06-22
@@ -80,10 +85,12 @@
 - [generous (for the ~100 target)](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [gotcha (banked)](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [green-light (something)](daily/2026-06-21/new-expressions.md) — 2026-06-21
+- [ground myself in (X)](daily/2026-06-29/new-expressions.md) — 2026-06-29
 - [ground truth](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [grounded in (the literature)](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [grow without bound](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [hand-tuned](daily/2026-06-22/new-expressions.md) — 2026-06-22
+- [hit a ceiling (a discriminability ceiling)](daily/2026-06-29/new-expressions.md) — 2026-06-29
 - [hit the same wall](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [honour (a constraint / rule)](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [hot path](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -114,9 +121,11 @@
 - [outrun your headlights](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [overfit / rank-deficient](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [pin down](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [pressure-test (a design)](daily/2026-06-29/new-expressions.md) — 2026-06-29
 - [progressive disclosure](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [quarantined](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [rank them worst-first](daily/2026-06-26/new-expressions.md) — 2026-06-26
+- [reframe (the whole thing)](daily/2026-06-29/new-expressions.md) — 2026-06-29
 - [re-litigate (a decision)](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [reads like a specification](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [reads like the README](daily/2026-06-22/new-expressions.md) — 2026-06-22
@@ -137,6 +146,7 @@
 - [sit behind (an interface)](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [stop earning its keep](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [stress-test (a plan / a design)](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [structurally disconnected from (production)](daily/2026-06-29/new-expressions.md) — 2026-06-29
 - [surfaced, never silently reconciled](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [surgical (role / change)](daily/2026-06-27/new-expressions.md) — 2026-06-27
 - [survivorship (bias)](daily/2026-06-23/new-expressions.md) — 2026-06-23
@@ -152,6 +162,7 @@
 - [the main fragility is X](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [the most likely to bite you](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [the one real implementation hazard](daily/2026-06-26/new-expressions.md) — 2026-06-26
+- [the operating point](daily/2026-06-29/new-expressions.md) — 2026-06-29
 - [the payload for (X rows)](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [the seam (that X leaves you)](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [the system's own case law](daily/2026-06-18/new-expressions.md) — 2026-06-18
@@ -165,6 +176,7 @@
 - [trade-off curve](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [train/serve skew](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [transitively pull in](daily/2026-06-22/new-expressions.md) — 2026-06-22
+- [trapped in the lab](daily/2026-06-29/new-expressions.md) — 2026-06-29
 - [well-established](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [why on earth …?](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [worst-case](daily/2026-06-17/new-expressions.md) — 2026-06-17
