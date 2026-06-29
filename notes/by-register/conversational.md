@@ -87,3 +87,5 @@
   - 예: It's a small, specialized vision model that's a completely different animal from your large VLMs.
 - **buy (you) one thing** — (대가는 있어도) 정확히 이것 하나는 얻게 해준다(buy 의 비유적 용법). ↔ cost you.
   - 예: The median wash-out the design avoids actually buys one thing: it blurs the distractors harder than the key.
+- **give (something) a read** — (문서를) 한번 읽어봐 / 훑어봐 줘(캐주얼 부탁). ↔ study it closely / pore over.
+  - 예: Give the spec a read and confirm the default value before we lock the design.

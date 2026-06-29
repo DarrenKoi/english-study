@@ -5,10 +5,13 @@
 - [a clean surface](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [a coin flip](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [a completely different animal](daily/2026-06-29/new-expressions.md) — 2026-06-29
+- [a faithful transcription of the spec](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [a gated cascade](daily/2026-06-29/new-expressions.md) — 2026-06-29
 - [a hard failure signal, not a quiet X](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [a known class of problem](daily/2026-06-25/new-expressions.md) — 2026-06-25
+- [a merge blocker](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [a negative-control arm](daily/2026-06-29/new-expressions.md) — 2026-06-29
+- [a None-sentinel guard](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [a recall illusion](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [a request ceiling, not a guarantee](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [a row count separate from the row payload](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -31,6 +34,7 @@
 - [before an irreversible action](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [benchmark against](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [best-effort](daily/2026-06-21/new-expressions.md) — 2026-06-21
+- [bit-parity / byte-for-byte identical](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [blast radius](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [borrow strength](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [burn the (full) retry budget](daily/2026-06-24/new-expressions.md) — 2026-06-24
@@ -45,11 +49,13 @@
 - [coexist by design](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [complementary, not a replacement](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [cold-start values](daily/2026-06-22/new-expressions.md) — 2026-06-22
+- [confirm or overrule](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [conservative default](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [content-addressed storage](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [converged (the design)](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [course-correction(s)](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [create X lazily — only when needed](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [dead code (a branch that can't be reached)](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [deep module / shallow module](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [deep-link-ready](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [deferred deliberately](daily/2026-06-19/new-expressions.md) — 2026-06-19
@@ -83,6 +89,7 @@
 - [from a (memory) standpoint](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [gathering vs using](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [generous (for the ~100 target)](daily/2026-06-23/new-expressions.md) — 2026-06-23
+- [give (something) a read](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [gotcha (banked)](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [green-light (something)](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [ground myself in (X)](daily/2026-06-29/new-expressions.md) — 2026-06-29
@@ -97,18 +104,22 @@
 - [human-readable](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [If the wiki adds work for the user, it has failed](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [impossible to miss](daily/2026-06-26/new-expressions.md) — 2026-06-26
+- [inert in practice](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [ingest (X) and turn it into (Y)](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [in lockstep with](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [in scope / out of scope](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [inflate (a statistic / threshold)](daily/2026-06-27/new-expressions.md) — 2026-06-27
 - [keep ... in sync](daily/2026-06-23/new-expressions.md) — 2026-06-23
+- [kept in lock-step](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [kill switch](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [last resort](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [load-bearing (vs a lean safety net)](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [made structurally impossible / safe by construction](daily/2026-06-18/new-expressions.md) — 2026-06-18
+- [make the comparison apples-to-apples](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [mask itself (masking)](daily/2026-06-27/new-expressions.md) — 2026-06-27
 - [manufacture lift](daily/2026-06-25/new-expressions.md) — 2026-06-25
 - [masquerade as](daily/2026-06-18/new-expressions.md) — 2026-06-18
+- [matches the file's house style](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [measure first, fix second](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [metadata only (X is metadata only)](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [must implement these contracts identically](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -141,6 +152,7 @@
 - [self-hosted](daily/2026-06-27/new-expressions.md) — 2026-06-27
 - [shadow mode](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [sharpen fuzzy language](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [short-circuit (the None case)](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [silently drift](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [single source of truth](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [sit behind (an interface)](daily/2026-06-18/new-expressions.md) — 2026-06-18
@@ -177,6 +189,7 @@
 - [train/serve skew](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [transitively pull in](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [trapped in the lab](daily/2026-06-29/new-expressions.md) — 2026-06-29
+- [upgrade-only (it must never downgrade)](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [well-established](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [why on earth …?](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [worst-case](daily/2026-06-17/new-expressions.md) — 2026-06-17

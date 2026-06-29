@@ -177,3 +177,13 @@
   - 예: Reporting support on the selected winner is circular: the mechanism selects supported clusters, then observes support.
 - **the operating point** — 실제로 행동을 결정하는 동작점·임계점(평균 성능이 아니라). ↔ aggregate / average performance.
   - 예: The gap is trustworthiness at the operating point, not the average matching score.
+- **bit-parity / byte-for-byte identical** — "대충 같다"가 아니라 비트 단위로 완전히 동일한 동작. ↔ subtly divergent / drifted.
+  - 예: The E proposer call must stay bit-parity with the existing matcher, so a precomputed input yields byte-identical behavior.
+- **short-circuit (the None case)** — 이른 조건에서 나머지 계산을 건너뛰고 곧장 반환하다. ↔ fall through / run to completion.
+  - 예: `_free_search_best_score` returns None only on empty candidates, so the aggregator short-circuits before taking a median.
+- **a None-sentinel guard** — None 을 "값 없음" 표시값으로 두고 분기하는 방어 코드. (유사어: a null check)
+  - 예: The four new knobs have non-None defaults, so unconditional `setdefault` can never stringify a sentinel.
+- **upgrade-only (it must never downgrade)** — 상태를 상향만 하고 절대 하향하지 않는 단방향 처리. ↔ bidirectional / destructive.
+  - 예: This is upgrade-only: the post-pass may bump a row to `E_CONFIRMED` but must never downgrade a tier.
+- **dead code (a branch that can't be reached)** — 도달 불가능하거나 결코 읽히지 않는 코드. ↔ a live path / load-bearing code.
+  - 예: The `if bank else None` guard is dead code — the earlier `continue` already proved `bank` is truthy.

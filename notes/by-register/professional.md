@@ -167,3 +167,17 @@
   - 예: Pressure-test this matching design for flaws — I want an adversarial second opinion, not validation.
 - **reframe (the whole thing)** — 문제를 보는 틀 자체를 바꿔 "진짜 목표"를 다시 정의하다. ↔ take at face value.
   - 예: That reframes the whole thing: raising the mean score is the wrong target.
+- **make the comparison apples-to-apples** — 같은 잣대로(동일 조건에서) 공정하게 비교하는. ↔ apples-to-oranges.
+  - 예: Change the gate to match exactly so the `min_s="3"` bin comparison is apples-to-apples.
+- **kept in lock-step** — 두 곳을 늘 함께·동시에 갱신해야 하는(안 그러면 조용히 어긋남). ↔ out of sync.
+  - 예: Any new modality key must update both dicts in lock-step, or the two will silently diverge.
+- **inert in practice** — 이론상 결함이나 실제 입력에선 결코 안 터지는, 사실상 무해한. ↔ a live defect.
+  - 예: A label literally equal to "total" would double-count, but the classifier never emits it, so the bug is inert in practice.
+- **a merge blocker** — 병합 전 반드시 고쳐야 할 만큼 중대한 사안. ↔ a nice-to-have.
+  - 예: It is a real but minor coverage gap, not a merge blocker.
+- **matches the file's house style** — (그 팀·파일의) 고유 관행을 따르는. ↔ an outlier.
+  - 예: The new print matches the seven pre-existing Korean warnings — changing it to English would break the file's house style.
+- **confirm or overrule** — (상위 검토자가) 하위 판단을 인정하거나 번복하다. ↔ defer / leave undecided.
+  - 예: The controller's tentative call is WONTFIX; the senior reviewer can confirm or overrule it.
+- **a faithful transcription of the spec** — 명세를 자의적 해석 없이 글자 그대로 옮긴 것. ↔ a loose interpretation.
+  - 예: The implementation is a faithful, minimal transcription of the spec — every requirement met, nothing extra.

@@ -56,7 +56,28 @@
     "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a23d7afcfa02c64bc.jsonl": 21,
     "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a332988b64bb09d6b.jsonl": 24,
     "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a4267c63c1690c97f.jsonl": 56,
-    "-Users-daeyoung-Codes-auto-recipe-creator/845cb275-1ac6-4a5b-a8cd-81ae53af39a9.jsonl": 80
+    "-Users-daeyoung-Codes-auto-recipe-creator/845cb275-1ac6-4a5b-a8cd-81ae53af39a9.jsonl": 80,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a47d3c56b31a1731b.jsonl": 23,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a4dcc72efda291fd4.jsonl": 11,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a50e9194e0511eb51.jsonl": 69,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a59d10c705eddcb75.jsonl": 24,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a6d54a23b97ab5383.jsonl": 95,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a7ad690aab1c49410.jsonl": 45,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a7af8a7a8c9b5734b.jsonl": 45,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a7c8a030dc84b692d.jsonl": 115,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a7d02d4f72cd23141.jsonl": 11,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a82aac7be5326edb5.jsonl": 96,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a83712a73a38c10f1.jsonl": 6,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a88b759f987b877c1.jsonl": 21,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a8d1a7eb2587dd8be.jsonl": 11,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a8f05742070016274.jsonl": 16,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a93c6f646d676e9c1.jsonl": 65,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a971429f0e68e4c8f.jsonl": 11,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a9a777d37959761fb.jsonl": 35,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a9a907e7fad5a47ac.jsonl": 76,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-aa0da6372cc5016af.jsonl": 37,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-aa5b465fb4209694d.jsonl": 48,
+    "-Users-daeyoung-Codes-auto-recipe-creator/c6a31215-5253-4718-8b6c-c096ca11aeb3.jsonl": 12
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -178,5 +199,5 @@
     "skewnono_v3_nuxt/docs/superpowers/journals/2026-06-27-anomaly-convention-phase2-handoff.md": "skewnono_v3_nuxt/docs/superpowers/journals/2026-06-27-anomaly-convention-phase2-handoff.md:1782572487.6714194:4621",
     "skewnono_v3_nuxt/docs/superpowers/journals/2026-06-27-anomaly-convention-phase1-build.md": "skewnono_v3_nuxt/docs/superpowers/journals/2026-06-27-anomaly-convention-phase1-build.md:1782572487.6713548:4398"
   },
-  "last_run": "2026-06-29"
+  "last_run": "2026-06-30"
 }
