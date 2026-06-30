@@ -77,7 +77,28 @@
     "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a9a907e7fad5a47ac.jsonl": 76,
     "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-aa0da6372cc5016af.jsonl": 37,
     "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-aa5b465fb4209694d.jsonl": 48,
-    "-Users-daeyoung-Codes-auto-recipe-creator/c6a31215-5253-4718-8b6c-c096ca11aeb3.jsonl": 12
+    "-Users-daeyoung-Codes-auto-recipe-creator/c6a31215-5253-4718-8b6c-c096ca11aeb3.jsonl": 12,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-a9f593230146a13e4.jsonl": 17,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-aaa1636b53e93e4d3.jsonl": 42,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-aad81e3e2f2b4b7b1.jsonl": 12,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-ab3c2b8288da9b89c.jsonl": 88,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-ab4425b94f691dae3.jsonl": 11,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-abcf6ee17c2a06904.jsonl": 68,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-ac006467e47f7afd3.jsonl": 109,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-ac14e42b9552cafd8.jsonl": 54,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-ac6c1693765b81178.jsonl": 20,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-ad708c22b65a824d6.jsonl": 43,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-adbf242cd80913336.jsonl": 88,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-ae8d5766c32812a21.jsonl": 12,
+    "-Users-daeyoung-Codes-auto-recipe-creator/2ba65e82-f054-4524-beea-adb3d4da78ed/subagents/agent-af19ca8fb218e46bf.jsonl": 40,
+    "-Users-daeyoung-Codes-auto-recipe-creator/3b7f08e4-43e1-4d1e-8082-dfad10acb242/subagents/agent-a07f5ae90c8e969ac.jsonl": 7,
+    "-Users-daeyoung-Codes-auto-recipe-creator/3b7f08e4-43e1-4d1e-8082-dfad10acb242/subagents/agent-a2e6e427b9f444a3c.jsonl": 44,
+    "-Users-daeyoung-Codes-auto-recipe-creator/3ca4387a-6558-4ec5-9fb3-d8ca06d5aa27/subagents/agent-a39f88f801079e3ac.jsonl": 67,
+    "-Users-daeyoung-Codes-auto-recipe-creator/3ca4387a-6558-4ec5-9fb3-d8ca06d5aa27/subagents/agent-a482f7860a0978e87.jsonl": 47,
+    "-Users-daeyoung-Codes-auto-recipe-creator/3ca4387a-6558-4ec5-9fb3-d8ca06d5aa27/subagents/agent-a98ca3ba0ae4030ae.jsonl": 51,
+    "-Users-daeyoung-Codes-auto-recipe-creator/9c605171-a5a7-460c-9812-ca445c7d813d.jsonl": 20,
+    "-Users-daeyoung-Codes-auto-recipe-creator/9fca6b83-0df4-403f-9702-995058303e46.jsonl": 21,
+    "-Users-daeyoung-Codes-auto-recipe-creator/a1e8d3fa-93c5-418f-add2-ecc70a762408.jsonl": 16
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -197,7 +218,10 @@
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-27-anomaly-convention-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-27-anomaly-convention-design.md:1782572487.6716862:19394",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-06-27-anomaly-convention-phase1.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-06-27-anomaly-convention-phase1.md:1782572487.6716094:40095",
     "skewnono_v3_nuxt/docs/superpowers/journals/2026-06-27-anomaly-convention-phase2-handoff.md": "skewnono_v3_nuxt/docs/superpowers/journals/2026-06-27-anomaly-convention-phase2-handoff.md:1782572487.6714194:4621",
-    "skewnono_v3_nuxt/docs/superpowers/journals/2026-06-27-anomaly-convention-phase1-build.md": "skewnono_v3_nuxt/docs/superpowers/journals/2026-06-27-anomaly-convention-phase1-build.md:1782572487.6713548:4398"
+    "skewnono_v3_nuxt/docs/superpowers/journals/2026-06-27-anomaly-convention-phase1-build.md": "skewnono_v3_nuxt/docs/superpowers/journals/2026-06-27-anomaly-convention-phase1-build.md:1782572487.6713548:4398",
+    "oss-mcp-fastapi/docs/journals/260630/260630_101330_wire-member-info-mcp.md": "oss-mcp-fastapi/docs/journals/260630/260630_101330_wire-member-info-mcp.md:1782782045.7190037:4097",
+    "pm_notes/docs/superpowers/plans/2026-06-30-smart-align-agent-reorg.md": "pm_notes/docs/superpowers/plans/2026-06-30-smart-align-agent-reorg.md:1782776013.0352685:26950",
+    "pm_notes/docs/superpowers/specs/2026-06-30-smart-align-agent-reorg-design.md": "pm_notes/docs/superpowers/specs/2026-06-30-smart-align-agent-reorg-design.md:1782775969.3649614:6043"
   },
-  "last_run": "2026-06-30"
+  "last_run": "2026-07-01"
 }

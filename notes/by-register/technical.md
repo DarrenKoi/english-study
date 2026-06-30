@@ -187,3 +187,13 @@
   - 예: This is upgrade-only: the post-pass may bump a row to `E_CONFIRMED` but must never downgrade a tier.
 - **dead code (a branch that can't be reached)** — 도달 불가능하거나 결코 읽히지 않는 코드. ↔ a live path / load-bearing code.
   - 예: The `if bank else None` guard is dead code — the earlier `continue` already proved `bank` is truthy.
+- **phantom (zeros / a phantom default)** — 실체 없이 기본값으로 만들어진 가짜 값이 통계를 왜곡함.
+  - 예: The `0.0` default fabricates a rate for recipes that have none, so the means diverge — phantom zeros.
+- **swallow an exception / a swallowed exception** — 예외를 잡고도 처리·전파 없이 묻어버려 오류가 숨다(안티패턴). ↔ propagate / re-raise.
+  - 예: This ValueError is not even swallowed — it propagates and aborts the whole run.
+- **a forward reference (resolved at call time)** — 나중에 정의되는 이름을 함수 본문에서 먼저 참조해도 호출 시점에 해석돼 안전함.
+  - 예: A forward reference inside a function body is safe because name lookup happens at call time, not at def time.
+- **off-by-one (error)** — 경계 인덱스를 1 차이로 빗나간 고전적 버그(`<` vs `<=`). ≈ a fencepost error.
+  - 예: Look for inverted conditions, off-by-one errors, and None dereferences.
+- **a latent bug** — 평소엔 안 터지지만 특정 조건에서만 드러나는 잠복 결함.
+  - 예: The example uses 1/0, so this is low risk — but it is a latent bug if a user writes `False` instead.

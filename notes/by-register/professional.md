@@ -181,3 +181,15 @@
   - 예: The controller's tentative call is WONTFIX; the senior reviewer can confirm or overrule it.
 - **a faithful transcription of the spec** — 명세를 자의적 해석 없이 글자 그대로 옮긴 것. ↔ a loose interpretation.
   - 예: The implementation is a faithful, minimal transcription of the spec — every requirement met, nothing extra.
+- **bolted on (as a special case)** — 기존 구조에 녹지 않고 외부에 특수 케이스로 억지로 덧붙이다(부정적). ↔ baked in / first-class.
+  - 예: The bank arms are bolted on as a free-floating parallel pass rather than registered as a proper arm.
+- **a too-shallow fix / a fragile bandaid** — 근본 원인 대신 증상만 덮은 얕은·임시 수정. ↔ a proper fix at the root.
+  - 예: A pass that must be hand-kept-in-sync with another function is a classic too-shallow fix.
+- **no collateral damage** — 변경이 의도한 곳만 바꾸고 무관한 코드·동작을 망가뜨리지 않음. ↔ a regression.
+  - 예: Collateral damage: none — the diff touches only the two described lines and leaves the no-data returns untouched.
+- **scope creep** — 정해진 작업 범위가 야금야금 늘어남. "not scope creep"으로 범위 확장 아님을 변호. ↔ stay in scope / YAGNI.
+  - 예: Updating the old assertions is sanctioned by the plan, not scope creep.
+- **a head-to-head (comparison)** — 두 방식을 같은 조건에서 정면으로 맞붙여 비교함. ≈ apples-to-apples.
+  - 예: If the eligible sets diverge, the head-to-head comparison between the two arms becomes invalid.
+- **a plausible-but-wrong guess** — 그럴듯해 보여도 사실이 아닌 추측. ↔ a grounded, verified answer.
+  - 예: Do NOT fabricate a data path — this honesty is more valuable than a plausible guess.
