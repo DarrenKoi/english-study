@@ -197,3 +197,9 @@
   - 예: Look for inverted conditions, off-by-one errors, and None dereferences.
 - **a latent bug** — 평소엔 안 터지지만 특정 조건에서만 드러나는 잠복 결함.
   - 예: The example uses 1/0, so this is low risk — but it is a latent bug if a user writes `False` instead.
+- **a testbed** — 특정 레버(변경)의 효과를 격리해 측정하는 부분·환경. ≈ a proving ground. ↔ production.
+  - 예: The rcp-only arm becomes the natural testbed for the edge_ncc lever, since consensus can't help there.
+- **a no-op** — 실행돼도 순 효과가 0인 공회전 동작(no-operation).
+  - 예: If the cursor already sits on the center, the glide is a no-op — 24 identical writes with zero net motion.
+- **a (documented) wart** — 치명적이진 않지만 알고도 감수하는, 문서에 남겨두는 자잘한 설계 흠.
+  - 예: One documented wart: the two arms use different templates, so the lift is only comparable within an arm.

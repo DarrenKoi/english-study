@@ -89,3 +89,7 @@
   - 예: The median wash-out the design avoids actually buys one thing: it blurs the distractors harder than the key.
 - **give (something) a read** — (문서를) 한번 읽어봐 / 훑어봐 줘(캐주얼 부탁). ↔ study it closely / pore over.
   - 예: Give the spec a read and confirm the default value before we lock the design.
+- **a rehash** — 새것처럼 보이지만 이미 한 것을 되풀이한 재탕. ↔ a fresh take.
+  - 예: I'll tell you whether this experiment is genuinely new or just a rehash of what we already ran.
+- **defeat the purpose (of)** — 어떤 조치가 원래 목적을 되레 무너뜨리다. ≈ backfire, be counterproductive.
+  - 예: Falling back to a single jump defeats the very purpose of the glide it was meant to fix.

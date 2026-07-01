@@ -193,3 +193,11 @@
   - 예: If the eligible sets diverge, the head-to-head comparison between the two arms becomes invalid.
 - **a plausible-but-wrong guess** — 그럴듯해 보여도 사실이 아닌 추측. ↔ a grounded, verified answer.
   - 예: Do NOT fabricate a data path — this honesty is more valuable than a plausible guess.
+- **hand-wavy** — 근거·수치 없이 두루뭉술한. "not hand-wavy"로 분석의 단단함을 변호. ↔ rigorous / well-grounded.
+  - 예: I pulled the specifics from the primary sources so the evaluation is grounded, not hand-wavy.
+- **the crux (of something)** — 문제 전체가 걸린 결정적 핵심 쟁점. ≈ the heart of the matter. ↔ a side issue.
+  - 예: The crux of your concern is whether the msr align point survives the jump into live-SEM coordinates.
+- **flag, don't block** — 확신이 약한 지적은 진행을 막지 말고 표시만 남겨라. ↔ block / gate / hard-fail.
+  - 예: This finding is more speculative than the others — flag, don't block.
+- **self-evidencing / self-evident** — 산출물이 그 자체로 증거가 되는; 자명한. ≈ speaks for itself.
+  - 예: Drawing the marker at the known point makes the artifact self-evidencing, regardless of how the cursor renders.

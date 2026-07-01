@@ -98,7 +98,17 @@
     "-Users-daeyoung-Codes-auto-recipe-creator/3ca4387a-6558-4ec5-9fb3-d8ca06d5aa27/subagents/agent-a98ca3ba0ae4030ae.jsonl": 51,
     "-Users-daeyoung-Codes-auto-recipe-creator/9c605171-a5a7-460c-9812-ca445c7d813d.jsonl": 20,
     "-Users-daeyoung-Codes-auto-recipe-creator/9fca6b83-0df4-403f-9702-995058303e46.jsonl": 21,
-    "-Users-daeyoung-Codes-auto-recipe-creator/a1e8d3fa-93c5-418f-add2-ecc70a762408.jsonl": 16
+    "-Users-daeyoung-Codes-auto-recipe-creator/a1e8d3fa-93c5-418f-add2-ecc70a762408.jsonl": 16,
+    "-Users-daeyoung-Codes-auto-recipe-creator/30ee7e8f-0ae4-4575-afc3-6d38e5b882ac.jsonl": 164,
+    "-Users-daeyoung-Codes-auto-recipe-creator/377699df-31bc-43ff-baa6-9aac1f7a2a08.jsonl": 22,
+    "-Users-daeyoung-Codes-auto-recipe-creator/3b7f08e4-43e1-4d1e-8082-dfad10acb242.jsonl": 1355,
+    "-Users-daeyoung-Codes-auto-recipe-creator/3ca4387a-6558-4ec5-9fb3-d8ca06d5aa27.jsonl": 430,
+    "-Users-daeyoung-Codes-auto-recipe-creator/3dc3c64b-87fe-4af6-974b-ed3577c42910/subagents/agent-a05fca00066767c17.jsonl": 20,
+    "-Users-daeyoung-Codes-auto-recipe-creator/3dc3c64b-87fe-4af6-974b-ed3577c42910/subagents/agent-a3f6b4307f86e6a97.jsonl": 43,
+    "-Users-daeyoung-Codes-auto-recipe-creator/3dc3c64b-87fe-4af6-974b-ed3577c42910/subagents/agent-a6539abf4c65aa6da.jsonl": 37,
+    "-Users-daeyoung-Codes-auto-recipe-creator/3dc3c64b-87fe-4af6-974b-ed3577c42910/subagents/agent-a6d09d507cbf44219.jsonl": 66,
+    "-Users-daeyoung-Codes-auto-recipe-creator/3dc3c64b-87fe-4af6-974b-ed3577c42910/subagents/agent-a850da95a537c76d6.jsonl": 29,
+    "-Users-daeyoung-Codes-auto-recipe-creator/565d7fb5-51a0-48cf-a993-203d6f56f651/subagents/agent-a24b1aeab676a1498.jsonl": 24
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -134,13 +144,13 @@
     "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-10-production-trust-consensus-cache-and-decision-layer.md": "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-10-production-trust-consensus-cache-and-decision-layer.md:1781881273.6334097:11068",
     "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-10-consensus-gather-in-loop.md": "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-10-consensus-gather-in-loop.md:1781881273.6328495:33577",
     "auto_recipe_creator/poc/workflow_2/docs/study/runbooks/golden_combined_office_runbook.md": "auto_recipe_creator/poc/workflow_2/docs/study/runbooks/golden_combined_office_runbook.md:1781881273.6322298:6262",
-    "auto_recipe_creator/docs/project_progress/README.md": "auto_recipe_creator/docs/project_progress/README.md:1781881273.6303623:2254",
+    "auto_recipe_creator/docs/project_progress/README.md": "auto_recipe_creator/docs/project_progress/README.md:1782880134.8376484:3225",
     "auto_recipe_creator/docs/project_progress/05_status_roadmap.md": "auto_recipe_creator/docs/project_progress/05_status_roadmap.md:1782187232.4860828:5851",
-    "auto_recipe_creator/docs/project_progress/04_workflow_3.md": "auto_recipe_creator/docs/project_progress/04_workflow_3.md:1781881273.6301677:6079",
-    "auto_recipe_creator/docs/project_progress/03_workflow_2.md": "auto_recipe_creator/docs/project_progress/03_workflow_2.md:1782187202.6428845:7067",
-    "auto_recipe_creator/docs/project_progress/02_workflow_1.md": "auto_recipe_creator/docs/project_progress/02_workflow_1.md:1781881273.6299524:4115",
-    "auto_recipe_creator/docs/project_progress/01_vlm_deployment.md": "auto_recipe_creator/docs/project_progress/01_vlm_deployment.md:1781881273.6298432:5940",
-    "auto_recipe_creator/docs/project_progress/00_executive_summary.md": "auto_recipe_creator/docs/project_progress/00_executive_summary.md:1781881273.6297064:5735",
+    "auto_recipe_creator/docs/project_progress/04_workflow_3.md": "auto_recipe_creator/docs/project_progress/04_workflow_3.md:1782879672.2064495:5011",
+    "auto_recipe_creator/docs/project_progress/03_workflow_2.md": "auto_recipe_creator/docs/project_progress/03_workflow_2.md:1782879792.2595253:10760",
+    "auto_recipe_creator/docs/project_progress/02_workflow_1.md": "auto_recipe_creator/docs/project_progress/02_workflow_1.md:1782879677.4400048:4035",
+    "auto_recipe_creator/docs/project_progress/01_vlm_deployment.md": "auto_recipe_creator/docs/project_progress/01_vlm_deployment.md:1782879697.6632073:3853",
+    "auto_recipe_creator/docs/project_progress/00_executive_summary.md": "auto_recipe_creator/docs/project_progress/00_executive_summary.md:1782879757.3663266:8468",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-switcher-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-switcher-design.md:1781811112.0144095:7541",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-comparison-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-comparison-design.md:1781811112.014338:10951",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-compare-refinements-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-compare-refinements-design.md:1781811112.0142772:7396",
@@ -221,7 +231,14 @@
     "skewnono_v3_nuxt/docs/superpowers/journals/2026-06-27-anomaly-convention-phase1-build.md": "skewnono_v3_nuxt/docs/superpowers/journals/2026-06-27-anomaly-convention-phase1-build.md:1782572487.6713548:4398",
     "oss-mcp-fastapi/docs/journals/260630/260630_101330_wire-member-info-mcp.md": "oss-mcp-fastapi/docs/journals/260630/260630_101330_wire-member-info-mcp.md:1782782045.7190037:4097",
     "pm_notes/docs/superpowers/plans/2026-06-30-smart-align-agent-reorg.md": "pm_notes/docs/superpowers/plans/2026-06-30-smart-align-agent-reorg.md:1782776013.0352685:26950",
-    "pm_notes/docs/superpowers/specs/2026-06-30-smart-align-agent-reorg-design.md": "pm_notes/docs/superpowers/specs/2026-06-30-smart-align-agent-reorg-design.md:1782775969.3649614:6043"
+    "pm_notes/docs/superpowers/specs/2026-06-30-smart-align-agent-reorg-design.md": "pm_notes/docs/superpowers/specs/2026-06-30-smart-align-agent-reorg-design.md:1782775969.3649614:6043",
+    "auto_recipe_creator/docs/project_plan/hermes_study/hermes_poc_scenarios.md": "auto_recipe_creator/docs/project_plan/hermes_study/hermes_poc_scenarios.md:1782890503.018634:8385",
+    "auto_recipe_creator/docs/project_plan/hermes_study/hermes_agent_feasibility.md": "auto_recipe_creator/docs/project_plan/hermes_study/hermes_agent_feasibility.md:1782889925.1744761:16899",
+    "auto_recipe_creator/docs/project_progress/04_workflow_3_review.txt": "auto_recipe_creator/docs/project_progress/04_workflow_3_review.txt:1782879183.8564293:1278",
+    "auto_recipe_creator/docs/project_progress/03_workflow_2_review.txt": "auto_recipe_creator/docs/project_progress/03_workflow_2_review.txt:1782877162.4029875:1613",
+    "auto_recipe_creator/docs/project_progress/02_workflow_1_review.txt": "auto_recipe_creator/docs/project_progress/02_workflow_1_review.txt:1782870965.2892234:1668",
+    "auto_recipe_creator/docs/project_progress/01_vlm_deployment_review.txt": "auto_recipe_creator/docs/project_progress/01_vlm_deployment_review.txt:1782870381.056145:1587",
+    "auto_recipe_creator/docs/project_progress/00_executive_summary_review.txt": "auto_recipe_creator/docs/project_progress/00_executive_summary_review.txt:1782867458.2465847:2073"
   },
-  "last_run": "2026-07-01"
+  "last_run": "2026-07-02"
 }

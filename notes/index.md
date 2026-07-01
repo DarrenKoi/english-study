@@ -14,15 +14,19 @@
 - [a latent bug](daily/2026-07-01/new-expressions.md) — 2026-07-01
 - [a merge blocker](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [a negative-control arm](daily/2026-06-29/new-expressions.md) — 2026-06-29
+- [a no-op](daily/2026-07-02/new-expressions.md) — 2026-07-02
 - [a None-sentinel guard](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [a plausible-but-wrong guess](daily/2026-07-01/new-expressions.md) — 2026-07-01
 - [a recall illusion](daily/2026-06-28/new-expressions.md) — 2026-06-28
+- [a rehash](daily/2026-07-02/new-expressions.md) — 2026-07-02
 - [a request ceiling, not a guarantee](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [a row count separate from the row payload](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [a second opinion](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [a strong read, not a menu](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [a testbed](daily/2026-07-02/new-expressions.md) — 2026-07-02
 - [a thin capture client](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [a too-shallow fix / a fragile bandaid](daily/2026-07-01/new-expressions.md) — 2026-07-01
+- [a wart (a documented wart)](daily/2026-07-02/new-expressions.md) — 2026-07-02
 - [a wash](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [a wrinkle worth flagging](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [abstain](daily/2026-06-21/new-expressions.md) — 2026-06-21
@@ -64,6 +68,7 @@
 - [de-risk (something) first](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [dead code (a branch that can't be reached)](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [deep module / shallow module](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [defeat the purpose (of)](daily/2026-07-02/new-expressions.md) — 2026-07-02
 - [deep-link-ready](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [deferred deliberately](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [degrade gracefully](daily/2026-06-18/new-expressions.md) — 2026-06-18
@@ -88,6 +93,7 @@
 - [falsify (an idea) cheaply](daily/2026-06-25/new-expressions.md) — 2026-06-25
 - [fast-follow](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [first-class](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [flag, don't block](daily/2026-07-02/new-expressions.md) — 2026-07-02
 - [float up (the list)](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [for free](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [framework-free pure util](daily/2026-06-27/new-expressions.md) — 2026-06-27
@@ -103,6 +109,7 @@
 - [grounded in (the literature)](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [grow without bound](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [hand-tuned](daily/2026-06-22/new-expressions.md) — 2026-06-22
+- [hand-wavy](daily/2026-07-02/new-expressions.md) — 2026-07-02
 - [hit a ceiling (a discriminability ceiling)](daily/2026-06-29/new-expressions.md) — 2026-06-29
 - [hit the same wall](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [honour (a constraint / rule)](daily/2026-06-20/new-expressions.md) — 2026-06-20
@@ -159,6 +166,7 @@
 - [say the word (just say the word)](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [scope creep](daily/2026-07-01/new-expressions.md) — 2026-07-01
 - [seeded from](daily/2026-06-22/new-expressions.md) — 2026-06-22
+- [self-evidencing / self-evident](daily/2026-07-02/new-expressions.md) — 2026-07-02
 - [self-hosted](daily/2026-06-27/new-expressions.md) — 2026-06-27
 - [shadow mode](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [sharpen fuzzy language](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -177,6 +185,7 @@
 - [that's a vibe](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [That's the smoking gun](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [the bridge between X and Y](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [the crux (of something)](daily/2026-07-02/new-expressions.md) — 2026-07-02
 - [the explicit no's are as valuable as the yes's](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [the headline ask](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [the interface is the test surface](daily/2026-06-17/new-expressions.md) — 2026-06-17
