@@ -201,3 +201,13 @@
   - 예: This finding is more speculative than the others — flag, don't block.
 - **self-evidencing / self-evident** — 산출물이 그 자체로 증거가 되는; 자명한. ≈ speaks for itself.
   - 예: Drawing the marker at the known point makes the artifact self-evidencing, regardless of how the cursor renders.
+- **over-promise** — (근거보다) 과하게 약속·보장하다. 흔히 "over-promise and under-deliver". ↔ under-promise / understate.
+  - 예: The `FRESH_SNAPSHOT` label over-promises: its evidence is the median, but the fix installs a single snapshot.
+- **manage expectations (on ...)** — 미리 기대치를 현실적으로 조절해 두다. ↔ overhype / raise expectations.
+  - 예: Only 28 recipes are E-bearing, so manage expectations on how many you can ever confirm.
+- **with one sharpening** — 동의하되 한 군데만 더 정밀하게 다듬자면(동의+미세보정 화법). ≈ with one caveat. ↔ without reservation.
+  - 예: Agree — with one sharpening, because the precise version of the claim matters for what you do next.
+- **a (non-blocking) loose end** — 진행을 막지 않는 미결 잔무. cf. tie up loose ends. ↔ a resolved thread.
+  - 예: There's one non-blocking loose end from Phase 1: a full uncapped office run to confirm `w_sugg=1`.
+- **the vindication of (a thesis)** — 실망스러워 보이는 결과가 오히려 가설을 확증함. ↔ a refutation / a debunking.
+  - 예: This isn't a surprise result — it's the vindication of the entire re-registration thesis.

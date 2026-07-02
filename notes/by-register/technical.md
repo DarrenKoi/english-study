@@ -203,3 +203,11 @@
   - 예: If the cursor already sits on the center, the glide is a no-op — 24 identical writes with zero net motion.
 - **a (documented) wart** — 치명적이진 않지만 알고도 감수하는, 문서에 남겨두는 자잘한 설계 흠.
   - 예: One documented wart: the two arms use different templates, so the lift is only comparable within an arm.
+- **office-gated** — (정확도 검증 등이) 사무실 환경에서만 가능하도록 게이트가 걸린. `X-gated` 형으로 조합. ↔ Mac-testable / locally verifiable.
+  - 예: Tasks 1–5 verify on Mac, but Task 6's accuracy is office-gated.
+- **a cosmetic fix** — 겉만 바꾸고 실질 동작은 그대로인 헛수정. ↔ a root-cause fix.
+  - 예: My earlier fix was cosmetic — moving the gate to `< 2` did nothing, because the next line was the real filter.
+- **in structural conflict** — 두 설계·전제가 근본 구조상 양립 불가능한(at odds보다 강함). ↔ complementary.
+  - 예: The two designs are in structural conflict: you can't measure a collapse on keys that never stood up.
+- **starting guesses (uncalibrated)** — 아직 실측 보정 안 된 초기 추정값. ↔ calibrated / tuned values.
+  - 예: The three thresholds shipped as starting guesses, uncalibrated for the real score distribution.

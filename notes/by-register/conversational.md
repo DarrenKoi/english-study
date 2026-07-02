@@ -93,3 +93,7 @@
   - 예: I'll tell you whether this experiment is genuinely new or just a rehash of what we already ran.
 - **defeat the purpose (of)** — 어떤 조치가 원래 목적을 되레 무너뜨리다. ≈ backfire, be counterproductive.
   - 예: Falling back to a single jump defeats the very purpose of the glide it was meant to fix.
+- **no height to fall from** — 이미 낮아 붕괴(하락)를 잴 여지가 없다는 비유. ↔ a tall baseline that craters.
+  - 예: A key that's already weak on success frames has no height to fall from, so a collapse signal can never form.
+- **ride along (as a row)** — 기여 없이 그냥 딸려서 처리되다. ≈ tag along. ↔ pull its weight.
+  - 예: An S-only recipe contributes zero calibration signal — it just rides along as a Phase-1 latent-risk row.
