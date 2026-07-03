@@ -211,3 +211,19 @@
   - 예: There's one non-blocking loose end from Phase 1: a full uncapped office run to confirm `w_sugg=1`.
 - **the vindication of (a thesis)** — 실망스러워 보이는 결과가 오히려 가설을 확증함. ↔ a refutation / a debunking.
   - 예: This isn't a surprise result — it's the vindication of the entire re-registration thesis.
+
+## 2026-07-04 — auto_recipe_creator zoom-ladder/PM-dropdown 배치
+- **quietly expensive** — 요란하게 터지진 않지만 몰래 비용을 누적시키는. ↔ fail loudly.
+  - 예: Stale docs are quietly expensive — they misdirect future work instead of failing loudly.
+- **rule out** — (가능성·가설을) 배제하다. 부정형 `can't rule out` 이 특히 유용. ↔ confirm / rule in.
+  - 예: Let me re-read the committed code to rule out a real bug before assuming it's a config issue.
+- **fight the (repo's own) convention** — 기존 관례를 거슬러 마찰을 일으키다. ↔ lean into the convention.
+  - 예: A gitignored folder named `docs/` would silently fight the repo's own convention that docs are tracked.
+- **actionable, not aspirational** — 희망사항 수준이 아니라 바로 실행 가능한. ↔ hand-wavy.
+  - 예: Name the exact entry files in the doc so the workflow is actionable, not aspirational.
+- **moot (make X moot)** — 조건 변화로 논의할 실익이 사라진 (논점). ↔ a live issue.
+  - 예: The out-of-bounds candidates are filtered earlier, which makes the None-handling question moot in the A/B run.
+- **a judgment-heavy pass** — 기계적 일괄이 아니라 건건이 판단이 필요한 작업. `X-heavy` 패턴. ↔ a uniform migration.
+  - 예: It's a judgment-heavy pass over twenty files, so a single careful session beats a fan-out of isolated agents.
+- **before declaring done** — "다 했다"고 선언하기 전에 (최종 검증하라). ↔ declare victory prematurely.
+  - 예: Re-run the full grep unfiltered before declaring the migration done.

@@ -211,3 +211,13 @@
   - 예: The two designs are in structural conflict: you can't measure a collapse on keys that never stood up.
 - **starting guesses (uncalibrated)** — 아직 실측 보정 안 된 초기 추정값. ↔ calibrated / tuned values.
   - 예: The three thresholds shipped as starting guesses, uncalibrated for the real score distribution.
+
+## 2026-07-04 — auto_recipe_creator zoom-ladder/PM-dropdown 배치
+- **slot into (the same lifecycle)** — 기존 구조를 고치지 않고 빈자리에 딱 끼워지다. ↔ require restructuring / bolt on.
+  - 예: The new probe slots into the same lifecycle as the reposition preview, so no restructuring is needed.
+- **a confound** — A/B 실험에서 비교하려는 변수 외에 결과를 오염시키는 교란 변수. ↔ a controlled comparison.
+  - 예: Letting the two runners use different scale bands would be a confound — the delta would no longer isolate the new channels.
+- **office-blind / fix (it) blind** — 대상 환경을 직접 못 보는 채로(깜깜이로) 작업하는. `X-blind` 합성 패턴. ↔ verified against real data.
+  - 예: I deliberately didn't fix those three findings blind — they need the first office run's logs to calibrate.
+- **sweep up (unrelated WIP)** — 커밋에 무관한 변경까지 휩쓸어 담다. ↔ keep the commit surgical.
+  - 예: Stage only the files you touched, or you'll sweep up someone else's WIP into your commit.

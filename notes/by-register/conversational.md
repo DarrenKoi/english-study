@@ -97,3 +97,11 @@
   - 예: A key that's already weak on success frames has no height to fall from, so a collapse signal can never form.
 - **ride along (as a row)** — 기여 없이 그냥 딸려서 처리되다. ≈ tag along. ↔ pull its weight.
   - 예: An S-only recipe contributes zero calibration signal — it just rides along as a Phase-1 latent-risk row.
+
+## 2026-07-04 — auto_recipe_creator zoom-ladder/PM-dropdown 배치
+- **a dead end** — 더 가봐야 성과 없는 막다른 접근(→ 방향 전환의 근거). ↔ a promising avenue.
+  - 예: The wheel approach turned out to be a dead end on this tool, so we pivoted to the PM-button dropdown.
+- **hold off (on X)** — 신호가 올 때까지 일부러 보류하다("안 한다"가 아니라 "기다리는 중"). ↔ go ahead with.
+  - 예: I held off on the push until you confirmed the commit message.
+- **X is the whole story** — 여러 요인 중 "사실상 이것 하나가 전부"라고 핵심을 콕 집기. ≈ the real culprit. ↔ only part of the picture.
+  - 예: The second-ratio of 0.994 is the whole story: two spots match almost identically, so the engine refuses to commit.
