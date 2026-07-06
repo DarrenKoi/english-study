@@ -119,7 +119,24 @@
     "-Users-daeyoung-Codes-auto-recipe-creator/565d7fb5-51a0-48cf-a993-203d6f56f651/subagents/agent-a1f69db249275edf1.jsonl": 39,
     "-Users-daeyoung-Codes-auto-recipe-creator/565d7fb5-51a0-48cf-a993-203d6f56f651/subagents/agent-a28ba758cb08aca4c.jsonl": 6,
     "-Users-daeyoung-Codes-auto-recipe-creator/661693f6-9b1f-4f53-80c6-b8ace1bec473/subagents/agent-a0b20086392fd1f0c.jsonl": 12,
-    "-Users-daeyoung-Codes-auto-recipe-creator/aebc4792-4f55-4447-952a-5d91f72bbfc7.jsonl": 18
+    "-Users-daeyoung-Codes-auto-recipe-creator/aebc4792-4f55-4447-952a-5d91f72bbfc7.jsonl": 18,
+    "-Users-daeyoung-Codes-auto-recipe-creator/565d7fb5-51a0-48cf-a993-203d6f56f651/subagents/agent-a2ac9acf1197ce185.jsonl": 40,
+    "-Users-daeyoung-Codes-auto-recipe-creator/565d7fb5-51a0-48cf-a993-203d6f56f651/subagents/agent-a2b380e9dbf7cecba.jsonl": 64,
+    "-Users-daeyoung-Codes-auto-recipe-creator/565d7fb5-51a0-48cf-a993-203d6f56f651/subagents/agent-a42d2124270c9e201.jsonl": 6,
+    "-Users-daeyoung-Codes-auto-recipe-creator/565d7fb5-51a0-48cf-a993-203d6f56f651/subagents/agent-a4c536eb6d488ff80.jsonl": 16,
+    "-Users-daeyoung-Codes-auto-recipe-creator/565d7fb5-51a0-48cf-a993-203d6f56f651/subagents/agent-a4d0ec505c91152ba.jsonl": 59,
+    "-Users-daeyoung-Codes-auto-recipe-creator/565d7fb5-51a0-48cf-a993-203d6f56f651/subagents/agent-a4fa281b5ea84fa9d.jsonl": 6,
+    "-Users-daeyoung-Codes-auto-recipe-creator/565d7fb5-51a0-48cf-a993-203d6f56f651/subagents/agent-a51080ed2b284a104.jsonl": 83,
+    "-Users-daeyoung-Codes-auto-recipe-creator/565d7fb5-51a0-48cf-a993-203d6f56f651/subagents/agent-a51b8b2430d0b1d64.jsonl": 38,
+    "-Users-daeyoung-Codes-auto-recipe-creator/565d7fb5-51a0-48cf-a993-203d6f56f651/subagents/agent-a57ecad69391ad807.jsonl": 6,
+    "-Users-daeyoung-Codes-auto-recipe-creator/565d7fb5-51a0-48cf-a993-203d6f56f651/subagents/agent-a5fcfac771a19f31d.jsonl": 48,
+    "-Users-daeyoung-Codes-auto-recipe-creator/565d7fb5-51a0-48cf-a993-203d6f56f651/subagents/agent-a6238de4e8097c3d2.jsonl": 25,
+    "-Users-daeyoung-Codes-auto-recipe-creator/565d7fb5-51a0-48cf-a993-203d6f56f651/subagents/agent-a623c2a72ab60a6bd.jsonl": 29,
+    "-Users-daeyoung-Codes-auto-recipe-creator/565d7fb5-51a0-48cf-a993-203d6f56f651/subagents/agent-a6375c310264e5b41.jsonl": 59,
+    "-Users-daeyoung-Codes-auto-recipe-creator/565d7fb5-51a0-48cf-a993-203d6f56f651/subagents/agent-a65199f1f62edc448.jsonl": 12,
+    "-Users-daeyoung-Codes-auto-recipe-creator/565d7fb5-51a0-48cf-a993-203d6f56f651/subagents/agent-a6cbfb8c36d135394.jsonl": 71,
+    "-Users-daeyoung-Codes-auto-recipe-creator/565d7fb5-51a0-48cf-a993-203d6f56f651/subagents/agent-a8ab35f7d7e5b1af3.jsonl": 73,
+    "-Users-daeyoung-Codes-auto-recipe-creator/661693f6-9b1f-4f53-80c6-b8ace1bec473/subagents/agent-a2cb9a953277c2cd8.jsonl": 35
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -155,13 +172,13 @@
     "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-10-production-trust-consensus-cache-and-decision-layer.md": "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-10-production-trust-consensus-cache-and-decision-layer.md:1781881273.6334097:11068",
     "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-10-consensus-gather-in-loop.md": "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-10-consensus-gather-in-loop.md:1781881273.6328495:33577",
     "auto_recipe_creator/poc/workflow_2/docs/study/runbooks/golden_combined_office_runbook.md": "auto_recipe_creator/poc/workflow_2/docs/study/runbooks/golden_combined_office_runbook.md:1781881273.6322298:6262",
-    "auto_recipe_creator/docs/project_progress/README.md": "auto_recipe_creator/docs/project_progress/README.md:1782880134.8376484:3225",
+    "auto_recipe_creator/docs/project_progress/README.md": "auto_recipe_creator/docs/project_progress/README.md:1783319803.011296:3329",
     "auto_recipe_creator/docs/project_progress/05_status_roadmap.md": "auto_recipe_creator/docs/project_progress/05_status_roadmap.md:1782187232.4860828:5851",
-    "auto_recipe_creator/docs/project_progress/04_workflow_3.md": "auto_recipe_creator/docs/project_progress/04_workflow_3.md:1782879672.2064495:5011",
-    "auto_recipe_creator/docs/project_progress/03_workflow_2.md": "auto_recipe_creator/docs/project_progress/03_workflow_2.md:1782879792.2595253:10760",
-    "auto_recipe_creator/docs/project_progress/02_workflow_1.md": "auto_recipe_creator/docs/project_progress/02_workflow_1.md:1782879677.4400048:4035",
+    "auto_recipe_creator/docs/project_progress/04_workflow_3.md": "auto_recipe_creator/docs/project_progress/04_workflow_3.md:1783319775.4684057:5927",
+    "auto_recipe_creator/docs/project_progress/03_workflow_2.md": "auto_recipe_creator/docs/project_progress/03_workflow_2.md:1783319741.5710773:11631",
+    "auto_recipe_creator/docs/project_progress/02_workflow_1.md": "auto_recipe_creator/docs/project_progress/02_workflow_1.md:1783319709.445952:5115",
     "auto_recipe_creator/docs/project_progress/01_vlm_deployment.md": "auto_recipe_creator/docs/project_progress/01_vlm_deployment.md:1782879697.6632073:3853",
-    "auto_recipe_creator/docs/project_progress/00_executive_summary.md": "auto_recipe_creator/docs/project_progress/00_executive_summary.md:1782879757.3663266:8468",
+    "auto_recipe_creator/docs/project_progress/00_executive_summary.md": "auto_recipe_creator/docs/project_progress/00_executive_summary.md:1783319787.3386045:8527",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-switcher-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-switcher-design.md:1781811112.0144095:7541",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-comparison-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-comparison-design.md:1781811112.014338:10951",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-compare-refinements-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-compare-refinements-design.md:1781811112.0142772:7396",
@@ -252,5 +269,5 @@
     "auto_recipe_creator/docs/project_progress/00_executive_summary_review.txt": "auto_recipe_creator/docs/project_progress/00_executive_summary_review.txt:1782867458.2465847:2073",
     "wiki_for_office/docs/study/pixelrag/hermes_agent.txt": "wiki_for_office/docs/study/pixelrag/hermes_agent.txt:1783056147.0019958:682"
   },
-  "last_run": "2026-07-04"
+  "last_run": "2026-07-07"
 }

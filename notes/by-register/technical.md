@@ -221,3 +221,13 @@
   - 예: I deliberately didn't fix those three findings blind — they need the first office run's logs to calibrate.
 - **sweep up (unrelated WIP)** — 커밋에 무관한 변경까지 휩쓸어 담다. ↔ keep the commit surgical.
   - 예: Stage only the files you touched, or you'll sweep up someone else's WIP into your commit.
+
+## 2026-07-07 — auto_recipe_creator ensemble-proposer 리뷰 배치
+- **a drop-in replacement** — 호출부 수정 없이 그대로 갈아 끼울 수 있는 대체물. ↔ a breaking change.
+  - 예: The new entrypoint populates every field the callers read, so it works as a drop-in replacement for the old function.
+- **behavior-preserving** — 외부에서 관측되는 동작을 전혀 바꾸지 않는 (리팩터링). ≈ no functional change.
+  - 예: The extraction is behavior-preserving: the smoke test output is identical before and after.
+- **bit-for-bit identical** — 반올림·근사 차이조차 없이 비트 단위까지 동일한. ↔ within float rounding.
+  - 예: Five consecutive runs produce bit-for-bit identical results, so the pipeline is fully deterministic.
+- **safe-by-default** — 옵션 없이 쓴 기본 동작이 곧 안전하도록 설계된 (X-by-default 패턴). ↔ a footgun.
+  - 예: Changing the default scale band makes the API safe-by-default for future callers.

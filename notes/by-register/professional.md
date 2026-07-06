@@ -227,3 +227,21 @@
   - 예: It's a judgment-heavy pass over twenty files, so a single careful session beats a fan-out of isolated agents.
 - **before declaring done** — "다 했다"고 선언하기 전에 (최종 검증하라). ↔ declare victory prematurely.
   - 예: Re-run the full grep unfiltered before declaring the migration done.
+
+## 2026-07-07 — auto_recipe_creator ensemble-proposer 리뷰 배치
+- **chasing the wrong root cause** — 낡은 진단 도구·지표 탓에 엉뚱한 근본 원인을 쫓게 되다.
+  - 예: If the dashboard still reports the old categories, whoever debugs the next incident will be chasing the wrong root cause.
+- **err on the side of X** — 오차가 불가피하면 덜 위험한 X 쪽으로 치우치게 설계하다.
+  - 예: The merge radius errs on the side of fewer duplicate clusters, which is the right trade-off for a proposer.
+- **on equal footing** — 동등한 조건에서 (비교가 공정하도록 조건을 맞춰). ↔ stack the deck.
+  - 예: We normalize edge density first so the three channels compare on equal footing.
+- **ship with caution** — 조건부 승인 평결: 배포는 허용하되 특정 이슈를 주시하라. ↔ block the release.
+  - 예: Assessment: ship with caution — the fix is sound, but watch the distinctiveness gate on real data.
+- **not a blocker** — 결함은 맞지만 진행을 막을 급은 아니다. ↔ a showstopper.
+  - 예: The stale docstring is real but not a blocker — file it as a follow-up.
+- **measure the ghost of the old system** — 이미 사라진 구현을 기준으로 계속 지표를 내다(무의미해진 계측의 수사적 표현).
+  - 예: After the selector swap, the diagnostic still measures the ghost of the old system, so its counts say nothing about production.
+- **be proportionate** — 검토·수고의 강도를 대상의 위험도에 비례시켜라. ↔ gold-plate.
+  - 예: Be proportionate: it's a throwaway measurement script, so don't demand production-grade error handling.
+- **retract (a finding)** — 자기가 낸 지적·주장을 검증 끝에 공식 철회하다. ↔ stand by one's claim.
+  - 예: After tracing the initialization, I retract the finding — the sentinel can never survive the first iteration.

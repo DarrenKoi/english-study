@@ -105,3 +105,7 @@
   - 예: I held off on the push until you confirmed the commit message.
 - **X is the whole story** — 여러 요인 중 "사실상 이것 하나가 전부"라고 핵심을 콕 집기. ≈ the real culprit. ↔ only part of the picture.
   - 예: The second-ratio of 0.994 is the whole story: two spots match almost identically, so the engine refuses to commit.
+
+## 2026-07-07 — auto_recipe_creator ensemble-proposer 리뷰 배치
+- **spot-check** (동사) — 전수 검사 대신 표본 몇 개만 골라 빠르게 점검하다. ↔ audit exhaustively.
+  - 예: I spot-checked three of the migrated files and the formatting held up.
