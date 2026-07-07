@@ -2,6 +2,7 @@
 
 알파벳 순. 각 표현 → 처음 수집된 daily 링크.
 
+- [a clean lift-and-shift](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [a clean surface](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [a coin flip](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [a completely different animal](daily/2026-06-29/new-expressions.md) — 2026-06-29
@@ -12,6 +13,7 @@
 - [a faithful transcription of the spec](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [a forward reference (resolved at call time)](daily/2026-07-01/new-expressions.md) — 2026-07-01
 - [a gated cascade](daily/2026-06-29/new-expressions.md) — 2026-06-29
+- [a hard blocker](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [a hard failure signal, not a quiet X](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [a head-to-head (comparison)](daily/2026-07-01/new-expressions.md) — 2026-07-01
 - [a judgment-heavy pass (X-heavy)](daily/2026-07-04/new-expressions.md) — 2026-07-04
@@ -43,6 +45,7 @@
 - [as decisions crystallise](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [As-Is / To-Be](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [as-of (date / snapshot)](daily/2026-06-20/new-expressions.md) — 2026-06-20
+- [Ask if genuinely blocked.](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [at a glance](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [backstop](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [baked into (a plan/decision)](daily/2026-06-23/new-expressions.md) — 2026-06-23
@@ -75,6 +78,7 @@
 - [conservative default](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [content-addressed storage](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [converged (the design)](daily/2026-06-18/new-expressions.md) — 2026-06-18
+- [correct by design](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [course-correction(s)](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [create X lazily — only when needed](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [de-risk (something) first](daily/2026-06-26/new-expressions.md) — 2026-06-26
@@ -85,6 +89,7 @@
 - [deferred deliberately](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [degrade gracefully](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [degrade silently, never crash the loop](daily/2026-06-24/new-expressions.md) — 2026-06-24
+- [deliberately mirror (the already-validated X)](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [derived and disposable](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [diminishing returns](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [document what it actually returns, not what feels canonical](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -130,6 +135,7 @@
 - [honour (a constraint / rule)](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [hot path](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [human-readable](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [I now have a complete picture](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [If the wiki adds work for the user, it has failed](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [impossible to miss](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [in lockstep with](daily/2026-06-24/new-expressions.md) — 2026-06-24
@@ -139,10 +145,12 @@
 - [inflate (a statistic / threshold)](daily/2026-06-27/new-expressions.md) — 2026-06-27
 - [ingest (X) and turn it into (Y)](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [keep ... in sync](daily/2026-06-23/new-expressions.md) — 2026-06-23
+- [Keep it tight.](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [kept in lock-step](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [kill switch](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [last resort](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [load-bearing (vs a lean safety net)](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [lumped together](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [made structurally impossible / safe by construction](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [make the comparison apples-to-apples](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [manage expectations (on ...)](daily/2026-07-03/new-expressions.md) — 2026-07-03
@@ -157,6 +165,7 @@
 - [must implement these contracts identically](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [never refactor while RED; get to GREEN first](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [no collateral damage](daily/2026-07-01/new-expressions.md) — 2026-07-01
+- [no dangling reference](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [no height to fall from](daily/2026-07-03/new-expressions.md) — 2026-07-03
 - [not a blocker](daily/2026-07-07/new-expressions.md) — 2026-07-07
 - [nudge (someone) toward](daily/2026-06-22/new-expressions.md) — 2026-06-22
@@ -165,6 +174,7 @@
 - [office-blind / fix (it) blind](daily/2026-07-04/new-expressions.md) — 2026-07-04
 - [office-gated](daily/2026-07-03/new-expressions.md) — 2026-07-03
 - [on equal footing](daily/2026-07-07/new-expressions.md) — 2026-07-07
+- [only real, nameable issues](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [opt-in, default-OFF](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [ordered by severity](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [orthogonal](daily/2026-06-20/new-expressions.md) — 2026-06-20
@@ -191,6 +201,7 @@
 - [rubber-stamp](daily/2026-06-25/new-expressions.md) — 2026-06-25
 - [rule out](daily/2026-07-04/new-expressions.md) — 2026-07-04
 - [safe-by-default](daily/2026-07-07/new-expressions.md) — 2026-07-07
+- [safe to leave as-is](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [safety net](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [sanity check](daily/2026-06-27/new-expressions.md) — 2026-06-27
 - [say the word (just say the word)](daily/2026-06-20/new-expressions.md) — 2026-06-20
@@ -203,6 +214,7 @@
 - [ship with caution](daily/2026-07-07/new-expressions.md) — 2026-07-07
 - [short-circuit (the None case)](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [silently drift](daily/2026-06-18/new-expressions.md) — 2026-06-18
+- [silently goes dead (a code path)](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [single source of truth](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [sit behind (an interface)](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [slot into (the same lifecycle)](daily/2026-07-04/new-expressions.md) — 2026-07-04
@@ -236,6 +248,7 @@
 - [the trust boundary is X, not Y](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [the validated next move](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [the vindication of (a thesis)](daily/2026-07-03/new-expressions.md) — 2026-07-03
+- [the whole point of X is to Y](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [the whole story (X is the whole story)](daily/2026-07-04/new-expressions.md) — 2026-07-04
 - [the X axis is exhausted](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [thin wrapper](daily/2026-06-23/new-expressions.md) — 2026-06-23
@@ -247,6 +260,7 @@
 - [transitively pull in](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [trapped in the lab](daily/2026-06-29/new-expressions.md) — 2026-06-29
 - [upgrade-only (it must never downgrade)](daily/2026-06-30/new-expressions.md) — 2026-06-30
+- [verify by reading the actual code](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [well-established](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [why on earth …?](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [with one sharpening](daily/2026-07-03/new-expressions.md) — 2026-07-03

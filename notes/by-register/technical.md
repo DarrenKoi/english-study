@@ -231,3 +231,11 @@
   - 예: Five consecutive runs produce bit-for-bit identical results, so the pipeline is fully deterministic.
 - **safe-by-default** — 옵션 없이 쓴 기본 동작이 곧 안전하도록 설계된 (X-by-default 패턴). ↔ a footgun.
   - 예: Changing the default scale band makes the API safe-by-default for future callers.
+
+## 2026-07-08 — auto_recipe_creator ensemble 통합·검증 배치
+- **(a code path) silently goes dead** — 에러 없이 분기 하나가 조용히 무력화되다. ↔ fail loudly / crash hard.
+  - 예: If the ensemble leaves those fields at defaults, the not_distinctive branch silently goes dead — a behavior change, not a crash.
+- **no dangling reference** — 잘려나간 밖을 가리키는 참조가 없음(트리밍 후 불변식 증명). ≈ no stale pointer.
+  - 예: best_cand is always within candidates[:top_n], so it remains a member of the trimmed pool — no dangling reference.
+- **resolved at call time** — 정의 시점이 아니라 호출 시점에 이름이 해석되는(지연 바인딩). ↔ bound at import time.
+  - 예: The function references compute_ensemble_candidates as a global name to be resolved at call time.

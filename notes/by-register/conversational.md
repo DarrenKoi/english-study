@@ -109,3 +109,15 @@
 ## 2026-07-07 — auto_recipe_creator ensemble-proposer 리뷰 배치
 - **spot-check** (동사) — 전수 검사 대신 표본 몇 개만 골라 빠르게 점검하다. ↔ audit exhaustively.
   - 예: I spot-checked three of the migrated files and the formatting held up.
+
+## 2026-07-08 — auto_recipe_creator ensemble 통합·검증 배치
+- **lumped together** — 구분해야 할 것들이 한 덩어리로 뭉뚱그려진. ↔ broken out (per-arm).
+  - 예: It's unclear which function failed — both are lumped together under one match_failed counter.
+- **I now have a complete picture** — 조사를 마쳐 전모가 파악됐다(판단 단계로 전환 신호). ↔ I'm still missing pieces.
+  - 예: I now have a complete picture — let me compile the migration risk map.
+- **Keep it tight.** — 보고·발표를 군더더기 없이 짧게 해라. ↔ pad it out.
+  - 예: Report status, the two edits, and the three test results. Keep it tight.
+- **Ask if genuinely blocked.** — 정말로 막혔을 때만 물어봐라(위임 지시의 질문 문턱). ↔ check in at every step.
+  - 예: If anything is unclear, use your judgment; ask if genuinely blocked.
+- **the whole point of X is to Y** — X의 존재 이유 자체가 Y다(버그 아님·의도라고 반박할 때). ↔ an unintended side effect.
+  - 예: The whole point of that runner is to measure the new decision under the new thresholds, so the changed meaning is intended, not a bug.

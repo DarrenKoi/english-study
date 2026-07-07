@@ -245,3 +245,19 @@
   - 예: Be proportionate: it's a throwaway measurement script, so don't demand production-grade error handling.
 - **retract (a finding)** — 자기가 낸 지적·주장을 검증 끝에 공식 철회하다. ↔ stand by one's claim.
   - 예: After tracing the initialization, I retract the finding — the sentinel can never survive the first iteration.
+
+## 2026-07-08 — auto_recipe_creator ensemble 통합·검증 배치
+- **a clean lift-and-shift** — 로직 변경 없이 그대로 들어 옮기기만 한 이식/리팩터. ↔ a rewrite / a redesign.
+  - 예: The extraction is a clean lift-and-shift with no logic changes.
+- **verify by reading the actual code (don't trust the report)** — 보고를 믿지 말고 원본을 직접 확인해 검증하라. ↔ take it at face value.
+  - 예: Do not trust the implementer's report — verify by reading the actual code.
+- **a hard blocker** — 우회 불가능한 결정적 차단 요인(soft warning 과 대비). ↔ a nice-to-have.
+  - 예: The orb gate kills the adjust path entirely — that's a hard blocker for the migration.
+- **safe to leave as-is** — 그대로 둬도 안전한(리뷰 범위에서 제외). ↔ must-fix.
+  - 예: Relative comparisons like the OM-vs-SEM race are safe to leave as-is.
+- **correct by design** — 우연이 아니라 설계 전제 덕분에 옳은. ↔ accidentally correct.
+  - 예: The offset convention matches the validated eval, so this is correct by design, not a bug.
+- **deliberately mirror (the already-validated X)** — 검증된 기존 것을 의도적으로 그대로 본뜨다. ↔ diverge from.
+  - 예: This runner deliberately mirrors the already-validated proposer_recall_ab.py — your highest-value check is where it diverges.
+- **only real, nameable issues** — 실재하고 구체적으로 지목 가능한 문제만(막연한 불안 금지). ↔ vague concerns.
+  - 예: Output up to six findings — only real, nameable issues; if none, return an empty list.
