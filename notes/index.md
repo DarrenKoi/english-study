@@ -47,6 +47,7 @@
 - [as-of (date / snapshot)](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [Ask if genuinely blocked.](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [at a glance](daily/2026-06-18/new-expressions.md) — 2026-06-18
+- [audience calibration](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [backstop](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [baked into (a plan/decision)](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [be opinionated](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -111,6 +112,7 @@
 - [falsify (an idea) cheaply](daily/2026-06-25/new-expressions.md) — 2026-06-25
 - [fast-follow](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [fight the (repo's own) convention](daily/2026-07-04/new-expressions.md) — 2026-07-04
+- [fire-and-forget](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [first-class](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [flag, don't block](daily/2026-07-02/new-expressions.md) — 2026-07-02
 - [float up (the list)](daily/2026-06-26/new-expressions.md) — 2026-06-26
@@ -127,8 +129,10 @@
 - [ground truth](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [grounded in (the literature)](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [grow without bound](daily/2026-06-19/new-expressions.md) — 2026-06-19
+- [guess-and-check thrashing](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [hand-tuned](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [hand-wavy](daily/2026-07-02/new-expressions.md) — 2026-07-02
+- [headroom](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [hit a ceiling (a discriminability ceiling)](daily/2026-06-29/new-expressions.md) — 2026-06-29
 - [hit the same wall](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [hold off (on X)](daily/2026-07-04/new-expressions.md) — 2026-07-04
@@ -163,8 +167,10 @@
 - [metadata only (X is metadata only)](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [moot (make X moot)](daily/2026-07-04/new-expressions.md) — 2026-07-04
 - [must implement these contracts identically](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [nail down (the ordering)](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [never refactor while RED; get to GREEN first](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [no collateral damage](daily/2026-07-01/new-expressions.md) — 2026-07-01
+- [no copy-paste drift](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [no dangling reference](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [no height to fall from](daily/2026-07-03/new-expressions.md) — 2026-07-03
 - [not a blocker](daily/2026-07-07/new-expressions.md) — 2026-07-07
@@ -181,6 +187,7 @@
 - [outrun your headlights](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [over-promise](daily/2026-07-03/new-expressions.md) — 2026-07-03
 - [overfit / rank-deficient](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [parameter creep](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [phantom (zeros / a phantom default)](daily/2026-07-01/new-expressions.md) — 2026-07-01
 - [pin down](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [pressure-test (a design)](daily/2026-06-29/new-expressions.md) — 2026-06-29
@@ -219,6 +226,7 @@
 - [sit behind (an interface)](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [slot into (the same lifecycle)](daily/2026-07-04/new-expressions.md) — 2026-07-04
 - [spot-check (동사)](daily/2026-07-07/new-expressions.md) — 2026-07-07
+- [Standing by.](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [starting guesses (uncalibrated)](daily/2026-07-03/new-expressions.md) — 2026-07-03
 - [stop earning its keep](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [stress-test (a plan / a design)](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -227,12 +235,16 @@
 - [surgical (role / change)](daily/2026-06-27/new-expressions.md) — 2026-06-27
 - [survivorship (bias)](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [swallow an exception / a swallowed exception](daily/2026-07-01/new-expressions.md) — 2026-07-01
+- [swamped by](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [swap surface](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [sweep up (unrelated WIP)](daily/2026-07-04/new-expressions.md) — 2026-07-04
+- [That rules out X — and it sharpens the diagnosis](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [that's a vibe](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [That's the smoking gun](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [the bridge between X and Y](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [the classic signature of X](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [the crux (of something)](daily/2026-07-02/new-expressions.md) — 2026-07-02
+- [the disciplined move is to X](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [the explicit no's are as valuable as the yes's](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [the headline ask](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [the interface is the test surface](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -244,7 +256,9 @@
 - [the operating point](daily/2026-06-29/new-expressions.md) — 2026-06-29
 - [the payload for (X rows)](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [the seam (that X leaves you)](daily/2026-06-28/new-expressions.md) — 2026-06-28
+- [the (single most likely) culprit](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [the system's own case law](daily/2026-06-18/new-expressions.md) — 2026-06-18
+- [the throughline](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [the trust boundary is X, not Y](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [the validated next move](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [the vindication of (a thesis)](daily/2026-07-03/new-expressions.md) — 2026-07-03
@@ -259,6 +273,8 @@
 - [train/serve skew](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [transitively pull in](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [trapped in the lab](daily/2026-06-29/new-expressions.md) — 2026-06-29
+- [understate / overstate (the gain)](daily/2026-07-09/new-expressions.md) — 2026-07-09
+- [untested fixes don't stick](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [upgrade-only (it must never downgrade)](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [verify by reading the actual code](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [well-established](daily/2026-06-22/new-expressions.md) — 2026-06-22

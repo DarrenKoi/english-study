@@ -261,3 +261,19 @@
   - 예: This runner deliberately mirrors the already-validated proposer_recall_ab.py — your highest-value check is where it diverges.
 - **only real, nameable issues** — 실재하고 구체적으로 지목 가능한 문제만(막연한 불안 금지). ↔ vague concerns.
   - 예: Output up to six findings — only real, nameable issues; if none, return an empty list.
+- **That rules out X — and it sharpens the diagnosis** — X를 배제함으로써 진단의 초점이 좁혀진다(소거=전진 프레임).
+  - 예: Good — that rules out the path mismatch, and it actually sharpens the diagnosis.
+- **the classic signature of X** — X가 남기는 전형적 징후(증상 조합으로 원인 지목). ≈ the telltale sign of.
+  - 예: "Works in the test, empty in the loop" is the classic signature of cross-thread connection reuse.
+- **swamped by** — 작은 신호가 큰 물량에 잠겨 묻히다(집계 수치의 함정 지적).
+  - 예: A 20% regression in five recipes could be swamped by fifty small gains elsewhere.
+- **understate / overstate (the gain)** — 구조적 편향으로 효과를 실제보다 축소/과장 보고하다.
+  - 예: Restricting the eval to easy frames will systematically understate the true gain.
+- **headroom** — 현재 수치와 상한 사이의 남은 개선 여지. ↔ a ceiling.
+  - 예: Scoring only the easy frames under-counts the headroom where the ensemble actually helps.
+- **the disciplined move is to X** — 유혹을 물리치고 택하는 원칙적 수. ≈ the principled choice.
+  - 예: I won't guess which gate fires — the disciplined move is to instrument it and let one run tell us.
+- **audience calibration** — 글의 용어·수준을 독자에 맞춰 눈금 다시 잡기.
+  - 예: The review's real theme is audience calibration — strip the package names that mean nothing to executives.
+- **the throughline** — 여러 지적을 관통하는 하나의 주제(연극 용어 유래). ≈ the common thread.
+  - 예: The review's throughline is audience calibration: every comment asks the same question — does an executive need this?

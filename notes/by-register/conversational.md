@@ -121,3 +121,13 @@
   - 예: If anything is unclear, use your judgment; ask if genuinely blocked.
 - **the whole point of X is to Y** — X의 존재 이유 자체가 Y다(버그 아님·의도라고 반박할 때). ↔ an unintended side effect.
   - 예: The whole point of that runner is to measure the new decision under the new thresholds, so the changed meaning is intended, not a bug.
+- **nail down (the ordering)** — 애매하던 사실·순서를 확실히 못 박다. ≈ pin down.
+  - 예: Let me read the main monitor loop around the gather call to nail down the ordering.
+- **the (single most likely) culprit** — 문제의 주범·범인(버그 원인의 의인화). cf. the usual culprit.
+  - 예: The single most likely culprit given "harness works, loop empty" is the recipe_id format mismatch.
+- **guess-and-check thrashing** — 원인 분석 없이 찍고-확인하기를 반복하며 허우적대기.
+  - 예: Two hours of guess-and-check thrashing would have been fifteen minutes with a systematic approach.
+- **untested fixes don't stick** — 테스트 없는 수정은 오래 못 간다(정착하지 못한다).
+  - 예: Untested fixes don't stick — write the failing test first, then fix.
+- **Standing by.** — (준비된 채) 대기 중입니다. 무전 어투의 한 문장 상태 보고.
+  - 예: The two remaining agents are still running — standing by for their completion notifications.

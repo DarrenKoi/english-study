@@ -239,3 +239,9 @@
   - 예: best_cand is always within candidates[:top_n], so it remains a member of the trimmed pool — no dangling reference.
 - **resolved at call time** — 정의 시점이 아니라 호출 시점에 이름이 해석되는(지연 바인딩). ↔ bound at import time.
   - 예: The function references compute_ensemble_candidates as a global name to be resolved at call time.
+- **fire-and-forget** — 결과를 기다리지 않고 백그라운드로 던져두는 비동기 실행(하이픈 형용사). 변형: fire early, join late.
+  - 예: The consensus gather is fired off as a fire-and-forget daemon thread immediately after the alarm is detected.
+- **parameter creep** — 함수 인자가 리뷰마다 하나씩 슬금슬금 늘어나는 현상. cf. scope creep.
+  - 예: _finalize_match now takes four optional kwargs — slight parameter creep, but acceptable given the None defaults.
+- **no copy-paste drift** — 코드 이동 중 미세하게 달라진 부분이 없음(verbatim 이동 보증).
+  - 예: The multi-scale NMS body was moved verbatim to _collect_candidates with no copy-paste drift.
