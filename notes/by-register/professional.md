@@ -277,3 +277,19 @@
   - 예: The review's real theme is audience calibration — strip the package names that mean nothing to executives.
 - **the throughline** — 여러 지적을 관통하는 하나의 주제(연극 용어 유래). ≈ the common thread.
   - 예: The review's throughline is audience calibration: every comment asks the same question — does an executive need this?
+
+## 2026-07-11 — auto_recipe_creator 차트 RAG·edge_ncc A/B 배치
+- **leave (points) on the table** — 챙길 수 있는 이득을 챙기지 않고 남겨두다(기회비용 지적). ↔ capture the full upside.
+  - 예: Indexing captions only leaves 30–40 nDCG points on the table compared to a vision retriever.
+- **close (most of) the gap** — (경쟁 대안과의) 격차를 대부분 좁히다. ↔ widen the gap.
+  - 예: A single-vector model plus a reranker closes most of the gap to late-interaction retrieval.
+- **a non-issue** — 걱정거리로 오르내리지만 실제론 문제가 안 되는 사안. ↔ a showstopper.
+  - 예: At a few thousand pages, storage is a non-issue — even unreduced multi-vector fits in single-digit gigabytes.
+- **conflate A with B** — 서로 다른 두 요인을 뒤섞어 하나로 취급하다(귀속 불능 지적). ↔ disentangle / tease apart.
+  - 예: This A/B conflates the ensemble upgrade with the new channel, so we can't tell which one produced the gain.
+- **sunk cost fallacy** — 매몰 비용 오류(이미 들인 비용이 아까워 나쁜 선택을 계속함). cf. cut your losses.
+  - 예: Keeping the untested code because you spent five hours on it is the sunk cost fallacy — the time is gone either way.
+- **you're clear to (do something)** — 선행 조건이 해소됐으니 진행해도 된다는 허가 신호(관제 어법). ↔ blocked on.
+  - 예: All four commits are pushed and tested — you're clear to pull at the office and run the A/B.
+- **split the credit** — 개선의 공을 요인별로 나눠 귀속시키다(ablation의 목적). ↔ conflate A with B.
+  - 예: Run the 3-channel arm to split the credit between the ensemble upgrade and the new C4 channel.

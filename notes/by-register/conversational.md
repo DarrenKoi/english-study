@@ -131,3 +131,17 @@
   - 예: Untested fixes don't stick — write the failing test first, then fix.
 - **Standing by.** — (준비된 채) 대기 중입니다. 무전 어투의 한 문장 상태 보고.
   - 예: The two remaining agents are still running — standing by for their completion notifications.
+
+## 2026-07-11 — auto_recipe_creator 차트 RAG·edge_ncc A/B 배치
+- **pay off** — (노력·결정이) 결실을 맺다, 본전을 뽑다. ↔ fall flat.
+  - 예: The per-modality fix paid off — both OM and SEM rows are populated for the first time.
+- **don't over-read (it)** — (수치·결과를) 과대 해석하지 마라. ≈ don't read too much into it.
+  - 예: The S>=10 bin looks worse, but don't over-read it — those bins are small and uneven.
+- **burn an office run on (something)** — 횟수 제한된 귀한 실행 기회를 한 번 태워 쓰다. ↔ save a round trip.
+  - 예: Let me sanity-review the driver before you burn an office run on it.
+- **the worst of both worlds** — 양쪽의 장점은 다 잃고 단점만 조합된 상태. ↔ the best of both worlds.
+  - 예: Reusing the same frames in both roots gives you the worst of both worlds — no leave-one-out protection and train-test overlap.
+- **that's the tell** — 그게 결론을 드러내는 결정적 단서다(포커 용어 유래). ↔ a red herring.
+  - 예: The final deliverable was a runbook, not code — that's the tell that the next step is an office run.
+- **that settles it** — 마지막 증거가 나와 논쟁 끝, 결론 났다. ↔ that reopens the question.
+  - 예: Production already uses the 3-channel ensemble — that settles it: the bench baseline was understated.

@@ -245,3 +245,7 @@
   - 예: _finalize_match now takes four optional kwargs — slight parameter creep, but acceptable given the None defaults.
 - **no copy-paste drift** — 코드 이동 중 미세하게 달라진 부분이 없음(verbatim 이동 보증).
   - 예: The multi-scale NMS body was moved verbatim to _collect_candidates with no copy-paste drift.
+
+## 2026-07-11 — auto_recipe_creator 차트 RAG·edge_ncc A/B 배치
+- **drop straight into (something)** — 개조·어댑터 없이 기존 시스템에 그대로 꽂히다(a drop-in replacement의 동사판). ↔ require a sidecar service.
+  - 예: Because it emits one vector per page, the model drops straight into an existing OpenSearch kNN field.

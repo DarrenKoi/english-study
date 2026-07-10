@@ -23,6 +23,7 @@
 - [a negative-control arm](daily/2026-06-29/new-expressions.md) — 2026-06-29
 - [a no-op](daily/2026-07-02/new-expressions.md) — 2026-07-02
 - [a (non-blocking) loose end](daily/2026-07-03/new-expressions.md) — 2026-07-03
+- [a non-issue](daily/2026-07-11/new-expressions.md) — 2026-07-11
 - [a None-sentinel guard](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [a plausible-but-wrong guess](daily/2026-07-01/new-expressions.md) — 2026-07-01
 - [a recall illusion](daily/2026-06-28/new-expressions.md) — 2026-06-28
@@ -62,6 +63,7 @@
 - [blast radius](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [bolted on (as a special case)](daily/2026-07-01/new-expressions.md) — 2026-07-01
 - [borrow strength](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [burn an office run on (something)](daily/2026-07-11/new-expressions.md) — 2026-07-11
 - [burn the (full) retry budget](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [bus-factor 1](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [buy (you) one thing](daily/2026-06-29/new-expressions.md) — 2026-06-29
@@ -72,10 +74,12 @@
 - [carry lock-in](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [chasing the wrong root cause](daily/2026-07-07/new-expressions.md) — 2026-07-07
 - [circular (by construction)](daily/2026-06-29/new-expressions.md) — 2026-06-29
+- [close (most of) the gap](daily/2026-07-11/new-expressions.md) — 2026-07-11
 - [coexist by design](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [cold-start values](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [complementary, not a replacement](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [confirm or overrule](daily/2026-06-30/new-expressions.md) — 2026-06-30
+- [conflate A with B](daily/2026-07-11/new-expressions.md) — 2026-07-11
 - [conservative default](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [content-addressed storage](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [converged (the design)](daily/2026-06-18/new-expressions.md) — 2026-06-18
@@ -96,9 +100,11 @@
 - [document what it actually returns, not what feels canonical](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [don't batch these up](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [don't couple X to Y](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [don't over-read (it)](daily/2026-07-11/new-expressions.md) — 2026-07-11
 - [downstream consumer](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [drift (from)](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [drill into / drill down](daily/2026-06-22/new-expressions.md) — 2026-06-22
+- [drop straight into (something)](daily/2026-07-11/new-expressions.md) — 2026-07-11
 - [earning its keep](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [easier to grant later than to take away](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [edge-triggered](daily/2026-06-19/new-expressions.md) — 2026-06-19
@@ -153,6 +159,7 @@
 - [kept in lock-step](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [kill switch](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [last resort](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [leave (points) on the table](daily/2026-07-11/new-expressions.md) — 2026-07-11
 - [load-bearing (vs a lean safety net)](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [lumped together](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [made structurally impossible / safe by construction](daily/2026-06-18/new-expressions.md) — 2026-06-18
@@ -188,6 +195,7 @@
 - [over-promise](daily/2026-07-03/new-expressions.md) — 2026-07-03
 - [overfit / rank-deficient](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [parameter creep](daily/2026-07-09/new-expressions.md) — 2026-07-09
+- [pay off (the fix paid off)](daily/2026-07-11/new-expressions.md) — 2026-07-11
 - [phantom (zeros / a phantom default)](daily/2026-07-01/new-expressions.md) — 2026-07-01
 - [pin down](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [pressure-test (a design)](daily/2026-06-29/new-expressions.md) — 2026-06-29
@@ -225,12 +233,14 @@
 - [single source of truth](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [sit behind (an interface)](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [slot into (the same lifecycle)](daily/2026-07-04/new-expressions.md) — 2026-07-04
+- [split the credit](daily/2026-07-11/new-expressions.md) — 2026-07-11
 - [spot-check (동사)](daily/2026-07-07/new-expressions.md) — 2026-07-07
 - [Standing by.](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [starting guesses (uncalibrated)](daily/2026-07-03/new-expressions.md) — 2026-07-03
 - [stop earning its keep](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [stress-test (a plan / a design)](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [structurally disconnected from (production)](daily/2026-06-29/new-expressions.md) — 2026-06-29
+- [sunk cost fallacy](daily/2026-07-11/new-expressions.md) — 2026-07-11
 - [surfaced, never silently reconciled](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [surgical (role / change)](daily/2026-06-27/new-expressions.md) — 2026-06-27
 - [survivorship (bias)](daily/2026-06-23/new-expressions.md) — 2026-06-23
@@ -239,8 +249,10 @@
 - [swap surface](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [sweep up (unrelated WIP)](daily/2026-07-04/new-expressions.md) — 2026-07-04
 - [That rules out X — and it sharpens the diagnosis](daily/2026-07-09/new-expressions.md) — 2026-07-09
+- [that settles it](daily/2026-07-11/new-expressions.md) — 2026-07-11
 - [that's a vibe](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [That's the smoking gun](daily/2026-06-24/new-expressions.md) — 2026-06-24
+- [that's the tell](daily/2026-07-11/new-expressions.md) — 2026-07-11
 - [the bridge between X and Y](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [the classic signature of X](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [the crux (of something)](daily/2026-07-02/new-expressions.md) — 2026-07-02
@@ -264,6 +276,7 @@
 - [the vindication of (a thesis)](daily/2026-07-03/new-expressions.md) — 2026-07-03
 - [the whole point of X is to Y](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [the whole story (X is the whole story)](daily/2026-07-04/new-expressions.md) — 2026-07-04
+- [the worst of both worlds](daily/2026-07-11/new-expressions.md) — 2026-07-11
 - [the X axis is exhausted](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [thin wrapper](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [thread (a value) through](daily/2026-06-20/new-expressions.md) — 2026-06-20
@@ -285,3 +298,4 @@
 - [would take a quarter to swap out](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [X is what ships](daily/2026-06-27/new-expressions.md) — 2026-06-27
 - [X proposes, Y disposes (division of labor)](daily/2026-06-25/new-expressions.md) — 2026-06-25
+- [you're clear to (do something)](daily/2026-07-11/new-expressions.md) — 2026-07-11
