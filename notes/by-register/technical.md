@@ -249,3 +249,7 @@
 ## 2026-07-11 — auto_recipe_creator 차트 RAG·edge_ncc A/B 배치
 - **drop straight into (something)** — 개조·어댑터 없이 기존 시스템에 그대로 꽂히다(a drop-in replacement의 동사판). ↔ require a sidecar service.
   - 예: Because it emits one vector per page, the model drops straight into an existing OpenSearch kNN field.
+- **divergence-prone** — 복제된 코드가 서로 어긋나기 쉬운. -prone은 명사에 붙는 생산적 접미사(error-prone, crash-prone). ↔ robust / -proof 계열.
+  - 예: The two helpers share an identical loop body, which makes them divergence-prone.
+- **post-hoc** — 일이 끝난 뒤 사후에 하는(분석·필터). ↔ inline / at capture time.
+  - 예: The recorder filters inline at capture time, so a post-hoc pass over the saved frames may be redundant.

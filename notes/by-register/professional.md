@@ -293,3 +293,11 @@
   - 예: All four commits are pushed and tested — you're clear to pull at the office and run the A/B.
 - **split the credit** — 개선의 공을 요인별로 나눠 귀속시키다(ablation의 목적). ↔ conflate A with B.
   - 예: Run the 3-channel arm to split the credit between the ensemble upgrade and the new C4 channel.
+- **fold in (now rather than later)** — 진행 중인 작업에 작은 변경을 함께 접어 넣다. ↔ split out / defer.
+  - 예: If you want the client switched too, that's a small change to fold in now rather than later.
+- **watertight** — 물샐틈없는(논증·코드에 빈틈이 전혀 없음). ↔ leaky / full of holes.
+  - 예: The locking is safe in practice, just not watertight under a very specific race.
+- **a maintenance liability** — 지금은 버그가 아니지만 갖고 있으면 손해가 되는 관리 부담. ↔ an asset.
+  - 예: The duplicated loop is not a bug today, but it is a maintenance liability.
+- **design debt** — 구현이 아니라 설계 차원에서 미뤄 둔 빚. ↔ a deliberate design choice.
+  - 예: Reading settings from the environment at call time is design debt rather than a bug, but worth noting.

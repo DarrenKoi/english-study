@@ -145,3 +145,17 @@
   - 예: The final deliverable was a runbook, not code — that's the tell that the next step is an office run.
 - **that settles it** — 마지막 증거가 나와 논쟁 끝, 결론 났다. ↔ that reopens the question.
   - 예: Production already uses the 3-channel ensemble — that settles it: the bench baseline was understated.
+- **park (a plan/task)** — 계획을 버리는 게 아니라 잠시 세워 두다("곧 다시 꺼낸다" 뉘앙스). ↔ pick it back up.
+  - 예: For now the plan is parked exactly where you asked — say the word when you want to execute it.
+- **reach for (a tool)** — 도구·해결책을 꺼내 들다("쓰기 전에"라고 말릴 때의 정형구). ↔ hold off on.
+  - 예: Before you reach for the post-hoc filter, check whether the recorder already drops duplicate frames.
+- **worth a look** — 한 번 볼 가치가 있는(가벼운 검토 추천). ↔ safe to skip.
+  - 예: The spec is committed — a few spots are worth a look before you approve it.
+- **say so** — (생각이 다르면) 그렇게 말해 달라. so가 앞 문장 전체를 받는 대용어.
+  - 예: If you'd rather keep the old files as thin wrappers, just say so.
+- **out from under** — 한창 쓰고 있는 것을 발밑에서 빼내 버리다(동시성 사고 묘사).
+  - 예: The second cleanup can delete the staging directory out from under the first thread's rename.
+- **in the first place** — 애초에(부정문과 결합해 "발생 자체가 없다"). ↔ after the fact.
+  - 예: The idle frames are never written to disk in the first place, so there's nothing to clean up afterward.
+- **are you fine (doing X)?** — 지금대로도 괜찮은지 가볍게 확인하는 선택지 질문.
+  - 예: Do you want it wired into the loop, or are you fine running the bench tool manually?
