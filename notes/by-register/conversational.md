@@ -159,3 +159,13 @@
   - 예: The idle frames are never written to disk in the first place, so there's nothing to clean up afterward.
 - **are you fine (doing X)?** — 지금대로도 괜찮은지 가볍게 확인하는 선택지 질문.
   - 예: Do you want it wired into the loop, or are you fine running the bench tool manually?
+- **get at the heart of** — 질문·지적이 문제의 정곡을 건드리다(상대 질문을 존중하며 본질로 넘어가는 전환구). ↔ dance around (the issue).
+  - 예: That question gets at the heart of why we split the downloader from the notifier.
+- **That's the deciding detail.** — 상대가 준 정보 하나가 설계 방향을 확정지었다는 선언(the deciding factor의 구어 변형). ↔ a side detail.
+  - 예: You embed the images from those paths? That's the deciding detail — we keep both callers.
+- **do double duty (as)** — 하나가 두 역할을 겸하다(좋은 재활용일 수도, 결합도 경고일 수도). ↔ have a single responsibility.
+  - 예: The dest_dir parameter does double duty — a directive in Case 2, an assertion in Case 1.
+- **You're fully unblocked.** — 진행을 막던 요소가 모두 제거됐다는 선언(완료 보고 뒤 행동 주체 이양). ↔ still blocked on (X).
+  - 예: The wiring is merged and the template is on main — you're fully unblocked at the office.
+- **the whole picture** — 흩어진 단서가 모두 모여 이해된 전모("That confirms the whole picture"는 가설 확정 신호). ↔ a partial view.
+  - 예: Your answer about the embed paths confirms the whole picture — the download was coupled to the notification all along.

@@ -200,7 +200,15 @@
     "-Users-daeyoung-Codes-auto-recipe-creator/68f829b0-8dbb-4189-8d83-9b3033c18005/subagents/agent-aaffa4173f7176712.jsonl": 21,
     "-Users-daeyoung-Codes-auto-recipe-creator/68f829b0-8dbb-4189-8d83-9b3033c18005/subagents/agent-abd0f504a5cda9774.jsonl": 34,
     "-Users-daeyoung-Codes-auto-recipe-creator/68f829b0-8dbb-4189-8d83-9b3033c18005/subagents/agent-abda449fdb86e3b20.jsonl": 31,
-    "-Users-daeyoung-Codes-auto-recipe-creator/68f829b0-8dbb-4189-8d83-9b3033c18005/subagents/agent-af956f983c8884a2b.jsonl": 47
+    "-Users-daeyoung-Codes-auto-recipe-creator/68f829b0-8dbb-4189-8d83-9b3033c18005/subagents/agent-af956f983c8884a2b.jsonl": 47,
+    "-Users-daeyoung-Codes-auto-recipe-creator/68f829b0-8dbb-4189-8d83-9b3033c18005/subagents/agent-ac5e234f383ad6a2f.jsonl": 87,
+    "-Users-daeyoung-Codes-auto-recipe-creator/68f829b0-8dbb-4189-8d83-9b3033c18005/subagents/agent-aca317af80d669e1a.jsonl": 34,
+    "-Users-daeyoung-Codes-auto-recipe-creator/68f829b0-8dbb-4189-8d83-9b3033c18005/subagents/agent-adca5838323405208.jsonl": 27,
+    "-Users-daeyoung-Codes-auto-recipe-creator/68f829b0-8dbb-4189-8d83-9b3033c18005.jsonl": 1240,
+    "-Users-daeyoung-Codes-auto-recipe-creator/6a5dc0b9-d21d-417d-8f90-44eb0b0892c9.jsonl": 352,
+    "-Users-daeyoung-Codes-auto-recipe-creator/8657d569-0d8e-4796-81a7-8b79ed6319df.jsonl": 485,
+    "-Users-daeyoung-Codes-auto-recipe-creator/882dd9ec-7e08-4218-956d-6da2a488d072.jsonl": 189,
+    "-Users-daeyoung-Codes-auto-recipe-creator/f8f2c20c-a3a5-41f8-bad4-4525e0093e3a.jsonl": 17
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -337,5 +345,5 @@
     "auto_recipe_creator/poc/workflow_2/docs/study/cv/align_fail_vlm_deep_learning_addendum_ko.md": "auto_recipe_creator/poc/workflow_2/docs/study/cv/align_fail_vlm_deep_learning_addendum_ko.md:1783640186.32094:21587",
     "auto_recipe_creator/poc/workflow_2/docs/study/cv/align_fail_cv_methods_research_ko.md": "auto_recipe_creator/poc/workflow_2/docs/study/cv/align_fail_cv_methods_research_ko.md:1783638216.3972814:21165"
   },
-  "last_run": "2026-07-12"
+  "last_run": "2026-07-13"
 }

@@ -301,3 +301,17 @@
   - 예: The duplicated loop is not a bug today, but it is a maintenance liability.
 - **design debt** — 구현이 아니라 설계 차원에서 미뤄 둔 빚. ↔ a deliberate design choice.
   - 예: Reading settings from the environment at call time is design debt rather than a bug, but worth noting.
+- **collapse (distinct things) into one** — 별개인 문제·개념을 하나로 뭉뚱그리다(상대 오해의 구조를 정중히 짚는 표현). ↔ tease apart.
+  - 예: The download failure feels like one bug, but you're collapsing three distinct mechanisms into one.
+- **attack the exact blocker** — 다른 것도 아닌 바로 그 병목을 정면 공략하다(제안 가치의 한 줄 승인). ↔ work around.
+  - 예: Collecting more success images attacks the exact blocker that kept consensus out of production.
+- **the single highest-leverage thing** — 투입 대비 효과가 가장 큰 단 하나의 행동(우선순위를 하나로 좁히는 추천). ↔ a low-leverage chore.
+  - 예: If you can only do one thing this week, implementing the downloader is the single highest-leverage thing you could do.
+- **necessary but not sufficient** — 필요조건이지만 충분조건은 아니다(반쪽 해결을 짚는 논리 관용구). ↔ sufficient on its own.
+  - 예: Pointing the reader at the right directory is necessary but not sufficient — the writer has to land files there too.
+- **a judgment call (I shouldn't make unilaterally)** — 정답 없는 재량 판단; unilaterally를 붙이면 합의가 필요해 넘긴다는 존중의 에스컬레이션. ↔ a clear-cut decision.
+  - 예: Diverging from the validated bench is a judgment call I shouldn't make unilaterally — your call.
+- **optional polish, not required for correctness** — 해도 좋지만 안 해도 틀리지 않는 선택적 다듬기(nit와 must-fix를 가르는 리뷰 어휘). ↔ a must-fix.
+  - 예: Moving the two functions into their own module is optional polish, not required for correctness.
+- **a ship/no-ship assessment** — 리뷰의 최종 판정을 출시 가부 이진 결정으로 요구·선언하는 형식(go/no-go의 소프트웨어판).
+  - 예: End the review with a ship/no-ship assessment, not a list of observations.

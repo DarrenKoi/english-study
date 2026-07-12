@@ -253,3 +253,11 @@
   - 예: The two helpers share an identical loop body, which makes them divergence-prone.
 - **post-hoc** — 일이 끝난 뒤 사후에 하는(분석·필터). ↔ inline / at capture time.
   - 예: The recorder filters inline at capture time, so a post-hoc pass over the saved frames may be redundant.
+- **creep in (crept in)** — 의도치 않은 변경·버그가 슬그머니 스며들다(포팅·회귀 리뷰의 고정 짝). ↔ be deliberately introduced.
+  - 예: The port looks faithful, but let's diff it once more to confirm no unintended change crept in.
+- **line up at every boundary** — 모듈 경계마다 데이터 형태·키·규약의 아귀가 맞다. ↔ mismatch / out of sync.
+  - 예: Trace one real call end-to-end and check that the shapes and keys line up at every boundary.
+- **cheap insurance (against)** — 비용은 몇 줄인데 큰 사고를 막아 주는 방어 코드(가드·assert 정당화의 정형구). ↔ dead weight.
+  - 예: The existence check is cheap insurance against a partial download slipping through.
+- **always one alarm behind (one step behind)** — 필요 시점보다 늘 한 사이클 늦게 도착하는 타이밍 결함. ↔ in time for.
+  - 예: The cache did fill, but it was always one alarm behind, so each correction read last incident's images.
