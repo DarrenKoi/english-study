@@ -315,3 +315,19 @@
   - 예: Moving the two functions into their own module is optional polish, not required for correctness.
 - **a ship/no-ship assessment** — 리뷰의 최종 판정을 출시 가부 이진 결정으로 요구·선언하는 형식(go/no-go의 소프트웨어판).
   - 예: End the review with a ship/no-ship assessment, not a list of observations.
+- **stay confined to X** — 변경·영향이 X 밖으로 번지지 않고 국한되다. ↔ spill over into.
+  - 예: Because the response contract is frozen, the office provider swap stays confined to the provider layer.
+- **a gray zone (of the spec)** — 위반도 준수도 아닌 애매 지대. ↔ a clear violation.
+  - 예: Valid JSON of the wrong shape sits in a gray zone of the spec — neither a parse failure nor a compliant payload.
+- **negligible (the risk is negligible)** — 무시해도 될 만큼 작은 (리뷰에서 Minor 수용 근거의 정형구). ↔ material / non-trivial.
+  - 예: The file is always machine-written, so the risk of a malformed payload is negligible.
+- **adjudicate (carried findings)** — 이월된 쟁점 하나하나에 수용/기각 판정을 내리다. ↔ leave open.
+  - 예: The final reviewer adjudicated all four carried minors explicitly, marking each acceptable or must-fix.
+- **X beats Y** — 두 요인 중 X가 더 결정적이라는 한 줄 격언 구문 ("Done beats perfect").
+  - 예: Turn count beats token price — a cheap model that takes three times the turns costs more overall.
+- **trust X over Y** — 정보가 충돌할 때 Y보다 X를 우선 신뢰하라.
+  - 예: After a context reset, trust the ledger and the git log over your own recollection.
+- **shelve (shelved)** — 폐기 아닌 무기한 보류로 치워 두다 (park 보다 장기). ↔ revive / dust off.
+  - 예: Phase 2 is shelved for now — nothing blocks it, but nothing justifies it yet either.
+- **right-size (task right-sizing)** — 너무 크지도 작지도 않게 적정 크기로 맞추다. ↔ over-scope / under-scope.
+  - 예: Right-size each task so a reviewer could reject one without blocking its neighbors.

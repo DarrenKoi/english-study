@@ -261,3 +261,15 @@
   - 예: The existence check is cheap insurance against a partial download slipping through.
 - **always one alarm behind (one step behind)** — 필요 시점보다 늘 한 사이클 늦게 도착하는 타이밍 결함. ↔ in time for.
   - 예: The cache did fill, but it was always one alarm behind, so each correction read last incident's images.
+- **land inside (the chart range)** — 값·마커·결과가 최종적으로 그 범위 안에 떨어지다(안착하다). ↔ fall outside.
+  - 예: After re-anchoring the mock, every BM/PM marker lands inside the visible chart range.
+- **hang off (a fixed anchor)** — 값들이 기준점 하나에 매달려 파생되다.
+  - 예: Every mock date hangs off a fixed anchor, so moving the anchor shifts the whole timeline at once.
+- **(ship it) behind a toggle, default ON** — 기능을 스위치 뒤에 두고 기본값을 못 박아 배포하다. ↔ hard-wired on.
+  - 예: We shipped the overlay behind a page-level toggle, default ON, so anyone can turn it off per session.
+- **vacuous (a vacuous test)** — 형식만 있고 아무것도 검증하지 않는 (테스트). ↔ substantive / non-vacuous.
+  - 예: The sort test is not vacuous — it pins the exact index order instead of just checking the length.
+- **trace the data, don't just pattern-match** — 눈에 익은 모양으로 넘겨짚지 말고 실제 흐름을 끝까지 따라가라.
+  - 예: Trace one real recipe through both drivers — don't just pattern-match on the key format.
+- **fix forward** — 롤백 대신 발견 즉시 다음 커밋으로 고치며 전진하다. ↔ roll back / revert.
+  - 예: If the browser checklist turns anything up, we fix forward in the same task instead of reverting.

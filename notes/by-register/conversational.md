@@ -169,3 +169,5 @@
   - 예: The wiring is merged and the template is on main — you're fully unblocked at the office.
 - **the whole picture** — 흩어진 단서가 모두 모여 이해된 전모("That confirms the whole picture"는 가설 확정 신호). ↔ a partial view.
   - 예: Your answer about the embed paths confirms the whole picture — the download was coupled to the notification all along.
+- **bite-sized (tasks)** — 한입 크기로 잘게 쪼갠 (부담 없이 소화 가능한 단위). ↔ monolithic.
+  - 예: The plan hands the engineer bite-sized tasks, each with its own test cycle and commit.
