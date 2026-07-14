@@ -331,3 +331,19 @@
   - 예: Phase 2 is shelved for now — nothing blocks it, but nothing justifies it yet either.
 - **right-size (task right-sizing)** — 너무 크지도 작지도 않게 적정 크기로 맞추다. ↔ over-scope / under-scope.
   - 예: Right-size each task so a reviewer could reject one without blocking its neighbors.
+- **non-negotiable** — 타협 불가한, 예외 없는 (제약을 절대 원칙으로 격상). ↔ negotiable / nice to have.
+  - 예: Determinism is non-negotiable — the same MSR must always open to identical data.
+- **a hard floor** — 절대 하한선 (예외 없는 최소 요건). ↔ a hard ceiling / a soft guideline.
+  - 예: Require `p < n - 1` as a hard floor, and begin validation only well above it.
+- **no preamble** — 서두·군말 없이 바로 본론으로 (지시문 끝에 대시로 붙이는 관용 패턴).
+  - 예: Begin directly with the spec-compliance verdict — no preamble.
+- **from their respective vantage points** — 각자의 위치·층위에서 (서로 다른 추상 레벨에서 같은 사실을 말할 때). ↔ in lockstep.
+  - 예: The three files all tell the same story from their respective vantage points without contradicting each other.
+- **nice to have** — 있으면 좋은 정도(필수 아님). must-have / should-have / nice-to-have 3단계 우선순위. ↔ a blocker.
+  - 예: Renaming the variable is a nice-to-have; it should not block the merge.
+- **invite analysis it cannot support** — 감당 못 할 분석을 자초하다 (invite = 초대가 아니라 "유발하다").
+  - 예: A mock that looks meaningful invites analysis it cannot support.
+- **will not be actioned** — 조치되지 않을 것이다 (action 을 동사로; 수동태로 거절을 정책처럼 들리게 함). ↔ will be picked up.
+  - 예: Issues labelled `wontfix` will not be actioned, but they remain searchable for context.
+- **speak in terms of (X)** — X 라는 어휘·개념 틀로 말하다 (용어 매핑 문서의 전형적 첫 문장). ↔ drift to synonyms.
+  - 예: The skills speak in terms of five canonical triage roles; this file maps them to our tracker's strings.

@@ -226,7 +226,9 @@
     "-Users-daeyoung-Codes-auto-recipe-creator/8909999c-f5fc-45ce-96f0-b716782ab22a.jsonl": 435,
     "-Users-daeyoung-Codes-auto-recipe-creator/8a1aaf3b-c131-4b50-ba3a-9e66a21a8310/subagents/agent-a0f95079c54987c2f.jsonl": 39,
     "-Users-daeyoung-Codes-english-study/13a8a827-d728-4408-a770-e4f1ec68ba46.jsonl": 14,
-    "-Users-daeyoung-Codes-flask-modules/3ff94910-b7c0-4c28-aab4-715623db5728.jsonl": 13
+    "-Users-daeyoung-Codes-flask-modules/3ff94910-b7c0-4c28-aab4-715623db5728.jsonl": 13,
+    "-Users-daeyoung-Codes-auto-recipe-creator/8a1aaf3b-c131-4b50-ba3a-9e66a21a8310/subagents/agent-a0c978f8e80d6572e.jsonl": 11,
+    "-Users-daeyoung-Codes-auto-recipe-creator/ddb606b4-5f33-4aa6-bd2c-c81018958d4e.jsonl": 22
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -363,7 +365,15 @@
     "auto_recipe_creator/poc/workflow_2/docs/study/cv/align_fail_vlm_deep_learning_addendum_ko.md": "auto_recipe_creator/poc/workflow_2/docs/study/cv/align_fail_vlm_deep_learning_addendum_ko.md:1783640186.32094:21587",
     "auto_recipe_creator/poc/workflow_2/docs/study/cv/align_fail_cv_methods_research_ko.md": "auto_recipe_creator/poc/workflow_2/docs/study/cv/align_fail_cv_methods_research_ko.md:1783638216.3972814:21165",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-13-hardware-mdc-timeseries-and-bmpm-overlay.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-13-hardware-mdc-timeseries-and-bmpm-overlay.md:1783923302.8367999:60416",
-    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-13-hardware-mdc-timeseries-and-bmpm-overlay-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-13-hardware-mdc-timeseries-and-bmpm-overlay-design.md:1783922878.8230917:10625"
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-13-hardware-mdc-timeseries-and-bmpm-overlay-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-13-hardware-mdc-timeseries-and-bmpm-overlay-design.md:1783922878.8230917:10625",
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-14-skewvoir-phase-a-analytical-truth.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-14-skewvoir-phase-a-analytical-truth.md:1784034260.0913565:65074",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-14-access-control-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-14-access-control-design.md:1784032674.461394:7795",
+    "skewnono_v3_nuxt/docs/agents/triage-labels.md": "skewnono_v3_nuxt/docs/agents/triage-labels.md:1784032674.4611602:820",
+    "skewnono_v3_nuxt/docs/agents/issue-tracker.md": "skewnono_v3_nuxt/docs/agents/issue-tracker.md:1784032674.4601996:1842",
+    "skewnono_v3_nuxt/docs/agents/domain.md": "skewnono_v3_nuxt/docs/agents/domain.md:1784032674.4600258:1210",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-14-skewvoir-search-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-14-skewvoir-search-design.md:1784012008.053562:23536",
+    "skewnono_v3_nuxt/docs/issues/skewvoir/msr-review-detection-research.md": "skewnono_v3_nuxt/docs/issues/skewvoir/msr-review-detection-research.md:1784009957.224074:25369",
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-14-skewvoir-search.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-14-skewvoir-search.md:1783994147.3720026:79531"
   },
-  "last_run": "2026-07-14"
+  "last_run": "2026-07-15"
 }

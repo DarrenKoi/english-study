@@ -273,3 +273,21 @@
   - 예: Trace one real recipe through both drivers — don't just pattern-match on the key format.
 - **fix forward** — 롤백 대신 발견 즉시 다음 커밋으로 고치며 전진하다. ↔ roll back / revert.
   - 예: If the browser checklist turns anything up, we fix forward in the same task instead of reverting.
+- **defence in depth** — 다중 방어 (한 겹이 뚫릴 것을 전제하고 겹겹이 검사). ↔ a single point of failure.
+  - 예: Defence in depth: the office backend may not honour the null contract, so we check `mp_number` as well.
+- **data-hungry** — 데이터를 많이 잡아먹는, 표본 요구량이 큰 (`-hungry` 접미사 조어). ↔ data-efficient.
+  - 예: Distribution-free tail coverage is data-hungry: it needs 473 observations for 99% coverage.
+- **proceed silently** — 조용히 진행하다, 언급 없이 넘어가다 (드물게 silently 가 긍정적인 경우). ↔ flag it / surface it.
+  - 예: If either location does not exist, proceed silently — do not flag its absence.
+- **last write wins** — 마지막에 쓴 쪽이 이긴다 (충돌 해소 규칙; 관사 없이 굳은 명사구). ↔ first write wins.
+  - 예: The date token and the range dropdown write the same parameter, and last write wins.
+- **no stray staged files** — 엉뚱하게 끼어든 스테이징 파일이 없다 (stray = 의도치 않게 흘러든). ↔ scope creep.
+  - 예: The commit is scoped exactly to the three files; no stray staged files.
+- **that test was asserting the bug** — 그 테스트는 버그를 정답으로 굳혀두고 있었다 (테스트 수정을 정당화하는 한 줄). ↔ the test caught a real regression.
+  - 예: If an existing test fails because it hardcoded an old mean, that test was asserting the bug.
+- **you cannot half-migrate (a type)** — 절반만 마이그레이션할 수는 없다 (원자적 변경임을 못 박음). ↔ land it incrementally.
+  - 예: This is one atomic change: you cannot half-migrate a type.
+- **the implementation is wrong, not the expectation** — 틀린 건 구현이지 기대값이 아니다 (명세를 방어하는 문장). ↔ move the goalposts.
+  - 예: Expected results are stated — if one does not hold, the implementation is wrong, not the expectation.
+- **the compiler produces the worklist** — 할 일 목록은 컴파일러가 만들어 준다 (타입 시스템을 작업 발견 도구로 사용).
+  - 예: Flipping `cd_value` to `number | null` makes typecheck enumerate every consumer — the compiler produces the worklist.

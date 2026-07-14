@@ -171,3 +171,7 @@
   - 예: Your answer about the embed paths confirms the whole picture — the download was coupled to the notification all along.
 - **bite-sized (tasks)** — 한입 크기로 잘게 쪼갠 (부담 없이 소화 가능한 단위). ↔ monolithic.
   - 예: The plan hands the engineer bite-sized tasks, each with its own test cycle and commit.
+- **a nit (Nit: ...)** — 사소한 트집 (리뷰에서 "별거 아닌데요" 하고 미리 방어막을 치는 단어). ↔ a blocker.
+  - 예: The one minor phrasing nit in CLAUDE.md does not affect correctness.
+- **is well-chosen** — (위치·표현이) 잘 골라졌다 (사람이 아니라 선택 자체를 칭찬하는 담백한 수동태).
+  - 예: The insertion point in CLAUDE.md is well-chosen: it contextualizes the subdirs before the operational notes.
