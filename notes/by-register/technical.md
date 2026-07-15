@@ -291,3 +291,17 @@
   - 예: Expected results are stated — if one does not hold, the implementation is wrong, not the expectation.
 - **the compiler produces the worklist** — 할 일 목록은 컴파일러가 만들어 준다 (타입 시스템을 작업 발견 도구로 사용).
   - 예: Flipping `cd_value` to `number | null` makes typecheck enumerate every consumer — the compiler produces the worklist.
+- **thin glue** — 자체 로직 없이 두 모듈을 이어 붙이기만 하는 얇은 연결 코드 (겸손하게 "별 거 아닌 이음새 코드"). ↔ business logic / the meat of the code.
+  - 예: It is thin glue: it reads two IDs from the environment, calls the gather function, and returns an exit code.
+- **kick off a fleet download** — 여러 host·파일을 한 묶음으로 받는 대량 다운로드를 (비동기로) 시작하다. ↔ a single-file fetch.
+  - 예: The office provider uses a fleet downloader to log in once per host and pull all images with connection reuse.
+- **circuit breaker** — 반복 실패하는 원격 호출을 잠시 "열어" 빠르게 실패시키고 주기적으로 회복을 확인하는 안정성 패턴.
+  - 예: When the circuit breaker opens, the system fails RAG calls fast while a health check periodically probes for recovery.
+- **relay (X to the frontend)** — 받은 것을 저장하지 않고 곧바로 다른 쪽으로 중계·전달하다. ↔ persist / store.
+  - 예: The goal is to relay hundreds of images to the frontend quickly rather than store them.
+- **self-describing** — 이름·확장자만 봐도 형식을 알 수 있어 별도 조회가 필요 없는. ↔ opaque.
+  - 예: The .svg suffix makes the cached file self-describing, so the mimetype is guessable from the path on a cache hit.
+- **invent data** — 실측하지 않은 값을 보간·추정으로 지어내다(계측 도구에서 금기). ↔ show only measured/real values.
+  - 예: Interpolating values between measured points would invent data in a metrology tool and is therefore rejected.
+- **a nightly purge / purge (old cache)** — 오래된 데이터를 주기적으로 싹 쓸어내다; 그 정리 작업(명·동 동형). ↔ retain / keep.
+  - 예: A scheduled cron job runs a nightly purge that deletes cache files older than the retention window.

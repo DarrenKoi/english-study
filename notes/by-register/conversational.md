@@ -175,3 +175,7 @@
   - 예: The one minor phrasing nit in CLAUDE.md does not affect correctness.
 - **is well-chosen** — (위치·표현이) 잘 골라졌다 (사람이 아니라 선택 자체를 칭찬하는 담백한 수동태).
   - 예: The insertion point in CLAUDE.md is well-chosen: it contextualizes the subdirs before the operational notes.
+- **kick off (a background job)** — (일·프로세스를) 격의 없이 시작하다·발동시키다(축구 킥오프). ↔ wrap up / wind down.
+  - 예: The endpoint kicks off a fleet download in the background and immediately returns a job ID.
+- **on demand** — 미리(prefetch)가 아니라 필요할 때 그때그때(형용사형 on-demand). ↔ ahead of time / prefetched.
+  - 예: This task adds a standalone script that fetches the data on demand for the offline benchmark.

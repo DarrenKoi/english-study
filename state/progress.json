@@ -228,7 +228,10 @@
     "-Users-daeyoung-Codes-english-study/13a8a827-d728-4408-a770-e4f1ec68ba46.jsonl": 14,
     "-Users-daeyoung-Codes-flask-modules/3ff94910-b7c0-4c28-aab4-715623db5728.jsonl": 13,
     "-Users-daeyoung-Codes-auto-recipe-creator/8a1aaf3b-c131-4b50-ba3a-9e66a21a8310/subagents/agent-a0c978f8e80d6572e.jsonl": 11,
-    "-Users-daeyoung-Codes-auto-recipe-creator/ddb606b4-5f33-4aa6-bd2c-c81018958d4e.jsonl": 22
+    "-Users-daeyoung-Codes-auto-recipe-creator/ddb606b4-5f33-4aa6-bd2c-c81018958d4e.jsonl": 22,
+    "-Users-daeyoung-Codes-auto-recipe-creator/8a1aaf3b-c131-4b50-ba3a-9e66a21a8310/subagents/agent-a13a08ba975cc059e.jsonl": 31,
+    "-Users-daeyoung-Codes-auto-recipe-creator/8a1aaf3b-c131-4b50-ba3a-9e66a21a8310/subagents/agent-a337564902165000e.jsonl": 43,
+    "-Users-daeyoung-Codes-auto-recipe-creator/f0044f95-e6f6-4838-af51-d2ea8a1a2e7b.jsonl": 24
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -373,7 +376,19 @@
     "skewnono_v3_nuxt/docs/agents/domain.md": "skewnono_v3_nuxt/docs/agents/domain.md:1784032674.4600258:1210",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-14-skewvoir-search-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-14-skewvoir-search-design.md:1784012008.053562:23536",
     "skewnono_v3_nuxt/docs/issues/skewvoir/msr-review-detection-research.md": "skewnono_v3_nuxt/docs/issues/skewvoir/msr-review-detection-research.md:1784009957.224074:25369",
-    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-14-skewvoir-search.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-14-skewvoir-search.md:1783994147.3720026:79531"
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-14-skewvoir-search.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-14-skewvoir-search.md:1783994147.3720026:79531",
+    "skewnono_v3_nuxt/docs/research/llm-rag-chatbot-feasibility.md": "skewnono_v3_nuxt/docs/research/llm-rag-chatbot-feasibility.md:1784100740.6552083:29103",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-15-skewvoir-analysis-compact-dashboard-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-15-skewvoir-analysis-compact-dashboard-design.md:1784091549.7724338:8128",
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-15-msr-image-tool-fetch.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-15-msr-image-tool-fetch.md:1784083660.6536665:53413",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-15-msr-image-tool-fetch-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-15-msr-image-tool-fetch-design.md:1784082397.5943534:17087",
+    "llm_chatbot/doc/journals/260715/260715_111345-phoenix-daemon-sqlite-setup.md": "llm_chatbot/doc/journals/260715/260715_111345-phoenix-daemon-sqlite-setup.md:1784081700.8666673:5283",
+    "skewnono_v3_nuxt/docs/project-overview.md": "skewnono_v3_nuxt/docs/project-overview.md:1784081338.1976929:7780",
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-15-skewvoir-phase-b1-measurement-overview.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-15-skewvoir-phase-b1-measurement-overview.md:1784079432.4209816:50215",
+    "skewnono_v3_nuxt/ops_store/docs/with_dag_usage.md": "skewnono_v3_nuxt/ops_store/docs/with_dag_usage.md:1784079247.4116051:14447",
+    "skewnono_v3_nuxt/ops_store/docs/search_all_usage.md": "skewnono_v3_nuxt/ops_store/docs/search_all_usage.md:1784079247.41146:6939",
+    "skewnono_v3_nuxt/ops_store/docs/llm_tool_calling_usage.md": "skewnono_v3_nuxt/ops_store/docs/llm_tool_calling_usage.md:1784079247.4113445:12328",
+    "skewnono_v3_nuxt/ops_store/docs/README.md": "skewnono_v3_nuxt/ops_store/docs/README.md:1784079247.4112396:2139",
+    "skewnono_v3_nuxt/minio_handler/docs/web_integration.md": "skewnono_v3_nuxt/minio_handler/docs/web_integration.md:1784079247.4094706:15622"
   },
-  "last_run": "2026-07-15"
+  "last_run": "2026-07-16"
 }

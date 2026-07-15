@@ -347,3 +347,13 @@
   - 예: Issues labelled `wontfix` will not be actioned, but they remain searchable for context.
 - **speak in terms of (X)** — X 라는 어휘·개념 틀로 말하다 (용어 매핑 문서의 전형적 첫 문장). ↔ drift to synonyms.
   - 예: The skills speak in terms of five canonical triage roles; this file maps them to our tracker's strings.
+- **answer-first (layout)** — 결론(답)부터 맨 앞에 두는 구성 원칙(대시보드·보고서·글). ↔ bottom-up / buildup-first.
+  - 예: The team rebuilt the view as an answer-first layout that leads with a verdict strip before the supporting charts.
+- **match on the text, not the line number** — 고정 좌표(줄 번호)가 아니라 내용(앵커 텍스트)을 기준으로 찾아라. ↔ hard-code the position.
+  - 예: A concurrent session may have shifted lines, so match on the text, not the line number.
+- **surface as (a JSON error)** — 내부 상태·실패가 (…의 형태로) 겉으로 드러나다(자동사 surface). ↔ be swallowed / be hidden.
+  - 예: Office source failure surfaces as JSON — 500 for config, 503 for unavailable, 404 for a missing image.
+- **honesty-gated** — 데이터가 정직하게 뒷받침할 때만 노출하도록 조건을 건("X-gated" 조어). ↔ always-on / unconditional.
+  - 예: The overview shows honesty-gated failure evidence: outlier flags appear only when the data actually supports them.
+- **verbatim** — 한 글자도 안 바꾸고 원문 그대로(부사·형용사). ↔ paraphrased / with edits.
+  - 예: The SVG body is moved verbatim from the old module, minus the caching decorator.
