@@ -357,3 +357,13 @@
   - 예: The overview shows honesty-gated failure evidence: outlier flags appear only when the data actually supports them.
 - **verbatim** — 한 글자도 안 바꾸고 원문 그대로(부사·형용사). ↔ paraphrased / with edits.
   - 예: The SVG body is moved verbatim from the old module, minus the caching decorator.
+- **read as (visually) identical / distinct** — (결과적으로) ~처럼 보이다/읽히다; 주어는 사물, 지각의 뉘앙스. ↔ read as distinct.
+  - 예: The two charts share the same layout, so they read as visually identical even though they show different data.
+- **opt out (of X)** — 기본은 켜져 있고 특정 대상만 명시적으로 빠지다(명·형 opt-out). ↔ opt in.
+  - 예: All charts get the download button unless a component explicitly opts out.
+- **an acceptable trade-off** — 단점을 알지만 감수할 만한 절충. ↔ a dealbreaker / a non-starter.
+  - 예: The overlay covers a small corner of the chart — an acceptable trade-off for auto-injecting it everywhere.
+- **a single source of truth** — 정의가 한 곳에만 있어 그것이 유일한 기준(SSOT). ↔ duplicated/scattered definitions.
+  - 예: The three destinations reuse one action list so labels, icons, and paths have one source of truth.
+- **collide with** — (요소·이름·일정이) 같은 자리를 놓고 충돌하다(은유로 넓게). ↔ coexist with / sit alongside.
+  - 예: An overlay button would collide with the chart's own corner controls, so those charts opt out.

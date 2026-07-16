@@ -179,3 +179,5 @@
   - 예: The endpoint kicks off a fleet download in the background and immediately returns a job ID.
 - **on demand** — 미리(prefetch)가 아니라 필요할 때 그때그때(형용사형 on-demand). ↔ ahead of time / prefetched.
   - 예: This task adds a standalone script that fetches the data on demand for the offline benchmark.
+- **each hop / hop(ping) among (screens)** — 화면·상태를 가볍게 건너뛰며 오가기; 매 이동. ↔ (마땅한 대체 표현 없음).
+  - 예: Each hop among the three detail screens preserves the current recipe name and query.

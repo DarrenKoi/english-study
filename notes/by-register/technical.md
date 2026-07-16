@@ -305,3 +305,15 @@
   - 예: Interpolating values between measured points would invent data in a metrology tool and is therefore rejected.
 - **a nightly purge / purge (old cache)** — 오래된 데이터를 주기적으로 싹 쓸어내다; 그 정리 작업(명·동 동형). ↔ retain / keep.
   - 예: A scheduled cron job runs a nightly purge that deletes cache files older than the retention window.
+- **bake in** — 빼낼 수 없게 굽듯이 고정해 넣다. ↔ keep configurable / leave dynamic.
+  - 예: Exported PNGs must bake in a solid theme background, or they come out transparent.
+- **funnel through (a single X)** — 여러 경로를 하나의 통로로 모아 한곳에서 통제하다. ↔ scatter across / duplicate everywhere.
+  - 예: Because all charts funnel through one composable, the feature is added in one place and reaches every chart.
+- **be torn down / teardown** — (자원·리스너를) 생성 역순으로 깔끔히 해체하다; 정리 단계. ↔ set up / spin up.
+  - 예: The button and its listener are torn down together with the chart, so there are no leaked listeners.
+- **a singleton, injected once** — 앱 전체에서 딱 하나만 만들어 공유하는 인스턴스. ↔ per-instance / one-per-X.
+  - 예: A singleton style element is injected into the head exactly once, guarded by an id.
+- **unit-testable in isolation / in isolation** — 의존성을 떼어 그 자체만 따로 검증하다. ↔ coupled to / only testable end-to-end.
+  - 예: The filename logic is kept free of framework imports so it stays unit-testable in isolation.
+- **retain source order** — 동순위는 원래 순서를 유지 = 안정 정렬. ↔ an unstable sort / reorder arbitrarily.
+  - 예: Equal values retain their source order, so the sort is stable and predictable.
