@@ -232,7 +232,9 @@
     "-Users-daeyoung-Codes-auto-recipe-creator/8a1aaf3b-c131-4b50-ba3a-9e66a21a8310/subagents/agent-a13a08ba975cc059e.jsonl": 31,
     "-Users-daeyoung-Codes-auto-recipe-creator/8a1aaf3b-c131-4b50-ba3a-9e66a21a8310/subagents/agent-a337564902165000e.jsonl": 43,
     "-Users-daeyoung-Codes-auto-recipe-creator/f0044f95-e6f6-4838-af51-d2ea8a1a2e7b.jsonl": 24,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/1daf2c4e-b0fe-45a8-a8a7-0dbc0347c010.jsonl": 32
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/1daf2c4e-b0fe-45a8-a8a7-0dbc0347c010.jsonl": 32,
+    "-Users-daeyoung-Codes-auto-recipe-creator/8a1aaf3b-c131-4b50-ba3a-9e66a21a8310/subagents/agent-a0a6d7253f23b8f8c.jsonl": 39,
+    "-Users-daeyoung-Codes-english-study/2fb9c07c-1abd-41a8-8c13-7fc6348818a9.jsonl": 18
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -406,7 +408,22 @@
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-16-storage-usage-thresholds-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-16-storage-usage-thresholds-design.md:1784200323.6723957:1833",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-16-settings-korean-explanations.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-16-settings-korean-explanations.md:1784179180.993734:8375",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-16-settings-korean-explanations-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-16-settings-korean-explanations-design.md:1784178969.1108031:2362",
-    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-16-recipe-status-inline-summaries.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-16-recipe-status-inline-summaries.md:1784169099.1128533:12970"
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-16-recipe-status-inline-summaries.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-16-recipe-status-inline-summaries.md:1784169099.1128533:12970",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-17-chat-agentic-rag-foundation-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-17-chat-agentic-rag-foundation-design.md:1784271332.0348468:19824",
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-17-afm-points-table.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-17-afm-points-table.md:1784271171.451573:19824",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-17-afm-points-table-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-17-afm-points-table-design.md:1784270993.940162:6792",
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-17-afm-histogram-controls.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-17-afm-histogram-controls.md:1784270137.4360924:22717",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-17-afm-histogram-controls-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-17-afm-histogram-controls-design.md:1784269915.2052145:7388",
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-17-afm-heatmap-controls.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-17-afm-heatmap-controls.md:1784268641.5335743:17280",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-17-afm-heatmap-controls-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-17-afm-heatmap-controls-design.md:1784268464.69003:6107",
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-17-afm-image-gallery.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-17-afm-image-gallery.md:1784261331.5165381:30279",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-17-afm-image-gallery-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-17-afm-image-gallery-design.md:1784261014.7407477:10651",
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-17-afm-export-layer.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-17-afm-export-layer.md:1784252617.7651641:26427",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-17-afm-export-layer-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-17-afm-export-layer-design.md:1784252180.828033:8843",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-16-recipe-status-inline-summaries-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-16-recipe-status-inline-summaries-design.md:1784168628.7825882:2245",
+    "skewnono_v3_nuxt/docs/datatables/parameter_info.txt": "skewnono_v3_nuxt/docs/datatables/parameter_info.txt:1784162889.9369469:50",
+    "skewnono_v3_nuxt/docs/datatables/msr_file.txt": "skewnono_v3_nuxt/docs/datatables/msr_file.txt:1784162889.9367142:4538",
+    "skewnono_v3_nuxt/docs/handoff/handoff-2026-07-16-skewvoir-drilldowns-plan-amendment.md": "skewnono_v3_nuxt/docs/handoff/handoff-2026-07-16-skewvoir-drilldowns-plan-amendment.md:1784159660.8645017:5545"
   },
-  "last_run": "2026-07-17"
+  "last_run": "2026-07-18"
 }

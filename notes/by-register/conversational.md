@@ -181,3 +181,7 @@
   - 예: This task adds a standalone script that fetches the data on demand for the offline benchmark.
 - **each hop / hop(ping) among (screens)** — 화면·상태를 가볍게 건너뛰며 오가기; 매 이동. ↔ (마땅한 대체 표현 없음).
   - 예: Each hop among the three detail screens preserves the current recipe name and query.
+- **a quick win** — 노력 대비 효과가 빨리 나오는 작은 작업. ≈ low-hanging fruit. ↔ a long slog.
+  - 예: If the user wants the quick win first, ship the chip strip before the full drilldown.
+- **(conventions that) bit us** — 한 번 당해 본 함정·규칙(경고형: this will bite you later). ↔ saved us.
+  - 예: Conventions that bit us: run the Markdown linter after every doc edit.

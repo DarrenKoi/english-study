@@ -317,3 +317,13 @@
   - 예: The filename logic is kept free of framework imports so it stays unit-testable in isolation.
 - **retain source order** — 동순위는 원래 순서를 유지 = 안정 정렬. ↔ an unstable sort / reorder arbitrarily.
   - 예: Equal values retain their source order, so the sort is stable and predictable.
+- **go stale** — 데이터·기본값·문서가 시간이 지나 낡아 못 쓰게 되다. ↔ stay fresh / stay current.
+  - 예: The default model entries are free OpenRouter tiers that go stale.
+- **feature parity** — 기존 제품·시스템과의 기능 동등성(마이그레이션 완료 조건). ↔ a feature gap.
+  - 예: C4 is the final sub-project of the AFM feature-parity effort.
+- **well-behaved (data)** — 이상치 없이 가정대로 움직이는 데이터. ↔ pathological / degenerate.
+  - 예: Auto mode picks Sturges for well-behaved data and Freedman-Diaconis when outliers exceed 5%.
+- **keep the diff frozen** — 머지 전 diff 를 더 건드리지 않고 동결하다. ↔ reopen the change.
+  - 예: Defer the log tweak if you want to keep the diff frozen.
+- **text-first and image-selective** — X-first/X-selective 합성 형용사로 우선순위 정책을 압축. ↔ image-heavy.
+  - 예: The retrieval flow is text-first and image-selective: search text, then open only relevant pages.

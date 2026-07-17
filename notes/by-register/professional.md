@@ -367,3 +367,19 @@
   - 예: The three destinations reuse one action list so labels, icons, and paths have one source of truth.
 - **collide with** — (요소·이름·일정이) 같은 자리를 놓고 충돌하다(은유로 넓게). ↔ coexist with / sit alongside.
   - 예: An overlay button would collide with the chart's own corner controls, so those charts opt out.
+- **carry forward** — 앞 단계의 발견·결정을 다음 단계로 이월해 반영하다. ↔ drop / leave behind.
+  - 예: A retrospective review added three operational findings that this design must carry forward.
+- **make (the transition) mechanical** — 판단 없이 따라만 하면 되게(=저위험으로) 만들다. ↔ leave it to judgment.
+  - 예: The migration doc will make the office transition mechanical.
+- **a curated subset** — 기준을 갖고 엄선한 일부(빠진 건 의도). ↔ a wholesale port / a 1:1 copy.
+  - 예: We port a curated subset of the legacy component rather than all 768 lines.
+- **tightly-scoped** — 딱 필요한 범위만 건드린(리뷰 칭찬). ↔ sprawling.
+  - 예: The change is a tightly-scoped, well-tested decoupling with consistent contracts.
+- **a clean, minimal cut** — 군더더기 없이 최소한으로 잘라낸 변경(리뷰 총평). ↔ a sprawling change.
+  - 예: Clean, minimal cut — the change does exactly what the spec asked.
+- **remove only noise** — 지워도 정보 손실이 없다(삭제 정당화). 짝: hides nothing. ↔ swallow a real signal.
+  - 예: Removing the load-time warning removes only noise.
+- **rise above (Minor)** — 심각도가 그 등급 위로 올라가지 않다. ↔ escalate to (Critical).
+  - 예: None of the carryover items rise above Minor on the whole-branch view.
+- **stay close to (the data they describe)** — 연관 정보를 대상 곁에 붙여 두다(정보 설계 원칙). ↔ float free of.
+  - 예: Move the summaries into the table headers so they stay close to the ranked data they describe.
