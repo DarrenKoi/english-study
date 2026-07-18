@@ -395,3 +395,19 @@
   - 예: The skill bakes in the hard-won lessons from the first run, so future runs skip the trial-and-error.
 - **the done bar** — 완료로 인정하는 기준선(raise/lower the bar 계열). ≈ the definition of done.
   - 예: Control charts are excluded from the Phase-1 done bar because there is no approved baseline yet.
+- **a second-opinion review** — 제3의 눈으로 받은 2차 검토(의사의 second opinion에서 온 은유). ≈ an independent review.
+  - 예: A second-opinion review surfaced 8 issues; verified against source, these were reconciled as follows.
+- **override X where they conflict** — 충돌하는 지점에서만 X를 무효화하다(where=조건 관계절). ≈ take precedence over.
+  - 예: The revisions below override the original tasks where they conflict.
+- **answer a low-value question** — 별 가치 없는 질문에 답하다(기능을 "질문에 대한 답"으로 프레이밍해 제거를 설득). ↔ answer the more valuable question.
+  - 예: This card answers a low-value question — model popularity mirrors fleet size and tells us little about actual usage.
+- **reality overtook the plan** — 현실(구현)이 계획을 앞질렀다(회고에서 계획의 낙후를 담백하게 표현). ↔ the plan held up.
+  - 예: Here's where reality overtook the plan: the plain-bubble UI was replaced wholesale before review.
+- **stop short of (doing)** — ~하기 직전에서 멈추다, 그 선은 넘지 않다. ↔ go ahead with.
+  - 예: Since your note says "only commit when I ask," I've stopped short of committing.
+- **one housekeeping note** — 본론 밖의 소소한 정리 사항 하나(회의·이메일 상투구).
+  - 예: One housekeeping note: the memory that says the migration is unpushed is now stale.
+- **mirror it back** — 상대의 말을 내 언어로 되짚어 이해를 확인하다. ≈ restate my understanding.
+  - 예: Let me mirror it back precisely so we're fully aligned before I touch anything.
+- **caught mechanically, not by memory** — 사람의 기억이 아니라 자동 장치가 잡는다("X, not Y" 대구). ↔ rely on discipline.
+  - 예: The contract test runs at the office, so drift is caught mechanically, not by memory.

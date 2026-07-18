@@ -339,3 +339,11 @@
   - 예: The installer is idempotent, so running it twice just rewrites the same hook.
 - **cognitive debt** — 이해를 건너뛴 대가가 부채처럼 쌓이는 것(tech debt 의 인지 버전, accrue 와 짝).
   - 예: Skipping the review loop accrues cognitive debt you will repay when the system breaks.
+- **slip through** — 잘못된 값·버그가 검증망을 빠져나가다. ↔ get caught.
+  - 예: The resolver guards with Number.isFinite, so an empty input no longer slips through.
+- **behavior-preserving** — 동작을 보존하는(리팩터링·rename 수식 복합형용사). ↔ behavior-changing.
+  - 예: This is a behavior-preserving rename of the two view modes — no new features.
+- **ride the same commit** — 여러 변경이 한 커밋에 실려 함께 이동하다. ≈ travel together. ↔ drift apart.
+  - 예: When you evolve a feature, all the changes ride the same commit through GitHub.
+- **drop in without friction** — 개조 없이 기존 구조에 매끄럽게 끼워지다. ↔ need rework to fit.
+  - 예: The afm-style provider seam dropped in without friction.

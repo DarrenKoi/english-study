@@ -193,3 +193,11 @@
   - 예: Feel free to chime in on the thread if you disagree with the rollout order.
 - **drop a hot take** — 도발적인 즉흥 의견을 SNS·채팅에 툭 던지다(아주 캐주얼). ↔ a measured view.
   - 예: He opened the talk by dropping a hot take: verification is no longer the human's main job.
+- **the plan's biggest miss** — 계획의 최대 실책·누락(miss=빗나감, 비난보다 담백). ↔ the plan's biggest win.
+  - 예: Retry duplication was the plan's biggest miss — the tests never exercised the retry path.
+- **one heads-up before you …** — 행동 전에 미리 주는 가벼운 주의 한 마디. cf. give someone a heads-up.
+  - 예: One heads-up before you restart: this now points sem_list at the office provider.
+- **on your own terms** — 강요된 방식이 아니라 자기 조건·페이스대로. ↔ under duress.
+  - 예: The merge you were dreading becomes a readable diff you apply on your own terms.
+- **crystal clear** — 완전히 명료한(오해가 걷혔음을 함께 암시). ↔ as clear as mud.
+  - 예: Now it's crystal clear — and it matches exactly what I sketched.

@@ -235,14 +235,22 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/1daf2c4e-b0fe-45a8-a8a7-0dbc0347c010.jsonl": 32,
     "-Users-daeyoung-Codes-auto-recipe-creator/8a1aaf3b-c131-4b50-ba3a-9e66a21a8310/subagents/agent-a0a6d7253f23b8f8c.jsonl": 39,
     "-Users-daeyoung-Codes-english-study/2fb9c07c-1abd-41a8-8c13-7fc6348818a9.jsonl": 18,
-    "-Users-daeyoung-Codes-english-study/456b8bff-c065-4ae8-8943-2653e901254a.jsonl": 339,
+    "-Users-daeyoung-Codes-english-study/456b8bff-c065-4ae8-8943-2653e901254a.jsonl": 416,
     "-Users-daeyoung-Codes-english-study/1c9dfebc-47aa-4042-a1b8-7b09baf9c324.jsonl": 251,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/feb70cd4-3782-48ac-bfcb-8d7a0c140872.jsonl": 32,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/05a2e25a-b573-4950-8316-93762cb05dc8.jsonl": 17,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/5be3e600-2ff6-4722-b3b1-69e88ef8c4c7.jsonl": 12,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/0f95c60c-8ba6-4c95-8cce-438549e6eaca.jsonl": 89,
     "-Users-daeyoung-Codes-english-study/d609bb6f-2b80-4ed6-bfaf-62b859c4e8fe.jsonl": 100,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/b6191cae-9401-40ba-9c4a-33798a1b00fa.jsonl": 47
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/b6191cae-9401-40ba-9c4a-33798a1b00fa.jsonl": 47,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/8521af31-1174-4dba-94cd-25f0ba08e94a.jsonl": 408,
+    "-Users-daeyoung-Codes-english-study/9131278b-4f58-4510-beb4-aa7e4352e886.jsonl": 113,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/3f59aab0-0427-4794-8b6f-4140f319885f.jsonl": 124,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/c296db8e-3ea5-4a39-9c15-db2a3b1d0c8a.jsonl": 42,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/461e0fb2-b1e9-4d9d-816b-2a0e9257ccb9.jsonl": 129,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/e2668c21-87e4-404c-8c46-83a07a0a5d90.jsonl": 13,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/9b9c5902-5d83-485c-85ee-d1c89cfd6221.jsonl": 23,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/48bb42e3-5b4d-4f67-90cd-1b9d0c8ca39e.jsonl": 13
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -436,7 +444,17 @@
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-16-skewvoir-analysis-drilldowns.en.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-16-skewvoir-analysis-drilldowns.en.md:1784159541.4467032:39578",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-16-skewvoir-analysis-drilldowns.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-16-skewvoir-analysis-drilldowns.md:1784159498.713876:40313",
     "skewnono_v3_nuxt/docs/issues/skewvoir/analysis-drilldown-benchmark-research.md": "skewnono_v3_nuxt/docs/issues/skewvoir/analysis-drilldown-benchmark-research.md:1784152092.1705906:39932",
-    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-16-skewvoir-analysis-drilldowns-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-16-skewvoir-analysis-drilldowns-design.md:1784152047.473897:35925"
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-16-skewvoir-analysis-drilldowns-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-16-skewvoir-analysis-drilldowns-design.md:1784152047.473897:35925",
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-16-skewvoir-wafer-map-enhancement.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-16-skewvoir-wafer-map-enhancement.md:1784151466.118524:42695",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-16-skewvoir-wafer-map-enhancement-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-16-skewvoir-wafer-map-enhancement-design.md:1784149918.1973464:10664",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-16-activity-fab-page-usage-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-16-activity-fab-page-usage-design.md:1784148129.7992666:6913",
+    "skewnono_v3_nuxt/minio_handler/docs/usage.md": "skewnono_v3_nuxt/minio_handler/docs/usage.md:1784079247.409349:17942",
+    "skewnono_v3_nuxt/minio_handler/docs/serialization.md": "skewnono_v3_nuxt/minio_handler/docs/serialization.md:1784079247.409232:10169",
+    "skewnono_v3_nuxt/minio_handler/docs/recipes.md": "skewnono_v3_nuxt/minio_handler/docs/recipes.md:1784079247.4091344:16010",
+    "skewnono_v3_nuxt/minio_handler/docs/data_management.md": "skewnono_v3_nuxt/minio_handler/docs/data_management.md:1784079247.409:11514",
+    "skewnono_v3_nuxt/minio_handler/docs/concepts.md": "skewnono_v3_nuxt/minio_handler/docs/concepts.md:1784079247.4088695:7334",
+    "skewnono_v3_nuxt/minio_handler/docs/README.md": "skewnono_v3_nuxt/minio_handler/docs/README.md:1784079247.408754:1717",
+    "llm_chatbot/doc/llm-wiki/raw/learning-logs/20260715-arize-phoenix-observability-assessment.md": "llm_chatbot/doc/llm-wiki/raw/learning-logs/20260715-arize-phoenix-observability-assessment.md:1784078447.3458953:27446"
   },
-  "last_run": "2026-07-18"
+  "last_run": "2026-07-19"
 }
