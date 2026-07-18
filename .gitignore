@@ -6,3 +6,4 @@ state/consumed-*.json
 state/run.log
 state/launchd.out.log
 state/launchd.err.log
+_workspace/

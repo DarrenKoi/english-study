@@ -272,3 +272,25 @@ def test_review_pass_skips_already_reviewed(tmp_path, monkeypatch):
     result = collect.collect(root=root)
     assert result["mode"] == "review"
     assert _manifest(root)["reviewed"] == ["blast radius"]
+
+
+def test_doc_budget_share_reserves_room_for_transcripts(tmp_path, monkeypatch):
+    """문서가 예산 전체를 채울 만큼 많아도, doc_budget_share 상한 덕에
+    뒤에 붙는 트랜스크립트(코칭 원료)가 배치에서 밀려나지 않는다."""
+    root, codes = tmp_path / "study", tmp_path / "codes"
+    _sources(root, codes, char_budget=1000, doc_budget_share=0.6)
+    _no_git(monkeypatch)
+    for i in range(5):   # 문서만으로 1000자 예산을 넘치게 만든다
+        _write(codes / "proj" / "docs" / f"d{i}.md", f"doc{i} " + "d" * 300,
+               age_days=i * 0.1)
+    monkeypatch.setattr(
+        collect.transcripts, "new_messages",
+        lambda d, off: ([{"file": "s.jsonl", "role": "user", "text": "내가 쓴 한글 문장"}],
+                        {"s.jsonl": 1}))
+
+    collect.collect(root=root, today="2026-07-18")
+
+    batch, m = _batch(root), _manifest(root)
+    assert "[transcript:s.jsonl]" in batch
+    assert m["transcripts"] == {"s.jsonl": 1}
+    assert 0 < len(m["docs"]) < 5   # 문서는 60% 상한에서 잘리고, 나머지는 deferred

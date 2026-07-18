@@ -1,6 +1,6 @@
 # 2026-07-18 — 오늘의 표현
 
-오늘 배치는 RAG 챗 설계 스펙, AFM 컨트롤 시리즈 스펙/플랜, 그리고 시니어 코드리뷰
+오늘 배치는 RAG 챗 설계 스펙, AFM 컨트롤 시리즈 스펙/플랜, 시니어 코드리뷰
 transcript 였습니다. 새 표현 15개 중 핵심 7개:
 
 - **carry forward** — 앞 단계의 발견·결정을 다음 설계로 "이월"해 반영하다. "findings this design must carry forward."

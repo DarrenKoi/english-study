@@ -135,7 +135,11 @@ def collect(root: Path | None = None, today: str | None = None) -> dict:
         if (project / ".git").exists():
             gitutil.pull(project)   # 최신 docs 반영(베스트에포트, 충돌 시 조용히 건너뜀)
     char_budget = cfg.get("char_budget", 200000)
-    doc_units, unread = _doc_units(base, cfg, seen, char_budget)
+    # 문서는 예산의 일부(doc_budget_share)까지만 선점한다. 문서가 전체 예산을 채우면
+    # 뒤에 붙는 트랜스크립트(한글→영어 코칭의 유일한 원료)가 매일 밀리는 기아가 생긴다.
+    # 남는 문서 몫은 build_batch 가 전체 예산 기준으로 조립하므로 트랜스크립트가 자연히 쓴다.
+    doc_budget = int(char_budget * cfg.get("doc_budget_share", 0.6))
+    doc_units, unread = _doc_units(base, cfg, seen, doc_budget)
     units.extend(doc_units)
 
     # 3) 트랜스크립트 — 파일 1개 = 단위 1개
