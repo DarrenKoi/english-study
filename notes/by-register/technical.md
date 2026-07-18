@@ -327,3 +327,15 @@
   - 예: Defer the log tweak if you want to keep the diff frozen.
 - **text-first and image-selective** — X-first/X-selective 합성 형용사로 우선순위 정책을 압축. ↔ image-heavy.
   - 예: The retrieval flow is text-first and image-selective: search text, then open only relevant pages.
+- **fail open / fail closed** — 장애·설정 누락 시 허용 쪽으로/차단 쪽으로 실패하다(보안 설계 대구).
+  - 예: The default fails open, so in office mode we make the client fail closed before any byte leaves the process.
+- **be silently dropped** — 아무 표시 없이 조용히 누락되다(부정문으로 투명성 요구). ↔ be surfaced.
+  - 예: Incompatible MSRs are not silently dropped — they go to the exclusion list with a reason code.
+- **land (a change)** — 변경을 메인에 병합해 안착시키다(착륙 은유). ↔ back out / revert.
+  - 예: Land the in-flight wafer-map changes first so this plan starts on top of a clean worktree.
+- **in-flight** — 아직 완료되지 않고 진행 중인(커밋 안 된 작업, 응답 안 온 요청). ↔ settled.
+  - 예: Discard an in-flight fetch whose key no longer matches the current URL at resolve time.
+- **idempotent** — 몇 번 실행해도 결과가 한 번과 같은(멱등). ↔ has side effects.
+  - 예: The installer is idempotent, so running it twice just rewrites the same hook.
+- **cognitive debt** — 이해를 건너뛴 대가가 부채처럼 쌓이는 것(tech debt 의 인지 버전, accrue 와 짝).
+  - 예: Skipping the review loop accrues cognitive debt you will repay when the system breaks.

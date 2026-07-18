@@ -383,3 +383,15 @@
   - 예: None of the carryover items rise above Minor on the whole-branch view.
 - **stay close to (the data they describe)** — 연관 정보를 대상 곁에 붙여 두다(정보 설계 원칙). ↔ float free of.
   - 예: Move the summaries into the table headers so they stay close to the ranked data they describe.
+- **a residual gap** — 대책을 적용한 뒤에도 남는 빈틈(한계를 명시적으로 수용할 때). ↔ full coverage.
+  - 예: The blocklist accepts one residual gap: a brand-new gateway not on the list would pass through.
+- **can only tighten, never weaken** — 설정이 엄격한 방향으로만 움직인다는 단조성 선언(only A, never B 대구). ≈ a one-way ratchet.
+  - 예: Configuration can only tighten the guard, never weaken it.
+- **slated for (update/demolition)** — ~하기로 예정에 올라 있는. ≈ scheduled for.
+  - 예: Mark the fixture as a test slated for update, because the new API supersedes it.
+- **supersede** — 새것이 옛것을 공식적으로 대체·무효화하다(replace 보다 격식). ↔ be superseded by.
+  - 예: This design supersedes the earlier draft; keep only the new file in the index.
+- **hard-won (lessons)** — 시행착오를 치르고 어렵게 얻은. ↔ easy wins.
+  - 예: The skill bakes in the hard-won lessons from the first run, so future runs skip the trial-and-error.
+- **the done bar** — 완료로 인정하는 기준선(raise/lower the bar 계열). ≈ the definition of done.
+  - 예: Control charts are excluded from the Phase-1 done bar because there is no approved baseline yet.

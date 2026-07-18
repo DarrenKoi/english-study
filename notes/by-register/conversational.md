@@ -185,3 +185,11 @@
   - 예: If the user wants the quick win first, ship the chip strip before the full drilldown.
 - **(conventions that) bit us** — 한 번 당해 본 함정·규칙(경고형: this will bite you later). ↔ saved us.
   - 예: Conventions that bit us: run the Markdown linter after every doc edit.
+- **mind the (rate limit / gap)** — 괄호·삽입으로 가볍게 "~ 조심"을 알리는 주의 표현. ≈ watch out for.
+  - 예: One switch causes at most one GET request (mind the mock rate limit).
+- **preach to the choir** — 이미 동의하는 사람들 앞에서 설득하다(겸손한 서두용 관용구). ↔ win over the skeptics.
+  - 예: I may be preaching to the choir here, but code review still matters when agents write the code.
+- **chime in** — 진행 중인 대화에 환영받게 끼어들어 한마디 보태다. ≈ weigh in. ↔ sit this one out.
+  - 예: Feel free to chime in on the thread if you disagree with the rollout order.
+- **drop a hot take** — 도발적인 즉흥 의견을 SNS·채팅에 툭 던지다(아주 캐주얼). ↔ a measured view.
+  - 예: He opened the talk by dropping a hot take: verification is no longer the human's main job.

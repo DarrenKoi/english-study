@@ -33,3 +33,27 @@ FAISS stores vectors and stable chunk identifiers, not original manuals. Text ex
 **격식 짝**: refined — "This prevents workers from observing a partially rebuilt index." ↔ plain — "This way a worker never sees a half-built index." (작성)
 
 <sub>출처: repo:skewnono_v3_nuxt docs/superpowers/specs/2026-07-17-chat-agentic-rag-foundation-design.md</sub>
+
+---
+
+## 단락 4 (2차 실행)
+
+`config.get_base_url()` defaults to `https://openrouter.ai/api/v1`. The base URL is only swapped by the `CHAT_BASE_URL` env var. If an office deployment forgets to override that variable, `llm.send_chat()` makes a real outbound request to `openrouter.ai` — an external host. The company's end-to-end network/DLP monitoring then notices the external egress and warns about it. The default **fails open**: a *missing* config silently produces an *external* call. In the office we want the app itself to **fail closed** — block the call before any byte leaves the process, so the company monitor is never the thing that catches it.
+
+**문법·구조**: 문제 서술의 교과서적 흐름 — ① 일반 현재로 현행 동작을 사실처럼 진술(defaults to, is only swapped), ② **If 조건절**로 실패 시나리오 전개, ③ then 부사로 결과 연결, ④ 콜론 뒤에 문제의 본질을 한 문장으로 압축("a missing config silently produces an external call" — *missing* 과 *external* 의 이탤릭 대비가 인과의 아이러니를 강조), ⑤ 대시 뒤에 해법과 목적(so + 결과절). 마지막 "is never the thing that catches it" 은 **분열문 변형**으로 "잡아내는 주체가 회사 모니터여서는 안 된다"는 책임 소재를 못 박습니다.
+**핵심 표현**: *fail open / fail closed* (허용 쪽/차단 쪽으로 실패), *before any byte leaves the process* (단 1바이트도 나가기 전에 — 극단 최소 단위로 완전함을 강조), *the thing that catches it* (그걸 잡아내는 주체).
+**격식 짝**: refined — "The default fails open: a missing config silently produces an external call." ↔ plain — "If you forget the config, it just quietly calls out to the internet." (작성)
+
+<sub>출처: repo:skewnono_v3_nuxt docs/superpowers/specs/2026-07-18-chat-office-egress-guard-design.md</sub>
+
+---
+
+## 단락 5 (2차 실행)
+
+His argument: as agents write more of our code, the human job isn't just *verifying* correctness (agents are taking that over) but *understanding to participate* — the comprehension you build in each review loop is what fuels your next creative idea. Skipping it accrues "cognitive debt." He offers three techniques borrowed from education: **explainer docs with quizzes** (he won't send a PR until he passes a 5-question quiz on what his agent wrote), **micro worlds** (throwaway debugger UIs and "do the port yourself" games agents build just to teach you your own system), and **shared spaces** (multiplayer human+agent threads and commentable plans in Notion).
+
+**문법·구조**: 주장 요약문의 압축 기법이 집약된 단락. "isn't just A but B" 는 **not just A but B** 상관 구문으로 초점을 A에서 B로 옮기고, 괄호 삽입(agents are taking that over)이 A를 버려도 되는 이유를 즉석에서 처리합니다. "the comprehension you build … is what fuels …" 는 접촉절(you build 앞의 that 생략) + **의사분열문**(what fuels)의 결합. 세 기법 나열은 "콜론 + 굵은 명사구 + 괄호 부연" 패턴으로, 각 괄호 안이 완전한 절이라 리듬이 지루하지 않습니다. "he won't send a PR until he passes" 의 **won't … until** 은 자기 규율을 조건화하는 흔한 구조.
+**핵심 표현**: *take over* (역할을 넘겨받다), *fuel* (동력을 공급하다 — 은유 동사), *accrue* (이자처럼 쌓이다 — debt 와 고정 짝), *borrowed from education* (다른 분야에서 차용한).
+**격식 짝**: refined — "Skipping the review loop accrues cognitive debt." ↔ plain — "Skip the reviews and it'll come back to bite you." (작성)
+
+<sub>출처: transcript:-Users-daeyoung-Codes-english-study/1c9dfebc (Geoffrey Litt 강연 요약)</sub>

@@ -152,3 +152,170 @@
 - 예문: Move the summary values into the table headers so they stay close to the ranked data they describe.
 - 유사어: colocate with (더 기술적), sit next to (평이·구어)
 - 반의어: float free of (맥락에서 떨어져 겉돌다)
+
+---
+
+# 2차 실행 추가분 (수동 파이프라인, 같은 날)
+
+배치가 재수집되어 egress guard 설계, Skewvoir 드릴다운 플랜(영문판), YouTube 다이제스트
+대화가 새로 들어왔습니다. 아래 16개는 오전 실행분과 겹치지 않는 새 표현입니다.
+
+## "fail open / fail closed"
+- 레지스터: technical, professional
+- 출처: repo:skewnono_v3_nuxt docs/superpowers/specs/2026-07-18-chat-office-egress-guard-design.md
+- 맥락: 설정 누락·장애 시 시스템이 "열린 채(허용)" 실패하는지 "닫힌 채(차단)" 실패하는지를 말할 때(보안 설계 문어)
+- 한국어: (장애 시) 허용 쪽으로 무너지다 / 차단 쪽으로 무너지다
+- 설명: 보안 엔지니어링의 핵심 대구. fail open 은 편의 우선(문이 안 잠김), fail closed 는 안전 우선(문이 잠김). 원문은 "The default **fails open**: a *missing* config silently produces an *external* call" 처럼 동사로 씁니다.
+- 예문: In the office we want the app itself to fail closed — block the call before any byte leaves the process.
+- 유사어: default to allow / default to deny (정책 규칙 어투), degrade safely (더 일반적)
+- 반의어: (둘이 서로 반의어)
+
+## "a residual gap"
+- 레지스터: professional
+- 출처: repo:skewnono_v3_nuxt docs/superpowers/specs/2026-07-18-chat-office-egress-guard-design.md
+- 맥락: 대책을 적용한 뒤에도 "남는" 허점을 인정하고 문서화할 때(설계 근거·격식)
+- 한국어: (대책 후에도) 남는 빈틈
+- 설명: residual 은 "처리하고 남은". "accepts one residual gap — a brand-new public gateway not on the list would pass through" 처럼, 한계를 숨기지 않고 명시적으로 수용했음을 보이는 데 씁니다. 뒤따르는 "That trade-off was accepted explicitly." 가 짝 문장.
+- 예문: The blocklist accepts one residual gap: a brand-new gateway not on the list would pass through.
+- 유사어: a known limitation (더 중립), a residual risk (리스크 관리 용어)
+- 반의어: full coverage (빈틈 없는 커버리지)
+
+## "can only tighten, never weaken"
+- 레지스터: professional, technical
+- 출처: repo:skewnono_v3_nuxt docs/superpowers/specs/2026-07-18-chat-office-egress-guard-design.md
+- 맥락: 설정·권한이 한 방향(더 엄격한 쪽)으로만 움직이게 설계했음을 선언할 때(문어)
+- 한국어: 조이는 것만 가능하고 풀 수는 없다
+- 설명: "It can only add hosts, never remove them, so configuration can only tighten the guard, never weaken it." — only A, never B 대구가 단조성(monotonicity) 보장을 한 문장으로 전달합니다.
+- 예문: The env var can only add hosts, never remove them, so configuration can only tighten the guard, never weaken it.
+- 유사어: one-way ratchet (한 방향 톱니바퀴 은유), monotonic (수학·기술 용어)
+- 반의어: (마땅한 대체 표현 없음)
+
+## "be silently dropped"
+- 레지스터: technical
+- 출처: repo:skewnono_v3_nuxt docs/superpowers/plans/2026-07-16-skewvoir-analysis-drilldowns.en.md
+- 맥락: 데이터·항목이 아무 표시 없이 조용히 누락되는 것을 금지·경계할 때
+- 한국어: 소리 없이 (조용히) 버려지다
+- 설명: silently 는 "사용자 모르게"라는 뜻의 기술 부사. 원문 "MSRs with no common sites are not silently dropped from the computation." 처럼 부정문으로 써서 투명성을 요구합니다. 앞서 egress 설계의 "Nothing silently reaches OpenRouter." 도 같은 패턴.
+- 예문: Incompatible MSRs are not silently dropped — they are sent to the manifest exclusion list with a reason code.
+- 유사어: swallowed (에러가 삼켜지다·구어 기술), quietly ignored (더 평이)
+- 반의어: surfaced (겉으로 드러내지다)
+
+## "slated for (update)"
+- 레지스터: professional
+- 출처: repo:skewnono_v3_nuxt docs/superpowers/plans/2026-07-16-skewvoir-analysis-drilldowns.en.md
+- 맥락: 어떤 항목이 "~할 예정으로 잡혀 있다"고 계획 문서·기사에서 말할 때(문어)
+- 한국어: ~하기로 예정되어 있는
+- 설명: slate(석판)에 이름을 올린다는 데서 온 표현. "Mark the fixture as a test slated for update" 처럼 수동형 + for 명사(구)가 기본형. 뉴스에서도 "the building is slated for demolition" 처럼 흔합니다.
+- 예문: Mark the current-behavior fixture as a test slated for update, because Task 3 intentionally supersedes it.
+- 유사어: scheduled for (더 중립), earmarked for (예산·지정 뉘앙스)
+- 반의어: (마땅한 대체 표현 없음)
+
+## "supersede"
+- 레지스터: professional
+- 출처: repo:skewnono_v3_nuxt docs/superpowers/plans/2026-07-16-skewvoir-analysis-drilldowns.en.md
+- 맥락: 새 설계·규칙이 옛것을 공식적으로 대체·무효화할 때(격식 문어)
+- 한국어: (공식적으로) 대체하다, 우선하다
+- 설명: replace 보다 격식 높고 "새것이 옛것의 지위를 이어받아 밀어낸다"는 뉘앙스. "Task 3's setFocusedMsr intentionally supersedes it" — 의도된 대체임을 intentionally 로 강조.
+- 예문: This design supersedes the 2026-07-10 draft; keep only the new file in the spec index.
+- 유사어: replace (중립), override (규칙이 우선 적용됨), obsolete (동사로 쓰면 더 기술적)
+- 반의어: be superseded by (수동 시점)
+
+## "land (a change)"
+- 레지스터: technical, conversational
+- 출처: repo:skewnono_v3_nuxt docs/superpowers/plans/2026-07-16-skewvoir-analysis-drilldowns.en.md
+- 맥락: 변경을 메인 브랜치에 병합해 "안착"시키는 것을 말할 때(개발 구어·리뷰)
+- 한국어: (변경을) 머지해 안착시키다
+- 설명: 비행기 착륙 은유. "Land them first to avoid conflicts", "landed first in Task 0" 처럼 커밋·머지 완료를 뜻하는 개발 관용어. merge 보다 "끝까지 들어가 자리잡았다"는 완료감이 강합니다.
+- 예문: Land the in-flight wafer-map changes first so this plan starts on top of a clean worktree.
+- 유사어: merge (중립), ship (사용자에게 나가는 뉘앙스), check in (구식)
+- 반의어: back out / revert (되돌리다)
+
+## "in-flight"
+- 레지스터: technical
+- 출처: repo:skewnono_v3_nuxt docs/superpowers/plans/2026-07-16-skewvoir-analysis-drilldowns.en.md
+- 맥락: 아직 끝나지 않고 "진행 중인" 작업·요청을 가리킬 때(기술 문어·구어 겸용)
+- 한국어: 진행 중인, 아직 떠 있는
+- 설명: 비행 중이라 착륙(완료)하지 않았다는 은유. 문서에서 "in-flight wafer-map work"(커밋 안 된 작업), "an in-flight focus fetch"(응답 안 온 요청) 두 용법이 모두 등장 — 코드와 프로세스 양쪽에 씁니다.
+- 예문: Discard an in-flight focus fetch whose msr no longer matches the current URL at resolve time.
+- 유사어: pending (더 중립), outstanding (미결·격식)
+- 반의어: settled / completed
+
+## "the done bar"
+- 레지스터: professional, technical
+- 출처: repo:skewnono_v3_nuxt docs/superpowers/plans/2026-07-16-skewvoir-analysis-drilldowns.en.md
+- 맥락: "완료로 인정하는 기준선"을 명사 하나로 가리킬 때(팀 내 문어·구어)
+- 한국어: 완료 판정 기준
+- 설명: bar 는 높이뛰기 가로대 은유(기준선). "exclude them from the Phase-1 done bar", "The Phase-1 shipping 'done' bar is …" 처럼 씁니다. raise/lower the bar(기준을 올리다/내리다)와 같은 계열.
+- 예문: Control charts are excluded from the Phase-1 done bar because there is no approved baseline yet.
+- 유사어: the definition of done (스크럼 공식 용어), the acceptance criteria (더 격식)
+- 반의어: (마땅한 대체 표현 없음)
+
+## "mind the (rate limit)"
+- 레지스터: conversational, technical
+- 출처: repo:skewnono_v3_nuxt docs/superpowers/plans/2026-07-16-skewvoir-analysis-drilldowns.en.md
+- 맥락: 괄호나 짧은 삽입으로 "~을 조심하라"고 가볍게 주의를 줄 때(구어투 문어)
+- 한국어: ~에 유의할 것
+- 설명: 영국 지하철의 "Mind the gap" 으로 유명한 mind = ~을 조심하다. 문서 속 "(mind the mock 20-req/5s rate limit)" 처럼 괄호 한 줄 경고로 아주 자연스럽습니다.
+- 예문: One switch causes at most one GET request (mind the mock 20-req/5s rate limit).
+- 유사어: watch out for (더 구어), be mindful of (격식)
+- 반의어: (마땅한 대체 표현 없음)
+
+## "hard-won (lessons)"
+- 레지스터: professional, conversational
+- 출처: transcript:-Users-daeyoung-Codes-english-study/1c9dfebc (YouTube 스킬 세션)
+- 맥락: 시행착오를 치르고 얻은 교훈·지식을 수식할 때
+- 한국어: 어렵게 얻은, 값비싸게 배운
+- 설명: win 의 과거분사 합성어. "The skill bakes in the three hard-won technical lessons from the first run, so future runs skip the trial-and-error." — 고생의 값어치를 한 단어로 압축합니다.
+- 예문: The skill bakes in the hard-won lessons from the first run, so future runs skip the trial-and-error.
+- 유사어: dearly bought (문어·드묾), learned the hard way (구어 서술형)
+- 반의어: cheap / easy wins (쉽게 얻은 것)
+
+## "cognitive debt"
+- 레지스터: technical, professional
+- 출처: transcript:-Users-daeyoung-Codes-english-study/1c9dfebc (Geoffrey Litt 강연 요약)
+- 맥락: 이해를 건너뛴 대가가 부채처럼 쌓인다고 말할 때(tech debt 의 인지 버전)
+- 한국어: 인지 부채
+- 설명: technical debt(기술 부채)에서 파생된 조어. "Skipping it accrues 'cognitive debt.'" — accrue(이자처럼 불어나다)와 짝을 이뤄, 에이전트가 짠 코드를 이해 없이 넘기면 나중에 갚아야 할 빚이 된다는 주장.
+- 예문: Skipping the review loop accrues cognitive debt you will repay when the system breaks.
+- 유사어: technical debt (원형), knowledge gap (더 중립)
+- 반의어: (마땅한 대체 표현 없음)
+
+## "preach to the choir"
+- 레지스터: conversational, casual
+- 출처: transcript:-Users-daeyoung-Codes-english-study/1c9dfebc (강연 표현 목록)
+- 맥락: 이미 동의하는 사람들 앞에서 설득할 때 — "설득이 필요 없는 청중"임을 인정하는 구어
+- 한국어: 이미 믿는 사람들에게 설교하다 (공감대가 형성된 청중)
+- 설명: 성가대(choir)는 이미 교회에 있는 사람들이라는 데서 온 관용구. 발표 서두에 "I may be preaching to the choir here, but…" 으로 겸손하게 깔고 들어가는 용법이 흔합니다.
+- 예문: I may be preaching to the choir here, but code review still matters even when agents write the code.
+- 유사어: you already know this (평이), sing from the same hymn sheet (같은 입장이다·영국식)
+- 반의어: win over the skeptics (회의적인 사람을 설득하다)
+
+## "chime in"
+- 레지스터: conversational
+- 출처: transcript:-Users-daeyoung-Codes-english-study/1c9dfebc (강연 표현 목록)
+- 맥락: 진행 중인 대화·스레드에 가볍게 끼어들어 한마디 보탤 때(회의·채팅)
+- 한국어: (대화에) 끼어들어 한마디 보태다
+- 설명: 종(chime)이 울리듯 소리를 더한다는 은유. 부정적인 interrupt 와 달리 환영받는 참여의 뉘앙스. "Feel free to chime in" 은 회의 진행자의 단골 초대 문구.
+- 예문: Feel free to chime in on the thread if you disagree with the rollout order.
+- 유사어: weigh in (의견을 보태다·조금 더 무게감), jump in (더 캐주얼)
+- 반의어: sit (this one) out (이번엔 빠지다)
+
+## "drop a hot take"
+- 레지스터: casual
+- 출처: transcript:-Users-daeyoung-Codes-english-study/1c9dfebc (강연 표현 목록)
+- 맥락: 논쟁적인 즉흥 의견을 SNS·채팅에 툭 던질 때(아주 캐주얼)
+- 한국어: 도발적인 즉흥 의견을 던지다
+- 설명: hot take 는 깊은 분석 없이 던지는 자극적 견해, drop 은 콘텐츠를 "투하"하는 SNS 동사(drop an album 과 같은 용법). 격식 자리에서는 피하고, 스스로를 낮추는 자기 인용("just dropping a hot take")으로 쓰면 안전합니다.
+- 예문: He opened the talk by dropping a hot take: verification is no longer the human's main job.
+- 유사어: throw out an opinion (중립), stir the pot (논쟁을 부추기다)
+- 반의어: a measured view (신중한 견해)
+
+## "idempotent"
+- 레지스터: technical
+- 출처: transcript:-Users-daeyoung-Codes-skewnono-v3-nuxt/0f95c60c (herdr 설치 세션)
+- 맥락: 같은 작업을 몇 번 반복해도 결과가 한 번 한 것과 같음을 보장할 때(API·스크립트 설계)
+- 한국어: 멱등한 — 여러 번 실행해도 결과가 같은
+- 설명: 수학 용어가 그대로 공학 표준어가 된 경우. "That re-ran the same install — it's idempotent, so it just rewrote the hook and re-verified the settings entry." 처럼 "재실행해도 안전한 이유"를 한 단어로 설명합니다.
+- 예문: The installer is idempotent, so running it twice just rewrites the same hook without side effects.
+- 유사어: safe to re-run (풀어쓴 평이형), repeatable (더 느슨)
+- 반의어: has side effects (부작용이 있는)
