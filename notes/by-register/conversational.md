@@ -201,3 +201,13 @@
   - 예: The merge you were dreading becomes a readable diff you apply on your own terms.
 - **crystal clear** — 완전히 명료한(오해가 걷혔음을 함께 암시). ↔ as clear as mud.
   - 예: Now it's crystal clear — and it matches exactly what I sketched.
+- **do the heavy lifting** — 힘든 일 대부분을 도맡다. ≈ carry the load. ↔ be along for the ride.
+  - 예: The contract tests are doing the heavy lifting here — the docs just describe what they already enforce.
+- **rule of thumb** — 정밀하진 않지만 실무에서 통하는 경험칙. ↔ a hard rule.
+  - 예: Rule of thumb: compact the session once you're past eighty percent of the context window.
+- **eyeball it** — 계측 없이 눈대중으로 확인하다. ≈ give it a once-over. ↔ measure it precisely.
+  - 예: Want to eyeball it in the browser first, or should I just commit the wider modal?
+- **muscle memory carries over** — 도구를 바꿔도 손에 익은 조작 습관이 그대로 이어지다. ↔ start from scratch.
+  - 예: Since both tools use Ctrl-a as the prefix, your muscle memory carries over directly.
+- **butt against** — 여백 없이 가장자리에 딱 붙어 부딪히다. ≈ press up against. ↔ have margin from.
+  - 예: With the wider inset, the scatter points no longer butt against the card's right edge.

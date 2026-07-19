@@ -411,3 +411,13 @@
   - 예: Let me mirror it back precisely so we're fully aligned before I touch anything.
 - **caught mechanically, not by memory** — 사람의 기억이 아니라 자동 장치가 잡는다("X, not Y" 대구). ↔ rely on discipline.
   - 예: The contract test runs at the office, so drift is caught mechanically, not by memory.
+- **maintenance hygiene** — 구조 결함은 아니고 평소 습관으로 관리할 정리·청소성 작업. ↔ a structural flaw.
+  - 예: Deleting the orphaned pycache folders is maintenance hygiene, not a structural fix.
+- **hand-wave** — 근거 없이 얼버무리며 넘어가다. ≈ gloss over. ↔ ground a claim in evidence.
+  - 예: I gave the reviewer the verified data-availability facts so it can't hand-wave the hard parts.
+- **churn** — 의미 있는 개선 없이 코드만 휘젓는 공회전성 변경. ↔ a substantive change.
+  - 예: Renaming the runtime identifiers would be churn without meaning — they describe the feature, not the widget.
+- **worth your call** — 내 선에서 정하지 않고 상대의 판단을 받을 사안(공손한 에스컬레이션). cf. up to you.
+  - 예: One thing worth your call: keep the gated tasks inside this plan, or split them into a follow-up doc?
+- **breathing room** — 레이아웃·일정·예산의 숨 쉴 여유. cf. headroom(수치 상한 여유).
+  - 예: Widening the modal to 768px gives the field grid some breathing room.

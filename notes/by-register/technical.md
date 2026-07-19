@@ -347,3 +347,13 @@
   - 예: When you evolve a feature, all the changes ride the same commit through GitHub.
 - **drop in without friction** — 개조 없이 기존 구조에 매끄럽게 끼워지다. ↔ need rework to fit.
   - 예: The afm-style provider seam dropped in without friction.
+- **sweep in** — 커밋·작업 범위에 의도치 않은 파일이 휩쓸려 들어가다. ↔ scope the commit to.
+  - 예: A bare git commit swept in four files I had explicitly meant to exclude.
+- **come for free** — 별도 노력 없이 기존 구조 덕에 저절로 얻어지다. ≈ fall out of. ↔ come at a cost.
+  - 예: Because all three tabs render the same nav component, the consistent header came for free.
+- **starve** — 한 요소가 자원(공간·CPU·예산)을 독차지해 다른 쪽을 말려 죽이다. ↔ leave room for.
+  - 예: The fixed-height wafer map starves its flex sibling down to the 144px floor on short viewports.
+- **clobber** — 파일·변수·커밋을 의도치 않게 덮어써 망가뜨리다. ≈ stomp on. ↔ preserve.
+  - 예: Pause the other session while you work here — a racing commit could clobber your staged files.
+- **a sharp edge** — 대체로 안전한 도구에 숨은, 특정 사용법에서 베이는 위험 지점. ≈ a footgun.
+  - 예: The auto-discovery is convenient, but it has one sharp edge: any stray routes.py goes live silently.
