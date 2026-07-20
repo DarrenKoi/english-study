@@ -263,7 +263,20 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/d40d44e6-156e-4559-8b1b-b3040a3bbff5.jsonl": 12,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/98c45481-943f-42b0-beef-8f1b2741d9c5.jsonl": 12,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/d77751b0-1f7c-4845-9b2a-6f7c878c6218.jsonl": 22,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/c366c06e-09b2-4480-80dc-b9ca8e111a2e.jsonl": 21
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/c366c06e-09b2-4480-80dc-b9ca8e111a2e.jsonl": 21,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/8ef128b1-8d20-45a4-9747-992264ba0dc3.jsonl": 896,
+    "-Users-daeyoung-Codes-auto-recipe-creator/38d04dda-2284-44f5-a25f-8d7956eb4300.jsonl": 1472,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/1bfc08a4-914c-4747-addd-11ca1c6f22f3.jsonl": 26,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/9fdfee01-ff41-4d2e-813b-a797165ca97e.jsonl": 504,
+    "-Users-daeyoung-Codes-auto-recipe-creator/10e5c1ce-184a-412c-9010-38d00cb67150.jsonl": 13,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/b8624747-6729-413c-95be-f7964bbe82b4.jsonl": 54,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/7cc32d39-a5f4-4b1a-a620-c465cbc5ca0b.jsonl": 203,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/c7aebce5-7b66-4e34-902f-4ef2bbae05f5.jsonl": 15,
+    "-Users-daeyoung-Codes-english-study/6fa3d542-ead9-418b-81aa-6c824ec9c700.jsonl": 118,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/12436b86-b058-474a-bc38-67f9f3874555.jsonl": 18,
+    "-Users-daeyoung-Codes-english-study/98f042fc-9d5a-47ee-8afe-e0c90240de16.jsonl": 131,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/85129864-e480-4169-9f34-3a2bef8391d0.jsonl": 67,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/df28298d-ce2e-4873-85b6-214e3d08c011.jsonl": 51
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -398,7 +411,7 @@
     "auto_recipe_creator/poc/workflow_3/docs/study/consensus_method_explained_260707.md": "auto_recipe_creator/poc/workflow_3/docs/study/consensus_method_explained_260707.md:1783382416.332648:10197",
     "auto_recipe_creator/side_projects/document_extraction/docs/rag_chart_heavy_architecture.md": "auto_recipe_creator/side_projects/document_extraction/docs/rag_chart_heavy_architecture.md:1783657532.4195275:12081",
     "auto_recipe_creator/poc/workflow_2/docs/study/cv/align_fail_vlm_deep_learning_addendum_ko.md": "auto_recipe_creator/poc/workflow_2/docs/study/cv/align_fail_vlm_deep_learning_addendum_ko.md:1783640186.32094:21587",
-    "auto_recipe_creator/poc/workflow_2/docs/study/cv/align_fail_cv_methods_research_ko.md": "auto_recipe_creator/poc/workflow_2/docs/study/cv/align_fail_cv_methods_research_ko.md:1783638216.3972814:21165",
+    "auto_recipe_creator/poc/workflow_2/docs/study/cv/align_fail_cv_methods_research_ko.md": "auto_recipe_creator/poc/workflow_2/docs/study/cv/align_fail_cv_methods_research_ko.md:1784493868.3797863:22251",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-13-hardware-mdc-timeseries-and-bmpm-overlay.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-13-hardware-mdc-timeseries-and-bmpm-overlay.md:1783923302.8367999:60416",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-13-hardware-mdc-timeseries-and-bmpm-overlay-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-13-hardware-mdc-timeseries-and-bmpm-overlay-design.md:1783922878.8230917:10625",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-14-skewvoir-phase-a-analytical-truth.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-14-skewvoir-phase-a-analytical-truth.md:1784034260.0913565:65074",
@@ -471,7 +484,9 @@
     "skewnono_v3_nuxt/docs/issues/skewvoir/wafer-analysis-method-research.md": "skewnono_v3_nuxt/docs/issues/skewvoir/wafer-analysis-method-research.md:1784074331.4168372:38486",
     "skewnono_v3_nuxt/docs/back-end/office-data-adapters.md": "skewnono_v3_nuxt/docs/back-end/office-data-adapters.md:1784066154.330828:20514",
     "skewnono_v3_nuxt/docs/swap-strategy.md": "skewnono_v3_nuxt/docs/swap-strategy.md:1784065907.65101:12377",
-    "skewnono_v3_nuxt/docs/back-end/README.md": "skewnono_v3_nuxt/docs/back-end/README.md:1784065465.8107686:1175"
+    "skewnono_v3_nuxt/docs/back-end/README.md": "skewnono_v3_nuxt/docs/back-end/README.md:1784065465.8107686:1175",
+    "auto_recipe_creator/docs/journals/260720/260720_163416_mind-rerank-포팅-및-커버리지-집계.md": "auto_recipe_creator/docs/journals/260720/260720_163416_mind-rerank-포팅-및-커버리지-집계.md:1784532965.9492118:12480",
+    "auto_recipe_creator/docs/journals/260720/260720_072225_registration-verifier-arms-extension.md": "auto_recipe_creator/docs/journals/260720/260720_072225_registration-verifier-arms-extension.md:1784499849.1326587:11880"
   },
-  "last_run": "2026-07-20"
+  "last_run": "2026-07-21"
 }

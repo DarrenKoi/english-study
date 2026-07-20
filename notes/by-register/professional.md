@@ -421,3 +421,9 @@
   - 예: One thing worth your call: keep the gated tasks inside this plan, or split them into a follow-up doc?
 - **breathing room** — 레이아웃·일정·예산의 숨 쉴 여유. cf. headroom(수치 상한 여유).
   - 예: Widening the modal to 768px gives the field grid some breathing room.
+- **belong in / belong to** — ~에 마땅히 있어야 한다 / ~의 소관이다. ↔ has no business being in.
+  - 예: Those are real credentials, so they belong in the gitignored `.env`, not in any tracked file.
+- **prove out (end to end)** — 계획·설계가 실전에서 처음부터 끝까지 통함이 입증되다. ≈ pan out / bear out. ↔ fall apart.
+  - 예: That's the whole three-phase migration strategy proving out end to end.
+- **ripple through** — 한 곳의 변경이 여러 파일·계층으로 연쇄적으로 번지다. ≈ propagate / cascade. ↔ stay contained.
+  - 예: Version being a string, not an int, rippled through four files.

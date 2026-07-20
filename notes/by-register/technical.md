@@ -357,3 +357,15 @@
   - 예: Pause the other session while you work here — a racing commit could clobber your staged files.
 - **a sharp edge** — 대체로 안전한 도구에 숨은, 특정 사용법에서 베이는 위험 지점. ≈ a footgun.
   - 예: The auto-discovery is convenient, but it has one sharp edge: any stray routes.py goes live silently.
+- **an orphan (nothing reads it)** — 아무 데서도 참조되지 않아 사실상 죽은 자산. ≈ dead code. ↔ load-bearing.
+  - 예: Confirmed: the fixture is an orphan (nothing reads it), so no test forces its update.
+- **wire up (X to Y)** — UI·기능을 실데이터·백엔드에 배선하듯 연결하다. ≈ hook up / plumb through. ↔ stub out.
+  - 예: sem_list is now the first feature wired to office Redis, rendering live on the 장비 리스트 page.
+- **a blanket try/except** — 예외를 종류 안 가리고 다 잡아 진짜 원인을 가리는 안티패턴. ↔ a narrow/targeted except.
+  - 예: The old deserializer did `pickle.loads` in a blanket `try`, then blindly decoded on any failure.
+- **choke on (something)** — 파서·함수가 특정 입력에서 처리 못 하고 턱 막히다. ↔ handle gracefully.
+  - 예: It choked on the binary parquet bytes at `0xb6` and hid what actually went wrong.
+- **fail loudly (with actionable messages)** — 조용히 넘기지 말고 원인·다음 행동까지 알리며 요란하게 실패시키다. ≈ fail fast. ↔ fail silently / swallow an exception.
+  - 예: Validation fails loudly with actionable messages: a missing key tells you which env vars to check.
+- **a de-dup guard** — 조인·병합에서 중복 행 유입을 막으려 미리 넣는 방어 코드. ≈ collapse to one row per key.
+  - 예: A left join multiplies a left row if the right side has duplicate keys, so I added a de-dup guard before merging.

@@ -211,3 +211,13 @@
   - 예: Since both tools use Ctrl-a as the prefix, your muscle memory carries over directly.
 - **butt against** — 여백 없이 가장자리에 딱 붙어 부딪히다. ≈ press up against. ↔ have margin from.
   - 예: With the wider inset, the scatter points no longer butt against the card's right edge.
+- **a red herring** — 진짜 원인에서 주의를 돌리는 가짜 단서. ↔ the smoking gun / the tell.
+  - 예: The `0xb6` is a red herring; the real question is what `pickle.loads` actually raised.
+- **my money is on X** — 단정 않고 가장 유력한 쪽에 걸듯 추측하다. ↔ it's anyone's guess.
+  - 예: My money is on the first case — a formatting difference in the `.env` line.
+- **point me at (something)** — 대상만 알려 주면 내가 하겠다며 가리켜 달라 청하다. ≈ send me / just show me.
+  - 예: When you're ready for the next feature, point me at its Redis key(s) and I'll follow the same path.
+- **stacked on top of each other** — 별개의 원인·문제가 겹겹이 포개져 있다. ↔ a single root cause.
+  - 예: The root cause was two separate things stacked on top of each other.
+- **the first place to check** — 특정 증상이 나오면 가장 먼저 살펴야 할 곳. ≈ the usual suspect. ↔ a last resort.
+  - 예: If office equipment shows up missing from the lists, that prefix rule is the first place to check.
