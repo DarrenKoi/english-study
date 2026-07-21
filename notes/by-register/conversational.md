@@ -221,3 +221,15 @@
   - 예: The root cause was two separate things stacked on top of each other.
 - **the first place to check** — 특정 증상이 나오면 가장 먼저 살펴야 할 곳. ≈ the usual suspect. ↔ a last resort.
   - 예: If office equipment shows up missing from the lists, that prefix rule is the first place to check.
+- **Good catch** — 상대가 잡아낸 문제를 인정하며 대화를 시작하는 리액션. ≈ Nice catch / Fair point.
+  - 예: Good catch — the cloud absolutely needs considering, or production would silently show fake data.
+- **On it** — 지시를 받자마자 "바로 착수합니다"라고 답하는 두 단어. ≈ Will do / Right away.
+  - 예: On it — I'll rename skew too, then commit.
+- **Mystery solved** — 헤매던 이상 현상의 원인을 마침내 찾았을 때의 첫 마디. ≈ That explains it.
+  - 예: Mystery solved — those limit changes came from a concurrent edit, not from my rename.
+- **(something) takes care of itself** — 별도 조치 없이 저절로 해결된다. ≈ sorts itself out.
+  - 예: Register just your office PC's hostname — the cloud takes care of itself.
+- **smells like ...** — 확증 전이지만 증상 패턴이 특정 원인을 가리킬 때의 추정. ≈ points to. cf. code smell.
+  - 예: The results differ run-to-run, which smells like the test runner reshuffling execution order.
+- **How far do you want me to go?** — 범위가 커졌을 때 실행 전에 상대에게 범위 결정을 넘기는 질문. ≈ What's in scope?
+  - 예: This rename touches four features and the shared contracts — how far do you want me to go?

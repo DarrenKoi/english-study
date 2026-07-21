@@ -369,3 +369,5 @@
   - 예: Validation fails loudly with actionable messages: a missing key tells you which env vars to check.
 - **a de-dup guard** — 조인·병합에서 중복 행 유입을 막으려 미리 넣는 방어 코드. ≈ collapse to one row per key.
   - 예: A left join multiplies a left row if the right side has duplicate keys, so I added a de-dup guard before merging.
+- **a type wanting to be born** — 같은 필드 몇 개가 늘 붙어 다니면 타입으로 묶일 때가 됐다는 의인화(Fowler의 Data Clumps). ≈ begging to be extracted.
+  - 예: The same three params keep travelling together across these functions — that's a type wanting to be born.

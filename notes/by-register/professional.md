@@ -427,3 +427,19 @@
   - 예: That's the whole three-phase migration strategy proving out end to end.
 - **ripple through** — 한 곳의 변경이 여러 파일·계층으로 연쇄적으로 번지다. ≈ propagate / cascade. ↔ stay contained.
   - 예: Version being a string, not an int, rippled through four files.
+- **a false alarm** — 결함이라 의심했지만 조사 결과 문제가 아니었던 것. ≈ a false positive. ↔ a genuine defect.
+  - 예: I verified the cache path directly — my suspected immortal-cache defect is a false alarm.
+- **a deliberate act** — 실수로는 일어날 수 없고 의도적으로만 가능하게 설계했다는 안전 표현. ≈ an explicit opt-in. ↔ a silent default.
+  - 예: When you do want office data from home, that stays a deliberate act: set the env var explicitly.
+- **flagged, not broken** — 지적은 해 두지만 고장은 아니라는 심각도 구분. ≈ noted, not blocking.
+  - 예: The scope-creep items are coordinated end-to-end and documented — flagged, not broken.
+- **gloss over** — 불리한 사실을 얼버무리고 넘어가다. ≈ paper over. ↔ call out / surface.
+  - 예: One honest caveat I documented rather than glossed over: the favorites store is not yet migrated.
+- **an open loop** — 끝나지 않고 걸려 있는 미결 일감. ≈ an open item / a loose end. ↔ closed out.
+  - 예: The goal is a clean list of open loops, not a record of what got done.
+- **a launchpad, not a diary** — 문서는 기록용이 아니라 다음 행동의 출발대라는 "A, not B" 은유 대구.
+  - 예: Keep it under 25 lines — this is a launchpad, not a diary.
+- **Specific beats complete.** — 빠짐없는 것보다 구체적인 게 낫다는 "X beats Y" 격언 틀. cf. done beats perfect.
+  - 예: Specific beats complete: one exact file-and-line pointer is worth more than a paragraph.
+- **a job that has been rotting** — 손대지 않은 채 방치되어 상해 가는 일감. ≈ going stale / languishing. ↔ actively worked.
+  - 예: Keep the original since date — that date is how you spot a job that has been rotting.
