@@ -233,3 +233,9 @@
   - 예: The results differ run-to-run, which smells like the test runner reshuffling execution order.
 - **How far do you want me to go?** — 범위가 커졌을 때 실행 전에 상대에게 범위 결정을 넘기는 질문. ≈ What's in scope?
   - 예: This rename touches four features and the shared contracts — how far do you want me to go?
+- **the odd one out** — 여럿 중 혼자만 규칙에서 벗어난 것. `the odd name out` 처럼 명사를 끼워 무엇이 어긋났는지 지정. ↔ in keeping with the rest.
+  - 예: The tab files all follow `<tab>/mock.py`, so the one at the root is the odd name out.
+- **heads up —** — 미리 알려 두자면. 요청도 사과도 아닌 정보 전달 표지. 격식은 for your awareness. ≈ just so you know / FYI.
+  - 예: Heads up — `git status` shows changes I didn't make, so you're editing that file in parallel.
+- **walk into (a trap)** — 함정에 걸려들다. `nearly walked into` 로 쓰면 아슬아슬하게 피했다는 뜻. ≈ fall for / take the bait. ↔ see it coming.
+  - 예: The module claims those prefixes identify a family, which is the trap I nearly walked into.

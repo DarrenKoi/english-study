@@ -371,3 +371,15 @@
   - 예: A left join multiplies a left row if the right side has duplicate keys, so I added a de-dup guard before merging.
 - **a type wanting to be born** — 같은 필드 몇 개가 늘 붙어 다니면 타입으로 묶일 때가 됐다는 의인화(Fowler의 Data Clumps). ≈ begging to be extracted.
   - 예: The same three params keep travelling together across these functions — that's a type wanting to be born.
+- **fail spuriously** — 실제 결함 없이 헛되이 실패하다. flaky(무작위)와 달리 원인이 분명하되 그 원인이 코드가 아닐 때. ↔ catch a genuine regression.
+  - 예: Those assertions would fail spuriously at the office the moment you wire the first tab.
+- **a commitment, not a preview** — 되돌리기 쉬워 보이는 동작이 실은 상태를 바꾸는 결정이라는 경고. ≈ a one-way door. ↔ a dry run.
+  - 예: The `cp` is a commitment, not a preview — copying a stub to read it would register the feature as ready and 500 the page.
+- **encode a state that expires** — 오늘만 참인 사실을 코드·테스트에 박아 넣다. 마이그레이션 중 반복되는 실패 유형. ↔ hold at every stage.
+  - 예: The suite went red not because the code broke but because those tests encoded a state that expires.
+- **the scroll affordance** — 스크롤 가능함을 알려 주는 시각적 단서. affordance = 대상이 스스로 사용법을 알리는 성질. ≈ a visual cue. ↔ a hidden control.
+  - 예: `max-h-28` is deliberately not a multiple of the row height — a partially clipped last row is itself the scroll affordance.
+- **be level with (a branch)** — 로컬과 원격이 나란하다, 앞서지도 뒤처지지도 않았다. ≈ in sync with. ↔ ahead of / behind, diverged.
+  - 예: Working tree is clean and `main` is level with `origin/main` — nothing to push.
+- **buy (someone) something** — 그 설계 결정이 대가로 벌어다 준 이득. `Cost: ... Buys: ...` 로 트레이드오프를 정리. ↔ cost you.
+  - 예: That's the fail-fast the tab split bought you — one broken tab can't quietly serve fabricated data.

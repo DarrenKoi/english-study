@@ -443,3 +443,17 @@
   - 예: Specific beats complete: one exact file-and-line pointer is worth more than a paragraph.
 - **a job that has been rotting** — 손대지 않은 채 방치되어 상해 가는 일감. ≈ going stale / languishing. ↔ actively worked.
   - 예: Keep the original since date — that date is how you spot a job that has been rotting.
+- **a hypothesis, not a verdict** — 가설이지 판결이 아니다. 도구·지표의 결과는 근거일 뿐 결론이 아니라는 `A, not B` 대구. ≈ indicative rather than conclusive. ↔ settled.
+  - 예: Treat the linter's dead-code report as a hypothesis, not a verdict — every deletion still needs a repo-wide grep.
+- **at a resting point** — 끝난 건 아니지만 지금 멈춰도 깨지지 않는 상태. 남의 작업에 손대는 타이밍을 물을 때. ≈ at a good stopping point. ↔ mid-flight.
+  - 예: Want me to commit mine now, or wait until your sharpness work is at a resting point?
+- **more ceremony than the change warranted** — 변경 규모에 비해 절차가 과했다. ceremony = 스펙·승인 같은 형식 절차. ≈ overkill for this.
+  - 예: I skipped the spec doc — for a twenty-line change it felt like more ceremony than the change warranted.
+- **prior art** — 선례, 저장소 안에 이미 같은 걸 하는 기존 사례. 새 패턴 도입이 아니라 일반화임을 밝힐 때. ≈ precedent.
+  - 예: Two existing mechanisms already do exactly this, so the section is titled prior art rather than design.
+- **hinge on** — ~에 달려 있다. 경첩 은유라 depend on 보다 결정적. ≈ come down to / turn on. ↔ hold either way.
+  - 예: That makes several designs viable, and the choice between them hinges on one thing.
+- **carry (something) forward** — 다음 자리로 넘기다, 이월하다. 버린 게 아니라 보류라는 뜻. ≈ park / defer. ↔ close out.
+  - 예: Two things carried forward for when you're at the office: the smoke test and the two verify items.
+- **the dangerous kind of wrong** — 요란하게 틀리는 게 아니라 권위 있게 읽혀서 그냥 믿게 되는 오류. ↔ wrong in a way that fails loudly.
+  - 예: The docstring was the only thing that was wrong, which is the dangerous kind of wrong — it reads authoritative and costs nothing to believe.
