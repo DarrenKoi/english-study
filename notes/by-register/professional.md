@@ -457,3 +457,15 @@
   - 예: Two things carried forward for when you're at the office: the smoke test and the two verify items.
 - **the dangerous kind of wrong** — 요란하게 틀리는 게 아니라 권위 있게 읽혀서 그냥 믿게 되는 오류. ↔ wrong in a way that fails loudly.
   - 예: The docstring was the only thing that was wrong, which is the dangerous kind of wrong — it reads authoritative and costs nothing to believe.
+- **textbook X** — 교과서적인, 딱 그 유형인. 칭찬이 아니라 분류·진단이라 뒤에 But 이 자주 따라온다. ≈ a classic case of. ↔ an edge case.
+  - 예: Two pages differing by six lines is textbook duplication — but here every sibling pair looks the same, so it's the house pattern.
+- **signposting** — 읽는 사람이 지금 어디쯤인지 알려 주는 길잡이 장치(문구·라벨·제목). ≈ wayfinding / navigational cues.
+  - 예: The vocabulary of an interface is the signposting for someone navigating the product, so the same action keeps the same name everywhere.
+- **build to a quality floor** — 못 지키면 결함이지만 지켜도 자랑거리는 아닌 최저선을 지켜 만들다. floor(하한) ↔ ceiling(상한). ≈ table stakes.
+  - 예: Build to a quality floor without announcing it: responsive down to mobile, visible keyboard focus, reduced motion respected.
+- **fence (something) off** — 남이 작업 중인 영역을 이유를 밝혀 이번 범위에서 격리하다. ≈ cordon off / keep out of scope. ↔ bring it into scope.
+  - 예: `msr_image/` is fenced off from this review — another session still owns it and will keep changing it.
+- **a cold read** — 사전 준비 없이 처음 훑어보는 상태. 대비 항으로 놓을 때 가장 잘 산다. ≈ going in blind. ↔ an informed read.
+  - 예: Let me capture the prep findings now, so 02:10 starts from evidence rather than a cold read.
+- **bespoke** — 공용 부품을 두고 그 자리에만 따로 만든. 맞춤 양복에서는 칭찬이지만 코드에서는 비판. ≈ hand-rolled / one-off. ↔ off-the-shelf.
+  - 예: Live-alarm had grown a bespoke `FeedStatusBar` doing the same three jobs the shared MetaBar already does.

@@ -239,3 +239,15 @@
   - 예: Heads up — `git status` shows changes I didn't make, so you're editing that file in parallel.
 - **walk into (a trap)** — 함정에 걸려들다. `nearly walked into` 로 쓰면 아슬아슬하게 피했다는 뜻. ≈ fall for / take the bait. ↔ see it coming.
   - 예: The module claims those prefixes identify a family, which is the trap I nearly walked into.
+- **close the loop on X** — 열어 뒀던 확인 건이 검증돼 매듭지어지다. finish 와 달리 결과가 돌아와 순환이 완성됐다는 뜻. ≈ tie off a loose end. ↔ leave it open-ended.
+  - 예: Your office test closes the loop on the gateway connection — that was the one thing we could never verify from home.
+- **with room to spare** — 아슬아슬이 아니라 여유 있게. 보통 수치 뒤에 붙는 부사구. ≈ comfortably. ↔ by a hair.
+  - 예: The composer fits at 1920px with room to spare, so the earlier clipping report was wrong.
+- **line up with** — 서로 다른 두 근거가 같은 방향을 가리키다, 부합하다. ≈ square with / be consistent with. ↔ be at odds with.
+  - 예: The comps turned out to be an export of the existing code, which lines up with your clarification that this was a consistency pass.
+- **get burned (by X)** — 그 문제로 한 번 크게 당해서 다음부터 조심하다. 뒤에 예방책이 따라옴. ≈ get bitten by. ↔ come away unscathed.
+  - 예: This tree already got burned by concurrency once today, so I'll stage explicit paths only — never `git add -A`.
+- **next in line** — 순서상 다음 차례인. 이미 순번이 정해졌다는 함의. ≈ up next / on deck. ↔ at the back of the queue.
+  - 예: You recently wrote the datatable docs, which suggested the BM/PM feature was next in line.
+- **sometimes less is more** — 덜어 내는 편이 나을 때가 있다. `sometimes` 를 붙이면 원칙 선언이 아니라 이번 건 제안이 됨. ≈ restraint pays off. ↔ more is more.
+  - 예: Sometimes less is more — extra animation is exactly what makes a page feel machine-generated.

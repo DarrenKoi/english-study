@@ -9,6 +9,7 @@
 - [a clean surface](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [a clean, minimal cut](daily/2026-07-18/new-expressions.md) — 2026-07-18
 - [a coin flip](daily/2026-06-28/new-expressions.md) — 2026-06-28
+- [a cold read](daily/2026-07-24/new-expressions.md) — 2026-07-24
 - [a commitment, not a preview](daily/2026-07-23/new-expressions.md) — 2026-07-23
 - [a completely different animal](daily/2026-06-29/new-expressions.md) — 2026-06-29
 - [a confound](daily/2026-07-04/new-expressions.md) — 2026-07-04
@@ -55,6 +56,7 @@
 - [a ship/no-ship assessment](daily/2026-07-13/new-expressions.md) — 2026-07-13
 - [a single source of truth](daily/2026-07-17/new-expressions.md) — 2026-07-17
 - [a singleton, injected once](daily/2026-07-17/new-expressions.md) — 2026-07-17
+- [a stale lock](daily/2026-07-24/new-expressions.md) — 2026-07-24
 - [a strong read, not a menu](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [a testbed](daily/2026-07-02/new-expressions.md) — 2026-07-02
 - [a thin capture client](daily/2026-06-19/new-expressions.md) — 2026-06-19
@@ -98,7 +100,9 @@
 - [behavior-preserving](daily/2026-07-07/new-expressions.md) — 2026-07-07
 - [behind a toggle, default ON (ship it)](daily/2026-07-14/new-expressions.md) — 2026-07-14
 - [belong in / belong to](daily/2026-07-21/new-expressions.md) — 2026-07-21
+- [below the fold](daily/2026-07-24/new-expressions.md) — 2026-07-24
 - [benchmark against](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [bespoke](daily/2026-07-24/new-expressions.md) — 2026-07-24
 - [best-effort](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [bit us (conventions that bit us)](daily/2026-07-18/new-expressions.md) — 2026-07-18
 - [bit-for-bit identical](daily/2026-07-07/new-expressions.md) — 2026-07-07
@@ -108,6 +112,7 @@
 - [bolted on (as a special case)](daily/2026-07-01/new-expressions.md) — 2026-07-01
 - [borrow strength](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [breathing room](daily/2026-07-20/new-expressions.md) — 2026-07-20
+- [build to a quality floor](daily/2026-07-24/new-expressions.md) — 2026-07-24
 - [burn an office run on (something)](daily/2026-07-11/new-expressions.md) — 2026-07-11
 - [burn the (full) retry budget](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [bus-factor 1](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -119,6 +124,7 @@
 - [call it out](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [call it out / surface it](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [can only tighten, never weaken](daily/2026-07-18/new-expressions.md) — 2026-07-18
+- [cancel each other out](daily/2026-07-24/new-expressions.md) — 2026-07-24
 - [carry (something) forward](daily/2026-07-23/new-expressions.md) — 2026-07-23
 - [carry forward](daily/2026-07-18/new-expressions.md) — 2026-07-18
 - [carry lock-in](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -132,6 +138,7 @@
 - [circular (by construction)](daily/2026-06-29/new-expressions.md) — 2026-06-29
 - [clobber](daily/2026-07-20/new-expressions.md) — 2026-07-20
 - [close (most of) the gap](daily/2026-07-11/new-expressions.md) — 2026-07-11
+- [close the loop on X](daily/2026-07-24/new-expressions.md) — 2026-07-24
 - [coexist by design](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [cognitive debt](daily/2026-07-18/new-expressions.md) — 2026-07-18
 - [cold-start values](daily/2026-06-22/new-expressions.md) — 2026-06-22
@@ -171,6 +178,7 @@
 - [don't couple X to Y](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [don't over-read (it)](daily/2026-07-11/new-expressions.md) — 2026-07-11
 - [downstream consumer](daily/2026-06-28/new-expressions.md) — 2026-06-28
+- [drag in (a dependency)](daily/2026-07-24/new-expressions.md) — 2026-07-24
 - [drift (from)](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [drill into / drill down](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [drop a hot take](daily/2026-07-18/new-expressions.md) — 2026-07-18
@@ -195,6 +203,7 @@
 - [falsify (an idea) cheaply](daily/2026-06-25/new-expressions.md) — 2026-06-25
 - [fast-follow](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [feature parity](daily/2026-07-18/new-expressions.md) — 2026-07-18
+- [fence (something) off](daily/2026-07-24/new-expressions.md) — 2026-07-24
 - [fight the (repo's own) convention](daily/2026-07-04/new-expressions.md) — 2026-07-04
 - [fire-and-forget](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [first-class](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -212,6 +221,7 @@
 - [gathering vs using](daily/2026-06-24/new-expressions.md) — 2026-06-24
 - [generous (for the ~100 target)](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [get at the heart of](daily/2026-07-13/new-expressions.md) — 2026-07-13
+- [get burned (by X)](daily/2026-07-24/new-expressions.md) — 2026-07-24
 - [give (something) a read](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [gloss over](daily/2026-07-22/new-expressions.md) — 2026-07-22
 - [go stale](daily/2026-07-18/new-expressions.md) — 2026-07-18
@@ -267,6 +277,7 @@
 - [last write wins](daily/2026-07-15/new-expressions.md) — 2026-07-15
 - [leave (points) on the table](daily/2026-07-11/new-expressions.md) — 2026-07-11
 - [line up at every boundary](daily/2026-07-13/new-expressions.md) — 2026-07-13
+- [line up with](daily/2026-07-24/new-expressions.md) — 2026-07-24
 - [load-bearing (vs a lean safety net)](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [lumped together](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [made structurally impossible / safe by construction](daily/2026-06-18/new-expressions.md) — 2026-06-18
@@ -294,6 +305,7 @@
 - [necessary but not sufficient](daily/2026-07-13/new-expressions.md) — 2026-07-13
 - [negligible (the risk is negligible)](daily/2026-07-14/new-expressions.md) — 2026-07-14
 - [never refactor while RED; get to GREEN first](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [next in line](daily/2026-07-24/new-expressions.md) — 2026-07-24
 - [nice to have](daily/2026-07-15/new-expressions.md) — 2026-07-15
 - [no collateral damage](daily/2026-07-01/new-expressions.md) — 2026-07-01
 - [no copy-paste drift](daily/2026-07-09/new-expressions.md) — 2026-07-09
@@ -381,6 +393,7 @@
 - [shelve (shelved)](daily/2026-07-14/new-expressions.md) — 2026-07-14
 - [ship with caution](daily/2026-07-07/new-expressions.md) — 2026-07-07
 - [short-circuit (the None case)](daily/2026-06-30/new-expressions.md) — 2026-06-30
+- [signposting](daily/2026-07-24/new-expressions.md) — 2026-07-24
 - [silently drift](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [silently goes dead (a code path)](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [single source of truth](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -389,6 +402,7 @@
 - [slip through](daily/2026-07-19/new-expressions.md) — 2026-07-19
 - [slot into (the same lifecycle)](daily/2026-07-04/new-expressions.md) — 2026-07-04
 - [smells like ...](daily/2026-07-22/new-expressions.md) — 2026-07-22
+- [sometimes less is more](daily/2026-07-24/new-expressions.md) — 2026-07-24
 - [speak in terms of (X)](daily/2026-07-15/new-expressions.md) — 2026-07-15
 - [Specific beats complete.](daily/2026-07-22/new-expressions.md) — 2026-07-22
 - [split the credit](daily/2026-07-11/new-expressions.md) — 2026-07-11
@@ -415,6 +429,7 @@
 - [sweep in](daily/2026-07-20/new-expressions.md) — 2026-07-20
 - [sweep up (unrelated WIP)](daily/2026-07-04/new-expressions.md) — 2026-07-04
 - [text-first and image-selective](daily/2026-07-18/new-expressions.md) — 2026-07-18
+- [textbook X](daily/2026-07-24/new-expressions.md) — 2026-07-24
 - [That rules out X — and it sharpens the diagnosis](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [that settles it](daily/2026-07-11/new-expressions.md) — 2026-07-11
 - [that test was asserting the bug](daily/2026-07-15/new-expressions.md) — 2026-07-15
@@ -484,6 +499,7 @@
 - [will not be actioned](daily/2026-07-15/new-expressions.md) — 2026-07-15
 - [wire up (X to Y)](daily/2026-07-21/new-expressions.md) — 2026-07-21
 - [with one sharpening](daily/2026-07-03/new-expressions.md) — 2026-07-03
+- [with room to spare](daily/2026-07-24/new-expressions.md) — 2026-07-24
 - [worst-case](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [worth a look](daily/2026-07-12/new-expressions.md) — 2026-07-12
 - [worth double-checking](daily/2026-06-19/new-expressions.md) — 2026-06-19

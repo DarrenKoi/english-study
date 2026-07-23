@@ -383,3 +383,11 @@
   - 예: Working tree is clean and `main` is level with `origin/main` — nothing to push.
 - **buy (someone) something** — 그 설계 결정이 대가로 벌어다 준 이득. `Cost: ... Buys: ...` 로 트레이드오프를 정리. ↔ cost you.
   - 예: That's the fail-fast the tab split bought you — one broken tab can't quietly serve fabricated data.
+- **drag in (a dependency)** — import 한 줄이 원치 않는 의존성까지 딸려서 끌고 들어오다. 대개 부정문·경고문에 쓴다. ≈ pull in (중립). ↔ keep the import surface lean.
+  - 예: Importing this package must not drag in office-only dependencies, so the provider module is imported lazily.
+- **cancel each other out** — 두 규칙이 서로를 무효화해 양쪽 다 안 먹히다. override(한쪽이 이김)와 다름. ≈ negate each other. ↔ compose cleanly.
+  - 예: It's easy to write CSS selectors that cancel each other out, especially for the padding between sections.
+- **below the fold** — 스크롤해야 보이는 자리로 밀려난. 접힌 신문 아래쪽에서 온 말. ≈ out of view without scrolling. ↔ above the fold.
+  - 예: The chat panel is a proper card now, but the composer is still below the fold.
+- **a stale lock** — 주인 프로세스가 이미 죽고 파일만 남은 잠금(이때만 삭제가 안전). ≈ an orphaned lock. ↔ a genuinely held lock.
+  - 예: A live Chrome genuinely holds that profile — it isn't a stale lock, so I'll drive my own browser instead.
