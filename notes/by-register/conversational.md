@@ -251,3 +251,7 @@
   - 예: You recently wrote the datatable docs, which suggested the BM/PM feature was next in line.
 - **sometimes less is more** — 덜어 내는 편이 나을 때가 있다. `sometimes` 를 붙이면 원칙 선언이 아니라 이번 건 제안이 됨. ≈ restraint pays off. ↔ more is more.
   - 예: Sometimes less is more — extra animation is exactly what makes a page feel machine-generated.
+- **it's one sitting** — 한 번 앉은 자리에서 끝낼 분량이다(여러 날 나눠 할 일이 아니라는 뜻). ≈ knock it out in one go. ↔ it'll take several passes.
+  - 예: The exact command sequence is already in the carryover, so it's one sitting once you're at the office.
+- **at your expense** — 상대의 비용·시간을 축내면서. 중단 선언에 붙이면 회피가 아니라 배려가 된다. `at the expense of X`(X를 희생해서)와 구분. ↔ at no cost to you.
+  - 예: The condition can't be satisfied from this machine, so I'm stopping rather than looping further at your expense.

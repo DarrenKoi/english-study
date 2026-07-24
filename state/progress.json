@@ -299,7 +299,18 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/65aade15-ea97-4085-98e0-cdf1e7a64735.jsonl": 58,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/c5738483-71bf-4b9a-9393-ea16ef01ea2e.jsonl": 202,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/7ba6bfc1-8919-442b-923a-0682b57adaac.jsonl": 95,
-    "-Users-daeyoung-Codes-pm-notes-my-task/d7cdb5a5-92ed-4eff-a154-5fe0f86fa8a5.jsonl": 10
+    "-Users-daeyoung-Codes-pm-notes-my-task/d7cdb5a5-92ed-4eff-a154-5fe0f86fa8a5.jsonl": 10,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/f264440a-1d74-4bc1-9970-98d47dec9419.jsonl": 12,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/ec501d42-eee1-4fe8-9320-dd25649e954b.jsonl": 1846,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/4ae3b500-9c64-4e8e-8b56-8c95f52d3beb.jsonl": 13,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/a99b1bf6-baf3-4461-9f7b-a778ec10917a.jsonl": 13,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/9e591e46-c6ec-4ec0-845a-86ee8ebcec1a.jsonl": 13,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/1b9ae81e-b584-4910-af47-d8118e26d295.jsonl": 13,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/3f587c84-c6ec-4c98-9537-286c0d691e11.jsonl": 20,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/81a71577-fdda-4ed8-96db-644b8ac0e2d0.jsonl": 12,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/fc0ca3a4-0d65-4b90-b60b-e32976f3c0b8.jsonl": 13,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/133a98bc-edc8-4578-842c-9b4c557b1019.jsonl": 13,
+    "-Users-daeyoung-Codes-pm-notes/3707bcaa-1d17-4d00-bc73-4f4415debb78.jsonl": 15
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -533,7 +544,14 @@
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-22-hardware-fdc-office-adapter-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-22-hardware-fdc-office-adapter-design.md:1784698275.557241:5535",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-23-msr-image-tool-fetch.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-23-msr-image-tool-fetch.md:1784806719.3403015:83172",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-23-msr-image-tool-fetch-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-23-msr-image-tool-fetch-design.md:1784806664.0082743:23615",
-    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-23-bm-pm-office-adapter.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-23-bm-pm-office-adapter.md:1784790358.6202035:56796"
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-23-bm-pm-office-adapter.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-23-bm-pm-office-adapter.md:1784790358.6202035:56796",
+    "skewnono_v3_nuxt/docs/deployment.md": "skewnono_v3_nuxt/docs/deployment.md:1784893040.3335404:8133",
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-24-deploy-packaging.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-24-deploy-packaging.md:1784875505.002366:55211",
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-24-wafer-geometry-map-offset-coherence.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-24-wafer-geometry-map-offset-coherence.md:1784875352.3846042:31873",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-24-deploy-packaging-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-24-deploy-packaging-design.md:1784875197.9250455:16369",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-24-sce-timeseries-trends-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-24-sce-timeseries-trends-design.md:1784875083.6459079:4952",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-24-wafer-geometry-map-offset-coherence-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-24-wafer-geometry-map-offset-coherence-design.md:1784874678.185686:5944",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-24-skewvoir-field-location-pairing-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-24-skewvoir-field-location-pairing-design.md:1784874113.6737998:5030"
   },
-  "last_run": "2026-07-24"
+  "last_run": "2026-07-25"
 }

@@ -391,3 +391,21 @@
   - 예: The chat panel is a proper card now, but the composer is still below the fold.
 - **a stale lock** — 주인 프로세스가 이미 죽고 파일만 남은 잠금(이때만 삭제가 안전). ≈ an orphaned lock. ↔ a genuinely held lock.
   - 예: A live Chrome genuinely holds that profile — it isn't a stale lock, so I'll drive my own browser instead.
+- **a false green** — 실패해야 마땅한데 통과해 버린 테스트. 결과가 흔들리는 flaky 와 달리 일관되게 틀린 답을 준다. ≈ a vacuous pass. ↔ a genuine red.
+  - 예: The plan's single-MSR round-trip was a false green at first — it passed against a mock that was demonstrably broken.
+- **draw a lucky seed** — 난수 테스트가 하필 통과하는 표본을 뽑아 우연히 초록이 된 것. ≈ get lucky on that sample. ↔ sweep the parameter range.
+  - 예: The single-MSR test just drew a lucky seed, so sweeping thirty MSRs is what turned it genuinely red.
+- **nothing announces it** — 어떤 장치도 그 실패를 알려 주지 않는다. 최상급 주장을 받치는 `because` 절 자리에 쓴다. ≈ it fails silently. ↔ it fails loudly.
+  - 예: A git-archive packer would boot cleanly and serve mock data in production — the worst available failure mode, because nothing announces it.
+- **a poor diagnostic surface** — 출력이 있긴 한데 원인 파악에는 쓸모없는 창구(정보가 아예 없는 것과 다름). ≈ low observability. ↔ a clear failure signal.
+  - 예: `need-app = true` turns every boot problem into a uwsgi crash log, which is a poor diagnostic surface on a host with a slow iteration loop.
+- **under-powered (a test)** — 검출력이 모자란. 통계의 statistical power 에서 온 말로, 전제가 틀린 것과 표본이 약한 것을 가른다. ↔ a decisive test.
+  - 예: The test is under-powered, not the premise wrong: one seed sits inside the rounding basin while twenty-two of thirty MSRs fall outside it.
+- **fixture rot** — 코드는 멀쩡하고 비교 기준만 낡아 어긋난 상태. `a fixture-rot reason` 처럼 형용사로 자주 쓴다. ≈ a stale expectation. ↔ a current baseline.
+  - 예: Left alone, those four would fire at the office as false failures for a fixture-rot reason rather than a real shape difference.
+- **promote X to blocking** — 통과시키되 경고만 하던 검사(advisory)를 진행 불가(blocking)로 승격하다. ↔ downgrade to a warning.
+  - 예: `--strict` promotes every advisory to blocking — the setting to use once the transition is complete and a mock-serving bundle should fail the build.
+- **environment-coupled (without saying so)** — 결과가 실행 머신 상태에 좌우되는데 그렇다고 밝히지도 않은. ≈ not hermetic. ↔ self-contained.
+  - 예: Those tests were environment-coupled without saying so — having the office adapters locally made the suite worse, at five seconds per Redis timeout.
+- **hostname-agnostic** — 어느 주소에 올려도 그대로 도는. `-agnostic` 은 platform-·vendor-·schema- 로 계속 확장된다. ↔ hardcoded to one host.
+  - 예: The bundle is hostname-agnostic: the SPA resolves its API as the relative `/api`, so the cutover needs no rebuild.

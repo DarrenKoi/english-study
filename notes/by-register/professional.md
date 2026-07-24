@@ -469,3 +469,13 @@
   - 예: Let me capture the prep findings now, so 02:10 starts from evidence rather than a cold read.
 - **bespoke** — 공용 부품을 두고 그 자리에만 따로 만든. 맞춤 양복에서는 칭찬이지만 코드에서는 비판. ≈ hand-rolled / one-off. ↔ off-the-shelf.
   - 예: Live-alarm had grown a bespoke `FeedStatusBar` doing the same three jobs the shared MetaBar already does.
+- **have a shelf life (tied to)** — 지금은 맞아도 언젠가 반드시 상한다. 비난 없이 갱신 필요를 알리는 완곡한 경고. ≈ go stale. ↔ be evergreen.
+  - 예: Empirical comments have a shelf life tied to the code they describe, so a measurement taken before the fix reads as authoritative long after it stopped being true.
+- **what breaks the tie (is)** — 팽팽한 두 후보 중 승부를 가르는 결정적 근거. 선택지를 이미 늘어놓은 뒤에 써야 자연스럽다. ≈ the deciding factor. ↔ it's a wash.
+  - 예: No backend test can arbitrate between the two sign conventions, so what breaks the tie is that the frontend shifts the grid independently.
+- **trace to (a source)** — 오류의 유래가 ~까지 거슬러 올라간다. 자동사라 수동태를 쓰지 않으며, 책임 추궁이 아니라 계보 규명의 어감. ≈ originate in. ↔ was introduced here.
+  - 예: The typo traces to the in-house requirements doc the code was written from, which also contains `reutrn` and smart quotes.
+- **treat X as binary** — 되냐 안 되냐 양자택일로만 보다. 부분적으로 할 수 있는 일을 놓친 자기비판 틀. ↔ break it into slices.
+  - 예: I'd treated "blocked" as binary — decomposing the job found a slice I could finish at home after all.
+- **bury (the real fixes)** — 지운 게 아니라 덮어서 안 보이게 만들다. 커밋 범위를 좁히는 근거로 쓴다. ≈ drown out. ↔ keep the diff legible.
+  - 예: Committing twenty-four files of date churn would have buried the four real fixes, so I kept only the files that actually failed.
