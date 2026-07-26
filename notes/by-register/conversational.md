@@ -255,3 +255,7 @@
   - 예: The exact command sequence is already in the carryover, so it's one sitting once you're at the office.
 - **at your expense** — 상대의 비용·시간을 축내면서. 중단 선언에 붙이면 회피가 아니라 배려가 된다. `at the expense of X`(X를 희생해서)와 구분. ↔ at no cost to you.
   - 예: The condition can't be satisfied from this machine, so I'm stopping rather than looping further at your expense.
+- **punt to (something)** — 여기서 끝냈어야 할 판단을 다음 계층에 떠넘기다. `punt on`(사안을 보류)과 전치사로 갈린다. ↔ resolve it at the source.
+  - 예: Two of the six call sites punted to the index page instead of resolving the fab themselves, so the href they published hid the real destination.
+- **"works on my machine, breaks on the server"** — 환경 차이로만 터지는 버그를 통째로 인용부호에 넣어 수식어로 굳힌 형태. ↔ reproducible everywhere.
+  - 예: An unpinned dependency installed at task runtime is a classic "works on my machine, breaks on the server" cause.

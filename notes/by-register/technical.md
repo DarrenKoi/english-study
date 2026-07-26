@@ -409,3 +409,21 @@
   - 예: Those tests were environment-coupled without saying so — having the office adapters locally made the suite worse, at five seconds per Redis timeout.
 - **hostname-agnostic** — 어느 주소에 올려도 그대로 도는. `-agnostic` 은 platform-·vendor-·schema- 로 계속 확장된다. ↔ hardcoded to one host.
   - 예: The bundle is hostname-agnostic: the SPA resolves its API as the relative `/api`, so the cutover needs no rebuild.
+- **blow past (a limit)** — 한도를 아슬아슬 넘는 게 아니라 훌쩍 지나쳐 버리다. 기한에도 그대로 쓴다. ↔ stay within / sit comfortably under.
+  - 예: Two hundred simultaneous connections blow past the worker's open-file limit, and some downloads then silently fail.
+- **black-holed (host)** — 거절 응답조차 없이 요청을 삼켜 버리는. 죽은 호스트와 달리 타임아웃까지 슬롯을 문다. ↔ actively refusing the connection.
+  - 예: A tight `connect_timeout` is what makes hundreds of black-holed tools fail fast instead of each holding a worker slot for minutes.
+- **(a guard) actually bites** — 방어장치가 진짜로 걸러 낸다. 일부러 깨뜨려 빨간불을 확인했다는 절차가 따라와야 성립한다. ≈ has teeth. ↔ a test that can never fail.
+  - 예: I removed `/chat` from the list to check the guard actually bites — three tests went red, naming the missing path in the failure message.
+- **slip past (a check)** — 검사망 하나를 지나쳐 빠져나가다. `slip through the cracks` 보다 관문이 특정된다. ↔ trip the guard.
+  - 예: The regex scrape only matches a static `to="/…"`, so any dynamic binding slips past it while the test still reports green.
+- **spend most of its travel on** — 슬라이더·다이얼이 가동 행정의 대부분을 쓸모없는 구간에 써 버리다. `travel` 은 손잡이가 움직이는 물리적 거리. ↔ every step earns its place.
+  - 예: The 2–30 range spent most of its travel on values nobody sets, so 4–20 puts the usual 6–10 band under your thumb.
+- **vendor (a package)** — 설치하는 대신 저장소 안에 복사해 동봉하다. 폐쇄망의 표준 해법이고 `vendored` 형태를 더 자주 쓴다. ↔ pull it from the package index.
+  - 예: Only `minio_handler` is vendored under `airflow_mgmt/`, so the index step fails on the worker until `ops_store` travels the same way.
+- **bloat** — 인코딩·의존성으로 불어난 군살. 앞에 퍼센트가 붙으면 정확한 오버헤드, 명사 앞에 붙으면 막연한 비대함. ↔ a lean wire format.
+  - 예: JSON + base64 is fine for small files, but a streaming transport would beat base64's ~33% bloat on large payloads.
+- **dead space** — 의도 없이 생긴 죽은 여백. 의도된 여백 `whitespace` 와 정반대 평가를 담는다. ↔ breathing room.
+  - 예: The card shrank from 700px to 380px once the note spanned the full width — about 300px of dead space reclaimed.
+- **stranded** — 주변이 사라져 혼자 붕 뜬. 고칠 곳이 그 요소가 아니라 옆 칸이라는 인과까지 담는다. ↔ anchored to / grouped with.
+  - 예: With the left column ending 400px early, the stats block sat stranded top-right with nothing below it.

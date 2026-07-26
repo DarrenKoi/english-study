@@ -479,3 +479,13 @@
   - 예: I'd treated "blocked" as binary — decomposing the job found a slice I could finish at home after all.
 - **bury (the real fixes)** — 지운 게 아니라 덮어서 안 보이게 만들다. 커밋 범위를 좁히는 근거로 쓴다. ≈ drown out. ↔ keep the diff legible.
   - 예: Committing twenty-four files of date churn would have buried the four real fixes, so I kept only the files that actually failed.
+- **a rule surviving on discipline** — 코드가 아니라 사람의 주의력으로만 지켜지는 규칙. `survive on ~`(~만 먹고 연명하다)이 위태로움을 품는다. ↔ caught mechanically.
+  - 예: Six copies of the same fallback all remembered to check the sentinel — that's a rule surviving on discipline, and one lapse gives you a URL that quietly returns nothing.
+- **want (something) on the record** — 승인 요청이 아니라 일방적으로 밝혀 두는 자진 신고. 회의록의 `on the record` 에서 왔다. ↔ leave it undocumented.
+  - 예: One behavior change I introduced and want on the record: rows with an empty `fab_name` are now dropped instead of surfacing a blank picker option.
+- **in situ** — 격리 화면이 아니라 실제 놓일 자리에 얹어서. 라틴어 그대로 두 단어로 쓴다. ↔ in isolation.
+  - 예: The icon read fine on its own, but in situ it competed with the search glass two slots to the left.
+- **X comes from A, not from B itself** — 걱정을 부정하지 않고 원인만 옮겨 결론을 뒤집는 문형. `itself` 가 B 를 무죄로 만들지 않고 범위만 좁힌다.
+  - 예: The fear that async mixes one host's data into another host's buffer comes from shared mutable state, not from memory itself.
+- **worth your eye** — 결정은 내렸으니 보기만 해 달라는 가벼운 표시. 판단을 넘기는 `worth your call` 과 요구 수준이 다르다. ↔ settled, no action needed.
+  - 예: Two judgment calls worth your eye: the dark field stays dark in light mode, and the margin hatching went terracotta rather than indigo.
