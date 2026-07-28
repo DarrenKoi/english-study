@@ -489,3 +489,13 @@
   - 예: The fear that async mixes one host's data into another host's buffer comes from shared mutable state, not from memory itself.
 - **worth your eye** — 결정은 내렸으니 보기만 해 달라는 가벼운 표시. 판단을 넘기는 `worth your call` 과 요구 수준이 다르다. ↔ settled, no action needed.
   - 예: Two judgment calls worth your eye: the dark field stays dark in light mode, and the margin hatching went terracotta rather than indigo.
+- **your premise doesn't hold** — 그 전제가 성립하지 않는다. 사람이 아니라 상대가 깔고 있던 문장만 겨냥해 대화를 끊지 않는다. ↔ your premise checks out.
+  - 예: Checked it — your premise doesn't hold, and the reason is worth knowing.
+- **an invariant that may only be a tendency** — 불변식인 줄 알고 굳혔지만 실은 경향일 수 있는 것. `invariant` 와 `tendency` 를 나란히 놓아 확인 요구를 정당화한다. ↔ a confirmed invariant.
+  - 예: You described that rule as "usually" true, so the mock is currently teaching an invariant that may only be a tendency.
+- **before any UI leans on it** — 아직 확인 안 된 사실에 무게를 실어 만들기 전에. `use` 와 달리 무너지면 같이 무너진다는 함의가 있다. ↔ treat it as unverified.
+  - 예: It needs a look across several recipes before any UI leans on it.
+- **so it cannot be mistaken for X** — X로 오인될 수 없도록. 수동태라 오해할 사람을 지목하지 않아 문서에 얹기 좋다. ↔ be indistinguishable from.
+  - 예: Set demo index names to `skewnono_logging_local-demo` so the label cannot be mistaken for production.
+- **that's the gap this question exposes** — 그 질문이 실제로 드러낸 빈틈은 이것이다. 질문자를 세워 주면서 논점을 옮긴다. ↔ close the gap.
+  - 예: That's the gap this question actually exposes — one line each, and it guards the file you were worried about.

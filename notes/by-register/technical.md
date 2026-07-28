@@ -427,3 +427,19 @@
   - 예: The card shrank from 700px to 380px once the note spanned the full width — about 300px of dead space reclaimed.
 - **stranded** — 주변이 사라져 혼자 붕 뜬. 고칠 곳이 그 요소가 아니라 옆 칸이라는 인과까지 담는다. ↔ anchored to / grouped with.
   - 예: With the left column ending 400px early, the stats block sat stranded top-right with nothing below it.
+- **roll over (at 20GB or 7 days)** — 인덱스·로그가 한도에 닿아 다음 것으로 갈아타다. 동사는 두 단어, 명사·형용사는 붙인 `rollover`. ↔ write to a single fixed index.
+  - 예: Both families roll over at 20GB or 7 days, use 2 primary shards, 1 replica, and a 30-second refresh interval.
+- **a preflight (check)** — 본 작업 전에 전제를 확인하고 아니면 시작조차 않는 사전 점검(이륙 전 점검에서 온 말). ≈ sanity check(더 가벼움). ↔ fail at runtime.
+  - 예: The handler runs a rollover-alias preflight before the first bulk write, so a misconfigured alias fails at startup instead of at midnight.
+- **an allowlist of X** — 막을 것이 아니라 통과시킬 것만 적은 허용 목록. `whitelist` 를 대체한 현대 표기. ↔ a denylist / blocklist.
+  - 예: `scripts/deploy/pack.py:36` uses an allowlist of seven `INCLUDED_ROOTS`, and `office_utils` isn't one of them.
+- **make the typecheck go red** — 고치기 전에 일부러 실패시켜 증거로 삼다. `go red`(그렇게 됐다) 와 달리 의도가 드러난다. ↔ go straight to green.
+  - 예: Now the frontend type declarations — this is the change that makes `typecheck` go red.
+- **shadow (the real package)** — 같은 이름으로 진짜를 가려 버리다. 망가뜨리지 않고 안 보이게만 해서 조용히 실패한다. ↔ defer to the real module.
+  - 예: A tracked copy would shadow the real package at the office and serve fabricated data at HTTP 200.
+- **a (home) stand-in** — 진짜를 쓸 수 없는 환경에 같은 이름·같은 인터페이스로 세워 둔 대역. `stub` 보다 자리까지 대신한다는 뜻이 강하다. ↔ the real thing.
+  - 예: The stand-in's whole payoff is that it verifies the import, the signature, and the column dtypes through the real code path.
+- **progressive enhancement** — 없으면 기본형, 있으면 더 나아지는 층으로 얹는 설계. 위에서 깎아 내려오는 `graceful degradation` 과 출발점이 반대다. ↔ a hard dependency on JavaScript.
+  - 예: JavaScript is progressive enhancement: article content and basic navigation remain usable when it is disabled.
+- **internet egress** — 바깥으로 나가는 통신. 라틴어계라 문서용이고, 말로는 `calls out to the internet` 이 자연스럽다. ↔ ingress.
+  - 예: The application and every logging destination remain inside the company network; do not add external SaaS or internet egress.

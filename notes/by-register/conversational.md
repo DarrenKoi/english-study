@@ -259,3 +259,11 @@
   - 예: Two of the six call sites punted to the index page instead of resolving the fab themselves, so the href they published hid the real destination.
 - **"works on my machine, breaks on the server"** — 환경 차이로만 터지는 버그를 통째로 인용부호에 넣어 수식어로 굳힌 형태. ↔ reproducible everywhere.
   - 예: An unpinned dependency installed at task runtime is a classic "works on my machine, breaks on the server" cause.
+- **force through (a blocker)** — 막힌 것을 억지로 밀고 나가다. `push through` 와 달리 거의 늘 경고로 쓴다. ↔ stop and ask / park it.
+  - 예: Don't force through blockers — stop and ask.
+- **worth knowing** — 알아 둘 만하다. 설명을 붙이기 전에 시간 쓸 값어치를 미리 표시한다. `worth + -ing` 라 `worth to know` 는 틀린다. ↔ not worth dwelling on.
+  - 예: Your premise doesn't hold, and the reason is worth knowing.
+- **leaving X alone** — 남이 쓰던 것은 건드리지 않고 두다. 문장 뒤 분사구로 달면 한 호흡에 안심시킬 수 있다. ↔ clobber / take over the port.
+  - 예: Browser-verified on a worktree instance (:3001/:5051, leaving your running :3000/:5050 alone).
+- **space out (the calls)** — 간격을 두고 띄엄띄엄 보내다. 시스템이 조절하는 `throttle` 과 달리 사람이 손으로 벌린다. ↔ hammer / fire them off back-to-back.
+  - 예: Rate limit: 20 requests per 5 seconds per user — space out curl loops or vary `LASTUSER`.

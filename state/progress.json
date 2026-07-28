@@ -320,7 +320,19 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/649f3d71-3b64-4007-bcbd-9df5fcb42d79.jsonl": 22,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/0c239a1f-f257-4996-b249-18ebb3b59eed.jsonl": 28,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/e1fd76e4-5d9c-44f6-bdc6-02dd3706f375.jsonl": 12,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/6797fb1d-dd10-4876-a888-92610170d29d.jsonl": 19
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/6797fb1d-dd10-4876-a888-92610170d29d.jsonl": 19,
+    "-Users-daeyoung-Codes-flask-modules/268d702e-d13a-4e4d-a884-a2ca4fd516b9.jsonl": 12,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/3910c4b6-fc46-4577-bf09-5e76c509d2a2.jsonl": 800,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/ed66c1c6-f22a-4b38-b324-819906988a55.jsonl": 13,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/01980713-8a1e-481d-83ee-af7c527004f6.jsonl": 13,
+    "-Users-daeyoung-Codes-pm-notes/9a5c105f-abe6-4918-bb09-335e13a12b15.jsonl": 13,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/7370153c-235d-4191-9852-b60bb9652e29.jsonl": 16,
+    "-Users-daeyoung-Codes-flask-modules/aa2f67ee-5fb6-417c-b91b-4fb7c3ddb249.jsonl": 13,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/d7c2b9ec-372e-4d9c-8d99-8e70e1a6c66e.jsonl": 13,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/a194266a-29eb-489a-9175-f3cdb60e82b9.jsonl": 13,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/32683452-962b-4745-b75c-b57b17e7977f.jsonl": 13,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/7b9366d0-4a6a-4da1-89b7-83f2596d8b7c.jsonl": 13,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/580846d5-6d6e-45d9-8d78-fe0c04d5856d/subagents/agent-aa22171cea3239bf3.jsonl": 4
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -421,7 +433,7 @@
     "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-06-25-measurement-abort-job-design.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-06-25-measurement-abort-job-design.md:1782343233.333569:14389",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-26-skewvoir-cd-outlier-detection-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-26-skewvoir-cd-outlier-detection-design.md:1782462655.937214:5227",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-06-26-skewvoir-cd-outlier-detection.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-06-26-skewvoir-cd-outlier-detection.md:1782462111.740766:13066",
-    "skewnono_v3_nuxt/docs/datatables/msr_file_pickle.txt": "skewnono_v3_nuxt/docs/datatables/msr_file_pickle.txt:1784696061.9670274:1946",
+    "skewnono_v3_nuxt/docs/datatables/msr_file_pickle.txt": "skewnono_v3_nuxt/docs/datatables/msr_file_pickle.txt:1785214729.1841521:13052",
     "skewnono_v3_nuxt/docs/datatables/meas_hist.txt": "skewnono_v3_nuxt/docs/datatables/meas_hist.txt:1784684016.8718755:9582",
     "skewnono_v3_nuxt/docs/datatables/network_sharpness_cdsem.txt": "skewnono_v3_nuxt/docs/datatables/network_sharpness_cdsem.txt:1782454943.3597815:1296",
     "auto_recipe_creator/side_projects/document_extraction/docs/rag_context_architecture.md": "auto_recipe_creator/side_projects/document_extraction/docs/rag_context_architecture.md:1782439572.8721874:9056",
@@ -483,7 +495,7 @@
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-16-chart-image-download-and-tat-colors.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-16-chart-image-download-and-tat-colors.md:1784200476.2388117:22397",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-16-recipe-detail-header-and-parameter-sorting-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-16-recipe-detail-header-and-parameter-sorting-design.md:1784200476.2233353:5030",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-16-mock-to-office-migration-progress.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-16-mock-to-office-migration-progress.md:1784200476.2230964:5655",
-    "skewnono_v3_nuxt/docs/office-migration/STATUS.md": "skewnono_v3_nuxt/docs/office-migration/STATUS.md:1784721441.978194:6636",
+    "skewnono_v3_nuxt/docs/office-migration/STATUS.md": "skewnono_v3_nuxt/docs/office-migration/STATUS.md:1785152996.0165527:6652",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-16-skewvoir-selection-rail-consolidation-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-16-skewvoir-selection-rail-consolidation-design.md:1784200324.1365995:7308",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-16-skewvoir-selection-rail-consolidation.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-16-skewvoir-selection-rail-consolidation.md:1784200324.1362765:25098",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-16-mock-to-office-migration-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-16-mock-to-office-migration-design.md:1784200324.083043:9073",
@@ -526,7 +538,7 @@
     "skewnono_v3_nuxt/minio_handler/docs/README.md": "skewnono_v3_nuxt/minio_handler/docs/README.md:1784079247.408754:1717",
     "llm_chatbot/doc/llm-wiki/raw/learning-logs/20260715-arize-phoenix-observability-assessment.md": "llm_chatbot/doc/llm-wiki/raw/learning-logs/20260715-arize-phoenix-observability-assessment.md:1784078447.3458953:27446",
     "skewnono_v3_nuxt/docs/issues/skewvoir/wafer-analysis-method-research.md": "skewnono_v3_nuxt/docs/issues/skewvoir/wafer-analysis-method-research.md:1784074331.4168372:38486",
-    "skewnono_v3_nuxt/docs/back-end/office-data-adapters.md": "skewnono_v3_nuxt/docs/back-end/office-data-adapters.md:1785044044.8101282:21737",
+    "skewnono_v3_nuxt/docs/back-end/office-data-adapters.md": "skewnono_v3_nuxt/docs/back-end/office-data-adapters.md:1785153010.1199403:23416",
     "skewnono_v3_nuxt/docs/swap-strategy.md": "skewnono_v3_nuxt/docs/swap-strategy.md:1785029973.2868242:12379",
     "skewnono_v3_nuxt/docs/back-end/README.md": "skewnono_v3_nuxt/docs/back-end/README.md:1785044041.1130304:1310",
     "auto_recipe_creator/docs/journals/260720/260720_163416_mind-rerank-포팅-및-커버리지-집계.md": "auto_recipe_creator/docs/journals/260720/260720_163416_mind-rerank-포팅-및-커버리지-집계.md:1784532965.9492118:12480",
@@ -569,7 +581,15 @@
     "flask_modules/ftp_handler/docs/adr/ftp_fleet_downloader.md": "flask_modules/ftp_handler/docs/adr/ftp_fleet_downloader.md:1785021905.5659988:15217",
     "flask_modules/minio_handler/docs/usage.md": "flask_modules/minio_handler/docs/usage.md:1785021646.5911517:18227",
     "flask_modules/ftp_handler/docs/guides/summary.md": "flask_modules/ftp_handler/docs/guides/summary.md:1785021479.0505085:5704",
-    "flask_modules/ftp_handler/docs/guides/usage.md": "flask_modules/ftp_handler/docs/guides/usage.md:1785021478.9645817:23212"
+    "flask_modules/ftp_handler/docs/guides/usage.md": "flask_modules/ftp_handler/docs/guides/usage.md:1785021478.9645817:23212",
+    "skewnono_v3_nuxt/docs/datatables/recipe_idp.txt": "skewnono_v3_nuxt/docs/datatables/recipe_idp.txt:1785223950.6008227:16897",
+    "pm_notes/docs/superpowers/plans/2026-07-28-ai-terms-html-reader.md": "pm_notes/docs/superpowers/plans/2026-07-28-ai-terms-html-reader.md:1785223399.482151:30457",
+    "pm_notes/docs/superpowers/specs/2026-07-28-ai-terms-html-reader-design.md": "pm_notes/docs/superpowers/specs/2026-07-28-ai-terms-html-reader-design.md:1785223086.6859431:9872",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-28-idp-image-info-boolean-columns-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-28-idp-image-info-boolean-columns-design.md:1785222925.159243:11835",
+    "skewnono_v3_nuxt/docs/datatables/skewnono_logging.txt": "skewnono_v3_nuxt/docs/datatables/skewnono_logging.txt:1785203423.2720962:7980",
+    "skewnono_v3_nuxt/docs/datatables/README.md": "skewnono_v3_nuxt/docs/datatables/README.md:1785157904.0075788:8056",
+    "skewnono_v3_nuxt/docs/handoff/handoff-2026-07-27-opensearch-logging-activity.md": "skewnono_v3_nuxt/docs/handoff/handoff-2026-07-27-opensearch-logging-activity.md:1785153297.394354:9556",
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-27-opensearch-logging-activity.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-27-opensearch-logging-activity.md:1785131816.754487:74126"
   },
-  "last_run": "2026-07-27"
+  "last_run": "2026-07-29"
 }
