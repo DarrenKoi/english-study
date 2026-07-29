@@ -499,3 +499,17 @@
   - 예: Set demo index names to `skewnono_logging_local-demo` so the label cannot be mistaken for production.
 - **that's the gap this question exposes** — 그 질문이 실제로 드러낸 빈틈은 이것이다. 질문자를 세워 주면서 논점을 옮긴다. ↔ close the gap.
   - 예: That's the gap this question actually exposes — one line each, and it guards the file you were worried about.
+- **carry something forward on faith** — 확인 없이 믿고 그대로 이어 적다. 보통 `rather than` 과 짝지어 검증했음을 강조한다. ↔ verify against the source.
+  - 예: Every item was checked against the code rather than carried forward on faith.
+- **drift from reality** — 문서·백로그가 코드와 서서히 어긋나다. 한 번의 실수가 아니라 관리 실패. ↔ stay in sync.
+  - 예: Two backlog items had drifted from reality, so I corrected both rather than copying them forward.
+- **the real tiebreaker** — 엇갈리던 근거들 사이에서 결론을 낸 결정적 재료. 앞에 애매했던 근거를 먼저 깔아야 산다. ↔ inconclusive evidence.
+  - 예: `git cherry` still reports a false miss when context lines shift, which is why the blob comparison was the real tiebreaker.
+- **worth your judgment** — 여기부터는 당신이 판단할 몫. 사실과 결정의 경계를 긋는 보고 말미 표현. ↔ I've settled this.
+  - 예: One thing worth your judgment: those branch-only test names may or may not be covered by the rewrite on main.
+- **written as settled** — 확정으로 적어 둔. 새 사실로 문서를 고치는 이유가 변덕이 아님을 드러낸다. ↔ still an open question.
+  - 예: That changes two things I'd written as settled, so let me look at what calls those readers before I touch anything.
+- **the irreversible half** — 되돌릴 수 없는 쪽. 작업을 절반으로 갈라 위험한 쪽만 확인받는다. ↔ the recoverable half.
+  - 예: Deleting the remote branches is a separate command, and I'd want you to confirm, since it's the irreversible half.
+- **bookkeeping lag only** — 일은 끝났고 기록만 안 따라왔다. 짧게 끊어야 "결함 아님"이 분명해진다. ↔ genuinely unfinished.
+  - 예: The plan's checkboxes are all unticked, but every function is on main with tests — bookkeeping lag only.

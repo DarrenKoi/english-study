@@ -267,3 +267,11 @@
   - 예: Browser-verified on a worktree instance (:3001/:5051, leaving your running :3000/:5050 alone).
 - **space out (the calls)** — 간격을 두고 띄엄띄엄 보내다. 시스템이 조절하는 `throttle` 과 달리 사람이 손으로 벌린다. ↔ hammer / fire them off back-to-back.
   - 예: Rate limit: 20 requests per 5 seconds per user — space out curl loops or vary `LASTUSER`.
+- **lying around** — 쓰이지도 않고 남아 자리만 차지하는. 강조 도치 `What is lying around is …` 와 잘 붙는다. ↔ cleaned up.
+  - 예: What is lying around is ten stale local branches, none of them merged into main.
+- **half right** — 절반은 맞다. 상대를 정면으로 부정하지 않고 정정하는 자리. ↔ spot on.
+  - 예: Your report was half right, and the half that was wrong points at the real cause.
+- **move under someone** — 내가 딛고 선 전제(main, 스키마)가 작업 중에 바뀌다. 비난이 아닌 상황 공유. ↔ stay put.
+  - 예: Main moved under me — another session committed at 15:25, so I landed the finished work first.
+- **an empty husk** — 알맹이는 빠지고 껍데기만 남은 폴더·구조. ↔ a live worktree.
+  - 예: Both directories are empty husks — build artifacts only, no source files and no repo metadata.

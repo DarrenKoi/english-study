@@ -443,3 +443,13 @@
   - 예: JavaScript is progressive enhancement: article content and basic navigation remain usable when it is disabled.
 - **internet egress** — 바깥으로 나가는 통신. 라틴어계라 문서용이고, 말로는 `calls out to the internet` 이 자연스럽다. ↔ ingress.
   - 예: The application and every logging destination remain inside the company network; do not add external SaaS or internet egress.
+- **replace something wholesale** — 부분 교체가 아니라 통째로 갈아치우다(딸린 것까지 사라진다). ↔ patch selectively.
+  - 예: Supplying your own header slot replaces that fallback wholesale — title, description, and the close button.
+- **orders of magnitude below** — 자릿수가 몇 단계 낮아 비교 자체가 무의미한. 성능 걱정을 계산으로 잠재운다. ↔ on the same order as.
+  - 예: Both are four to five orders of magnitude below the FTP round-trip that fetched the file.
+- **smoke-test (동사)** — 정밀 검증 전에 굵직한 고장만 훑어 보다. 한계를 스스로 밝히는 말. ↔ verify exhaustively.
+  - 예: You can't smoke-test the naming at home until the stand-in is fixed.
+- **the documented normal case** — 예외처럼 보이지만 문서에 적힌 정상 동작. 오류로 처리하지 않은 근거가 된다. ↔ an unhandled edge case.
+  - 예: Missing files are logged and skipped, not treated as failures — that's the documented normal case.
+- **has never met real data** — 테스트는 green 이지만 실제 환경 데이터와는 한 번도 만난 적 없다. ↔ office-verified.
+  - 예: It is written and green against home stand-ins, but no part of it has met real office data.
