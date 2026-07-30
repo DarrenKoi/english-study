@@ -453,3 +453,13 @@
   - 예: Missing files are logged and skipped, not treated as failures — that's the documented normal case.
 - **has never met real data** — 테스트는 green 이지만 실제 환경 데이터와는 한 번도 만난 적 없다. ↔ office-verified.
   - 예: It is written and green against home stand-ins, but no part of it has met real office data.
+- **no "while I'm here" improvements** — "온 김에" 끼워 넣는 개선 금지. 인용부호가 농담기를 실어 준다. ↔ bundle the cleanup in.
+  - 예: One change at a time — address the root cause, and no "while I'm here" improvements.
+- **found late if ever** — 늦게 발견되거나 아예 못 잡는. `if ever` 가 앞말을 최악 쪽으로 민다. ↔ caught immediately.
+  - 예: A first-match scan sorts the step into the wrong slot with no exception raised — wrong order, found late if ever.
+- **flagged rather than absorbed** — 조용히 삼켜지지 않고 표시되다. 검증 로직의 설계 의도를 한 마디로. ↔ silently tolerated.
+  - 예: Fab coverage is checked against the confirmed split, so contents contradicting the key name get flagged rather than absorbed.
+- **the gate on ~** — 그것이 열려야 다음이 진행되는 관문. `blocker` 와 달리 비난기가 없다. ↔ orthogonal to.
+  - 예: The blob's internal structure is unverified, and it is the gate on both the parameter list and the per-count buckets.
+- **that is the point, not an optimization** — 성능 조정으로 오해받기 쉬운 설정이 실은 기능의 핵심. ↔ a nice-to-have.
+  - 예: `immediate: false` is the point, not an optimization — navigating to the page must never touch the company-wide roster.

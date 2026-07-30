@@ -275,3 +275,11 @@
   - 예: Main moved under me — another session committed at 15:25, so I landed the finished work first.
 - **an empty husk** — 알맹이는 빠지고 껍데기만 남은 폴더·구조. ↔ a live worktree.
   - 예: Both directories are empty husks — build artifacts only, no source files and no repo metadata.
+- **two things jump out** — 애써 찾지 않았는데 대뜸 눈에 걸린 두 가지. 리뷰·보고의 서두로 좋다. ↔ go unnoticed.
+  - 예: Two things jump out that I want to flag before writing anything: the keying does not match the contract, and the counts have no source at all.
+- **Ready when you are.** — 준비됐으니 시작하실 때 말씀만 하세요. 주도권은 넘기되 대기 상태임을 알린다. ↔ give me a minute.
+  - 예: Ready when you are — say the word and I will pull up the failing test.
+- **through sheer inertia** — 판단이 아니라 순전히 관성으로. 사람 대신 상황을 탓하는 어감. ↔ by deliberate choice.
+  - 예: Three failed fixes in a row is the moment to ask whether we are sticking with this pattern through sheer inertia.
+- **in flight** — 착수했지만 아직 안 끝난. 상태 보고 목록의 라벨로 그대로 붙는다. ↔ landed.
+  - 예: In flight: a tool-roster view for unconnected equipment — the design is settled but nothing is implemented yet.

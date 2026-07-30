@@ -513,3 +513,17 @@
   - 예: Deleting the remote branches is a separate command, and I'd want you to confirm, since it's the irreversible half.
 - **bookkeeping lag only** — 일은 끝났고 기록만 안 따라왔다. 짧게 끊어야 "결함 아님"이 분명해진다. ↔ genuinely unfinished.
   - 예: The plan's checkboxes are all unticked, but every function is on main with tests — bookkeeping lag only.
+- **right there and wrong here** — 거기선 맞고 여기선 틀리다. 상대 코드를 깎지 않고 예외를 요구한다. ↔ correct in both cases.
+  - 예: The adapter raises on an unknown vendor, which is right there and wrong here — this screen exists to surface the tools we have not onboarded.
+- **what stands between A and B** — A 와 B 사이를 막고 선 유일한 것. 사소해 보이는 방어 장치를 지킬 때. ↔ a redundant guard.
+  - 예: This bucket is what stands between a new tool type and silent invisibility on the one screen meant to surface it.
+- **tell A from B** — A 와 B 를 구별하다. `distinguish` 의 일상 버전이고 긴 명사구 둘을 나란히 세울 수 있다. ↔ conflate A with B.
+  - 예: The column is imprecise for old tools and trustworthy for recent ones, which is what makes it usable for telling a genuine new arrival from a long-abandoned roster entry.
+- **state something untrue** — 사실이 아닌 것을 말하게 되다. `lie` 와 달리 의도를 함의하지 않는다. ↔ report exactly what happened.
+  - 예: Collapsing an empty group to null would state something untrue: the file was read, and the group simply is not in it.
+- **weakly grounded — revisit once ~** — 근거가 얕다고 밝히고 재검토 조건을 사건으로 걸어 둔다. ↔ empirically established.
+  - 예: Weakly grounded — revisit once the screen has real use; rows past the threshold are de-emphasized, never hidden.
+- **rushing guarantees rework** — 서두르면 반드시 두 번 일한다. `may lead to` 와 달리 협상 여지를 닫는다. ↔ measure twice, cut once.
+  - 예: We are not skipping the investigation because the release is tomorrow — rushing guarantees rework.
+- **reproduce something in miniature** — 규모만 줄여 구조가 같은 축소판으로 재현하다. ↔ an unrelated failure.
+  - 예: The two failing tests reproduce your bug in miniature: the message names only one source even though the registry was consulted and declined.
