@@ -283,3 +283,9 @@
   - 예: Three failed fixes in a row is the moment to ask whether we are sticking with this pattern through sheer inertia.
 - **in flight** — 착수했지만 아직 안 끝난. 상태 보고 목록의 라벨로 그대로 붙는다. ↔ landed.
   - 예: In flight: a tool-roster view for unconnected equipment — the design is settled but nothing is implemented yet.
+- **take (something) at face value** — 액면 그대로 믿다. 속았다기보다 확인할 수 있었는데 안 했다는 쪽이라 자기 실수를 담담히 밝히는 자리에 맞는다. ↔ verify it against the code.
+  - 예: I'd taken the blocker at face value instead of checking `verify.py`.
+- **worth naming rather than acting on** — 손대지는 않고 짚어만 둘 것. 발견 사실과 행동하지 않기로 한 판단을 한 줄에 함께 밝힌다. ↔ changes I went ahead and made.
+  - 예: Two things worth naming rather than acting on: the trailing slash differs between the two repos, and the remember buffer is still dirty.
+- **the worst it can do is ~** — 최악이라야 ~ 정도다. 손해의 상한을 재 보이는 변호이고, `is` 뒤에는 to 없는 동사원형이 온다. ↔ the blast radius is the whole app.
+  - 예: A Nuxt route middleware can only affect routing, so the worst it can do is send someone to the wrong page.

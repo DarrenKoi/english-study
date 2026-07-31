@@ -527,3 +527,19 @@
   - 예: We are not skipping the investigation because the release is tomorrow — rushing guarantees rework.
 - **reproduce something in miniature** — 규모만 줄여 구조가 같은 축소판으로 재현하다. ↔ an unrelated failure.
   - 예: The two failing tests reproduce your bug in miniature: the message names only one source even though the registry was consulted and declined.
+- **on the strength of ~** — ~을 근거로. `because of` 와 달리 그 근거가 결정의 무게를 감당 못 한다는 평가가 함께 담긴다. ↔ on solid evidence.
+  - 예: Refusing a person the directory simply could not tell us about would deny access on the strength of our own outage.
+- **a carve-out** — 규칙에서 도려낸 예외 조항. 예외가 곧 구멍이 되는 자리에서는 부정형으로 써서 "예외를 두지 않았다"를 자랑으로 삼는다. ↔ a blanket rule.
+  - 예: No carve-out was added to the identity gate for this path, because a gate with exemptions is how this repository's last auth bug got in.
+- **lock (someone) out** — 막아 세워 들어오지 못하게 하다. 권한 오류보다 당하는 쪽의 결과가 앞서고, 대상이 집단일 때 문장이 세진다. ↔ let (someone) through.
+  - 예: `directory.py` documents contractors and service accounts as holding a cookie without a row, so rejecting on absent locks out a population the code asserts exists.
+- **promise a guarantee (that) X does not make** — 지키지도 못할 보장을 약속하는 셈이 되다. 주어를 사람이 아니라 계층으로 잡아 문구만 고치자는 제안이 된다. ↔ say plainly what it does not do.
+  - 예: Presenting it as authentication would promise a guarantee this layer does not make.
+- **accounted for** — 행방에 설명이 붙다. "찾았다"가 아니라 어디로 갔는지 설명이 된다는 뜻이라 물건이 없어도 성립한다. ↔ unaccounted for.
+  - 예: Everything from the 19:07 note is accounted for — the worktree was merged and torn down before this session started.
+- **retire (an entry)** — 역할이 끝나 내려보내다. `delete` 와 달리 지운 것이 아니라 상태를 바꾼 것으로 읽힌다. ↔ reinstate.
+  - 예: The wording wasn't the problem — the blocker's premise was inverted, so I retired it instead.
+- **trade one X for another** — 하나를 다른 하나로 바꿔 놓기만 하다. 가정법과 붙으면 하지 않은 선택을 변호하는 근거가 된다. ↔ close it out for good.
+  - 예: I marked them partly resolved rather than closed — claiming those as done would have traded one stale entry for another.
+- **outward-facing** — 바깥으로 나가 남에게 보이는. push·배포처럼 확인을 받고 진행할 일을 위험하다 말하지 않고 성격만으로 분류한다. ↔ local-only.
+  - 예: One thing remains, and it's outward-facing, so I'd rather check first.

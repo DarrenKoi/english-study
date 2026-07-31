@@ -350,7 +350,15 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/43fc3fea-bfb5-4bf0-bdd1-e9e56c679b1b.jsonl": 25,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/a068254c-625c-424a-9db3-fca3fe0a712f.jsonl": 787,
     "-Users-daeyoung-Codes-english-study/dbd029f4-9a43-4b57-88da-46a4ece317a9.jsonl": 115,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/eb7129d4-c84b-47d5-8662-89d839d30e91.jsonl": 352
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/eb7129d4-c84b-47d5-8662-89d839d30e91.jsonl": 352,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/9fcf1b57-f0fc-4f66-923b-bec8f5475bff.jsonl": 12,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/44534476-b065-4ea8-aff8-bc810db8f8a7.jsonl": 528,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/3f7ba2d8-6663-4d9d-943f-2232bf8b8a8f.jsonl": 23,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/f3aa69a5-c248-4ec2-9e56-2a8eeb627106.jsonl": 32,
+    "-Users-daeyoung-Codes-english-study/fec50824-4b9b-4152-adc3-a130c898de0f.jsonl": 187,
+    "-Users-daeyoung-Codes-flask-modules/ffc7e9b9-875c-4f3d-8fb1-df1ee90b1e34.jsonl": 123,
+    "-Users-daeyoung-Codes-flask-modules/e4fb5a80-8990-4944-8ff2-5a24c550bf7e.jsonl": 83,
+    "-Users-daeyoung-Codes-flask-modules/996e7104-c3ae-4b14-80fb-a6735cd2164b.jsonl": 17
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -585,7 +593,7 @@
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-23-msr-image-tool-fetch.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-23-msr-image-tool-fetch.md:1784806719.3403015:83172",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-23-msr-image-tool-fetch-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-23-msr-image-tool-fetch-design.md:1784806664.0082743:23615",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-23-bm-pm-office-adapter.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-23-bm-pm-office-adapter.md:1784790358.6202035:56796",
-    "skewnono_v3_nuxt/docs/deployment.md": "skewnono_v3_nuxt/docs/deployment.md:1785070713.5151243:8029",
+    "skewnono_v3_nuxt/docs/deployment.md": "skewnono_v3_nuxt/docs/deployment.md:1785491688.3348517:12942",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-24-deploy-packaging.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-24-deploy-packaging.md:1784875505.002366:55211",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-24-wafer-geometry-map-offset-coherence.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-24-wafer-geometry-map-offset-coherence.md:1784875352.3846042:31873",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-24-deploy-packaging-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-24-deploy-packaging-design.md:1784875197.9250455:16369",
@@ -600,11 +608,11 @@
     "flask_modules/minio_handler/docs/usage.md": "flask_modules/minio_handler/docs/usage.md:1785021646.5911517:18227",
     "flask_modules/ftp_handler/docs/guides/summary.md": "flask_modules/ftp_handler/docs/guides/summary.md:1785021479.0505085:5704",
     "flask_modules/ftp_handler/docs/guides/usage.md": "flask_modules/ftp_handler/docs/guides/usage.md:1785021478.9645817:23212",
-    "skewnono_v3_nuxt/docs/datatables/recipe_idp.txt": "skewnono_v3_nuxt/docs/datatables/recipe_idp.txt:1785309331.4144785:26823",
+    "skewnono_v3_nuxt/docs/datatables/recipe_idp.txt": "skewnono_v3_nuxt/docs/datatables/recipe_idp.txt:1785490012.329684:49352",
     "pm_notes/docs/superpowers/plans/2026-07-28-ai-terms-html-reader.md": "pm_notes/docs/superpowers/plans/2026-07-28-ai-terms-html-reader.md:1785223399.482151:30457",
     "pm_notes/docs/superpowers/specs/2026-07-28-ai-terms-html-reader-design.md": "pm_notes/docs/superpowers/specs/2026-07-28-ai-terms-html-reader-design.md:1785223086.6859431:9872",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-28-idp-image-info-boolean-columns-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-28-idp-image-info-boolean-columns-design.md:1785222925.159243:11835",
-    "skewnono_v3_nuxt/docs/datatables/skewnono_logging.txt": "skewnono_v3_nuxt/docs/datatables/skewnono_logging.txt:1785203423.2720962:7980",
+    "skewnono_v3_nuxt/docs/datatables/skewnono_logging.txt": "skewnono_v3_nuxt/docs/datatables/skewnono_logging.txt:1785491688.334682:8442",
     "skewnono_v3_nuxt/docs/datatables/README.md": "skewnono_v3_nuxt/docs/datatables/README.md:1785393686.473214:8649",
     "skewnono_v3_nuxt/docs/handoff/handoff-2026-07-27-opensearch-logging-activity.md": "skewnono_v3_nuxt/docs/handoff/handoff-2026-07-27-opensearch-logging-activity.md:1785153297.394354:9556",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-27-opensearch-logging-activity.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-27-opensearch-logging-activity.md:1785131816.754487:74126",
@@ -621,7 +629,10 @@
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-30-skewvoir-gallery-download-removal.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-30-skewvoir-gallery-download-removal.md:1785392932.8263438:5446",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-30-skewvoir-gallery-download-removal-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-30-skewvoir-gallery-download-removal-design.md:1785392932.8187778:2570",
     "skewnono_v3_nuxt/docs/datatables/device_info.txt": "skewnono_v3_nuxt/docs/datatables/device_info.txt:1785392578.7924771:6026",
-    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-30-skewvoir-chip-based-cd-pairing.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-30-skewvoir-chip-based-cd-pairing.md:1785391884.9364703:16353"
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-30-skewvoir-chip-based-cd-pairing.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-30-skewvoir-chip-based-cd-pairing.md:1785391884.9364703:16353",
+    "skewnono_v3_nuxt/docs/datatables/members.txt": "skewnono_v3_nuxt/docs/datatables/members.txt:1785494861.330437:6177",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-31-anonymous-self-identification-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-31-anonymous-self-identification-design.md:1785491688.3353848:22010",
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-31-anonymous-self-identification.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-31-anonymous-self-identification.md:1785489275.023422:97234"
   },
-  "last_run": "2026-07-31"
+  "last_run": "2026-08-01"
 }

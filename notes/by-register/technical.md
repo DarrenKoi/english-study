@@ -463,3 +463,13 @@
   - 예: The blob's internal structure is unverified, and it is the gate on both the parameter list and the per-count buckets.
 - **that is the point, not an optimization** — 성능 조정으로 오해받기 쉬운 설정이 실은 기능의 핵심. ↔ a nice-to-have.
   - 예: `immediate: false` is the point, not an optimization — navigating to the page must never touch the company-wide roster.
+- **a blind spot** — 사각지대. 테스트가 부족한 게 아니라 구조상 눈이 닿지 않는다는 뜻이라, 앞에 원인을 붙여 `the mock blind spot` 처럼 쓴다. ↔ fully exercised.
+  - 예: This is the mock blind spot `CLAUDE.md` warns about, closed by making the logic testable without the thing that is missing.
+- **fall through** — 붙잡지 않고 그대로 흘려보내다. 아무것도 하지 않는 것이 곧 동작인 자리에 이름을 붙여 준다. ↔ short-circuit / answer the request there.
+  - 예: Falling through hands the request to the SPA mount.
+- **silently arm a timer** — 조용히 시한을 걸어 두다. arm 은 폭발물·경보를 작동 대기 상태로 만든다는 뜻이라 즉시 피해가 없는 명령에 시계가 붙었음을 그린다. ↔ make it permanent.
+  - 예: Deleting a branch silently arms a timer on its objects — `git gc` prunes them once they pass `gc.pruneExpire`.
+- **the forgiving face of X** — 실패를 너그럽게 삼켜 주는 쪽 얼굴. wrapper 와 달리 감싸면서 무엇을 바꾸는지까지 담는다. ↔ the strict entry point.
+  - 예: This is the forgiving face of `probe_member` — every failure mode it distinguishes collapses to the same bare record here.
+- **an open redirect** — 아무 주소로나 보내 버리는 리다이렉트 취약점. `?next=` 파라미터가 있는 화면에 늘 따라오고, 방어는 same-origin path 만 허용하는 것이다.
+  - 예: Only same-origin paths: `next` arrives in the URL, so an absolute URL here would make this form an open redirect.
