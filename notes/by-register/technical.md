@@ -473,3 +473,19 @@
   - 예: This is the forgiving face of `probe_member` — every failure mode it distinguishes collapses to the same bare record here.
 - **an open redirect** — 아무 주소로나 보내 버리는 리다이렉트 취약점. `?next=` 파라미터가 있는 화면에 늘 따라오고, 방어는 same-origin path 만 허용하는 것이다.
   - 예: Only same-origin paths: `next` arrives in the URL, so an absolute URL here would make this form an open redirect.
+
+## 2026-08-02
+- **out-of-band (edit / change)** — 정규 파이프라인 밖에서 사람이 따로 손대야 하는 처리. 검증이 안 된다는 함의가 붙는다. ↔ in-band / through the deploy bundle.
+  - 예: A design that needs a wsgi.ini change costs a manual, out-of-band edit on the cloud host, with no way to verify it from home.
+- **hand-slotted** — 자동 배분이 아니라 사람이 하나씩 자리를 잡은. 뒤에 `never share an instant` 를 붙이면 이유까지 설명된다. ↔ auto-scheduled.
+  - 예: Minutes are hand-slotted and never share an instant.
+- **a proxy (variable) for X** — 진짜 판단해야 할 조건 대신 상관관계만 있는 값을 조건으로 쓴 것. 짝 명제: every proxy eventually drifts from what it proxies. ↔ the actual predicate.
+  - 예: The guard is phrased in a proxy variable for the condition that actually matters — is this pool complete?
+- **silently resurrect** — 지웠다고 믿은 상태가 복원 경로를 타고 로그도 없이 되살아나다. 캐시·직렬화·재시작 글에 자주 나온다. ↔ stay reaped.
+  - 예: A scheduler restart would silently resurrect jobs that bypass the lock and the logger entirely.
+- **an artifact of X, not the code** — 실험 세팅이 만든 가짜 신호이지 코드 문제가 아니다. 사과 없이 정정을 끝내는 문형. ↔ a genuine regression.
+  - 예: That's an artifact of my invalid test URL, not the code — real links always carry lot.
+- **over-suppress** — 막아야 할 것과 함께 막지 말아야 할 것까지 막다. 가드를 넣은 뒤 반대 방향 검증을 부르는 이름. ↔ leak through.
+  - 예: Single scope still corrects an invalid mp, so I haven't over-suppressed the intended rewrite.
+- **arm / disarm (a timer)** — 타이머를 작동 상태로 걸다 / 풀다. `start/stop` 과 달리 "지금부터 감시가 살아 있다"는 상태 전환을 가리킨다. ↔ the timer never arms.
+  - 예: uWSGI arms the harakiri timer per request, on entry to the request handler, and disarms on response.

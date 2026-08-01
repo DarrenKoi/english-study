@@ -358,7 +358,12 @@
     "-Users-daeyoung-Codes-english-study/fec50824-4b9b-4152-adc3-a130c898de0f.jsonl": 187,
     "-Users-daeyoung-Codes-flask-modules/ffc7e9b9-875c-4f3d-8fb1-df1ee90b1e34.jsonl": 123,
     "-Users-daeyoung-Codes-flask-modules/e4fb5a80-8990-4944-8ff2-5a24c550bf7e.jsonl": 83,
-    "-Users-daeyoung-Codes-flask-modules/996e7104-c3ae-4b14-80fb-a6735cd2164b.jsonl": 17
+    "-Users-daeyoung-Codes-flask-modules/996e7104-c3ae-4b14-80fb-a6735cd2164b.jsonl": 17,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/3343de1c-f460-4742-901a-6b0020f90a8d.jsonl": 484,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/786bdc81-0791-4ea6-a765-862734b39afb.jsonl": 12,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/b4e5dd72-a1b0-423e-81d7-1711c72b73dc.jsonl": 13,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/06f0f324-e2ac-415b-9a4a-012ece89973d.jsonl": 712,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/18718ca0-7b0a-4999-a400-a9e8275f73e9.jsonl": 13
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -632,7 +637,10 @@
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-30-skewvoir-chip-based-cd-pairing.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-30-skewvoir-chip-based-cd-pairing.md:1785391884.9364703:16353",
     "skewnono_v3_nuxt/docs/datatables/members.txt": "skewnono_v3_nuxt/docs/datatables/members.txt:1785494861.330437:6177",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-31-anonymous-self-identification-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-31-anonymous-self-identification-design.md:1785491688.3353848:22010",
-    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-31-anonymous-self-identification.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-31-anonymous-self-identification.md:1785489275.023422:97234"
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-31-anonymous-self-identification.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-31-anonymous-self-identification.md:1785489275.023422:97234",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-01-chat-agentic-rag-integration-scaffold-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-01-chat-agentic-rag-integration-scaffold-design.md:1785596455.6700556:31909",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-01-scheduler-runtime-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-01-scheduler-runtime-design.md:1785596325.9238932:27599",
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-01-skewvoir-time-series-multi-msr.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-01-skewvoir-time-series-multi-msr.md:1785529923.1457524:83727"
   },
-  "last_run": "2026-08-01"
+  "last_run": "2026-08-02"
 }

@@ -289,3 +289,9 @@
   - 예: Two things worth naming rather than acting on: the trailing slash differs between the two repos, and the remember buffer is still dirty.
 - **the worst it can do is ~** — 최악이라야 ~ 정도다. 손해의 상한을 재 보이는 변호이고, `is` 뒤에는 to 없는 동사원형이 온다. ↔ the blast radius is the whole app.
   - 예: A Nuxt route middleware can only affect routing, so the worst it can do is send someone to the wrong page.
+
+## 2026-08-02
+- **stop theorizing and instrument it** — 추측은 그만하고 계측을 붙이자. `time to` 를 앞에 붙이면 스스로에게 하는 선언이 되어 방법 논쟁을 끊는다. ↔ reason about it from the code.
+  - 예: The rewrite happens very early — before my 4s poll even started, so it's time to stop theorizing and instrument it.
+- **costs nothing and saves a week** — 손해는 없고 크게 아낀다. 양쪽에 다른 단위를 넣어 비대칭을 드러내는 설득 틀. ↔ not worth the complexity.
+  - 예: A snapshot write that misses its window doesn't retry until next Monday, so six hours of grace costs nothing and saves a week.

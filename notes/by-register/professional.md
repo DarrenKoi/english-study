@@ -543,3 +543,23 @@
   - 예: I marked them partly resolved rather than closed — claiming those as done would have traded one stale entry for another.
 - **outward-facing** — 바깥으로 나가 남에게 보이는. push·배포처럼 확인을 받고 진행할 일을 위험하다 말하지 않고 성격만으로 분류한다. ↔ local-only.
   - 예: One thing remains, and it's outward-facing, so I'd rather check first.
+
+## 2026-08-02
+- **by accident of prior decisions** — 지금 필요한 조건이 이미 갖춰졌지만 그게 의도가 아니라 과거 결정의 부산물임. 나중에 사라질 수 있다는 경고가 함께 실린다. ↔ by design.
+  - 예: The current file already provides everything worker-election needs, by accident of prior decisions.
+- **corroborate** — 다른 출처의 증거가 같은 방향을 가리키며 뒷받침하다. `confirm` 보다 약하고 조사·법정 어휘라 무게가 있다. ↔ contradict.
+  - 예: The view already renders an integrity alert comparing resolved vs loaded, which corroborates that partial loads are real here.
+- **serve two masters** — 하나가 성격 다른 두 소비자를 동시에 떠맡아 둘 다 만족시키지 못하는 구조. 해결되면 `both masters served` 로 닫는다. ↔ single responsibility.
+  - 예: Rendering off a three-file union is fine; using that same incomplete union as URL authority is not — which is exactly the two-masters distinction.
+- **the instance is fixed, the class is still open** — 그 사례는 막았지만 결함 유형 자체는 열려 있다. "고쳤냐"에 절반만 예라고 답하는 문형. ↔ fixed at the root.
+  - 예: No — the instance is fixed, the class is still open, and one of the remaining holes is designed-in, not hypothetical.
+- **carry no weight** — 관행처럼 들어와 있으나 실제로는 아무 역할도 하지 않다. 진행형·완곡형으로 쓰면 재검토 요청이 된다. ↔ load-bearing.
+  - 예: RedisJobStore may be carrying no weight here — our jobs are declared in code and rebuilt on every boot.
+- **quiet hours** — 트래픽이 적어 무거운 작업을 돌려도 되는 시간대. `off-peak` 가 요금 쪽이라면 이쪽은 리소스 여유 쪽. ↔ peak hours.
+  - 예: You know the office's actual quiet hours and whether anything else already runs at those times.
+- **slot around it rather than near it** — 근처가 아니라 아예 비켜서 배치하다. `around`(피해서)와 `near`(가까이)를 대비시켜 경계를 긋는다. ↔ stack them back to back.
+  - 예: If that scheduler runs against the same infrastructure, I should slot around it rather than near it.
+- **the better side of the trade** — 두 손해 중 견딜 만한 쪽. 손해가 없다고 말하지 않으면서 결정을 닫는다. ↔ the wrong side of the trade.
+  - 예: That's the same risk we already accepted for the dashboard case, and it's the better side of the trade.
+- **worth internalizing** — 기억이 아니라 다음 판단에 저절로 나오도록 몸에 익혀 둘 만한. `worth remembering` 보다 한 단계 위. ↔ safe to forget.
+  - 예: The reason flask_modules stores jobs by import path rather than by value is worth internalizing.
