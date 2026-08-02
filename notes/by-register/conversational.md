@@ -295,3 +295,9 @@
   - 예: The rewrite happens very early — before my 4s poll even started, so it's time to stop theorizing and instrument it.
 - **costs nothing and saves a week** — 손해는 없고 크게 아낀다. 양쪽에 다른 단위를 넣어 비대칭을 드러내는 설득 틀. ↔ not worth the complexity.
   - 예: A snapshot write that misses its window doesn't retry until next Monday, so six hours of grace costs nothing and saves a week.
+
+## 2026-08-03
+- **(a distinction that) has teeth** — 어기면 실제 대가가 따르는, 장식이 아닌 규칙·구분. ↔ toothless.
+  - 예: See roster.py and _tool_specs.py for why that distinction has teeth.
+- **dig X out of Y** — Y 를 뒤져서 X 를 파내다. 그냥 주어지지 않는다는 수고·불평의 어감. ≈ fish X out of.
+  - 예: A script must call recipe-detail, dig the locator out of the payload, and post it back.

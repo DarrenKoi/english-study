@@ -563,3 +563,23 @@
   - 예: That's the same risk we already accepted for the dashboard case, and it's the better side of the trade.
 - **worth internalizing** — 기억이 아니라 다음 판단에 저절로 나오도록 몸에 익혀 둘 만한. `worth remembering` 보다 한 단계 위. ↔ safe to forget.
   - 예: The reason flask_modules stores jobs by import path rather than by value is worth internalizing.
+
+## 2026-08-03
+- **buys the safety at a price** — 장점을 얻긴 하는데 값을 치른다. 앞에 `does keep ... safe` 로 양보를 세우고 비용 목록을 여는 전환부. ↔ comes for free.
+  - 예: That design does keep the alarm API safe from page traffic, but it buys the safety at a price.
+- **forces X rather than merely motivating it** — 하고 싶은 이유(motivate)가 아니라 안 할 수 없는 이유(force)임을 가르는 문형. 결정타 지목용.
+  - 예: That last point is what forces the redesign rather than merely motivating it.
+- **carry over to** — 한 상황의 타당한 논리가 다른 상황에 그대로 옮겨 적용되다. 부정형으로 재사용 거부에 쓴다. ↔ be confined to.
+  - 예: That reasoning is sound for compare; it does not carry over to one parameter.
+- **a deliberate non-answer** — 일부러 답하지 않기로 한 선택. 공백 자체가 결정이었음을 밝히는 이름표. ↔ an oversight.
+  - 예: Its image handling is a deliberate non-answer: the filenames let a reader find the images without pulling them off the tool.
+- **hide behind** — 한 이름 뒤에 성격이 다른 실체 여럿이 숨어 있다. 분석 글의 도입 문형. ↔ be spelled out.
+  - 예: Two data sources hide behind "parameter info", and they differ by orders of magnitude.
+- **harmless while X, actively misleading now that Y** — 전제가 바뀌어 무해하던 것이 해로워졌다는 시점 대비 구문. ↔ still holds.
+  - 예: The fake texture was harmless while every other column was fabricated too, and actively misleading now that they are real tool data.
+- **a convention call, not a technical one** — 기술 우열이 아니라 코드베이스 관례를 기준으로 내린 결정. judgment call 의 변주. ↔ a technical necessity.
+  - 예: break-all over wrap-anywhere was a convention call, not a technical one.
+- **"A" and "B" are separate claims** — 증상과 결론을 명제 단위로 분리해 각각 검증하자는 규율. ↔ one and the same.
+  - 예: "The toast looks wrong" and "the feature is broken" are separate claims.
+- **a cue to X, not a Y in its own right** — 행동을 부르는 신호이지 그 자체가 독립 사건은 아니다. 알림 수위를 정하는 근거.
+  - 예: A non-zero count is an operator's cue to check the tool list, not an alarm in its own right.

@@ -489,3 +489,17 @@
   - 예: Single scope still corrects an invalid mp, so I haven't over-suppressed the intended rewrite.
 - **arm / disarm (a timer)** — 타이머를 작동 상태로 걸다 / 풀다. `start/stop` 과 달리 "지금부터 감시가 살아 있다"는 상태 전환을 가리킨다. ↔ the timer never arms.
   - 예: uWSGI arms the harakiri timer per request, on entry to the request handler, and disarms on response.
+
+## 2026-08-03
+- **collapse into (one call)** — 여러 요청이 하나의 실질 동작으로 접히다. 캐시·디바운스·락의 상한 서술. ↔ fan out into.
+  - 예: Any number of viewers collapse into at most one call to the office alarm API per facility per 20 seconds.
+- **green for the wrong reason** — 통과하긴 하는데 검증 대상이 실제로 검증되지 않은 테스트. ≈ a false green. ↔ failing honestly.
+  - 예: A double that lies about NX or TTL would make every lock test below it green for the wrong reason.
+- **self-heal** — 장애 후 사람 개입 없이 스스로 복구되다. ↔ leave a permanent hole.
+  - 예: If it returns ten minutes of history, the board self-heals after any outage.
+- **strictly better than** — 트레이드오프 없이 모든 면에서 우위. 강한 주장이라 바로 뒤에 because 근거가 관례. ↔ a trade-off.
+  - 예: Caching at fac granularity is strictly better than caching per fab, because the coarse key is the one the upstream call is parameterized by.
+- **wedge (the feature)** — 죽지도 살지도 못하고 꽉 끼어 멈추다. 에러 없이 멈춘 상태. ↔ degrade gracefully.
+  - 예: A deployment fault must not wedge the feature for twenty seconds on top of failing.
+- **mock fodder, not classifiers** — 목 채우기용 소모성 재료일 뿐 판별 기준이 아니다. `X fodder` 틀(cannon fodder). ↔ the source of truth.
+  - 예: eqp_prefixes and eqp_models are mock fodder, not classifiers.
