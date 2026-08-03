@@ -583,3 +583,15 @@
   - 예: "The toast looks wrong" and "the feature is broken" are separate claims.
 - **a cue to X, not a Y in its own right** — 행동을 부르는 신호이지 그 자체가 독립 사건은 아니다. 알림 수위를 정하는 근거.
   - 예: A non-zero count is an operator's cue to check the tool list, not an alarm in its own right.
+- **didn't survive checking** — 확인해 보니 그 주장이 살아남지 못했다. 사람이 아니라 주장을 주어로 두어 지적이 부드럽다. ↔ held up under scrutiny.
+  - 예: One spec claim didn't survive checking: there is an app-wide error handler after all.
+- **an assumption with no mechanism behind it** — 그것을 강제할 장치가 하나도 없는 기대. ≈ wishful thinking. ↔ enforced by the tooling.
+  - 예: On a host where the baseline is someone else's image, "pandas will bring a good numpy" is an assumption with no mechanism behind it.
+- **the corollary is counter-intuitive** — 앞 논증에서 곧바로 따라 나오지만 상식과 어긋나는 결론이다. ↔ as you would expect.
+  - 예: The corollary is counter-intuitive for a requirements file: declare transitive dependencies whose version matters.
+- **a two-minute check on your side** — 그쪽 환경에서 2분이면 끝나는 확인. 시간을 형용사처럼 앞에 붙여 규모를 밝힌다. ↔ a day's work.
+  - 예: Nothing is broken at home, so pinpointing it is a two-minute check on your side.
+- **nobody was listening** — 신호는 이미 나오고 있었는데 받아 쓰는 쪽이 없었다. ≈ it was fire-and-forget. ↔ wired end to end.
+  - 예: The warm job already knows when the cache is ready; nobody was listening.
+- **the asymmetry matters** — 한 방향으로만 성립한다는 사실이 결론을 좌우한다. 끝을 `— but not the reverse` 로 닫는 짝. ↔ it cuts both ways.
+  - 예: The asymmetry matters: numpy-1 pickles load fine under numpy 2, but not the reverse.

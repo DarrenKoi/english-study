@@ -301,3 +301,9 @@
   - 예: See roster.py and _tool_specs.py for why that distinction has teeth.
 - **dig X out of Y** — Y 를 뒤져서 X 를 파내다. 그냥 주어지지 않는다는 수고·불평의 어감. ≈ fish X out of.
   - 예: A script must call recipe-detail, dig the locator out of the payload, and post it back.
+- **lying about its age** — 최신인 척하는 낡은 사본. 무생물을 거짓말하는 주체로 세우는 의인화. ↔ self-describing.
+  - 예: `sync_office_adapters --diff` is the only thing that tells you which copies are lying about their age.
+- **it's yours to delete** — 그 일은 그쪽 몫이다. 명령보다 부드럽게 마지막 한 단계를 넘기는 틀. ↔ I've taken care of it.
+  - 예: My `rm -rf` was blocked by the permission classifier, so it's yours to delete.
+- **a prime suspect** — 아직 미확정이지만 가장 유력한 원인. culprit 은 확정, suspect 는 미확정. ↔ ruled out.
+  - 예: Flask isn't listening on :5050 — that's a prime suspect for the 502.

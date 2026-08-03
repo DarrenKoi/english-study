@@ -503,3 +503,17 @@
   - 예: A deployment fault must not wedge the feature for twenty seconds on top of failing.
 - **mock fodder, not classifiers** — 목 채우기용 소모성 재료일 뿐 판별 기준이 아니다. `X fodder` 틀(cannon fodder). ↔ the source of truth.
   - 예: eqp_prefixes and eqp_models are mock fodder, not classifiers.
+- **silent-wrong instead of loud-broken** — 요란하게 터지는 대신 조용히 틀린 값을 내다. 형용사 둘을 하이픈으로 묶은 조어. ↔ fail loudly.
+  - 예: A pre-today office copy keeps answering with the old key, so the failure is silent-wrong instead of loud-broken.
+- **a live foot-gun** — 쓰는 사람이 스스로 사고를 내게 만드는, 지금 장전된 설계. ≈ an accident waiting to happen. ↔ safe by construction.
+  - 예: Two fields you'd naturally compare sit nine hours apart in one record — this isn't just readability, it's a live foot-gun.
+- **request-order luck** — 되고 안 되고가 요청 도착 순서 운에 달려 있던 상태. `X was Y luck` 틀. ↔ deterministic.
+  - 예: Whether an MSR got warmed was request-order luck, not design.
+- **the error you see is the error path, not the cause** — 지금 보이는 예외는 원인을 설명하려다 죽은 진단 코드다. ≈ a secondary failure masking the first.
+  - 예: `sorted(frames)` crashed while writing the message that would have explained the failure — the error you see is the error path, not the cause.
+- **import success proves presence, never version** — import 가 됐다는 건 있다는 증명일 뿐 어느 판인지는 증명하지 못한다. ≈ necessary but not sufficient.
+  - 예: Why this rather than the numpy-specific check I added earlier: import success proves presence, never version.
+- **sidestep** — 정면으로 풀지 않고 그 상황 자체가 생기지 않게 비껴가다. 뒤에 `having to -ing` 가 잦다. ↔ tackle head-on.
+  - 예: A `data:` URI sidesteps having to get cache headers right in three different serving layers.
+- **come along (with a change)** — 손대려던 건 아닌데 공유 코드 때문에 같이 딸려 오다. ≈ it was swept in. ↔ left untouched.
+  - 예: `locks.py` shares the same helper, so it came along.
