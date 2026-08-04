@@ -517,3 +517,19 @@
   - 예: A `data:` URI sidesteps having to get cache headers right in three different serving layers.
 - **come along (with a change)** — 손대려던 건 아닌데 공유 코드 때문에 같이 딸려 오다. ≈ it was swept in. ↔ left untouched.
   - 예: `locks.py` shares the same helper, so it came along.
+- **endpoint ergonomics** — 기능이 아니라 "쓰기 편한 정도"를 고치는 작은 개선. ≈ DX. ↔ a hostile API.
+  - 예: This plan adds no new data path — just documentation plus two small endpoint ergonomics fixes.
+- **tear down** — 임시로 세운 것(worktree·서버·픽스처)을 걷어내다. ↔ set up / stand up.
+  - 예: Merge the branch and tear the worktree down.
+- **honor (a filter/contract)** — 옵션·계약을 무시하지 않고 지켜 동작하다. ≈ respect. ↔ ignore / bypass.
+  - 예: The job is scoped to `names`, so an ext filter is honored and cached files are not refetched.
+- **heavy-tailed** — 소수의 바쁜 머리와 길고 한산한 꼬리로 치우친 분포. ≈ skewed. ↔ uniform.
+  - 예: The mock generates deterministic heavy-tailed counts — a few busy devices, a long quiet tail.
+- **neutral for (both paths)** — 그 소비자에게는 아무 동작 변화도 없는. ≈ a no-op for. ↔ behavior-changing.
+  - 예: The gallery reads these bytes through `<img>` and `fetch()`, and inline is neutral for both.
+- **fork on** — 다음 경로가 몇 가지 사실 확인에 따라 갈라지다. ≈ hinge on. ↔ converge.
+  - 예: The fixes fork on a few facts only you know, so let me ask before I implement.
+- **come back empty** — 조회가 오류 없이 빈 결과로 돌아오다(발견이 늦는 실패 유형). ≈ return zero rows. ↔ return hits.
+  - 예: Confirm R3 documents actually carry fab_id="R3" — otherwise only the R3 ranking comes back empty.
+- **age out (of the window)** — 시간 창이 흐르며 자격을 잃고 조건 밖으로 밀려나다. ≈ expire / roll off. ↔ stay in scope.
+  - 예: A cart item that ages out of the window still renders, because the lot index stays unfiltered.

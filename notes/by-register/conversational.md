@@ -307,3 +307,11 @@
   - 예: My `rm -rf` was blocked by the permission classifier, so it's yours to delete.
 - **a prime suspect** — 아직 미확정이지만 가장 유력한 원인. culprit 은 확정, suspect 는 미확정. ↔ ruled out.
   - 예: Flask isn't listening on :5050 — that's a prime suspect for the 502.
+- **on purpose** — 실수가 아니라 의도임을 짧게 못 박는 회화체. ≈ by design. ↔ by accident.
+  - 예: Standard library only, on purpose — this file is meant to be copied to a locked-down PC.
+- **tell them apart (on the spot)** — 헷갈리는 둘을 그 자리에서 구별하다. ≈ distinguish. ↔ conflate.
+  - 예: The coverage tooltip now tells the two causes apart on the spot.
+- **momentum is cheapest there** — 관성이 남은 일부터 잡는 게 재시동 비용이 가장 싸다. ↔ a cold start.
+  - 예: Resume the top in-progress item first — its next action is already written and momentum is cheapest there.
+- **cheapest first** — 목록을 비용 순으로 배열했다는 압축 표기(oldest first 꼴).
+  - 예: Here's the ladder, cheapest first — the first two steps need no Python and decide the rest.

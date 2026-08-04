@@ -595,3 +595,11 @@
   - 예: The warm job already knows when the cache is ready; nobody was listening.
 - **the asymmetry matters** — 한 방향으로만 성립한다는 사실이 결론을 좌우한다. 끝을 `— but not the reverse` 로 닫는 짝. ↔ it cuts both ways.
   - 예: The asymmetry matters: numpy-1 pickles load fine under numpy 2, but not the reverse.
+- **turnkey** — 받는 쪽이 열쇠만 돌리면 되는 즉시 가동 상태의. ≈ plug-and-play. ↔ some assembly required.
+  - 예: Let me make the fix turnkey — check what publish_rules needs and give you a one-command seed script.
+- **reasoned from the spec, not observed** — 명세에서 추론했을 뿐 실측하지 않았다는 근거 등급 표시. ↔ empirically confirmed.
+  - 예: The claim that inline is neutral for `<img>` was reasoned from the spec, not observed.
+- **for no gain** — 비용·위험만 지고 얻는 것이 없는. ≈ to no benefit. ↔ a net win.
+  - 예: Attachment would add browser-behavior risk for no gain.
+- **exist to prevent (X)** — 파일·테스트의 존재 이유를 "막을 실수 하나"로 못 박는 틀. ≈ be there to stop.
+  - 예: Skipping the warm turns N images into N serial round trips, which is the mistake this file exists to prevent.
