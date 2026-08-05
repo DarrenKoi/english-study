@@ -603,3 +603,31 @@
   - 예: Attachment would add browser-behavior risk for no gain.
 - **exist to prevent (X)** — 파일·테스트의 존재 이유를 "막을 실수 하나"로 못 박는 틀. ≈ be there to stop.
   - 예: Skipping the warm turns N images into N serial round trips, which is the mistake this file exists to prevent.
+- **Independent of X and ships on its own** — 나머지 작업에 매이지 않아 단독으로 배포된다(머지 순서 자유를 알림). ↔ blocked on / rides the same commit.
+  - 예: Independent of the beacon and ships on its own — the banner fires once per page load and measures sessions, not interest in a page.
+- **stand in for** — 진짜 값 대신 임시로 그 자리를 맡다(시드·목 데이터). ≈ serve as a proxy for. ↔ is measured directly.
+  - 예: `sem_list` stands in for entry traffic in the seed data, so the totals are shaped like real usage without claiming to be it.
+- **not worth a line the user cannot act on** — 읽는 사람이 손쓸 수 없는 경고는 남길 값어치가 없다(로깅 기준). ↔ an error the operator must see.
+  - 예: The expected 429 under fast tab-flipping is not worth a console line the user cannot act on.
+- **Known consequence, accepted** — 부작용을 숨기지 않고 "알고 받아들였다"고 라벨을 다는 설계 문서 관용구. ≈ accepted trade-off. ↔ an open defect.
+  - 예: Known consequence, accepted: a user who only opens zero-API pages appears in the page ranking but not in the active-user counts.
+- **silently redefine what X means** — 고장 없이 지표의 뜻만 바뀌어 해석이 틀어지다. ≈ change the unit out from under the reader. ↔ keep the contract intact.
+  - 예: Mixing the two row types would silently redefine what `this_month.requests` means.
+- **stay in agreement about** — 두 모듈이 같은 규칙에 대해 서로 어긋나지 않게 유지되다. ≈ stay in lockstep. ↔ drift apart.
+  - 예: The plugin uses the same fab pattern the backend does, so the two stay in agreement about what a fab looks like.
+- **have no counterpart on the X side** — 반대편 체계에는 대응물이 없다(합치지 않기로 한 근거). ≈ has no analogue in. ↔ maps one-to-one.
+  - 예: One route carrying two features has no counterpart on the API side, which is why this is a second map and not a rewrite.
+- **teach a relationship the data does not have** — 유도해 만든 목 데이터가 존재하지 않는 상관을 가르치다. ≈ bake in a false correlation. ↔ reflect what production looks like.
+  - 예: Page-view totals are listed separately because a derived number would teach a relationship the office data does not have.
+- **read as X rather than Y** — 기능은 정상인데 사용자에게 다르게 읽히다(인상의 문제). ≈ comes across as. ↔ reads exactly as intended.
+  - 예: Without a caption, an almost-empty ranking reads as a broken page rather than a young one.
+- **the only symptom is …** — 조용한 실패에서 관찰 가능한 흔적이 딱 하나임을 지정하다. ≈ the one tell is. ↔ it fails loudly.
+  - 예: Touching a file uWSGI isn't watching succeeds every night and reloads nothing — the only symptom is uptime that keeps climbing.
+- **say so instead of pretending** — 성공한 척하지 않고 빠진 사실을 그대로 보고하다(프로그램 의인화). ↔ silently succeed.
+  - 예: Delete the touch-reload line and the job says so instead of pretending.
+- **the durable record** — 재시작·장애를 견디고 끝까지 남는 정본 기록. ≈ the source of truth. ↔ best-effort logging.
+  - 예: The INFO line is emitted before the touch, because the uWSGI log is the durable record once the worker restarts.
+- **be silently loosened** — 설명 없이 조건·테스트가 헐거워지다(안티패턴, 수동태로 행위자를 지움). ↔ be documented explicitly.
+  - 예: The test has to grow an explicit, documented carve-out rather than be silently loosened.
+- **deliberately narrow** — 되돌릴 수 없는 동작이라 범위를 일부러 좁게 잡았다. ≈ intentionally conservative. ↔ recursive by default.
+  - 예: The sweep is deliberately narrow since it unlinks: one directory, glob-matched names only, symlinks skipped rather than followed.

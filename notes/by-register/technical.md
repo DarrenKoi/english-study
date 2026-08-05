@@ -533,3 +533,15 @@
   - 예: Confirm R3 documents actually carry fab_id="R3" — otherwise only the R3 ranking comes back empty.
 - **age out (of the window)** — 시간 창이 흐르며 자격을 잃고 조건 밖으로 밀려나다. ≈ expire / roll off. ↔ stay in scope.
   - 예: A cart item that ages out of the window still renders, because the lot index stays unfiltered.
+- **longest match wins** — 접두사 규칙 표에서 가장 길게 일치하는 항목이 이긴다(우선순위 관례). ↔ first match wins.
+  - 예: Page segment to slug; longest match wins, so the nested children are listed before their parent.
+- **console noise** — 오류가 아닌 일로 콘솔을 어지럽혀 진짜 오류를 묻는 잡음. ≈ log spam. ↔ an actionable error.
+  - 예: Returning a 400 for an ops page would be console noise for something that is not an error.
+- **a shell over (two features)** — URL·컴포넌트는 하나인데 알맹이는 둘인 껍데기. ≈ a wrapper around. ↔ a page in its own right.
+  - 예: That route is a shell over two genuinely different features, so the query parameter is the real identity.
+- **beat the redirect** — 리다이렉트가 걸리기 전에 요청이 먼저 도착하다(경합 조건). ≈ race ahead of. ↔ follow the redirect.
+  - 예: Legacy routes are mapped defensively so a beacon that beats the redirect is not misfiled.
+- **reachable at all** — 부족한 게 아니라 아예 닿지 못하던 상태를 강조하는 at all. ↔ filtered out upstream.
+  - 예: Widen the base query so page-view rows are reachable at all; every aggregation then states its own kind.
+- **can't outlive** — 락·임시 자원의 수명을 그 원인 사건보다 짧게 묶다. ≈ expires before. ↔ lingers indefinitely.
+  - 예: The lock TTL is 120s so the orphaned lock can't outlive the reload that caused it.
