@@ -545,3 +545,21 @@
   - 예: Widen the base query so page-view rows are reachable at all; every aggregation then states its own kind.
 - **can't outlive** — 락·임시 자원의 수명을 그 원인 사건보다 짧게 묶다. ≈ expires before. ↔ lingers indefinitely.
   - 예: The lock TTL is 120s so the orphaned lock can't outlive the reload that caused it.
+- **survive injected faults** — 우연히 난 장애가 아니라 일부러 주입한 결함을 견디다. ≈ withstand simulated failures. ↔ fall over on the first error.
+  - 예: The goal is to make the real-time loop survive injected faults, so teardown always completes even when a step throws.
+- **silently downgraded to X** — 예외도 로그도 없이 결과가 한 등급 낮게 처리되다. ≈ quietly reclassified as. ↔ surfaced as a hard failure.
+  - 예: The exact case the bench exists to measure was silently downgraded to "couldn't tell."
+- **can't quietly revert** — 규율이 아니라 테스트로 묶어 슬그머니 원상 복귀하지 못하게 하다. ↔ leave it to convention.
+  - 예: The test asserts the crop stays under three rows, so this can't quietly revert to the old behavior.
+- **decline to answer** — 틀린 답을 내는 게 아니라 아예 응답을 거부하다(모델의 refusal). ≈ return nothing, abstain. ↔ answer confidently but wrongly.
+  - 예: Nothing was clicked and nothing was scored wrong — the model simply declined to answer.
+- **that's the oracle failing, not the models** — 나쁜 점수의 원인이 측정 대상이 아니라 채점 기준일 때. ≈ a measurement artifact. ↔ a genuine capability gap.
+  - 예: If a button is icon-only, every combo scores unreadable — that's the oracle failing, not the models.
+- **nothing backfills them** — 고쳐도 과거 데이터를 소급해 채우는 장치는 없다. ≈ historical rows are left as-is. ↔ a backfill job reindexes the history.
+  - 예: Rows already in the index keep the old value; nothing backfills them, so a window spanning the deploy will show both.
+- **inside run-to-run noise** — 차이가 실행 간 편차 범위 안이라 유의미하지 않다. ≈ within the margin of error. ↔ a gap well outside the noise.
+  - 예: If the margin is inside run-to-run noise, treat it as no evidence rather than proof.
+- **get swept into (someone else's commit)** — 내 변경이 남의 커밋에 휩쓸려 함께 들어가다. ≈ get bundled in with. ↔ land in its own commit.
+  - 예: My edits got swept into their teardown-hardening commit, so the code is in HEAD under someone else's message.
+- **eyeball (a number)** — 눈대중으로 훑어 확인하다(캐주얼; 격식은 visually inspect). ↔ verify programmatically.
+  - 예: The overlays show the click point and the OCR strip, so you can eyeball any number that looks wrong.

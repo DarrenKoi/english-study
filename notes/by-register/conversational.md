@@ -315,3 +315,5 @@
   - 예: Resume the top in-progress item first — its next action is already written and momentum is cheapest there.
 - **cheapest first** — 목록을 비용 순으로 배열했다는 압축 표기(oldest first 꼴).
   - 예: Here's the ladder, cheapest first — the first two steps need no Python and decide the rest.
+- **repeats aren't padding** — 반복 측정은 분량 채우기가 아니라는 선제 방어. ≈ redundancy here is load-bearing. ↔ that's just busywork.
+  - 예: Repeats aren't padding — your symptom is intermittent, and one run per combo cannot see stability at all.

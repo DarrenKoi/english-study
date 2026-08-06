@@ -631,3 +631,19 @@
   - 예: The test has to grow an explicit, documented carve-out rather than be silently loosened.
 - **deliberately narrow** — 되돌릴 수 없는 동작이라 범위를 일부러 좁게 잡았다. ≈ intentionally conservative. ↔ recursive by default.
   - 예: The sweep is deliberately narrow since it unlinks: one directory, glob-matched names only, symlinks skipped rather than followed.
+- **a refinement chain, not a vote** — 뒷 단계가 앞 결과만 다듬을 뿐 독립 검증이 아니다. ≈ a pipeline, not a cross-check. ↔ an independent cross-check.
+  - 예: The two models never independently agree — it's a refinement chain, not a vote, because the second one only sees a crop derived from the first.
+- **the weak link** — 여러 단계 중 실제로 무너지는 지점. ≈ the bottleneck, the failure point. ↔ the reliable leg.
+  - 예: If the coarse stage refuses to ground, the coarse model is the weak link and the fine model never gets a chance.
+- **deliberate friction** — 실수로는 켤 수 없게 일부러 넣은 번거로움. ≈ an intentional speed bump. ↔ a frictionless default.
+  - 예: The cursor arm stays behind an explicit env flag — that's deliberate friction, since it's the only part that moves the physical mouse.
+- **cosmetic (change)** — 겉만 바뀌고 실제 동작은 그대로인 수정. ≈ a no-op in practice. ↔ a substantive change.
+  - 예: Lowering the ratio changed nothing — my first attempt at this was cosmetic, and I caught it before shipping.
+- **one feature reading as two** — 분류가 잘못돼 한 기능이 둘로 갈려 기록되다. ≈ double-counted under two slugs. ↔ consolidated under one slug.
+  - 예: The API path fell through to the fallback and was filed as `cdsem` — one feature reading as two.
+- **the schema of record** — 같은 사실이 여러 곳에 있을 때 기준이 되는 정본. ≈ the single source of truth. ↔ a derived copy.
+  - 예: The mag-pixel feature is frontend-only, with `cdsem_mag_pixel_table.txt` as the schema of record.
+- **the right move is deletion, not inversion** — 플래그를 false 로 두지 말고 아예 지우는 게 맞다. ≈ remove it rather than neutralize it. ↔ keep it and flip the default.
+  - 예: If the predicate were left hardcoded to false, the badge and its tests would become unreachable code — the right move is deletion, not inversion.
+- **close it by structure** — 관행·주석이 아니라 코드 구조 자체로 결함을 막다. ↔ rely on convention.
+  - 예: Three cycles now share one teardown contract, which closes by structure the drift that copied `finally` blocks used to allow.
