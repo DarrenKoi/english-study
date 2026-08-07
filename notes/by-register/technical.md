@@ -563,3 +563,21 @@
   - 예: My edits got swept into their teardown-hardening commit, so the code is in HEAD under someone else's message.
 - **eyeball (a number)** — 눈대중으로 훑어 확인하다(캐주얼; 격식은 visually inspect). ↔ verify programmatically.
   - 예: The overlays show the click point and the OCR strip, so you can eyeball any number that looks wrong.
+- **coincide by construction** — 우연의 일치가 아니라 만들어진 구조상 필연적으로 같다. 그 자리에서 하는 검증이 무의미한 이유를 한 구로 끝낸다. ≈ follow trivially. ↔ agree by coincidence.
+  - 예: The mock builds `recipe_id` from the same index it uses for `oper_seq`, so the two orderings coincide by construction and a browser check proves nothing.
+- **axis furniture** — 차트에서 데이터가 아닌 부속(축선·눈금·라벨)을 묶어 부르는 말. ≈ chart chrome. ↔ the data ink.
+  - 예: No axis furniture here: the host is 64px tall, so every pixel belongs to the bars.
+- **there's no room for (X)** — 값이 비어 있는 게 아니라 스키마에 담을 자리 자체가 없다. ≈ the schema can't express it. ↔ the field is there, just empty.
+  - 예: `cdsem_idp_ver.parameters` is `{name: point_count}` — there's no room for a `Mother_Para` flag.
+- **hunt it (down)** — 아직 어디 있는지 모르는 원인을 끝까지 쫓아 잡다(결과가 아니라 과정을 약속). ≈ track it down. ↔ let it lie.
+  - 예: R3 fine, M zero → that's a real join bug and I'll hunt it.
+- **pass (X) through (unchanged)** — 처리 못 하는 입력을 변환도 예외도 없이 그대로 흘려보내다. ≈ return it as-is. ↔ coerce it / substitute a default.
+  - 예: The formatter passes an unparseable date through instead of throwing.
+- **survive (X)** — 잘 처리한다가 아니라 터지지 않는다. 기대치를 일부러 낮춰 테스트가 보증하지 않는 것까지 전달한다. ↔ choke on.
+  - 예: The builder survives an empty series and returns an empty `data` array.
+- **the (X) it was handed** — 스스로 정하지 않고 넘겨받은 바로 그 값. 수동태가 "이 함수엔 결정권이 없다"를 드러낸다. ≈ whatever it's given. ↔ one of its own choosing.
+  - 예: It paints the bars with the colour it was handed, never one of its own.
+- **all green** — CI·테스트·린트가 전부 통과(대시보드 색에서 온 관용구; 격식은 all checks pass). ↔ red / failing.
+  - 예: All green — 1,227 tests, typecheck and lint clean.
+- **it's the only place (X) is observable** — 차이가 드러나는 유일한 자리. 테스트를 왜 그 층에 뒀는지 변호할 때 쓴다. ↔ visible anywhere you look.
+  - 예: I pulled the comparators into a unit test — it's the only place the difference is observable until this hits real recipe names.

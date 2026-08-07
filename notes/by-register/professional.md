@@ -647,3 +647,19 @@
   - 예: If the predicate were left hardcoded to false, the badge and its tests would become unreachable code — the right move is deletion, not inversion.
 - **close it by structure** — 관행·주석이 아니라 코드 구조 자체로 결함을 막다. ↔ rely on convention.
   - 예: Three cycles now share one teardown contract, which closes by structure the drift that copied `finally` blocks used to allow.
+- **violate the letter of (X) / the spirit of (X)** — 조문(형식)을 어기다 / 취지를 어기다. 법률 관용구에서 왔고, 둘을 나란히 놓아 "형식은 지켰다"는 변명을 막는다. ↔ honour the intent.
+  - 예: Violating the letter of this process is violating the spirit of debugging.
+- **(X) doesn't stick** — 고쳐도 붙어 있지 않고 되돌아온다. 주어를 사람이 아니라 조치로 둔다. ≈ regress / not hold. ↔ hold up.
+  - 예: Untested fixes don't stick — the next refactor quietly puts the bug back.
+- **whichever way that goes** — 그게 어느 쪽으로 결론 나든. 미결 항목 옆에 확정 항목을 붙일 때의 접속 장치. ≈ either way. ↔ depending on which way it goes.
+  - 예: Separately, there's a defect I can fix from home whichever way that goes.
+- **aim the fix** — 고칠 능력은 있는데 표적이 없어 어디에 넣을지 못 정하다. 불가 보고가 아니라 협조 요청으로 읽힌다. ↔ fix blind.
+  - 예: I can't reproduce it here, so I need your observation to aim the fix.
+- **can spare it** — 공간·시간·예산을 그만큼 내줄 여유가 있다. ≈ has the headroom for it. ↔ can't give up the space.
+  - 예: The slider needs 20px and only the standalone card can spare it.
+- **question the fundamentals** — 개별 수정을 멈추고 전제를 다시 따져 묻다(감정이 아니라 절차를 가리킴). ≈ revisit the premise. ↔ keep patching.
+  - 예: Three failed fixes is the signal to stop patching and question the fundamentals.
+- **one variable at a time** — 한 번에 하나씩만 바꿔라. 이유(원인 분리)가 표현 안에 이미 들어 있다. ≈ isolate the change. ↔ bundle the fixes.
+  - 예: Make the smallest possible change to test the hypothesis — one variable at a time.
+- **make guessing tempting** — 상황이 찍고 싶게 만든다. 유혹의 주체를 사람에서 상황으로 옮겨 지적을 부드럽게 한다. ≈ invite shortcuts. ↔ forces you to slow down.
+  - 예: Use it especially under time pressure — emergencies make guessing tempting.

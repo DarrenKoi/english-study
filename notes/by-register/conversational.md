@@ -317,3 +317,19 @@
   - 예: Here's the ladder, cheapest first — the first two steps need no Python and decide the rest.
 - **repeats aren't padding** — 반복 측정은 분량 채우기가 아니라는 선제 방어. ≈ redundancy here is load-bearing. ↔ that's just busywork.
   - 예: Repeats aren't padding — your symptom is intermittent, and one run per combo cannot see stability at all.
+- **(X) doesn't stick** — 고쳐도 오래 못 가고 되돌아온다. 회귀를 예언하는 말이라 근거를 길게 붙이지 않아도 경고로 읽힌다. ↔ hold up.
+  - 예: Untested fixes don't stick — the next refactor quietly puts the bug back.
+- **hunt it (down)** — 끝까지 쫓아 잡겠다. 아직 위치를 모를 때 `fix it` 보다 정직하다. ≈ track it down. ↔ let it lie.
+  - 예: R3 fine, M zero → that's a real join bug and I'll hunt it.
+- **whichever way that goes** — 그게 어느 쪽으로 결론 나든. 두 갈래 조건절을 한 번에 접는다. ≈ either way.
+  - 예: Separately, there's a defect I can fix from home whichever way that goes.
+- **aim the fix** — 수정을 어디에 겨눌지 정하다. 상대가 무엇을 주면 되는지까지 함께 지정된다. ↔ fix blind.
+  - 예: I can't reproduce it here, so I need your observation to aim the fix.
+- **all green** — 전부 초록불(테스트·타입·린트 다 통과). 뒤에 대시를 찍고 숫자를 붙이는 게 관용적 리듬. ↔ red / failing.
+  - 예: All green — 1,227 tests, typecheck and lint clean.
+- **can spare it** — 그만큼 내줄 여유가 있다. 목적어가 픽셀이면 레이아웃, 시간이면 일정 얘기가 된다. ↔ can't give up the space.
+  - 예: The slider needs 20px and only the standalone card can spare it.
+- **one variable at a time** — 한 번에 하나씩만. 실험 설계 용어가 그대로 디버깅 규범으로 넘어왔다. ↔ bundle the fixes.
+  - 예: Make the smallest possible change to test the hypothesis — one variable at a time.
+- **make guessing tempting** — (상황이) 찍고 싶게 만든다. "너는 성급하다"가 아니라 "그 상황이면 누구나"가 된다. ↔ forces you to slow down.
+  - 예: Use it especially under time pressure — emergencies make guessing tempting.

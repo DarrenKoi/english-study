@@ -390,7 +390,19 @@
     "-Users-daeyoung-Codes-auto-recipe-creator/1eb8788a-4802-4e5f-8b70-ebffccbc1d5f.jsonl": 865,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/ab26f8f0-e463-4b8d-91d1-5fdb8edcbaec.jsonl": 13,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/47f3639a-e003-4b59-9641-31f973a552db.jsonl": 275,
-    "-Users-daeyoung-Codes-flask-modules/567016aa-a98d-4ed0-9928-93cf0f76f1bb.jsonl": 13
+    "-Users-daeyoung-Codes-flask-modules/567016aa-a98d-4ed0-9928-93cf0f76f1bb.jsonl": 13,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/00d763f5-96ae-4850-a7cb-9357d3d74c57.jsonl": 26,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/7d59beee-4be4-4419-9b9d-32d8eb6e2b75.jsonl": 12,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/68159d16-eba7-4b27-a761-84a30b930d4c.jsonl": 597,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/9d1df760-f442-4213-9d23-926d73cbe7fa.jsonl": 15,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/d71fb37b-7562-4caf-af11-665a7961801f.jsonl": 15,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/20d6392b-caf2-4c90-804e-570ce4c33485.jsonl": 15,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/a021fc4a-623b-4b4b-ac68-94484ae836d9.jsonl": 14,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/df2c50df-e0fd-45cb-b840-685c03a30574.jsonl": 13,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/d977ac84-419a-4a5d-bc31-55c714c64a5d.jsonl": 13,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/771bd356-1e24-44cf-be12-cb2b37d95f43.jsonl": 143,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/39909d19-c7d7-4b61-a81a-a2e8bd0f4452.jsonl": 165,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/09b68640-ab84-4e16-bb9c-6f261a47ebb1.jsonl": 19
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -689,7 +701,13 @@
     "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-08-06-loop-failure-path-hardening-design.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-08-06-loop-failure-path-hardening-design.md:1785990793.996216:13876",
     "skewnono_v3_nuxt/docs/datatables/cdsem_mag_pixel_table.txt": "skewnono_v3_nuxt/docs/datatables/cdsem_mag_pixel_table.txt:1785969703.7082653:966",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-04-skewvoir-view-usage-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-04-skewvoir-view-usage-design.md:1785798220.420111:27952",
-    "skewnono_v3_nuxt/docs/datatables/device_statistics_weekly_trend.txt": "skewnono_v3_nuxt/docs/datatables/device_statistics_weekly_trend.txt:1785785675.936614:5228"
+    "skewnono_v3_nuxt/docs/datatables/device_statistics_weekly_trend.txt": "skewnono_v3_nuxt/docs/datatables/device_statistics_weekly_trend.txt:1785785675.936614:5228",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-07-activity-sparkline-echarts-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-07-activity-sparkline-echarts-design.md:1786113142.3940856:8664",
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-07-activity-sparkline-echarts.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-07-activity-sparkline-echarts.md:1786113142.3939316:25939",
+    "skewnono-eqp-view/docs/datatables/meas_hist.txt": "skewnono-eqp-view/docs/datatables/meas_hist.txt:1786109288.534322:12475",
+    "skewnono-eqp-view/docs/datatables/device_info.txt": "skewnono-eqp-view/docs/datatables/device_info.txt:1786106583.643998:5983",
+    "skewnono-eqp-view/docs/superpowers/specs/2026-08-07-recipe-tat-by-equipment-design.md": "skewnono-eqp-view/docs/superpowers/specs/2026-08-07-recipe-tat-by-equipment-design.md:1786106343.8418875:32466",
+    "skewnono-eqp-view/docs/superpowers/plans/2026-08-07-recipe-tat-by-equipment.md": "skewnono-eqp-view/docs/superpowers/plans/2026-08-07-recipe-tat-by-equipment.md:1786106343.8414645:131158"
   },
-  "last_run": "2026-08-07"
+  "last_run": "2026-08-08"
 }
