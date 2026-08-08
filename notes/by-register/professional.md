@@ -663,3 +663,29 @@
   - 예: Make the smallest possible change to test the hypothesis — one variable at a time.
 - **make guessing tempting** — 상황이 찍고 싶게 만든다. 유혹의 주체를 사람에서 상황으로 옮겨 지적을 부드럽게 한다. ≈ invite shortcuts. ↔ forces you to slow down.
   - 예: Use it especially under time pressure — emergencies make guessing tempting.
+- **smuggled in by implementation fiat** — 논의·기록 없이 구현자 재량으로 슬쩍 밀어 넣은 결정. 사람이 아니라 결정의 경로를 문제 삼아 리뷰에 얹기 좋다. ≈ slipped in without review. ↔ recorded with its reasoning.
+  - 예: Suppressing the badge may well be the right product call, but that call belongs in the spec — not smuggled in by implementation fiat.
+- **de-facto (threshold)** — 문서에는 없지만 팀이 실제로 지켜 온 사실상의 기준. 규칙 위반이라 말하지 않고 관행을 근거로 삼는다. ↔ de jure / codified in the style guide.
+  - 예: Three copies is this codebase's de-facto extract threshold, so the third copy is where we pull the pattern out.
+- **a guaranteed recurring tax** — 방치하면 앞으로도 반드시 반복해서 낼 유지보수 비용. `guaranteed` 가 확률 논쟁을 미리 닫는다. ↔ a one-time cost.
+  - 예: DESIGN.md sweeps are a recurring event in this repo, so the triplication is a guaranteed recurring tax.
+- **it reads as precedent for X** — 남겨 둔 예외가 다음 사례의 선례처럼 읽힌다. 오해할 사람을 지목하지 않고 방치의 비용을 말한다. ≈ sets a precedent. ↔ is clearly marked as an exception.
+  - 예: The deferral is acknowledged, but every day it stands it reads as precedent for the next zinc usage.
+- **a live risk, not a corner case** — 예외적 상황이라는 프레임을 뒤집는 판정. 앞에 발생률 수치를 붙여야 힘이 실린다. ↔ a theoretical edge case.
+  - 예: The ~20% cross-fab name overlap documented in the Phase B spec makes this a live risk, not a corner case.
+- **without spec sanction** — 명세의 승인 없이. `sanction` 은 이 형태에서 늘 "제재"가 아니라 "승인" 쪽이다. ≈ with no basis in the spec. ↔ as the spec mandates.
+  - 예: The implementation narrows a shipped signal's behavior without spec sanction.
+- **a sound rejection** — 타당한 거절. 상대의 판단을 먼저 인정하고 부작용만 짚는 양보 장치. ≈ the right call. ↔ a rejection that doesn't hold up.
+  - 예: `SkNavPill` was rejected for aria reasons — a sound rejection, but the geometry is now a second copy that drifts on any pill retone.
+- **acknowledged intent, not accident** — 몰라서 그런 게 아니라 스스로 인정한 의도. 증거(커밋 메시지 등)와 함께 써야 성립한다. ↔ an oversight.
+  - 예: The landing-page copy's own commit comment cites the pattern source — the duplication is acknowledged intent, not accident.
+- **a poor carrier for X** — X를 실어 나르기에 부적합한 수단. 판단의 초점을 취향에서 전달력으로 옮긴다. ≈ the wrong signal to use for. ↔ the right cue for X.
+  - 예: Opacity is a poor carrier for "secondary" state on filled surfaces — it changes perceived hue, not just intensity.
+- **the on-system move** — 디자인 시스템·규약 안에서 정석인 선택. `off-brand` 의 반대 방향 조어. ↔ off-system / ad-hoc.
+  - 예: If you do want the routed fab distinguished again, an edge cue is the on-system move, not transparency.
+- **by the litmus test** — 미리 정해 둔 단일 판별 기준에 따르면. 판단 주체를 나에서 문서로 옮긴다. ≈ the acid test(더 가혹한 시험이라는 뉘앙스). ↔ it's a judgement call either way.
+  - 예: By the litmus test this is a NAVIGATE control — pressing it swaps the entire panel stack, not a filter.
+- **one consequence worth stating plainly** — 고쳤지만 감수해야 할 결과를 축소하지 않고 자진 신고할 때. 완료 보고 맨 끝에 두는 자리 관례가 있다. ≈ one caveat(무게가 더 가볍다). ↔ it's fully fixed.
+  - 예: One consequence worth stating plainly: the key bump clears everyone's remembered selection once on next load.
+- **actively teaches X wrong** — 낡은 주석·문서가 다음 사람에게 틀린 것을 적극적으로 가르친다. `actively` 가 방치와 오정보를 가른다. ≈ worse than no comment at all. ↔ correctly discloses what it does.
+  - 예: A docstring describing a removed fallback path actively teaches the next session wrong.

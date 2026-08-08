@@ -581,3 +581,17 @@
   - 예: All green — 1,227 tests, typecheck and lint clean.
 - **it's the only place (X) is observable** — 차이가 드러나는 유일한 자리. 테스트를 왜 그 층에 뒀는지 변호할 때 쓴다. ↔ visible anywhere you look.
   - 예: I pulled the comparators into a unit test — it's the only place the difference is observable until this hits real recipe names.
+- **a hand-maintained invariant** — 강제 장치 없이 사람 기억으로만 지켜지는 불변식. 짝 표현 `holds only until …` 로 깨질 시점을 지목한다. ≈ enforced by convention only. ↔ enforced at the type level.
+  - 예: A hand-maintained `image === images[0]` invariant holds only until the first consumer that forgets it.
+- **colocated per repo convention** — 저장소 관례대로 대상 코드 옆에 같이 두어. `per` 는 지시문에 어울리는 짧은 격식체 전치사. ↔ kept in a separate top-level test tree.
+  - 예: Add the bad-`tool_slug` → 400 coverage for both equipment endpoints, colocated per repo convention.
+- **shotgun across (two components)** — 한 번의 변경이 여러 파일로 흩어져 번지다. 리팩터링 냄새 `Shotgun Surgery` 를 동사로 쓴 용법. ≈ ripple through. ↔ land in one file.
+  - 예: The byte-identical pair in `NavPill.vue` means that retone already shotguns across two design-system components.
+- **the whole plumbing already exists** — 하부 배선은 이미 다 깔려 있다. 큰 기능처럼 보이는 요청의 견적을 낮출 때. ≈ the wiring is already there. ↔ this needs to be built from scratch.
+  - 예: `toolTypeHref()` already reads `buildFabSegment(store.fabs)` — the whole multi-fab plumbing exists, the page just writes through the old shim.
+- **poison (a stored value)** — 잘못된 값이 캐시·localStorage에 남아 이후 실행까지 오염시키다. 조치 쪽 짝은 `purge`. ≈ taint(보안 문맥에서 흔함). ↔ purge / clear the stored value.
+  - 예: One visit to device-statistics poisoned the app-wide fab selection permanently, surfacing as a pre-selected M16 on the landing page.
+- **that write bought nothing** — 그 코드가 위험만 만들고 대가로 얻은 것은 없다. `buy`(비용을 내고 얻다)의 부정형. ≈ it served no purpose. ↔ that's what the write buys you.
+  - 예: The page keeps its own fab in `useDeviceStatisticsPreferences`, so that global write bought nothing.
+- **no orphaned wrapper is left holding the port** — 포트를 붙잡고 남은 고아 프로세스가 없다. "죽였다"가 아니라 "다시 켤 수 있다"까지 보증한다. ≈ nothing is still listening on that port. ↔ something is still bound to the port.
+  - 예: Its npm parent also exited cleanly, so no orphaned wrapper is left holding the port.

@@ -333,3 +333,7 @@
   - 예: Make the smallest possible change to test the hypothesis — one variable at a time.
 - **make guessing tempting** — (상황이) 찍고 싶게 만든다. "너는 성급하다"가 아니라 "그 상황이면 누구나"가 된다. ↔ forces you to slow down.
   - 예: Use it especially under time pressure — emergencies make guessing tempting.
+- **invent a second look** — 같은 목적에 두 번째 스타일을 새로 만들어 내다. `rather than …` 형태로 쓰면 기존 사례를 따르는 근거가 된다. ↔ follow the existing precedent.
+  - 예: The repo already has a checkbox-dropdown precedent in `CompareToolPicker.vue`, so I'll follow that rather than invent a second look.
+- **that's the price of X** — 그게 그 해법의 대가다. 부작용을 변명 없이 값으로 환산해 결정권을 상대에게 넘긴다. ≈ the trade-off is …. ↔ there's no downside to this.
+  - 예: That's the price of purging the bad values — say the word if you'd rather keep existing selections.
