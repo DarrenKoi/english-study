@@ -595,3 +595,21 @@
   - 예: The page keeps its own fab in `useDeviceStatisticsPreferences`, so that global write bought nothing.
 - **no orphaned wrapper is left holding the port** — 포트를 붙잡고 남은 고아 프로세스가 없다. "죽였다"가 아니라 "다시 켤 수 있다"까지 보증한다. ≈ nothing is still listening on that port. ↔ something is still bound to the port.
   - 예: Its npm parent also exited cleanly, so no orphaned wrapper is left holding the port.
+- **treat every ID as an opaque string** — 값의 속을 파싱하지 말고 그대로 넘겨라. 접미사가 의미 있어 보여도 근거로 삼지 않는다. ≈ treat it as a black box. ↔ derive the value from its parts.
+  - 예: The encoded suffix can grow beyond one character, so treat every ID as an opaque string.
+- **X is the authority for Y** — Y 에 관해서는 X 가 최종 판단 기준이다. 문서가 낡을 수 있는 영역에서 진실의 출처를 한 곳으로 못박는 틀. ≈ X is the source of truth. ↔ the documentation is authoritative.
+  - 예: The installed binary is the authority for command syntax, so begin with `herdr --help` rather than the examples in this file.
+- **its result is considered seen** — 그 결과는 이미 본 것으로 간주된다. 판정 주체를 감춘 명세용 수동태(`be considered + 분사`). ≈ is treated as acknowledged. ↔ its result has not been seen.
+  - 예: An idle pane means the agent is waiting and its result is considered seen.
+- **keep X on one stable control surface** — 여러 조작을 도중에 바뀌지 않는 하나의 손잡이 위에 모으다. 항공기 조종면 은유. ≈ a single entry point. ↔ scatter the controls across several APIs.
+  - 예: Use the pane ID as the control target — this keeps spawning, input, reads, waits, and cleanup on one stable control surface.
+- **do not infer a larger topology from X** — 작은 요청을 근거로 더 큰 구조를 지어내지 마라. 범위 제한 지시. ≈ stay within the requested scope. ↔ extrapolate from the request.
+  - 예: Do not infer a larger topology from a request to start an agent or command.
+- **Inspect before waiting.** — 기다리기 전에 이미 나와 있는 출력을 먼저 봐라. 동명사 두 개를 `before` 로 이은 두 단어 격언. ≈ look before you leap. ↔ block on the next event straight away.
+  - 예: Inspect before waiting — read the current output first, then wait for the next state you expect.
+- **a thin forwarder only** — 받아서 그대로 넘기기만 하는 얇은 중계자. 끝의 `only` 가 "그 이상 하지 마라"까지 얹는다. ≈ a pass-through layer. ↔ an orchestrator that owns the decision.
+  - 예: The subagent is a thin forwarder only — it runs one command and returns that command's stdout as-is.
+- **a stale-credential surprise** — 만료된 자격증명 탓에 뒤늦게 터지는 사고. 하이픈으로 앞을 한 덩어리 형용사로 묶는다. ≈ a nasty surprise down the line. ↔ a verified, live session.
+  - 예: The check round-trips through the app-server, so this won't fail later with a stale-credential surprise.
+- **quote anyway for predictability** — 안 해도 되지만 예측 가능하게 쓰려면 그렇게 해라. `anyway` 가 양보를 한 단어로 처리한다. ≈ it's optional, but do it. ↔ skip the quotes when the shell won't split it.
+  - 예: Unquoted multi-word names get joined rather than rejected — quote anyway for predictability.

@@ -689,3 +689,23 @@
   - 예: One consequence worth stating plainly: the key bump clears everyone's remembered selection once on next load.
 - **actively teaches X wrong** — 낡은 주석·문서가 다음 사람에게 틀린 것을 적극적으로 가르친다. `actively` 가 방치와 오정보를 가른다. ≈ worse than no comment at all. ↔ correctly discloses what it does.
   - 예: A docstring describing a removed fallback path actively teaches the next session wrong.
+- **tee up a concrete restart** — 대신 해 주지 않고 곧바로 착수할 수 있게 올려만 두다. 골프 티 은유. ≈ line up the next step. ↔ leave it wide open.
+  - 예: Surface the unfinished work and tee up a concrete restart, but do not start coding until the user picks a job.
+- **Keep it scannable.** — 정독하지 않고 훑어도 요점이 잡히게 써라. 목록·굵은 글씨를 요구하는 완곡한 지시. ≈ make it skimmable. ↔ written as dense prose.
+  - 예: Show the jobs grouped as they're stored and keep it scannable.
+- **momentum is cheapest there** — 거기서 다시 속도를 붙이는 비용이 가장 싸다. 재개 비용을 경제 은유로 환산. ≈ the lowest activation energy. ↔ starting there means paying the ramp-up cost twice.
+  - 예: Pick the top in-progress item, since its next action is already written and momentum is cheapest there.
+- **Don't invent jobs.** — 없는 일감을 지어내지 마라. `invent` 가 "사실 아닌 것을 만들어 낸다"는 부정적 의미로 쓰인 자리. ≈ don't fabricate entries. ↔ reconstruct the list from git history.
+  - 예: If the carryover is missing, say there's nothing carried over — don't invent jobs.
+- **dense is better than verbose** — 장황한 것보다 빽빽한 편이 낫다. `dense` 를 칭찬으로 쓰는 게 요점. ≈ high signal-to-noise. ↔ padded out with explanation.
+  - 예: CLAUDE.md should stay human-readable; dense is better than verbose.
+- **one-off fixes unlikely to recur** — 다시 생길 것 같지 않은 일회성 수정. 형용사구를 관계대명사 없이 후치. ≈ a one-time workaround. ↔ a recurring failure mode.
+  - 예: Keep it minimal: skip generic best practices and one-off fixes unlikely to recur.
+- **when a one-liner suffices** — 한 줄이면 충분한데도 길게 쓸 때를 겨냥한 조건절. `suffice` 는 `be enough` 의 격식체. ≈ when one line would do. ↔ when the reasoning genuinely needs a paragraph.
+  - 예: Avoid verbose explanations when a one-liner suffices.
+- **report findings ranked by severity** — 심각도 순으로 정렬해 보고하라. 리뷰 의뢰문의 표준 문구. ≈ list them worst-first. ↔ report them in the order you found them.
+  - 예: Do not change code — report findings ranked by severity with file:line.
+- **be adversarial, look for real defects** — 동조하지 말고 진짜 깨지는 것만 찾아라. `real` 이 스타일 지적을 잘라 낸다. ≈ poke holes in it. ↔ sanity-check it.
+  - 예: Be adversarial and look for real defects, not style nits.
+- **when X is evidence** — X 자체가 판단 근거가 되는 경우에 한해. 평소엔 장식인 것이 문제 상황에선 증거가 된다는 뉘앙스. ≈ when X is diagnostic. ↔ when X is only cosmetic.
+  - 예: Use `--format ansi` when colors and terminal styling are evidence; otherwise use text.
