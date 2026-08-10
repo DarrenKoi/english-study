@@ -341,3 +341,11 @@
   - 예: Restate that exact next action so the user can dive straight in.
 - **mid-turn / mid-flight** — 그 일이 아직 안 끝난 시점. `mid-` 를 명사에 붙여 한 단어로 만들고 진행형과 잘 붙는다. ≈ in the middle of doing X. ↔ between turns.
   - 예: Seeing my own pane as `working` is expected — I'm mid-turn running the scan, so I show up in my own results.
+- **That's rationalization.** — 그건 합리화다. `rationalization` 은 이성적 사고가 아니라 사후 정당화를 뜻하는 부정어다. ≈ that's a cop-out. ↔ that's a legitimate exception.
+  - 예: Thinking "skip TDD just this once"? Stop. That's rationalization.
+- **Delete means delete.** — 지우라면 지우는 거다. `X means X` 동어반복이 "달리 읽지 말라"는 강조 장치로 굳었다(cf. no means no). ↔ use your judgment.
+  - 예: Don't keep it as reference, don't adapt it while writing tests — delete means delete.
+- **glad it landed cleanly** — 깔끔하게 들어가서 다행이다. 앞의 `I'm` 을 생략한 구어 응답이고, `land` 는 머지·배포된 변경이 착지했다는 은유. ≈ happy it worked out.
+  - 예: Thanks — glad it landed cleanly.
+- **one thing I decided rather than asked** — 여쭙지 않고 제가 판단한 것이 하나 있습니다. 사과가 아니라 재량 범위를 스스로 공개하는 어법. ≈ I took the liberty of …. ↔ I left that for you to decide.
+  - 예: One thing I decided rather than asked: you said "datatable" in the singular, but that view has two tables and both lacked export.

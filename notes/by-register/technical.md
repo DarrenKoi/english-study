@@ -613,3 +613,21 @@
   - 예: The check round-trips through the app-server, so this won't fail later with a stale-credential surprise.
 - **quote anyway for predictability** — 안 해도 되지만 예측 가능하게 쓰려면 그렇게 해라. `anyway` 가 양보를 한 단어로 처리한다. ≈ it's optional, but do it. ↔ skip the quotes when the shell won't split it.
   - 예: Unquoted multi-word names get joined rather than rejected — quote anyway for predictability.
+- **turn a cap into a stampede** — 부하를 묶으려 만든 상한이 걸리는 순간 오히려 폭주를 여는 역설. `turn A into B` 가 의도와 결과의 뒤집힘을 담는다. ↔ hold the line.
+  - 예: Releasing the whole panel at the exact moment the tool is saturated is what turns a cap into a stampede.
+- **wait out (a refusal)** — 저절로 풀릴 상황을 버티며 기다리다. `out` 이 "끝날 때까지"를 맡는다. ≈ ride it out. ↔ bail out.
+  - 예: A refused POST is waited out rather than surfaced, because the slot frees up as soon as the job ahead of it finishes.
+- **slower and no lighter** — 더 느리기만 하고 가벼워지지도 않는. `no + 비교급` 이 "조금도 아니다"라는 강한 부정. ≈ strictly worse.
+  - 예: Without that re-read the waiters would simply take turns visiting the tool, which is slower and no lighter.
+- **park a thread on that key forever** — 스레드를 그 키에 영구히 붙들어 두다. `park` 는 쓰지도 않으면서 자리만 차지한다는 그림. ≈ tie up. ↔ release it back to the pool.
+  - 예: One tool error must not park a worker thread on that key forever.
+- **predate the diff** — 이 변경 이전부터 있던 문제다. 지적은 남기되 작성자를 탓하지 않는 리뷰 완충어. ≈ pre-existing. ↔ introduced by this change.
+  - 예: The coverage gap predates the diff — widen the glob or record the exclusion in CLAUDE.md.
+- **assert more than the screen does** — 화면이 말하는 것보다 더 단정해 버리다. 대동사 `does` 로 반복을 피하는 비교 구문. ↔ mirror exactly what the UI shows.
+  - 예: The CSV honors that same gate, because recomputing the badges would produce a file that asserts more than the screen does.
+- **at zero new abstractions** — 새 추상화 하나 없이. 전치사 `at` 이 "그 비용으로"라는 가격표를 붙인다. ≈ without inventing a new layer. ↔ at the cost of one more indirection.
+  - 예: Reusing it kept both new tables at zero new abstractions.
+- **a two-line revert** — 두 줄만 지우면 되돌아가는. 되돌리기 비용을 숫자로 못박아 결정을 가볍게 만든다. ↔ a one-way door.
+  - 예: If you only wanted the fleet table, the matrix buttons are a two-line revert.
+- **the line hugs the axis** — 값이 0에 몰려 선이 축에 딱 붙다. `hug` 는 무생물이 곡선을 따라 밀착할 때 쓴다. ≈ flatlines. ↔ the series spreads across the range.
+  - 예: Align-fail days are mostly 0, so the line hugs the axis and you can't count the zero days.

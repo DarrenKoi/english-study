@@ -709,3 +709,25 @@
   - 예: Be adversarial and look for real defects, not style nits.
 - **when X is evidence** — X 자체가 판단 근거가 되는 경우에 한해. 평소엔 장식인 것이 문제 상황에선 증거가 된다는 뉘앙스. ≈ when X is diagnostic. ↔ when X is only cosmetic.
   - 예: Use `--format ansi` when colors and terminal styling are evidence; otherwise use text.
+- **judge's call** — 규칙으로는 안 갈리니 결정권자 재량이다. 지적을 남기되 강요하지 않는 리뷰 어투. ≈ your call. ↔ non-negotiable.
+  - 예: Two occurrences of a one-liner — extraction is borderline; judge's call.
+- **borderline** — 기준선 바로 위아래라 어느 쪽으로도 볼 수 있는. 단정을 피하면서 "무시할 정도는 아니다"까지 담는다. ≈ marginal. ↔ clear-cut.
+  - 예: A shared helper would carry both, but with only two call sites the extraction is borderline.
+- **left stale** — 갱신 없이 방치돼 사실과 어긋난. `leave + 목적어 + 형용사` 라 부작위를 겨눈다. ≈ out of date. ↔ kept current.
+  - 예: The "Project skills" table was left stale — the diff adds three skill directories and touches neither CLAUDE.md nor AGENTS.md.
+- **reference, not restate** — 다시 쓰지 말고 가리키기만 해라. 동사 둘을 맞세워 진단과 처방을 한 호흡에 담는다. ↔ duplicate the rationale in each file.
+  - 예: `models.md` is the designated home; the skills should reference, not restate.
+- **the tree it claims to list** — 자기가 나열한다고 주장하는 그 트리. `claim to` 가 약속과 현실의 어긋남을 관계절 안에 넣는다. ≈ what it purports to cover.
+  - 예: The documented index no longer matches the tree it claims to list.
+- **the criterion as written is unmet** — 해석이 아니라 문면 그대로의 기준이 충족되지 않았다. `as written` 이 명사 뒤에서 그 한정을 맡는다. ↔ satisfied to the letter.
+  - 예: Disclosed openly, but the criterion as written is unmet.
+- **the premises check out** — 전제가 조사해 보니 사실이었다. 검증 결과를 먼저 통과시킨 뒤 지적으로 넘어가는 리뷰 구조를 만든다. ↔ the premise doesn't hold.
+  - 예: Verification complete — the premises check out, and the settled judgments are respected.
+- **to buy that last factor** — 그 마지막 한 배수를 얻자고. 복잡도를 지불해 성능을 산다는 은유. ≈ for that last few percent. ↔ comes for free.
+  - 예: A Redis lease would add TTLs, polling and failure modes to buy that last factor.
+- **a job at risk of being forgotten** — 잊힐 위험에 놓인 일감. 수동 동명사라 누가 잊는지 지목하지 않고 위험만 말한다. ≈ in danger of slipping through the cracks. ↔ actively tracked.
+  - 예: Call out anything whose date is several days old — that's a job at risk of being forgotten.
+- **a file outlives the caveat text next to it** — 파일은 옆에 붙은 단서 문구보다 오래 남는다. 산출물을 화면보다 보수적으로 만들어야 하는 근거. ↔ the caveat travels with the data.
+  - 예: Recomputing the signals unconditionally would have produced a file that asserts more than the screen does, and a file outlives the caveat text next to it.
+- **would read as** — (독자에게) ~라고 읽히게 된다. `read` 가 수동태 없이 자동사로 쓰이는 용법. ≈ comes across as. ↔ leaves no room for misreading.
+  - 예: A recipe an equipment never ran gets an empty rate, not `0.00` — 0% would read as "ran it and never failed."
