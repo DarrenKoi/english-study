@@ -731,3 +731,21 @@
   - 예: Recomputing the signals unconditionally would have produced a file that asserts more than the screen does, and a file outlives the caveat text next to it.
 - **would read as** — (독자에게) ~라고 읽히게 된다. `read` 가 수동태 없이 자동사로 쓰이는 용법. ≈ comes across as. ↔ leaves no room for misreading.
   - 예: A recipe an equipment never ran gets an empty rate, not `0.00` — 0% would read as "ran it and never failed."
+
+## 2026-08-12
+- **lopsided** — 자원·부하가 한쪽으로만 쏠려 균형이 깨진. 분포를 말하는 `skewed` 와 달리 배치에 붙는다. ≈ unbalanced / top-heavy. ↔ evenly split.
+  - 예: Here's what's actually running today and why it's now lopsided.
+- **the binding constraint** — 여러 제약 중 실제로 결정을 좌우하는 하나. 흐름의 좁은 목을 뜻하는 `bottleneck` 과 달리 "엉뚱한 데를 만지지 말라"는 판단을 담는다. ≈ the limiting factor. ↔ slack.
+  - 예: With 16 GB of system RAM, the binding constraint is per-process host memory, not GPU memory.
+- **the tempting fix** — 누구나 먼저 떠올릴 해법. 기각한 대안을 먼저 세워 두면 "왜 쉬운 길을 두고?"라는 되물음이 사라진다. ≈ the obvious-looking fix. ↔ the fix that actually holds.
+  - 예: The tempting fix here was to derive the repo root from `__file__` like the other scripts do — but that would have been wrong.
+- **X is the contract, not an oversight** — 어설퍼 보이는 코드가 실은 지켜야 할 약속이다. 근거를 함께 대지 않으면 우기는 말이 된다. ≈ by design, not by accident. ↔ an accident of implementation.
+  - 예: The script reads the working tree on purpose — `Path.cwd()` is the contract, not an oversight.
+- **deserve real suspicion** — 진짜로 의심해 볼 만하다. `deserve` 를 써서 의심의 근거를 직감이 아니라 대상의 조건에 둔다. ≈ warrant a closer look. ↔ can be safely ruled out.
+  - 예: Cause B deserves real suspicion, because the two join claims are not equally solid.
+- **theirs to commit** — 그건 그쪽이 커밋할 몫이다. 소유격 + to부정사로 "권한이 저쪽"과 "그래서 안 건드렸다"를 한 번에 말한다. ≈ their call. ↔ mine to land.
+  - 예: The parallel session's edits are still uncommitted in your tree — untouched, and theirs to commit.
+- **hold in context at once** — 쪼개지 않고 한 번에 머릿속에 담다. 파일 크기를 논할 때 사람과 모델 양쪽에 같은 논리로 쓴다. ≈ keep in your head. ↔ too big to hold at once.
+  - 예: You reason better about code you can hold in context at once, and your edits are more reliable when files are focused.
+- **a latent trap, not a current break** — 지금 깨진 건 아니고 나중에 걸릴 함정. 두 명사구를 `not` 으로 맞세워 긴급도와 중요도를 분리한다. ↔ a live failure.
+  - 예: Worth consolidating the three `Fdc*.vue` files at some point, but it's a latent trap, not a current break.

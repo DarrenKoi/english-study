@@ -631,3 +631,23 @@
   - 예: If you only wanted the fleet table, the matrix buttons are a two-line revert.
 - **the line hugs the axis** — 값이 0에 몰려 선이 축에 딱 붙다. `hug` 는 무생물이 곡선을 따라 밀착할 때 쓴다. ≈ flatlines. ↔ the series spreads across the range.
   - 예: Align-fail days are mostly 0, so the line hugs the axis and you can't count the zero days.
+
+## 2026-08-12
+- **a band-aid** — 증상만 덮는 미봉책. `X is a band-aid` 로 단정하거나 `a band-aid over Y` 로 무엇을 덮는지까지 밝힌다. ≈ a stopgap (더 중립적). ↔ a root-cause fix.
+  - 예: The sidecar join is the real fix — hardening the prompt is a band-aid.
+- **still cramped** — 옮겨 봤지만 여전히 비좁은. `full` 이 "다 찼다"라면 이쪽은 "들어가긴 했는데 움직일 여유가 없다". ≈ tight / squeezed. ↔ roomy.
+  - 예: Everything moved to GPU 1, still cramped.
+- **a bug factory** — 결함 하나가 아니라 결함이 계속 생산되는 구조. 가정법과 붙어 기각한 설계를 설명한다. ≈ a footgun. ↔ safe by construction.
+  - 예: Remembering the index instead of the label would have been a bug factory.
+- **silently degrade into a guess** — 아무 소리 없이 추측으로 주저앉다. 실패는 눈에 띄지만 추측은 그럴듯한 답을 내놓아 더 오래 살아남는다. ≈ quietly fall back to a default. ↔ fail loudly.
+  - 예: Every path that loses the tag silently degrades into a guess.
+- **the vintage of X** — 그 복사본이 언제 적 판인지. 버전 번호가 없는 파일의 시점을 간접 증거로 추정할 때 쓴다. ≈ how old the copy is.
+  - 예: This copy can't even import, but it tells you the vintage of what you last cp'd.
+- **dead leftover** — 실행 경로에 없는데 지워지지 않고 남은 것. 살아 있는 코드에 붙이면 사실이 틀리므로 근거를 함께 댄다. ≈ cruft / a stale artifact. ↔ live code.
+  - 예: `back_dev_home/ebeam/hitachi/` no longer exists, so this copy is dead leftover here.
+- **keyed on X** — X 를 키로 삼는. "두 소스가 같은 키를 쓴다"를 밝히는 순간 폴백이 폴백 구실을 못 한다는 결론이 따라 나온다. ≈ indexed by / looked up by. ↔ fab-agnostic.
+  - 예: Both sources are keyed on `fab_name`, so a wrong fab kills them at once.
+- **a granularity mismatch** — 세분화 단위가 어긋난 불일치. 양쪽 다 자기 기준으로는 맞아서 눈으로 훑어서는 안 잡힌다. cf. a case mismatch. ↔ same grain on both sides.
+  - 예: If Redis catalogs by `m16` but meas_hist stores `M16B`, every recipe of that fab fails identically — that's a granularity mismatch, not a typo.
+- **YAGNI ruthlessly** — 필요 없는 건 가차 없이 쳐낼 것. 원칙 이름을 동사로 굴린 개발자 은어라 사외 문서에서는 풀어쓰는 편이 안전하다. ≈ cut it to the bone. ↔ build for the future.
+  - 예: YAGNI ruthlessly — remove unnecessary features from every approach and design.

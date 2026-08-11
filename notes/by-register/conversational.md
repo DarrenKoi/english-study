@@ -349,3 +349,11 @@
   - 예: Thanks — glad it landed cleanly.
 - **one thing I decided rather than asked** — 여쭙지 않고 제가 판단한 것이 하나 있습니다. 사과가 아니라 재량 범위를 스스로 공개하는 어법. ≈ I took the liberty of …. ↔ I left that for you to decide.
   - 예: One thing I decided rather than asked: you said "datatable" in the singular, but that view has two tables and both lacked export.
+
+## 2026-08-12
+- **have it backwards** — 거꾸로 알고 있었다. 사과 없이 사실만 뒤집는 어투라 정정에 쓰기 좋고, 상대에게 쓸 때는 `I think you …` 로 완충한다. ↔ read it right.
+  - 예: I had the version risk backwards — the flag that broke was the old one, not the new one.
+- **actively point at the wrong file** — 에러가 엉뚱한 파일을 대놓고 가리키다. `actively` 하나가 "정보가 없었다"와 "틀린 정보를 줬다"를 가른다. ↔ name the real culprit.
+  - 예: This one is worth remembering — it cost real time, and the error message actively points at the wrong file.
+- **it cost real time** — 시간을 적잖이 잡아먹었다. `real` 이 숫자 없이도 비용을 실감 나게 만들어, 기록해 둘 값어치를 설득한다. ≈ it burned an afternoon. ↔ it was a quick one.
+  - 예: This one is worth remembering; it cost real time.
