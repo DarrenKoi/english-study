@@ -442,7 +442,12 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/d5b1f8a7-a675-4dcf-8257-dd69be1407a8.jsonl": 742,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/2f1bb741-0126-45d4-b66d-b98a65b20d00.jsonl": 147,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/b7f99cbc-c530-43f5-ad8a-b2fbcdb1f759.jsonl": 13,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/973e0d9c-c810-408d-bd63-3ec2938c9cc9.jsonl": 13
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/973e0d9c-c810-408d-bd63-3ec2938c9cc9.jsonl": 13,
+    "-Users-daeyoung-Codes-auto-recipe-creator/c56e5b78-4aa6-46e8-ab60-635b4a2fab2d.jsonl": 12,
+    "-Users-daeyoung-Codes-auto-recipe-creator/b0cef303-a675-4e0d-b1bd-a6515b79fe9b.jsonl": 761,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/2421c16a-13de-45b1-8a3a-3608c475a2b3.jsonl": 270,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/263b6a03-b3b5-4377-9471-8d8b20b3c499.jsonl": 12,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/8c8d3035-17d3-4e6f-9a0c-9b1a3b1fb883.jsonl": 20
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -727,7 +732,7 @@
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-02-recipe-param-export-and-api.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-02-recipe-param-export-and-api.md:1785623407.7443814:67062",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-03-live-alarm-grouped-triage-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-03-live-alarm-grouped-triage-design.md:1785730371.9860702:9536",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-03-live-alarm-grouped-triage.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-03-live-alarm-grouped-triage.md:1785730359.7092595:29416",
-    "skewnono_v3_nuxt/docs/back-end/msr-image-download.md": "skewnono_v3_nuxt/docs/back-end/msr-image-download.md:1785820099.2145758:12352",
+    "skewnono_v3_nuxt/docs/back-end/msr-image-download.md": "skewnono_v3_nuxt/docs/back-end/msr-image-download.md:1786493512.2774723:12352",
     "skewnono_v3_nuxt/docs/back-end/api-tokens.md": "skewnono_v3_nuxt/docs/back-end/api-tokens.md:1785820099.2142787:12259",
     "skewnono_v3_nuxt/docs/datatables/chat_rag_contract.txt": "skewnono_v3_nuxt/docs/datatables/chat_rag_contract.txt:1785819326.431326:6714",
     "skewnono_v3_nuxt/docs/datatables/skewnono_chat_logging.txt": "skewnono_v3_nuxt/docs/datatables/skewnono_chat_logging.txt:1785817177.2650962:5144",
@@ -780,8 +785,13 @@
     "skewnono_v3_nuxt/docs/opencode/2026-08-10-oc-skills-two-axis-review.md": "skewnono_v3_nuxt/docs/opencode/2026-08-10-oc-skills-two-axis-review.md:1786360206.8190632:5095",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-10-msr-image-tool-load.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-10-msr-image-tool-load.md:1786342236.4762414:28906",
     "auto_recipe_creator/poc/workflow_3/docs/superpowers/plans/2026-08-10-manual-recording-session.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/plans/2026-08-10-manual-recording-session.md:1786339890.1418405:86839",
-    "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-08-11-workflow-extraction-design.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-08-11-workflow-extraction-design.md:1786439644.265099:22902",
-    "auto_recipe_creator/poc/workflow_3/docs/superpowers/plans/2026-08-11-workflow-extraction.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/plans/2026-08-11-workflow-extraction.md:1786436256.9134657:93519"
+    "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-08-11-workflow-extraction-design.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-08-11-workflow-extraction-design.md:1786487664.6861136:23544",
+    "auto_recipe_creator/poc/workflow_3/docs/superpowers/plans/2026-08-11-workflow-extraction.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/plans/2026-08-11-workflow-extraction.md:1786436256.9134657:93519",
+    "auto_recipe_creator/poc/workflow_3/docs/superpowers/plans/2026-08-12-engineer-done-priority-signals.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/plans/2026-08-12-engineer-done-priority-signals.md:1786513124.0840163:35293",
+    "auto_recipe_creator/poc/workflow_3/docs/superpowers/plans/2026-08-12-probable-close-click-evidence.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/plans/2026-08-12-probable-close-click-evidence.md:1786513050.217948:19289",
+    "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-08-12-engineer-done-priority-signals-design.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-08-12-engineer-done-priority-signals-design.md:1786512162.8340318:13846",
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-11-device-statistics-theme-parameter-ramp.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-11-device-statistics-theme-parameter-ramp.md:1786413023.3814826:15513",
+    "auto_recipe_creator/poc/workflow_3/docs/superpowers/plans/2026-08-11-engineer-done-assist-score.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/plans/2026-08-11-engineer-done-assist-score.md:1786410820.4948967:56812"
   },
-  "last_run": "2026-08-12"
+  "last_run": "2026-08-13"
 }

@@ -651,3 +651,21 @@
   - 예: If Redis catalogs by `m16` but meas_hist stores `M16B`, every recipe of that fab fails identically — that's a granularity mismatch, not a typo.
 - **YAGNI ruthlessly** — 필요 없는 건 가차 없이 쳐낼 것. 원칙 이름을 동사로 굴린 개발자 은어라 사외 문서에서는 풀어쓰는 편이 안전하다. ≈ cut it to the bone. ↔ build for the future.
   - 예: YAGNI ruthlessly — remove unnecessary features from every approach and design.
+- **silently displace** — 소리 없이 밀어내다. `replace` 는 의도한 교체, `displace` 는 밀려남이고, `silently` 가 붙으면 경고조차 없었다는 뜻이 따라온다. ≈ shadow / preempt. ↔ fall back to.
+  - 예: The sidecar path silently displaced the VLM fallback, so the pipeline made zero model calls without ever saying so.
+- **lock onto (something)** — 엉뚱한 대상에 딱 물려 고정되다. 레이더 은유라 탐지기·모델이 주어일 때 자연스럽다. ≈ latch onto / fixate on. ↔ lose track of.
+  - 예: If the model locks onto the palm icon, every frame reports the same coordinate and the track looks perfectly stable.
+- **the discriminator is X** — 둘을 가르는 판별 기준은 X 다. 두 가설 중 하나를 죽이는 결정적 기준을 지목한다. ≈ the deciding test is. ↔ the two are observationally equivalent.
+  - 예: The discriminator is motion: a real cursor moves, and a static icon never does.
+- **separately revertible** — 각각 따로 되돌릴 수 있는. 커밋을 왜 나눴는지의 근거가 되는 형용사. ≈ can be rolled back on its own. ↔ baked into one commit.
+  - 예: I kept them in two commits so they're independent and separately revertible.
+- **a systematic hole** — 체계적으로 뚫린 구멍. 무작위 결손(`random loss`)과 대비시키는 게 관용이고, 그보다 나쁘다는 판단이 담긴다. ≈ selection bias. ↔ uniformly sampled.
+  - 예: Discarding those frames deletes edge-region operations preferentially — a systematic hole in the timeline, worse than random loss.
+- **own this signal** — 이 신호는 저쪽이 책임진다. 소유권 어휘를 상태·신호로 확장한 설계 규칙 문장. ≈ is the source of truth for. ↔ shared responsibility.
+  - 예: Avoid a second state-changing window check; the recording thread owns this signal.
+- **strictly increasing** — 순증가하는(같은 값 허용 안 됨). `non-decreasing` 과 반드시 구분해야 명세가 흔들리지 않는다.
+  - 예: Numerator fallback requires three strictly increasing readings `n1 < n2 < n3`.
+- **a regression guard** — 회귀 방지용 테스트. 새 기능이 아니라 "예전 동작이 안 깨졌음"만 지키려고 남겨두는 테스트. ≈ a pinning test.
+  - 예: The clipped-header test already passes and is retained as a regression guard for the right-edge behavior.
+- **suppress X while preserving Y** — X 는 눌러 없애면서 Y 는 살린다. 트레이드오프 없는 처리를 주장하는 골격. ↔ throw out the signal with the noise.
+  - 예: Quantizing to 16-level buckets suppresses small remote-render noise while preserving a changed score.

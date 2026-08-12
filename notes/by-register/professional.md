@@ -749,3 +749,31 @@
   - 예: You reason better about code you can hold in context at once, and your edits are more reliable when files are focused.
 - **a latent trap, not a current break** — 지금 깨진 건 아니고 나중에 걸릴 함정. 두 명사구를 `not` 으로 맞세워 긴급도와 중요도를 분리한다. ↔ a live failure.
   - 예: Worth consolidating the three `Fdc*.vue` files at some point, but it's a latent trap, not a current break.
+- **a request, not a constraint** — 지시는 부탁일 뿐 강제 장치가 아니다. 프롬프트·컨벤션처럼 적어만 둔 것과 코드로 막은 것을 가른다. ≈ advisory, not enforced. ↔ enforced at the type level.
+  - 예: Prompt instructions are a request, not a constraint, so the guard enforces the rule geometrically.
+- **a wrong-but-confident signal** — 틀렸으면서 확신에 찬 신호. 하이픈으로 형용사구를 통째 묶는 조어라 `working-but-imperfect` 와 대비쌍으로 굴린다. ↔ a noisy but honest signal.
+  - 예: A wrong-but-confident signal is worse than no signal, because nothing downstream knows to distrust it.
+- **a decoy** — 진짜와 헷갈리게 만드는 가짜. 일부러 놓지 않았어도 결과적으로 미끼 노릇을 하면 이 단어를 쓴다. ≈ a distractor / a red herring. ↔ the ground truth.
+  - 예: The open-palm icon is a decoy: it sits where the cursor usually is and never moves.
+- **indistinguishable from success** — 성공과 구분이 안 되는. 뒤에 `in the artifacts` 처럼 "어디서 봤을 때"를 붙여야 정확해진다. ↔ fails loudly.
+  - 예: A consistent, confident, completely wrong track is indistinguishable from success in the artifacts.
+- **an audit trail** — 감사 추적 기록. 삭제 대신 상태만 바꾼 이유를 한 단어로 정당화한다. ≈ a paper trail / provenance. ↔ a hard delete.
+  - 예: Events are re-statused rather than deleted, so the audit trail keeps them.
+- **One change, one measurement.** — 한 번에 하나만 바꾸고 그 하나만 잰다. 관사 없는 대구가 표어 느낌을 만든다. ≈ change one thing at a time. ↔ bundle it all into one commit.
+  - 예: Stacking a coordinate fix on an unvalidated prompt change breaks the rule I care about here: one change, one measurement.
+- **stop short of (doing something)** — 일부러 거기까지는 하지 않았다. 실패가 아니라 판단이라는 뉘앙스가 핵심이라 이유를 뒤에 붙인다. ≈ refrain from. ↔ go ahead and (do it anyway).
+  - 예: I stopped short of changing any thresholds, because I still didn't know which stage had zeroed out.
+- **flag rather than bury** — 묻어두지 않고 짚어두다. 나쁜 소식을 전할 때 신뢰를 얻는 상투구. ≈ call out up front. ↔ bury it in the appendix.
+  - 예: One thing I want to flag rather than bury: this guard could void genuine clicks near the live-image border.
+- **premised on a wrong model** — 잘못된 이해를 전제로 삼은. `based on` 보다 논리적 무게가 있어 자기 정정에 쓴다. ≈ built on a false assumption.
+  - 예: My last commit is premised on a wrong model: I had treated the drawn cursor and the local pointer as the same object.
+- **from helpful to actively dangerous** — 도움에서 오히려 해로움으로. `actively` 가 "가만두는 것보다 나쁘다"를 얹는다. ≈ backfire. ↔ from risky to routine.
+  - 예: That detail moves the prompt change from helpful to actively dangerous.
+- **no amount of X would have Y** — X 를 아무리 해도 Y 하지 못했을 것이다. 가정법 과거완료와 짝을 이루며 원인을 다른 층으로 옮긴다.
+  - 예: No amount of gate or threshold work would have recovered this session.
+- **two honest caveats** — 솔직히 밝혀둘 단서 두 가지. 성과 보고 직후 한계를 스스로 꺼내는 소제목. ≈ limitations. ↔ no known limitations.
+  - 예: Two honest caveats: the prompt change is unvalidated, and the gate leak is still open.
+- **decisive about one thing** — 적어도 한 가지는 확실히 못 박는다. `decisive` 를 사람이 아니라 숫자·증거에 쓰는 용법. ↔ consistent with either hypothesis.
+  - 예: `roi_p50=0` with `dist_p50=1966` is decisive about one thing: nothing is changing where we think the cursor is.
+- **only vetoes when ...** — ~일 때만 거부권을 행사한다. 승인 권한 없이 반대 권한만 있는 비대칭을 한 단어로 표현한다. ≈ can block but not approve. ↔ is required for approval.
+  - 예: `Addressing1` is optional and only vetoes when its visible score is red.

@@ -357,3 +357,7 @@
   - 예: This one is worth remembering — it cost real time, and the error message actively points at the wrong file.
 - **it cost real time** — 시간을 적잖이 잡아먹었다. `real` 이 숫자 없이도 비용을 실감 나게 만들어, 기록해 둘 값어치를 설득한다. ≈ it burned an afternoon. ↔ it was a quick one.
   - 예: This one is worth remembering; it cost real time.
+- **that's your call** — 그건 당신이 정할 몫이다. `call` 이 심판의 판정이라는 데서 왔고, 앞에 이유를 붙이면 회피가 아니라 존중으로 읽힌다. ≈ I'll leave that to you. ↔ I'll go ahead and decide.
+  - 예: Whether to capture the full screen or track multiple windows is a design decision — that's your call.
+- **X is the dial** — 조절 손잡이는 X 다. 설정값 하나만 만지면 된다고 알려줄 때. ≈ the knob to turn / the tuning parameter. ↔ hard-coded.
+  - 예: If the guard starts eating real clicks, `static_cursor_tolerance_px` is the dial.
