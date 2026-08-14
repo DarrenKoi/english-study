@@ -669,3 +669,19 @@
   - 예: The clipped-header test already passes and is retained as a regression guard for the right-edge behavior.
 - **suppress X while preserving Y** — X 는 눌러 없애면서 Y 는 살린다. 트레이드오프 없는 처리를 주장하는 골격. ↔ throw out the signal with the noise.
   - 예: Quantizing to 16-level buckets suppresses small remote-render noise while preserving a changed score.
+
+## 2026-08-15
+- **a conflict minefield** — 충돌 지뢰밭. `safe rather than a conflict minefield` 처럼 대비로 굴린다. ≈ a can of worms. ↔ a clean rebase.
+  - 예: That's why the rebase was safe rather than a conflict minefield.
+- **first writer wins** — 먼저 쓴 쪽이 이긴다. `setdefault` 계열 우선순위 규칙을 한 줄로 정의한다. ≈ earliest binding takes precedence. ↔ last writer wins.
+  - 예: Both use setdefault, so first writer wins — the entry point beats your file.
+- **horizontal slicing** — 층별로 몰아서 하는 방식(안티패턴). 테스트 전부 → 구현 전부 같은 분할을 가리킨다. ≈ big-bang integration. ↔ vertical slices.
+  - 예: Horizontal slicing — writing all tests first, then all implementation — verifies imagined behavior.
+- **tautological (test)** — 동어반복적인 테스트. 코드와 같은 계산을 반복해 구성상 통과하므로 코드와 어긋날 수가 없다. ≈ a self-fulfilling assertion. ↔ an independently derived expectation.
+  - 예: The assertion recomputes the expected value the way the code does, so the test is tautological and can never disagree with the code.
+- **patch-equivalent** — 해시는 달라도 변경 내용은 같은. `identical` 이 아니라 `equivalent` 인 게 핵심이다. ≈ the same change under a different hash. ↔ near-identical but divergent.
+  - 예: `git cherry` confirms the two duplicate-titled local commits are patch-equivalent to the remote pair.
+- **characterization tests** — 현재 동작을 있는 그대로 기록하는 테스트. 레거시·벤더 사본에 손댈 때의 표준 용어. ≈ golden master tests. ↔ specification tests.
+  - 예: The file calls itself characterization tests — it records what the vendored copy already does, so a future re-vendor can't silently change behavior.
+- **pop in late** — 뒤늦게 툭 튀어나오다. 짝인 `flash in`(잠깐 보였다 사라짐)과 함께 두 방향의 깜빡임을 담는다. ≈ appear with a delay. ↔ settle before first paint.
+  - 예: Those render before `/activity/me` resolves, so an admin-conditional nav item would flash in or pop in late for every user.

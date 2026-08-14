@@ -777,3 +777,27 @@
   - 예: `roi_p50=0` with `dist_p50=1966` is decisive about one thing: nothing is changing where we think the cursor is.
 - **only vetoes when ...** — ~일 때만 거부권을 행사한다. 승인 권한 없이 반대 권한만 있는 비대칭을 한 단어로 표현한다. ≈ can block but not approve. ↔ is required for approval.
   - 예: `Addressing1` is optional and only vetoes when its visible score is red.
+
+## 2026-08-15
+- **root and branch** — 뿌리째, 남김없이. 삭제 선언 뒤에 붙여 부분 제거가 아님을 못 박는다. ≈ completely / lock, stock and barrel. ↔ partially removed.
+  - 예: OpenWiki is gone, root and branch.
+- **grouped by concern rather than as one mixed blob** — 한 덩어리로 뭉뚱그리지 않고 관심사별로 묶어서. 커밋·모듈 분할을 변호할 때. ≈ one logical change per commit. ↔ a single catch-all commit.
+  - 예: Four commits landed, grouped by concern rather than as one mixed blob.
+- **this cuts against you** — 그게 이번엔 당신에게 불리하게 작용한다. 장점을 설명한 직후 뒤집는 자리. ≈ works against you here. ↔ this works in your favor.
+  - 예: Note this cuts against you today: that default pins `CORRECTION_DRY_RUN=0`.
+- **silently neuter a production run** — 운영 실행을 조용히 무력화하다. 오류도 없이 아무 일도 안 하게 되는 최악의 실패를 경고할 때. ≈ quietly disable / render it a no-op. ↔ fail loudly.
+  - 예: A stale `CORRECTION_DRY_RUN=1` left in someone's scratch file must not silently neuter a production run.
+- **stale but harmless** — 낡았지만 해롭지 않다. 발견을 숨기지 않으면서 우선순위만 낮추는 판정구. ≈ cosmetic / non-blocking. ↔ actively misleading.
+  - 예: It's a provenance stamp for the wiki generator, so it's stale but harmless.
+- **isolate exactly one variable** — 변수를 딱 하나만 남기다. 실험 설계 어휘를 디버깅에 그대로 가져온 표현. ≈ change one thing at a time. ↔ change the input and the code at once.
+  - 예: Same frames, same sidecar, new code — that isolates exactly one variable.
+- **a record, not a live pointer** — 살아 있는 참조가 아니라 그 시점의 기록. 옛 문서를 왜 안 고쳤는지 가르는 잣대. ≈ a historical snapshot. ↔ a live reference that can go stale.
+  - 예: That deck describes the toolchain as it was then — a record, not a live pointer.
+- **in favor of** — ~을 택하고 (~을 버리고). 버린 쪽이 목적어, 남긴 쪽이 뒤로 오는 고정 어순. ≈ replaced by / superseded by. ↔ kept A over B.
+  - 예: Your local duplicates were discarded in favor of the remote's versions.
+- **take effect** — 발효되다, 실제로 적용되다. 조건절을 달아 "아직은 아니다"를 함께 전한다. ≈ come into force / go live / kick in. ↔ be ignored.
+  - 예: The deletion only takes effect once it's pushed — until then tonight's run still fires.
+- **a discoverability decision, not a security one** — 보안이 아니라 노출 정책의 문제다. `an X decision, not a Y one` 틀이 통째로 재사용된다. ≈ a matter of exposure rather than access control. ↔ a hard security boundary.
+  - 예: That's a discoverability decision, not a security one — this change touches the former without weakening the latter.
+- **at zero equipment risk** — 장비 위험은 전혀 없이. 이득 뒤에 붙여 대가를 0으로 못 박는 전치사구. ≈ with no downside. ↔ at the cost of a real click.
+  - 예: `CORRECTION=1` plus `CORRECTION_DRY_RUN=1` gives you the maximum evidence per alarm at zero equipment risk.

@@ -361,3 +361,9 @@
   - 예: Whether to capture the full screen or track multiple windows is a design decision — that's your call.
 - **X is the dial** — 조절 손잡이는 X 다. 설정값 하나만 만지면 된다고 알려줄 때. ≈ the knob to turn / the tuning parameter. ↔ hard-coded.
   - 예: If the guard starts eating real clicks, `static_cursor_tolerance_px` is the dial.
+
+## 2026-08-15
+- **it looked worse than it was** — 보기보다는 별일 아니었다. 상대가 이미 경고를 본 상황에서 보고를 여는 첫 문장. ≈ it's less alarming than it sounds. ↔ it was worse than it looked.
+  - 예: Worth knowing what happened, because it looked worse than it was.
+- **worth chasing** — 따로 쫓아볼 만한. 지금 주제는 아니지만 파볼 값은 있다고 표시할 때. ≈ worth digging into. ↔ not worth the detour.
+  - 예: A meaningful slice of `vlm` means the join is dropping frames, which is a separate bug worth chasing.
