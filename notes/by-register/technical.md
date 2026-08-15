@@ -685,3 +685,17 @@
   - 예: The file calls itself characterization tests — it records what the vendored copy already does, so a future re-vendor can't silently change behavior.
 - **pop in late** — 뒤늦게 툭 튀어나오다. 짝인 `flash in`(잠깐 보였다 사라짐)과 함께 두 방향의 깜빡임을 담는다. ≈ appear with a delay. ↔ settle before first paint.
   - 예: Those render before `/activity/me` resolves, so an admin-conditional nav item would flash in or pop in late for every user.
+- **unfalsifiable from here** — 지금 환경으로는 반증할 수단이 없다. 뒤에 `from home` 처럼 어디서인지를 붙여야 주장이 정확해진다. ≈ there's no way to check this from here. ↔ home-checkable / verifiable by construction.
+  - 예: Your own constraints make this unfalsifiable from home, since the office databases are unreachable.
+- **stage X's eventual deletion** — 지금 지우진 않되 나중의 삭제를 미리 준비해 두다. 여기서 `stage` 는 git 이 아니라 "무대에 올릴 채비"다. ≈ pave the way for. ↔ entrench the old path.
+  - 예: The new module lets the card import from one place, staging the old file's eventual deletion without touching it today.
+- **documented failure mode** — 문서로 남아 있는 고장 양식. `documented` 가 "내 인상이 아니라 기록"이라는 무게를 얹어 반박하기 어렵게 만든다. ≈ a known failure pattern. ↔ an unprecedented failure.
+  - 예: In a repo whose documented failure mode is exactly "a guard added to one copy never reaches its sibling," recording only the dead half misses the point.
+- **the contract working** — 에러처럼 보이지만 규약대로 동작한 결과다. 계사문으로 써서 응답을 고장에서 합의된 결과로 재분류한다. ≈ working as designed. ↔ a genuine defect.
+  - 예: The catalog already says the slug must be `cdsem` or `hvsem`, so the 400 is the contract working.
+- **one level up** — 한 단계 위 단위에서 같은 원칙이 다시 적용됨. 대시로 문장 끝에 붙여 앞말을 재분류하는 꼬리표. ≈ at a coarser granularity. ↔ one level down / per item.
+  - 예: A whole-batch transport failure marks every host in it failed — per-host isolation one level up.
+- **deploy in either order** — 어느 쪽을 먼저 올려도 된다. 배포 문서에 이 한 줄이 있느냐가 순서 맞추기의 부담을 가른다. ≈ order-independent. ↔ must be deployed in lockstep.
+  - 예: An entry arriving without a credential falls back to the proxy's environment — that fallback is what lets the two halves deploy in either order.
+- **memory-bounded** — 입력이 커져도 메모리가 상한에 묶인. 뒤에 `regardless of X` 를 붙여야 주장이 완성된다. ≈ constant-memory. ↔ unbounded / peak RAM grows with input.
+  - 예: Each file is handed to you the moment it downloads, then dropped, so the stream stays memory-bounded regardless of fleet size.

@@ -801,3 +801,15 @@
   - 예: That's a discoverability decision, not a security one — this change touches the former without weakening the latter.
 - **at zero equipment risk** — 장비 위험은 전혀 없이. 이득 뒤에 붙여 대가를 0으로 못 박는 전치사구. ≈ with no downside. ↔ at the cost of a real click.
   - 예: `CORRECTION=1` plus `CORRECTION_DRY_RUN=1` gives you the maximum evidence per alarm at zero equipment risk.
+- **X says nothing about Y** — 근거는 인정하되 그 사정거리가 Y까지 못 미친다고 자르는 반박. 주어를 사람이 아니라 증거로 세우는 게 요령이다. ≈ that only shows … ↔ that settles it.
+  - 예: Showing that no adapter assigns the field says nothing about whether a raw payload passes it through.
+- **Cost of being wrong: …** — 틀렸을 때 치르는 값은 —. 확률 다툼을 결과 크기 다툼으로 바꾸고, 콜론 뒤에 시나리오를 현재시제로 잇는다. ≈ the downside if this is wrong. ↔ the upside if this holds.
+  - 예: Cost of being wrong: a later cleanup deletes the branch, and a live badge silently disappears from a page no test covers.
+- **even granting (that) X** — X를 인정한다 쳐도. 양보절을 동명사구로 줄인 문어체라, 앞 논쟁을 다시 열지 않고 논점만 옮긴다. ≈ even if X holds. ↔ that premise doesn't hold.
+  - 예: Even granting that the exempt branch is dead, the parameter-row markup still renders for violations.
+- **drop an objection** — 반론을 스스로 거두다. `withdraw` 보다 가볍고, 진 게 아니라 그 갈래를 닫는다는 어감이다. ≈ stand corrected. ↔ press the point.
+  - 예: Objection 1 — dropped; explicit key-literal construction closes the data path.
+- **Correctness comes from A — not from B** — 정확성은 A에서 나오지 B에서 나오는 게 아니다. B 자리에 상대가 믿던 것을 놓아야 힘이 산다. ≈ what makes this safe is A, not B. ↔ both A and B are required.
+  - 예: Correctness comes from isolating the destination per host and not sharing a connection — not from the storage medium.
+- **extrapolate from X** — X에서 미루어 넘겨짚다. 외삽에서 온 말이라 "가진 데이터 바깥으로 선을 늘였다"는 그림이 산다. ≈ guess by analogy. ↔ stay within what's documented.
+  - 예: These are token callers extrapolating from the catalog — `/storage` exists, so they tried `/storage/wafer`.
