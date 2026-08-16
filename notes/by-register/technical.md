@@ -699,3 +699,11 @@
   - 예: An entry arriving without a credential falls back to the proxy's environment — that fallback is what lets the two halves deploy in either order.
 - **memory-bounded** — 입력이 커져도 메모리가 상한에 묶인. 뒤에 `regardless of X` 를 붙여야 주장이 완성된다. ≈ constant-memory. ↔ unbounded / peak RAM grows with input.
   - 예: Each file is handed to you the moment it downloads, then dropped, so the stream stays memory-bounded regardless of fleet size.
+
+## 2026-08-17
+- **pre-digest (something) into a summary** — 원자료를 미리 씹어 요약본으로 넘겨 받는 쪽이 볼 것을 남기지 않다. 부정 명령형으로 쓸 때 가장 자연스럽다. ↔ give it the command / let it look for itself.
+  - 예: Do not pre-digest the diff into a summary and send that — give the model the diff command and let it look.
+- **inherited, not introduced** — 이번 변경이 만든 결함이 아니라 원래 물려받은 것. 뒤에 "그러니 이 변경을 막을 근거는 못 된다"를 붙여야 회피로 안 읽힌다. ≈ pre-existing. ↔ a regression.
+  - 예: The order bias is inherited, not introduced: the lens, the rollup, and the filter all carry the same confound.
+- **it wants its own change** — 별도 작업으로 다뤄야 한다. 무생물 주어 + `want`(= 필요로 한다)는 `needs` 보다 부드럽고, 작업 자체가 요구하는 것처럼 들린다. ≈ that deserves its own PR. ↔ fold it into this change.
+  - 예: `maximalCliques` has no pivot and measures ~155 ms per call — pre-existing and load-bearing for correctness, so I left it; it wants its own change.

@@ -367,3 +367,13 @@
   - 예: Worth knowing what happened, because it looked worse than it was.
 - **worth chasing** — 따로 쫓아볼 만한. 지금 주제는 아니지만 파볼 값은 있다고 표시할 때. ≈ worth digging into. ↔ not worth the detour.
   - 예: A meaningful slice of `vlm` means the join is dropping frames, which is a separate bug worth chasing.
+
+## 2026-08-17
+- **a clean bill of health** — 이상 없음 판정. 값어치는 부정형에 있다 — 빈 결과를 이상 없음으로 읽지 말라는 경고에 이름을 붙여 준다. ≈ all clear. ↔ findings outstanding.
+  - 예: Never present an empty axis as a clean bill of health — the script exits non-zero on empty output precisely so that cannot happen quietly.
+- **leave (something) alone** — 손대지 말고 그냥 둬라. `alone` 이 "치우려는 충동을 막는" 어감을 얹는다. 뒤에 조건절을 달아 언제부터 건드려도 되는지 함께 준다. ≈ hands off X. ↔ tear it down.
+  - 예: Leave the Flask and Nuxt processes alone unless you're done developing for the day — they're your running app, not session leftovers.
+- **Bottom line: …** — 긴 분석 끝에 행동으로 옮길 것 하나만 남길 때. `In conclusion` 보다 구어적이고, 요약이 아니라 선택을 담는다. ≈ the practical upshot. ↔ to be clear, nothing is settled yet.
+  - 예: Bottom line: the mis-scaling scenario you feared is well defended, and the one thing I'd fix before trusting it on office data is the fixed `OVERSAMPLE=10`.
+- **no reason to wait on that** — 그걸 붙들고 기다릴 이유는 없다. `wait for`(사람·물건)와 달리 `wait on` 은 어떤 일이 풀리기를 기다리며 막혀 있는 상태다. ≈ that's not a blocker. ↔ that's the gate on everything else.
+  - 예: No reason to wait on that — the evidence you'd act on is already in hand.

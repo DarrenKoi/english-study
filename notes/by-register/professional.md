@@ -813,3 +813,29 @@
   - 예: Correctness comes from isolating the destination per host and not sharing a connection — not from the storage medium.
 - **extrapolate from X** — X에서 미루어 넘겨짚다. 외삽에서 온 말이라 "가진 데이터 바깥으로 선을 늘였다"는 그림이 산다. ≈ guess by analogy. ↔ stay within what's documented.
   - 예: These are token callers extrapolating from the catalog — `/storage` exists, so they tried `/storage/wafer`.
+
+## 2026-08-17
+- **(an argument) proves too much** — 전제를 부정하지 않고 일관 적용만으로 상대 논거를 자멸시키는 논박. 뒤에 "그 규칙을 끝까지 밀면 무엇까지 죽는가"를 붙여야 완성된다. ≈ that reasoning cuts both ways. ↔ the objection is contained.
+  - 예: The "unfalsifiable fixture" argument proves too much: if "no ground truth ⇒ defer" is the rule, it annihilates the license for all Phase 1 work.
+- **the weakest link in your own case** — 상대 논거 여럿 중 제일 약한 하나를 집어 빼라고 알려 주는 말. `your own` 이 있어 공격이 아니라 정비 조언이 된다. ≈ that's the part I'd drop. ↔ that's the load-bearing part of your argument.
+  - 예: You're right about A-1, wrong to bundle A-2 into the rejection — and your reason (1) is the weakest link in your own case.
+- **quietly substitute A for B** — 논의 도중 쟁점이 슬며시 바뀐 것을 지적. 새로 들어오는 쪽이 앞에 온다는 어순이 한국어와 반대다. ≈ you've shifted the goalposts (더 강함). ↔ you answered the claim as stated.
+  - 예: You quietly substituted "ready when real data arrives" for the steelman's actual claim — motivation, not readiness.
+- **the steelman (of an argument)** — 반박하기 전에 세워 두는 상대 주장의 최강 버전. 동사로도 쓴다(`let me steelman your position`). ↔ a strawman.
+  - 예: The steelman's actual claim was never readiness — it was that without a screen, nobody has a reason to go ask.
+- **concede plainly** — 조건도 단서도 달지 말고 순순히 한 점을 내주다. `admit` 보다 대등하고 덜 굴욕적이다. ≈ own it. ↔ concede with a caveat / hedge.
+  - 예: Concede plainly when the model is right, especially where it caught something you wrote yourself.
+- **defensible, but unasked** — 변호는 되지만 아무도 요청하지 않은 구현. 품질 시비와 범위 시비를 한 호흡에 분리한다. ≈ reasonable, just out of scope. ↔ explicitly requested.
+  - 예: Showing each tool's consensus residual in the dropdown is a defensible generalization, but unasked.
+- **only nominally kept** — 규칙이 형식상으로만 살아 있고 실제 동작에서는 무력해진 상태. 뒤에 실효값을 숫자로 붙여야 검증 가능해진다. ≈ honored in form, not in behaviour. ↔ actually binding.
+  - 예: R5's ceiling is only nominally kept: the slider still stops at 0.2 nm, but the effective tolerance at a 68 nm cell is already 0.227 nm.
+- **discount (something) when judging X** — 겉으로 커 보이는 수치에서 자동 생성분을 감안해 빼다. 명령형으로 문단 첫머리에 놓고 근거 한 줄을 잇는 게 관용. ≈ don't count X toward Y. ↔ take the number at face value.
+  - 예: Discount generated churn: a 400-line vendored-package resync is not complexity.
+- **the honest default** — 안전빵 최고 사양이 아니라 실측에 맞춰 고른 기본값. `sensible default` 에 "과장하지 않았다"를 얹은 말. ↔ a blanket rule / always max out.
+  - 예: `medium` is the honest default for an ordinary one-feature diff — it was measured on a tool-using review.
+- **on your behalf** — 당신을 대신해 권한을 행사하여. `for you` 와 달리 승인·서명·결정처럼 자격이 걸린 행위에 붙는다. ≈ in your name. ↔ in its own right.
+  - 예: The gate belongs to the receiving user, which is exactly why a peer can never approve work on your behalf.
+- **the risk prices into X** — 그 위험은 이 항목만이 아니라 X 전체에 이미 값으로 매겨져 있다. `A or into none of it` 로 닫으면 "이것만 감점할 수 없다"가 한 문장에 완성된다. ≈ that risk is already baked in. ↔ this change adds fresh exposure.
+  - 예: If "someone reads mock as real drift" were a live risk, it shipped weeks ago — the risk prices into the app's whole mock architecture or into none of it.
+- **a smell hunt wearing a different label** — 근거 문서 없이 돌린 검사는 이름표만 바꾼 취향 지적이라는 말. 꼬리 `wearing a different label` 이 만능이다. ≈ taste dressed up as policy. ↔ grounded in a cited rule.
+  - 예: Name what you settled on in the report — a Standards axis run against nothing is a smell hunt wearing a different label.
