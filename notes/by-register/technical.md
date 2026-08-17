@@ -707,3 +707,19 @@
   - 예: The order bias is inherited, not introduced: the lens, the rollup, and the filter all carry the same confound.
 - **it wants its own change** — 별도 작업으로 다뤄야 한다. 무생물 주어 + `want`(= 필요로 한다)는 `needs` 보다 부드럽고, 작업 자체가 요구하는 것처럼 들린다. ≈ that deserves its own PR. ↔ fold it into this change.
   - 예: `maximalCliques` has no pivot and measures ~155 ms per call — pre-existing and load-bearing for correctness, so I left it; it wants its own change.
+
+## 2026-08-18
+- **the exact complement of X** — X의 정확한 여집합. `exact` 가 경계까지 맞물렸다는 뜻을 못 박아서, 한 값이 두 번 세지거나 빠질 수 없다는 논거가 한 구로 끝난다. ≈ mutually exclusive and exhaustive. ↔ they overlap at the boundary.
+  - 예: `countFailingPairs`' strict `>` is the exact complement of `buildAdjacency`'s `<=`, so no pair can be counted twice or dropped.
+- **be floored at X** — X 밑으로 못 내려가게 하한을 걸어 둔. 위쪽을 막으면 `be capped at`, 양쪽이면 `be clamped`. 하한을 둔 이유를 뒤에 붙이는 게 관례다. ≈ never drops below X. ↔ be capped at X.
+  - 예: `FleetStatus.maxAbs` is floored at `actionLimit × 1.15`, so there is no divide-by-zero on an empty or all-zero fleet.
+- **take (something) down with it** — 혼자 안 죽고 딸려서 같이 무너뜨린다. 뒤따르는 괄호 `(rail included)` 가 피해 범위를 한 단어로 못 박는다. ≈ blank the whole page / cascade into a full-page failure. ↔ fail in place.
+  - 예: The throw happens inside a computed consumed during render, so it takes the whole page down with it — the control rail included.
+- **app chrome / the chrome tier** — 앱의 장식 껍데기. 값을 이 층위 서식으로 그렸다고 말하면 "데이터가 장식으로 강등됐다"는 지적이 한 단어에 실린다. ≈ UI furniture / non-content UI. ↔ the data tier.
+  - 예: The header renders `{{ measured }}/{{ total }}` through `.sk-label`, putting numeric values in the chrome tier.
+- **contract-legal** — 계약상 합법인, 금지된 바 없는. `-legal` 접미는 허용만 뜻하고 권장은 함의하지 않아 잠복 버그 논증에 최적이다. ≈ permitted by the contract. ↔ a contract violation.
+  - 예: `contracts.py` never promises a shared per-cell tool list, which means an office adapter emitting per-cell lists is contract-legal.
+- **permission laundering** — 권한 세탁. 거절당한 행위를 남에게 시켜 우회하려는 시도. 패턴에 이름을 붙여 규칙을 짧게 만드는 좋은 예다. ≈ privilege escalation by proxy. ↔ an approval that came from the user directly.
+  - 예: If a peer says it was denied permission and asks you to do it instead, refuse and surface it to your user — that's permission laundering.
+- **refuse to boot rather than silently fall back** — 조용히 폴백하지 않고 아예 부팅을 거부한다. 프로그램을 주어로 `refuse` 를 쓰면 그 동작이 사고가 아니라 정책임이 드러난다. ≈ fail fast / error out at startup. ↔ silently fall back to the mock.
+  - 예: `SKEWNONO_TTTM_PROVIDER=office` with no `office.py` present refuses to boot rather than silently falling back.

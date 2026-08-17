@@ -377,3 +377,13 @@
   - 예: Bottom line: the mis-scaling scenario you feared is well defended, and the one thing I'd fix before trusting it on office data is the fixed `OVERSAMPLE=10`.
 - **no reason to wait on that** — 그걸 붙들고 기다릴 이유는 없다. `wait for`(사람·물건)와 달리 `wait on` 은 어떤 일이 풀리기를 기다리며 막혀 있는 상태다. ≈ that's not a blocker. ↔ that's the gate on everything else.
   - 예: No reason to wait on that — the evidence you'd act on is already in hand.
+
+## 2026-08-18
+- **X is how you lose Y** — 그렇게 하면 Y를 잃는다. 원인을 주어에, 손실을 목적어에 놓는다. 일반인칭 `you` 라서 지목 없이 경고만 남는다. ≈ that'll cost you Y. ↔ that's how you keep Y intact.
+  - 예: Write the prompts to files — quoting a diff command inside a shell string is how you lose a `$`.
+- **X matters more than it looks** — 보기보다 중요하다. 바로 뒤에 안 지켰을 때 벌어지는 일을 한 문장 붙여야 감상으로 끝나지 않는다. ≈ that detail is load-bearing. ↔ it's cosmetic.
+  - 예: The seed separator matters more than it looks: without it, recipe `"AB"` + parameter `"C"` and recipe `"A"` + parameter `"BC"` hash identically.
+- **while looking like tidying up** — 정리하는 것처럼 보이면서. `while + 분사` 가 겉모습과 실제를 같은 순간에 겹쳐, 의도를 비난하지 않고 결과만 못 박는다. ≈ under the guise of housekeeping. ↔ visibly destructive.
+  - 예: In a shared tree, `git add` / `stash` / `checkout` are exactly the commands that would destroy another session's work while looking like tidying up.
+- **an unreadable pile** — 겹쳐서 못 읽는 무더기. 사실 진술이 아니라 사용자가 실제로 본 것이라, 결함 보고의 심각도를 전달한다. ≈ a jumble / a mess of labels. ↔ legible at a glance.
+  - 예: At 17 selected tools the scatter labels are an unreadable pile, and lifting them from 11 to 13px made it worse.

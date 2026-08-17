@@ -839,3 +839,31 @@
   - 예: If "someone reads mock as real drift" were a live risk, it shipped weeks ago — the risk prices into the app's whole mock architecture or into none of it.
 - **a smell hunt wearing a different label** — 근거 문서 없이 돌린 검사는 이름표만 바꾼 취향 지적이라는 말. 꼬리 `wearing a different label` 이 만능이다. ≈ taste dressed up as policy. ↔ grounded in a cited rule.
   - 예: Name what you settled on in the report — a Standards axis run against nothing is a smell hunt wearing a different label.
+
+## 2026-08-18
+- **worth a line** — 정식 항목까진 아니어도 보고서에 한 줄은 남길 만한. 스스로 등급을 낮추는 꼬리표라 심각한 결함에 붙이면 순위가 뒤집힌다. ≈ worth a mention / flagging for the record. ↔ this belongs at the top of the list.
+  - 예: Carried-over latent crash, worth a line: it predates the rebuild, but the new code now routes every cell through it.
+- **suppress (a finding)** — 지적을 접수하지 않고 눌러 두다. 린터의 `suppress a warning` 이 사람 리뷰로 넘어온 말. 근거 + 쉼표 + 한 단어로 닫는 어순이 요령이다. ≈ waived / noted and not actioned. ↔ escalate it.
+  - 예: `rounded-[3px]` is off the radius scale, but two sibling components use the identical swatch — repo precedent, suppressed.
+- **have no X excuse** — X를 핑계로 댈 수 없다. 정당한 예외를 먼저 인정한 다음 이 문형으로 남은 하나를 잡으면 트집이 아니라 선 긋기가 된다. ≈ that exemption doesn't apply here. ↔ legitimately excused.
+  - 예: The canvas-vs-DOM split legitimately excuses the color maps, but the status→label map has no render-target excuse.
+- **Small, but real.** — 작지만 실재한다. 세 단어 독립 문장으로 등급과 존재를 한꺼번에 정한다. `Minor.` 만 쓰면 무시 허가가 되는데 `but real` 이 그 문을 닫는다. ≈ low priority, still a finding. ↔ a non-issue.
+  - 예: A shared `rankOverDrawn(result)` would keep the two sites in sync. Small, but real.
+- **grade X against Y** — Y를 잣대로 X를 채점하다. `review` 와 달리 점수를 매기는 위치를 전제하므로, 채점 기준을 채점 대상에서 지어내지 말라는 경고가 자연스럽게 붙는다. ≈ measure X against Y. ↔ take X on its own terms.
+  - 예: Do not invent a spec from the diff and then grade the diff against it.
+- **let one mask the other** — 하나가 다른 하나를 가리게 놔두다. `let` 이 "합치는 행위가 곧 허락"이라는 인과를 드러낸다. ≈ one gets buried under the other. ↔ keep the two axes separately reportable.
+  - 예: A change can pass Standards and fail Spec, and reporting them together lets one mask the other.
+- **a deliberate refusal** — 빠뜨린 게 아니라 요구를 받고 안 하기로 한 것. 근거 주석·커밋을 함께 인용해야 사후 합리화로 안 읽힌다. ≈ by design, not by oversight. ↔ an oversight.
+  - 예: The current design is a deliberate refusal: the composable's comment says the search session must die on reload.
+- **compound the damage** — 피해를 배가시키다. 복리 은유라서, 한 단계의 손실이 다음 단계의 입력이 되는 연쇄식 결함에 정확히 맞는다. ≈ snowball / cascade. ↔ contain the damage.
+  - 예: Restored storage is the first case where picks at two levels can go stale at once, and there the single pass compounds the damage.
+- **the protective half of (a rule)** — 그 규칙에서 나를 지켜 주던 쪽 절반. 절차 위반을 자진 신고하면서도 위험은 막았음을 증거로 대는 어법. ≈ the spirit but not the letter. ↔ I followed it to the letter.
+  - 예: I worked in the main tree, but I kept the protective half of that rule, committing with explicit pathspecs for exactly the six files I edited.
+- **keep (two things) honest** — 서로 어긋나지 않게 붙들어 두다. `keep X in sync` 가 값의 일치라면 이쪽은 의도의 일치다. ≈ keep each other in check. ↔ let them drift apart.
+  - 예: The two functions encode opposite contracts, so sharing one walk keeps them honest without collapsing the distinction.
+- **stand as reported** — 보고한 그대로 유효하다. "끝"이 아니라 "이 상태로 고정"이라는 신호라서, 내용을 취소하지 않으면서 턴을 닫는다. ≈ that still holds / no change to the above. ↔ disregard the earlier count.
+  - 예: Got it — nothing further. The listing stands as reported: six peer sessions alive, all idle except one mid-shell.
+- **Nothing materially missing.** — 실질적으로 빠진 것은 없다. `materially` 가 "사소한 건 있을 수 있으나 결과를 바꿀 건 없다"를 담아 과약속을 막는다. ≈ no substantive gaps. ↔ one requirement is unimplemented.
+  - 예: (a) Missing or partly done — nothing materially missing; all four numbered requirements are implemented.
+- **a visibility requirement, not an automated judgment** — 보여 달라는 요구였을 뿐 자동 판정을 요구한 게 아니다. 요구의 종류에 이름을 붙여 범위 지적을 취향 다툼에서 떼어 낸다. ≈ it asked us to show, not to decide. ↔ the spec asks for a verdict.
+  - 예: The spec says failures must be visible on the wafer — that's a visibility requirement, not an automated judgment, so the per-sector counts already satisfy it.
