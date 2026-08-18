@@ -867,3 +867,19 @@
   - 예: (a) Missing or partly done — nothing materially missing; all four numbered requirements are implemented.
 - **a visibility requirement, not an automated judgment** — 보여 달라는 요구였을 뿐 자동 판정을 요구한 게 아니다. 요구의 종류에 이름을 붙여 범위 지적을 취향 다툼에서 떼어 낸다. ≈ it asked us to show, not to decide. ↔ the spec asks for a verdict.
   - 예: The spec says failures must be visible on the wafer — that's a visibility requirement, not an automated judgment, so the per-sector counts already satisfy it.
+- **What checks out** — 지적을 꺼내기 전에 "여기까지는 이상 없다"를 묶는 리뷰 보고서의 소제목. 통과분을 먼저 세우면 뒤의 지적이 트집이 아니라 판정으로 읽힌다. ≈ what's sound. ↔ HARD findings.
+  - 예: What checks out: every exact-match field uses its `.keyword` sub-field, and the archive dates are discovered rather than computed.
+- **the choice is unstated** — 판단은 타당하나 왜 그렇게 갈렸는지가 어디에도 적혀 있지 않다. `undocumented` 보다 좁아, 문서 유무가 아니라 근거의 부재를 겨눈다. ≈ the rationale never made it into the code. ↔ the reasoning is written down beside it.
+  - 예: The asymmetry is defensible — MDC is load-bearing here — but the choice is unstated, so I wrote the reason into the docstring.
+- **X is still decoration** — 뜨긴 하지만 아무것도 보증하지 않는 지표. 값이 틀렸다가 아니라 뜻이 없다는 지적이라 반박하기 어렵다. ≈ for show, not for load. ↔ it gates something.
+  - 예: Run-count-based confidence is still decoration: one run measuring six features scores High on its own.
+- **Same smell, lower risk** — 같은 패턴이되 파급이 작은 항목을 강등해 배치하는 소제목. 명사구 두 개를 쉼표로만 이어 판정 라벨처럼 만든다. ≈ the same pattern, less exposure. ↔ a new failure mode.
+  - 예: Same smell, lower risk: `maintenance_events` also skips the `doc_count` check, though the cap will rarely be reached.
+- **correct on the headline laws** — 세부 지적이 여럿이어도 큰 원칙에서는 맞다는 균형 잡기. 목록 끝에 두면 리뷰가 흠집내기가 아니라 저울질로 읽힌다. ≈ the fundamentals hold. ↔ it misses the point of the spec.
+  - 예: Correct on the headline laws: run-as-unit, median-not-mean, and None where a value is genuinely absent.
+- **a skeleton implies data is coming** — 화면 요소를 주어로 세워 그것이 사용자에게 무슨 약속을 하는지로 논거를 만든다. 취향 다툼이 아니라 의미에 대한 진술이 된다. ≈ it reads as a computed verdict. ↔ it says nothing it can't back up.
+  - 예: A skeleton implies data is coming, so an explicit empty state is the honest option while nothing has been requested.
+- **stale by the time it lands** — 지금 읽은 정보가 상대 작업이 안착할 즈음엔 낡는다. 기다림을 게으름이 아니라 판단으로 만든다. ≈ out of date before I use it. ↔ the tree is quiet, so a read holds.
+  - 예: A read I take now could be stale by the time their work lands, so I armed a watcher instead of opening the file.
+- **the contract has the slot, but nobody asked** — 계약상 허용되지만 요청된 적 없는 추가물을 범위 지적으로 올리는 대구. 앞 절의 인정이 `nobody asked` 의 무례함을 걷어낸다. ≈ allowed, not requested. ↔ this was the explicit ask.
+  - 예: The `raw` diagnostics dict is `NotRequired` in the contract, so it's legal — but nobody asked for it, and it ships on every payload.

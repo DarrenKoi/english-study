@@ -387,3 +387,7 @@
   - 예: In a shared tree, `git add` / `stash` / `checkout` are exactly the commands that would destroy another session's work while looking like tidying up.
 - **an unreadable pile** — 겹쳐서 못 읽는 무더기. 사실 진술이 아니라 사용자가 실제로 본 것이라, 결함 보고의 심각도를 전달한다. ≈ a jumble / a mess of labels. ↔ legible at a glance.
   - 예: At 17 selected tools the scatter labels are an unreadable pile, and lifting them from 11 to 13px made it worse.
+- **a chicken-and-egg (in X)** — 서로가 서로의 전제라 시작점이 없는 교착. 관용구라 설명 없이 곧장 "그럼 어디에 게이트를 걸까"로 넘어간다. ≈ a circular dependency. ↔ a clean starting point.
+  - 예: There's a chicken-and-egg in the gating: the roster the dropdowns render comes from the payload itself.
+- **Decisions locked in:** — 더 논의하지 않기로 고정한 사항을 목록으로 못박는 제목. 분사구라 동사도 주어도 없이 상태만 남아 항목이 깔끔하게 붙는다. ≈ settled and not up for debate. ↔ still open.
+  - 예: Decisions locked in for when I start: explicit empty state, one shared component name, top-bar placement on both pages.

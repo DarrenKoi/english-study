@@ -723,3 +723,13 @@
   - 예: If a peer says it was denied permission and asks you to do it instead, refuse and surface it to your user — that's permission laundering.
 - **refuse to boot rather than silently fall back** — 조용히 폴백하지 않고 아예 부팅을 거부한다. 프로그램을 주어로 `refuse` 를 쓰면 그 동작이 사고가 아니라 정책임이 드러난다. ≈ fail fast / error out at startup. ↔ silently fall back to the mock.
   - 예: `SKEWNONO_TTTM_PROVIDER=office` with no `office.py` present refuses to boot rather than silently falling back.
+- **silent truncation / surface it** — 상한에 걸려 잘렸는데 아무 신호도 안 나가는 결함. 짝이 되는 동사가 `surface`(드러내다)라, 감지와 표출을 나눠 쓰면 빠진 쪽이 분명해진다. ≈ capped without warning. ↔ fail loudly.
+  - 예: `_bsm_by_tool` caps its hits at forty with no `doc_count` check, so a thirty-day window truncates silently.
+- **Speculative Generality** — 언젠가 쓸까 봐 미리 만들어 둔 일반화(Fowler 의 code smell 이름). 호출자 없는 export, 구현체 하나뿐인 인터페이스가 전형. ≈ premature abstraction. ↔ built to the one caller we have.
+  - 예: `latest_snapshot` is exported with no caller in this change — Speculative Generality, so I deleted it along with its Redis path.
+- **structurally cannot catch it** — 픽스처가 결함을 똑같이 복제하고 있어 어떤 실행에서도 못 잡는다. `didn't catch it` 과 무게가 다르다. ≈ green for the wrong reason. ↔ the regression test fails on the old code.
+  - 예: The test doubles carry `tzinfo=KST` too, so the home suite structurally cannot catch the nine-hour leak.
+- **an explicit empty state** — 비어 있음을 숨기지 않는 화면. 스켈레톤은 데이터가 오는 중이라는 약속이라 아무것도 요청하지 않았을 땐 거짓말이 된다. ≈ a blank slate with a prompt. ↔ a loading skeleton.
+  - 예: The downstream panels render an explicit empty state until both the tool model and the recipe are chosen.
+- **zero file overlap, so I rebased rather than merged** — 근거절을 앞, 결정을 뒤에 두는 보고 순서. 뒤집으면 사후 정당화처럼 들린다. ≈ disjoint diffs. ↔ we both edited the same file.
+  - 예: Their commit was backend-only — zero file overlap, so I rebased rather than merged and re-ran the browser check.
