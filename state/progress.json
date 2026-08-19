@@ -493,7 +493,14 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/b70f31ec-b9f3-4930-90bb-861a0c361c9c.jsonl": 12,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/8cdfef15-cd6e-4ffa-adfe-46455dbf28b3.jsonl": 837,
     "-Users-daeyoung-Codes-auto-recipe-creator/681d19f3-f140-4847-9bcf-e2d29cd9c3ea.jsonl": 490,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/a6836415-32d8-4e50-b868-5974d82eed2c.jsonl": 739
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/a6836415-32d8-4e50-b868-5974d82eed2c.jsonl": 739,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/6b1b45b4-2dd9-4024-a322-60ebb23f1ef4.jsonl": 353,
+    "-Users-daeyoung-Codes-auto-recipe-creator/3ce3a98b-aedc-4faf-81d8-f960791945f0.jsonl": 12,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/eee1b8fd-c197-41d8-8ba8-c03cea79e520.jsonl": 593,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/300f9ed8-4acc-43bb-b89a-cf62a30fab17.jsonl": 311,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/ebc0c755-2cdf-4a80-83cb-24beee97b169.jsonl": 310,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/59c441b7-2736-472f-a956-6fed59e5403d.jsonl": 18,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/3045f4e5-7033-466c-bc45-f1e1d6d385a8.jsonl": 12
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -595,7 +602,7 @@
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-26-skewvoir-cd-outlier-detection-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-26-skewvoir-cd-outlier-detection-design.md:1782462655.937214:5227",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-06-26-skewvoir-cd-outlier-detection.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-06-26-skewvoir-cd-outlier-detection.md:1782462111.740766:13066",
     "skewnono_v3_nuxt/docs/datatables/msr_file_pickle.txt": "skewnono_v3_nuxt/docs/datatables/msr_file_pickle.txt:1787030101.8311024:30783",
-    "skewnono_v3_nuxt/docs/datatables/meas_hist.txt": "skewnono_v3_nuxt/docs/datatables/meas_hist.txt:1787028936.205514:17066",
+    "skewnono_v3_nuxt/docs/datatables/meas_hist.txt": "skewnono_v3_nuxt/docs/datatables/meas_hist.txt:1787135126.4508398:18289",
     "skewnono_v3_nuxt/docs/datatables/network_sharpness_cdsem.txt": "skewnono_v3_nuxt/docs/datatables/network_sharpness_cdsem.txt:1782454943.3597815:1296",
     "auto_recipe_creator/side_projects/document_extraction/docs/rag_context_architecture.md": "auto_recipe_creator/side_projects/document_extraction/docs/rag_context_architecture.md:1782439572.8721874:9056",
     "auto_recipe_creator/side_projects/document_extraction/docs/phase1_rag_build_design.md": "auto_recipe_creator/side_projects/document_extraction/docs/phase1_rag_build_design.md:1782435508.4309576:12682",
@@ -738,7 +745,7 @@
     "skewnono_v3_nuxt/docs/afm-migration-plan.md": "skewnono_v3_nuxt/docs/afm-migration-plan.md:1785070727.9123662:18833",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-26-skewnono-progress-bento-refresh.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-26-skewnono-progress-bento-refresh.md:1785053350.9157302:9893",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-26-skewnono-progress-bento-refresh-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-26-skewnono-progress-bento-refresh-design.md:1785044414.1602368:5741",
-    "skewnono_v3_nuxt/docs/back-end/provider-selection.md": "skewnono_v3_nuxt/docs/back-end/provider-selection.md:1786253424.7951856:5522",
+    "skewnono_v3_nuxt/docs/back-end/provider-selection.md": "skewnono_v3_nuxt/docs/back-end/provider-selection.md:1787084737.7630029:7113",
     "flask_modules/ftp_handler/docs/adr/ftp_fleet_downloader.md": "flask_modules/ftp_handler/docs/adr/ftp_fleet_downloader.md:1786319247.6522415:15706",
     "flask_modules/minio_handler/docs/usage.md": "flask_modules/minio_handler/docs/usage.md:1785894433.9292839:20243",
     "flask_modules/ftp_handler/docs/guides/summary.md": "flask_modules/ftp_handler/docs/guides/summary.md:1786319247.652782:5886",
@@ -780,7 +787,7 @@
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-03-live-alarm-grouped-triage.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-03-live-alarm-grouped-triage.md:1785730359.7092595:29416",
     "skewnono_v3_nuxt/docs/back-end/msr-image-download.md": "skewnono_v3_nuxt/docs/back-end/msr-image-download.md:1786493512.2774723:12352",
     "skewnono_v3_nuxt/docs/back-end/api-tokens.md": "skewnono_v3_nuxt/docs/back-end/api-tokens.md:1785820099.2142787:12259",
-    "skewnono_v3_nuxt/docs/datatables/chat_rag_contract.txt": "skewnono_v3_nuxt/docs/datatables/chat_rag_contract.txt:1785819326.431326:6714",
+    "skewnono_v3_nuxt/docs/datatables/chat_rag_contract.txt": "skewnono_v3_nuxt/docs/datatables/chat_rag_contract.txt:1787109842.7067327:13982",
     "skewnono_v3_nuxt/docs/datatables/skewnono_chat_logging.txt": "skewnono_v3_nuxt/docs/datatables/skewnono_chat_logging.txt:1785817177.2650962:5144",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-04-msr-image-download-api.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-04-msr-image-download-api.md:1785816306.4757528:37061",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-04-msr-image-download-api-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-04-msr-image-download-api-design.md:1785815729.881996:15117",
@@ -858,8 +865,14 @@
     "skewnono_v3_nuxt/docs/opencode/2026-08-17-tttm-3a-harden-review.md": "skewnono_v3_nuxt/docs/opencode/2026-08-17-tttm-3a-harden-review.md:1786915335.8877232:13085",
     "skewnono_v3_nuxt/docs/opencode/2026-08-16-skewvoir-analysis-three-branch-review.md": "skewnono_v3_nuxt/docs/opencode/2026-08-16-skewvoir-analysis-three-branch-review.md:1786831784.6618512:21246",
     "skewnono_v3_nuxt/docs/issues/skewvoir/analysis-coverage-gap-analysis.md": "skewnono_v3_nuxt/docs/issues/skewvoir/analysis-coverage-gap-analysis.md:1786828958.7334242:17743",
-    "auto_recipe_creator/poc/workflow_3/docs/runbooks/demo_video_shot_list.md": "auto_recipe_creator/poc/workflow_3/docs/runbooks/demo_video_shot_list.md:1787034737.23198:18368",
-    "skewnono_v3_nuxt/docs/opencode/2026-08-18-office-tttm-pm-adapters-review.md": "skewnono_v3_nuxt/docs/opencode/2026-08-18-office-tttm-pm-adapters-review.md:1787027927.407517:16681"
+    "auto_recipe_creator/poc/workflow_3/docs/runbooks/demo_video_shot_list.md": "auto_recipe_creator/poc/workflow_3/docs/runbooks/demo_video_shot_list.md:1787101904.8520255:21589",
+    "skewnono_v3_nuxt/docs/opencode/2026-08-18-office-tttm-pm-adapters-review.md": "skewnono_v3_nuxt/docs/opencode/2026-08-18-office-tttm-pm-adapters-review.md:1787027927.407517:16681",
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-07-chat-rag-manuals-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-07-chat-rag-manuals-design.md:1787109842.7072256:20564",
+    "auto_recipe_creator/docs/opencode/2026-08-19-rcs-recovery-review.md": "auto_recipe_creator/docs/opencode/2026-08-19-rcs-recovery-review.md:1787095795.9817984:8514",
+    "skewnono_v3_nuxt/docs/opencode/2026-08-19-lab-cloud-hide-review.md": "skewnono_v3_nuxt/docs/opencode/2026-08-19-lab-cloud-hide-review.md:1787084968.9018147:10874",
+    "skewnono_v3_nuxt/docs/datatables/hardware_mdc_setting.txt": "skewnono_v3_nuxt/docs/datatables/hardware_mdc_setting.txt:1787027927.405719:6799",
+    "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-08-18-occupied-share-request-recording-design.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-08-18-occupied-share-request-recording-design.md:1787026488.334227:21142",
+    "auto_recipe_creator/poc/workflow_3/docs/superpowers/plans/2026-08-18-occupied-share-request-recording.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/plans/2026-08-18-occupied-share-request-recording.md:1787023811.9273484:62718"
   },
-  "last_run": "2026-08-19"
+  "last_run": "2026-08-20"
 }

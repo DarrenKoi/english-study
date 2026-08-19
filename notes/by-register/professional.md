@@ -883,3 +883,23 @@
   - 예: A read I take now could be stale by the time their work lands, so I armed a watcher instead of opening the file.
 - **the contract has the slot, but nobody asked** — 계약상 허용되지만 요청된 적 없는 추가물을 범위 지적으로 올리는 대구. 앞 절의 인정이 `nobody asked` 의 무례함을 걷어낸다. ≈ allowed, not requested. ↔ this was the explicit ask.
   - 예: The `raw` diagnostics dict is `NotRequired` in the contract, so it's legal — but nobody asked for it, and it ships on every payload.
+
+<!-- 2026-08-20 -->
+- **a documented breach** — 문서로 정해 둔 규칙을 어긴 것. 취향 차이가 아니라는 근거가 documented 한 단어에 실린다. ↔ a judgement call.
+  - 예: I'm filing this as a documented breach rather than a preference: AGENTS.md says docs must change with safety behavior.
+- **adds false confidence** — 통과해도 아무것도 증명 못 해 헛된 안심만 주는 단언. 삭제를 권하는 근거로 강하다. ↔ actually pins the behavior.
+  - 예: `assert value in (True, False)` passes for any boolean, so the line adds false confidence rather than coverage.
+- **harmless but unrequested** — 해롭진 않지만 요청한 적 없는 추가분. 앞말이 지적의 날을 깎아 상대가 방어하지 않는다. ≈ benign scope creep.
+  - 예: The new window-timeout knob is harmless but unrequested, so I'll note it rather than ask for a revert.
+- **the doc of record contradicts the code** — 정본 문서가 코드와 어긋난다. of record 가 "이 문서를 믿는 사람이 속는다"까지 담는다. ↔ docs and code agree.
+  - 예: The route's docstring justifies itself well, but the doc of record contradicts the code, and readers trust the doc.
+- **at worst** — 최악의 경우라야 이 정도. 남은 위험의 상한을 스스로 먼저 그어 트레이드오프를 옹호한다. ↔ at best.
+  - 예: It defaults to false while the fetch is pending, which at worst shows a BETA row for a moment to a production user.
+- **the safer of the two defaults** — 둘 중 덜 위험한 기본값. 안전한 선택지가 없음을 전제로 깔아 불완전한 결정을 정직하게 변호한다. ↔ a strictly correct default.
+  - 예: Defaulting to false is not safe, it is the safer of the two defaults, and I picked which way to fail.
+- **through a side door** — 정면에서 막은 것을 뒷문으로 되살리는 변경. 비난 대신 그림을 줘 재설계를 부른다. ↔ through the front door.
+  - 예: An intro page advertising those screens would have re-opened the invitation through a side door.
+- **one thing to expect:** — 한 가지 미리 알아 두실 것은. 사과도 변명도 아닌 예고라, "고쳤다며 왜 그대로냐"를 앞질러 막는다.
+  - 예: One thing to expect: the fix only corrects new events, so the old label keeps showing until it drains out.
+- **a second, quieter failure** — 시끄러운 버그 뒤에 숨어 조용히 데이터를 갉아먹던 두 번째 결함. ↔ a loud failure.
+  - 예: There was a second, quieter failure in the same regex: real page opens were dropped, not just mislabeled.

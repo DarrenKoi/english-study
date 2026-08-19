@@ -733,3 +733,15 @@
   - 예: The downstream panels render an explicit empty state until both the tool model and the recipe are chosen.
 - **zero file overlap, so I rebased rather than merged** — 근거절을 앞, 결정을 뒤에 두는 보고 순서. 뒤집으면 사후 정당화처럼 들린다. ≈ disjoint diffs. ↔ we both edited the same file.
   - 예: Their commit was backend-only — zero file overlap, so I rebased rather than merged and re-ran the browser check.
+
+<!-- 2026-08-20 -->
+- **fall through to (the fallback)** — 어느 분기에도 안 걸려 기본 경로로 흘러가다. 실패가 아니라 조용히 다른 값이 나왔다는 사실을 담는다. ↔ match a specific rule.
+  - 예: The comma-joined segment matched no page rule, so the path fell through to the tool-slug fallback.
+- **make the failure loud** — 고장을 없애는 게 아니라 보이게 만들다. ↔ fail silently.
+  - 예: Asserting the step name instead of the index would make the failure loud.
+- **stay in agreement** — 따로 구현된 두 쪽이 앞으로도 어긋나지 않게 장치로 묶어 두다. ↔ drift apart.
+  - 예: Three multi-FAB rows went into the shared fixture so the two halves stay in agreement.
+- **drain out on its own** — 손대지 않아도 시간이 지나면 조회 창 밖으로 밀려나 사라지다. ≈ age out. ↔ need a backfill.
+  - 예: Rows already written keep the old label, so it will show in the 30-day window until it drains out on its own.
+- **pin (a case) in the unit tests** — 예외 사례를 테스트로 못박아 회귀를 막다. cover 보다 의도가 좁고 강하다. ↔ leave it unasserted.
+  - 예: I kept the allowlist intact and pinned the multi-FAB case in each side's unit tests instead.

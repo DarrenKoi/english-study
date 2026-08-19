@@ -2,6 +2,20 @@
 
 알파벳 순. 각 표현 → 처음 수집된 daily 링크.
 
+- **a documented breach** — [daily/2026-08-20](daily/2026-08-20/new-expressions.md)
+- **a second, quieter failure** — [daily/2026-08-20](daily/2026-08-20/new-expressions.md)
+- **adds false confidence** — [daily/2026-08-20](daily/2026-08-20/new-expressions.md)
+- **at worst** — [daily/2026-08-20](daily/2026-08-20/new-expressions.md)
+- **drain out on its own** — [daily/2026-08-20](daily/2026-08-20/new-expressions.md)
+- **fall through to (the fallback)** — [daily/2026-08-20](daily/2026-08-20/new-expressions.md)
+- **harmless but unrequested** — [daily/2026-08-20](daily/2026-08-20/new-expressions.md)
+- **make the failure loud** — [daily/2026-08-20](daily/2026-08-20/new-expressions.md)
+- **one thing to expect:** — [daily/2026-08-20](daily/2026-08-20/new-expressions.md)
+- **pin (a case) in the unit tests** — [daily/2026-08-20](daily/2026-08-20/new-expressions.md)
+- **stay in agreement** — [daily/2026-08-20](daily/2026-08-20/new-expressions.md)
+- **the doc of record contradicts the code** — [daily/2026-08-20](daily/2026-08-20/new-expressions.md)
+- **the safer of the two defaults** — [daily/2026-08-20](daily/2026-08-20/new-expressions.md)
+- **through a side door** — [daily/2026-08-20](daily/2026-08-20/new-expressions.md)
 - ["A" and "B" are separate claims](daily/2026-08-03/new-expressions.md) — 2026-08-03
 - [(a distinction that) has teeth](daily/2026-08-03/new-expressions.md) — 2026-08-03
 - [(a guard) actually bites](daily/2026-07-27/new-expressions.md) — 2026-07-27
@@ -207,8 +221,8 @@
 - [by the litmus test](daily/2026-08-09/new-expressions.md) — 2026-08-09
 - [byte-identical](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [calibration-fragile ↔ calibration-light](daily/2026-06-26/new-expressions.md) — 2026-06-26
-- [call it out](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [call it out / surface it](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [call it out](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [can only tighten, never weaken](daily/2026-07-18/new-expressions.md) — 2026-07-18
 - [can spare it](daily/2026-08-08/new-expressions.md) — 2026-08-08
 - [can't outlive](daily/2026-08-06/new-expressions.md) — 2026-08-06
@@ -506,8 +520,8 @@
 - [mind the (rate limit)](daily/2026-07-18/new-expressions.md) — 2026-07-18
 - [mirror it back](daily/2026-07-19/new-expressions.md) — 2026-07-19
 - [mock fodder, not classifiers](daily/2026-08-03/new-expressions.md) — 2026-08-03
-- [momentum is cheapest there](daily/2026-08-10/new-expressions.md) — 2026-08-10
 - [momentum is cheapest there](daily/2026-08-05/new-expressions.md) — 2026-08-05
+- [momentum is cheapest there](daily/2026-08-10/new-expressions.md) — 2026-08-10
 - [moot (make X moot)](daily/2026-07-04/new-expressions.md) — 2026-07-04
 - [more ceremony than the change warranted](daily/2026-07-23/new-expressions.md) — 2026-07-23
 - [move under someone](daily/2026-07-30/new-expressions.md) — 2026-07-30
@@ -656,8 +670,8 @@
 - [safety net](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [Same smell, lower risk](daily/2026-08-19/new-expressions.md) — 2026-08-19
 - [sanity check](daily/2026-06-27/new-expressions.md) — 2026-06-27
-- [say so](daily/2026-07-12/new-expressions.md) — 2026-07-12
 - [say so instead of pretending](daily/2026-08-06/new-expressions.md) — 2026-08-06
+- [say so](daily/2026-07-12/new-expressions.md) — 2026-07-12
 - [say the word (just say the word)](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [scope creep](daily/2026-07-01/new-expressions.md) — 2026-07-01
 - [seeded from](daily/2026-06-22/new-expressions.md) — 2026-06-22
