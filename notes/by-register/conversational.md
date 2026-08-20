@@ -391,3 +391,9 @@
   - 예: There's a chicken-and-egg in the gating: the roster the dropdowns render comes from the payload itself.
 - **Decisions locked in:** — 더 논의하지 않기로 고정한 사항을 목록으로 못박는 제목. 분사구라 동사도 주어도 없이 상태만 남아 항목이 깔끔하게 붙는다. ≈ settled and not up for debate. ↔ still open.
   - 예: Decisions locked in for when I start: explicit empty state, one shared component name, top-bar placement on both pages.
+- **there's a real fork here** — 여기 진짜 갈림길이 있다. 두 방향 모두 유효할 때 쓰며, `real` 이 "형식적 선택지가 아니다"를 담아 상대가 그냥 넘기지 못하게 한다. ↔ there's only one sensible path.
+  - 예: Before I build: there's a real fork here, and it touches the design you wrote this morning.
+- **have a number attached** — 질문에 숫자를 붙이다. `measure it` 이 행동만 말한다면 이쪽은 질문이 정량으로 닫힌다는 결과까지 담는다. ≈ put a number on it. ↔ leave it at a hunch.
+  - 예: Let me measure the actual cost per iteration so the "it's too fast" question has a number attached.
+- **a good place to be** — 있기 좋은 자리다. 성과를 자랑하지 않고 상태로만 말하는 완곡 표현. ≈ we're in decent shape. ↔ we've painted ourselves into a corner.
+  - 예: That was somewhat accidental, but it's a good place to be: the decision is now yours to make.

@@ -500,7 +500,16 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/300f9ed8-4acc-43bb-b89a-cf62a30fab17.jsonl": 311,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/ebc0c755-2cdf-4a80-83cb-24beee97b169.jsonl": 310,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/59c441b7-2736-472f-a956-6fed59e5403d.jsonl": 18,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/3045f4e5-7033-466c-bc45-f1e1d6d385a8.jsonl": 12
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/3045f4e5-7033-466c-bc45-f1e1d6d385a8.jsonl": 12,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/655426ce-7c58-4abd-8ba7-917af28646a5.jsonl": 12,
+    "-Users-daeyoung-Codes-auto-recipe-creator/faeb8cc6-cc98-4fb7-8963-9868e5bb1ef6.jsonl": 841,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/53fbf2af-9b7b-4848-979f-a2357fd4af70.jsonl": 327,
+    "-Users-daeyoung-Codes-auto-recipe-creator/7ee5d84c-bc53-45c8-bb87-524f6e656fb4.jsonl": 26,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/13cd7900-0fe4-4301-8b9e-f84010b1261e.jsonl": 1362,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/cb67638b-5f98-4f76-8223-eb2c10f19eb0.jsonl": 18,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/d32c879d-47d9-4061-b467-cf5bf1a14a2a.jsonl": 19,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/e15c95df-0502-4735-a078-7ffe0131c3f0.jsonl": 13,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/605c329e-a9c6-4e4c-93e8-6df3872ee4d6.jsonl": 12
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -602,7 +611,7 @@
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-26-skewvoir-cd-outlier-detection-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-26-skewvoir-cd-outlier-detection-design.md:1782462655.937214:5227",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-06-26-skewvoir-cd-outlier-detection.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-06-26-skewvoir-cd-outlier-detection.md:1782462111.740766:13066",
     "skewnono_v3_nuxt/docs/datatables/msr_file_pickle.txt": "skewnono_v3_nuxt/docs/datatables/msr_file_pickle.txt:1787030101.8311024:30783",
-    "skewnono_v3_nuxt/docs/datatables/meas_hist.txt": "skewnono_v3_nuxt/docs/datatables/meas_hist.txt:1787135126.4508398:18289",
+    "skewnono_v3_nuxt/docs/datatables/meas_hist.txt": "skewnono_v3_nuxt/docs/datatables/meas_hist.txt:1787201312.9769027:24208",
     "skewnono_v3_nuxt/docs/datatables/network_sharpness_cdsem.txt": "skewnono_v3_nuxt/docs/datatables/network_sharpness_cdsem.txt:1782454943.3597815:1296",
     "auto_recipe_creator/side_projects/document_extraction/docs/rag_context_architecture.md": "auto_recipe_creator/side_projects/document_extraction/docs/rag_context_architecture.md:1782439572.8721874:9056",
     "auto_recipe_creator/side_projects/document_extraction/docs/phase1_rag_build_design.md": "auto_recipe_creator/side_projects/document_extraction/docs/phase1_rag_build_design.md:1782435508.4309576:12682",
@@ -735,7 +744,7 @@
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-23-msr-image-tool-fetch.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-23-msr-image-tool-fetch.md:1784806719.3403015:83172",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-23-msr-image-tool-fetch-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-23-msr-image-tool-fetch-design.md:1784806664.0082743:23615",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-23-bm-pm-office-adapter.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-23-bm-pm-office-adapter.md:1784790358.6202035:56796",
-    "skewnono_v3_nuxt/docs/deployment.md": "skewnono_v3_nuxt/docs/deployment.md:1786596540.9797463:23874",
+    "skewnono_v3_nuxt/docs/deployment.md": "skewnono_v3_nuxt/docs/deployment.md:1787183289.8741677:24228",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-24-deploy-packaging.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-24-deploy-packaging.md:1784875505.002366:55211",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-24-wafer-geometry-map-offset-coherence.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-24-wafer-geometry-map-offset-coherence.md:1784875352.3846042:31873",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-24-deploy-packaging-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-24-deploy-packaging-design.md:1784875197.9250455:16369",
@@ -754,8 +763,8 @@
     "pm_notes/docs/superpowers/plans/2026-07-28-ai-terms-html-reader.md": "pm_notes/docs/superpowers/plans/2026-07-28-ai-terms-html-reader.md:1785223399.482151:30457",
     "pm_notes/docs/superpowers/specs/2026-07-28-ai-terms-html-reader-design.md": "pm_notes/docs/superpowers/specs/2026-07-28-ai-terms-html-reader-design.md:1785223086.6859431:9872",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-28-idp-image-info-boolean-columns-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-28-idp-image-info-boolean-columns-design.md:1785222925.159243:11835",
-    "skewnono_v3_nuxt/docs/datatables/skewnono_logging.txt": "skewnono_v3_nuxt/docs/datatables/skewnono_logging.txt:1785809205.6231298:9682",
-    "skewnono_v3_nuxt/docs/datatables/README.md": "skewnono_v3_nuxt/docs/datatables/README.md:1787028936.205376:10497",
+    "skewnono_v3_nuxt/docs/datatables/skewnono_logging.txt": "skewnono_v3_nuxt/docs/datatables/skewnono_logging.txt:1787174554.3008296:10728",
+    "skewnono_v3_nuxt/docs/datatables/README.md": "skewnono_v3_nuxt/docs/datatables/README.md:1787173345.7664762:10817",
     "skewnono_v3_nuxt/docs/handoff/handoff-2026-07-27-opensearch-logging-activity.md": "skewnono_v3_nuxt/docs/handoff/handoff-2026-07-27-opensearch-logging-activity.md:1785153297.394354:9556",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-27-opensearch-logging-activity.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-27-opensearch-logging-activity.md:1785131816.754487:74126",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-29-skewvoir-fdc-graph-view-toggle.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-29-skewvoir-fdc-graph-view-toggle.md:1785323228.7908304:30628",
@@ -764,7 +773,7 @@
     "skewnono_v3_nuxt/docs/datatables/recipe_name_list.txt": "skewnono_v3_nuxt/docs/datatables/recipe_name_list.txt:1785294247.7013605:3662",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-29-raw-recipe-folder-amp-and-conditions.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-29-raw-recipe-folder-amp-and-conditions.md:1785289871.0114686:61331",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-30-pending-tools-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-30-pending-tools-design.md:1785415015.490082:17865",
-    "skewnono_v3_nuxt/docs/datatables/sem_list.txt": "skewnono_v3_nuxt/docs/datatables/sem_list.txt:1786247384.2201948:7747",
+    "skewnono_v3_nuxt/docs/datatables/sem_list.txt": "skewnono_v3_nuxt/docs/datatables/sem_list.txt:1787207172.0946262:7883",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-30-pending-tools.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-30-pending-tools.md:1785399809.3551831:73142",
     "skewnono_v3_nuxt/docs/datatables/idp_ver.txt": "skewnono_v3_nuxt/docs/datatables/idp_ver.txt:1787037662.2864535:14961",
     "skewnono_v3_nuxt/docs/datatables/planstep_r3.txt": "skewnono_v3_nuxt/docs/datatables/planstep_r3.txt:1786407179.988252:16855",
@@ -872,7 +881,14 @@
     "skewnono_v3_nuxt/docs/opencode/2026-08-19-lab-cloud-hide-review.md": "skewnono_v3_nuxt/docs/opencode/2026-08-19-lab-cloud-hide-review.md:1787084968.9018147:10874",
     "skewnono_v3_nuxt/docs/datatables/hardware_mdc_setting.txt": "skewnono_v3_nuxt/docs/datatables/hardware_mdc_setting.txt:1787027927.405719:6799",
     "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-08-18-occupied-share-request-recording-design.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-08-18-occupied-share-request-recording-design.md:1787026488.334227:21142",
-    "auto_recipe_creator/poc/workflow_3/docs/superpowers/plans/2026-08-18-occupied-share-request-recording.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/plans/2026-08-18-occupied-share-request-recording.md:1787023811.9273484:62718"
+    "auto_recipe_creator/poc/workflow_3/docs/superpowers/plans/2026-08-18-occupied-share-request-recording.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/plans/2026-08-18-occupied-share-request-recording.md:1787023811.9273484:62718",
+    "auto_recipe_creator/docs/opencode/2026-08-20-per-take-run-directory-debate.md": "auto_recipe_creator/docs/opencode/2026-08-20-per-take-run-directory-debate.md:1787198172.8533473:6672",
+    "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-08-20-per-take-run-directory-design.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-08-20-per-take-run-directory-design.md:1787198126.0075338:17677",
+    "skewnono_v3_nuxt/docs/datatables/hardware_bm_pm.txt": "skewnono_v3_nuxt/docs/datatables/hardware_bm_pm.txt:1787179040.3114603:17296",
+    "skewnono_v3_nuxt/docs/opencode/2026-08-20-msearch-operational-review.md": "skewnono_v3_nuxt/docs/opencode/2026-08-20-msearch-operational-review.md:1787172611.2541988:20070",
+    "skewnono_v3_nuxt/docs/opencode/2026-08-20-bm-pm-anchor-9h.md": "skewnono_v3_nuxt/docs/opencode/2026-08-20-bm-pm-anchor-9h.md:1787172181.4768813:6868",
+    "skewnono_v3_nuxt/docs/opencode/2026-08-20-opensearch-parallelisation.md": "skewnono_v3_nuxt/docs/opencode/2026-08-20-opensearch-parallelisation.md:1787171720.3972:6573",
+    "auto_recipe_creator/docs/opencode/2026-08-18-occupied-share-request-debate.md": "auto_recipe_creator/docs/opencode/2026-08-18-occupied-share-request-debate.md:1787023453.8872967:10769"
   },
-  "last_run": "2026-08-20"
+  "last_run": "2026-08-21"
 }

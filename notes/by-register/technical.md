@@ -745,3 +745,23 @@
   - 예: Rows already written keep the old label, so it will show in the 30-day window until it drains out on its own.
 - **pin (a case) in the unit tests** — 예외 사례를 테스트로 못박아 회귀를 막다. cover 보다 의도가 좁고 강하다. ↔ leave it unasserted.
   - 예: I kept the allowlist intact and pinned the multi-FAB case in each side's unit tests instead.
+- **funnel through one choke point** — 여러 갈래가 한 지점으로 수렴하다. `bottleneck` 과 달리 성능 문제를 함의하지 않아 변경 지점의 유일성을 논증할 때 쓴다. ↔ the logic is scattered across call sites.
+  - 예: Every existing method funnels through one choke point, so a sibling method disturbs nothing.
+- **die silently** — 조용히 죽다. 주어를 사람이 아니라 `the failure path` 로 두고, 관측 가능한 흔적이 없음을 `silently` 가 담는다. ↔ fail loudly.
+  - 예: The entire current failure path dies silently: the driver never raises the not-found error at all.
+- **stop firing** — (가드·핸들러가) 더는 발동하지 않는다. 삭제된 게 아니라 살아 있는 채로 잠든다는 어감. ≈ never triggers. ↔ fires on every request.
+  - 예: The except clause that maps a missing alias to a data error stops firing.
+- **reach (something) unannounced** — 예고 없이 ~에 닿다. 사람을 탓하지 않고 배포 절차의 알림 구멍만 짚는다. ≈ propagate without a warning. ↔ ship behind an explicit migration notice.
+  - 예: Any behavioural change to those two entry points would reach running office copies unannounced.
+- **sneak past** — (헐거운 검사를) 슬쩍 통과하다. 값을 의인화해 통과하면 안 될 것이 통과했음을 담는다. ≈ slip through. ↔ be caught by the guard.
+  - 예: Enumerate every comparison against "corrected", including checks where substring-adjacent statuses could sneak past.
+- **like-for-like** — 같은 기준끼리. 하이픈으로 묶인 부사구라 동사 뒤에 그대로 붙고, 시간대·단위 비교의 정합성을 한 단어로 보증한다. ↔ comparing across mismatched units.
+  - 예: If the indices store UTC, the naive anchor compares like-for-like against UTC storage.
+- **ungated** — 사전 검사 없이 그냥 실행되는. `gate` 에 `un-` 을 붙인 조어로, 명사구 소제목에 세우면 판정문이 된다. ≈ unguarded. ↔ gated on an explicit check.
+  - 예: The Cancel click is ungated: it is a bare click on the same mislocatable popup.
+- **lose its click affordance** — 클릭 가능하다는 신호를 잃다. `unclickable` 이 동작만 말한다면 이쪽은 사용자가 인지하는 단서까지 담는다. ↔ regain its click affordance.
+  - 예: A renamed field arrives as "No", and every row loses its click affordance.
+- **it degrades, it doesn't crash** — 성능이 떨어질 뿐 터지지는 않는다. 접속사 없이 쉼표만으로 두 절을 이어 판정을 리듬으로 만든다. ≈ fails soft. ↔ it takes the whole page down.
+  - 예: Opening a measurement with no raw data renders an empty screen — it degrades, it doesn't crash.
+- **a standing hazard** — 상존하는 위험. `standing order` 처럼 해소되지 않고 계속 유지되는 상태를 뜻한다. ≈ a known trap. ↔ a one-off slip.
+  - 예: Not a defensible local choice — the repo's own docs flag it as a standing hazard.

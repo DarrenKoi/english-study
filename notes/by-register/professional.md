@@ -903,3 +903,31 @@
   - 예: One thing to expect: the fix only corrects new events, so the old label keeps showing until it drains out.
 - **a second, quieter failure** — 시끄러운 버그 뒤에 숨어 조용히 데이터를 갉아먹던 두 번째 결함. ↔ a loud failure.
   - 예: There was a second, quieter failure in the same regex: real page opens were dropped, not just mislabeled.
+- **buys nothing by itself** — 그것만으로는 얻는 게 없다. 승인과 기각을 대시로 이어 붙여, "가능하다"를 내주고 실익만 회수한다. ≈ is a no-op in practice. ↔ pays for itself.
+  - 예: Yes, purely additive is structurally possible — and buys nothing by itself.
+- **the real edit surface is elsewhere** — 진짜 손댈 표면은 다른 곳이다. `edit surface` 는 변경이 실제로 닿는 코드 면적. ↔ the change is contained.
+  - 예: But the real edit surface is elsewhere, and cannot be additive.
+- **the smallest defensible slice** — 그나마 변호 가능한 최소 조각. 반대를 접지 않은 채 협조하는 화법이라 앞에 `If forced anyway,` 를 세운다. ↔ the full rollout.
+  - 예: If forced anyway, smallest defensible slice: cap the sub-batch at five and put it behind an env flag.
+- **breach the rule outright** — 규칙을 대놓고 어기다. `outright` 하나가 "회색지대가 아니다"를 담는다. ≈ violate the convention. ↔ stay within the letter of the rule.
+  - 예: Adding the method there breaches the rule outright; the next upstream sync silently drops it.
+- **On the merits, I would not overturn it** — 내용만 따져도 그 결정을 뒤집지 않겠다. 법정 어투를 빌려 절차와 시비를 분리한다. ↔ I would reopen it.
+  - 예: On the merits, I would not overturn it: the conclusion came from candidate-by-candidate elimination.
+- **The decision stands unless …** — ~하지 않는 한 이 결정은 유효하다. 결론을 닫으면서 재론의 문턱만 하나 열어 둔다. ↔ the decision is provisional.
+  - 예: The decision stands unless instrumentation later shows a real fan-out cost.
+- **fatal as specified** — 명세된 그대로면 치명적이다. 비판의 사거리를 문서 한 판본으로 묶어 방향은 살려 둔다. ≈ broken as written. ↔ sound as specified.
+  - 예: The tag is not unique per take — worst objection, and it's fatal as specified.
+- **is bigger than it reads** — 읽히는 것보다 큰 문제다. `read` 를 자동사로 써서 사람이 아니라 문서의 겉모습을 주어로 세운다. ≈ deceptively large. ↔ as small as it looks.
+  - 예: The tag-stamping for events.log is bigger than it reads.
+- **Not worth pressing.** — 더 밀어붙일 값어치는 없다. 주어 없는 단문이라 판정 도장처럼 찍힌다. ≈ I'll let that one go. ↔ I'll press this one.
+  - 예: Each failed round-trip is a non-click — not worth pressing.
+- **the cost is delay, not harm** — 비용은 지연이지 피해가 아니다. 크기가 아니라 종류를 대비시켜 되돌릴 수 있는 손실과 없는 손실을 가른다. ↔ the cost is unrecoverable.
+  - 예: Each failed round-trip is a non-click — the cost is delay, not harm.
+- **Caveat for precision:** — 정확을 기하자면 단서 하나. 관사 없이 콜론으로 끊어 소제목처럼 쓰며, 결론이 아니라 정밀도만 손본다. ≈ to be precise. ↔ stated without qualification.
+  - 예: Caveat for precision: no document mandates that replacement as a blanket rule.
+- **de facto, not written** — 관행이지 성문 규칙은 아니다. 근거의 강도를 미리 낮춰 "위반이라 부를 수는 없다"를 준비한다. ↔ codified in the standard.
+  - 예: The six-versus-one pattern is de facto, not written.
+- **the payoff is capped** — 이득에 천장이 있다. 검증 불가능한 비용과 짝지으면 기각 논리가 완성된다. ≈ the upside is bounded. ↔ the payoff compounds.
+  - 예: You've argued the payoff is capped and then committed untestable code to capture it anyway.
+- **The honest fix is …** — 정직한 해법은 ~다. `honest` 가 코드가 아니라 엔지니어의 자세를 수식하며, 값싼 우회책을 먼저 놓고 뒤집는 2단 구성으로 쓴다. ↔ the expedient workaround.
+  - 예: The honest fix is two narrow crops — the extra round-trip is cheaper than breaking the gate every occupied row.
