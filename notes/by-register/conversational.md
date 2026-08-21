@@ -397,3 +397,15 @@
   - 예: Let me measure the actual cost per iteration so the "it's too fast" question has a number attached.
 - **a good place to be** — 있기 좋은 자리다. 성과를 자랑하지 않고 상태로만 말하는 완곡 표현. ≈ we're in decent shape. ↔ we've painted ourselves into a corner.
   - 예: That was somewhat accidental, but it's a good place to be: the decision is now yours to make.
+
+## 2026-08-22
+- **rely on it in anger** — 실전에서 믿고 쓰다. `in anger` 는 화와 무관하며 군사 표현 `fired in anger`(실전 발사)에서 왔다. 영국식이라 미국 상대에겐 덜 통한다. ≈ use it for real. ↔ try it in a dry run.
+  - 예: Please test it on a deliberate run before relying on it in anger.
+- **wait it out** — 끝날 때까지 그냥 기다리다. 대명사가 동사와 부사 사이에 끼는 분리형이라 `wait out it` 은 틀린다. ≈ sit tight / ride it out. ↔ break out of it.
+  - 예: The abort check has to be inside that loop, or a press mid-glide still waits it out.
+- **wear two hats** — 1인 2역을 하다. 코드 리뷰에서는 분리해야 할 두 관심사가 한자리에 뭉쳐 있다는 비판으로 쓴다. ≈ do double duty. ↔ has one job.
+  - 예: Two guards that return the same expression are one rule wearing two hats.
+- **in single file** — 한 줄로 줄지어. `file` 이 파일이 아니라 군대의 종대를 뜻한다. 동시성 방어가 순차 요청에 무력할 때 딱 맞는다. ↔ all at once. (혼동 주의: `in lockstep` 은 동시·보조 맞춤이라 뜻이 다르다.)
+  - 예: This is exactly the herd the falsifiers warned about, arriving politely in single file.
+- **self-inflicted** — 자초한. 근거를 반박하지 않고 근거의 출처를 무너뜨린다. ≈ of our own making. ↔ imposed on us.
+  - 예: Note the one-call justification is self-inflicted — msr_image is exempt precisely because image routes fan out.

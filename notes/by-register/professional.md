@@ -931,3 +931,27 @@
   - 예: You've argued the payoff is capped and then committed untestable code to capture it anyway.
 - **The honest fix is …** — 정직한 해법은 ~다. `honest` 가 코드가 아니라 엔지니어의 자세를 수식하며, 값싼 우회책을 먼저 놓고 뒤집는 2단 구성으로 쓴다. ↔ the expedient workaround.
   - 예: The honest fix is two narrow crops — the extra round-trip is cheaper than breaking the gate every occupied row.
+
+## 2026-08-22
+- **objections, worst first** — 반론을 심각한 것부터. 동사도 관사도 없이 정렬 기준만 선언하는 표제형. ≈ in descending order of severity. ↔ minor nits first.
+  - 예: Objections, worst first: the locator does not deliver the claimed source.
+- **split the difference** — 반씩 양보해 가운데서 만나다. 기술 논쟁에서는 대개 부정형으로 쓴다 — 어느 쪽이 옳은지가 쟁점일 때 가운데는 아무도 옳지 않은 안이 되기 때문. ≈ meet in the middle. ↔ pick a side.
+  - 예: Do not resolve a genuine disagreement by splitting the difference.
+- **manufacture disagreement** — 없는 이견을 지어내다. `manufacture consent` 의 짝으로, 비판자 역할을 맡은 상대를 미리 풀어 줄 때 쓴다. ≈ play devil's advocate for its own sake. ↔ name what actually landed.
+  - 예: If you think the position is right, say so — do not manufacture disagreement.
+- **out of momentum** — 관성으로, 하던 흐름에 밀려서. `out of habit` 과 같은 자리에 물리 용어를 넣어 "논리가 아니라 운동량으로 버틴다"를 그린다. ≈ out of stubbornness (더 셈). ↔ on the merits.
+  - 예: Defending a position out of momentum after it has been refuted corrupts the verdict.
+- **that invites agreement** — 그렇게 물으면 동의를 부른다. 사물을 주어로 세워 상대가 아니라 질문의 형식을 탓한다. ≈ is a leading question. ↔ forces a real answer.
+  - 예: Asking "what do you think of this?" — that invites agreement. Ask what is wrong with it.
+- **the cost moved, it didn't vanish** — 비용이 옮겨 갔을 뿐 사라지지 않았다. 접속사 없이 쉼표로 두 절을 붙인 수사적 대구. ≈ you've relocated the problem, not solved it. ↔ that actually retires the cost.
+  - 예: "Bytes homeless" was fixed by the wrong argument — the cost moved, it didn't vanish.
+- **a false sense of safety** — 잘못된 안도감. 주어를 사람이 아니라 문서·설정으로 두면 읽는 사람 탓이 아니게 된다. ≈ lull you into thinking it's covered. ↔ make the limits obvious.
+  - 예: Reading either row alone would leave you with a false sense of safety.
+- **that itself is the finding** — 그것 자체가 발견이다. 원하는 결과의 부재를 결론으로 승격시켜 빈손 보고서를 살린다. ≈ the absence is the signal. ↔ we came back empty-handed.
+  - 예: If no correct seam exists, that itself is the finding.
+- **that distinction was paid for** — 그 구분은 대가를 치르고 얻은 것이다. 수동태가 책임자를 지워 특정인을 탓하지 않는다. ≈ we learned that the hard way. ↔ that's just how it happened to be written.
+  - 예: It's a token match, not a suffix match — and that distinction was paid for.
+- **in opposite roles** — 정반대 역할로. 예/아니오 질문에 예라고 답한 뒤 곧바로 오해를 막는 단서. ≈ but for opposite purposes. ↔ in the same capacity.
+  - 예: Yes — both, but in opposite roles: one page displays those rows, the other uses them only to exclude.
+- **the real fault line** — 진짜 균열선. 상대가 세운 대립축을 버리고 질문 자체를 다시 짤 때. ≈ that's the wrong axis. ↔ a distinction without a difference.
+  - 예: The real fault line isn't "align_images vs debug_images" — it's lifecycle ownership.

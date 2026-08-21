@@ -765,3 +765,19 @@
   - 예: Opening a measurement with no raw data renders an empty screen — it degrades, it doesn't crash.
 - **a standing hazard** — 상존하는 위험. `standing order` 처럼 해소되지 않고 계속 유지되는 상태를 뜻한다. ≈ a known trap. ↔ a one-off slip.
   - 예: Not a defensible local choice — the repo's own docs flag it as a standing hazard.
+
+## 2026-08-22
+- **a correct refusal** — 옳은 거절. 실패로 보이는 동작이 정당한 거부일 수 있다고 유보해 버그 후보에서 빼낸다. ≈ working as intended / a true negative. ↔ a false negative.
+  - 예: If they weren't on the SEM Monitor page, there is no live SEM box — that would be a correct refusal, not a detection bug.
+- **scroll away** — 스크롤에 밀려 사라지다. 자동사라 주어가 정보 자신이 되어, 아무도 지우지 않았는데 없어졌다는 뉘앙스가 붙는다. ≈ gets lost in the noise. ↔ lands on disk.
+  - 예: The console distinguishes four causes but the journal records one static string — so the discriminating information scrolls away.
+- **leak (past a rule)** — 규칙망을 빠져나가다. 주어가 빠져나간 항목 자체이며, 물이 새는 그림이라 재발 뉘앙스가 따라온다. ≈ slip through. ↔ get caught by the rule.
+  - 예: The rule was anchored to the end twice and leaked twice.
+- **re-roll (every value downstream)** — 뒤의 값을 전부 다시 뽑아 버리다. 주사위 어휘. 시드 재현성에 기대는 mock·픽스처를 고칠 때 나오는 경고문. ↔ leave the rest of the sequence untouched.
+  - 예: One caution: changing that tuple's length re-rolls every subsequent mock value downstream.
+- **at real scale** — 실제 규모에서. 결함 이름 뒤에 붙여 심각도를 올리되, 곧바로 숫자를 대지 않으면 허풍으로 읽힌다. ≈ not a corner case. ↔ only in a synthetic case.
+  - 예: This is a correctness regression at real scale — 31,021 recipes, 15.2% of the judged set.
+- **move under a running process** — 돌고 있는 프로세스 발밑에서 바뀌다. 변경 자체는 인정하고 타이밍만 반대하는 화법. ≈ pull the rug out from under it. ↔ is safe to land hot.
+  - 예: It is not safe to land while your loop is live — paths would move under a running process.
+- **a sample, not the criterion** — 예시일 뿐 기준이 아니다. `criterion` 은 단수형이고 복수는 `criteria` 다. ≈ illustrative, not exhaustive. ↔ the authoritative list.
+  - 예: `_JUDGE_EXEMPT_SUFFIXES` is a sample, not the criterion — the regex is.
