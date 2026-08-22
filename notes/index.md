@@ -111,11 +111,13 @@
 - [a testbed](daily/2026-07-02/new-expressions.md) — 2026-07-02
 - [a thin capture client](daily/2026-06-19/new-expressions.md) — 2026-06-19
 - [a thin forwarder only](daily/2026-08-10/new-expressions.md) — 2026-08-10
+- [a thin route shell delegating to the view](daily/2026-08-23/new-expressions.md) — 2026-08-23
 - [a too-shallow fix / a fragile bandaid](daily/2026-07-01/new-expressions.md) — 2026-07-01
 - [a two-line revert](daily/2026-08-11/new-expressions.md) — 2026-08-11
 - [a two-minute check on your side](daily/2026-08-04/new-expressions.md) — 2026-08-04
 - [a type wanting to be born](daily/2026-07-22/new-expressions.md) — 2026-07-22
 - [a visibility requirement, not an automated judgment](daily/2026-08-18/new-expressions.md) — 2026-08-18
+- [a wall of 404s](daily/2026-08-23/new-expressions.md) — 2026-08-23
 - [a wart (a documented wart)](daily/2026-07-02/new-expressions.md) — 2026-07-02
 - [a wash](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [a wrinkle worth flagging](daily/2026-06-20/new-expressions.md) — 2026-06-20
@@ -221,6 +223,7 @@
 - [calibration-fragile ↔ calibration-light](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [call it out](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [call it out / surface it](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [can contradict its own guard](daily/2026-08-23/new-expressions.md) — 2026-08-23
 - [can only tighten, never weaken](daily/2026-07-18/new-expressions.md) — 2026-07-18
 - [can spare it](daily/2026-08-08/new-expressions.md) — 2026-08-08
 - [can't outlive](daily/2026-08-06/new-expressions.md) — 2026-08-06
@@ -346,6 +349,7 @@
 - [even granting (that) X](daily/2026-08-16/new-expressions.md) — 2026-08-16
 - [exercise (a code path)](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [exist to prevent (X)](daily/2026-08-05/new-expressions.md) — 2026-08-05
+- [Existing drift elsewhere doesn't authorize a new instance.](daily/2026-08-23/new-expressions.md) — 2026-08-23
 - [extrapolate from X](daily/2026-08-16/new-expressions.md) — 2026-08-16
 - [eyeball (a number)](daily/2026-08-07/new-expressions.md) — 2026-08-07
 - [eyeball it](daily/2026-07-20/new-expressions.md) — 2026-07-20
@@ -362,6 +366,7 @@
 - **fatal as specified** — [daily/2026-08-21](daily/2026-08-21/new-expressions.md)
 - [feature parity](daily/2026-07-18/new-expressions.md) — 2026-07-18
 - [fence (something) off](daily/2026-07-24/new-expressions.md) — 2026-07-24
+- [fetch a file it never checked existed](daily/2026-08-23/new-expressions.md) — 2026-08-23
 - [fight the (repo's own) convention](daily/2026-07-04/new-expressions.md) — 2026-07-04
 - [fire-and-forget](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [first writer wins](daily/2026-08-15/new-expressions.md) — 2026-08-15
@@ -441,6 +446,7 @@
 - [human-readable](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [hunt it (down)](daily/2026-08-08/new-expressions.md) — 2026-08-08
 - [I now have a complete picture](daily/2026-07-08/new-expressions.md) — 2026-07-08
+- [I want evidence before making that trade.](daily/2026-08-23/new-expressions.md) — 2026-08-23
 - [idempotent](daily/2026-07-18/new-expressions.md) — 2026-07-18
 - [If the wiki adds work for the user, it has failed](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [import success proves presence, never version](daily/2026-08-04/new-expressions.md) — 2026-08-04
@@ -476,6 +482,7 @@
 - [it reads as precedent for X](daily/2026-08-09/new-expressions.md) — 2026-08-09
 - [it wants its own change](daily/2026-08-17/new-expressions.md) — 2026-08-17
 - [it's one sitting](daily/2026-07-25/new-expressions.md) — 2026-07-25
+- [it's preservation, not invention](daily/2026-08-23/new-expressions.md) — 2026-08-23
 - [it's the only place X is observable](daily/2026-08-08/new-expressions.md) — 2026-08-08
 - [it's yours to delete](daily/2026-08-04/new-expressions.md) — 2026-08-04
 - [its result is considered seen](daily/2026-08-10/new-expressions.md) — 2026-08-10
@@ -527,6 +534,7 @@
 - [mask itself (masking)](daily/2026-06-27/new-expressions.md) — 2026-06-27
 - [masquerade as](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [match on the text, not the line number](daily/2026-07-16/new-expressions.md) — 2026-07-16
+- [matches existing practice](daily/2026-08-23/new-expressions.md) — 2026-08-23
 - [matches the file's house style](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [measure first, fix second](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [measure the ghost of the old system](daily/2026-07-07/new-expressions.md) — 2026-07-07
@@ -591,6 +599,7 @@
 - [one heads-up before you …](daily/2026-07-19/new-expressions.md) — 2026-07-19
 - [one housekeeping note](daily/2026-07-19/new-expressions.md) — 2026-07-19
 - [one level up](daily/2026-08-16/new-expressions.md) — 2026-08-16
+- [one slot family over](daily/2026-08-23/new-expressions.md) — 2026-08-23
 - [one thing I decided rather than asked](daily/2026-08-11/new-expressions.md) — 2026-08-11
 - **one thing to expect:** — [daily/2026-08-20](daily/2026-08-20/new-expressions.md)
 - [one variable at a time](daily/2026-08-08/new-expressions.md) — 2026-08-08
@@ -627,6 +636,7 @@
 - [point me at (something)](daily/2026-07-21/new-expressions.md) — 2026-07-21
 - [poison (a stored value)](daily/2026-08-09/new-expressions.md) — 2026-08-09
 - [pop in late](daily/2026-08-15/new-expressions.md) — 2026-08-15
+- [Positives first:](daily/2026-08-23/new-expressions.md) — 2026-08-23
 - [post-hoc](daily/2026-07-12/new-expressions.md) — 2026-07-12
 - [pre-digest (something) into a summary](daily/2026-08-17/new-expressions.md) — 2026-08-17
 - [preach to the choir](daily/2026-07-18/new-expressions.md) — 2026-07-18
@@ -677,6 +687,7 @@
 - [retain source order](daily/2026-07-17/new-expressions.md) — 2026-07-17
 - [retire (an entry)](daily/2026-08-01/new-expressions.md) — 2026-08-01
 - [retract (a finding)](daily/2026-07-07/new-expressions.md) — 2026-07-07
+- [reuse over re-derivation](daily/2026-08-23/new-expressions.md) — 2026-08-23
 - [ride along (as a row)](daily/2026-07-03/new-expressions.md) — 2026-07-03
 - [ride the same commit](daily/2026-07-19/new-expressions.md) — 2026-07-19
 - [Right call given the data](daily/2026-06-24/new-expressions.md) — 2026-06-24
@@ -826,6 +837,7 @@
 - [the better side of the trade](daily/2026-08-02/new-expressions.md) — 2026-08-02
 - [the binding constraint](daily/2026-08-12/new-expressions.md) — 2026-08-12
 - [the bridge between X and Y](daily/2026-06-17/new-expressions.md) — 2026-06-17
+- [the change makes a documented claim wrong](daily/2026-08-23/new-expressions.md) — 2026-08-23
 - [the choice is unstated](daily/2026-08-19/new-expressions.md) — 2026-08-19
 - [the classic signature of X](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [the compiler produces the worklist](daily/2026-07-15/new-expressions.md) — 2026-07-15
@@ -841,6 +853,7 @@
 - [the disciplined move is to X](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [the discriminator is X](daily/2026-08-13/new-expressions.md) — 2026-08-13
 - **the doc of record contradicts the code** — [daily/2026-08-20](daily/2026-08-20/new-expressions.md)
+- [the docstring describes the old bug as the new behavior](daily/2026-08-23/new-expressions.md) — 2026-08-23
 - [the documented normal case](daily/2026-07-30/new-expressions.md) — 2026-07-30
 - [the done bar](daily/2026-07-18/new-expressions.md) — 2026-07-18
 - [the durable record](daily/2026-08-06/new-expressions.md) — 2026-08-06
@@ -848,6 +861,7 @@
 - [the exact complement of X](daily/2026-08-18/new-expressions.md) — 2026-08-18
 - [the explicit no's are as valuable as the yes's](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [the first place to check](daily/2026-07-21/new-expressions.md) — 2026-07-21
+- [the fix is at the right altitude](daily/2026-08-23/new-expressions.md) — 2026-08-23
 - [the forgiving face of X](daily/2026-08-01/new-expressions.md) — 2026-08-01
 - [the gate on X](daily/2026-07-31/new-expressions.md) — 2026-07-31
 - [the headline ask](daily/2026-06-21/new-expressions.md) — 2026-06-21
@@ -927,7 +941,9 @@
 - [trust X over Y](daily/2026-07-14/new-expressions.md) — 2026-07-14
 - [turn a cap into a stampede](daily/2026-08-11/new-expressions.md) — 2026-08-11
 - [turnkey](daily/2026-08-05/new-expressions.md) — 2026-08-05
+- [Two files are in play.](daily/2026-08-23/new-expressions.md) — 2026-08-23
 - [two honest caveats](daily/2026-08-13/new-expressions.md) — 2026-08-13
+- [two sites I deliberately left alone](daily/2026-08-23/new-expressions.md) — 2026-08-23
 - [two things jump out](daily/2026-07-31/new-expressions.md) — 2026-07-31
 - [under-powered (a test)](daily/2026-07-25/new-expressions.md) — 2026-07-25
 - [understate / overstate (the gain)](daily/2026-07-09/new-expressions.md) — 2026-07-09

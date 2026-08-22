@@ -955,3 +955,21 @@
   - 예: Yes — both, but in opposite roles: one page displays those rows, the other uses them only to exclude.
 - **the real fault line** — 진짜 균열선. 상대가 세운 대립축을 버리고 질문 자체를 다시 짤 때. ≈ that's the wrong axis. ↔ a distinction without a difference.
   - 예: The real fault line isn't "align_images vs debug_images" — it's lifecycle ownership.
+- **Existing drift elsewhere doesn't authorize a new instance.** — 다른 데 이미 어긋난 게 있다고 해서 하나 더 만들 권한이 생기지는 않는다. 선례를 `authorize` 라는 법률 어휘로 받아 "그건 허가가 아니라 부채" 로 뒤집는다. ≈ precedent isn't permission. ↔ if that's already the house pattern, follow it.
+  - 예: I know `text-(--sk-accent)` appears in three other components, but existing drift elsewhere doesn't authorize a new instance.
+- **it's preservation, not invention** — 새로 만든 게 아니라 있던 걸 보존한 것. 상대가 씌운 "지어냈다" 프레임을 반대말 하나로 되돌리는 두 명사짜리 반박. ≈ it was carried over, not added. ↔ that's net-new behavior.
+  - 예: The thumbnails came over from the deleted `StatBar.vue` untouched — it's preservation, not invention.
+- **the fix is at the right altitude** — 수정이 알맞은 추상 층위에 있다. 호출부 땜질(too low)과 과잉 추상(too high)을 고도 은유 하나로 가른다. ≈ it generalizes correctly. ↔ it's a band-aid at the call site.
+  - 예: The fix is at the right altitude, and it is incompletely applied — two of the three name-publishing sites still predate it.
+- **Positives first:** — 좋은 점부터 말하면. 두 단어에 콜론만 붙인 헤더형이라 문장을 만들 필요가 없고, 뒤에 구체적 사실을 붙여야 형식적 칭찬으로 안 읽힌다. ≈ credit where it's due. ↔ I'll start with the problems.
+  - 예: Positives first: both providers now route through one function, and the docs and the mock changed together.
+- **matches existing practice** — 기존 관행과 맞는다. `practice` 는 문서에 적힌 규칙이 아니라 실제로 굳어진 방식이라, 규칙과 관행이 어긋날 때 판정 근거가 된다. ≈ follows precedent. ↔ is a departure from existing practice.
+  - 예: Treating a 6px status dot as outside the `rounded-full` ban matches existing practice.
+- **Two files are in play.** — 관련된 파일은 둘이다. `in play` 는 스포츠의 "공이 살아 있는" 에서 왔고, `involved` 보다 가볍고 `at stake` 보다 중립적이다. ≈ there are two files involved. ↔ only one file matters here.
+  - 예: Two files are in play — a project-local one and your global one.
+- **two sites I deliberately left alone** — 일부러 손대지 않은 두 곳. `deliberately` 하나가 누락과 판단을 가른다 — 빼면 그냥 빠뜨린 것으로 읽힌다. ≈ intentionally out of scope. ↔ swept up while I was in there.
+  - 예: The altitude review found the same defect at two sites I deliberately left alone, both written up in the spec.
+- **the change makes a documented claim wrong** — 이번 변경이 문서에 적힌 주장을 거짓으로 만든다. 사역 `make + 목적어 + 형용사` 라 주어에 책임이 붙어, "diff 밖이니 내 소관이 아니다" 를 미리 막는다. ≈ it invalidates a documented promise. ↔ the docs still hold.
+  - 예: The line is untouched by the diff, but the change makes a documented claim wrong.
+- **I want evidence before making that trade.** — 그 맞바꿈은 근거를 보고 하겠다. 거절이 아니라 조건부 동의라 상대가 근거를 가져오면 진행된다는 문이 열려 있다. ≈ I'd need data first. ↔ I'm comfortable making that call now.
+  - 예: Dropping the fallback would cost CD-SEM users images that currently load — I want evidence before making that trade.

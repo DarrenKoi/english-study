@@ -781,3 +781,23 @@
   - 예: It is not safe to land while your loop is live — paths would move under a running process.
 - **a sample, not the criterion** — 예시일 뿐 기준이 아니다. `criterion` 은 단수형이고 복수는 `criteria` 다. ≈ illustrative, not exhaustive. ↔ the authoritative list.
   - 예: `_JUDGE_EXEMPT_SUFFIXES` is a sample, not the criterion — the regex is.
+- **Existing drift elsewhere doesn't authorize a new instance.** — 다른 데 이미 어긋난 게 있다고 해서 하나 더 만들 권한이 생기지는 않는다. `drift` 는 규칙에서 조금씩 벗어난 기존 코드다. ≈ precedent isn't permission. ↔ if that's already the house pattern, follow it.
+  - 예: I know `text-(--sk-accent)` appears in three other components, but existing drift elsewhere doesn't authorize a new instance.
+- **the docstring describes the old bug as the new behavior** — docstring 이 옛 버그를 새 동작이라고 설명하고 있다. `describe A as B` 로 바꾸면 버그가 사양으로 승격돼 다음 사람이 복원할 위험까지 지목된다. ≈ the comment predates the fix. ↔ the docstring tracks the code.
+  - 예: We removed the fallback and fixed the tests, but the module docstring describes the old bug as the new behavior.
+- **the fix is at the right altitude** — 수정이 알맞은 추상 층위에 있다. 층위 판정과 적용 범위 판정을 갈라 놓으면 "방향은 맞고 덜 퍼졌다" 를 정확히 말할 수 있다. ≈ the seam is in the right place. ↔ it's a band-aid at the call site.
+  - 예: The fix is at the right altitude, and it is incompletely applied — two of the three name-publishing sites still predate it.
+- **a wall of 404s** — 404 로 뒤덮인 화면. `a wall of ~` 는 벽처럼 앞을 막는 양이라는 시각 은유로, 심각도를 사용자가 보는 화면 기준으로 전한다. ≈ a flood of 404s. ↔ a clean load.
+  - 예: A listing hiccup silently converts a working screen into a wall of 404s.
+- **can contradict its own guard** — 자기를 통과시킨 가드와 모순될 수 있다. `its own` 이 결정적이라, 외부 값 탓이 아니라 같은 코드 안의 어긋남이 된다. ≈ the branch disagrees with the condition that let it in. ↔ the guard fully constrains the branch.
+  - 예: The σ-share clause can contradict its own guard: the guard admits only shares above 0.2, yet the sentence prints a negative percentage.
+- **the change makes a documented claim wrong** — 이번 변경이 문서에 적힌 주장을 거짓으로 만든다. diff 가 건드리지 않은 줄도 책임 범위로 끌어들이는 논법. ≈ the code and the doc now disagree. ↔ the docs still hold.
+  - 예: The line is untouched by the diff, but the change makes a documented claim wrong.
+- **one slot family over** — 한 칸 옆 slot 계열에서. `one street over` 처럼 "한 칸 옆" 을 뜻하는 공간 표현을 코드 구조에 얹어 결함의 복제를 짧게 가리킨다. ≈ at the sibling site.
+  - 예: That is the same blind spot that hid the align bug, one slot family over.
+- **fetch a file it never checked existed** — 존재 확인을 한 적 없는 파일을 가져오게 시키다. `checked (that it) existed` 에서 that 이 빠진 형태이며, `never` 가 검증 단계의 부재를 못 박는다. ≈ it published a name it never verified. ↔ every name it publishes resolves 200.
+  - 예: Every 404 meant the backend told the browser to fetch a file it never checked existed.
+- **reuse over re-derivation** — 재계산 대신 재사용. `A over B` 는 "B 보다 A 를 택한다" 를 명사 둘로 압축한 원칙 표기법이다(`composition over inheritance` 와 같은 틀). ≈ compute it once and pass it down. ↔ recompute at each call site.
+  - 예: Reuse over re-derivation is documented and real here — the metrics come in as an argument instead of being recomputed.
+- **a thin route shell delegating to the view** — 뷰로 넘기기만 하는 얇은 라우트 껍데기. 이 구조를 밝히면 "그래서 수정은 라우트가 아니라 뷰에 들어간다" 는 결론이 따라 나온다. ≈ the page is just a wrapper. ↔ the page owns the layout itself.
+  - 예: `measurement-rules.vue` is a thin route shell delegating to `EbeamMeasurementRulesView`, so the header lives in the view, not the page.

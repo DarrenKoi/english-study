@@ -409,3 +409,13 @@
   - 예: This is exactly the herd the falsifiers warned about, arriving politely in single file.
 - **self-inflicted** — 자초한. 근거를 반박하지 않고 근거의 출처를 무너뜨린다. ≈ of our own making. ↔ imposed on us.
   - 예: Note the one-call justification is self-inflicted — msr_image is exempt precisely because image routes fan out.
+- **a wall of 404s** — 404 로 뒤덮인 화면. `a wall of text`, `a wall of noise` 와 같은 틀로, 숫자 대신 화면의 인상으로 심각도를 전한다. ≈ a flood of 404s. ↔ a clean load.
+  - 예: A listing hiccup silently converts a working screen into a wall of 404s.
+- **Positives first:** — 좋은 점부터 말하면. 리뷰를 여는 두 단어짜리 헤더로 상대의 방어를 낮추되, 뒤에 구체적 사실이 없으면 빈말로 들린다. ≈ let me lead with the good news. ↔ I'll start with the problems.
+  - 예: Positives first: both providers now route through one function, and the docs and the mock changed together.
+- **Two files are in play.** — 관련된 파일은 둘이다. 설명을 시작하기 전에 대상 개수를 먼저 세워 주는 도입부 표현. ≈ we're looking at two files here. ↔ only one file matters here.
+  - 예: Two files are in play — a project-local one and your global one.
+- **one slot family over** — 한 칸 옆 계열에서. `one street over`, `one desk over` 처럼 거리를 칸으로 세는 구어 표현. ≈ next door.
+  - 예: That is the same blind spot that hid the align bug, one slot family over.
+- **I want evidence before making that trade.** — 그 맞바꿈은 근거를 보고 하겠다. `I don't want to` 대신 쓰면 거부가 아니라 조건부 동의가 된다. ≈ let's confirm it's live before we pay for it. ↔ I'm comfortable making that call now.
+  - 예: Dropping the fallback would cost CD-SEM users images that currently load — I want evidence before making that trade.
