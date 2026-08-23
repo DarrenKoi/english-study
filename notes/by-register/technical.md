@@ -801,3 +801,22 @@
   - 예: Reuse over re-derivation is documented and real here — the metrics come in as an argument instead of being recomputed.
 - **a thin route shell delegating to the view** — 뷰로 넘기기만 하는 얇은 라우트 껍데기. 이 구조를 밝히면 "그래서 수정은 라우트가 아니라 뷰에 들어간다" 는 결론이 따라 나온다. ≈ the page is just a wrapper. ↔ the page owns the layout itself.
   - 예: `measurement-rules.vue` is a thin route shell delegating to `EbeamMeasurementRulesView`, so the header lives in the view, not the page.
+
+## 2026-08-24
+
+- **stale-while-revalidate** — 낡은 값을 일단 내주고 뒤에서 갱신하는 캐시 전략. HTTP 헤더 이름이 그대로 설계 어휘가 됐다. ↔ block until fresh.
+  - 예: The loser serves the previous board (stale-while-revalidate), so no request ever waits on another request.
+- **The lock is also the backoff.** — 그 잠금이 곧 재시도 지연 장치이기도 하다. `A is also B` 로 장치 하나가 두 역할을 겸한다고 밝히는 절약 논증. ≈ it does double duty. ↔ that needs a second mechanism.
+  - 예: Releasing the lock only on success suppresses retries for twenty seconds — the lock is also the backoff.
+- **a fresh heartbeat over missing data** — 데이터는 없는데 최신 시각만 찍혀 있는 상태. `over` 가 "덮어씌운다"는 그림을 만든다. ≈ a green light on an empty pipeline. ↔ an honest stale marker.
+  - 예: A fresh heartbeat over missing data is the one failure mode this feature exists to prevent.
+- **self-corrects on the next poll** — 다음 폴링에서 저절로 바로잡힌다. 결함을 인정하면서 대응이 불필요함을 같이 밝히는 두 겹의 문장. ↔ it needs a manual reset.
+  - 예: A cold cache whose lock was lost returns an empty board marked stale, and it self-corrects on the next poll.
+- **stale but still green** — 낡았는데도 여전히 통과하는 테스트. CI 의 초록불을 받아 통과가 곧 유효함이 아님을 두 단어로 대조한다. ≈ a vacuous test. ↔ it fails the moment the contract moves.
+  - 예: That parametrized case is stale but still green — it merely asserts a rule about a file nobody will ever create.
+- **scatter into** — 한 사건의 산출물이 여러 곳으로 흩어져 쌓이다. 숫자를 같이 세면 인상이 아니라 측정이 된다. ≈ spread across. ↔ land in one place.
+  - 예: One alarm cycle currently scatters into four roots with three different naming schemes.
+- **mint its own timestamp** — 받아쓰지 않고 자기 나름의 식별자를 새로 찍어 내다. 화폐 주조의 `mint` 가 부정적 뉘앙스를 싣는다. ≈ roll its own. ↔ take the id from the caller.
+  - 예: The runner mints its own timestamp, so the journal folder and the recording folder for the same alarm differ by a second or two.
+- **uglier but never silently fails** — 볼품은 없지만 조용히 실패하지는 않는다. 심미적 손해를 먼저 인정하고 `but` 뒤에 결정적 이득을 놓는 설득 순서. ↔ cleaner but fails quietly.
+  - 예: A one-line text file is uglier but never silently fails, which a symlink on an unelevated Windows box cannot promise.

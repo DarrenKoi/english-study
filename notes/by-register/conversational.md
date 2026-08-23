@@ -419,3 +419,14 @@
   - 예: That is the same blind spot that hid the align bug, one slot family over.
 - **I want evidence before making that trade.** — 그 맞바꿈은 근거를 보고 하겠다. `I don't want to` 대신 쓰면 거부가 아니라 조건부 동의가 된다. ≈ let's confirm it's live before we pay for it. ↔ I'm comfortable making that call now.
   - 예: Dropping the fallback would cost CD-SEM users images that currently load — I want evidence before making that trade.
+
+## 2026-08-24
+
+- **Here's the actual shape of the problem.** — 문제의 실제 모양은 이렇습니다. `the actual shape` 이 "당신이 말한 그 문제가 아니라"를 부드럽게 깔아 둔다. ≈ what's really going on is. ↔ to restate your question as asked.
+  - 예: Looked at every writer — here's the actual shape of the problem.
+- **That last one is the nastiest.** — 그중 마지막이 제일 고약하다. 기술 대화의 `nasty` 는 "심각하다"보다 "다루기 까다롭고 짜증난다"에 가깝다. ≈ that's the one that bites. ↔ that one's harmless.
+  - 예: That last one is the nastiest: the runner stamps its own run_id, so two folders for the same alarm can't be joined by name.
+- **blow through (a budget)** — 한도를 단숨에 써 버리다. `exceed` 가 사실만 말한다면 이쪽은 속도와 무신경까지 담는다. ≈ burn through. ↔ stay well inside the budget.
+  - 예: The recipe-status page blows through it because each tab fires about five analytics calls per filter change.
+- **I left it alone.** — 손대지 않고 두었습니다. 짧은 과거형 한 문장이 "봤다 + 판단했다 + 안 건드렸다"를 다 담는다. ≈ I didn't touch it. ↔ I cleaned it up while I was in there.
+  - 예: Unrelated: git worktree list shows a checkout still open from another session — I left it alone.

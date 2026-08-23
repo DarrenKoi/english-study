@@ -973,3 +973,30 @@
   - 예: The line is untouched by the diff, but the change makes a documented claim wrong.
 - **I want evidence before making that trade.** — 그 맞바꿈은 근거를 보고 하겠다. 거절이 아니라 조건부 동의라 상대가 근거를 가져오면 진행된다는 문이 열려 있다. ≈ I'd need data first. ↔ I'm comfortable making that call now.
   - 예: Dropping the fallback would cost CD-SEM users images that currently load — I want evidence before making that trade.
+
+## 2026-08-24
+
+- **Dropping silently was rejected.** — 조용히 버리는 방식은 채택하지 않았다. 동명사 주어 + 수동태로 개인 취향이 아니라 팀의 판정으로 읽히게 한다. ≈ we ruled it out. ↔ it was adopted without objection.
+  - 예: Dropping silently was rejected: a roster gap and a genuinely quiet fab would render identically.
+- **not a stylistic preference** — 취향 문제가 아니다. 상대가 "스타일이니 나중에" 하고 넘길 여지를 문장 안에서 미리 닫는다. ≈ this is load-bearing. ↔ that one's down to taste.
+  - 예: The import ordering above is a real constraint on the implementation sequence, not a stylistic preference.
+- **cannot surface the difference** — 그 차이를 드러내지 못한다. 사람이 아니라 개발 환경을 주어로 세워 놓친 사람을 탓하지 않는다. ↔ it reproduces on the first run.
+  - 예: R3 is the single value where the two keys coincide, which is exactly why development focused on R3 cannot surface the difference.
+- **get honest, narrow jobs** — 각자 정직하고 좁은 역할을 갖게 되다. `honest` 는 이름과 실제의 일치, `narrow` 는 그 하나만 함을 맡는다. ≈ each gets a single responsibility. ↔ both keep doing a bit of everything.
+  - 예: Then the two old trees get honest, narrow jobs: one is MES input, the other is our disposable output.
+- **an honest count** — 부풀리지도 줄이지도 않은 비용 계산. 제안자가 자기 제안의 비용을 스스로 셀 때 이 한 단어가 신뢰를 산다. ↔ a back-of-the-envelope guess.
+  - 예: What it costs — an honest count: seven easy call sites, two medium, and one runner change.
+- **has to argue for itself** — 스스로 근거를 대야 한다. 규칙을 주어로 세워 사람을 지목하지 않고 입증 책임만 옮긴다. ≈ the burden of proof sits with the next change. ↔ it can be added on precedent alone.
+  - 예: The comment states the admission rule, so the next addition has to argue for itself.
+- **a data change, not a design change** — 설계를 바꾸는 게 아니라 값만 바꾸는 일이다. 기존 장치가 이미 있음을 확인한 뒤 규모를 축소 판정하는 A-not-B. ↔ this reopens the design.
+  - 예: The exemption mechanism already exists, so this is a data change, not a design change.
+- **One tradeoff to flag.** — 하나 짚어 둘 맞바꿈이 있다. `flag` 는 "지금 고치자"가 아니라 "기록에 남긴다"라 완료 보고의 신뢰를 깎지 않는다. ≈ worth noting. ↔ nothing outstanding on this one.
+  - 예: One tradeoff to flag: a runaway client loop now hits OpenSearch unbounded on these routes.
+- **just the request people noticed** — 신고된 증상은 원인이 아니라 눈에 띈 표본일 뿐. 사용자를 부정하지 않으면서 초점만 옮긴다. ≈ that's the symptom, not the cause. ↔ that request is the actual culprit.
+  - 예: Because the budget is app-wide, the user pill and the page-view beacon 429'd too — fail-issue/devices is just the request people noticed.
+- **the objections that landed** — 실제로 먹힌 지적들. 권투의 `a punch that lands` 에서 온 비유라 "말해졌다"와 "맞았다"를 구분한다. ≈ the criticisms that stuck. ↔ the ones you could wave away.
+  - 예: Answer every objection — do not skip the ones that landed.
+- **the ceiling, not the target** — 상한이지 목표치가 아니다. 예산·라운드 수가 "채워야 할 양"으로 변질되는 흔한 왜곡을 한 구절로 막는다. ≈ an upper bound, not a quota. ↔ that's the number to hit.
+  - 예: Three rounds is the ceiling, not the target — a clean concession in round one is a finished debate.
+- **Weak opposition is worse than no opposition.** — 약한 반대는 반대가 없느니만 못하다. `worse than none` 은 강한 판정이라 근거가 반드시 뒤따라야 한다. ≈ a rubber-stamp review is worse than skipping review. ↔ opposition worth answering.
+  - 예: Weak opposition is worse than no opposition: it produces an agreement that nobody earned.
