@@ -1000,3 +1000,23 @@
   - 예: Three rounds is the ceiling, not the target — a clean concession in round one is a finished debate.
 - **Weak opposition is worse than no opposition.** — 약한 반대는 반대가 없느니만 못하다. `worse than none` 은 강한 판정이라 근거가 반드시 뒤따라야 한다. ≈ a rubber-stamp review is worse than skipping review. ↔ opposition worth answering.
   - 예: Weak opposition is worse than no opposition: it produces an agreement that nobody earned.
+
+## 2026-08-25
+- **whose entire job is X** — 그것의 일이 오로지 X인. 책임이 왜 그 함수·모듈에 있어야 하는지를 관계절 하나로 논증한다. ≈ the one function that owns X. ↔ a function that wears two hats.
+  - 예: The Alt hold belongs inside `perform_remote_click`, whose entire job is owning that ordering.
+- **different failures, different budgets** — 실패가 다르니 예산도 따로. 동사 없는 `different X, different Y` 대구로 규칙을 격언처럼 닫는다. ≈ one budget per failure mode. ↔ lumped together.
+  - 예: Pushing back two stacked windows shouldn't consume the click-retry budget — different failures, different budgets.
+- **on both counts** — 두 가지 점 모두에서. 법정 용어에서 온 말로, 항목별로 따져 봤고 둘 다 같은 결론이라는 뜻. ≈ in both respects. ↔ on neither count.
+  - 예: Hypothesis confirmed on both counts: the dropped characters are exactly the Shift ones, and the File failure is my label gate.
+- **a clean control group** — 교란 변수 없는 대조군. 디버깅에서 "달라지지 않은 쪽"이 가설을 증명해 줄 때 실험 과학 어휘를 빌린다. ≈ a baseline. ↔ a confound.
+  - 예: Lowercase letters take the other branch, and that's precisely why not one of them was lost — a clean control group.
+- **those aren't comparable outcomes** — 그 둘은 견줄 수 있는 결과가 아니다. 정도 차이가 아니라 종류 차이라고 선언해 저울 자체를 치운다. ≈ that's not a fair trade. ↔ a wash.
+  - 예: Shaving those waits risks a demo that doesn't work rather than a demo that's slow, and those aren't comparable outcomes.
+- **a structural weakness, not a tuning problem** — 구조적 약점이지 조정 문제가 아니다. "값을 더 만져 보자"는 제안을 논리적으로 막는 판정. ≈ a design flaw, not a parameter issue. ↔ a matter of tuning.
+  - 예: Fast Caps toggling breaking the memo points at a structural weakness in the approach, not a tuning problem.
+- **honest but partial** — 거짓은 아니지만 부분적이다. 기존 코드를 비난하지 않으면서 왜 부족한지를 같이 말한다. ≈ correct as far as it goes. ↔ a wrong-but-confident signal.
+  - 예: The existing `setPending` flag is honest but partial: it only covers the file batch, not the history lookup before it.
+- **the same failure with more confidence** — 같은 실패인데 더 자신 있게 틀린 것. 이전 화면을 두는 것과 빈 상태를 보이는 것을 한 실패로 묶고 후자가 더 나쁘다고 판정한다. ≈ a louder version of the same bug. ↔ an honest stale marker.
+  - 예: A frozen page isn't a loading state, and an empty state shown during a fetch is the same failure with more confidence.
+- **safe for X, wrong for Y** — X에는 안전하고 Y에는 틀리다. 재사용하려던 도구를 "질문이 다르다"는 이유로 기각하는 정확한 방식. ≈ right tool, wrong question. ↔ fit for both purposes.
+  - 예: `isSetPoolComplete` returns true vacuously on an empty key — safe for "may I rewrite the URL param", wrong for "may I show this number".

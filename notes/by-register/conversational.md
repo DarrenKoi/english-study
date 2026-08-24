@@ -430,3 +430,19 @@
   - 예: The recipe-status page blows through it because each tab fires about five analytics calls per filter change.
 - **I left it alone.** — 손대지 않고 두었습니다. 짧은 과거형 한 문장이 "봤다 + 판단했다 + 안 건드렸다"를 다 담는다. ≈ I didn't touch it. ↔ I cleaned it up while I was in there.
   - 예: Unrelated: git worktree list shows a checkout still open from another session — I left it alone.
+
+## 2026-08-25
+- **Here's what happened, without the jargon.** — 전문 용어 빼고 무슨 일이었는지 설명하면 이렇다. "쉽게 말하면"의 자연스러운 영어로, 앞선 설명이 어려웠음을 화자가 먼저 인정하는 어투. ≈ in plain terms / in plain English.
+  - 예: Here's what happened, without the jargon: the remote relays key presses one at a time and never says "Shift was down."
+- **be straight that …** — ~라는 점을 숨기지 않고 먼저 밝히다. 상대가 묻기 전에 꺼낸다는 능동성이 `to be honest` 와 다르다. ≈ I'll be upfront: … ↔ gloss over.
+  - 예: Four I deliberately left alone, and I want to be straight that this is me narrowing your request.
+- **shave (a wait)** — 대기 시간을 얇게 깎아 줄이다. `cut` 보다 소폭이고, 이미 얇은 걸 더 깎는다는 위험 뉘앙스가 있다. ≈ trim. ↔ pad (a wait).
+  - 예: Shaving the modifier settle windows saves a couple of seconds at most, and it's the one place a cut can break the demo.
+- **off the table** — 더는 고려 대상이 아니다. 협상 테이블 은유로, 증거를 댄 뒤 결론으로 붙여야 독단으로 안 들린다. ≈ ruled out. ↔ on the table / still in play.
+  - 예: The equipment ignored a real left-Shift scan code, so held modifiers are off the table.
+- **Now that's genuinely diagnostic.** — 이제야 원인을 가려 주는 진짜 단서가 나왔다. 앞선 보고와 대비시키며 칭찬하는 어투. ≈ that narrows it down. ↔ that tells me nothing.
+  - 예: "You typed NFRA. ECH…" — now that's genuinely diagnostic: exactly the Shift characters are missing.
+- **a quirk of X, not something I chose** — X의 특이한 버릇이지 내가 고른 게 아니다. 설계 결정과 환경 제약을 사실 진술로 가른다. ≈ that's just how X behaves. ↔ a deliberate act.
+  - 예: The typing library picks the unicode path for anything needing Shift — that's a quirk of the library, not something I chose.
+- **make X actually mean something** — 허울뿐이던 옵션·규칙에 실제 효과를 주다. `actually` 가 "지금까진 차이가 없었다"는 전제를 담는다. ≈ give X teeth. ↔ X is still decoration.
+  - 예: Giving the step a real needle costs nothing under the default `lenient` and makes `strict` actually mean something.

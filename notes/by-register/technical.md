@@ -820,3 +820,21 @@
   - 예: The runner mints its own timestamp, so the journal folder and the recording folder for the same alarm differ by a second or two.
 - **uglier but never silently fails** — 볼품은 없지만 조용히 실패하지는 않는다. 심미적 손해를 먼저 인정하고 `but` 뒤에 결정적 이득을 놓는 설득 순서. ↔ cleaner but fails quietly.
   - 예: A one-line text file is uglier but never silently fails, which a symlink on an unelevated Windows box cannot promise.
+
+## 2026-08-25
+- **Red for the right reason.** — 테스트가 실패하긴 하는데 우리가 잡으려던 바로 그 결함 때문이다. `green for the wrong reason` 의 짝. ≈ the failure is the one we expected. ↔ a false red.
+  - 예: Red for the right reason: the test fails on the missing Caps toggle, not on an import error, so I can implement now.
+- **harden (a gate / a check)** — 검사·보호 장치를 더 엄격하게 조이다. `fix` 와 달리 틀리진 않았지만 느슨했던 걸 강화했다는 뜻. ≈ tighten (a check). ↔ loosen / relax (a check).
+  - 예: I hardened the typing gate so the editor step confirms on the popup title before it types anything.
+- **land off-target** — 빗나가다, 엉뚱한 곳에 떨어지다. 사격 은유라 좌표 기반 자동화·추정치 오차에 잘 맞는다. ≈ go wide / be off by N px. ↔ land on target.
+  - 예: If the reveal click lands off-target at the office, tell me what it hit and I'll move the ratio.
+- **dwell** — 체류 (시간). 입력이 등록되도록 그 자리에 일부러 머무는 짧은 정지로, 명사·동사 모두 쓴다. ≈ settle time / hold. ↔ fire immediately.
+  - 예: Alt needs its own dwell after the cursor has arrived, or the modifier and the click land in the same tick.
+- **stub (a fake X)** — 최소 동작만 흉내내는 대역을 코드로 세우다. `mock` 보다 단순하며, 실측한 동작을 흉내냈다는 근거를 함께 적어야 신뢰를 얻는다. ≈ mock out / fake. ↔ run it against the real thing.
+  - 예: To sanity-check it without the equipment, I stubbed a fake keyboard that remembers Caps state and ignores held modifiers.
+- **under-report** — 실제보다 적게 보고하다, 낮게 잡히다. `is wrong` 과 달리 방향(진짜 값은 더 크다)까지 전달한다. ≈ read low. ↔ over-report.
+  - 예: The rail's 호환 count reads the same `setFiles` map, so it under-reports for the same window.
+- **A/B (동사)** — 두 안을 같은 조건에서 번갈아 시험하다. 명사 `A/B test` 의 동사형으로, 코드 변경 없이 현장에서 고르게 해 뒀다는 맥락에 잘 맞는다. ≈ try both side by side.
+  - 예: The mode switch keeps all three typing paths available, so you can A/B them at the office without a new push.
+- **control plane** — 제어 평면. 무엇을 할지 결정·조정하는 층으로, 실제 일을 하는 data plane 과 구분한다. ≈ orchestration layer. ↔ data plane / the workers.
+  - 예: Herdr is an agent-aware terminal runtime and automation API — a control plane — so task decomposition and verification stay with the Manager.

@@ -479,7 +479,7 @@
     "-Users-daeyoung-Codes-auto-recipe-creator/0fe96e8f-71ac-46a2-a606-58e256ac3aa8.jsonl": 28,
     "-Users-daeyoung-Codes-auto-recipe-creator/2116676d-0271-4568-8747-01ad18f39e4a.jsonl": 15,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/9340653e-beaa-47be-b643-1793e602fe53.jsonl": 13,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/a3157a56-b1d6-4872-bff4-0f05614fb8dc.jsonl": 12,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/a3157a56-b1d6-4872-bff4-0f05614fb8dc.jsonl": 69,
     "-Users-daeyoung-Codes-auto-recipe-creator/cae0c381-9686-4ce7-9789-d115090ec8cb.jsonl": 404,
     "-Users-daeyoung-Codes-auto-recipe-creator/687a4050-a963-492d-9d16-80a7d119ee0a.jsonl": 64,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/84367f61-ff27-46c8-9c9c-d44670fe2421.jsonl": 12,
@@ -535,7 +535,13 @@
     "-Users-daeyoung-Codes-auto-recipe-creator/03c7c8ef-3bef-4ef8-9a5a-fed29e3e3a4d.jsonl": 492,
     "-Users-daeyoung-Codes-auto-recipe-creator/5a0a54c3-6d9d-4d8e-b125-5cb02a7fd760.jsonl": 765,
     "-Users-daeyoung-Codes-english-study/4492b6d0-d634-4c61-8ea1-82acdb1cb5cc.jsonl": 122,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/df011192-a81a-4433-ba25-a61a300ee948.jsonl": 298
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/df011192-a81a-4433-ba25-a61a300ee948.jsonl": 298,
+    "-Users-daeyoung-Codes-auto-recipe-creator/6e44bf1a-93fe-4379-a78c-0fe8bac08af4.jsonl": 1106,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/3ae7de12-a11f-4a27-b304-ad7de268aadf.jsonl": 785,
+    "-Users-daeyoung-Codes-auto-recipe-creator/43707b5e-a48f-4025-9b80-6cabba82d365.jsonl": 14,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/d202fbf6-81a3-4c50-ad30-32dbcdd2d1b9.jsonl": 36,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/3cc81e62-142d-4698-95a9-1314c0c4e8a9.jsonl": 14,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/3d65d6db-ba0b-419c-ba09-a92547847243.jsonl": 13
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -919,7 +925,11 @@
     "skewnono_v3_nuxt/docs/opencode/2026-08-22-skewvoir-verdict-block-review.md": "skewnono_v3_nuxt/docs/opencode/2026-08-22-skewvoir-verdict-block-review.md:1787352707.3006341:10822",
     "skewnono_v3_nuxt/docs/opencode/2026-08-22-align-image-404-review.md": "skewnono_v3_nuxt/docs/opencode/2026-08-22-align-image-404-review.md:1787351282.370589:9822",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-08-fail-issue-by-equipment-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-08-fail-issue-by-equipment-design.md:1787483776.6692722:33770",
-    "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-07-recipe-tat-by-equipment-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-07-recipe-tat-by-equipment-design.md:1787483776.669085:35615"
+    "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-07-recipe-tat-by-equipment-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-07-recipe-tat-by-equipment-design.md:1787483776.669085:35615",
+    "skewnono_v3_nuxt/docs/datatables/hitachi/msr_image_ftp.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/msr_image_ftp.txt:1787555360.1466498:6802",
+    "skewnono_v3_nuxt/docs/datatables/hitachi/msr_file_pickle.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/msr_file_pickle.txt:1787555360.1463275:31501",
+    "skewnono_v3_nuxt/docs/orchestration/2026-08-24-herdr-orchestration_v1.md": "skewnono_v3_nuxt/docs/orchestration/2026-08-24-herdr-orchestration_v1.md:1787525711.9321113:19730",
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-07-recipe-tat-by-equipment.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-07-recipe-tat-by-equipment.md:1787483776.666206:131286"
   },
-  "last_run": "2026-08-24"
+  "last_run": "2026-08-25"
 }
