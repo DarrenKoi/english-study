@@ -446,3 +446,13 @@
   - 예: The typing library picks the unicode path for anything needing Shift — that's a quirk of the library, not something I chose.
 - **make X actually mean something** — 허울뿐이던 옵션·규칙에 실제 효과를 주다. `actually` 가 "지금까진 차이가 없었다"는 전제를 담는다. ≈ give X teeth. ↔ X is still decoration.
   - 예: Giving the step a real needle costs nothing under the default `lenient` and makes `strict` actually mean something.
+- **X was only a label.** — X 는 이름표일 뿐 동작과 무관했다. 요청의 전제를 뒤집는 보고문 첫 줄. ≈ in name only. ↔ load-bearing.
+  - 예: The old "1주 윈도우" was only a label — the adapters capped at the ten most recent runs per tool, so widening the lookback alone would not have gathered more evidence.
+- **the more expensive half** — 두 선택지 중 비용이 큰 쪽. `half` 로 둘이 한 짝임을 드러낸다. ≈ the heavier lift. ↔ the quick win.
+  - 예: That's a backend contract change, which is why it's the more expensive half.
+- **would happily claim** — 막을 장치가 없어 잘못된 입력도 거리낌 없이 받아들인다(반어). 가정법 `would` 가 "데이터만 바뀌면 바로"를 담는다. ≈ lets X through unchallenged. ↔ rejects outright.
+  - 예: A cell with no `family` and `phase_in: ['PV']` would happily claim a Pool recipe.
+- **One fork I don't want to guess on** — 추측으로 정하기엔 비싼 갈림길 하나를 사용자에게 넘기는 도입구. ≈ worth your call. ↔ I'll just pick one.
+  - 예: One fork I don't want to guess on: should PV be dropped from the payload, or only ignored in the verdict?
+- **hence the squeeze you're seeing** — 원인 설명 끝에 사용자가 보는 증상으로 돌아와 닫는 구. `hence` + 명사구는 동사 없이 결과를 잇는다. ≈ which is why it looks cramped.
+  - 예: That's 4 columns inside a lane that already only gets half the panel — hence the squeeze you're seeing.

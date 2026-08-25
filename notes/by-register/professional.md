@@ -1020,3 +1020,25 @@
   - 예: A frozen page isn't a loading state, and an empty state shown during a fetch is the same failure with more confidence.
 - **safe for X, wrong for Y** — X에는 안전하고 Y에는 틀리다. 재사용하려던 도구를 "질문이 다르다"는 이유로 기각하는 정확한 방식. ≈ right tool, wrong question. ↔ fit for both purposes.
   - 예: `isSetPoolComplete` returns true vacuously on an empty key — safe for "may I rewrite the URL param", wrong for "may I show this number".
+- **self-consistent** — 자기 안에서 앞뒤가 맞는, 내적으로 일관된. 리뷰 서두에서 설계 자체가 아니라 세부만 다듬는다는 신호. ≈ internally consistent / coherent. ↔ at odds with itself.
+  - 예: The design intent is self-consistent: the diff updates DESIGN.md in the same commit and applies the chip-role litmus test correctly.
+- **an opportune moment to (do X)** — 마침 ~하기 좋은 때. "네 잘못은 아니지만 손댄 김에"의 완곡한 리뷰 권고. ≈ while you're in there. ↔ out of scope for this change.
+  - 예: Not newly authored; noting because the diff touched every one of these lines — an opportune moment to tokenize.
+- **Reasonable, but invented.** — 타당하긴 한데 요청엔 없던 값. 품질 시비를 접고 출처 시비만 남기는 두 단어 판정. ≈ defensible, but unasked. ↔ called for by the request.
+  - 예: The scroll cap (`max-h-[9.5rem]`) is reasonable, but invented — nobody asked for it.
+- **partially undercut (a requirement)** — 요구사항을 정면으로 어기진 않되 그 취지를 일부 깎아먹다. ≈ work against / erode. ↔ reinforce.
+  - 예: The scroll cap partially undercuts req 4 — with 60+ tools the strip itself consumes vertical space the request wanted given to the data.
+- **the rule's substance holds** — 자구는 못 지켰어도 규칙의 본뜻은 지켜진다. `Mitigating:` 뒤 근거를 대고 이 구로 닫는다. ≈ the spirit of the rule is met. ↔ honors the letter but not the spirit.
+  - 예: An unscoped results pane is nearly unreachable in practice, so the rule's substance holds.
+- **pre-existing logic carried into (a new UI)** — 이번 변경이 만든 게 아니라 옛 로직이 새 화면으로 실려 들어온 결함. ≈ inherited from / surfaced by this change. ↔ newly introduced.
+  - 예: The one real defect is pre-existing logic carried into a UI that no longer shows the disambiguating context, so it's worth fixing but wasn't introduced by this change's intent.
+- **no more informative than none** — (라벨이) 있어도 구별이 안 되면 없는 것과 같다. ≈ adds nothing. ↔ disambiguating.
+  - 예: Two cells reading `U` are no more informative than none.
+- **the fix is narrower than it might sound** — 진단은 거창해도 고칠 범위는 좁다. 상대를 안심시키며 보고를 여는 문장. ≈ a surgical change. ↔ a wider blast radius.
+  - 예: The code already models most of this, so the fix is narrower than it might sound.
+- **the data happens to be right, so the code was never asked to be** — 데이터의 우연한 모양에 기대 코드가 검증된 적 없는 버그 부류. 따옴표째 버그 이름으로 쓴다. ≈ works by accident. ↔ enforced by the engine.
+  - 예: This is the classic "the data happens to be right, so the code was never asked to be" bug.
+- **survives exactly until (someone does X)** — "언젠가"가 아니라 바로 그 사건까지만 살아남는다. `exactly` 가 수명을 못 박는다. ≈ is one edit away from breaking. ↔ holds regardless of the data.
+  - 예: The invariant lives in a comment and in hand-written seed cells, not in the engine — so it survives exactly until someone edits a rule.
+- **X decided Y, not taste** — 시각적 선택이 취향이 아니라 문서화된 기준에서 나왔다. 무생물 주어로 논쟁 여지를 지운다. ≈ by the book, not by preference. ↔ a matter of taste.
+  - 예: The litmus test decided the chip colours, not taste.

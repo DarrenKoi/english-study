@@ -838,3 +838,13 @@
   - 예: The mode switch keeps all three typing paths available, so you can A/B them at the office without a new push.
 - **control plane** — 제어 평면. 무엇을 할지 결정·조정하는 층으로, 실제 일을 하는 data plane 과 구분한다. ≈ orchestration layer. ↔ data plane / the workers.
   - 예: Herdr is an agent-aware terminal runtime and automation API — a control plane — so task decomposition and verification stay with the Manager.
+- **refused, not clamped** — 범위 밖 값을 경계값으로 자르지 않고 오류로 돌려보낸다. 짧은 정책 선언의 `A, not B` 대비. ≈ rejected outright / fail fast. ↔ silently clamped.
+  - 예: Out-of-range values are refused with 400, not clamped.
+- **move together** — 따로 놀던 두 설정값이 한 축으로 연동되다. `now` 를 붙이면 "전에는 아니었다"가 따라온다. ≈ are coupled / scale together. ↔ drift apart.
+  - 예: Lookback and run cap now move together — `window_days(weeks)` plus `runs_per_tool(weeks) = 10×weeks`.
+- **bounded by X, not by Y** — 그 수의 상한을 정하는 건 X 지 Y 가 아니다. "여기는 고칠 문제가 없다"의 근거. ≈ capped by / driven by. ↔ unbounded.
+  - 예: The column count is however many recipes the user chose to compare — bounded by the user, not by the tool family.
+- **blocked at the payload, not the UI** — 막힌 층은 화면이 아니라 데이터 계약이다. `at the X` 로 층을 지목한다. ≈ the bottleneck is the contract. ↔ a purely cosmetic change.
+  - 예: The variant selector is blocked at the payload, not the UI — `images[slot]` is a slot→single filename map.
+- **dead outside tests** — 호출자가 테스트뿐이라 운영 경로에선 실행되지 않는 코드. 거길 고쳐도 런타임은 안 바뀐다. ≈ test-only. ↔ on the hot path.
+  - 예: The frontend's `deriveFamily`/`derivePhase` are dead outside tests, so fixing the derivation there would change nothing at runtime.
