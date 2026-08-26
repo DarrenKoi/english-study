@@ -1042,3 +1042,52 @@
   - 예: The invariant lives in a comment and in hand-written seed cells, not in the engine — so it survives exactly until someone edits a rule.
 - **X decided Y, not taste** — 시각적 선택이 취향이 아니라 문서화된 기준에서 나왔다. 무생물 주어로 논쟁 여지를 지운다. ≈ by the book, not by preference. ↔ a matter of taste.
   - 예: The litmus test decided the chip colours, not taste.
+
+## 2026-08-27
+
+- **the two places that must agree** — 서로 값이 맞아야 하는 두 자리. ≈ kept in sync (동작 서술, 더 평이), a twin constant. ↔ a single source of truth.
+  - 예: The default is set in the two places that must agree, and everything else reads from those.
+- **recorded as your decision** — 당신의 결정으로 기록해 두었다. ≈ per your call (구어, 짧음), attributed to. ↔ an implementer's assumption.
+  - 예: The rationale was rewritten for the 2-week default (recorded as your decision, 2026-08-26).
+- **the reminder from yesterday still stands** — 어제 말한 주의사항은 여전히 유효하다. ≈ remains open, is still on the table. ↔ is now moot / no longer applies.
+  - 예: And the office reminder from yesterday still stands — `office.py` needs re-copying before the window axis works there.
+- **conceded, and it's the finding that mattered** — 수용 — 그리고 이게 중요한 발견이었다. ≈ the one that counts, the substantive finding. ↔ a nit / noting for the record.
+  - 예: Spec (c)1 — conceded, and it's the finding that mattered.
+- **rationalising a widening** — 범위가 넓어진 걸 그럴듯하게 둘러댄 것. ≈ dressing up (구어, "포장하다"), post-hoc justification (명사형, 더 학술적). ↔ a stated, up-front reason.
+  - 예: My "one span, one label" note in MIGRATION was rationalising a widening nobody asked for.
+- **more build than it buys** — 얻는 것보다 만드는 게 더 크다. ≈ not worth the machinery, the juice isn't worth the squeeze. ↔ pays for itself.
+  - 예: A shared-source test across Python and TS for one constant is more build than it buys.
+- **half wrong** — 절반은 틀림. ≈ partly right, true but beside the point. ↔ dead on / entirely correct.
+  - 예: Spec (b)1 — half wrong: the old office trend never spanned 30 days in the first place.
+- **Missed by both:** — 양쪽 다 놓친 것:. ≈ neither axis caught, what both overlooked (명사절, 문장 안에 넣을 때). ↔ flagged on both axes.
+  - 예: Missed by both: the stored `windowWeeks: 3` from yesterday's default silently stays 3 for anyone who already opened the page.
+- **fails here, not inside two paid model calls** — 여기서 실패하지, 유료 모델 호출 두 번 안에서 실패하지 않는다. ≈ fail fast, before the expensive step, catches it up front. ↔ surfaces only after the spend.
+  - 예: A bad ref or an empty diff fails here, not inside two paid model calls.
+- **defaulting up costs little** — 상위 등급을 기본으로 잡아도 비용이 거의 안 든다. ≈ erring on the heavier side, a cheap upgrade. ↔ start light and escalate.
+  - 예: It was also the fastest verified reviewer, so defaulting up costs little.
+- **where this skill earns its keep** — 이 스킬이 제 밥값을 하는 자리. ≈ pulls its weight (같은 뜻, 조금 더 구어), justifies its existence. ↔ is dead weight.
+  - 예: Rules for the third section, which is where this skill earns its keep: name disagreements explicitly.
+- **turns a plausible finding into a quotable one** — 그럴듯한 발견을 인용 가능한 발견으로 바꾼다. ≈ makes it defensible, upgrades it from hunch to evidence. ↔ leaves it as hearsay.
+  - 예: Opening the cited line also turns a plausible finding into a quotable one.
+- **reads the diff cold** — 사전 지식 없이 diff 를 읽는다. ≈ with fresh eyes, without prior context. ↔ carries every assumption that produced it.
+  - 예: A model with no such history reads the diff cold — that is the entire value here.
+- **consequence is mild since it's a cap, not a formula** — 상한값이지 계산식이 아니라서 영향은 가볍다. ≈ low blast radius, bounded impact. ↔ propagates into every result.
+  - 예: Mark the daily-frequency assumption OFFICE-VERIFY; consequence is mild since it's a cap, not a formula.
+- **Commit 2 itself demonstrates the hazard** — 두 번째 커밋이 그 위험을 몸소 보여 준다. ≈ is a case in point (관용, 같은 뜻), proves the point. ↔ is hypothetical so far.
+  - 예: Commit 2 itself demonstrates the hazard — "두 곳이 같은 값을 들어야 하므로 함께 바꿉니다."
+- **the repo's rationale overrides the baseline smell** — 저장소가 밝힌 근거가 일반 기준의 냄새보다 우선한다. ≈ a documented exception, design intent wins here. ↔ no rationale on record.
+  - 예: It is explicitly documented as deliberate, so the repo's rationale overrides the baseline smell.
+- **unusually thorough** — 보기 드물게 꼼꼼한. ≈ exhaustive, meticulous. ↔ thin coverage.
+  - 예: Otherwise clean; the test coverage (route refusal, lookback and cap moving together, echo on every unavailable branch) is unusually thorough.
+- **This deserves at least a (spec line or) note** — 최소한 스펙 한 줄이나 메모는 있어야 한다. ≈ warrants a mention, at minimum, document it. ↔ can go unremarked.
+  - 예: This deserves at least a spec line or an OFFICE-VERIFY note — MDC epochs got exactly such a carve-out, BSM/PM did not.
+- **that duplication is deliberate and ends in Task 7** — 그 중복은 의도된 것이고 Task 7 에서 끝난다. ≈ temporary by design, a stepping stone, not the end state. ↔ an accidental copy.
+  - 예: Task 4 creates `normalize.py` while `writer/normalize.py` still exists; that duplication is deliberate and ends in Task 7.
+- **refusing to start would cost more than one bad value** — 기동을 거부하는 쪽이 잘못된 값 하나보다 비싸다. ≈ fail open here, tolerate rather than abort. ↔ fail fast on bad config.
+  - 예: A typo'd env var must not take the scheduler down at boot — it is plumbing, and refusing to start would cost more than one bad value.
+- **Tuning must not require a deploy.** — 값을 조정하는 데 배포가 필요해선 안 된다. ≈ configurable at runtime, no redeploy to change it. ↔ baked in at build time.
+  - 예: Retention and paths are env vars, not constants — tuning must not require a deploy.
+- **The accepted loss:** — 감수하기로 한 손실:. ≈ the trade-off we take, known limitation. ↔ an unintended side effect.
+  - 예: The accepted loss: a run missed while the process is down is skipped rather than detected as missed.
+- **Why X exists at all:** — 애초에 X 가 왜 있는가:. ≈ the reason this is here, raison d'être. ↔ (마땅한 대체 표현 없음).
+  - 예: Why the snapshot exists at all: the process-step source is a current-state index, so "how many steps three weeks ago" cannot be recovered by query.

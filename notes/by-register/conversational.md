@@ -456,3 +456,18 @@
   - 예: One fork I don't want to guess on: should PV be dropped from the payload, or only ignored in the verdict?
 - **hence the squeeze you're seeing** — 원인 설명 끝에 사용자가 보는 증상으로 돌아와 닫는 구. `hence` + 명사구는 동사 없이 결과를 잇는다. ≈ which is why it looks cramped.
   - 예: That's 4 columns inside a lane that already only gets half the panel — hence the squeeze you're seeing.
+
+## 2026-08-27
+
+- **the reminder from yesterday still stands** — 어제 말한 주의사항은 여전히 유효하다. ≈ remains open, is still on the table. ↔ is now moot / no longer applies.
+  - 예: And the office reminder from yesterday still stands — `office.py` needs re-copying before the window axis works there.
+- **half wrong** — 절반은 틀림. ≈ partly right, true but beside the point. ↔ dead on / entirely correct.
+  - 예: Spec (b)1 — half wrong: the old office trend never spanned 30 days in the first place.
+- **One hitch on the way** — 오는 길에 걸린 게 하나. ≈ a small snag, a bump along the way. ↔ went through without a hitch.
+  - 예: One hitch on the way: the fast-forward first refused because my untracked spec copy collided with the now-tracked file.
+- **where this skill earns its keep** — 이 스킬이 제 밥값을 하는 자리. ≈ pulls its weight (같은 뜻, 조금 더 구어), justifies its existence. ↔ is dead weight.
+  - 예: Rules for the third section, which is where this skill earns its keep: name disagreements explicitly.
+- **going direct after reading** — 읽고 나서 바로 진행한다. ≈ skipping the ceremony, proceeding without a plan doc. ↔ going through the full process.
+  - 예: No process skill fits a one-file diagnostic script; going direct after reading.
+- **the one that is broken today** — 지금 당장 고장 나 있는 그 경우. ≈ the live bug, the case currently misbehaving. ↔ a theoretical edge case.
+  - 예: Three cases in order: uWSGI, the Werkzeug reloader, otherwise this process. The reloader case is the one that is broken today.

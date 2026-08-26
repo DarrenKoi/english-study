@@ -848,3 +848,52 @@
   - 예: The variant selector is blocked at the payload, not the UI — `images[slot]` is a slot→single filename map.
 - **dead outside tests** — 호출자가 테스트뿐이라 운영 경로에선 실행되지 않는 코드. 거길 고쳐도 런타임은 안 바뀐다. ≈ test-only. ↔ on the hot path.
   - 예: The frontend's `deriveFamily`/`derivePhase` are dead outside tests, so fixing the derivation there would change nothing at runtime.
+
+## 2026-08-27
+
+- **the two places that must agree** — 서로 값이 맞아야 하는 두 자리. ≈ kept in sync (동작 서술, 더 평이), a twin constant. ↔ a single source of truth.
+  - 예: The default is set in the two places that must agree, and everything else reads from those.
+- **(main) moved under this change** — 이 변경을 만드는 동안 main 이 (밑에서) 움직였다. ≈ the base advanced, upstream got ahead of us. ↔ a clean fast-forward.
+  - 예: `main` moved twice under this change, so the branch was rebased and re-gated before the fast-forward.
+- **more build than it buys** — 얻는 것보다 만드는 게 더 크다. ≈ not worth the machinery, the juice isn't worth the squeeze. ↔ pays for itself.
+  - 예: A shared-source test across Python and TS for one constant is more build than it buys.
+- **read the constant, not the data flow** — 상수만 읽고 데이터 흐름은 안 읽었다. ≈ took the code at face value, looked at the declaration, not the behaviour. ↔ traced it end to end.
+  - 예: The model read the constant, not the data flow — with ten runs per tool, the trend never reached 30 days.
+- **(the boot log) will flag both STALE until then** — 그때까지는 부팅 로그가 둘 다 STALE 로 표시할 것이다. ≈ will keep warning, will show up as STALE. ↔ will go quiet once copied.
+  - 예: The boot log will flag both adapters STALE until then — that's expected, not a regression.
+- **arming a waiter on it** — 거기에 대기 장치를 걸어 둔다. ≈ setting up a watcher, keeping an eye on it (구어, 사람이 볼 때). ↔ polling it by hand.
+  - 예: Only the full-suite result gates the merge; arming a waiter on it.
+- **X gates the merge** — X 가 머지의 관문이다 / X 만 통과하면 머지한다. ≈ is the last blocker (구어, 장애물 느낌), is a precondition for. ↔ is advisory only.
+  - 예: Only the full-suite result gates the merge; everything else is staged.
+- **fails here, not inside two paid model calls** — 여기서 실패하지, 유료 모델 호출 두 번 안에서 실패하지 않는다. ≈ fail fast, before the expensive step, catches it up front. ↔ surfaces only after the spend.
+  - 예: A bad ref or an empty diff fails here, not inside two paid model calls.
+- **fails cleanly at each stage instead of tracebacking** — 각 단계에서 깔끔하게 실패한다, 트레이스백을 뿜지 않고. ≈ degrades gracefully, reports cause and next action. ↔ blows up with a stack trace.
+  - 예: A real run at home fails cleanly at each stage instead of tracebacking.
+- **silently falls through to (a fallback)** — 소리 없이 다음 경로로 떨어진다. ≈ quietly degrades to, defaults to X without warning. ↔ fails loudly.
+  - 예: A loader writing to db1 produces a nil, not an error, and the adapter's `_bail` silently falls through to meas_hist.
+- **Fixture diffs are key re-sorting; skipping those.** — 픽스처 diff 는 키 재정렬뿐이라 건너뛴다. ≈ generated churn, not complexity, noise, not signal. ↔ a substantive hunk.
+  - 예: Fixture diffs are key re-sorting; skipping those and reading the code hunks.
+- **consequence is mild since it's a cap, not a formula** — 상한값이지 계산식이 아니라서 영향은 가볍다. ≈ low blast radius, bounded impact. ↔ propagates into every result.
+  - 예: Mark the daily-frequency assumption OFFICE-VERIFY; consequence is mild since it's a cap, not a formula.
+- **nothing ties them, so drift surfaces only as (runtime 400s)** — 둘을 묶는 게 없어 어긋남은 런타임 400 으로만 드러난다. ≈ caught only in production, no test spans the two. ↔ pinned by a shared-source test.
+  - 예: Each suite pins its own side; nothing ties them, so drift surfaces only as runtime 400s or a silent normalize-to-default.
+- **that duplication is deliberate and ends in Task 7** — 그 중복은 의도된 것이고 Task 7 에서 끝난다. ≈ temporary by design, a stepping stone, not the end state. ↔ an accidental copy.
+  - 예: Task 4 creates `normalize.py` while `writer/normalize.py` still exists; that duplication is deliberate and ends in Task 7.
+- **Compare X totals, not X alone** — 합계를 비교하라, 그 값 하나만 보지 말고. ≈ look at the sum, not one column, judge by the aggregate. ↔ eyeball the raw count.
+  - 예: Provider tests that skip without office files show different skip counts in a worktree — compare `passed + skipped` totals, not `passed` alone.
+- **refusing to start would cost more than one bad value** — 기동을 거부하는 쪽이 잘못된 값 하나보다 비싸다. ≈ fail open here, tolerate rather than abort. ↔ fail fast on bad config.
+  - 예: A typo'd env var must not take the scheduler down at boot — it is plumbing, and refusing to start would cost more than one bad value.
+- **an orphan-clear window, NOT a runtime budget** — 고아 락을 치우는 시간 창이지, 실행 시간 예산이 아니다. ≈ a cleanup horizon, bounds the orphan, not the run. ↔ a hard deadline for the job.
+  - 예: `lock_ttl` is an orphan-clear window, NOT a runtime budget — a live run re-arms its own TTL.
+- **Tuning must not require a deploy.** — 값을 조정하는 데 배포가 필요해선 안 된다. ≈ configurable at runtime, no redeploy to change it. ↔ baked in at build time.
+  - 예: Retention and paths are env vars, not constants — tuning must not require a deploy.
+- **the one that is broken today** — 지금 당장 고장 나 있는 그 경우. ≈ the live bug, the case currently misbehaving. ↔ a theoretical edge case.
+  - 예: Three cases in order: uWSGI, the Werkzeug reloader, otherwise this process. The reloader case is the one that is broken today.
+- **(a roster gap) cannot look like (a quiet fab)** — 명단 누락이 조용한 fab 처럼 보일 수 없다. ≈ is distinguishable from, can't masquerade as (기존 노트 `masquerading` 계열, 더 강함). ↔ is indistinguishable from.
+  - 예: Alarms from equipment the roster does not carry are counted into `unmatched_count` rather than dropped silently, so a roster gap cannot look like a quiet fab.
+- **The accepted loss:** — 감수하기로 한 손실:. ≈ the trade-off we take, known limitation. ↔ an unintended side effect.
+  - 예: The accepted loss: a run missed while the process is down is skipped rather than detected as missed.
+- **routine here, not rare** — 여기서는 일상이지, 드문 일이 아니다. ≈ the common case, not the edge, happens all the time. ↔ a once-in-a-blue-moon event.
+  - 예: With `max-requests = 1000` in wsgi.ini, worker recycles are routine here, not rare.
+- **Why X exists at all:** — 애초에 X 가 왜 있는가:. ≈ the reason this is here, raison d'être. ↔ (마땅한 대체 표현 없음).
+  - 예: Why the snapshot exists at all: the process-step source is a current-state index, so "how many steps three weeks ago" cannot be recovered by query.
