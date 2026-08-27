@@ -1091,3 +1091,37 @@
   - 예: The accepted loss: a run missed while the process is down is skipped rather than detected as missed.
 - **Why X exists at all:** — 애초에 X 가 왜 있는가:. ≈ the reason this is here, raison d'être. ↔ (마땅한 대체 표현 없음).
   - 예: Why the snapshot exists at all: the process-step source is a current-state index, so "how many steps three weeks ago" cannot be recovered by query.
+- **it now states the opposite of the code** — 코드가 바뀐 뒤 문서가 정반대를 말하고 있다. `different` 가 아니라 `the opposite` 라 "나중에"로 미룰 수 없는 등급이 된다. ≈ contradicts the implementation, the doc and the code disagree. ↔ the doc still tracks the code.
+  - 예: CLAUDE.md defers per-feature specifics to MIGRATION.md, and it now states the opposite of the code.
+- **the diff additionally invents (X)** — 요청에 없던 기능이 변경분에 딸려 들어왔다. `additionally` 가 "할 건 했고 그 위에 더"라는 순서를 만들어 전면 부정으로 안 읽힌다. ≈ goes beyond what was asked, tacks on an unrequested feature. ↔ implements exactly what the spec asks.
+  - 예: The spec asks only for folder-listed names; the diff additionally invents `-U`/`-L` split discovery.
+- **the code says so out loud** — 내 해석이 아니라 코드가 스스로 그렇다고 적어 두었다. 뒤에 인용할 주석·플래그의 무게를 미리 올린다. ≈ the code admits as much, it's written right there in the source. ↔ that's an inference, not something the code states.
+  - 예: So the group labels are already lying, and the code says so out loud: `separated: true` was added because 채팅 doesn't belong with its neighbours.
+- **wearing (the default layout) as a costume** — 공용 틀에 속한 척 걸치고 있을 뿐 실은 자기 것을 다 따로 갖고 있다. 근거를 나열한 뒤 이 문장으로 닫으면 목록이 결론이 된다. ≈ it only nominally uses the shared layout. ↔ it fits the shared layout natively.
+  - 예: It already opts out of the app shell with its own landing and its own workspace — it's wearing the default layout as a costume.
+- **It's a deletion, not an addition.** — 이건 추가가 아니라 삭제다. 리팩터링 제안이 늘 받는 "지금 일이 늘어난다" 저항을 첫 줄에서 뒤집는다. ≈ this removes code rather than adding it, it's subtraction. ↔ that's net-new work.
+  - 예: Right now a new page must be registered in six places — collapsing them into one table is a deletion, not an addition.
+- **(one consequence) fell out of the move** — 의도한 건 아니지만 구조상 딸려 나온 결과. `side effect` 가 부정적으로 들리는 자리에서 중립적으로 같은 사실을 전한다. ≈ a knock-on effect of the move, it followed from the change. ↔ that had to be engineered separately.
+  - 예: One consequence fell out of the move: the picker used to inherit the analysis bar's lock, and at the top of the page that no longer made sense.
+- **(at the top of the page) that would read as broken** — 동작은 정상인데 새 위치에서는 고장으로 읽힌다. `look` 대신 `read` 를 쓰면 인상이 아니라 전달되는 의미를 가리킨다. ≈ users would take it for a bug, it would come across as an error. ↔ it reads as intentional.
+  - 예: The picker greyed out until a recipe was picked; at the top of the page that would read as broken.
+- **it earns its own (bar)** — 전용 자리를 가질 자격이 있다. `earn` 이 화면 공간을 공짜가 아니라 값을 치르고 얻는 것으로 규정해, 취향 문제를 기준 문제로 옮긴다. ≈ it warrants a dedicated row, it deserves its own slot. ↔ it doesn't warrant a row of its own.
+  - 예: 튜닝할 장비 answers a different kind of question from the three bars below it, so it earns its own bar.
+- **this is already costing you** — 미래의 위험이 아니라 이미 새고 있는 비용이다. 목적어 `you` 가 추상적 부채를 상대의 청구서로 만든다. ≈ you're already paying for this, it's already a drag on you. ↔ it hasn't bitten you yet.
+  - 예: This is already costing you: `pages/ebeam/` carries parallel cd-sem and hv-sem trees, and two more families are stubbed with an index each.
+- **past what (one row) holds** — 그릇의 용량을 이미 넘었다. 한계를 취향이 아니라 용량으로 객관화하는 전치사 압축형. ≈ more than one row can take, beyond what fits. ↔ comfortably within one row.
+  - 예: Pull the standalone apps out and E-Beam still has nine tab-worthy pages — that's past what one row holds.
+- **worth deciding deliberately rather than discovering later** — 나중에 발견하느니 지금 의식적으로 정해 두는 편이 낫다. `decide` 와 `discover` 를 맞세워 선택과 사고를 가른다. ≈ better settled now than stumbled on later, make it a choice, not an accident. ↔ we can cross that bridge when we come to it.
+  - 예: Device statistics is quietly drifting toward standalone — worth deciding deliberately rather than discovering later.
+- **raises the stakes on (X) rather than lowering them** — 새 정보가 기존 권고를 약화시키는 게 아니라 더 중요하게 만든다. 뒷절이 예상되는 오독을 문장 안에서 미리 닫는다. ≈ it makes that step more urgent, not less. ↔ that takes the pressure off.
+  - 예: Adding a second grouping level raises the stakes on the single-table refactor rather than lowering them.
+- **It's growing, not bifurcating.** — 커지는 것이지 갈라지는 게 아니다. 앞서 세운 판정 기준이 있어야 힘이 실리고, 없으면 취향 싸움이 된다. ≈ that's scale, not a split. ↔ it has outgrown the shared shell.
+  - 예: Recipe search shares the vocabulary and fits the page shell — it's growing, not bifurcating.
+- **one word means one thing across both tables** — 한 단어가 두 표에서 같은 뜻 하나만 갖는다. 기존 단어를 재사용한 이유를 원칙으로 밝히는 한 줄. ≈ the vocabulary stays consistent, no term does double duty. ↔ the same word means two different things here.
+  - 예: The sub-labels reuse the words the fleet table already uses, so one word means one thing across both tables.
+- **that fix was right, and it stopped one file short** — 그 수정은 옳았고 다만 한 걸음 모자랐다. `but` 이 아니라 `and` 라서 인정이 취소되지 않고 둘 다 참으로 남는다. ≈ it didn't go quite far enough, it fell one step short. ↔ that change went all the way.
+  - 예: Deriving three consumers from one array was right, and it stopped one file short — four more hand-maintained lists still exist.
+- **(hiding it) was never (the drawer)'s job** — 애초에 그건 그것의 일이 아니었다. 과거시제 + `never` 라 역할을 빼앗는 게 아니라 잘못 붙은 걸 떼는 일이 된다. ≈ that responsibility sits elsewhere, that's not what it's for. ↔ that is exactly what it's there for.
+  - 예: Production hiding was never the drawer's job — `hiddenOnCloud` already does it, per row.
+- **(X) stops being a place** — 그건 더 이상 장소가 아니게 된다. 잘못 잡힌 분류 축을 위치에서 속성으로 옮기자는 제안을 세 단어로 압축한다. ≈ it becomes an attribute rather than a location. ↔ it stays a drawer of its own.
+  - 예: 실험실 stops being a place: maturity becomes a badge on the row, and the pages move to the group they belong to.

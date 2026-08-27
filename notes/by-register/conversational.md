@@ -471,3 +471,9 @@
   - 예: No process skill fits a one-file diagnostic script; going direct after reading.
 - **the one that is broken today** — 지금 당장 고장 나 있는 그 경우. ≈ the live bug, the case currently misbehaving. ↔ a theoretical edge case.
   - 예: Three cases in order: uWSGI, the Werkzeug reloader, otherwise this process. The reloader case is the one that is broken today.
+- **wearing (the default layout) as a costume** — 공용 틀에 속한 척 걸치고 있을 뿐 실은 자기 것을 다 따로 갖고 있다. 근거를 나열한 뒤 이 문장으로 닫으면 목록이 결론이 된다. ≈ it only nominally uses the shared layout. ↔ it fits the shared layout natively.
+  - 예: It already opts out of the app shell with its own landing and its own workspace — it's wearing the default layout as a costume.
+- **this is already costing you** — 미래의 위험이 아니라 이미 새고 있는 비용이다. 목적어 `you` 가 추상적 부채를 상대의 청구서로 만든다. ≈ you're already paying for this, it's already a drag on you. ↔ it hasn't bitten you yet.
+  - 예: This is already costing you: `pages/ebeam/` carries parallel cd-sem and hv-sem trees, and two more families are stubbed with an index each.
+- **(zsh globbing) is eating my (--include) flags** — 셸이 인자를 삼켜 없애고 있다. 현재진행형이라 작업 중 실황 보고에 어울리고, 뒤에 해결책을 `so` 로 바로 붙인다. ≈ the shell is swallowing the flags, glob expansion mangles the args. ↔ quoting gets them through intact.
+  - 예: Still mapping the existing gallery — zsh globbing is eating my `--include` flags, so I'm quoting them.

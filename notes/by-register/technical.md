@@ -897,3 +897,31 @@
   - 예: With `max-requests = 1000` in wsgi.ini, worker recycles are routine here, not rare.
 - **Why X exists at all:** — 애초에 X 가 왜 있는가:. ≈ the reason this is here, raison d'être. ↔ (마땅한 대체 표현 없음).
   - 예: Why the snapshot exists at all: the process-step source is a current-state index, so "how many steps three weeks ago" cannot be recovered by query.
+- **it now states the opposite of the code** — 코드가 바뀐 뒤 문서가 정반대를 말하고 있다. `different` 가 아니라 `the opposite` 라 "나중에"로 미룰 수 없는 등급이 된다. ≈ contradicts the implementation, the doc and the code disagree. ↔ the doc still tracks the code.
+  - 예: CLAUDE.md defers per-feature specifics to MIGRATION.md, and it now states the opposite of the code.
+- **was left contradicting it** — 짝이 되는 문서를 빠뜨려 모순 상태로 남겨졌다. 수동태 + 현재분사가 파일을 주어로 세워, 지적이 사람을 겨누지 않는다. ≈ was left out of sync, went un-updated. ↔ was brought in line.
+  - 예: `recipe_idp.txt` was rewritten but this doc was left contradicting it.
+- **re-hand-rolls what (X) already owns** — 이미 다른 함수가 맡고 있는 로직을 손으로 다시 짰다. `own` 이 소유가 아니라 책임 소재를 뜻해, 어느 쪽을 남길지까지 정해진다. ≈ duplicates logic that belongs to X, reinvents X's job. ↔ delegates to the existing helper.
+  - 예: `align_point_of` re-hand-rolls the basename extraction that `image_variants` already owns.
+- **(the entry) now dangles inside (the prose paragraph)** — 헤더가 지워져 항목이 소속을 잃고 엉뚱한 곳에 매달렸다. 문법적으로는 멀쩡한데 구조가 틀린 결함을 한 단어로 짚는다. ≈ is orphaned, lost its section. ↔ sits under its own heading.
+  - 예: The diff consumed the second `Raises:` header, so the `LookupError:` entry now dangles inside the `eqp_id` prose paragraph.
+- **nothing ruff/eslint would catch** — 린터가 잡아 줄 만한 건 없다. 리뷰를 닫으며 CI 통과와 리뷰 통과가 다른 일임을 상기시키는 마지막 줄. ≈ nothing a linter flags, invisible to CI. ↔ the linter would have caught this.
+  - 예: No other baseline smells found; nothing ruff/eslint would catch.
+- **(the implementation) has no such fallback** — 주석이 주장하는 그 동작이 코드에는 없다. `no such X` 가 "그런 것 자체가 없다"까지 밀어붙인다. ≈ there is no fallback in the code, that path does not exist. ↔ the fallback is still wired in.
+  - 예: The docstring promises a derived-pair fallback, but the implementation has no such fallback — it raises `SourceUnavailable`.
+- **the diff additionally invents (X)** — 요청에 없던 기능이 변경분에 딸려 들어왔다. `additionally` 가 "할 건 했고 그 위에 더"라는 순서를 만들어 전면 부정으로 안 읽힌다. ≈ goes beyond what was asked, tacks on an unrequested feature. ↔ implements exactly what the spec asks.
+  - 예: The spec asks only for folder-listed names; the diff additionally invents `-U`/`-L` split discovery.
+- **(one consequence) fell out of the move** — 의도한 건 아니지만 구조상 딸려 나온 결과. `side effect` 가 부정적으로 들리는 자리에서 중립적으로 같은 사실을 전한다. ≈ a knock-on effect of the move, it followed from the change. ↔ that had to be engineered separately.
+  - 예: One consequence fell out of the move: the picker used to inherit the analysis bar's lock, and at the top of the page that no longer made sense.
+- **(at the top of the page) that would read as broken** — 동작은 정상인데 새 위치에서는 고장으로 읽힌다. `look` 대신 `read` 를 쓰면 인상이 아니라 전달되는 의미를 가리킨다. ≈ users would take it for a bug, it would come across as an error. ↔ it reads as intentional.
+  - 예: The picker greyed out until a recipe was picked; at the top of the page that would read as broken.
+- **the compiler catches none of it** — 여러 곳에 수동 등록해야 하는데 빌드가 하나도 안 잡아 준다. 부정을 문장 끝에 두어 조용한 실패를 여섯 단어로 전한다. ≈ none of it is type-checked, nothing fails the build. ↔ the build breaks if you forget one.
+  - 예: A new page must be registered in six places and the compiler catches none of it.
+- **one word means one thing across both tables** — 한 단어가 두 표에서 같은 뜻 하나만 갖는다. 기존 단어를 재사용한 이유를 원칙으로 밝히는 한 줄. ≈ the vocabulary stays consistent, no term does double duty. ↔ the same word means two different things here.
+  - 예: The sub-labels reuse the words the fleet table already uses, so one word means one thing across both tables.
+- **a PASS only proves the script ran** — 초록불은 스크립트가 돌았다는 것만 증명한다. 부사 `only` 가 증명의 범위를 잘라 낸다. ≈ a green check isn't evidence, the assertion was never exercised. ↔ the oracle was proven able to fail.
+  - 예: Without that negative control, a PASS only proves the script ran, not that it measured anything.
+- **(zsh globbing) is eating my (--include) flags** — 셸이 인자를 삼켜 없애고 있다. 현재진행형이라 작업 중 실황 보고에 어울리고, 뒤에 해결책을 `so` 로 바로 붙인다. ≈ the shell is swallowing the flags, glob expansion mangles the args. ↔ quoting gets them through intact.
+  - 예: Still mapping the existing gallery — zsh globbing is eating my `--include` flags, so I'm quoting them.
+- **(the contract) is code, not a comment** — 규칙이 이제 주석이 아니라 강제되는 코드다. 개선을 줄 수가 아니라 강제력의 층으로 설명한다. ≈ the invariant is enforced rather than documented. ↔ it's still an honour-system rule.
+  - 예: The caller now builds the lattice and passes it in, so the superset contract is code, not a comment.
