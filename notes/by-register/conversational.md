@@ -477,3 +477,7 @@
   - 예: This is already costing you: `pages/ebeam/` carries parallel cd-sem and hv-sem trees, and two more families are stubbed with an index each.
 - **(zsh globbing) is eating my (--include) flags** — 셸이 인자를 삼켜 없애고 있다. 현재진행형이라 작업 중 실황 보고에 어울리고, 뒤에 해결책을 `so` 로 바로 붙인다. ≈ the shell is swallowing the flags, glob expansion mangles the args. ↔ quoting gets them through intact.
   - 예: Still mapping the existing gallery — zsh globbing is eating my `--include` flags, so I'm quoting them.
+- **collapse to (one character)** — 커 보이던 문제가 아주 작은 해법 하나로 접히다. ≈ boil down to. ↔ balloon into.
+  - 예: The whole "foreign git repo inside this tree" problem collapsed to one character: a leading underscore.
+- **Half yes, half no.** — 복합 질문에 두 갈래 답을 예고하는 서두. 바로 뒤에 Yes to X / No to Y 로 전개한다. ≈ yes and no. ↔ an unqualified yes.
+  - 예: Half yes, half no — yes to the office owning the testing, no to the RAG repo owning structured data access.

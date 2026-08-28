@@ -1125,3 +1125,19 @@
   - 예: Production hiding was never the drawer's job — `hiddenOnCloud` already does it, per row.
 - **(X) stops being a place** — 그건 더 이상 장소가 아니게 된다. 잘못 잡힌 분류 축을 위치에서 속성으로 옮기자는 제안을 세 단어로 압축한다. ≈ it becomes an attribute rather than a location. ↔ it stays a drawer of its own.
   - 예: 실험실 stops being a place: maturity becomes a badge on the row, and the pages move to the group they belong to.
+- **risk-now vs. risk-never** — 안정 코드를 지금 건드리는 실재 위험 대 안 건드리면 영영 없는 가상 비용. 하이픈 대구로 결론을 찍는 판정어. ↔ a free option.
+  - 예: Freezing the demo-only engine costs nothing, while grafting routes onto the production loop is risk-now vs. risk-never.
+- **a misattribution** — 그 속성은 그 대상의 것이 아니라는, 틀림의 종류를 명명하는 지적. ≈ that credit belongs elsewhere.
+  - 예: Teardown lives in cycle.py, not in the runner, so "a second engine must replicate teardown" is a misattribution.
+- **by definition, not evidence** — 정의상 당연한 사실은 증거가 아니다. `X, not Y` 대구로 상대 근거의 지위를 강등. ≈ true by construction.
+  - 예: Zero consumers at t=0 of an untracked package is the starting state by definition, not evidence.
+- **bound the damage** — 실패를 없애지는 못해도 피해 상한은 묶여 있다는 방어. ≈ cap the downside / limit the blast radius. ↔ an unbounded failure mode.
+  - 예: The abort latch plus the exhausted-to-notification path bounds the damage of a runaway search.
+- **decorative** — 존재하지만 동작에 아무 영향이 없는. `and wrong` 을 덧붙이면 삭제 판정이 된다. ≈ cosmetic. ↔ load-bearing.
+  - 예: Since the runner aborts on any failure, the per-class routing table was decorative — and wrong.
+- **worth your confirmation when convenient** — 급하지 않은 확인 요청을 보고 말미에 정중히 얹는 상투구. ≈ when you get a chance. ↔ this needs your sign-off before we ship.
+  - 예: One thing worth your confirmation when convenient: whether the reference width is exactly 135 mm.
+- **(be) theatre** — 형식만 갖추고 실질이 없는 절차라는 신랄한 한 문장 판정 (cf. security theater). ≈ a box-ticking exercise. ↔ a substantive review.
+  - 예: A debate where you answer only the weak objections is theatre.
+- **restate rather than advance** — 논의가 새 근거 없이 같은 말만 반복되는 상태 — 토론 종료 신호. ≈ go in circles. ↔ move the discussion forward.
+  - 예: Stop when the exchange converges — when both sides restate rather than advance.

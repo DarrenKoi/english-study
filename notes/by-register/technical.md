@@ -925,3 +925,21 @@
   - 예: Still mapping the existing gallery — zsh globbing is eating my `--include` flags, so I'm quoting them.
 - **(the contract) is code, not a comment** — 규칙이 이제 주석이 아니라 강제되는 코드다. 개선을 줄 수가 아니라 강제력의 층으로 설명한다. ≈ the invariant is enforced rather than documented. ↔ it's still an honour-system rule.
   - 예: The caller now builds the lattice and passes it in, so the superset contract is code, not a comment.
+- **battle-tested** — 실전 사고를 겪고 살아남아 신뢰가 쌓인. ≈ proven in production. ↔ unproven / greenfield.
+  - 예: That's the engine reimplemented as an imperative jump loop inside the most battle-tested function in the repo.
+- **premature coupling** — 아직 필요 없는 의존을 미리 만드는 설계 냄새 (cf. premature optimization). ↔ loose coupling.
+  - 예: Making the engine emit the runner's StepResult shape is premature coupling.
+- **converge confidently wrong** — 잡음이 아니라 확신에 찬 오답으로 수렴하다 — 오류 신호가 없는 최악의 실패 모드. ↔ fail loudly.
+  - 예: On periodic gratings, phase correlation doesn't just get noisy — it converges confidently wrong.
+- **dead reckoning** — 외부 피드백 없이 명령값 누적만으로 위치를 추정하는 추측 항법. ≈ open-loop control. ↔ closed-loop control.
+  - 예: Chaining 30 double-clicks with no stage readback is dead reckoning with zero feedback.
+- **scrape the floor** — 하한선을 간신히 턱걸이해 여유가 전혀 없다. ≈ barely clear the bar. ↔ with plenty of headroom.
+  - 예: The nearest rung restores scale 0.67, scraping the 0.6 confirm floor.
+- **a torn read** — 쓰다 만 파일을 읽어 반쪽짜리 데이터를 보는 동시성 현상. ≈ a half-written file. ↔ an atomic write.
+  - 예: A non-atomic 3.6 MB rewrite under a one-second browser refresh risks a torn read; tmp plus os.replace closes it.
+- **a bound that never fires** — 조건상 절대 발동할 수 없는 한도는 없는 것과 같다. ≈ a guard in name only. ↔ an enforced limit.
+  - 예: A per-call timeout longer than the turn's wall-clock is a bound that never fires.
+- **silent drift** — 오류 신호 없이 상태·문맥이 조금씩 어긋나 가는 실패. ≈ quiet divergence. ↔ a loud failure.
+  - 예: An empty session id would start a fresh session while appearing to succeed — precisely the silent drift this check exists to prevent.
+- **latch onto** — 한 번 잡은 대상(폴더·가설)을 놓지 않고 물고 있다 — 종종 잘못 잡은 것에. ≈ lock onto. ↔ let go of.
+  - 예: If its first poll beat the runner's mkdir, the mirror latched onto the previous run's folder forever.
