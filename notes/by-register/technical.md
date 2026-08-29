@@ -943,3 +943,13 @@
   - 예: An empty session id would start a fresh session while appearing to succeed — precisely the silent drift this check exists to prevent.
 - **latch onto** — 한 번 잡은 대상(폴더·가설)을 놓지 않고 물고 있다 — 종종 잘못 잡은 것에. ≈ lock onto. ↔ let go of.
   - 예: If its first poll beat the runner's mkdir, the mirror latched onto the previous run's folder forever.
+- **distinct enough (from X) to justify Y** — 비슷해 보이는 두 대상이 별도로 다룰 만큼 정말 다른지 따지는 표준 패턴. ≈ different enough to warrant. ↔ close enough to merge.
+  - 예: If you want that folder covered, it should be re-run as its own audit rather than waited on further here — it's the largest remaining unaudited surface in scope, and worth specific attention to `_siblings.py`, `spec_range_mock.py`/`pm_gate_bsm_mock.py` (whether they're distinct enough from `providers/mock.py` to justify separate files), and `bm_pm/_shared.py`'s actual caller count.
+- **repo-scoped, not global** — 설정·권한이 전역이 아니라 이 저장소 하나에만 적용된다는 뜻의 개발자 관용 패턴. ≈ scoped to this repo. ↔ global, applies everywhere.
+  - 예: The gate is repo-scoped, not global — enabling it here doesn't affect your other checkouts, and each `git worktree` you spin up under `../skewnono-<task>/` is a different path, so it may not inherit the gate.
+- **composes with (rather than replaces) X** — 새 기능이 기존 것을 덮어쓰지 않고 나란히 맞물려 작동한다는 설명. ≈ works alongside. ↔ replaces, supersedes.
+  - 예: It fires at *stop time*: Claude Code will hand the pending diff to Codex for a fresh review before the turn ends, which composes with (rather than replaces) your `oc-*` opencode skills — those run read-only via `--agent plan`, this one runs through Codex's own runtime.
+- **become in-sample** — 검증에 쓴 데이터가 사실 학습에 이미 쓰인 데이터라서 평가가 부풀려지는 통계 함정. ↔ stay out-of-sample.
+  - 예: Prediction-match statistics become in-sample.
+- **systematically overstate generalization** — 통계적 편향 때문에 결과가 우연이 아니라 구조적으로 늘 실제보다 과장돼 보이다. ≈ inflate the numbers. ↔ understate.
+  - 예: The split blocks temporal leakage but not serial correlation; the statistic will systematically overstate generalization, and a later production gate citing it inherits that inflation.

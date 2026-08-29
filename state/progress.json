@@ -562,7 +562,7 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/f81a80c9-8fc5-42e7-b5a3-c3f1803143fa.jsonl": 15,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/8f5a3662-f477-405f-acc5-ec3e8bddbfdf.jsonl": 19,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/9e7719d6-6713-4ea0-8e5b-76156b15b4b8.jsonl": 15,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/0585a6b5-c818-42c4-81f2-c42368e0f9f2.jsonl": 14,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/0585a6b5-c818-42c4-81f2-c42368e0f9f2.jsonl": 25,
     "-Users-daeyoung-Codes-auto-recipe-creator/469eac25-af57-4f6f-bdbb-2b90b07fa7ef.jsonl": 17,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/0002648a-6255-42cc-b68a-34a84b6d9546.jsonl": 207,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/3cc218db-0d21-4dbf-91a0-10321809cc8d.jsonl": 398,
@@ -579,7 +579,15 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/623c8c6b-fd65-4bdf-8c45-2a979f8d8709.jsonl": 17,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/5e5b489b-ff52-4753-9b4b-9a0cbd02248a.jsonl": 22,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/367d801f-b076-430d-b66c-4f6ebaf2ba6d.jsonl": 15,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/d936fccc-941e-485d-ade6-8113bf2b393e.jsonl": 60
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/d936fccc-941e-485d-ade6-8113bf2b393e.jsonl": 60,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/9eb9c743-9a6b-419b-8942-e35030598f05.jsonl": 286,
+    "-Users-daeyoung-Codes-auto-recipe-creator/1e403abe-517b-4bd4-b5dd-25a03345e39c.jsonl": 353,
+    "-Users-daeyoung-Codes-auto-recipe-creator/f914191d-1bfd-46dc-ae6a-2b96a31bb08e.jsonl": 665,
+    "-Users-daeyoung-Codes-auto-recipe-creator/ceef911e-1a84-4d98-8e18-8d3d5fa54503.jsonl": 17,
+    "-Users-daeyoung-Codes-auto-recipe-creator/d9f5b773-1425-4d4d-acd4-c00db5a3d2dc.jsonl": 194,
+    "-Users-daeyoung-Codes-english-study/af6d642f-5350-43af-9822-4c76d2750d78.jsonl": 235,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/df74b5af-62cf-4b5d-93f8-ca9965748f15.jsonl": 44,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/9eb9c743-9a6b-419b-8942-e35030598f05/subagents/agent-a5609a6628b867c7c.jsonl": 7
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -998,7 +1006,21 @@
     "skewnono_v3_nuxt/docs/rag_agents/2026-08-28-chat-to-rag-suggestions.md": "skewnono_v3_nuxt/docs/rag_agents/2026-08-28-chat-to-rag-suggestions.md:1787888054.1144724:12796",
     "auto_recipe_creator/docs/opencode/2026-08-28-workflow4-engine-vs-runner-debate.md": "auto_recipe_creator/docs/opencode/2026-08-28-workflow4-engine-vs-runner-debate.md:1787882321.7784028:7770",
     "auto_recipe_creator/poc/workflow_4/docs/study/adr/0003-engine-first-consumer-nested-in-run-correction.md": "auto_recipe_creator/poc/workflow_4/docs/study/adr/0003-engine-first-consumer-nested-in-run-correction.md:1787882321.7750568:3921",
-    "auto_recipe_creator/poc/workflow_4/docs/study/adr/0002-cycle3-mirror-and-windows-html-view.md": "auto_recipe_creator/poc/workflow_4/docs/study/adr/0002-cycle3-mirror-and-windows-html-view.md:1787882321.770711:4920"
+    "auto_recipe_creator/poc/workflow_4/docs/study/adr/0002-cycle3-mirror-and-windows-html-view.md": "auto_recipe_creator/poc/workflow_4/docs/study/adr/0002-cycle3-mirror-and-windows-html-view.md:1787882321.770711:4920",
+    "auto_recipe_creator/docs/issues/align-fail-recovery-playbook/map.md": "auto_recipe_creator/docs/issues/align-fail-recovery-playbook/map.md:1787990139.7723126:7972",
+    "auto_recipe_creator/docs/issues/align-fail-recovery-playbook/spec.md": "auto_recipe_creator/docs/issues/align-fail-recovery-playbook/spec.md:1787990105.8512163:44981",
+    "auto_recipe_creator/docs/issues/align-fail-recovery-playbook/issues/09-recovery-action-vocabulary-and-classification.md": "auto_recipe_creator/docs/issues/align-fail-recovery-playbook/issues/09-recovery-action-vocabulary-and-classification.md:1787963490.2397876:6276",
+    "auto_recipe_creator/docs/opencode/2026-08-29-recovery-action-vocabulary-debate.md": "auto_recipe_creator/docs/opencode/2026-08-29-recovery-action-vocabulary-debate.md:1787963490.2391505:11521",
+    "auto_recipe_creator/docs/issues/align-fail-recovery-playbook/issues/07-workflow4-compiler-boundary.md": "auto_recipe_creator/docs/issues/align-fail-recovery-playbook/issues/07-workflow4-compiler-boundary.md:1787963092.4199698:6256",
+    "auto_recipe_creator/docs/opencode/2026-08-29-recovery-playbook-workflow4-compiler-debate.md": "auto_recipe_creator/docs/opencode/2026-08-29-recovery-playbook-workflow4-compiler-debate.md:1787963092.4198017:14647",
+    "auto_recipe_creator/docs/issues/align-fail-recovery-playbook/issues/06-offline-replay-approval-gate.md": "auto_recipe_creator/docs/issues/align-fail-recovery-playbook/issues/06-offline-replay-approval-gate.md:1787962985.374211:6668",
+    "auto_recipe_creator/docs/opencode/2026-08-29-recovery-playbook-promotion-gate-debate.md": "auto_recipe_creator/docs/opencode/2026-08-29-recovery-playbook-promotion-gate-debate.md:1787962985.3739882:16085",
+    "auto_recipe_creator/docs/issues/align-fail-recovery-playbook/issues/05-engineer-review-prototype.md": "auto_recipe_creator/docs/issues/align-fail-recovery-playbook/issues/05-engineer-review-prototype.md:1787962288.5056908:6694",
+    "auto_recipe_creator/docs/issues/align-fail-recovery-playbook/issues/04-trace-merge-and-branch-rules.md": "auto_recipe_creator/docs/issues/align-fail-recovery-playbook/issues/04-trace-merge-and-branch-rules.md:1787961437.3104544:5749",
+    "auto_recipe_creator/docs/issues/align-fail-recovery-playbook/issues/03-minimal-playbook-contract.md": "auto_recipe_creator/docs/issues/align-fail-recovery-playbook/issues/03-minimal-playbook-contract.md:1787960081.6481483:3630",
+    "auto_recipe_creator/docs/issues/align-fail-recovery-playbook/issues/08-minimal-observation-gap-contract.md": "auto_recipe_creator/docs/issues/align-fail-recovery-playbook/issues/08-minimal-observation-gap-contract.md:1787959368.032883:5355",
+    "auto_recipe_creator/docs/issues/align-fail-recovery-playbook/issues/02-representative-trace-corpus.md": "auto_recipe_creator/docs/issues/align-fail-recovery-playbook/issues/02-representative-trace-corpus.md:1787958945.742235:3507",
+    "auto_recipe_creator/docs/issues/align-fail-recovery-playbook/issues/01-current-observation-semantics.md": "auto_recipe_creator/docs/issues/align-fail-recovery-playbook/issues/01-current-observation-semantics.md:1787957595.0221453:12830"
   },
-  "last_run": "2026-08-29"
+  "last_run": "2026-08-30"
 }

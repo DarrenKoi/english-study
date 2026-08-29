@@ -481,3 +481,5 @@
   - 예: The whole "foreign git repo inside this tree" problem collapsed to one character: a leading underscore.
 - **Half yes, half no.** — 복합 질문에 두 갈래 답을 예고하는 서두. 바로 뒤에 Yes to X / No to Y 로 전개한다. ≈ yes and no. ↔ an unqualified yes.
   - 예: Half yes, half no — yes to the office owning the testing, no to the RAG repo owning structured data access.
+- **disregard it, no action needed** — 방금 한 행동이나 결과가 불필요하니 신경 쓰지 말고 넘어가라는 뜻. ≈ ignore it, scratch that. ↔ flag it, take note of it.
+  - 예: That last tool call was unnecessary — disregard it, no action needed there.

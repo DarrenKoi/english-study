@@ -1141,3 +1141,19 @@
   - 예: A debate where you answer only the weak objections is theatre.
 - **restate rather than advance** — 논의가 새 근거 없이 같은 말만 반복되는 상태 — 토론 종료 신호. ≈ go in circles. ↔ move the discussion forward.
   - 예: Stop when the exchange converges — when both sides restate rather than advance.
+- **the expected day-one outcome** — 드문 사고가 아니라 설계상 첫날부터 뻔히 일어날 결과. `isn't a tail risk; it's X` 대구로 반론의 무게를 높인다. ↔ a tail risk.
+  - 예: Falsifier (1) isn't a tail risk; it's the expected day-one outcome, and with 0 Episodes, home-only text digests, and no images executable at home, the tolerance can't even be calibrated.
+- **a genuine pressure valve** — 규칙에 정당한 도피 경로를 남겨 시스템이 막다른 골목에 몰리지 않게 하는 안전장치. ≈ a safety valve. ↔ a bottleneck.
+  - 예: The append-only `unresolved` proposal path is a genuine pressure valve; premature vocab growth is the bigger danger with 0 Episodes.
+- **if nothing lands, say converged** — 반론이 더 이상 상대에게 먹히지 않으면 논의를 종료하라는 격식체 지시. `land` 는 주장이 실제로 타격을 준다는 뜻. ≈ doesn't stick. ↔ lands hard.
+  - 예: Under 250 words; if nothing lands, say converged.
+- **press (someone), with a concrete failure case, on X** — 추상적 반박이 아니라 실제 실패 사례로 한 쟁점만 계속 물고 늘어지라는 지시. ≈ push on, drill into. ↔ let it go.
+  - 예: Press, with a concrete failure case, only on the corrected classification rule (sequence role + after-frame corroboration).
+- **close out with what's confirmed rather than continue stalling** — 응답 없는 하위 작업을 무기한 기다리지 않고 확보된 결과로 마무리하다. ≈ wrap up with what we have. ↔ wait indefinitely.
+  - 예: I'll close out with what's confirmed rather than continue stalling indefinitely.
+- **rests on fabricated success evidence** — 결론이 조작된 근거 위에 서 있다는, 근거가 무너지면 결론도 무너진다는 경고. ≈ is built on. ↔ rests on solid evidence.
+  - 예: Cost: the first approved playbook version — and every branch derived from it — rests on fabricated success evidence.
+- **at the system's least-tested moment** — 검증이 가장 부족한 시점에 중요한 결정이 내려진다는 위험 지적. ≈ at the weakest point. ↔ at a mature, well-validated stage.
+  - 예: The first real approvals — at the system's least-tested moment (G9) — will be single-Episode, maximally circular rules carrying a `replay_report.json` that reads as "path reproduced" evidence.
+- **signs it (off) to unblock** — 절차가 막혀 있을 때 내용을 제대로 못 보고도 진행시키려고 서명해버리는 부정적 상황. ≈ rubber-stamp it. ↔ hold the line.
+  - 예: Concrete failure: a guard reading is ambiguous, the packet question requires contract interpretation, nobody at the office owns the contract — approval either stalls across day/night cycles or an unqualified engineer signs it to unblock.
