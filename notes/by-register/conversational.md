@@ -483,3 +483,11 @@
   - 예: Half yes, half no — yes to the office owning the testing, no to the RAG repo owning structured data access.
 - **disregard it, no action needed** — 방금 한 행동이나 결과가 불필요하니 신경 쓰지 말고 넘어가라는 뜻. ≈ ignore it, scratch that. ↔ flag it, take note of it.
   - 예: That last tool call was unnecessary — disregard it, no action needed there.
+
+## 2026-08-31
+- **mid-pack** — 여럿 가운데 중간쯤. 경주의 중간 집단(pack)에서 온 말로, 절대 기준이 아니라 또래 비교라는 점이 핵심이다. ≈ middle of the pack. ↔ an outlier.
+  - 예: 784 lines is mid-pack for this repo's View components, so splitting it would break consistency, not improve it.
+- **the odd file out** — 혼자만 튀는 것. 그 변경이 나쁘다는 게 아니라 여기서만 다르게 만든다는 지적이라 거절이 부드럽다. ≈ the exception in an otherwise uniform set. ↔ consistent with its siblings.
+  - 예: Every sibling View in this repo keeps its pipeline inline, so extracting would make this one the odd file out.
+- **worth a glance if X** — X 하면 한 번 봐 둘 만하다. 조건절이 시점까지 지정해 상대의 할 일 목록을 늘리지 않는다. ≈ keep an eye on it. ↔ needs checking before you ship.
+  - 예: The office agent's snippet spelled `minual_figures` — I used `manual_figures`; worth a glance if figures 404 at the office.

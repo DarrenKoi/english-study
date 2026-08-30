@@ -953,3 +953,17 @@
   - 예: Prediction-match statistics become in-sample.
 - **systematically overstate generalization** — 통계적 편향 때문에 결과가 우연이 아니라 구조적으로 늘 실제보다 과장돼 보이다. ≈ inflate the numbers. ↔ understate.
   - 예: The split blocks temporal leakage but not serial correlation; the statistic will systematically overstate generalization, and a later production gate citing it inherits that inflation.
+
+## 2026-08-31
+- **this comment now lies** — 코드가 바뀌어 주석이 거짓이 된 상태. 주석을 주어로 세우고 사람 동사 lie 를 붙여 "읽는 사람을 속인다"는 능동적 판정으로 만든다. ≈ is stale (중립). ↔ the comment still holds.
+  - 예: This comment now lies: "The backend still ships `defaults.focus_n`" was the reason to leave the contract alone, and the same change-series removed it.
+- **not swap-safe** — 겉보기에 같아도 그대로 갈아 끼우면 동작이 바뀌는. 뒤에 콜론으로 근거를 붙여 리팩터링 범위를 한 줄로 가른다. ≈ a behaviour change in disguise. ↔ a drop-in replacement.
+  - 예: Not swap-safe: its inputs are KST-aware, so the existing `.replace("+00:00","Z")` is a no-op and `iso_z` would silently convert to UTC.
+- **the first assignment is dead** — 아래에서 무조건 덮어써서 앞의 대입이 아무 효과도 없다. dead store 로 굳은 용법이라 설명 없이 통한다. ≈ has no observable effect. ↔ is load-bearing.
+  - 예: `trace["result_count"] = len(rows)` is unconditionally overwritten four lines later; the first assignment is dead.
+- **removal is type-only, no behaviour change** — 지워도 타입만 사라질 뿐 런타임 동작은 그대로다. 앞에 확인 방법을 붙여 리뷰어가 재확인할 수 있게 한다. ≈ a no-op at runtime. ↔ BEHAVIOUR-CHANGE — leave it.
+  - 예: Verified by grep: no runtime reads of any of these, so removal is type-only, no behaviour change.
+- **makes silence the failure mode** — 기본값이 빈 값이 아니라 그럴듯한 값이라 틀려도 아무도 못 알아채게 만든다. ≈ fails silently, fails open. ↔ fails loudly, fails closed.
+  - 예: A fallback that means 장비 상태 makes silence the failure mode: forget a branch and you don't get a blank tab bar, you get a confidently wrong one.
+- **crosses the seam** — 두 계층 경계를 넘어 실제로 전달되는 것. 넘어가는 것만 열거하면 나머지는 자동으로 내부 구현이 된다. ≈ is what the boundary carries. ↔ stays on this side of the boundary.
+  - 예: The filesystem `image_path` is never returned — only `figure_id` crosses the seam.

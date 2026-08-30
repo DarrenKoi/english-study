@@ -1157,3 +1157,31 @@
   - 예: The first real approvals — at the system's least-tested moment (G9) — will be single-Episode, maximally circular rules carrying a `replay_report.json` that reads as "path reproduced" evidence.
 - **signs it (off) to unblock** — 절차가 막혀 있을 때 내용을 제대로 못 보고도 진행시키려고 서명해버리는 부정적 상황. ≈ rubber-stamp it. ↔ hold the line.
   - 예: Concrete failure: a guard reading is ambiguous, the packet question requires contract interpretation, nobody at the office owns the contract — approval either stalls across day/night cycles or an unqualified engineer signs it to unblock.
+
+## 2026-08-31
+- **contract drift** — 한쪽만 바뀌어 양쪽 계약이 아무 신호 없이 어긋난 상태. breakage 와 달리 서서히 벌어지고, JSON 경계처럼 타입 검사가 닿지 않는 자리에서 잘 생긴다. ≈ schema mismatch (더 정적), out of sync (평이). ↔ the two halves stay in lockstep.
+  - 예: Contract drift — the backend half of three payloads was deleted, the frontend types weren't.
+- **leaving it invites someone to (restore the field)** — 틀린 코드·주석을 지우지 않고 두면 뒷사람이 그걸 근거로 되돌리게 만든다. invite = (원치 않는 일을) 자초하다. ≈ is a trap for the next reader. ↔ deleting it forecloses that mistake.
+  - 예: Rewrite or delete; leaving it invites someone to "restore" the field.
+- **Tail for a follow-up** — 이번 범위 밖 잔여 항목을 목록 끝에 따로 떼어 두는 리뷰 관례. "이번엔 안 한다"와 "잊지는 않았다"를 한 마디로 한다. ≈ parking-lot items. ↔ in scope for this change.
+  - 예: Tail for a follow-up (untouched files): the `sem_list` and `storage` mocks still hand-roll about eight more.
+- **Clean point:** — 지적 목록 끝에 "확인했고 문제없었다"를 적어 검토 범위 자체를 증명하는 리뷰 관례. ≈ nothing to flag here. ↔ Findings, ordered by value.
+  - 예: Clean point: repository inspection found no Python runtime imports into the retired packages, supporting the no-port claim.
+- **what actually pins them apart** — 무엇이 둘을 갈라놓고 있는지. pin down 을 비튼 즉석 표현이라 "사이에 박혀 못 붙게 하는 것"이라는 그림이 바로 선다. ≈ what keeps them separate. ↔ what they already share.
+  - 예: Let me check what actually pins them apart before answering.
+- **duplication documented in prose rather than removed** — 중복을 없애는 대신 "여기는 저기와 같음" 주석만 달아 둔 상태. 주석 개수가 곧 중복의 증거가 된다. ≈ a comment where a refactor belonged. ↔ the duplication was collapsed into one place.
+  - 예: `PmPlanningView.vue` carries eight comments saying "same as TttmView" — duplication documented in prose rather than removed.
+- **a feature nobody finds** — 있어도 발견되지 않으면 없는 것과 같다. 기본값을 꺼 둘지 정할 때 반대편에 서는 논거. ↔ a feature that announces itself.
+  - 예: A preference UI that starts empty is a feature nobody finds.
+- **a bug (the merge) exposed, not a reason to stop** — 작업 도중 튀어나온 결함을 되돌릴 근거로 읽지 말라는 반론 틀. exposed 와 introduced 를 가르는 것이 전부다. ≈ surfaced by, not caused by. ↔ a regression this change introduced.
+  - 예: That third one is the interesting part — it's a bug the merge exposed, not a reason to stop.
+- **a checkbox that lies** — 켜기만 하면 되는 줄 알았는데 옆 컨트롤이 더 필요한, 사용자와의 약속을 어긴 UI. ≈ a control that doesn't do what it says. ↔ a control that keeps its promise.
+  - 예: A checkbox that silently needed another control would be a checkbox that lies.
+- **each (new page) paid the same tax** — 새로 생긴 것마다 같은 비용을 치러 왔다. 한 사람의 실수가 아니라 구조가 매번 청구하는 값이라는 뜻. ≈ a guaranteed recurring tax (명사형). ↔ the cost was paid once, in one place.
+  - 예: Each new page paid the same tax, and `pm-planning` was the first one to forget.
+- **Deliberately not done:** — 보고 끝에 안 한 일과 이유를 밝히는 소제목. Skipped 보다 강해 몰라서가 아니라 재 보고 판단했다는 뜻이 된다. ≈ considered and rejected. ↔ left undone by oversight.
+  - 예: Deliberately not done: extracting the 150-line analysis pipeline into a composable — I measured the sibling files first.
+- **per the (pathspec) rule** — 그 규칙에 따라. 행동의 근거를 취향이 아니라 합의된 규칙에 두어 되물음을 미리 막는다. ≈ in line with our convention. ↔ made an exception this time.
+  - 예: Left them alone per the pathspec rule.
+- **before anyone acts on that report** — 낡은 문서를 폐기하라는 대신 실행 시점만 겨눠 절제해 경고하는 형태. act on = ~를 근거로 실제로 움직이다. ≈ before it gets actioned. ↔ safe to act on as written.
+  - 예: That audit predates today's work — worth re-scoping those three lines before anyone acts on that report.
