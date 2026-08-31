@@ -1185,3 +1185,25 @@
   - 예: Left them alone per the pathspec rule.
 - **before anyone acts on that report** — 낡은 문서를 폐기하라는 대신 실행 시점만 겨눠 절제해 경고하는 형태. act on = ~를 근거로 실제로 움직이다. ≈ before it gets actioned. ↔ safe to act on as written.
   - 예: That audit predates today's work — worth re-scoping those three lines before anyone acts on that report.
+- **Everything else survived scrutiny.** — 나머지는 따져 봐도 다 살아남았다. 주어를 대상에 두면 "내가 봐줬다"가 아니라 "스스로 정당화됐다"로 읽혀, 삭제 작업 보고의 표준 마무리가 된다. ≈ everything else held up. ↔ it didn't hold up under scrutiny.
+  - 예: I only removed one file — everything else survived scrutiny.
+- **not mine to fix here** — 이건 이 작업 범위에서 내가 고칠 몫이 아니다. `here` 가 범위를 좁혀 회피가 아니라 경계 선언이 된다. ≈ out of scope for this change. ↔ I'll pick that up while I'm in here.
+  - 예: That failure exists on main too — not mine to fix here, but worth a ticket.
+- **a design call that's genuinely yours** — 정답이 없어 당신이 정해야 하는 설계 판단. `genuinely` 가 사교적 양보와 진짜 위임을 가른다. ≈ your judgment call. ↔ there's only one defensible option here.
+  - 예: I've narrowed it to three options, but which one ships is a design call that's genuinely yours.
+- **Spend disproportionate effort here.** — 여기에만 과할 만큼 시간을 몰아 써라. 부정적 어휘 `disproportionate` 를 일부러 뒤집어 쓴 우선순위 지시. ≈ this is where the leverage is. ↔ timebox it and move on.
+  - 예: Spend disproportionate effort on the feedback loop; everything after it is mechanical.
+- **riskier than its diff size suggests** — 변경 줄 수가 말해 주는 것보다 위험하다. `suggests` 가 지표를 의인화해서 상대를 탓하지 않고 반박한다. ≈ the diff undersells the risk. ↔ exactly as small as it looks.
+  - 예: The untracked `office.py` copies are what make this rename riskier than its diff size suggests.
+- **kept as received** — 받은 그대로 두었다(편집 없음). `as-is` 보다 좁아 "수신 시점 상태"를 뜻하는 인수인계 문서의 관례어. ≈ reproduced verbatim. ↔ lightly edited for clarity.
+  - 예: The current contract lives elsewhere; the letter below is kept as received.
+- **which is worse than never** — 그건 아예 안 하느니만 못하다. 앞의 `sometimes` 를 뒤에서 받아 절반의 정확성을 0보다 나쁘다고 판정하는 대구. ≈ intermittently correct is the worst kind. ↔ partial coverage still beats none.
+  - 예: A containment check would have made the circle sometimes honest, which is worse than never.
+- **it just needed to stop being the only signal** — 틀린 게 아니라 유일한 신호이기를 그만두면 됐다. 기존 선택을 먼저 옹호한 뒤 최소 진단만 얹는 순서로 쓴다. ≈ it was necessary but not sufficient. ↔ the encoding itself was wrong.
+  - 예: The red/blue rule is the right encoding — it just needed to stop being the only signal on a card about groups.
+- **X buys A and costs B** — X는 A를 얻어 주고 B를 치르게 한다. 이득을 사소하게, 비용을 구체적으로 적으면 판정이 문장 안에서 저절로 난다. ≈ you'd pay B for A. ↔ it pays for itself.
+  - 예: Moving them under one folder buys a shorter `ls` and costs a repo-wide rename plus an office boot break.
+- **time it to land right before ~** — ~하기 바로 전에 안착하도록 시점을 맞추다. `land`(main 에 떨어지다) 에 의도적 타이밍을 얹는 조합. ≈ schedule the merge for when you can babysit it. ↔ land it whenever it's ready.
+  - 예: I'd do it in a worktree and time it to land right before you're at the office.
+- **it names the misreading directly rather than leaving it to be inferred** — 오해를 암시로 남기지 않고 곧장 지목한다. 라벨을 늘어놓는 대신 오해 자체를 문장으로 쓰라는 원칙. ≈ says the quiet part out loud. ↔ leaves the reader to connect the dots.
+  - 예: The note says the color is a tolerance verdict, not group membership — it names the misreading directly rather than leaving it to be inferred.

@@ -491,3 +491,9 @@
   - 예: Every sibling View in this repo keeps its pipeline inline, so extracting would make this one the odd file out.
 - **worth a glance if X** — X 하면 한 번 봐 둘 만하다. 조건절이 시점까지 지정해 상대의 할 일 목록을 늘리지 않는다. ≈ keep an eye on it. ↔ needs checking before you ship.
   - 예: The office agent's snippet spelled `minual_figures` — I used `manual_figures`; worth a glance if figures 404 at the office.
+- **if the itch is X, the cheaper fix is Y** — 가려운 데가 X라면 더 싸게 먹히는 해법은 Y다. 요청의 형태와 그 뒤의 동기를 갈라놓아 거절을 재조준으로 바꾼다. ≈ what you're actually after is. ↔ taking the request at face value.
+  - 예: If the itch is that you can't tell these are plumbing at a glance, the cheaper fix is a one-line README.
+- **no amount of staring at code will save you** — 코드를 아무리 노려봐도 소용없다. `save you` 가 노력이 아니라 구원의 문제로 프레임을 바꿔 접근법 자체를 지적한다. ≈ you can't read your way out of this. ↔ a careful read of the diff is enough here.
+  - 예: Without a failing test, no amount of staring at code will save you.
+- **your history moved under me** — 작업하는 사이에 히스토리가 발밑에서 움직였다. 누구 잘못도 아닌 타이밍 문제라는 뉘앙스라, 뒤에 병합이 깨끗했다는 사실을 붙인다. ≈ main moved while I was working. ↔ the branch was untouched the whole time.
+  - 예: Heads-up: your history moved under me — another session landed a commit between my two, but the merge was clean.

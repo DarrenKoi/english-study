@@ -967,3 +967,13 @@
   - 예: A fallback that means 장비 상태 makes silence the failure mode: forget a branch and you don't get a blank tab bar, you get a confidently wrong one.
 - **crosses the seam** — 두 계층 경계를 넘어 실제로 전달되는 것. 넘어가는 것만 열거하면 나머지는 자동으로 내부 구현이 된다. ≈ is what the boundary carries. ↔ stays on this side of the boundary.
   - 예: The filesystem `image_path` is never returned — only `figure_id` crosses the seam.
+- **shrink the hypothesis space** — 후보 원인의 집합을 좁히다. `narrow down the cause` 가 하나로 좁히는 그림이라면 이쪽은 "아직 여럿이지만 훨씬 적다"라 중간 보고에 맞는다. ≈ rule out whole classes of cause. ↔ everything is still on the table.
+  - 예: A minimal repro shrinks the hypothesis space — there are simply fewer moving parts left to suspect.
+- **removes the whole failure class** — 실패 유형 자체를 통째로 없앤다. 이 말이 붙으면 회귀 테스트를 안 쓴 이유까지 자동으로 설명된다. ≈ designs the bug out. ↔ patches this one instance.
+  - 예: Removing the region removes the whole failure class, which is why there's no regression test to write.
+- **died with (ModuleNotFoundError)** — 그 예외를 내며 그 자리에서 죽었다. 잘못된 값을 내는 게 아니라 실행이 끝났음을 강조하고, 예외 이름은 관사 없이 넣는다. ≈ blew up with. ↔ silently returned an empty list.
+  - 예: The path-form invocation died with ModuleNotFoundError because the sys.path bootstrap was missing.
+- **Treat the loop as a product.** — 그 루프를 일회용이 아니라 제품처럼 다뤄라. `product` 한 단어로 속도·정확도·재현성을 계속 개선하라는 기대치가 따라붙는다. ≈ invest in your tooling. ↔ throw it away once it goes green.
+  - 예: Treat the loop as a product: make it faster, sharper, and more deterministic before you use it.
+- **keep raising the rate until it's debuggable** — 디버깅이 될 만해질 때까지 재현률을 계속 올려라. 간헐적 버그의 목표를 완벽 재현이 아니라 재현률로 다시 잡는다. ≈ get the repro rate up. ↔ chase a clean, one-shot repro.
+  - 예: A 50%-flake bug is debuggable and a 1% one isn't — keep raising the rate until it's debuggable.
