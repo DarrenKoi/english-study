@@ -1207,3 +1207,15 @@
   - 예: I'd do it in a worktree and time it to land right before you're at the office.
 - **it names the misreading directly rather than leaving it to be inferred** — 오해를 암시로 남기지 않고 곧장 지목한다. 라벨을 늘어놓는 대신 오해 자체를 문장으로 쓰라는 원칙. ≈ says the quiet part out loud. ↔ leaves the reader to connect the dots.
   - 예: The note says the color is a tolerance verdict, not group membership — it names the misreading directly rather than leaving it to be inferred.
+- **a handoff** — 업무·근거를 문서로 남기며 다음 담당자에게 넘김. ≈ a transition document.
+  - 예: The RAG team's handoff letter listed the public API set and told us exactly which seams to fill in.
+- **fabless** — 자체 생산라인 없이 설계만 하는 회사(반도체 업계 용어). ↔ an IDM.
+  - 예: As a fabless company, they design the chips but outsource all manufacturing.
+- **X is the norm** — 예외가 아니라 늘 있는 흔한 경우라고 선을 그어, 예외 취급하려던 가정을 뒤집는다. ↔ X is the exception.
+  - 예: The stem is an arbitrary filename, so spaces and Korean characters are the norm — don't treat them as edge cases.
+- **discharged** — 의무·판정이 이행되어 더 이상 남지 않은. ≈ resolved. ↔ outstanding.
+  - 예: Once a REQUEST-CHANGES verdict is discharged in a commit, the review file's only remaining value is historical.
+- **it's spent** — 목적을 다해 더 쓸모없어진(물리적으로는 남아 있어도). ≈ served its purpose. ↔ still live / still in use.
+  - 예: No — it's spent. Its verdict already landed on `main`, so the file's only remaining value is historical.
+- **a change with cost and no effect** — 비용만 들고 아무 결과도 안 바뀌는 변경. ≈ it buys nothing. ↔ a change that pays for itself.
+  - 예: You're choosing an encoding nothing downstream reads back, which is the definition of a change with cost and no effect.

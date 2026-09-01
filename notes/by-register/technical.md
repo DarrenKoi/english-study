@@ -977,3 +977,31 @@
   - 예: Treat the loop as a product: make it faster, sharper, and more deterministic before you use it.
 - **keep raising the rate until it's debuggable** — 디버깅이 될 만해질 때까지 재현률을 계속 올려라. 간헐적 버그의 목표를 완벽 재현이 아니라 재현률로 다시 잡는다. ≈ get the repro rate up. ↔ chase a clean, one-shot repro.
   - 예: A 50%-flake bug is debuggable and a 1% one isn't — keep raising the rate until it's debuggable.
+- **readiness** — `mode`(환경이 사무실인가)와 별개로, 그 기능의 adapter가 실제로 작성되었는가의 판정. ↔ mode.
+  - 예: Provider selection is the logical AND of two independent questions — mode and readiness — judged by two separate modules.
+- **anchored** — 매칭 위치를 문자열의 특정 지점에 고정한. `anywhere in the string`과 정반대. ≈ pinned to. ↔ matched anywhere in the string.
+  - 예: The suffix check needs to be anchored to the end of the string, or ordinary words like "BASE" get misdetected as a match.
+- **a golden example** — 정답으로 못 박아 둔 검증 기준 예시(`golden file`과 같은 계열). ≈ a reference example. ↔ an edge case.
+  - 예: The contract module ships a golden example so both sides can verify their output against the same known-good response.
+- **over-fetch** — 뒤 단계에서 걸러질 것을 예상해 필요량보다 더 뽑아 두는 패턴. ≈ pad the candidate pool. ↔ fetch exactly what's needed.
+  - 예: The fix isn't smarter filtering — it's adaptive over-fetch, pulling more candidates until five survive the access check.
+- **co-location** — 별도 서비스로 쪼개지 않고 한 프로세스 안에 같이 두는 배치. ≈ running in-process. ↔ a separate service.
+  - 예: Co-location means the RAG repo runs inside the chat process, so there's no network hop between the two.
+- **wall-clock** — CPU 시간이 아니라 사람이 시계로 재는 실제 경과 시간. ≈ real time. ↔ CPU time.
+  - 예: The agent loop is cut off at 60 seconds wall-clock, even though the actual CPU work is much shorter.
+- **self-contained** — 외부 의존 없이 그 자체로 완결된. ≈ standalone. ↔ dependent on external config.
+  - 예: All three gateway keys are baked into `skewnono_rag/config.py`, so the package is self-contained.
+- **a deny-list** — 특정 항목을 명시적으로 걸러 거절하는 목록. `blacklist`의 중립적 대체어. ≈ a blocklist. ↔ an allow-list.
+  - 예: Obviously off-topic queries like "movies" or "the weather" get rejected by a deny-list without ever hitting search.
+- **prune (a list)** — 배포·빌드에 안 실려야 할 파일을 목록에서 쳐내다(원예 동사의 전용). ≈ exclude from the bundle. ↔ include in the bundle.
+  - 예: The deploy script was about to ship a local `chat.db` on top of the cloud copy — we added `*.db` to the prune list to stop it.
+- **a cold fetch** — 캐시·연결이 준비되지 않은 상태의 첫 요청. 반대는 `warm`. ≈ a cold start. ↔ a warm fetch.
+  - 예: A cold fetch takes 133 ms — most of that is the login round trip, not the actual transfer.
+- **wrong-labelled** — 값은 맞지만 붙은 시간대·단위 표시가 사실과 어긋난. ≈ mislabelled. ↔ correctly tagged.
+  - 예: Adding nine hours by hand produces a wrong-labelled value — `10:00+00:00` for what is actually a 10:00 KST event.
+- **cascades across (four files)** — 값 하나의 변경이 여러 파일로 순차적으로 번짐. ≈ ripple through. ↔ stays contained to one file.
+  - 예: The timeout number cascades across four files with a load-bearing invariant tying them together.
+- **double-shifted** — 시간대 오프셋이 두 번 적용돼 값이 크게 어긋난 상태. ≈ shifted twice. ↔ correctly normalized once.
+  - 예: A regression test exists precisely because a naive KST-stamped document would be double-shifted by the reader's `time_zone` setting.
+- **left ... residue behind** — 정리 후에도 흔적처럼 남는 부산물. ≈ leftover artifacts. ↔ a clean removal.
+  - 예: `git worktree remove` deleted the tracked files but left the untracked build residue behind.
