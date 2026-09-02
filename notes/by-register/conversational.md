@@ -497,3 +497,7 @@
   - 예: Without a failing test, no amount of staring at code will save you.
 - **your history moved under me** — 작업하는 사이에 히스토리가 발밑에서 움직였다. 누구 잘못도 아닌 타이밍 문제라는 뉘앙스라, 뒤에 병합이 깨끗했다는 사실을 붙인다. ≈ main moved while I was working. ↔ the branch was untouched the whole time.
   - 예: Heads-up: your history moved under me — another session landed a commit between my two, but the merge was clean.
+- **Rough rule:** — 정밀한 기준 대신 어림 기준을 내놓는 첫머리. 예외를 인정하며 판단을 넘기는 어감. ≈ as a rule of thumb. ↔ the precise criterion is.
+  - 예: Rough rule: if the bug could be described without mentioning pixels, it isn't a browser job.
+- **stands out against** — 여럿 사이에서 도드라지다. 대비 대상을 뒤에 붙여야 뜻이 산다. ≈ reads at a glance. ↔ blends in with the rest.
+  - 예: Only `mother` carries the accent colour so it stands out against the many sons.

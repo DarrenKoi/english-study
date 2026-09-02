@@ -1219,3 +1219,21 @@
   - 예: No — it's spent. Its verdict already landed on `main`, so the file's only remaining value is historical.
 - **a change with cost and no effect** — 비용만 들고 아무 결과도 안 바뀌는 변경. ≈ it buys nothing. ↔ a change that pays for itself.
   - 예: You're choosing an encoding nothing downstream reads back, which is the definition of a change with cost and no effect.
+- **re-derived every session** — 적어 두지 않으면 매번 같은 추론을 처음부터 반복하게 된다. 문서·스킬의 존재 이유를 대는 정형 문장. ≈ rediscovered from scratch. ↔ written down once.
+  - 예: It exists because "did this actually work?" is a manual procedure that would otherwise be re-derived every session.
+- **a memory of traps, not a wrapper** — 자동화가 아니라 밟았던 함정의 기록. 문서의 성격을 한 줄로 규정한다. ≈ a record of hard-won lessons. ↔ an abstraction layer.
+  - 예: The skill is a memory of traps, not a wrapper — each gotcha is a mistake someone made once.
+- **it isn't a <tool> job** — 그 도구가 못 해서가 아니라 담당이 아니라는 판정. 사람을 탓하지 않고 경계만 긋는다. ≈ that's out of scope for X. ↔ that's exactly what X is for.
+  - 예: If a curl through the proxy answers the question, it isn't a browser job.
+- **a deliberate blank** — 빈칸이 빠뜨림이 아니라 결정이었음을 밝히는 이름표. 뒤에 왜 안 채웠는지 한 문장이 따라야 한다. ≈ an intentional gap. ↔ an oversight.
+  - 예: A deliberate blank for parameters whose region has no mother — labelling them son would contradict the toggle.
+- **that is a one-line change in X** — 되돌리는 비용이 싸다고 알려 주며 선택권을 상대에게 넘긴다. 실제로 한 줄일 때만 써야 한다. ≈ it's a cheap reversal. ↔ that would mean reworking the whole engine.
+  - 예: If you would rather those read as son, that is a one-line change in `paramRole`.
+- **keeping them apart** — 합칠 수 있어 보이는 두 개념을 굳이 나눠 둔 설계 의도. 뒤에 무엇이 안 움직였는지를 붙여 근거로 삼는다. ≈ treating them as two concepts. ↔ collapsing them into one.
+  - 예: Keeping them apart means the toggle's numbers did not move at all with this change.
+- **one caveat to be aware of** — 완료 보고에 사후 조건 하나를 얹는 격식 표현. 결함 고백이 아니라 정보 제공의 틀이다. ≈ with one caveat. ↔ no strings attached.
+  - 예: One caveat to be aware of: a row can now read `son` while its note has no exclusion mark.
+- **X is the equivalent** — 못 주는 기능 대신 같은 목적을 이루는 수단을 즉시 제시한다. ≈ serves the same purpose. ↔ there's no substitute for it.
+  - 예: CSV has no formatting, so Excel's autofilter on the `mother/son` column is the equivalent.
+- **the behaviour is unchanged, only the label is broader** — 안 바뀐 것을 먼저 말해 리뷰어가 볼 곳을 좁혀 준다. ≈ cosmetic on the surface, identical underneath. ↔ this changes what the toggle excludes.
+  - 예: The behaviour is unchanged, only the label is broader, and the docstrings say so.

@@ -1005,3 +1005,13 @@
   - 예: A regression test exists precisely because a naive KST-stamped document would be double-shifted by the reader's `time_zone` setting.
 - **left ... residue behind** — 정리 후에도 흔적처럼 남는 부산물. ≈ leftover artifacts. ↔ a clean removal.
   - 예: `git worktree remove` deleted the tracked files but left the untracked build residue behind.
+- **not retroactive** — 켠 시점부터만 기록되고 그 전 일은 못 본다. 상시 기록 도구와 대비할 때 쓴다. ≈ forward-only. ↔ a persistent trace.
+  - 예: Network tracking is not retroactive, so call the reader before the click you want to observe.
+- **arm (the reader) first** — 관찰·계측 장치를 먼저 격발 대기 상태로 걸어 두다. 순서 자체가 뜻의 절반이다. ≈ set up the listener first. ↔ read the log afterwards.
+  - 예: I'd arm the network reader first, then force a failing download and confirm the toast actually fires.
+- **silently skips** — 실패도 경고도 없이 그냥 건너뛴다. 초록불이 절반만 참일 때의 위험을 가리킨다. ≈ quietly drops. ↔ fails loudly.
+  - 예: Running `pytest tests` alone silently skips the provider-contract half, so the green is only half true.
+- **beats round-tripping each click** — 클릭마다 왕복하는 것보다 한 번에 묶는 편이 낫다. 성능이 아니라 사용 습관 조언이다. ≈ batching wins. ↔ one round trip per action.
+  - 예: With this extension, `browser_batch` beats round-tripping each click.
+- **side-effect-runs** — 의도한 대상을 못 찾고 엉뚱한 파일까지 실행해 버린다. 명사를 하이픈으로 묶은 즉석 동사 조어. ≈ accidentally executes. ↔ exits cleanly with no matches.
+  - 예: `npx playwright test` finds nothing here and side-effect-runs your `node:test` files.
