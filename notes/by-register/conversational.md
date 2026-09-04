@@ -501,3 +501,17 @@
   - 예: Rough rule: if the bug could be described without mentioning pixels, it isn't a browser job.
 - **stands out against** — 여럿 사이에서 도드라지다. 대비 대상을 뒤에 붙여야 뜻이 산다. ≈ reads at a glance. ↔ blends in with the rest.
   - 예: Only `mother` carries the accent colour so it stands out against the many sons.
+- **This is a judgment question, so no code.** — 질문이 구현이 아니라 저울질을 묻는다고 첫 줄에 밝혀 답의 형식을 예고한다. ≈ this comes down to judgment. ↔ this is a mechanical change.
+  - 예: This is a judgment question, so no code — here is the honest trade-off.
+- **and this is the big one** — 목록 항목 중 하나에 무게를 몰아주는 삽입구. ≈ this is the one that matters. ↔ a minor point.
+  - 예: Qwen loses isolation, and this is the big one.
+- **My read** — 장단점을 다 늘어놓은 뒤 자기 판단으로 넘어가는 두 단어. read 는 "판독한 결과"라는 명사. ≈ my take. ↔ the numbers say.
+  - 예: My read: if the complaint is thinking tokens, the client knobs beat TP=2 with zero risk.
+- **Anything that adds X is out.** — 제약 하나로 그에 걸리는 부류 전체를 탈락시킨다. ≈ is off the table. ↔ is still on the table.
+  - 예: Anything that adds a host process is out. Everything left runs inside the existing qwen process.
+- **the weak spot** — 전체적으로 괜찮은 것의 취약한 한 자리. ≈ the Achilles' heel. ↔ the strong suit.
+  - 예: Rare categories are the weak spot.
+- **the wall the whole repo is built around** — 프로젝트 설계 전체를 규정한 핵심 제약 하나. `built around` 는 "중심에 두고"와 "피해서"가 겹친다. ≈ the hard limit behind all of this. ↔ a soft limit we can negotiate.
+  - 예: The host has 16 GB and no swap. This is the wall the whole repo is built around.
+- **you cannot put the target into words** — 찾는 대상을 말로 표현할 수 없다는 관용구. ≈ hard to name. ↔ easy to label.
+  - 예: Use visual prompts when you cannot put the target into words: a specific part, logo, or defect.

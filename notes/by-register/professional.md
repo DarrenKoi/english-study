@@ -1237,3 +1237,37 @@
   - 예: CSV has no formatting, so Excel's autofilter on the `mother/son` column is the equivalent.
 - **the behaviour is unchanged, only the label is broader** — 안 바뀐 것을 먼저 말해 리뷰어가 볼 곳을 좁혀 준다. ≈ cosmetic on the surface, identical underneath. ↔ this changes what the toggle excludes.
   - 예: The behaviour is unchanged, only the label is broader, and the docstrings say so.
+- **ordered by payoff per effort** — 선택지를 늘어놓기 전에 "노력 대비 효과 순"이라는 정렬 기준을 밝힌다. ≈ ranked by ROI. ↔ in no particular order.
+  - 예: Here are the levers, ordered by payoff per effort, all grounded in the current config.
+- **Nothing to gain here until X is fixed** — 외부 의존성이 풀리기 전엔 손댈 가치가 없다는 보류 선언. ≈ a dead end for now. ↔ this is where the win is.
+  - 예: Nothing to gain here until the CUDA toolchain issue is fixed.
+- **the single largest lever available** — 여러 개선안 중 단연 효과가 큰 하나를 지목한다. ≈ the biggest win on the table. ↔ a marginal gain.
+  - 예: FP8 weights is the single largest decode-speed lever available.
+- **If any one of them is false, …** — AND 조건의 결정을 `If all three are true` 와 짝지어 닫는다. `any one` 은 띄어 쓴다. ≈ unless all three hold.
+  - 예: If all three are true it is a good trade. If any one is false, keep the current layout.
+- **measured, not guessed** — 결정 근거가 추정이 아니라 실측이라는 강조. ≈ grounded in numbers. ↔ a ballpark figure.
+  - 예: Recording the number so the gate is measured, not guessed.
+- **put X in play** — 잠자던 위험 요소를 작동 상태로 만드는 원인을 주어로 세운다. ≈ trigger / invite. ↔ keep X out of the picture.
+  - 예: With 4 GB free and no swap, a TP=2 launch would put the OOM killer in play at startup.
+- **so it isn't re-asked next session** — 결정을 기록하는 이유를 "다시 묻지 않도록"으로 밝힌다. ≈ so we don't relitigate it. ↔ left open for next time.
+  - 예: Recording that so it isn't re-asked next session.
+- **Reading "X" as: …** — 모호한 지시를 자기 해석으로 선언한 뒤 진행하는 작업 로그 문체. ≈ I take "X" to mean … ↔ taking "X" literally.
+  - 예: Reading "amend" as: the fallback was a workaround, and the pod restart fixed the cause, so the tree goes back to placeholders.
+- **to the same effect** — 수단은 달랐지만 결과는 같다는 격식 표현. ≈ with the same outcome. ↔ with a subtly different result.
+  - 예: A plain `git checkout` was blocked, so the revert was done with in-place edits to the same effect.
+- **per your standing preference** — 상시 유효한 사용자 규칙을 따랐다는 짧은 근거. ≈ in line with your default. ↔ on your one-off instruction.
+  - 예: Not committed, per your standing preference.
+- **X does not remove the need for Y** — 큰 자원이 다른 자원의 필요를 없애 주지 않는다는 오해 교정. ≈ Y is still required regardless. ↔ renders Y unnecessary.
+  - 예: Large GPU VRAM does not remove the need for host RAM.
+- **not truly ready until both pass** — 검증 기준 둘을 다 통과해야 완료라고 못 박는 마무리. ≈ only counts as ready when … ↔ good enough once health responds.
+  - 예: The model is not truly ready until both pass.
+- **an operational interpretation, not a claim that …** — 운영 경험에서 나온 배치임을 밝혀 공식 스펙처럼 읽히지 않게 한다. ≈ a working assumption. ↔ a documented guarantee.
+  - 예: This is an operational interpretation, not a claim that the model cards guarantee those exact roles.
+- **This applies even if you …** — 예상 반론을 열거하며 예외가 없음을 못 박는 규칙·라이선스 어법. ≈ regardless of whether you … ↔ unless you …
+  - 예: This applies even if you train your own model from scratch or use YOLO only internally.
+- **Notwithstanding any other provision of this License** — "다른 조항이 뭐라 하든 이 조항이 우선"을 여는 법률 정형구. notwithstanding = despite. ↔ subject to the other provisions.
+  - 예: Notwithstanding any other provision of this License, if you modify the Program, your modified version must offer remote users the Corresponding Source.
+- **a small but significant gain** — 효과 크기는 작아도 통계적으로 유의한 향상. 논문 초록 정형구로 p 값이 뒤따른다. ≈ a modest but reliable improvement. ↔ a large but noisy gain.
+  - 예: A redesigned coarse-to-fine wrapper recovers a small but significant gain (SR@10 0.10→0.12, p = 0.017).
+- **X clears the precondition** — 사전 조건 하나가 확인됐다고 알린다(clear a hurdle). ≈ ticks that box. ↔ fails the precondition.
+  - 예: NVLink clears the interconnect precondition, so TP=2 is now a real option.

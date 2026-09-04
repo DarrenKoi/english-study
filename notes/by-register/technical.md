@@ -1015,3 +1015,15 @@
   - 예: With this extension, `browser_batch` beats round-tripping each click.
 - **side-effect-runs** — 의도한 대상을 못 찾고 엉뚱한 파일까지 실행해 버린다. 명사를 하이픈으로 묶은 즉석 동사 조어. ≈ accidentally executes. ↔ exits cleanly with no matches.
   - 예: `npx playwright test` finds nothing here and side-effect-runs your `node:test` files.
+- **a (prompt) hint, not a cap** — 설정값이 권고인지 상한인지를 `X, not Y` 대조로 못 박는다. ≈ advisory, not binding. ↔ a hard cap.
+  - 예: Remember this is a prompt hint, not a cap — a hard cap needs `thinking_token_budget`.
+- **silently ignored** — 오류 없이 조용히 무시되는 설정 함정을 경고한다. ≈ quietly dropped. ↔ fails loudly.
+  - 예: Without that flag the budget is silently ignored, and only a re-tokenized count reveals it.
+- **Nothing else moves.** — 변경 목록을 닫으며 나머지는 전부 그대로임을 세 단어로 알린다. ≈ everything else stays as is. ↔ this touches every env file.
+  - 예: Qwen goes to both GPUs and mai-ui drops to 0.40. Nothing else moves.
+- **Go direct, not through the proxy** — 중간 계층을 건너뛰라는 짧은 명령문. `go direct` 의 direct 는 부사. ≈ bypass the proxy. ↔ route it through the proxy.
+  - 예: Go direct, not through the Flask proxy, for xhigh: the proxy buffers fully with a 300s read timeout.
+- **an always-call-everything pipeline** — 매번 모든 모델을 다 부르는 설계를 하이픈 조어로 이름 붙여 비판한다. ≈ a kitchen-sink pipeline. ↔ a gated cascade.
+  - 예: Keeping sidecars off at first avoids building an always-call-everything pipeline.
+- **they never abstain** — "모르겠다"를 출력하지 못하는 모델의 성질. 자신감 있는 오답이 쏟아진다. ≈ cannot say "I don't know". ↔ degrade to unknown / fail closed.
+  - 예: A naive tiling pyramid degrades matchers badly, because they never abstain.
