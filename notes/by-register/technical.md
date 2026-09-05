@@ -1027,3 +1027,23 @@
   - 예: Keeping sidecars off at first avoids building an always-call-everything pipeline.
 - **they never abstain** — "모르겠다"를 출력하지 못하는 모델의 성질. 자신감 있는 오답이 쏟아진다. ≈ cannot say "I don't know". ↔ degrade to unknown / fail closed.
   - 예: A naive tiling pyramid degrades matchers badly, because they never abstain.
+- **it does not get a fresh one** — 새로 붙는 컴포넌트가 자기 몫의 자원을 따로 받는 게 아니라 기존 예산을 나눠 쓴다. ≈ it shares the existing budget. ↔ it runs on its own worker.
+  - 예: The proxy borrows from that same per-worker budget — it does not get a fresh one.
+- **briefly co-resident** — 사본 여럿이 잠깐 동시에 메모리에 떠 있어 순간 사용량이 튄다. 총량이 아니라 겹치는 순간이 문제라는 뜻. ≈ alive at the same time. ↔ freed before the next allocation.
+  - 예: Raw buffer, base64 string and serialized JSON copy are briefly co-resident, so the transient is about 3x the raw bytes.
+- **at the ... cliff** — 임계값을 넘으면 완만히 나빠지는 게 아니라 뚝 떨어지는 지점. limit 과 달리 넘었을 때 무슨 일이 나는지까지 담는다. ≈ right at the limit. ↔ with comfortable headroom.
+  - 예: A batch landing several large hosts reaches ~1.4 GB transient — at the `reload-on-rss=1500` cliff.
+- **mid-request** — 요청 처리 도중에. `mid-` 는 하이픈 하나로 부사구를 만든다(mid-flight, mid-migration). ≈ in the middle of a request. ↔ between requests.
+  - 예: It can recycle the worker mid-request, failing the whole batch.
+- **not left to the call site** — 기본값을 라이브러리에 박아 두고 호출부의 판단에 맡기지 않는다. ≈ safe by default. ↔ configurable per call.
+  - 예: These are baked in as defaults, not left to the call site, because the defaults exist to give a caller who hasn't done this math a safe result.
+- **extra dependency surface** — 도구를 하나 더 들일 때 늘어나는 관리 면적(버전 충돌·패치·빌드까지 포함). ≈ more moving parts. ↔ no new dependencies.
+  - 예: Main concerns: extra dependency surface compared with plain vLLM, and a separate deployment contract.
+- **typical warning signs** — 원인이 확정되기 전 단계의 증상 목록을 여는 런북 머리말. symptoms 와 달리 진단 전이다. ≈ things to watch for. ↔ confirmed root cause.
+  - 예: Typical warning signs: `EngineCore ... died unexpectedly`, or kernel OOM entries in `dmesg`.
+- **keeps the GPU busy across incoming requests** — 요청과 요청 사이의 빈틈을 메워 자원이 놀지 않게 한다. 일하는 단어는 전치사 `across`. ≈ avoids idle gaps. ↔ the GPU sits idle between requests.
+  - 예: Continuous batching keeps the GPU busy across incoming requests.
+- **must stay client-side independent** — 모듈 경계를 규칙으로 못박는 말. `be` 대신 `stay` 라서 앞으로도 그래야 한다는 시간 축이 들어간다. ≈ keep the two sides decoupled. ↔ the client may reach into server internals.
+  - 예: `poc/work2` must stay client-side independent; it should not import server-side `flask_api` code.
+- **field report** — 논문 수치나 벤치가 아니라 실제로 굴려 본 사람의 후기. ≈ real-world write-up. ↔ published benchmark numbers.
+  - 예: I could not find a single field report comparing the 2B and the 8B on real desktop automation.

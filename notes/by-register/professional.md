@@ -1271,3 +1271,11 @@
   - 예: A redesigned coarse-to-fine wrapper recovers a small but significant gain (SR@10 0.10→0.12, p = 0.017).
 - **X clears the precondition** — 사전 조건 하나가 확인됐다고 알린다(clear a hurdle). ≈ ticks that box. ↔ fails the precondition.
   - 예: NVLink clears the interconnect precondition, so TP=2 is now a real option.
+- **if X changes materially** — 사정이 실질적으로 달라지면. `materially` 가 "사소한 변동으로 결정을 다시 뒤집지는 말라"는 방어선을 같이 친다. ≈ should the assumptions no longer hold. ↔ for minor fluctuations, leave it alone.
+  - 예: If the file profile changes materially, small batches stop being enough and the proxy should move to a streaming transport.
+- **do not "optimize" X back up** — 되돌릴 게 뻔한 보수적 설정에 미리 못을 박는 말. 따옴표가 "본인은 최적화라 믿겠지만 아니다"를 담는다. ≈ leave this number alone. ↔ tune this freely for your workload.
+  - 예: Do not "optimize" `request_batch` back up without re-checking the `reload-on-rss` math above.
+- **should not be treated as another X** — 겉이 비슷해 같은 범주로 오해받는 것의 자리를 바로잡는다. `another` 가 그 부류를 불러와 부정한다. ≈ don't file it under X. ↔ it can be swapped in wherever X is used.
+  - 예: It should not be treated as another general-purpose chat VLM.
+- **best treated as X, not a mandatory part of Y** — 도입은 하되 필수 구성에서는 빼자는 권고. `we recommend` 없이 권고를 담는 수동태 정형구. ≈ keep it optional. ↔ it belongs in the base stack.
+  - 예: OmniParser is best treated as an optional parser service, not a mandatory part of the base serving stack.
