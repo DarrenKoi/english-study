@@ -515,3 +515,7 @@
   - 예: The host has 16 GB and no swap. This is the wall the whole repo is built around.
 - **you cannot put the target into words** — 찾는 대상을 말로 표현할 수 없다는 관용구. ≈ hard to name. ↔ easy to label.
   - 예: Use visual prompts when you cannot put the target into words: a specific part, logo, or defect.
+- **Lean already. Ship.** — 이미 군더더기 없다, 내보내라. `lean` 은 불필요한 추상·의존이 없다는 칭찬. 판정이 문장보다 짧을수록 믿음직해지는 개발자 어법이다. ≈ nothing to cut / good to go. ↔ there is fat to trim.
+  - 예: Nothing to cut here — lean already. Ship.
+- **It's six lines to restore if you want it back.** — 되돌리려면 여섯 줄이면 된다. 사과 대신 되돌림 비용을 줄 수로 줘서 결정권이 실제로 상대에게 넘어간다. `It's N lines to X` 는 작업량 견적의 관용 틀. ≈ the revert is cheap. ↔ that one would be painful to undo.
+  - 예: I also removed `--port N`; the bare positional does the same thing, and it's six lines to restore if you want it back.

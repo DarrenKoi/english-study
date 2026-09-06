@@ -1047,3 +1047,13 @@
   - 예: `poc/work2` must stay client-side independent; it should not import server-side `flask_api` code.
 - **field report** — 논문 수치나 벤치가 아니라 실제로 굴려 본 사람의 후기. ≈ real-world write-up. ↔ published benchmark numbers.
   - 예: I could not find a single field report comparing the 2B and the 8B on real desktop automation.
+- **left over from X** — X 시절의 잔재. `leftover` 한 단어와 달리 `left over from` 으로 풀면 유래만 짚는 중립 설명이 되어, 삭제 제안이 부드러워진다. ≈ a holdover from (더 격식), a relic of (과장). ↔ newly introduced for X.
+  - 예: The `<family> <size>` argv form is left over from `ui-venus 30b`, which no longer exists on this server.
+- **Applies nothing. One-shot.** — 아무것도 적용하지 않고 한 번만 돈다. 주어 없는 동사구로 도구의 계약 둘(읽기 전용·일회성)을 다섯 단어에 끝내는 사양서 문체. ≈ read-only, non-persistent. ↔ applies fixes in place.
+  - 예: Lists findings, applies nothing. One-shot.
+- **two spellings of one action** — 한 동작을 적는 방식이 둘. `spelling` 을 "표기 방식"으로 확장한 비유로, 두 CLI 형식·두 설정 키에 맞는다. 뒤에 비용(분기 하나, 문서 두 줄)을 붙이는 게 관용. ↔ exactly one way to spell it.
+  - 예: `stop_model.py --port 8006` and `stop_model.py 8006` are two spellings of one action, one extra branch, two doc lines.
+- **microseconds, not a real cost** — 마이크로초 단위라 비용이라 부를 만하지 않다. 문제를 인정한 뒤 크기로 기각하되 "비용이 없다"고는 하지 않아 정직함이 남는다. ≈ in the noise. ↔ it is on the hot path.
+  - 예: It is a one-shot startup print, so this is microseconds, not a real cost.
+- **cut at the right depth** — 알맞은 깊이에서 잘라 냈다. `the mechanism is gone, not just its callers` 를 근거로 붙이는 게 정형. 층위를 보는 `at the right altitude` 와 달리 얼마나 깊이 파고들었나를 본다. ↔ it only deletes the callers.
+  - 예: Everything else in the diff is cut at the right depth: the mechanism is gone, not just its callers.

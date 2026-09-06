@@ -657,7 +657,12 @@
     "-Users-daeyoung-Codes-auto-recipe-creator/a41fd82a-4382-442b-b595-9f382b658386.jsonl": 438,
     "-Users-daeyoung-Codes-llm-serving/d04fb86f-ac45-48ac-8ec5-bab493198037.jsonl": 1075,
     "-Users-daeyoung-Codes-llm-serving/4094204d-a9c0-4221-9aa6-42fed1b05bfc.jsonl": 207,
-    "-Users-daeyoung-Codes-llm-serving/98717787-6ef5-464d-8cba-3dd2927668cf.jsonl": 15
+    "-Users-daeyoung-Codes-llm-serving/98717787-6ef5-464d-8cba-3dd2927668cf.jsonl": 15,
+    "-Users-daeyoung-Codes-english-study/5dbaf7e0-4875-49eb-ae1a-6e57f1ad082a.jsonl": 214,
+    "-Users-daeyoung-Codes-llm-serving/08abda88-313d-44b8-bd01-8f54a5136992.jsonl": 1084,
+    "-Users-daeyoung-Codes-llm-serving/ba604fe1-30cf-4eb0-b106-dee05d2c6ab0.jsonl": 22,
+    "-Users-daeyoung-Codes-equipment-data-map/b7a1eb1c-46ce-4abf-9a3d-d100cd6817ce.jsonl": 17,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/9bf2bd67-f71a-4b60-8aa8-af6a0ad87c4c.jsonl": 100
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -695,11 +700,11 @@
     "auto_recipe_creator/poc/workflow_2/docs/study/runbooks/golden_combined_office_runbook.md": "auto_recipe_creator/poc/workflow_2/docs/study/runbooks/golden_combined_office_runbook.md:1781881273.6322298:6262",
     "auto_recipe_creator/docs/project_progress/README.md": "auto_recipe_creator/docs/project_progress/README.md:1788474784.6924553:5968",
     "auto_recipe_creator/docs/project_progress/05_status_roadmap.md": "auto_recipe_creator/docs/project_progress/05_status_roadmap.md:1782187232.4860828:5851",
-    "auto_recipe_creator/docs/project_progress/04_workflow_3.md": "auto_recipe_creator/docs/project_progress/04_workflow_3.md:1786884899.14689:18464",
+    "auto_recipe_creator/docs/project_progress/04_workflow_3.md": "auto_recipe_creator/docs/project_progress/04_workflow_3.md:1788295134.8413332:24810",
     "auto_recipe_creator/docs/project_progress/03_workflow_2.md": "auto_recipe_creator/docs/project_progress/03_workflow_2.md:1786885046.2919881:14743",
     "auto_recipe_creator/docs/project_progress/02_workflow_1.md": "auto_recipe_creator/docs/project_progress/02_workflow_1.md:1783319709.445952:5115",
     "auto_recipe_creator/docs/project_progress/01_vlm_deployment.md": "auto_recipe_creator/docs/project_progress/01_vlm_deployment.md:1786885012.4617538:5988",
-    "auto_recipe_creator/docs/project_progress/00_executive_summary.md": "auto_recipe_creator/docs/project_progress/00_executive_summary.md:1786885058.5171335:12249",
+    "auto_recipe_creator/docs/project_progress/00_executive_summary.md": "auto_recipe_creator/docs/project_progress/00_executive_summary.md:1788295231.216356:13370",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-switcher-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-switcher-design.md:1781811112.0144095:7541",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-comparison-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-comparison-design.md:1781811112.014338:10951",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-compare-refinements-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-compare-refinements-design.md:1781811112.0142772:7396",
@@ -1042,7 +1047,7 @@
     "skewnono_v3_nuxt/docs/opencode/2026-08-22-align-image-404-review.md": "skewnono_v3_nuxt/docs/opencode/2026-08-22-align-image-404-review.md:1787483776.6634226:9838",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-08-fail-issue-by-equipment-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-08-fail-issue-by-equipment-design.md:1787483776.6692722:33770",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-07-recipe-tat-by-equipment-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-07-recipe-tat-by-equipment-design.md:1787483776.669085:35615",
-    "skewnono_v3_nuxt/docs/datatables/hitachi/msr_image_ftp.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/msr_image_ftp.txt:1788136267.3646295:6809",
+    "skewnono_v3_nuxt/docs/datatables/hitachi/msr_image_ftp.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/msr_image_ftp.txt:1788418180.8214574:7988",
     "skewnono_v3_nuxt/docs/datatables/hitachi/msr_file_pickle.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/msr_file_pickle.txt:1787555360.1463275:31501",
     "skewnono_v3_nuxt/docs/orchestration/2026-08-24-herdr-orchestration_v1.md": "skewnono_v3_nuxt/docs/orchestration/2026-08-24-herdr-orchestration_v1.md:1787525711.9321113:19730",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-07-recipe-tat-by-equipment.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-07-recipe-tat-by-equipment.md:1787483776.666206:131286",
@@ -1148,7 +1153,20 @@
     "equipment-data-map/ftp_handler/docs/adr/0001-proxy-batch-sizing.md": "equipment-data-map/ftp_handler/docs/adr/0001-proxy-batch-sizing.md:1788610962.0432134:3349",
     "auto_recipe_creator/docs/align_point_from_cond.md": "auto_recipe_creator/docs/align_point_from_cond.md:1788595090.721349:15008",
     "auto_recipe_creator/poc/workflow_3/docs/runbooks/vlm_service_change_office_checklist.md": "auto_recipe_creator/poc/workflow_3/docs/runbooks/vlm_service_change_office_checklist.md:1788592139.2836466:4930",
-    "auto_recipe_creator/poc/workflow_3/docs/runbooks/mai_ui_2b_vs_8b_bench.md": "auto_recipe_creator/poc/workflow_3/docs/runbooks/mai_ui_2b_vs_8b_bench.md:1788591670.2607696:9476"
+    "auto_recipe_creator/poc/workflow_3/docs/runbooks/mai_ui_2b_vs_8b_bench.md": "auto_recipe_creator/poc/workflow_3/docs/runbooks/mai_ui_2b_vs_8b_bench.md:1788591670.2607696:9476",
+    "llm_serving/docs/study/README.md": "llm_serving/docs/study/README.md:1788588116.3503003:1443",
+    "llm_serving/docs/study/03-safetensors-and-model-formats.md": "llm_serving/docs/study/03-safetensors-and-model-formats.md:1788588109.3098502:11108",
+    "llm_serving/docs/study/01-nginx-uwsgi-flask.md": "llm_serving/docs/study/01-nginx-uwsgi-flask.md:1788587159.8443713:22433",
+    "llm_serving/docs/study/00-why-nginx-and-wsgi-exist.md": "llm_serving/docs/study/00-why-nginx-and-wsgi-exist.md:1788586005.2740824:27253",
+    "llm_serving/docs/study/02-load-balancing.md": "llm_serving/docs/study/02-load-balancing.md:1788555554.9706419:12311",
+    "skewnono_v3_nuxt/docs/align-crosshair/crosshair_overlay_from_cond.md": "skewnono_v3_nuxt/docs/align-crosshair/crosshair_overlay_from_cond.md:1788418306.8880777:7374",
+    "auto_recipe_creator/docs/opencode/2026-09-03-model-upload-review.md": "auto_recipe_creator/docs/opencode/2026-09-03-model-upload-review.md:1788407699.7440698:6118",
+    "auto_recipe_creator/docs/crosshair_overlay_from_cond.md": "auto_recipe_creator/docs/crosshair_overlay_from_cond.md:1788406836.3621545:7362",
+    "auto_recipe_creator/docs/project_progress/06_business_report.md": "auto_recipe_creator/docs/project_progress/06_business_report.md:1788406613.0415769:15555",
+    "auto_recipe_creator/docs/opencode/2026-09-03-qwen38-deploy-review.md": "auto_recipe_creator/docs/opencode/2026-09-03-qwen38-deploy-review.md:1788399814.35748:5536",
+    "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-02-A-algorithm-audit.md": "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-02-A-algorithm-audit.md:1788306600.594353:34975",
+    "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-02-synthesis.md": "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-02-synthesis.md:1788306431.0569105:11978",
+    "auto_recipe_creator/docs/project_progress/05_workflow_4.md": "auto_recipe_creator/docs/project_progress/05_workflow_4.md:1788295184.9758503:8671"
   },
-  "last_run": "2026-09-06"
+  "last_run": "2026-09-07"
 }

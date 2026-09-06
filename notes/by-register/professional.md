@@ -1279,3 +1279,17 @@
   - 예: It should not be treated as another general-purpose chat VLM.
 - **best treated as X, not a mandatory part of Y** — 도입은 하되 필수 구성에서는 빼자는 권고. `we recommend` 없이 권고를 담는 수동태 정형구. ≈ keep it optional. ↔ it belongs in the base stack.
   - 예: OmniParser is best treated as an optional parser service, not a mandatory part of the base serving stack.
+- **Tolerable but real.** — 참을 만하지만 실재하는 문제다. `tolerable` 을 먼저 놓아 안심시키고 `but real` 로 "없던 일로 하지는 말라"를 붙인다. 순서를 뒤집으면 무게가 심각도로 쏠린다. ≈ minor but genuine. ↔ a hard blocker.
+  - 예: The loser's `os.replace` hits a missing file and churns out a spurious 500 — tolerable but real.
+- **X stands on its own** — 딸린 참조를 지워도 그 설명만으로 말이 된다. 삭제 제안의 정당화 공식으로, "지우면 뭔가 빠지지 않나"라는 반문을 미리 막는다. ≈ is self-contained. ↔ only makes sense alongside X.
+  - 예: Drop the "same pattern as `detect_gpu_total_memory_gib`" clause — the csv,noheader,nounits description stands on its own.
+- **It doesn't stand up to light scrutiny.** — 조금만 따져 봐도 무너진다. 핵심은 `light` — 깊이 파야 무너지는 게 아니라는 뜻이라 기각은 세지고 문장은 평온하다. ≈ falls apart on a second read. ↔ it held up under scrutiny.
+  - 예: This is a false positive that doesn't stand up to light scrutiny — the same line exists on `main`.
+- **in principle** — 원리상은 그렇다. 지적을 버리지 않으면서 심각도만 낮춘다. 뒤에 "현재 설정으로는 안 일어난다"는 실측이 따라붙는 게 정형. ≈ in theory (더 평이). ↔ in practice / as actually configured.
+  - 예: `upstream_port` can still be `None` in principle, so this is a small loss of accuracy — not safety-relevant.
+- **X is history and can stay** — 그건 기록물이니 그대로 둬도 된다. 코드는 현재를 주장하니 고치고 문서는 당시를 적은 것이니 둔다는 구분을 한 단어로 세운다. ≈ it is a record of the time. ↔ it still claims to be current.
+  - 예: Trim the two code and CLAUDE.md lines; the docs are history and can stay.
+- **Numbers in the same diff disagree with the code they document.** — 같은 커밋 안에서 문서와 코드가 이미 어긋났다. `in the same diff` 가 "시간이 지나 낡았다"는 변명을 막는다. ≈ the docs have drifted (더 약함). ↔ the doc and the code agree.
+  - 예: The spec says 33 tests but pytest collects 34 — numbers in the same diff disagree with the code they document.
+- **pull in X at the checkpoints** — 정해진 점검 지점마다 X 를 끌어들이다. `pull in` 은 `ask` 보다 능동적이고 `involve` 보다 구어적이며, 뒤의 `at the checkpoints` 가 상시가 아닌 빈도를 못 박는다. ≈ loop X in. ↔ work it end to end on my own.
+  - 예: I'll work the agreed order directly and pull in Codex and `/code-review` at the checkpoints.
