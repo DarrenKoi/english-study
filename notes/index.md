@@ -161,6 +161,7 @@
 - [actively point at the wrong file](daily/2026-08-12/new-expressions.md) — 2026-08-12
 - [actively teaches the next session wrong](daily/2026-08-09/new-expressions.md) — 2026-08-09
 - [ad hoc](daily/2026-06-22/new-expressions.md) — 2026-06-22
+- [Add the fewest letters needed.](daily/2026-09-08/new-expressions.md) — 2026-09-08
 - [adjudicate (carried findings)](daily/2026-07-14/new-expressions.md) — 2026-07-14
 - [age out (of the window)](daily/2026-08-05/new-expressions.md) — 2026-08-05
 - [aim the fix](daily/2026-08-08/new-expressions.md) — 2026-08-08
@@ -176,6 +177,7 @@
 - [an empty husk](daily/2026-07-30/new-expressions.md) — 2026-07-30
 - [an explicit empty state](daily/2026-08-19/new-expressions.md) — 2026-08-19
 - [an honest count](daily/2026-08-24/new-expressions.md) — 2026-08-24
+- [an injectable test seam](daily/2026-09-08/new-expressions.md) — 2026-09-08
 - [an invariant that may only be a tendency](daily/2026-07-29/new-expressions.md) — 2026-07-29
 - [an open loop](daily/2026-07-22/new-expressions.md) — 2026-07-22
 - [an open redirect](daily/2026-08-01/new-expressions.md) — 2026-08-01
@@ -241,6 +243,7 @@
 - [bespoke](daily/2026-07-24/new-expressions.md) — 2026-07-24
 - [best treated as X, not a mandatory part of Y](daily/2026-09-06/new-expressions.md) — 2026-09-06
 - [best-effort](daily/2026-06-21/new-expressions.md) — 2026-06-21
+- [best-known defaults](daily/2026-09-08/new-expressions.md) — 2026-09-08
 - [bit us (conventions that bit us)](daily/2026-07-18/new-expressions.md) — 2026-07-18
 - [bit-for-bit identical](daily/2026-07-07/new-expressions.md) — 2026-07-07
 - [bit-parity / byte-for-byte identical](daily/2026-06-30/new-expressions.md) — 2026-06-30
@@ -258,6 +261,7 @@
 - [Bottom line: …](daily/2026-08-17/new-expressions.md) — 2026-08-17
 - [bound the damage](daily/2026-08-29/new-expressions.md) — 2026-08-29
 - [bounded by X, not by Y](daily/2026-08-26/new-expressions.md) — 2026-08-26
+- [bounded status output](daily/2026-09-08/new-expressions.md) — 2026-09-08
 - [breathing room](daily/2026-07-20/new-expressions.md) — 2026-07-20
 - [briefly co-resident](daily/2026-09-06/new-expressions.md) — 2026-09-06
 - [build to a quality floor](daily/2026-07-24/new-expressions.md) — 2026-07-24
@@ -272,6 +276,7 @@
 - [by accident of prior decisions](daily/2026-08-02/new-expressions.md) — 2026-08-02
 - [by definition, not evidence](daily/2026-08-29/new-expressions.md) — 2026-08-29
 - [by the litmus test](daily/2026-08-09/new-expressions.md) — 2026-08-09
+- [byte for byte](daily/2026-09-08/new-expressions.md) — 2026-09-08
 - [byte-identical](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [calibration-fragile ↔ calibration-light](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [call it out / surface it](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -342,6 +347,7 @@
 - [Correctness comes from A — not from B](daily/2026-08-16/new-expressions.md) — 2026-08-16
 - [corroborate](daily/2026-08-02/new-expressions.md) — 2026-08-02
 - [cosmetic (change)](daily/2026-08-07/new-expressions.md) — 2026-08-07
+- [cost context but never get used](daily/2026-09-08/new-expressions.md) — 2026-09-08
 - [Cost of being wrong: …](daily/2026-08-16/new-expressions.md) — 2026-08-16
 - [costs nothing and saves a week](daily/2026-08-02/new-expressions.md) — 2026-08-02
 - [course-correction(s)](daily/2026-06-23/new-expressions.md) — 2026-06-23
@@ -417,6 +423,7 @@
 - [duplication documented in prose rather than removed](daily/2026-08-31/new-expressions.md) — 2026-08-31
 - [dwell](daily/2026-08-25/new-expressions.md) — 2026-08-25
 - [each hop / hopping among (screens)](daily/2026-07-17/new-expressions.md) — 2026-07-17
+- [Each needs its situation to occur.](daily/2026-09-08/new-expressions.md) — 2026-09-08
 - [each X paid the same tax](daily/2026-08-31/new-expressions.md) — 2026-08-31
 - [earning its keep](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [easier to grant later than to take away](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -572,6 +579,7 @@
 - [internet egress](daily/2026-07-29/new-expressions.md) — 2026-07-29
 - [invent a second look](daily/2026-08-09/new-expressions.md) — 2026-08-09
 - [invent data](daily/2026-07-16/new-expressions.md) — 2026-07-16
+- [invisible to git tooling](daily/2026-09-08/new-expressions.md) — 2026-09-08
 - [invite analysis it cannot support](daily/2026-07-15/new-expressions.md) — 2026-07-15
 - [is well-chosen](daily/2026-07-15/new-expressions.md) — 2026-07-15
 - [isolate exactly one variable](daily/2026-08-15/new-expressions.md) — 2026-08-15
@@ -838,6 +846,7 @@
 - [reality overtook the plan](daily/2026-07-19/new-expressions.md) — 2026-07-19
 - [Reasonable, but invented.](daily/2026-08-26/new-expressions.md) — 2026-08-26
 - [reasoned from the spec, not observed](daily/2026-08-05/new-expressions.md) — 2026-08-05
+- [recommend, don't just offer](daily/2026-09-08/new-expressions.md) — 2026-09-08
 - [recorded as your decision](daily/2026-08-27/new-expressions.md) — 2026-08-27
 - [Red for the right reason.](daily/2026-08-25/new-expressions.md) — 2026-08-25
 - [redirect here first](daily/2026-06-23/new-expressions.md) — 2026-06-23
@@ -935,6 +944,7 @@
 - [silently redefine what X means](daily/2026-08-06/new-expressions.md) — 2026-08-06
 - [silently resurrect](daily/2026-08-02/new-expressions.md) — 2026-08-02
 - [silently skips](daily/2026-09-03/new-expressions.md) — 2026-09-03
+- [silently widen permission posture](daily/2026-09-08/new-expressions.md) — 2026-09-08
 - [single source of truth](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [sit behind (an interface)](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [slated for (update)](daily/2026-07-18/new-expressions.md) — 2026-07-18
@@ -976,6 +986,7 @@
 - [stay confined to X](daily/2026-07-14/new-expressions.md) — 2026-07-14
 - [stay in agreement about](daily/2026-08-06/new-expressions.md) — 2026-08-06
 - [still cramped](daily/2026-08-12/new-expressions.md) — 2026-08-12
+- [still unexercised](daily/2026-09-08/new-expressions.md) — 2026-09-08
 - [stop earning its keep](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [stop short of (doing something)](daily/2026-08-13/new-expressions.md) — 2026-08-13
 - [stop short of (doing)](daily/2026-07-19/new-expressions.md) — 2026-07-19
@@ -1078,6 +1089,7 @@
 - [the gate on X](daily/2026-07-31/new-expressions.md) — 2026-07-31
 - [the headline ask](daily/2026-06-21/new-expressions.md) — 2026-06-21
 - [the honest default](daily/2026-08-17/new-expressions.md) — 2026-08-17
+- [the id is theirs to choose](daily/2026-09-08/new-expressions.md) — 2026-09-08
 - [the implementation is wrong, not the expectation](daily/2026-07-15/new-expressions.md) — 2026-07-15
 - [the instance is fixed, the class is still open](daily/2026-08-02/new-expressions.md) — 2026-08-02
 - [the interface is the test surface](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -1182,6 +1194,7 @@
 - [under-powered (a test)](daily/2026-07-25/new-expressions.md) — 2026-07-25
 - [under-report](daily/2026-08-25/new-expressions.md) — 2026-08-25
 - [understate / overstate (the gain)](daily/2026-07-09/new-expressions.md) — 2026-07-09
+- [Undo: set that key back to `false`.](daily/2026-09-08/new-expressions.md) — 2026-09-08
 - [unfalsifiable from here](daily/2026-08-16/new-expressions.md) — 2026-08-16
 - [unit-testable in isolation](daily/2026-07-17/new-expressions.md) — 2026-07-17
 - [untested fixes don't stick](daily/2026-07-09/new-expressions.md) — 2026-07-09
@@ -1212,7 +1225,9 @@
 - [what stands between A and B](daily/2026-07-31/new-expressions.md) — 2026-07-31
 - [when a one-liner suffices](daily/2026-08-10/new-expressions.md) — 2026-08-10
 - [when X is evidence](daily/2026-08-10/new-expressions.md) — 2026-08-10
+- [where git does not reach](daily/2026-09-08/new-expressions.md) — 2026-09-08
 - [where this skill earns its keep](daily/2026-08-27/new-expressions.md) — 2026-08-27
+- [which is expected, not a regression](daily/2026-09-08/new-expressions.md) — 2026-09-08
 - [which is worse than never](daily/2026-09-01/new-expressions.md) — 2026-09-01
 - [whichever way that goes](daily/2026-08-08/new-expressions.md) — 2026-08-08
 - [while looking like tidying up](daily/2026-08-18/new-expressions.md) — 2026-08-18

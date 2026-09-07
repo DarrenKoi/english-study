@@ -1293,3 +1293,15 @@
   - 예: The spec says 33 tests but pytest collects 34 — numbers in the same diff disagree with the code they document.
 - **pull in X at the checkpoints** — 정해진 점검 지점마다 X 를 끌어들이다. `pull in` 은 `ask` 보다 능동적이고 `involve` 보다 구어적이며, 뒤의 `at the checkpoints` 가 상시가 아닌 빈도를 못 박는다. ≈ loop X in. ↔ work it end to end on my own.
   - 예: I'll work the agreed order directly and pull in Codex and `/code-review` at the checkpoints.
+- **where git does not reach** — git 이 닿지 않는 곳(사무실 PC 등 버전관리 밖). 사실 서술에 더해 "그래서 여기서 대신 확인해 줄 수 없다"까지 전달한다. ≈ outside version control (중립적). ↔ tracked in git.
+  - 예: The remaining checks are all on the office PC, where git does not reach.
+- **which is expected, not a regression** — 그건 예상된 것이지 퇴행이 아니다. 앞 절 전체를 받는 `which` + `A, not B` 대구로, 실패를 숨기지 않으면서 "고칠 것 없음"으로 분류한다. ≈ that's by design (더 단정적). ↔ that's a genuine regression.
+  - 예: It will report those as failures, which is expected, not a regression.
+- **best-known defaults** — 지금 아는 한 가장 정확하지만 확정은 아닌 값. 비워 두지도 단정하지도 않는 중간 지점이라 뒤에 `confirm them before …` 이 따라와야 완성된다. ≈ a working assumption. ↔ confirmed values.
+  - 예: Letter 14 states the four discovery roots as best-known defaults; confirm them before the installer is built.
+- **the id is theirs to choose** — 그 결정은 그 사람 몫이다. `be + 소유대명사 + to부정사` 로 권한 소재를 한 구에 담아, 검사에 걸린 한 건을 기각하되 규칙은 살려 둔다. ≈ that's their call. ↔ the tool assigns it.
+  - 예: One hit, the engineer's own `init` step, where the id is theirs to choose.
+- **recommend, don't just offer** — 권해라, 선택지만 던지지 말고. `just` 가 "offer 가 나쁘다"를 "offer 에서 멈추는 게 문제다"로 좁힌다. ≈ take a position. ↔ lay out the options and let me decide.
+  - 예: Propose, then confirm, then apply — and recommend, don't just offer.
+- **Add the fewest letters needed.** — 필요한 최소 개수만 추가해라. 최상급 + 뒤에서 수식하는 `needed` 로, 부정 명령 없이 상한만 건다. ≈ keep additions to a minimum. ↔ cover every case up front.
+  - 예: Add the fewest letters needed; extending numbering is fine.

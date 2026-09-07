@@ -519,3 +519,7 @@
   - 예: Nothing to cut here — lean already. Ship.
 - **It's six lines to restore if you want it back.** — 되돌리려면 여섯 줄이면 된다. 사과 대신 되돌림 비용을 줄 수로 줘서 결정권이 실제로 상대에게 넘어간다. `It's N lines to X` 는 작업량 견적의 관용 틀. ≈ the revert is cheap. ↔ that one would be painful to undo.
   - 예: I also removed `--port N`; the bare positional does the same thing, and it's six lines to restore if you want it back.
+- **Each needs its situation to occur.** — 각각은 그 상황이 실제로 일어나야 확인된다. 주어를 사람이 아니라 항목으로 두어 미검증을 게으름이 아닌 성질 문제로 돌린다. ≈ can only be checked when it actually happens. ↔ I can trigger it whenever I want.
+  - 예: OK button, occupied popup and the abort button are still unexercised — each needs its situation to occur.
+- **Undo: set that key back to `false`.** — 되돌리는 법을 `Undo:` 라벨 + 명령문으로 한 줄에 남기는 관례. 긴 조건절 없이 상대에게 결정을 되물릴 여지를 명시한다. ≈ To revert: … (더 격식). ↔ This change is one-way.
+  - 예: Undo: set that key back to `false`, or run `claude config set autoUpdates false`.

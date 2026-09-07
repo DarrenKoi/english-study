@@ -630,7 +630,7 @@
     "-Users-daeyoung-Codes-auto-recipe-creator/00611271-abd8-4e24-aedf-16af9f6e98e9.jsonl": 382,
     "-Users-daeyoung-Codes-auto-recipe-creator/937fba66-6779-455b-bc2c-072509ca22f1.jsonl": 18,
     "-Users-daeyoung-Codes-auto-recipe-creator/2c85695a-7d54-4c83-a725-8b2892c9cf27.jsonl": 127,
-    "-Users-daeyoung-Codes-llm-serving/1aaa1e3c-a393-443f-a024-289c9a7d29f8.jsonl": 253,
+    "-Users-daeyoung-Codes-llm-serving/1aaa1e3c-a393-443f-a024-289c9a7d29f8.jsonl": 262,
     "-Users-daeyoung-Codes-auto-recipe-creator/9948b438-5013-41c5-b72c-939976b0c2ec.jsonl": 254,
     "-Users-daeyoung-Codes-llm-serving/86c08517-5aa5-4a05-b75a-c18b07b1d3ea.jsonl": 467,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/6d808938-8e53-4658-88f4-62f8947a2055.jsonl": 20,
@@ -662,7 +662,16 @@
     "-Users-daeyoung-Codes-llm-serving/08abda88-313d-44b8-bd01-8f54a5136992.jsonl": 1084,
     "-Users-daeyoung-Codes-llm-serving/ba604fe1-30cf-4eb0-b106-dee05d2c6ab0.jsonl": 22,
     "-Users-daeyoung-Codes-equipment-data-map/b7a1eb1c-46ce-4abf-9a3d-d100cd6817ce.jsonl": 17,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/9bf2bd67-f71a-4b60-8aa8-af6a0ad87c4c.jsonl": 100
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/9bf2bd67-f71a-4b60-8aa8-af6a0ad87c4c.jsonl": 100,
+    "-Users-daeyoung-Codes-english-study/744a59a9-abbe-453a-908e-722bcc14e980.jsonl": 206,
+    "-Users-daeyoung-Codes-llm-serving/4a62ec10-5f6b-4adb-9c0c-4a66525c248a.jsonl": 313,
+    "-Users-daeyoung-Codes-auto-recipe-creator/ff8357d4-6af6-4a1b-a3a7-92bf1fa26b29.jsonl": 241,
+    "-Users-daeyoung-Codes-llm-serving/d5ba8a8f-8cf2-46b2-a764-2207913a3cdd.jsonl": 929,
+    "-Users-daeyoung-Codes-equipment-data-map/de6f3de9-09a0-4991-ba7c-407fb699726c.jsonl": 348,
+    "-Users-daeyoung-Codes-equipment-data-map/d218c61c-9a0a-4aec-9bb7-f56b5d0653b8.jsonl": 235,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/23a9b296-dc37-489f-abf5-ee82fa94ab2a.jsonl": 108,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/b7a6b40b-339a-4f7d-80a4-33f69905e10b.jsonl": 19,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/33d49a31-683c-4eb1-b4bf-d03c463638f2.jsonl": 17
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1168,5 +1177,5 @@
     "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-02-synthesis.md": "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-02-synthesis.md:1788306431.0569105:11978",
     "auto_recipe_creator/docs/project_progress/05_workflow_4.md": "auto_recipe_creator/docs/project_progress/05_workflow_4.md:1788295184.9758503:8671"
   },
-  "last_run": "2026-09-07"
+  "last_run": "2026-09-08"
 }

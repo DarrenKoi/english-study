@@ -1057,3 +1057,17 @@
   - 예: It is a one-shot startup print, so this is microseconds, not a real cost.
 - **cut at the right depth** — 알맞은 깊이에서 잘라 냈다. `the mechanism is gone, not just its callers` 를 근거로 붙이는 게 정형. 층위를 보는 `at the right altitude` 와 달리 얼마나 깊이 파고들었나를 본다. ↔ it only deletes the callers.
   - 예: Everything else in the diff is cut at the right depth: the mechanism is gone, not just its callers.
+- **still unexercised** — 아직 한 번도 실행되지 않은 코드 경로. `untested`(테스트를 안 씀)와 달리 "테스트는 있는데 그 경로를 안 밟았다"를 가른다. ≈ never hit in practice. ↔ covered by the suite.
+  - 예: Four branches are still unexercised on mai-ui regardless of the service change.
+- **byte for byte** — 한 바이트도 다르지 않게. `word for word` 계열의 대응 반복 틀로, 판정이 기계적 비교였음까지 함께 말한다. ≈ an exact copy (더 느슨함). ↔ equivalent but reformatted.
+  - 예: Before this batch, `spec.md` matched the architecture doc byte for byte.
+- **an injectable test seam** — 테스트에서 구현을 갈아끼울 수 있는 이음매. `mock` 은 끼우는 물건, `seam` 은 끼울 자리라 설계를 요구할 때는 자리 쪽 단어를 쓴다. ≈ a swappable backend. ↔ hard-wired to the real implementation.
+  - 예: OS keystore lookup has no explicit supported backend or test seam.
+- **bounded status output** — 나올 수 있는 항목의 목록이 닫힌 상태 출력. 크기 상한을 뜻하는 `bounded memory` 와 같은 단어지만 묶는 대상이 다르다. ≈ a fixed allowlist of fields. ↔ free-form output.
+  - 예: Make `status` expose the report's existence and hash as bounded status output.
+- **invisible to git tooling** — git 도구로는 아예 보이지 않는. 버그가 아니라 도구 관할 밖이라는 판정이라, 뒤에 대안 관측법이 따라와야 실용적이다. ≈ outside the tool's view. ↔ shows up in `git worktree list`.
+  - 예: An orphan like this is invisible to git tooling and has to be found by looking at the filesystem.
+- **silently widen permission posture** — 권한 태세를 당사자 모르게 넓히다. `posture` 가 허용 수준 전체를 가리켜, 정리 동의가 권한 확대 동의로 번지면 안 된다는 주장을 한 구로 만든다. ≈ quietly expand what runs without asking. ↔ keep the permission surface unchanged.
+  - 예: A user consenting to decluttering must not silently widen their permission posture.
+- **cost context but never get used** — 컨텍스트만 잡아먹고 정작 쓰이지 않는. `cost` 를 타동사로 써서 자원을 목적어에 놓고, 비용과 효용을 한 문장에 맞세워 삭제 근거를 만든다. ≈ pure overhead. ↔ earn their keep.
+  - 예: Find extensions that cost context but never get used.
