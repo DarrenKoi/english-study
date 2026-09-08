@@ -671,7 +671,17 @@
     "-Users-daeyoung-Codes-equipment-data-map/d218c61c-9a0a-4aec-9bb7-f56b5d0653b8.jsonl": 235,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/23a9b296-dc37-489f-abf5-ee82fa94ab2a.jsonl": 108,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/b7a6b40b-339a-4f7d-80a4-33f69905e10b.jsonl": 19,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/33d49a31-683c-4eb1-b4bf-d03c463638f2.jsonl": 17
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/33d49a31-683c-4eb1-b4bf-d03c463638f2.jsonl": 17,
+    "-Users-daeyoung-Codes-english-study/dccda172-88a4-4179-8c5d-06b778492337.jsonl": 240,
+    "-Users-daeyoung-Codes-equipment-data-map/fef38380-7ca5-48cf-819e-3bb032c21ac3.jsonl": 255,
+    "-Users-daeyoung-Codes-equipment-data-map/8d7cb2ac-f239-478a-a51d-9f35b82281b2.jsonl": 136,
+    "-Users-daeyoung-Codes-equipment-data-map/ddf9d4ae-28d5-4f73-8d82-0e13d9b926cc.jsonl": 71,
+    "-Users-daeyoung-Codes-english-study/5e757cad-3975-4b65-b837-8f963f3584be.jsonl": 255,
+    "-Users-daeyoung-Codes-llm-serving/842f4019-6322-4737-98af-c79b29722677.jsonl": 446,
+    "-Users-daeyoung-Codes-llm-serving/5565b9d0-75e7-4c55-8982-9ccdd7d9f40f.jsonl": 464,
+    "-Users-daeyoung-Codes-llm-serving/b0fb3a9d-8a85-4053-9bc8-2342e3dd15cd.jsonl": 1152,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/6702b593-4adf-433c-821c-ee9be86d1853.jsonl": 1025,
+    "-Users-daeyoung-Codes-auto-recipe-creator/f4dfd099-e844-41db-9594-6fcaf04aa283.jsonl": 249
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1177,5 +1187,5 @@
     "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-02-synthesis.md": "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-02-synthesis.md:1788306431.0569105:11978",
     "auto_recipe_creator/docs/project_progress/05_workflow_4.md": "auto_recipe_creator/docs/project_progress/05_workflow_4.md:1788295184.9758503:8671"
   },
-  "last_run": "2026-09-08"
+  "last_run": "2026-09-09"
 }

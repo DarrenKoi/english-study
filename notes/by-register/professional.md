@@ -1305,3 +1305,15 @@
   - 예: Propose, then confirm, then apply — and recommend, don't just offer.
 - **Add the fewest letters needed.** — 필요한 최소 개수만 추가해라. 최상급 + 뒤에서 수식하는 `needed` 로, 부정 명령 없이 상한만 건다. ≈ keep additions to a minimum. ↔ cover every case up front.
   - 예: Add the fewest letters needed; extending numbering is fine.
+- **So this is not a stale note.** — 그러니 이건 철 지난 메모가 아니다. 상대가 속으로 할 반론("옛날 이슈 아냐?")을 먼저 꺼내 닫는 선제 방어. `stale` 은 빵이 굳었다는 뜻에서 "사실이었지만 지금은 아닌"으로 확장된다. ≈ this is still live. ↔ this has since been resolved.
+  - 예: The issue is still open, last activity 2026-08-31, so this is not a stale note.
+- **The residual risk is exactly one shape.** — 남은 위험은 정확히 한 가지 모양이다. `residual` 은 조치를 다 하고도 남는 잔여분(리스크 관리 용어). 개수와 생김새를 동시에 주장해 감사 결론을 닫는다. ≈ only one scenario survives the audit. ↔ the remaining risk is diffuse.
+  - 예: The residual risk is exactly one shape: a hand-edited file on the office PC, shipped intact.
+- **That settles the design.** — 그걸로 설계가 정해졌다. `settle` 은 흔들리던 게 가라앉는 그림이라 "내가 결정했다"보다 "사실이 결론을 강제했다"에 선다. 콜론을 붙여 정해진 내용을 잇는 게 정석. ≈ that decides it. ↔ that reopens the question.
+  - 예: That settles the design: only those two folders travel, so the site values have to live inside one of them.
+- **give this module a voice (at all)** — 로그가 아예 없던 코드에 처음으로 로깅을 넣다. "한 줄 추가"가 아니라 "침묵하던 모듈이 처음 말하게 만드는 일"로 작업 범위를 재정의한다. ≈ make it observable. ↔ leave it silent.
+  - 예: This isn't "add a log line" — it's giving this module a voice at all.
+- **Rather than another guessing round** — 또 한 번 넘겨짚는 대신. `round` 가 "같은 일의 n번째 반복"을 세고, `another` 가 앞선 시도들의 실패를 말하지 않고 전달한다. 자기 방법을 비판하는 문장이라 방향 전환에 쓰기 좋다. ≈ instead of guessing again. ↔ one more hypothesis and we'll have it.
+  - 예: Rather than another guessing round, I'm making the diagnostic run the launcher itself.
+- **per your standing rule** — 전부터 세워 두신 원칙대로. `standing` = 한 번 정해진 뒤 매번 재확인하지 않아도 유효한(`a standing order`). 지시를 다시 묻지 않은 이유까지 한 단어가 설명한다. ≈ as previously agreed (계약투). ↔ this one time I made an exception.
+  - 예: I only edited the templates, per your standing rule.

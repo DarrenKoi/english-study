@@ -1071,3 +1071,23 @@
   - 예: A user consenting to decluttering must not silently widen their permission posture.
 - **cost context but never get used** — 컨텍스트만 잡아먹고 정작 쓰이지 않는. `cost` 를 타동사로 써서 자원을 목적어에 놓고, 비용과 효용을 한 문장에 맞세워 삭제 근거를 만든다. ≈ pure overhead. ↔ earn their keep.
   - 예: Find extensions that cost context but never get used.
+- **so the diagnosis held** — 그래서 진단이 맞았다. `hold` 를 자동사로 써서 "가설이 반증되지 않고 살아남았다"를 만든다. 과거형이라 이 사건 하나에 대한 판정이지 영구 선언이 아니다. ≈ the theory checked out. ↔ the diagnosis fell apart.
+  - 예: RED on hermes, GREEN on `qwen3_xml`, so the diagnosis held.
+- **Accepted guesses are free tokens.** — 채택된 추측은 공짜 토큰이다. 긴 설명 뒤에 놓는 4단어 요약 망치. `free` 는 "무료"가 아니라 "추가 비용 없이 얻는" 쪽. ≈ you get those for free. ↔ every token costs a full forward pass.
+  - 예: The draft head guesses ahead and the big model verifies in one pass, so accepted guesses are free tokens.
+- **The only thing you buy is speed.** — 이걸로 사는 건 속도 하나뿐. `buy` 를 "무언가를 내주고 얻다"로 쓴다. 비용을 이미 말한 뒤에 놓아야 대구가 성립한다. ≈ the sole benefit is latency (격식). ↔ it buys you nothing new.
+  - 예: Output is mathematically identical, so the only thing you buy is speed.
+- **a blunt heuristic** — 무딘 어림짐작. 검사가 틀렸다고는 안 하면서 해상도가 낮을 뿐이라고 깎아, 경고를 무시해도 되는 근거로 쓴다. ≈ a crude check (더 부정적), a rule of thumb. ↔ a precise check.
+  - 예: That warning is a blunt heuristic in the kernel wrapper, not a real format problem.
+- **trip it for a benign reason** — 해가 없는 이유로 경보를 건드리다. 주어가 사람이 아니라 입력값이라 누구의 실수도 아니라는 함의가 붙는다. `benign` 은 양성종양의 그 단어. ≈ it's a false positive. ↔ that warning is pointing at a real bug.
+  - 예: The check is a blunt heuristic and your inputs trip it for a benign reason.
+- **Permission problems look different.** — 권한 문제라면 증상 모양이 이렇지 않다. 세 단어로 가설 하나를 버리고, 콜론 뒤에 가정법 과거완료로 반사실 근거를 댄다(판정 먼저, 근거 나중). ≈ that's not the signature of a permission error. ↔ that's exactly what a permission error looks like.
+  - 예: Permission problems look different: `Path.is_dir()` would have thrown a traceback, not this clean message.
+- **Only X discriminates.** — 갈라 보여 주는 건 X뿐이다. `discriminate` 를 목적어 없이 자동사로 쓰면 "차별하다"가 아니라 "둘을 구분해 낸다"가 된다(통계·측정 용법). ≈ only X tells the two apart. ↔ that probe reports the same thing either way.
+  - 예: `HostSpec` is the same object under both transports, so only the downloader class discriminates.
+- **kill a whole class of X** — 개별 버그가 아니라 부류를 통째로 없애다. `a whole class of` 가 "고쳤다"를 "생길 자리를 없앴다"로 격상시킨다. ≈ rules out an entire failure mode. ↔ leaves the failure mode wide open.
+  - 예: The swap is an import at the call site rather than a runtime lookup, which kills a whole class of misconfiguration.
+- **the bug is hard to write** — 그 버그는 쓰기가 어렵게 되어 있다. 버그를 주어 삼아 작성 난이도를 말하는 관점 전환. 사람의 부주의를 탓하지 않고 구조만 칭찬한다. ≈ you'd have to go out of your way to break it. ↔ the bug writes itself.
+  - 예: The vendored package is structured so the wrong-transport bug is hard to write.
+- **Two things go missing when …** — ~하면 두 가지가 사라진다. `go missing` 은 누가 없앴는지 말하지 않는 자동사구라 수동태 `are lost` 보다 가볍고 사람을 탓하지 않는다. 숫자를 먼저 던져 긴 진단문의 길잡이를 만든다. ≈ two things don't survive the copy. ↔ everything travels intact.
+  - 예: Two things go missing when a repo is copied by hand: the gitignored `.env`, and any file changed after the copy.

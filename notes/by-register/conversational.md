@@ -523,3 +523,5 @@
   - 예: OK button, occupied popup and the abort button are still unexercised — each needs its situation to occur.
 - **Undo: set that key back to `false`.** — 되돌리는 법을 `Undo:` 라벨 + 명령문으로 한 줄에 남기는 관례. 긴 조건절 없이 상대에게 결정을 되물릴 여지를 명시한다. ≈ To revert: … (더 격식). ↔ This change is one-way.
   - 예: Undo: set that key back to `false`, or run `claude config set autoUpdates false`.
+- **It is long on purpose.** — 일부러 길게 만든 거다. 출력이 길다고 상대가 놀라기 전에 판단을 미리 교정한다. `on purpose` 는 `deliberately` 보다 구어적이라 변명이 아니라 설계 의도로 들린다. 앞 문장에 쉼표로 붙이면 묻히니 반드시 떼어 놓는다. ≈ that's deliberate, by design. ↔ that's just noise you can ignore.
+  - 예: Paste the whole output. It is long on purpose.
