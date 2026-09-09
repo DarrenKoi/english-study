@@ -525,3 +525,7 @@
   - 예: Undo: set that key back to `false`, or run `claude config set autoUpdates false`.
 - **It is long on purpose.** — 일부러 길게 만든 거다. 출력이 길다고 상대가 놀라기 전에 판단을 미리 교정한다. `on purpose` 는 `deliberately` 보다 구어적이라 변명이 아니라 설계 의도로 들린다. 앞 문장에 쉼표로 붙이면 묻히니 반드시 떼어 놓는다. ≈ that's deliberate, by design. ↔ that's just noise you can ignore.
   - 예: Paste the whole output. It is long on purpose.
+- **hold (someone) hostage** — 하나가 막혀 나머지 전부가 못 나가다. 인질 은유라 `blocked on` 보다 부당함이 실리고 우선순위를 설득할 때 강하다. ≈ at the mercy of / bottlenecked by. ↔ fail independently.
+  - 예: That's precisely when you'd least want the production models held hostage by the general-purpose one.
+- **Both resolve on their own.** — 둘 다 알아서 풀린다. `resolve` 를 자동사로 써 행위자를 지우면 "누가 고치지 않아도" 가 문장 구조에 들어간다. ≈ it clears itself / it's self-limiting. ↔ it needs manual intervention.
+  - 예: Both resolve on their own, typically within seconds, so the warning is worth checking but not worth acting on.

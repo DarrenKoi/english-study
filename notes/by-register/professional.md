@@ -1317,3 +1317,11 @@
   - 예: Rather than another guessing round, I'm making the diagnostic run the launcher itself.
 - **per your standing rule** — 전부터 세워 두신 원칙대로. `standing` = 한 번 정해진 뒤 매번 재확인하지 않아도 유효한(`a standing order`). 지시를 다시 묻지 않은 이유까지 한 단어가 설명한다. ≈ as previously agreed (계약투). ↔ this one time I made an exception.
   - 예: I only edited the templates, per your standing rule.
+- **earn one's place** — 존재만으로가 아니라 기여로 자격을 얻다. 리뷰·리팩터링에서 남길 항목을 판정할 때 근거가 되는 은유. ≈ pull its weight / justify its existence. ↔ dead weight, be along for the ride.
+  - 예: Of the eight settings in that file, three lines earn their place and the rest just restate the code's defaults.
+- **mixing it in would have muddied this commit** — 같이 넣었으면 이 커밋이 탁해졌을 것이다. `muddy` 는 맑은 물을 흐리는 동사로, 커밋을 "읽히는 것" 으로 보는 관점이 담긴다. ≈ it would blur the diff / that's scope creep. ↔ a single-purpose diff.
+  - 예: That fix predates today, so mixing it in would have muddied this commit.
+- **decay into wrong instructions** — 방치된 문서가 낡는 데 그치지 않고 틀린 지시가 되어 버린다. `decay` 가 "시간이 지나면 저절로" 를 담는다. ≈ go stale / rot. ↔ stay in step with the code.
+  - 예: Docstrings that encode workflow rather than describing signatures decay into wrong instructions the moment the code changes.
+- **it's the shortest path** — 최선이 아니라 최단이라고 말해 지금 고르라고 미는 추천 화법. ≈ it's the cheapest fix / the quick win. ↔ the long way round, the proper fix.
+  - 예: Restore it — one command, and it's the shortest path.

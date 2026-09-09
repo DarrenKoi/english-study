@@ -1091,3 +1091,19 @@
   - 예: The vendored package is structured so the wrong-transport bug is hard to write.
 - **Two things go missing when …** — ~하면 두 가지가 사라진다. `go missing` 은 누가 없앴는지 말하지 않는 자동사구라 수동태 `are lost` 보다 가볍고 사람을 탓하지 않는다. 숫자를 먼저 던져 긴 진단문의 길잡이를 만든다. ≈ two things don't survive the copy. ↔ everything travels intact.
   - 예: Two things go missing when a repo is copied by hand: the gitignored `.env`, and any file changed after the copy.
+- **that's expected noise, not a fault** — 관측은 되지만 의미 없는 경고다. `noise` 를 신호처리 은유로 쓰고 `not a fault` 로 대비시켜 오해를 미리 지운다. ≈ that's benign / a known false positive. ↔ that's the actual failure.
+  - 예: `check_vlm.py` will always list the disabled bench instance as down — that's expected noise, not a fault.
+- **an adapter, not a smell** — 나쁜 패턴처럼 보이지만 실은 인터페이스를 맞추는 장치다. `code smell` 이라는 기존 용어를 먼저 인정하고 뒤집는 방어 화법. ≈ deliberate, not accidental. ↔ that's a genuine code smell.
+  - 예: The `except SystemExit` here is an adapter, not a smell — it converts "abort the program" into "fail this one instance."
+- **reuse, not reimplement** — 다시 짜지 말고 가져다 쓴다. 동사 둘을 콤마로 대비시켜 문장 없이 원칙만 남기는 주석·커밋용 압축형. ↔ roll your own.
+  - 예: `from start_model import stop_if_already_running`  # reuse, not reimplement
+- **a drift trap** — 지금은 무해해 보이나 두 사본이 서서히 어긋나게 되는 구조. 중복 자체가 아니라 미래 비용을 지적한다. ≈ a footgun / two sources of truth. ↔ a single source of truth.
+  - 예: It reads as harmless redundancy, but a default declared twice is a drift trap.
+- **fail in a way that looks like success** — 성공처럼 보이는 방식으로 실패한다. 관계절 `in a way that ...` 이 실패의 양상을 수식하는 정형구. ≈ fail silently / a false green. ↔ fail loudly.
+  - 예: Running the launcher on a live stack fails in a way that looks like success — the old instance answers the readiness probe.
+- **be backwards from (the others)** — 나머지와 규칙이 정반대다. `different from` 과 달리 방향까지 알려줘 독자가 뒤집어 기억하게 만든다. ≈ the odd one out / inverted relative to. ↔ follows the same rule.
+  - 예: `site.env` is backwards from the other two — it's the only one a shell export can override.
+- **bind late** — (서버가) 포트를 늦게 잡는다. 실패가 뒤늦게 드러나는 원인을 한 단어로 지목한다. ≈ acquire the port only after loading. ↔ bind up front.
+  - 예: It only discovers the port is taken after the weights load, because vLLM binds late.
+- **ordering beats detection** — 순서를 바꾸는 편이 판별 로직을 똑똑하게 만드는 것보다 낫다. `X beats Y` 는 설계 원칙을 슬로건화하는 틀. ≈ sequence it instead of detecting it.
+  - 예: The fix puts the stop before the start rather than making the readiness check smarter — ordering beats detection.
