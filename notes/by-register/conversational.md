@@ -529,3 +529,7 @@
   - 예: That's precisely when you'd least want the production models held hostage by the general-purpose one.
 - **Both resolve on their own.** — 둘 다 알아서 풀린다. `resolve` 를 자동사로 써 행위자를 지우면 "누가 고치지 않아도" 가 문장 구조에 들어간다. ≈ it clears itself / it's self-limiting. ↔ it needs manual intervention.
   - 예: Both resolve on their own, typically within seconds, so the warning is worth checking but not worth acting on.
+- **stick with X** — 갈아타지 않고 그대로 쓰다. 규칙을 지킨다는 `stick to X` 와 결이 다르다.
+  - 예: All three routes failed, so I'll stick with the method that already works.
+- **One catch: …** — 한 가지 함정은. 좋은 소식 뒤 작은 조건을 덧붙일 때.
+  - 예: The proxy route works from anywhere — one catch, it uses the team token, not the vLLM key.

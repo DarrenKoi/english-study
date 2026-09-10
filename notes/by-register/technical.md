@@ -1107,3 +1107,11 @@
   - 예: It only discovers the port is taken after the weights load, because vLLM binds late.
 - **ordering beats detection** — 순서를 바꾸는 편이 판별 로직을 똑똑하게 만드는 것보다 낫다. `X beats Y` 는 설계 원칙을 슬로건화하는 틀. ≈ sequence it instead of detecting it.
   - 예: The fix puts the stop before the start rather than making the readiness check smarter — ordering beats detection.
+- **get cut off** — (타임아웃·버퍼로) 응답이 중간에 잘리다.
+  - 예: The 300-second read timeout means anything that thinks for longer gets cut off mid-answer.
+- **stop at the first one that fails** — 처음 실패하는 데서 멈춰라. 단계별 진단 절차를 넘길 때의 정형구.
+  - 예: Work down the list and stop at the first check that fails — that is where the break is.
+- **dead flexibility** — 죽은 유연성, 아무도 안 쓰는 확장 포인트. `dead code`·`dead link` 와 같은 계열.
+  - 예: The `source` parameter has one caller that never passes it — dead flexibility, hard-code it.
+- **commit-message material** — 커밋 메시지에 들어갈 내용(이 코드에 눌러앉아 있다). `X material` = X 감.
+  - 예: The changelog line in that docstring is commit-message material; move it to the commit body.

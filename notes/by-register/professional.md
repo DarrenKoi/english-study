@@ -1325,3 +1325,13 @@
   - 예: Docstrings that encode workflow rather than describing signatures decay into wrong instructions the moment the code changes.
 - **it's the shortest path** — 최선이 아니라 최단이라고 말해 지금 고르라고 미는 추천 화법. ≈ it's the cheapest fix / the quick win. ↔ the long way round, the proper fix.
   - 예: Restore it — one command, and it's the shortest path.
+- **Two things stand in the way.** — 걸림돌이 두 가지 있다. 사물이 주어라 비난이 아니라 진단으로 읽힌다.
+  - 예: The model is running fine, but two things stand in the way of reaching it from outside.
+- **Then the diagnosis stands.** — 그럼 진단은 그대로다. `stand` 를 자동사로 "유효한 채 남다".
+  - 예: You meant 8006, not 6008 — then the diagnosis stands.
+- **the right call** — 맞는 판단이다. `the right decision` 보다 가볍고 구어에 가깝다.
+  - 예: Given the firewall, sticking with the proxy is the right call.
+- **in order of how well they fit this stack** — 이 스택에 맞는 순서대로. 정렬 기준을 간접의문절로 통째로 넣은 형태.
+  - 예: I listed three options in order of how much work each one needs from the platform team.
+- **Skipped, needs your call.** — 건너뜀, 판단은 네 몫. 보고서 끝에 결정권을 넘길 때.
+  - 예: I left the eager fetch out — it's your call whether reviewers open the panel often enough to justify it.
