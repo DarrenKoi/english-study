@@ -533,3 +533,17 @@
   - 예: All three routes failed, so I'll stick with the method that already works.
 - **One catch: …** — 한 가지 함정은. 좋은 소식 뒤 작은 조건을 덧붙일 때.
   - 예: The proxy route works from anywhere — one catch, it uses the team token, not the vLLM key.
+- **leave it as is** — 현 상태 그대로 두다. `My recommendation is to …` 와 붙여 결론을 앞세운다.
+  - 예: The warning is harmless, so my recommendation is to leave it as is until the next dependency bump.
+- **does no harm** — (먼저 해도) 아무 해가 없다. 동명사 주어 + `does no harm`.
+  - 예: Adding the header early does no harm, because the old server simply ignores it.
+- **Pick a quiet time.** — 한가한(트래픽 적은) 시간대를 골라라. 재시작·배포 체크리스트의 준비 항목.
+  - 예: Pick a quiet time for the migration — the dashboard is down for about ten minutes.
+- **the other way round** — 반대로(순서를 뒤집으면). 미국식은 `the other way around`.
+  - 예: Restart Flask first and the models second; the other way round, every call fails with a 401 for a minute.
+- **nobody gets locked out** — 아무도 접근이 막히지 않는다. `That way …` 로 순서의 목적을 닫는다.
+  - 예: Hand out the new key before you enable auth. That way nobody gets locked out on Monday morning.
+- **the one trade-off here** — 여기서 감수할 유일한 대가. `the one X` 는 "이것 말고는 없다"를 강조한다.
+  - 예: New tools start unchecked. That fits the opt-in design, but it's the one trade-off here.
+- **That's expected, not a bug.** — 의도된 동작이지 버그가 아니다. 이상해 보이는 동작을 미리 알려 둘 때.
+  - 예: At home the endpoint always returns 503 — that's expected, not a bug.

@@ -1115,3 +1115,11 @@
   - 예: The `source` parameter has one caller that never passes it — dead flexibility, hard-code it.
 - **commit-message material** — 커밋 메시지에 들어갈 내용(이 코드에 눌러앉아 있다). `X material` = X 감.
   - 예: The changelog line in that docstring is commit-message material; move it to the commit body.
+- **quietly diverge** — (테스트 없는 경로에서) 두 구현이 오류 없이 결과만 갈라지다. `A is where B happens` 로 위험 지점을 가리킨다.
+  - 예: The office adapter has no test for empty ranges, and an untested path is exactly where the mock and the real data quietly diverge.
+- **a failure mode a NamedTuple deletes at the type level** — 타입 수준에서 아예 지워 버리는 실패 유형. 조심이 아니라 구조로 없앤다는 리팩터링 논거.
+  - 예: Swapping two positional fields is a failure mode a NamedTuple deletes at the type level.
+- **Every repeated mistake is a harness bug.** — 반복되는 실수는 모두 시스템(하네스)의 버그다. 사람·모델 탓을 구조 탓으로 옮기는 격언.
+  - 예: We treat every repeated mistake as a harness bug and add a check so the agent can't make it twice.
+- **exactly where the symptom lands** — 증상이 드러나는 곳이 바로 거기다. `land` = 문제가 누구에게·어디에 닿다.
+  - 예: Users on slow networks hit the timeout first, so that's exactly where the symptom lands.

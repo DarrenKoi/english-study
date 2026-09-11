@@ -1335,3 +1335,17 @@
   - 예: I listed three options in order of how much work each one needs from the platform team.
 - **Skipped, needs your call.** — 건너뜀, 판단은 네 몫. 보고서 끝에 결정권을 넘길 때.
   - 예: I left the eager fetch out — it's your call whether reviewers open the panel often enough to justify it.
+- **judgement calls bundled by theme** — 정답 없는 재량 판단들을 주제별로 묶었다. 리뷰 지적을 티켓으로 묶을 때의 머리말.
+  - 예: These three are judgement calls bundled by theme, not bugs, so feel free to push back on any of them.
+- **compares like with like** — 같은 조건끼리 비교한다. `comparing apples to oranges` 의 반대.
+  - 예: Both numbers exclude the warm-up requests, so the benchmark compares like with like.
+- **partly wrong for this route** — 앞서 한 설명이 이 경로에는 일부 틀렸다. 범위를 좁힌 담백한 자기 정정.
+  - 예: I missed the login gate, which means my earlier advice was partly wrong for the code-server route.
+- **every other improvement is guesswork** — (측정이 없으면) 다른 개선은 전부 짐작이다. `guesswork` 는 불가산.
+  - 예: Set up evals before tuning prompts; without them, every other improvement is guesswork.
+- **what separates A from B** — A 와 B 를 가르는 결정적 요인. 동명사 주어 + `is what …` 강조.
+  - 예: Testing the rollback before you need it is what separates a calm outage from a long night.
+- **(the conversion) is sound** — (설계·구현이) 결함 없이 탄탄하다. 진단에서 의심 대상 하나를 배제할 때.
+  - 예: The retry logic is sound; the blank tiles come from the grid, which never uses it.
+- **Only then …** — 그다음에야 비로소. 명령문에서는 도치 없이 `Only then fill in …`.
+  - 예: Give every client the key first; only then turn auth on at the server.
