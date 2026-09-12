@@ -1123,3 +1123,19 @@
   - 예: We treat every repeated mistake as a harness bug and add a check so the agent can't make it twice.
 - **exactly where the symptom lands** — 증상이 드러나는 곳이 바로 거기다. `land` = 문제가 누구에게·어디에 닿다.
   - 예: Users on slow networks hit the timeout first, so that's exactly where the symptom lands.
+- **collapse into one upstream call** — 동시 요청 여럿이 상위 호출 하나로 합쳐지다. 요청 병합을 자동사 하나로 압축한다. ≈ coalesce into a single request. ↔ fan out into one call per viewer.
+  - 예: A short Redis cache with a lock in front makes many viewers collapse into one upstream call.
+- **is bounded at** — 최대 얼마로 상한이 걸려 있다. `limited to` 보다 단단하고, 뒤의 `regardless of …` 가 불변식 선언을 완성한다. ≈ is capped at. ↔ grows with the number of viewers.
+  - 예: Office API load is bounded at three calls per minute per facility, regardless of how many viewers there are.
+- **turns the parity suite red** — 그 스위트를 깨뜨린다. CI 의 초록/빨강 색을 그대로 동사구로 삼아 실패를 화면에 보이는 사건으로 만든다. ≈ breaks the build. ↔ keeps the suite green.
+  - 예: Deleting the writer package while the office template still imports it turns the parity suite red.
+- **don't fail the rest** — 일부가 실패해도 나머지까지 실패시키지 않는다. `fail` 을 타동사로 써서 부분 실패 정책을 한 줄에 담는다. ↔ one bad item fails the whole request.
+  - 예: Missing MSRs are listed in `_skipped.json`, so a few deleted pickles don't fail the rest.
+- **silently overwrite** — 아무 경고 없이 덮어쓰다. `silently` 는 버그 어휘에서 "실패했는데 아무도 모른다"를 뜻한다. ≈ clobber. ↔ raise a conflict error.
+  - 예: The test checks that one file doesn't silently overwrite the other when two MSRs share a filename.
+- **the tail is just hook noise** — 끝부분은 훅이 뱉은 잡음일 뿐이다. `noise` 는 신호의 반대말이라 불가산으로 쓰고 앞에 출처를 붙여 조어한다. ↔ the signal is in the tail.
+  - 예: I need what the agent actually said, since the tail is just hook noise.
+- **deploy skew, not a contract state** — 계약상 가능한 상태가 아니라 배포 시차일 뿐이다. `skew` 는 `clock`·`version` 과 붙어 "서로 어긋남"으로 굳었다. ↔ a state the contract actually allows.
+  - 예: The `?? []` covers only a stale office deployment; that is deploy skew, not a contract state.
+- **not worth a diff** — 고쳐서 diff 를 남길 값어치는 없다. 비용 단위를 시간이 아니라 diff 로 잡는 환유. `worth to fix` 는 틀린다. ↔ worth fixing now.
+  - 예: Every item is trivial at 90 cells, and the rest is not worth a diff.

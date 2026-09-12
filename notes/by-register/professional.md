@@ -1349,3 +1349,17 @@
   - 예: The retry logic is sound; the blank tiles come from the grid, which never uses it.
 - **Only then …** — 그다음에야 비로소. 명령문에서는 도치 없이 `Only then fill in …`.
   - 예: Give every client the key first; only then turn auth on at the server.
+- **have a shape the codebase already knows how to fill** — 새로 만들 게 아니라 이미 있는 틀에 끼우면 되는 결함. 결함을 "구멍"이 아니라 "규격 있는 빈칸"으로 다시 정의한다. ↔ call for something we have never built.
+  - 예: Both gaps have a shape the codebase already knows how to fill, and both have a trap in them.
+- **both have a trap in them** — 둘 다 함정이 하나씩 박혀 있다. `a trap` 을 셀 수 있게 써서 위험의 위치를 구체화한다. ≈ there's a catch. ↔ it's as simple as it looks.
+  - 예: The export gap and the API gap both have a trap in them.
+- **point at the same replacement** — 서로 다른 근거가 같은 해법을 가리키다. 근거 둘을 주어로 나란히 세우면 결론이 증거의 수렴으로 읽힌다. ↔ pull in opposite directions.
+  - 예: The interface mismatch and the deployment cost point at the same replacement.
+- **the lone-visitor case reads well** — 방문자 한 명뿐인 극단 상황도 말이 된다. `read well` 은 설계를 글처럼 다루는 비유로, 벤치마크 대신 납득 가능성을 근거로 삼는다. ↔ the edge case reads badly.
+  - 예: The lone-visitor case reads well: a single viewer arriving after an idle night wins the lock and gets a fresh board on that same request.
+- **the catalog just doesn't show it well** — 기능은 있는데 노출이 안 될 뿐이다. `just` 가 잔여 과제를 깎아, 요청 거절이 아니라 재조준으로 들리게 한다. ↔ we'd have to build it from scratch.
+  - 예: Most of it is already built — the catalog just doesn't show it well.
+- **reading X as Y** — X 를 Y 로 해석하고 (바로 진행하다). 문두 분사구문으로 해석을 선언한 뒤 행동으로 넘어간다. ≈ I'll take that as a yes. ↔ just to be sure, which one did you mean?
+  - 예: Reading "yes" as yes to both questions, I'll fix the example and build the bulk endpoint.
+- **that only holds for …** — 그건 ~인 경우에만 성립한다. 사과 없이 조건을 덧붙여 자기 주장의 범위를 좁히는 정정 화법. ↔ that holds in general.
+  - 예: My earlier comment claimed the stream stays stable, but that only holds for a fixed "today".
