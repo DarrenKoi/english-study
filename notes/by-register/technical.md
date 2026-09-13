@@ -1139,3 +1139,23 @@
   - 예: The `?? []` covers only a stale office deployment; that is deploy skew, not a contract state.
 - **not worth a diff** — 고쳐서 diff 를 남길 값어치는 없다. 비용 단위를 시간이 아니라 diff 로 잡는 환유. `worth to fix` 는 틀린다. ↔ worth fixing now.
   - 예: Every item is trivial at 90 cells, and the rest is not worth a diff.
+
+## 2026-09-14
+- **a shared, scarce resource** — 여럿이 같이 쓰는데 양은 적은 자원. 형용사 둘을 쉼표로 나란히 놓아 각각 독립된 근거로 읽히게 한다. ≈ a contended resource. ↔ an abundant resource.
+  - 예: The FTP server caps concurrent sessions and engineers use it too, so a session is a shared, scarce resource.
+- **A waiter blocking IS the intent** — 대기자가 멈춰 있는 것이 바로 의도다. 대문자 `IS` 는 코드 주석의 강세 표기. ≈ that's by design. ↔ an unintended side effect.
+  - 예: There is no timeout because a waiter blocking IS the intent.
+- **release and clean up on the way out** — 빠져나가는 길에 해제하고 정리한다. 컨텍스트 매니저·finally 의 종료 시점을 가리키는 은유. ≈ on exit. ↔ on the way in.
+  - 예: The gate serialises callers sharing the key, then releases and cleans up on the way out.
+- **hand the next arrival a different lock object** — 다음 도착자에게 다른 락 객체를 쥐여 주다. 이중 목적어 구문 + 의인화로 동시성 버그 시나리오를 그린다.
+  - 예: Dropping the entry while someone still waits would hand the next arrival a different lock object, and the exclusion would be lost.
+- **Whoever went first, no interleaving** — 누가 먼저였든 상관없고 끼어들기만 없으면 된다. 양보절 뒤에 동사 없는 조각을 붙인 주석 문장. ↔ interleaved / racy.
+  - 예: Whoever went first, no interleaving: an "in" is always followed by its own "out".
+- **Provable by the next acquisition succeeding** — 다음 획득이 성공하는 것으로 증명된다. `provable by + 동명사절` 로 증명 수단을 압축. ≈ which we can verify by ….
+  - 예: Provable by the next acquisition succeeding without blocking.
+- **jitter cancels and the base shows through** — 지터가 상쇄되어 기본값이 그대로 드러난다. `show through` 는 가려졌던 것이 비쳐 보인다는 구동사. ≈ reduces to the base value.
+  - 예: rand = 0.5 is the midpoint, so jitter cancels and the base shows through.
+- **neither card needs to know how wide it is** — 어느 카드도 자기 폭을 알 필요가 없다. 책임을 상위로 올린 캡슐화를 말하는 어법. ↔ each card sizes itself.
+  - 예: Moving the width decision to a parent grid means neither card needs to know how wide it is.
+- **rejected, not widened** — 잘못된 입력은 거절하지 전체로 넓히지 않는다. `A, not B` 를 과거분사 둘로 압축한 테스트 이름형. ≈ fail closed, not open. ↔ silently falls back to all.
+  - 예: An unknown tool_type is rejected with 400, not widened to "everything".

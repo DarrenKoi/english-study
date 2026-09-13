@@ -547,3 +547,9 @@
   - 예: New tools start unchecked. That fits the opt-in design, but it's the one trade-off here.
 - **That's expected, not a bug.** — 의도된 동작이지 버그가 아니다. 이상해 보이는 동작을 미리 알려 둘 때.
   - 예: At home the endpoint always returns 503 — that's expected, not a bug.
+
+## 2026-09-14
+- **only to then give up** — 그러고 나서 결국 포기할 거면서. `only to + 동사` 가 허무한 결말을 붙인다. ≈ and then bail anyway.
+  - 예: Sleeping 4s only to then give up would hold the panel for nothing.
+- **there's nothing left for it to switch off** — 그 설정이 꺼 줄 대상이 이제 없다. 잔여 설정·죽은 코드를 지우는 근거 문장. ≈ the setting no longer has a target.
+  - 예: I removed the "caveman": "off" line from skillOverrides, since there's nothing left for it to switch off.

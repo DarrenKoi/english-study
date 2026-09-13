@@ -1363,3 +1363,17 @@
   - 예: Reading "yes" as yes to both questions, I'll fix the example and build the bulk endpoint.
 - **that only holds for …** — 그건 ~인 경우에만 성립한다. 사과 없이 조건을 덧붙여 자기 주장의 범위를 좁히는 정정 화법. ↔ that holds in general.
   - 예: My earlier comment claimed the stream stays stable, but that only holds for a fixed "today".
+
+## 2026-09-14
+- **Same status, opposite response** — 상태 코드는 같은데 대응은 정반대. 명사구 대구로 함정을 각인시키는 도입부. ≈ looks identical but calls for the opposite handling.
+  - 예: Same status, opposite response: retrying a throttled client sends more.
+- **does not improve by waiting** — 기다린다고 나아지지 않는다. 시간이 해결 못 하는 실패를 골라낼 때. ≈ is not transient. ↔ will clear on its own.
+  - 예: A dead tool or an expired job does not improve by waiting.
+- **used to double as** — 예전에는 ~의 역할도 겸했다. `used to` 가 "지금은 아니다"까지 말한다. ≈ was overloaded to mean. ↔ now means one thing only.
+  - 예: None now means genuinely unknown. It used to double as "an AMAT tool".
+- **each carrying their own sizing rule** — 각자 자기만의 크기 규칙을 안고 있는. 규칙이 분산돼 있었다는 진단을 분사구문으로. ↔ sized by the parent.
+  - 예: The earlier imbalance came from two cards each carrying their own sizing rule.
+- **pre-existing warnings in an unrelated file** — 무관한 파일에 원래부터 있던 경고. 내 변경 탓이 아님을 변명처럼 들리지 않게 밝힌다. ≈ not introduced by this change. ↔ a new warning this diff introduces.
+  - 예: Typecheck passes, and lint shows only two pre-existing warnings in an unrelated skewvoir file.
+- **Deliberately per-process** — 일부러 프로세스 단위로 둔 것이다. 부사 문두 조각 문장으로 "실수가 아니라 선택"을 먼저 박는다. ≈ by design. ↔ an oversight.
+  - 예: Deliberately per-process and lock-free of any store: with one worker it is exact.
