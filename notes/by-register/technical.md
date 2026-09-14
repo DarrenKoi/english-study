@@ -1159,3 +1159,17 @@
   - 예: Moving the width decision to a parent grid means neither card needs to know how wide it is.
 - **rejected, not widened** — 잘못된 입력은 거절하지 전체로 넓히지 않는다. `A, not B` 를 과거분사 둘로 압축한 테스트 이름형. ≈ fail closed, not open. ↔ silently falls back to all.
   - 예: An unknown tool_type is rejected with 400, not widened to "everything".
+- **fall out for free** — 추가 작업 없이 부수적으로 떨어져 나온다. 구조를 이렇게 잡으면 다른 기능이 저절로 얻어진다는 설득. ≈ come for free. ↔ has to be built separately.
+  - 예: Two passes over an unchanged file share the hash, so dedup and change detection fall out for free.
+- **at the schema level, not by convention** — 관례가 아니라 스키마 차원에서. 규칙을 약속이 아니라 구조적 강제로 만들라는 요구. ≈ enforced by the type system. ↔ on the honour system.
+  - 예: The LLM must be blocked from writing to observed fields at the schema level, not by convention.
+- **just to hide a warning** — 고작 경고 하나 없애자고. `just to` 로 목적을 하찮게 깎아 앞의 위험과 대비. ≈ only to silence a warning. ↔ to fix a real vulnerability.
+  - 예: Forcing a major-version override risks breaking Excel export at runtime just to hide a warning.
+- **X is off until Y finishes** — Y 가 끝날 때까지 X 는 꺼 둔다. 형용사 `off` 하나로 일시 중단을 만들고 `until` 로 재개 조건을 건다. ≈ on hold until. ↔ back on.
+  - 예: Parallel model folders are off until the single-model run finishes.
+- **required, not optional** — 선택이 아니라 필수다. 상대가 있으면 좋은 것으로 볼 만한 것을 바로잡는다. ≈ a hard requirement. ↔ nice to have.
+  - 예: JetBrains Mono ships no Hangul at all, so a second font is required, not optional.
+- **the unit of X is A, not B** — X 의 단위는 B 가 아니라 A 다. 시스템이 무엇을 하나로 세는지 정의로 굳힌다. ≈ the atomic unit is.
+  - 예: The unit of retention is the extract, not the file, so every record must name the extractor that produced it.
+- **structural, not a bug** — 구조 문제이지 버그가 아니다. 코드를 고쳐도 소용없다는 결론을 미리 정당화하는 진단. ≈ a design problem, not an implementation error. ↔ a one-off bug.
+  - 예: The interference was structural, not a bug in the letters: every model wrote the same files on one branch.

@@ -735,7 +735,16 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/27afb26b-cf63-46ab-8823-e8ded340a097.jsonl": 104,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/1930bfce-70db-4a17-931b-86d439dbfe98.jsonl": 17,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/1692364f-d6f3-4db6-98b5-74dbd29da65d.jsonl": 15,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/e3f0a8d0-4250-4df0-9122-52ab67e1417c.jsonl": 13
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/e3f0a8d0-4250-4df0-9122-52ab67e1417c.jsonl": 13,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/e4294e7e-df4a-4436-ba58-a985b99e5b92.jsonl": 16,
+    "-Users-daeyoung-Codes-llm-serving/bff36aa7-7827-43ea-b0a5-90f23a3548df.jsonl": 137,
+    "-Users-daeyoung-Codes-equipment-data-map/7be6e083-16f4-4164-add9-c8f9a961045b.jsonl": 395,
+    "-private-tmp-equipment-map-claude-review-FXcOZk/af7867ba-925a-4d1f-a5d2-b3e4f55152a6.jsonl": 51,
+    "-Users-daeyoung-Codes-equipment-data-map/fb93d379-f017-436d-bc6a-4bcd8508c536.jsonl": 92,
+    "-Users-daeyoung-Codes-equipment-data-map/0a67b322-b09c-4214-a25e-67a2756d29a9.jsonl": 32,
+    "-Users-daeyoung/9aa9b8f8-8ae8-4a8b-9ac6-b2ad9d9cb8f2.jsonl": 180,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/bd45b3a0-a931-4364-913a-0164e19b1247.jsonl": 54,
+    "-Users-daeyoung-Codes-english-study/65becab9-abf7-4aa9-a012-a704df0fe766.jsonl": 256
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1059,7 +1068,7 @@
     "skewnono_v3_nuxt/docs/tickets/tiff-preview/03-preview-route-cleanups.md": "skewnono_v3_nuxt/docs/tickets/tiff-preview/03-preview-route-cleanups.md:1786182909.9260192:1755",
     "skewnono_v3_nuxt/docs/tickets/tiff-preview/02-share-preview-flag-predicate.md": "skewnono_v3_nuxt/docs/tickets/tiff-preview/02-share-preview-flag-predicate.md:1786182907.9455822:1258",
     "skewnono_v3_nuxt/docs/tickets/tiff-preview/01-restore-tiff-download-on-preview-failure.md": "skewnono_v3_nuxt/docs/tickets/tiff-preview/01-restore-tiff-download-on-preview-failure.md:1786182905.5506217:1714",
-    "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-08-fail-issue-by-equipment.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-08-fail-issue-by-equipment.md:1786180614.867401:137993",
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-08-fail-issue-by-equipment.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-08-fail-issue-by-equipment.md:1789082962.1656752:137417",
     "skewnono_v3_nuxt/docs/tickets/fail-issue/01-equipment-compare-truncation-echo-test.md": "skewnono_v3_nuxt/docs/tickets/fail-issue/01-equipment-compare-truncation-echo-test.md:1789082962.1770265:1534",
     "skewnono_v3_nuxt/docs/issues/ground_rules/rule-editor-structure.md": "skewnono_v3_nuxt/docs/issues/ground_rules/rule-editor-structure.md:1787638991.8972514:12315",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-09-ebeam-vendor-onboarding-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-09-ebeam-vendor-onboarding-design.md:1789082962.1759715:22433",
@@ -1222,7 +1231,7 @@
     "llm_serving/docs/01-runtime-layout-and-capacity.md": "llm_serving/docs/01-runtime-layout-and-capacity.md:1789133557.9054632:4551",
     "skewnono_v3_nuxt/docs/progress_report/skewnono_page_catalog_2026-09-03.md": "skewnono_v3_nuxt/docs/progress_report/skewnono_page_catalog_2026-09-03.md:1788419991.1059644:5811",
     "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-03-E-yolo-and-learned-matcher-feasibility.md": "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-03-E-yolo-and-learned-matcher-feasibility.md:1788419369.2714202:59080",
-    "equipment-data-map/docs/architecture/equipment-data-map.md": "equipment-data-map/docs/architecture/equipment-data-map.md:1789003819.3987656:45686",
+    "equipment-data-map/docs/architecture/equipment-data-map.md": "equipment-data-map/docs/architecture/equipment-data-map.md:1789390481.8848908:66356",
     "equipment-data-map/ftp_handler/docs/adr/0001-proxy-batch-sizing.md": "equipment-data-map/ftp_handler/docs/adr/0001-proxy-batch-sizing.md:1788610962.0432134:3349",
     "auto_recipe_creator/docs/align_point_from_cond.md": "auto_recipe_creator/docs/align_point_from_cond.md:1788595090.721349:15008",
     "auto_recipe_creator/poc/workflow_3/docs/runbooks/vlm_service_change_office_checklist.md": "auto_recipe_creator/poc/workflow_3/docs/runbooks/vlm_service_change_office_checklist.md:1788592139.2836466:4930",
@@ -1255,7 +1264,8 @@
     "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-13-sem-align-dl-experiment-plan.md": "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-13-sem-align-dl-experiment-plan.md:1789257854.6215286:27291",
     "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-13-sem-align-dl-start-guide.md": "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-13-sem-align-dl-start-guide.md:1789257854.6024635:34689",
     "auto_recipe_creator/poc/workflow_3/docs/study/align_display_scale_contract_260913.md": "auto_recipe_creator/poc/workflow_3/docs/study/align_display_scale_contract_260913.md:1789253415.9380925:5836",
-    "equipment-data-map/docs/plans/2026-09-13-incremental-improvements.md": "equipment-data-map/docs/plans/2026-09-13-incremental-improvements.md:1789252102.290858:5068"
+    "equipment-data-map/docs/plans/2026-09-13-incremental-improvements.md": "equipment-data-map/docs/plans/2026-09-13-incremental-improvements.md:1789390600.4651246:5116",
+    "equipment-data-map/docs/architecture/equipment-data-parser-llm-behavior.md": "equipment-data-map/docs/architecture/equipment-data-parser-llm-behavior.md:1789390541.5957224:11240"
   },
-  "last_run": "2026-09-14"
+  "last_run": "2026-09-15"
 }

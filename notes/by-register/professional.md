@@ -1377,3 +1377,17 @@
   - 예: Typecheck passes, and lint shows only two pre-existing warnings in an unrelated skewvoir file.
 - **Deliberately per-process** — 일부러 프로세스 단위로 둔 것이다. 부사 문두 조각 문장으로 "실수가 아니라 선택"을 먼저 박는다. ≈ by design. ↔ an oversight.
   - 예: Deliberately per-process and lock-free of any store: with one worker it is exact.
+- **sufficient until proven otherwise** — 반대가 입증되기 전까지는 충분하다. 더 복잡한 대안은 필요가 증명될 때까지 미룬다. ≈ adequate for the current scale. ↔ already shown to be insufficient.
+  - 예: Batch processing on file change is sufficient until proven otherwise.
+- **a courtesy for the reader, not the ground truth** — 읽는 사람을 위한 편의일 뿐 진실의 원천은 아니다. 참고용 데이터를 판단 근거에서 제외하는 선 긋기. ≈ informational, not authoritative. ↔ the source of truth.
+  - 예: The bounded excerpt is a courtesy for the reader, not the ground truth; the citation ID is what gets verified.
+- **over-engineering at this stage** — 지금 단계에서는 과잉 설계다. 틀렸다가 아니라 이르다는 판정. ≈ premature. ↔ the minimum that works.
+  - 예: A full provenance graph is over-engineering at this stage; one parent-ID field covers it.
+- **a lookup table nobody maintains** — 아무도 관리 안 하는 조회 테이블. 접촉 관계절로 방치될 구조를 비꼰다. ≈ an orphaned table. ↔ a table with a clear owner.
+  - 예: Units belong on the record itself, not in a lookup table nobody maintains.
+- **a later exercise** — 나중에 할 일. `exercise` 는 연습이 아니라 수행할 과제. ≈ a follow-up, out of scope for now. ↔ a prerequisite.
+  - 예: Model comparison is a later exercise on a finished process.
+- **One assumption to flag:** — 짚어 둘 가정 하나. 요청을 해석해 작업한 뒤 그 해석이 틀렸을 수 있다고 미리 알리는 보고 꼬리. ≈ caveat.
+  - 예: One assumption to flag: I read "one llm takes all" as covering both roles.
+- **conditional on two points** — 두 가지를 조건으로. 승인 판정 뒤에 붙여 조건 개수를 먼저 알린다. ≈ subject to, with two caveats. ↔ unconditionally.
+  - 예: Verdict: APPROVE, conditional on two points.

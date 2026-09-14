@@ -553,3 +553,11 @@
   - 예: Sleeping 4s only to then give up would hold the panel for nothing.
 - **there's nothing left for it to switch off** — 그 설정이 꺼 줄 대상이 이제 없다. 잔여 설정·죽은 코드를 지우는 근거 문장. ≈ the setting no longer has a target.
   - 예: I removed the "caveman": "off" line from skillOverrides, since there's nothing left for it to switch off.
+- **One thing to watch:** — 한 가지 주의할 점은. 작업 보고 끝에 부작용 하나를 콜론으로 여는 문두. ≈ one caveat, heads-up. ↔ nothing to worry about.
+  - 예: One thing to watch: each copy is a full clone, so a merge must be run in every folder separately.
+- **A and B are different things.** — A 와 B 는 다른 문제다. 두 개념을 섞어 걱정하는 상대에게 별개임을 못 박는다. ≈ not the same thing. ↔ one and the same.
+  - 예: "Deprecated" and "vulnerable" are different things, and only the second one needs action.
+- **It's worth doing when …, not only …** — ~할 때는 할 만하지만 ~만으로는 아니다. 조치의 적용 조건을 좁힌다. ≈ makes sense when. ↔ not worth the trouble.
+  - 예: An override is worth doing when a package is actually vulnerable, not only deprecated.
+- **The only ways out would be …** — 벗어날 길은 ~뿐일 것이다. 선택지가 몇 개 없고 다 부담스럽다는 어감. ≈ your options are. ↔ there's an easy fix.
+  - 예: The only ways out would be switching Excel libraries or forcing newer major versions under exceljs.
