@@ -1391,3 +1391,21 @@
   - 예: One assumption to flag: I read "one llm takes all" as covering both roles.
 - **conditional on two points** — 두 가지를 조건으로. 승인 판정 뒤에 붙여 조건 개수를 먼저 알린다. ≈ subject to, with two caveats. ↔ unconditionally.
   - 예: Verdict: APPROVE, conditional on two points.
+- **Before committing to X, validate that …** — X 에 착수하기 전에 ~인지 확인하라. `commit to` 뒤는 동명사이고, 되돌리기 어려운 결정이라는 무게가 실린다. ≈ prior to adopting. ↔ jump straight into.
+  - 예: Before committing to LangGraph, validate that the retry loop actually needs a graph.
+- **obscure the underlying X** — 밑에 깔린 X 를 가리다. 추상화가 속을 감춰 디버깅을 어렵게 한다는 비판에 쓰는 타동사 `obscure`. ≈ hide, mask. ↔ expose, surface.
+  - 예: The wrapper obscures the underlying HTTP errors, so every failure shows up as a generic timeout.
+- **must be treated with appropriate caution** — 그에 맞는 주의를 기울여 다뤄야 한다. 행위자를 뺀 수동태 규범문으로 겁주지 않고 경고하는 명세 문체. ≈ handle with care. ↔ can be trusted as is.
+  - 예: Any file content passed to the model must be treated with appropriate caution, since it may contain instructions.
+- **It is not guaranteed that X will always Y** — X 가 늘 Y 한다는 보장은 없다. 가주어 + 부분부정으로 보장 범위를 미리 좁히는 면책 문장. ≈ there's no guarantee that. ↔ X is guaranteed to.
+  - 예: It is not guaranteed that the server will always return the model ID, even when the request succeeds.
+- **hedges in every section but never commits to X** — 절마다 단서를 달면서 X 는 끝내 단언하지 않는다. 결론을 피하는 글을 한 줄로 비평하는 틀. ≈ sit on the fence, equivocate. ↔ take a clear stance.
+  - 예: The proposal hedges in every section but never commits to a launch date.
+- **so the edits are attributable** — 누가 고쳤는지 알 수 있도록. `attribute A to B` 의 형용사형으로 작성자·책임자에게 돌릴 수 있다는 뜻. ≈ traceable. ↔ anonymous.
+  - 예: I signed the review note with a date so the edits are attributable later.
+- **only if you're already editing these lines** — 어차피 이 줄을 손볼 일이 있을 때만. 사소한 리뷰 지적의 우선순위를 낮추는 조건구. ≈ while you're in there, nit. ↔ worth fixing on its own.
+  - 예: Rename the variable only if you're already editing these lines; it isn't worth its own commit.
+- **X by nature** — 본래 X 하다. 설계 결과를 뜻하는 `by construction` 과 달리 대상 고유의 성질을 가리킨다. ≈ inherently, intrinsically. ↔ by accident, by configuration.
+  - 예: Log directories are append-only by nature, so a growing file is not a sign of corruption.
+- **The repo already prescribes X.** — 저장소 문서에 X 가 이미 정해져 있다. `prescribe` 는 서술(describe)이 아니라 규정이다. ≈ lays out, specifies. ↔ leaves X unspecified.
+  - 예: The engineer guide already prescribes a clean restart, so we don't need a new script.

@@ -736,7 +736,7 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/1930bfce-70db-4a17-931b-86d439dbfe98.jsonl": 17,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/1692364f-d6f3-4db6-98b5-74dbd29da65d.jsonl": 15,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/e3f0a8d0-4250-4df0-9122-52ab67e1417c.jsonl": 13,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/e4294e7e-df4a-4436-ba58-a985b99e5b92.jsonl": 16,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/e4294e7e-df4a-4436-ba58-a985b99e5b92.jsonl": 87,
     "-Users-daeyoung-Codes-llm-serving/bff36aa7-7827-43ea-b0a5-90f23a3548df.jsonl": 137,
     "-Users-daeyoung-Codes-equipment-data-map/7be6e083-16f4-4164-add9-c8f9a961045b.jsonl": 395,
     "-private-tmp-equipment-map-claude-review-FXcOZk/af7867ba-925a-4d1f-a5d2-b3e4f55152a6.jsonl": 51,
@@ -744,7 +744,23 @@
     "-Users-daeyoung-Codes-equipment-data-map/0a67b322-b09c-4214-a25e-67a2756d29a9.jsonl": 32,
     "-Users-daeyoung/9aa9b8f8-8ae8-4a8b-9ac6-b2ad9d9cb8f2.jsonl": 180,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/bd45b3a0-a931-4364-913a-0164e19b1247.jsonl": 54,
-    "-Users-daeyoung-Codes-english-study/65becab9-abf7-4aa9-a012-a704df0fe766.jsonl": 256
+    "-Users-daeyoung-Codes-english-study/65becab9-abf7-4aa9-a012-a704df0fe766.jsonl": 256,
+    "-Users-daeyoung-Codes-auto-recipe-creator/074f506e-a370-4751-8d21-6e7b933c398d.jsonl": 492,
+    "-Users-daeyoung-Codes-equipment-data-map/b429b3d3-a333-43cd-98d6-2f890f6d55a1.jsonl": 12,
+    "-Users-daeyoung-Codes-auto-recipe-creator/8dae26ad-8442-4fc4-be4d-6cb93dc6da88.jsonl": 83,
+    "-Users-daeyoung-Codes-auto-recipe-creator/ad0de6ff-6dcb-45cd-af1c-61d4be9a97aa.jsonl": 266,
+    "-Users-daeyoung-Codes-equipment-data-map/10d51409-4325-4721-88da-f83800326975.jsonl": 442,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/3ed324c8-354a-44f7-8b04-215412616923.jsonl": 15,
+    "-Users-daeyoung-Codes-llm-serving/b019efd5-946b-4040-9257-75f83f1d2b05.jsonl": 15,
+    "-Users-daeyoung-Codes-equipment-data-map/1f800155-7754-425e-9166-8754baa73952.jsonl": 9,
+    "-Users-daeyoung-Codes-llm-serving/67691b1b-3d3e-4b39-a543-05067483af71.jsonl": 66,
+    "-Users-daeyoung-Codes-llm-serving/17967900-6212-453b-909d-e568ef335ede.jsonl": 15,
+    "-Users-daeyoung-Codes-llm-serving/b5482506-3f1a-48c9-9e8f-5facba283fd1.jsonl": 13,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/7bb9cf7f-7b48-44d4-881b-a0ad5bf4754e.jsonl": 15,
+    "-Users-daeyoung-Codes-english-study/6810777c-7b64-47bd-99bb-cd213dcd4c85.jsonl": 209,
+    "-Users-daeyoung-Codes-llm-serving/1e357c77-31bd-4b25-b232-70c51335a357.jsonl": 15,
+    "-Users-daeyoung-Codes-auto-recipe-creator/ea8b2f82-bd8b-469b-8028-4098c4d019f5.jsonl": 17,
+    "-Users-daeyoung-Codes-auto-recipe-creator/b4499e53-dd08-40e2-b42b-687f8807482d.jsonl": 15
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1231,7 +1247,7 @@
     "llm_serving/docs/01-runtime-layout-and-capacity.md": "llm_serving/docs/01-runtime-layout-and-capacity.md:1789133557.9054632:4551",
     "skewnono_v3_nuxt/docs/progress_report/skewnono_page_catalog_2026-09-03.md": "skewnono_v3_nuxt/docs/progress_report/skewnono_page_catalog_2026-09-03.md:1788419991.1059644:5811",
     "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-03-E-yolo-and-learned-matcher-feasibility.md": "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-03-E-yolo-and-learned-matcher-feasibility.md:1788419369.2714202:59080",
-    "equipment-data-map/docs/architecture/equipment-data-map.md": "equipment-data-map/docs/architecture/equipment-data-map.md:1789390481.8848908:66356",
+    "equipment-data-map/docs/architecture/equipment-data-map.md": "equipment-data-map/docs/architecture/equipment-data-map.md:1789433992.2417555:71590",
     "equipment-data-map/ftp_handler/docs/adr/0001-proxy-batch-sizing.md": "equipment-data-map/ftp_handler/docs/adr/0001-proxy-batch-sizing.md:1788610962.0432134:3349",
     "auto_recipe_creator/docs/align_point_from_cond.md": "auto_recipe_creator/docs/align_point_from_cond.md:1788595090.721349:15008",
     "auto_recipe_creator/poc/workflow_3/docs/runbooks/vlm_service_change_office_checklist.md": "auto_recipe_creator/poc/workflow_3/docs/runbooks/vlm_service_change_office_checklist.md:1788592139.2836466:4930",
@@ -1264,8 +1280,10 @@
     "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-13-sem-align-dl-experiment-plan.md": "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-13-sem-align-dl-experiment-plan.md:1789257854.6215286:27291",
     "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-13-sem-align-dl-start-guide.md": "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-13-sem-align-dl-start-guide.md:1789257854.6024635:34689",
     "auto_recipe_creator/poc/workflow_3/docs/study/align_display_scale_contract_260913.md": "auto_recipe_creator/poc/workflow_3/docs/study/align_display_scale_contract_260913.md:1789253415.9380925:5836",
-    "equipment-data-map/docs/plans/2026-09-13-incremental-improvements.md": "equipment-data-map/docs/plans/2026-09-13-incremental-improvements.md:1789390600.4651246:5116",
-    "equipment-data-map/docs/architecture/equipment-data-parser-llm-behavior.md": "equipment-data-map/docs/architecture/equipment-data-parser-llm-behavior.md:1789390541.5957224:11240"
+    "equipment-data-map/docs/plans/2026-09-13-incremental-improvements.md": "equipment-data-map/docs/plans/2026-09-13-incremental-improvements.md:1789435018.7726808:6676",
+    "equipment-data-map/docs/architecture/equipment-data-parser-llm-behavior.md": "equipment-data-map/docs/architecture/equipment-data-parser-llm-behavior.md:1789471698.2799764:12003",
+    "auto_recipe_creator/docs/research/2026-09-15-qwen3.8-27b-vision-recovery.md": "auto_recipe_creator/docs/research/2026-09-15-qwen3.8-27b-vision-recovery.md:1789468436.5153627:24726",
+    "equipment-data-map/docs/research/2026-09-15-agent-framework-and-data-format.md": "equipment-data-map/docs/research/2026-09-15-agent-framework-and-data-format.md:1789434006.6352863:67823"
   },
-  "last_run": "2026-09-15"
+  "last_run": "2026-09-16"
 }

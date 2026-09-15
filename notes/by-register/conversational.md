@@ -561,3 +561,13 @@
   - 예: An override is worth doing when a package is actually vulnerable, not only deprecated.
 - **The only ways out would be …** — 벗어날 길은 ~뿐일 것이다. 선택지가 몇 개 없고 다 부담스럽다는 어감. ≈ your options are. ↔ there's an easy fix.
   - 예: The only ways out would be switching Excel libraries or forcing newer major versions under exceljs.
+- **read X by eye** — 도구 없이 X 를 눈으로 직접 읽다. `by hand` 와 같은 틀이고 관사를 쓰지 않는다. ≈ eyeball, inspect manually. ↔ parse programmatically.
+  - 예: Keep the absolute timestamps, because the engineers check them by eye when an alarm looks slow.
+- **X is cleared** — 의심하던 X 가 혐의를 벗었다(원인에서 배제됐다). 콜론 뒤에 배제 근거를 붙인다. ≈ ruled out, off the hook. ↔ the prime suspect.
+  - 예: The network is cleared: the proxy health check and the list route both returned 200.
+- **The lazy fix is X** — 제일 손 덜 가는 해결책은 X 다. 개발 문화에서 `lazy` 는 최소 노력이라는 칭찬에 가깝다. ≈ the quick fix, a stopgap. ↔ the proper fix.
+  - 예: The lazy fix is a feature flag that skips the new gate, so we can compare both paths tomorrow.
+- **gets X or nothing** — X 아니면 아무것도 못 쓴다. 선택지를 하나로 못 박아 우회로를 없앴다는 요약. ≈ X is the only option, X or bust. ↔ falls back to Y.
+  - 예: After this change, office PCs get the approved endpoint or nothing.
+- **The hole was X.** — 구멍은 X 였다. 이미 되던 것을 인정한 뒤 뚫린 틈 하나를 짚는 보고 문장. ≈ the gap was, the loophole was. ↔ it was airtight.
+  - 예: Validation covered every entry point; the hole was the environment override nobody tested.
