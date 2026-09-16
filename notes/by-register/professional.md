@@ -1409,3 +1409,19 @@
   - 예: Log directories are append-only by nature, so a growing file is not a sign of corruption.
 - **The repo already prescribes X.** — 저장소 문서에 X 가 이미 정해져 있다. `prescribe` 는 서술(describe)이 아니라 규정이다. ≈ lays out, specifies. ↔ leaves X unspecified.
   - 예: The engineer guide already prescribes a clean restart, so we don't need a new script.
+- **not one byte of it touches X** — 그중 단 1바이트도 X 를 건드리지 않는다. `not one + 단수명사` 가 `no` 보다 세게 부정한다. ≈ leaves X untouched, none of it goes anywhere near X. ↔ it cuts right through X.
+  - 예: The refactor is large, but not one byte of it touches the payment module.
+- **the one with the longest lead time** — 확보까지 가장 오래 걸리는 항목. 승인·계정처럼 당길 수 없는 대기에 쓰고, 그래서 먼저 착수하라는 근거가 된다. ≈ takes the longest to come through. ↔ can be done on the spot.
+  - 예: Start the access request today; it's the one with the longest lead time.
+- **the critical path** — 하루 밀리면 전체 완료가 하루 밀리는 작업 경로. `isn't the critical path` 로 눈에 보이는 작업이 병목이 아니라고 반박한다. ≈ the long pole, what gates the launch. ↔ has slack.
+  - 예: The UI polish isn't on the critical path; the security review is.
+- **sitting in someone's queue** — 누군가의 처리 대기열에 묶여 있는. `sitting` 이 진척 없는 방치를 그린다. ≈ pending approval, in limbo. ↔ in progress.
+  - 예: The fix is done; it's just sitting in someone's review queue.
+- **scaffolding you then throw away** — 다 짓고 나면 걷어 내는 비계. 일회용 절차·도구를 최종 산출물과 구분한다. ≈ a one-time bootstrap, throwaway tooling. ↔ the lasting deliverable.
+  - 예: The migration scripts are scaffolding you then throw away; the schema is what we keep.
+- **division of labour** — 역할 분담, 분업. 콜론 뒤 `A says what …, B decides how …` 로 두 주체의 몫을 나란히 적는다. 미국식 철자는 `labor`. ≈ split of responsibilities, who owns what. ↔ overlapping responsibilities.
+  - 예: The division of labour is simple: the CLI enforces the rules, and the skills only relay commands.
+- **a ratchet rather than a treadmill** — 한 번 얻은 개선이 되돌아가지 않는 구조(제자리걸음과 대비). `make it a ratchet` 5형식. ≈ locks in progress, compounding gains. ↔ running in place.
+  - 예: Turning every production bug into a regression test makes QA a ratchet rather than a treadmill.
+- **the more natural home for X** — X 를 두기에 더 어울리는 자리. 후보를 견줄 때 비교급 + 정관사, `may be` 로 결정권을 상대에게 남긴다. ≈ a better fit for X. ↔ feels out of place in.
+  - 예: The team wiki may be the more natural home for these setup notes.

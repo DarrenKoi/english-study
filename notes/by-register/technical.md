@@ -1185,3 +1185,5 @@
   - 예: Writing the timing file from inside append_cycle_manifest is a hidden side effect unless the docstring mentions it.
 - **X is the rollback** — X 가 곧 되돌리는 방법이다. 변경이 작아 롤백 장치를 따로 만들 필요가 없다고 안심시키는 말. ≈ we can just revert it. ↔ a one-way change.
   - 예: It's a single commit with no migration, so git revert is the rollback.
+- **those are readings, not chatter** — 그건 측정값이지 잡담 로그가 아니다. 로그를 줄일 때 남길 줄의 기준을 `A, not B` 로 세운다. ≈ signal, not noise. ↔ pure noise.
+  - 예: Keep the coordinate lines in quiet mode; those are readings, not chatter.

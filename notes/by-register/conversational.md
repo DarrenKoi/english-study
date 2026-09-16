@@ -571,3 +571,23 @@
   - 예: After this change, office PCs get the approved endpoint or nothing.
 - **The hole was X.** — 구멍은 X 였다. 이미 되던 것을 인정한 뒤 뚫린 틈 하나를 짚는 보고 문장. ≈ the gap was, the loophole was. ↔ it was airtight.
   - 예: Validation covered every entry point; the hole was the environment override nobody tested.
+- **trim down** — (넘치는 부분을) 쳐내서 줄이다. `trim` 이라 전부 없애는 게 아니라 넘치는 것만 깎는 어감. 대명사는 `trim it down`. ≈ pare down, cut down on. ↔ pad out.
+  - 예: Can we trim down the RCS logs so the errors actually stand out?
+- **X pays rent** — (규칙·설계가) 제 몫을 한다, 밥값을 한다. 월세 은유. 표준형은 `earn its keep`. ≈ pays for itself, pulls its weight. ↔ dead weight.
+  - 예: The extra hash in every done line felt fussy, but today it paid rent: it caught three stale letters.
+- **one fat-fingered command away** — 오타 한 번이면 파괴적 동작이 실행되는 거리. `one X away` 틀에 `fat-finger`(옆 키를 잘못 누르다)를 넣었다. ≈ one typo away, an accident waiting to happen. ↔ requires a deliberate flag.
+  - 예: With `rm -rf` sitting in the shell history, a wiped home directory is always one fat-fingered command away.
+- **undersell** — 실제보다 낮춰 말하다. 주어가 파일명·제목일 때 특히 자연스럽고 대시 뒤에 빠뜨린 가치를 붙인다. ≈ doesn't do it justice, understate. ↔ oversell.
+  - 예: "Quick fix" undersells this PR — it also closes the race condition we've been chasing for a month.
+- **take its own word for it** — 검증 없이 자기 보고를 사실로 받다. 기본형 `take someone's word for it` 을 `its own` 으로 비틀어 순환을 꼬집는다. ≈ take it on faith, accept at face value. ↔ verify independently.
+  - 예: Don't take my word for it — run the test suite and see for yourself.
+- **stop X cold** — X 를 그 자리에서 완전히 멈춰 세우다. 느려지는 게 아니라 못 나간다는 강조. ≈ stop X dead, stop X in its tracks. ↔ slow X down.
+  - 예: A missing firewall approval will stop the pilot cold, no matter how ready the code is.
+- **the win here is X, not Y** — 여기서 얻는 이득은 Y 가 아니라 X 다. 개선 효과의 출처를 바로잡는 구어 틀. ≈ the payoff is X. ↔ the cost here is X.
+  - 예: Caching helps a little, but the win here is fewer round trips, not faster queries.
+- **That's your cue.** — 그게 나설 신호다. 무대 큐 은유로 상대에게 차례를 넘긴다. `your cue to + 동사원형`. ≈ that's your signal, that's when you step in.
+  - 예: When the build turns red, that's your cue to pull the latest schema.
+- **First the blunt part:** — 듣기 불편한 얘기부터 하자면. 반대 의견 앞에 솔직함을 예고해 공격으로 들리지 않게 한다. ≈ To be frank, Bad news first. ↔ To put it gently,
+  - 예: First the blunt part: this won't ship by Friday.
+- **I'd keep it to a page.** — 한 쪽 안으로 줄여 쓰겠다. 제안 직후 분량 상한을 약속해 수락 부담을 던다. ≈ keep it short, no more than a page. ↔ go into full detail.
+  - 예: Happy to write up the retro — I'd keep it to a page.
