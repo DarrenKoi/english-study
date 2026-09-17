@@ -1425,3 +1425,9 @@
   - 예: Turning every production bug into a regression test makes QA a ratchet rather than a treadmill.
 - **the more natural home for X** — X 를 두기에 더 어울리는 자리. 후보를 견줄 때 비교급 + 정관사, `may be` 로 결정권을 상대에게 남긴다. ≈ a better fit for X. ↔ feels out of place in.
   - 예: The team wiki may be the more natural home for these setup notes.
+- **pin the details (someone) had to guess** — 스펙이 모호해 구현자가 추측하던 세부를 문서에 못 박다. ≈ pin down / spell out. ↔ leave it to interpretation.
+  - 예: I pinned the retry count in the spec so implementers no longer have to guess.
+- **lock in (the approved result)** — 승인된 결과를 이후에 바뀌지 않게 확정해 묶다. ≈ freeze. ↔ leave open.
+  - 예: Once the plan is approved, the CLI locks in its hash and refuses any later edit.
+- **I read X as Y** — 모호한 지시를 내가 어떻게 해석했는지 밝히는 틀. 사물 주어의 `read as`(~처럼 읽히다)와 달리 사람 주어 타동사. ≈ I took X to mean Y.
+  - 예: I read "clean up the branch" as deleting only the merged ones, so I left the rest.

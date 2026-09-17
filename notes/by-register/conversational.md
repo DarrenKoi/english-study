@@ -591,3 +591,15 @@
   - 예: First the blunt part: this won't ship by Friday.
 - **I'd keep it to a page.** — 한 쪽 안으로 줄여 쓰겠다. 제안 직후 분량 상한을 약속해 수락 부담을 던다. ≈ keep it short, no more than a page. ↔ go into full detail.
   - 예: Happy to write up the retro — I'd keep it to a page.
+- **let (something) through** — 검사·정책이 막아야 할 것을 그냥 통과시키다. 목적어는 `let` 과 `through` 사이. ≈ wave through. ↔ block / refuse.
+  - 예: The validator lets empty strings through, so the crash only shows up downstream.
+- **it just adds noise** — 거슬리기만 할 뿐 결과에는 영향이 없다. `just` 가 피해의 크기를 줄인다. ≈ it's harmless clutter. ↔ it's a real signal.
+  - 예: The deprecation warning doesn't break anything; it just adds noise to the build log.
+- **wait for (someone) who isn't coming** — 오지 않을 응답·사람을 기다리며 멈춰 있다. 현재진행형이 확정된 미래를 나타낸다. ≈ hang forever. ↔ time out.
+  - 예: Without a timeout, the worker just waits for a reply that isn't coming.
+- **pick up the fix** — 따로 조치하지 않아도 다음 갱신 때 수정분을 받아 가다. ≈ get the fix. ↔ stay on the old version.
+  - 예: You don't need to do anything; the staging server picks up the fix on the next deploy.
+- **go away with (the new version)** — 새 버전과 함께 문제가 사라지다. 문제를 주어로 두어 결과를 앞세운다. ≈ is fixed in. ↔ come back / persist.
+  - 예: The flicker goes away with the latest driver, so there's nothing to patch on our side.
+- **If you'd rather not …, (I can …)** — 내 선택이 내키지 않으면 되돌릴 길이 있다고 정중히 열어 두는 틀. `would rather not + 동사원형`. ≈ If you'd prefer not to.
+  - 예: If you'd rather not merge today, I can keep the branch open until Monday.

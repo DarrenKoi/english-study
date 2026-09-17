@@ -1187,3 +1187,21 @@
   - 예: It's a single commit with no migration, so git revert is the rollback.
 - **those are readings, not chatter** — 그건 측정값이지 잡담 로그가 아니다. 로그를 줄일 때 남길 줄의 기준을 `A, not B` 로 세운다. ≈ signal, not noise. ↔ pure noise.
   - 예: Keep the coordinate lines in quiet mode; those are readings, not chatter.
+- **map the blast radius** — 고치기 전에 변경이 어디까지 번지는지 조사하다. `still` 과 함께 쓰면 시간이 걸리는 이유를 해명하는 중간 보고가 된다. ≈ scope out the impact. ↔ a contained change.
+  - 예: I'm still mapping the blast radius of the schema change, so I haven't touched any code yet.
+- **quietly bring back** — 고친 문제를 경고도 없이 되살리다. 한쪽 사본만 고쳤을 때 재복사로 버그가 돌아오는 상황. ≈ silently reintroduce. ↔ fix it for good.
+  - 예: Re-vendoring from the old fork would quietly bring back the bug we fixed last week.
+- **stop assuming X** — 코드가 깔고 있던 전제를 걷어 내다. 주어를 코드로 두어 원인이 값이 아니라 전제임을 드러낸다. ≈ no longer hard-code. ↔ bake in the assumption.
+  - 예: Once the API returns the owner, the client can stop assuming the first item is the right one.
+- **orphaned, not migrated** — 옛 키·데이터를 옮기지 않고 주인 없이 남겨 둔다. `A, not B` 로 독자가 기대할 마이그레이션을 명시적으로 부정한다. ≈ left behind. ↔ carried over.
+  - 예: The v1 cache entries are orphaned, not migrated, so users will see an empty list once.
+- **hide behind a fresher sibling** — 나쁜 상태 하나가 더 최신인 이웃 항목 뒤에 가려지다. 집계 설계에서 피해야 할 결과. ≈ get masked by. ↔ surface.
+  - 예: A failing shard should turn the whole dashboard red rather than hiding behind its healthy siblings.
+- **worst-of merge** — 여러 상태를 합칠 때 가장 나쁜 값을 대표로 삼는 병합. `best-of` 와 같은 틀의 복합 형용사. ≈ pessimistic merge. ↔ best-of merge.
+  - 예: Health status uses a worst-of merge, so one degraded node marks the cluster degraded.
+- **drop alone instead of resetting the whole selection** — 잘못된 항목 하나만 빠지고 전체는 유지된다. 검증을 항목 단위로 하는 이유를 적는 주석 문형. ≈ fail in isolation. ↔ all-or-nothing.
+  - 예: Each row is parsed separately so a malformed line drops alone instead of failing the whole import.
+- **pass through untouched** — 값이 어떤 계층을 가공 없이 그대로 지나가다. `untouched` 는 통과할 때의 상태를 말하는 보어. ≈ is forwarded as-is. ↔ get normalized.
+  - 예: Unknown query params pass through untouched, so existing bookmarks keep working.
+- **stage only my hunk** — 같은 파일에 남의 변경이 섞여 있을 때 내 변경 조각만 스테이징하다. `hunk` 는 diff 의 연속된 변경 한 덩어리. ≈ commit just my part. ↔ git add -A.
+  - 예: The file has someone else's edits too, so I'll stage only my hunk and leave the rest.
