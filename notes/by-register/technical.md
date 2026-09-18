@@ -1205,3 +1205,17 @@
   - 예: Unknown query params pass through untouched, so existing bookmarks keep working.
 - **stage only my hunk** — 같은 파일에 남의 변경이 섞여 있을 때 내 변경 조각만 스테이징하다. `hunk` 는 diff 의 연속된 변경 한 덩어리. ≈ commit just my part. ↔ git add -A.
   - 예: The file has someone else's edits too, so I'll stage only my hunk and leave the rest.
+- **a guard doing its job, not a bug** — 에러를 낸 줄이 일부러 넣은 방어 코드라 고칠 대상이 아니다. `A, not B` 로 "그 줄을 고치자"는 반응을 먼저 막는다. ≈ working as intended. ↔ a genuine bug.
+  - 예: The 409 you got is the lock check doing its job, not a bug — someone else was editing the same row.
+- **so the next incident diagnoses itself** — 지금 고치는 게 아니라 다음 장애 때 원인이 드러나게 에러 메시지를 보강한다. `diagnose itself` 로 장애가 스스로를 진단한다고 썼다. ≈ leave a breadcrumb for next time. ↔ fail silently.
+  - 예: Let's log the full request ID and payload size so the next incident diagnoses itself.
+- **theme-blind** — 앱 테마·색 토큰을 모르고 만들어진. `color-blind` 에서 빌린 `명사-blind` 복합 형용사. ≈ unaware of the theme. ↔ theme-aware.
+  - 예: Hard-coded hex colors are theme-blind, so the chart looks wrong the moment someone switches to dark mode.
+- **a placeholder posed as a pick** — 자리 표시용 기본값이 사용자가 고른 값인 척했다. `pose as` = ~로 행세하다. ≈ a default mistaken for a choice. ↔ an explicit choice.
+  - 예: The empty filter wasn't a user choice; it was a placeholder posed as a pick, and the query honored it.
+- **keep the honest blank** — 틀린 값을 채우느니 "보여 줄 게 없다"는 빈 화면을 유지한다. `would rather` 와 함께 선택을 넘길 때 쓴다. ≈ fail visibly. ↔ paper over it.
+  - 예: If the fallback value feels misleading, we can keep the honest blank and show "no shared parameter" instead.
+- **caught mid-frame** — 스크린샷의 이상한 모습이 애니메이션 도중에 찍혀서다. `mid-` = ~의 한가운데. ≈ a timing artifact. ↔ the final rendered state.
+  - 예: The half-drawn bar isn't a rendering bug; the screenshot just caught it mid-frame.
+- **grey out / snap back** — UI 옵션이 회색으로 비활성화되다 / 선택값이 탁 원래대로 돌아가다. ≈ be disabled / revert to. ↔ become enabled / stick.
+  - 예: The Export button greys out while the query runs and snaps back once the results arrive.

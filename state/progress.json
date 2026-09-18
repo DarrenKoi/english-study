@@ -602,7 +602,7 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/f2d1927f-ff7a-4edc-a0b3-6c91ce46d422.jsonl": 112,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/81fe0f54-f4f3-46bc-b1e1-0d86cbfe47a6.jsonl": 37,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/9eb9c743-9a6b-419b-8942-e35030598f05/subagents/agent-aafcfad0385356948.jsonl": 7,
-    "-Users-daeyoung-Codes-auto-recipe-creator/b8c35a47-1940-450e-90d0-04dc5181b663.jsonl": 228,
+    "-Users-daeyoung-Codes-auto-recipe-creator/b8c35a47-1940-450e-90d0-04dc5181b663.jsonl": 233,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/29f93e3b-f7b0-4056-9de0-77c2bc1d3911.jsonl": 663,
     "-Users-daeyoung-Codes-auto-recipe-creator/5603304e-ff97-478a-80c4-dc4bcd63f69f.jsonl": 614,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/4feef4b1-f297-4325-9786-2346e9d0ec20.jsonl": 224,
@@ -771,7 +771,25 @@
     "-Users-daeyoung-Codes-auto-recipe-creator/6a605401-5899-4210-99d2-85a21f3e8216.jsonl": 244,
     "-Users-daeyoung-Codes-equipment-data-map/43a58ae8-27a4-437a-9c38-40b01e23b9bf.jsonl": 655,
     "-Users-daeyoung-Codes-auto-recipe-creator/9a12dcc5-e2e6-4dcc-8bfd-e7afba410dc6.jsonl": 324,
-    "-Users-daeyoung-Codes-auto-recipe-creator/d3e88f01-2fe5-4e18-abb1-766454bec7ab.jsonl": 136
+    "-Users-daeyoung-Codes-auto-recipe-creator/d3e88f01-2fe5-4e18-abb1-766454bec7ab.jsonl": 136,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/5f81f187-ffb9-4dda-a110-dc37d991d6a6.jsonl": 176,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/ffe5643f-44ce-4b01-9b85-c53a3a4f58b6.jsonl": 482,
+    "-Users-daeyoung-Codes-auto-recipe-creator/719cf14b-bb5f-4973-8049-b2f254185ee1.jsonl": 725,
+    "-Users-daeyoung-Codes-equipment-data-map/11b15a3f-6141-4a35-b4dc-be3c0fa3f0a9.jsonl": 19,
+    "-Users-daeyoung-Codes-auto-recipe-creator/c93fb047-083e-4163-9928-1000ad7051ae.jsonl": 375,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/a2fdf45c-917e-475e-a733-696471cb8fdf.jsonl": 117,
+    "-Users-daeyoung-Codes-auto-recipe-creator/f0b49d6e-6ab5-4ac4-b717-53e0a7d6c6f6.jsonl": 15,
+    "-Users-daeyoung-Codes-auto-recipe-creator/b5535421-4005-4128-8e7c-be1423d202e5.jsonl": 685,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/8b37714f-7dcc-40ab-8aca-394637f525c8.jsonl": 97,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/94cfbb95-00ec-4844-9a1a-c3845ef24b3b.jsonl": 13,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/0181108f-2a95-4f8b-8ef5-b31d81d58a44.jsonl": 78,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/2e1c73e0-0958-47b4-a1af-efb519bc444d.jsonl": 701,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/fa2beb23-b20f-414e-81c9-54d29e953e77.jsonl": 977,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/ab4d7948-00c7-4fbc-8cf4-11dd87d94960.jsonl": 119,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/d5e9aa9a-f7cb-4552-a7be-9da4950e9d05.jsonl": 1065,
+    "-Users-daeyoung-Codes-auto-recipe-creator/282f34ad-77e3-4251-b670-8bf6a33ac716.jsonl": 15,
+    "-Users-daeyoung-Codes-equipment-data-map/9ab4d893-1ee6-4088-914a-243d44b3e60f.jsonl": 15,
+    "-Users-daeyoung-Codes-equipment-data-map/0bfc9ed5-fd19-4a6d-99ab-f8bb711c5765.jsonl": 97
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -903,7 +921,7 @@
     "auto_recipe_creator/docs/project_progress/01_vlm_deployment_review.txt": "auto_recipe_creator/docs/project_progress/01_vlm_deployment_review.txt:1782870381.056145:1587",
     "auto_recipe_creator/docs/project_progress/00_executive_summary_review.txt": "auto_recipe_creator/docs/project_progress/00_executive_summary_review.txt:1782867458.2465847:2073",
     "wiki_for_office/docs/study/pixelrag/hermes_agent.txt": "wiki_for_office/docs/study/pixelrag/hermes_agent.txt:1783056147.0019958:682",
-    "auto_recipe_creator/poc/workflow_3/docs/study/consensus_method_explained_260707.md": "auto_recipe_creator/poc/workflow_3/docs/study/consensus_method_explained_260707.md:1783382416.332648:10197",
+    "auto_recipe_creator/poc/workflow_3/docs/study/consensus_method_explained_260707.md": "auto_recipe_creator/poc/workflow_3/docs/study/consensus_method_explained_260707.md:1789707183.3805025:10517",
     "auto_recipe_creator/side_projects/document_extraction/docs/rag_chart_heavy_architecture.md": "auto_recipe_creator/side_projects/document_extraction/docs/rag_chart_heavy_architecture.md:1783657532.4195275:12081",
     "auto_recipe_creator/poc/workflow_2/docs/study/cv/align_fail_vlm_deep_learning_addendum_ko.md": "auto_recipe_creator/poc/workflow_2/docs/study/cv/align_fail_vlm_deep_learning_addendum_ko.md:1783640186.32094:21587",
     "auto_recipe_creator/poc/workflow_2/docs/study/cv/align_fail_cv_methods_research_ko.md": "auto_recipe_creator/poc/workflow_2/docs/study/cv/align_fail_cv_methods_research_ko.md:1784493868.3797863:22251",
@@ -1179,7 +1197,7 @@
     "skewnono_v3_nuxt/docs/datatables/hitachi/sem_list.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/sem_list.txt:1788136267.365399:7897",
     "skewnono_v3_nuxt/docs/datatables/hitachi/recipe_idp.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/recipe_idp.txt:1788593938.4245927:66204",
     "skewnono_v3_nuxt/docs/datatables/hitachi/planstep_r3.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/planstep_r3.txt:1788136267.3647738:16908",
-    "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-08-28-search-around-zoomout-grid-design.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-08-28-search-around-zoomout-grid-design.md:1789251209.6927307:11514",
+    "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-08-28-search-around-zoomout-grid-design.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-08-28-search-around-zoomout-grid-design.md:1789705957.2402158:12364",
     "auto_recipe_creator/docs/opencode/2026-08-28-search-around-zoomout-grid-debate.md": "auto_recipe_creator/docs/opencode/2026-08-28-search-around-zoomout-grid-debate.md:1787919317.858681:9263",
     "auto_recipe_creator/poc/workflow_3/docs/study/search_around_fov_reach_260828.md": "auto_recipe_creator/poc/workflow_3/docs/study/search_around_fov_reach_260828.md:1787918833.0634704:23603",
     "auto_recipe_creator/poc/workflow_3/docs/study/hitachi_mag_fov_pixel_260828.md": "auto_recipe_creator/poc/workflow_3/docs/study/hitachi_mag_fov_pixel_260828.md:1787918479.3144617:4741",
@@ -1297,7 +1315,9 @@
     "equipment-data-map/docs/research/2026-09-15-agent-framework-and-data-format.md": "equipment-data-map/docs/research/2026-09-15-agent-framework-and-data-format.md:1789434006.6352863:67823",
     "equipment-data-map/docs/architecture/repository-purpose.md": "equipment-data-map/docs/architecture/repository-purpose.md:1789623590.742448:5615",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-07-multi-fab-selection.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-07-multi-fab-selection.md:1789082962.1649292:48725",
-    "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-07-multi-fab-phase-b.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-07-multi-fab-phase-b.md:1789082962.163793:77435"
+    "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-07-multi-fab-phase-b.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-07-multi-fab-phase-b.md:1789082962.163793:77435",
+    "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-06-12-consensus-into-live-correction-design.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-06-12-consensus-into-live-correction-design.md:1789707225.211769:19649",
+    "skewnono_v3_nuxt/backend/chat/docs/2026-09-18-chat-to-rag-data-tools-contract.md": "skewnono_v3_nuxt/backend/chat/docs/2026-09-18-chat-to-rag-data-tools-contract.md:1789702877.958041:11201"
   },
-  "last_run": "2026-09-18"
+  "last_run": "2026-09-19"
 }

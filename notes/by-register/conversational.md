@@ -603,3 +603,11 @@
   - 예: The flicker goes away with the latest driver, so there's nothing to patch on our side.
 - **If you'd rather not …, (I can …)** — 내 선택이 내키지 않으면 되돌릴 길이 있다고 정중히 열어 두는 틀. `would rather not + 동사원형`. ≈ If you'd prefer not to.
   - 예: If you'd rather not merge today, I can keep the branch open until Monday.
+- **hide the evidence** — 에러 메시지·로그가 진단에 필요한 단서를 버리고 있다. 범인은 아니지만 수사를 방해한다는 그림. ≈ swallow the error. ↔ surface the cause.
+  - 예: The retry wrapper swallows the original exception, so it's hiding the evidence every time the job fails.
+- **That explains it better than my guess.** — 상대가 내 추측보다 그럴듯한 원인을 댔을 때 순순히 받는 말. 사과 대신 두 설명을 비교한다. ≈ That fits better than my theory.
+  - 예: Oh, the proxy strips the header? That explains it better than my guess.
+- **has nothing to do with load** — 의심한 원인(부하)과 실제 실패 원인이 무관하다고 분리한다. ≈ is unrelated to. ↔ comes down to.
+  - 예: The timeout has nothing to do with the database; the DNS lookup is what's slow.
+- **look fine all day and take the instance down at night** — 당장은 멀쩡하다가 재시작·배포 때만 터지는 지연형 위험. 동사구 둘을 `and` 로 이어 대비를 만든다. ≈ a time bomb. ↔ fail fast.
+  - 예: A bad env var would look fine all day and take the service down at the next deploy.

@@ -1431,3 +1431,19 @@
   - 예: Once the plan is approved, the CLI locks in its hash and refuses any later edit.
 - **I read X as Y** — 모호한 지시를 내가 어떻게 해석했는지 밝히는 틀. 사물 주어의 `read as`(~처럼 읽히다)와 달리 사람 주어 타동사. ≈ I took X to mean Y.
   - 예: I read "clean up the branch" as deleting only the merged ones, so I left the rest.
+- **a hygiene step, not a prerequisite** — 해 두면 좋은 정리 작업이지 지금 작업을 막는 선행 조건은 아니다. ≈ nice to have, not a blocker. ↔ a hard requirement.
+  - 예: Renaming the old config keys is a hygiene step, not a prerequisite for the release.
+- **rediscover each bug one incident at a time** — 기존 지식을 버리고 새로 만들면 같은 함정을 장애마다 하나씩 다시 겪는다. ≈ relearn the same lessons the hard way. ↔ reuse the hardened path.
+  - 예: If we rewrite the parser from scratch, we'll rediscover every edge case one support ticket at a time.
+- **a letter, not an edit** — 남이 소유한 코드는 직접 고치지 말고 요청을 보낼 일. ≈ a request, not a change. ↔ just patch it yourself.
+  - 예: The schema belongs to the data team, so a column you want added is a ticket, not a commit.
+- **Deferring is defensible; writing it twice in one file is not.** — 미루는 건 인정하지만 같은 파일에 중복을 새로 만드는 건 안 된다. 세미콜론 대구로 받아들일 수 없는 부분만 겨냥한다. ≈ The delay is acceptable; the duplication isn't.
+  - 예: Skipping the migration for now is defensible; adding a third copy of the same helper is not.
+- **stop being the default move** — 공용 부품이 생기면 습관처럼 복붙하던 관행이 멈춘다. `move` = 게임의 수. ≈ no longer the path of least resistance. ↔ become the norm.
+  - 예: Once there's a shared date formatter, copy-pasting one stops being the default move.
+- **To be precise for the record** — 대화를 끝내기 전에 결론을 오해 없이 한 번 더 적어 둔다. 반박이 아니라 정리라는 어조. ≈ Just to be clear.
+  - 예: Understood. To be precise for the record, the backup ran; only the upload step failed.
+- **a refresh, not a restart** — 처음부터 다시 할 필요 없이 갱신만 하면 된다. 질문의 전제(`start`)를 부드럽게 고친다. ≈ an update in place. ↔ a full reset.
+  - 예: You don't need to reinstall anything; it's a refresh between runs, not a restart.
+- **lives in the ledger, not in your memory** — 판단 근거가 사람 기억이 아니라 기록에 있다. `lives in` 으로 기능이 어느 계층에 있는지 말한다. ≈ is tracked by. ↔ relies on someone remembering.
+  - 예: The retry state lives in the database, not in the worker, so a crash doesn't lose it.
