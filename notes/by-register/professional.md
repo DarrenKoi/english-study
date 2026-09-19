@@ -1447,3 +1447,15 @@
   - 예: You don't need to reinstall anything; it's a refresh between runs, not a restart.
 - **lives in the ledger, not in your memory** — 판단 근거가 사람 기억이 아니라 기록에 있다. `lives in` 으로 기능이 어느 계층에 있는지 말한다. ≈ is tracked by. ↔ relies on someone remembering.
   - 예: The retry state lives in the database, not in the worker, so a crash doesn't lose it.
+- **give the heading the stack it promises** — 제목이 예고한 내용이 비어 있어 실제로 채워 넣다. 제목을 주어로 의인화해 "있어야 할 게 없었다"는 지적을 부드럽게 한다. ≈ make the section live up to its title. ↔ a heading with nothing under it.
+  - 예: This commit finally gives the "Quick Start" section the commands it promises.
+- **without an explicit agreement from you** — 허락받지 않고 내 판단으로 넣은 변경을 자진해서 밝힐 때. 되돌리는 방법을 바로 뒤에 붙여 한 쌍으로 쓴다. ≈ without checking with you first. ↔ as we agreed.
+  - 예: One change I made without an explicit agreement from you: the default timeout is now 30 seconds. Revert it if that wasn't the plan.
+- **hold up** — 주장·수정이 따져 봐도 무너지지 않고 버티다. `Most … hold up, but one … remains` 가 재리뷰의 기본 틀. ≈ check out / stand up to scrutiny. ↔ fall apart.
+  - 예: Your benchmark numbers hold up, but the memory claim doesn't match what I measured.
+- **out of line with** — 구현이 기준 문서·규격과 어긋나 있다. `with` 없이 사람에게 쓰면 "무례했다"는 다른 뜻이 되니 주의. ≈ inconsistent with. ↔ in line with.
+  - 예: The retry count in the client is out of line with the limit documented in the API guide.
+- **One thing worth repeating, since it affects how you read the numbers** — 이미 한 말을 보고 끝에 한 번 더 못 박을 때. 반복하는 이유를 `since` 절로 먼저 대서 잔소리로 들리지 않는다. ≈ Just to reiterate.
+  - 예: One thing worth repeating, since it affects how you read the chart: the y-axis is cumulative, not per day.
+- **apart from** — 전체를 단언하면서 예외 하나를 떼어 놓는다. 영국식에서 더 흔하고 미국식은 `aside from`. ≈ except for. ↔ including.
+  - 예: All the tests pass apart from the two that need a live database.

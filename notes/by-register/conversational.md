@@ -611,3 +611,21 @@
   - 예: The timeout has nothing to do with the database; the DNS lookup is what's slow.
 - **look fine all day and take the instance down at night** — 당장은 멀쩡하다가 재시작·배포 때만 터지는 지연형 위험. 동사구 둘을 `and` 로 이어 대비를 만든다. ≈ a time bomb. ↔ fail fast.
   - 예: A bad env var would look fine all day and take the service down at the next deploy.
+- **If you catch yourself (doing X), stop** — 무심코 나쁜 습관으로 빠진 자신을 알아채면 멈춰라. `catch + 목적어 + -ing` 에 `yourself` 를 넣은 꼴이라 `find yourself -ing` 보다 "들켰다"는 어감이 짙다. ≈ if you find yourself -ing.
+  - 예: If you catch yourself adding a third flag to the same function, stop and split it.
+- **Don't block on it** — 확인은 요청하되 답을 기다리느라 멈춰 서 있지는 마라. 스레드가 I/O 를 기다리는 `block on` 을 사람에게 빌려 썼다. ≈ don't wait on it. ↔ hold off until you hear back.
+  - 예: I've asked the infra team about the quota, but don't block on it — start with the default and we'll adjust later.
+- **where my head was** — 작업을 멈추던 시점에 내 생각이 어디쯤 가 있었는지. 코드에도 커밋에도 남지 않는 사고의 맥락을 가리킨다. ≈ my train of thought.
+  - 예: I left a note in the PR about where my head was, so you won't have to guess why the cache is disabled.
+- **Apply all four, or only some?** — 긴 보고 끝에 선택지 둘만 남겨 결정을 넘기는 생략 의문문. 상대가 `apply all four` 처럼 한마디로 답하게 된다. ≈ Want me to apply all of them, or just a few?
+  - 예: I found six unused imports. Remove all six, or only the ones in this file?
+- **end up (somewhere)** — 누가 의도하지 않았는데 결과적으로 엉뚱한 자리·상태에 가 있다. 뒤에 장소 부사구나 `-ing` 가 온다. ≈ wind up. ↔ stay put.
+  - 예: The retry config had ended up in the test folder, so production never read it.
+- **in the meantime** — 근본 수정이 나오기 전까지 그사이에는. 문두에 두면 쉼표를 찍는다. ≈ for now / until then. ↔ once it's fixed.
+  - 예: The proper fix needs a schema change; in the meantime, please don't rely on that column.
+- **Found the shape of it.** — 원인을 다 밝히진 못했어도 문제의 윤곽은 잡았다는 중간 보고. `found the cause` 보다 한 발 물러선 정직한 말이다. ≈ I have a rough picture. ↔ I'm still in the dark.
+  - 예: Found the shape of it: the cache is fine, but something upstream is sending duplicate keys.
+- **came back clean** — 맡긴 검사·리뷰가 지적 사항 없이 돌아왔다. 병원 검사 결과 말투(`came back negative`)에서 왔다. ≈ no findings. ↔ came back with findings.
+  - 예: The security scan came back clean, so I'm merging.
+- **Taking that as: …** — 애매한 지시를 되묻지 않고 내 해석을 한 줄로 밝힌 뒤 진행한다. 틀렸으면 상대가 바로 정정하면 된다. ≈ I'll read that as … ↔ Could you clarify what you mean?
+  - 예: Taking that as: keep the old endpoint alive until the mobile app updates. Shout if you meant something else.

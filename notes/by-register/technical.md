@@ -1219,3 +1219,13 @@
   - 예: The half-drawn bar isn't a rendering bug; the screenshot just caught it mid-frame.
 - **grey out / snap back** — UI 옵션이 회색으로 비활성화되다 / 선택값이 탁 원래대로 돌아가다. ≈ be disabled / revert to. ↔ become enabled / stick.
   - 예: The Export button greys out while the query runs and snaps back once the results arrive.
+- **only proves the map matches itself** — 검증이 자기 자신과 비교하는 순환 구조라 아무것도 보증하지 못한다. `only proves` 가 효력 범위를 좁힌다. ≈ a circular check. ↔ verified against an independent source.
+  - 예: Comparing the output to a snapshot we just generated only proves the code matches itself.
+- **each one reproduces** — 버그를 주어로 한 자동사 `reproduce`. "재현된다"를 `is reproduced` 로 옮기지 않아도 된다. ≈ I can reproduce each one. ↔ can't reproduce it.
+  - 예: The crash only reproduces on Windows when the path contains a space.
+- **the test locks the defect in** — 테스트가 틀린 동작을 기대값으로 단언해 결함을 굳혀 버린다. 좋은 뜻의 `lock in` 을 뒤집은 쓰임이고 목적어가 사이에 끼는 분리형이다. ≈ the test asserts the wrong behavior. ↔ the test catches the defect.
+  - 예: That snapshot was recorded while the bug was live, so the test locks the defect in.
+- **fail partway through** — 시작은 했지만 도중에 실패해 어중간한 찌꺼기를 남기다. `partway through + 명사/-ing`. ≈ fail midway. ↔ fail up front / complete atomically.
+  - 예: If the migration fails partway through, half the tables will have the new column and half won't.
+- **overshoot** — 조정이 목표 지점을 지나쳐 너무 많이 가다. 과거형 `overshot`. 제어·튜닝뿐 아니라 예산·일정에도 쓴다. ≈ go too far / overcorrect. ↔ undershoot / fall short.
+  - 예: The auto-scaler overshot and spun up twice as many workers as the queue needed.
