@@ -1459,3 +1459,27 @@
   - 예: One thing worth repeating, since it affects how you read the chart: the y-axis is cumulative, not per day.
 - **apart from** — 전체를 단언하면서 예외 하나를 떼어 놓는다. 영국식에서 더 흔하고 미국식은 `aside from`. ≈ except for. ↔ including.
   - 예: All the tests pass apart from the two that need a live database.
+- **pull (something) together** — 흩어진 자료를 끌어모아 쓸 만한 꼴로 정리하다. `collect` 보다 한 걸음 더 나간다. 분리형이라 대명사는 가운데(`pull it together`). ≈ put together / compile. ↔ leave scattered.
+  - 예: I've pulled the incident timeline together from Slack and the deploy logs, and it's in the shared doc.
+- **in shorthand** — 남에게 보이기 전의 줄여 쓴 메모체로. `X is shorthand for Y` 틀도 흔하다. ≈ in note form / in abbreviated form. ↔ in full sentences.
+  - 예: My notes are in shorthand, so let me write them up properly before I share them with the team.
+- **(X) is the whole change** — 조사해 보니 고칠 곳이 한 군데뿐이라고 범위를 못 박는 말. 동명사 주어와 잘 어울린다. ≈ that's all there is to it. ↔ that's only the first step.
+  - 예: The flag is only read in one place, so flipping its default is the whole change.
+- **be due to (expire)** — 일정상 ~할 예정이다. `due to + 동사` 는 예정, `due to + 명사` 는 원인. 과거형 `was due to` 는 그 전에 다른 일이 생겼다는 어감. ≈ be set to / be scheduled to.
+  - 예: The certificate is due to expire next month, so let's renew it this week.
+- **Point by point:** — 상대가 한꺼번에 던진 여러 항목에 하나씩 답하겠다는 예고. 결과 한 줄 뒤에 붙이면 긴 답도 길을 잃지 않는다. ≈ Taking these in turn. ↔ In short.
+  - 예: Thanks for the detailed review. Point by point: the naming is fixed, the test is added, and I disagree on the third item.
+- **go live** — 기능·서비스가 실사용자에게 열리다. 주어가 기능이라는 점이 `launch` 와 다르다. `land`(main 에 들어가다)와 구별해 쓴다. ≈ ship / be rolled out. ↔ be taken offline.
+  - 예: The new billing page goes live on Monday, so the copy has to be final by Friday.
+- **that is the discussion to have then** — 지금 정하지 않고 조건이 닥쳤을 때 논의하자고 선을 긋는 말. `the discussion to have` 는 to부정사가 명사를 꾸민다. ≈ we'll cross that bridge when we come to it. ↔ let's settle it now.
+  - 예: If traffic doubles, sharding is the discussion to have then, not something to build now.
+- **spell out** — 암묵적으로 넘어간 조건을 하나하나 명시하다. 리뷰에서 "정의가 없다"를 부드럽게 지적하는 동사. ≈ make explicit / lay out. ↔ leave implicit / gloss over.
+  - 예: The contract should spell out what happens when the upstream returns a partial page.
+- **work against** — 제안이 상대 자신이 세운 목표와 어긋난다고 정중히 반대할 때. 기준을 상대의 말에서 가져온다. ≈ undermine / run counter to. ↔ work in favor of.
+  - 예: Adding a second cache works against the goal of making this service easier to debug.
+- **hang together** — 여러 부분이 서로 모순 없이 맞물려 전체가 하나로 서다. 글·논리·설계의 마지막 점검에서. ≈ be coherent / add up. ↔ fall apart.
+  - 예: Each section reads fine alone, but the proposal doesn't hang together once you compare the budget with the timeline.
+- **Where I disagree:** — 대부분 동의한 뒤 반대 지점 하나를 따로 세우는 소제목. `where` 절이 통째로 명사 노릇을 한다. ≈ My one objection is … / The part I'd push back on is … ↔ Where we agree:
+  - 예: Most of the plan looks right. Where I disagree: the rollout should start with one region, not all three.
+- **dilute attention** — 양이 많아져 정작 중요한 것에 눈이 덜 가게 하다. 물 타서 묽게 하는 `dilute` 를 집중·메시지에 빌려 쓴다. ≈ water down / spread thin. ↔ sharpen the focus.
+  - 예: Ten alerts a day dilute attention, and the one that matters gets ignored.

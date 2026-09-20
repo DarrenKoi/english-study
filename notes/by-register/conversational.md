@@ -629,3 +629,11 @@
   - 예: The security scan came back clean, so I'm merging.
 - **Taking that as: …** — 애매한 지시를 되묻지 않고 내 해석을 한 줄로 밝힌 뒤 진행한다. 틀렸으면 상대가 바로 정정하면 된다. ≈ I'll read that as … ↔ Could you clarify what you mean?
   - 예: Taking that as: keep the old endpoint alive until the mobile app updates. Shout if you meant something else.
+- **hand (something) back to you** — 내 선에서 못 끝내는 부분을 원래 주인에게 되돌려 주다. `hand off`(다음 사람에게)와 방향이 다르다. 막힌 이유를 먼저 대면 떠넘기는 말로 안 들린다. ≈ leave that part to you. ↔ take it off your hands.
+  - 예: I can draft the migration, but the production credentials are yours, so I'll hand the final run back to you.
+- **Say if you want that gone too.** — 일부러 남겨 둔 것을 알리며 원하면 그것도 지우겠다는 가벼운 제안. `want + 목적어 + gone` 은 상태를 바로 붙이는 틀(`want it fixed`). ≈ Let me know if you'd like that removed as well.
+  - 예: I kept the old export button for now. Say if you want that gone too.
+- **give (it) a moment** — 재시작·빌드·캐시가 자리 잡게 잠깐 기다리다. 사물에게 시간을 "준다"고 말한다. ≈ let it settle / wait a bit for it.
+  - 예: The cache takes a while to warm up, so give it a moment before you run the benchmark.
+- **(X) can then go** — 그렇게 하면 ~는 없애도 된다. `go` 는 "없어지다"(`This has to go` 의 그 `go`). ≈ can be dropped. ↔ has to stay.
+  - 예: Once every caller passes the new flag, the compatibility shim can go.

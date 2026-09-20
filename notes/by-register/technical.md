@@ -1229,3 +1229,17 @@
   - 예: If the migration fails partway through, half the tables will have the new column and half won't.
 - **overshoot** — 조정이 목표 지점을 지나쳐 너무 많이 가다. 과거형 `overshot`. 제어·튜닝뿐 아니라 예산·일정에도 쓴다. ≈ go too far / overcorrect. ↔ undershoot / fall short.
   - 예: The auto-scaler overshot and spun up twice as many workers as the queue needed.
+- **hand-rolled** — 공용 유틸·라이브러리를 두고 직접 짠 구현. 가벼운 부정이 깔려 있고 `roll your own` 과 뿌리가 같다. ≈ homegrown / bespoke. ↔ off-the-shelf / built-in.
+  - 예: We replaced the hand-rolled retry loop with the library's built-in backoff.
+- **throwaway** — 쓰고 버릴 작정으로 만든(브랜치·스크립트·worktree). 명사 앞 형용사. 품질을 따지지 말라는 신호로도 쓴다. ≈ disposable / scratch. ↔ long-lived.
+  - 예: I wrote a throwaway script to backfill the column, so don't bother reviewing its style.
+- **one-for-one** — 빠짐없이 그대로 맞바꿔. `one-to-one` 은 대응 관계, `one-for-one` 은 교체. ≈ like for like / as a drop-in replacement.
+  - 예: The new SDK replaces the old client one-for-one, so none of the call sites need to change.
+- **scrub (the URL)** — 쓸모를 다했거나 남으면 곤란한 정보를 말끔히 지우다. `remove` 보다 "남김없이"라는 어감. `scrub PII from the logs`. ≈ strip / sanitize / redact.
+  - 예: After reading the token from the query string, the page scrubs it from the URL so it never ends up in a screenshot.
+- **Append, never interleave.** — 기존 순서를 건드리지 않게 새 것은 뒤에만 붙인다는 원칙. `interleave` 는 두 흐름을 번갈아 끼워 넣다. ≈ intersperse / alternate. ↔ append.
+  - 예: Log lines from the two workers interleave, so add a worker id before you try to read them.
+- **legitimately empty** — 빈 결과가 버그가 아니라 데이터 사정상 맞는 결과. 검증 보고에서 빈 목록이 실패로 읽히지 않게 한다. ≈ genuinely / as expected. ↔ spuriously.
+  - 예: The report is legitimately empty for new accounts, so show a hint instead of an error.
+- **dominate** — 전체 시간·비용의 대부분을 차지하다. 목적어 없이 자동사로 쓴다(`LLM time dominates`). ≈ account for most of / be the bottleneck. ↔ be negligible.
+  - 예: Profile first, because there's no point optimizing the parser if network time dominates.
