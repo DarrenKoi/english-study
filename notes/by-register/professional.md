@@ -1483,3 +1483,25 @@
   - 예: Most of the plan looks right. Where I disagree: the rollout should start with one region, not all three.
 - **dilute attention** — 양이 많아져 정작 중요한 것에 눈이 덜 가게 하다. 물 타서 묽게 하는 `dilute` 를 집중·메시지에 빌려 쓴다. ≈ water down / spread thin. ↔ sharpen the focus.
   - 예: Ten alerts a day dilute attention, and the one that matters gets ignored.
+- **worse than the gap** — 쉬운 수정안이 원래 빈틈보다 더 나쁘다. 고칠 대상을 `the gap` 이라 불러 크기를 낮춰 두고 비교한다. ≈ the cure is worse than the disease / do more harm than good. ↔ a strict improvement.
+  - 예: A retry here would hide real outages, and a retry that hides outages is worse than the gap it closes.
+- **add the check, not the override** — 값을 강제로 덮어쓰지 않고 어긋나면 경고만 내기로 했다. `A, not B` 로 한 일과 일부러 안 한 일을 함께 말한다. ≈ warn, don't rewrite / detect rather than correct. ↔ force the value.
+  - 예: I added the check, not the override, so a mismatched config now logs a warning instead of silently changing the route.
+- **we have no evidence X ever breaks** — 깨진 적 없는 가정을 지금 고치지 않는 근거. `ever` 가 증거의 문턱을 가장 낮게 잡는다. ≈ nothing suggests X / we have yet to see X. ↔ we've seen it break before.
+  - 예: We have no evidence the old date format ever breaks the importer, so I'd rather not add a converter yet.
+- **stand as written** — 적어 둔 목록·계획이 그 뒤로 바뀐 게 없어 그대로 유효하다. `stand` 는 "유효하게 남아 있다"는 자동사. ≈ still holds / remains valid. ↔ needs revising.
+  - 예: Nobody raised objections at the review, so the migration plan stands as written.
+- **nothing shipped since** — 마지막 기록 이후 반영된 것이 없다. 문장 끝 부사 `since` 가 `since then` 을 대신하고, 완전한 문장이면 현재완료. ≈ nothing has gone out since / no changes have been deployed since then. ↔ a lot has landed since.
+  - 예: The last release went out on Monday and nothing has shipped since, so the bug has to be in that build.
+- **a standing watch item** — 일정을 잡을 수 없고 사건을 기다려야 하는 일을 따로 떼어 둔 상시 관찰 항목. `standing` 은 "상시의". ≈ something to keep an eye on / a tripwire. ↔ an action item.
+  - 예: We can't fix the flaky payment test on a schedule, so let's make it a standing watch item and dig in whenever it fails.
+- **the longer it sits, the more work stacks on an unproven base** — 검증을 미룰수록 확인 안 된 토대 위에 일이 쌓인다. `the + 비교급, the + 비교급`. ≈ we're building on sand / the cost of delay compounds. ↔ verify it before we build on it.
+  - 예: Let's review the schema change today; the longer it sits, the more work stacks on an unproven base.
+- **sounds like a tautology** — 이름이나 문구가 문맥상 뻔한 말을 되풀이해 무의미하게 들린다. 이미지 갤러리의 "이미지 있음" 같은 경우. ≈ redundant / says the same thing twice. ↔ informative.
+  - 예: On a page called Settings, a tab named "General Settings" sounds like a tautology.
+- **names the thing it removes** — 필터 이름이 남는 것이 아니라 빼는 대상을 가리킨다. 동사 `name` + 관계대명사가 빠진 접촉절. ≈ says what it hides / is named after what it filters out. ↔ names what's left.
+  - 예: "Hide archived" works better than "Show active" because it names the thing it removes.
+- **This was a question, not a change request.** — 질문에 답만 하고 아무것도 바꾸지 않았다고 선을 긋는다. 뒤에 `Say which one and I'll do it.` 이 따라붙는다. ≈ I took this as a question, so I haven't changed anything.
+  - 예: I only read the logs and didn't restart anything; this was a question, not a change request.
+- **be real in the data** — 예외처럼 보이는 경우가 실제 데이터에 있다. 엣지 케이스가 가상의 걱정이 아니라고 반박할 때. ≈ actually occur in the data / show up in production. ↔ purely hypothetical.
+  - 예: Negative durations are real in the data, because some devices report their end time before their start time.

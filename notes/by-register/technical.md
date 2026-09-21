@@ -1243,3 +1243,23 @@
   - 예: The report is legitimately empty for new accounts, so show a hint instead of an error.
 - **dominate** — 전체 시간·비용의 대부분을 차지하다. 목적어 없이 자동사로 쓴다(`LLM time dominates`). ≈ account for most of / be the bottleneck. ↔ be negligible.
   - 예: Profile first, because there's no point optimizing the parser if network time dominates.
+- **has zero consumers** — 파싱은 되는데 읽어 가는 코드가 하나도 없다. `zero` 로 개수를 박아 grep 으로 확인했다는 인상을 준다. ≈ is unused / nothing reads it. ↔ is load-bearing.
+  - 예: The `retry_limit` option is still parsed from the config, but it has zero consumers since the scheduler rewrite.
+- **was being thrown away** — 이미 계산해 둔 값이 쓰이지 않고 계속 버려지고 있었다. 과거진행 수동태로 값의 처지에 초점을 둔다. ≈ be discarded / go unused. ↔ be put to use.
+  - 예: The parser already computes a line number for each error, but it was being thrown away before the message reached the user.
+- **flip one without the other** — 짝으로 맞아야 하는 두 값 중 하나만 바꾸다. 동명사 주어 + `gives you` 로 결과를 붙인다. ≈ change A but not B / update them out of step. ↔ change both in lockstep.
+  - 예: The client and the server both hard-code the feature flag, and flipping one without the other breaks every request.
+- **labeled X, filed under Y** — 이름표와 실제 분류 위치가 어긋났다. `file under` 는 서류를 어느 폴더에 꽂는 동작. ≈ misfiled / in the wrong bucket. ↔ filed where it belongs.
+  - 예: The bug report was labeled urgent but filed under the wrong team, so nobody picked it up for a week.
+- **in both places at once** — 짝으로 묶인 두 곳을 반드시 함께 고쳐라. `at once` 는 여기서 "즉시"가 아니라 "동시에". ≈ in the same commit / in lockstep. ↔ one at a time.
+  - 예: The limit is defined in both the API and the worker, so change it in both places at once or the queue will reject valid jobs.
+- **if it misbehaves** — 새 기능이 멈추지는 않고 엉뚱하게 굴면. 롤백 스위치를 안내하는 배포 노트에서. ≈ acts up / behaves unexpectedly. ↔ behaves as expected.
+  - 예: The new cache is behind a flag, so if it misbehaves in production you can turn it off without a deploy.
+- **trace it end to end** — 입력부터 결과까지 코드를 따라가 확인하다. 부사일 때는 하이픈 없이, 명사 앞 형용사일 때는 `end-to-end`. ≈ follow it all the way through / walk the code path. ↔ spot-check.
+  - 예: I traced the request end to end, and the timeout comes from the proxy, not the database.
+- **pre-armed** — 사용자가 누르기 전부터 켜져 있는(필터·옵션). `arm` 은 작동 대기 상태로 두다. ≈ on by default / preselected. ↔ opt-in.
+  - 예: With the "errors only" filter pre-armed, new users never see the full log and assume nothing is running.
+- **be live (on the dev server)** — 바꾼 내용이 서버에 반영돼 지금 실제로 보인다. `live` 는 [laɪv]. 어디에 반영됐는지 `on …` 으로 밝힌다. ≈ is up / has been deployed. ↔ is still local only.
+  - 예: The new pricing page is live on staging, so you can check it before we push it to production.
+- **append-only** — 고쳐 쓰지 않고 뒤에 줄만 더하는(기록·원장). 명사 앞에서는 하이픈을 넣는다. ≈ write-once / an immutable log. ↔ edited in place.
+  - 예: The audit log is append-only, so a correction goes in as a new line rather than an edit to the old one.

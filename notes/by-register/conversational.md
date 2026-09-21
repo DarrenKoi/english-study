@@ -637,3 +637,13 @@
   - 예: The cache takes a while to warm up, so give it a moment before you run the benchmark.
 - **(X) can then go** — 그렇게 하면 ~는 없애도 된다. `go` 는 "없어지다"(`This has to go` 의 그 `go`). ≈ can be dropped. ↔ has to stay.
   - 예: Once every caller passes the new flag, the compatibility shim can go.
+- **do it or drop it** — 오래 미룬 일을 이번에 끝내든지 목록에서 빼든지 정하자. 계속 미루기라는 세 번째 길을 막는다. ≈ make a call on it / fish or cut bait. ↔ keep kicking it down the road.
+  - 예: That ticket has been in the backlog since March, so this sprint we either do it or drop it.
+- **keep aging** — 처리할 수 없는 항목이 목록에서 계속 묵어 간다. 동사 `age` 는 오래될수록 나빠지는 대상에 쓴다. ≈ pile up / sit untouched. ↔ get cleared.
+  - 예: If nobody owns these alerts, they'll just keep aging in the queue until someone mutes them.
+- **bring home (the numbers)** — 현장에서 돌려 보고 결과를 챙겨 오다. 관용구 `bring home the point`(절실히 깨닫게 하다)와는 목적어로 가린다. ≈ bring back / report back with. ↔ leave behind.
+  - 예: When you run the test at the plant, bring home the full log and the two screenshots, not just the pass/fail line.
+- **Two cheap fixes if you want one** — 질문에 답한 뒤 원하면 해 줄 가벼운 해결책을 곁들이는 머리말. `cheap` 은 수고가 적다는 뜻. ≈ A couple of quick options, if you want to change it: ↔ This needs a proper redesign.
+  - 예: Two cheap fixes if you want one: cache the lookup, or move it out of the loop.
+- **Nothing left to commit.** — 커밋 요청에 이미 다 커밋돼 있다고 짧게 답한다. `There is` 를 떨어뜨린 꼴이고 뒤에 이유를 과거 시제로 댄다. ≈ All done already. / The tree is already clean. ↔ You have uncommitted changes.
+  - 예: Nothing left to commit; the fix went in with yesterday's merge.

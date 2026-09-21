@@ -806,7 +806,16 @@
     "-Users-daeyoung-Codes-auto-recipe-creator/6ba767e3-111f-4d39-b584-2d9fc212a15e.jsonl": 567,
     "-Users-daeyoung-Codes-english-study/2cea1a54-5305-415e-afc3-218ef7af6837.jsonl": 220,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/95d557cf-5512-498e-bfa2-467d21711597.jsonl": 1056,
-    "-Users-daeyoung-Codes-auto-recipe-creator/53984fba-bc77-4cd6-b1ed-589bda3e0f9f/subagents/agent-a82bb8b21d6510a1c.jsonl": 36
+    "-Users-daeyoung-Codes-auto-recipe-creator/53984fba-bc77-4cd6-b1ed-589bda3e0f9f/subagents/agent-a82bb8b21d6510a1c.jsonl": 36,
+    "-Users-daeyoung-Codes-auto-recipe-creator/f7c114bf-0d23-4ae4-bfab-1ab2c0a703a7.jsonl": 64,
+    "-Users-daeyoung-Codes-equipment-data-map/4e0c8c80-78dc-4818-b8a1-465af59ca33b.jsonl": 366,
+    "-Users-daeyoung-Codes-auto-recipe-creator/e1c62876-53e6-408f-b5af-a3086a61638a.jsonl": 186,
+    "-Users-daeyoung-Codes-auto-recipe-creator/f74d43ca-a042-4562-89ca-25dfd64fb68d.jsonl": 420,
+    "-Users-daeyoung-Codes-auto-recipe-creator/8d2f84dc-d64f-489c-b674-17727b9269e8.jsonl": 15,
+    "-Users-daeyoung-Codes-english-study/4c1528ab-629c-48dd-957a-d91228df1485.jsonl": 295,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/004b2b17-1f96-4543-b10f-9dcd6d884069.jsonl": 308,
+    "-Users-daeyoung-Codes-english-study/d38cc1f0-7b43-4b0f-a168-6e98c44b1bf0.jsonl": 190,
+    "-Users-daeyoung-Codes-english-study/4cefed57-19bb-467c-b8e3-b4fd4a0cd078.jsonl": 247
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1293,7 +1302,7 @@
     "llm_serving/docs/01-runtime-layout-and-capacity.md": "llm_serving/docs/01-runtime-layout-and-capacity.md:1789133557.9054632:4551",
     "skewnono_v3_nuxt/docs/progress_report/skewnono_page_catalog_2026-09-03.md": "skewnono_v3_nuxt/docs/progress_report/skewnono_page_catalog_2026-09-03.md:1788419991.1059644:5811",
     "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-03-E-yolo-and-learned-matcher-feasibility.md": "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-03-E-yolo-and-learned-matcher-feasibility.md:1788419369.2714202:59080",
-    "equipment-data-map/docs/architecture/equipment-data-map.md": "equipment-data-map/docs/architecture/equipment-data-map.md:1789773913.7790895:87794",
+    "equipment-data-map/docs/architecture/equipment-data-map.md": "equipment-data-map/docs/architecture/equipment-data-map.md:1789942984.2403636:121909",
     "equipment-data-map/ftp_handler/docs/adr/0001-proxy-batch-sizing.md": "equipment-data-map/ftp_handler/docs/adr/0001-proxy-batch-sizing.md:1788610962.0432134:3349",
     "auto_recipe_creator/docs/align_point_from_cond.md": "auto_recipe_creator/docs/align_point_from_cond.md:1788595090.721349:15008",
     "auto_recipe_creator/poc/workflow_3/docs/runbooks/vlm_service_change_office_checklist.md": "auto_recipe_creator/poc/workflow_3/docs/runbooks/vlm_service_change_office_checklist.md:1788592139.2836466:4930",
@@ -1330,18 +1339,20 @@
     "equipment-data-map/docs/architecture/equipment-data-parser-llm-behavior.md": "equipment-data-map/docs/architecture/equipment-data-parser-llm-behavior.md:1789769719.215185:13072",
     "auto_recipe_creator/docs/research/2026-09-15-qwen3.8-27b-vision-recovery.md": "auto_recipe_creator/docs/research/2026-09-15-qwen3.8-27b-vision-recovery.md:1789468436.5153627:24726",
     "equipment-data-map/docs/research/2026-09-15-agent-framework-and-data-format.md": "equipment-data-map/docs/research/2026-09-15-agent-framework-and-data-format.md:1789434006.6352863:67823",
-    "equipment-data-map/docs/architecture/repository-purpose.md": "equipment-data-map/docs/architecture/repository-purpose.md:1789623590.742448:5615",
+    "equipment-data-map/docs/architecture/repository-purpose.md": "equipment-data-map/docs/architecture/repository-purpose.md:1789936602.0404007:5819",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-07-multi-fab-selection.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-07-multi-fab-selection.md:1789082962.1649292:48725",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-07-multi-fab-phase-b.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-07-multi-fab-phase-b.md:1789082962.163793:77435",
     "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-06-12-consensus-into-live-correction-design.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-06-12-consensus-into-live-correction-design.md:1789707225.211769:19649",
     "skewnono_v3_nuxt/backend/chat/docs/2026-09-18-chat-to-rag-data-tools-contract.md": "skewnono_v3_nuxt/backend/chat/docs/2026-09-18-chat-to-rag-data-tools-contract.md:1789764600.5565114:15602",
-    "equipment-data-map/docs/architecture/equipment-data-parser-performance-proposal.md": "equipment-data-map/docs/architecture/equipment-data-parser-performance-proposal.md:1789858961.0730796:56508",
-    "equipment-data-map/docs/architecture/wiki-generator.md": "equipment-data-map/docs/architecture/wiki-generator.md:1789773837.9247909:13160",
+    "equipment-data-map/docs/architecture/equipment-data-parser-performance-proposal.md": "equipment-data-map/docs/architecture/equipment-data-parser-performance-proposal.md:1789942944.3459673:56765",
+    "equipment-data-map/docs/architecture/wiki-generator.md": "equipment-data-map/docs/architecture/wiki-generator.md:1789942944.3444397:13425",
     "auto_recipe_creator/poc/workflow_3/docs/features/manual_recording.md": "auto_recipe_creator/poc/workflow_3/docs/features/manual_recording.md:1789773260.3211248:5654",
     "auto_recipe_creator/poc/workflow_3/docs/features/rcs_recovery.md": "auto_recipe_creator/poc/workflow_3/docs/features/rcs_recovery.md:1789773260.3210685:3244",
     "auto_recipe_creator/poc/workflow_3/docs/features/manual_click_button.md": "auto_recipe_creator/poc/workflow_3/docs/features/manual_click_button.md:1789773260.3210108:5925",
     "auto_recipe_creator/poc/workflow_3/docs/features/list_occupancy_gate.md": "auto_recipe_creator/poc/workflow_3/docs/features/list_occupancy_gate.md:1789773260.3209403:3572",
-    "auto_recipe_creator/poc/workflow_3/docs/features/demonstration_rcs_control.md": "auto_recipe_creator/poc/workflow_3/docs/features/demonstration_rcs_control.md:1789773260.320868:15310"
+    "auto_recipe_creator/poc/workflow_3/docs/features/demonstration_rcs_control.md": "auto_recipe_creator/poc/workflow_3/docs/features/demonstration_rcs_control.md:1789773260.320868:15310",
+    "equipment-data-map/docs/journals/260921/260921_192336_architecture-doc-review-and-office-refresh.md": "equipment-data-map/docs/journals/260921/260921_192336_architecture-doc-review-and-office-refresh.md:1789986275.4037886:9084",
+    "auto_recipe_creator/poc/workflow_3/docs/specs/align_correction_methodology_260921.md": "auto_recipe_creator/poc/workflow_3/docs/specs/align_correction_methodology_260921.md:1789955913.4694538:17196"
   },
-  "last_run": "2026-09-21"
+  "last_run": "2026-09-22"
 }
