@@ -1263,3 +1263,11 @@
   - 예: The new pricing page is live on staging, so you can check it before we push it to production.
 - **append-only** — 고쳐 쓰지 않고 뒤에 줄만 더하는(기록·원장). 명사 앞에서는 하이픈을 넣는다. ≈ write-once / an immutable log. ↔ edited in place.
   - 예: The audit log is append-only, so a correction goes in as a new line rather than an edit to the old one.
+
+## 2026-09-23
+- **The two sides disagreed on what "" means.** — 짝을 이루는 두 코드가 같은 값을 다르게 해석해 생긴 버그를 한 줄로. 프로그램을 사람처럼 세운다. ≈ the client and server were out of sync on X. ↔ agree on a single meaning. [→ daily](../../daily/2026-09-23/new-expressions.md)
+  - 예: The two sides disagreed on what "" means; the client sent no header while the server switched auth on.
+- **the classic "is it set?" vs "is it non-empty?" split** — `None` 과 `""` 를 구분하는 흔한 버그 유형에 이름 붙이기. ≈ the usual None-versus-empty confusion.
+  - 예: This is the classic "is it set?" vs "is it non-empty?" split, and only the client author knew about it.
+- **a stale belief in the code** — 코드 주석·분기가 품고 있던, 이제는 틀린 전제. 사람 아닌 시점 문제로 만든다. ≈ an outdated assumption. ↔ a current, verified assumption.
+  - 예: Your correction also fixed a stale belief in the code: a comment said msr cond has no Scope, so the parser never checked it.

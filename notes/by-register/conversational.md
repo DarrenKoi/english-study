@@ -647,3 +647,17 @@
   - 예: Two cheap fixes if you want one: cache the lookup, or move it out of the loop.
 - **Nothing left to commit.** — 커밋 요청에 이미 다 커밋돼 있다고 짧게 답한다. `There is` 를 떨어뜨린 꼴이고 뒤에 이유를 과거 시제로 댄다. ≈ All done already. / The tree is already clean. ↔ You have uncommitted changes.
   - 예: Nothing left to commit; the fix went in with yesterday's merge.
+
+## 2026-09-23
+- **knobs with one sensible value** — 조정 가능해 보이지만 정답이 하나뿐인 설정값들. "묻지 말고 기본값으로"의 근거. ≈ settings that only have one right answer. ↔ a genuine per-site decision. [→ daily](../../daily/2026-09-23/new-expressions.md)
+  - 예: Most of those aren't per-equipment decisions; they're knobs with one sensible value.
+- **X it is.** — 상대가 고른 선택지를 "그럼 그걸로" 하고 확정하는 도치. 바로 행동으로 넘어간다. ≈ Going with X, then. ↔ Let's keep both options open.
+  - 예: Defaults approach it is. Let me read the spots that define what init asks.
+- **Say so when you get there and I'll do it.** — 지금은 때가 아닌 후속 작업을 상대의 신호에 맡기며 마무리. ≈ Ping me when you're ready. ↔ I'll go ahead and do it now.
+  - 예: Once letter 18 proves the CLI on real equipment, the spike files can go together. Say so when you get there and I'll do it.
+- **keep the tool from noticing you** — 장비가 눈치채지 못하게 조용히 접근하다. 속도 제한의 목적을 비유로. ≈ stay under the radar / avoid loading the equipment. ↔ hammer the tool.
+  - 예: Pace limits never end a run; they just keep the tool from noticing you.
+- **Same point — already implementing it.** — 상대 말이 방금 지적과 같고 이미 반영 중이라는 두 조각 응답. ≈ Yes, that's the fix I'm on. ↔ That's a separate issue.
+  - 예: Same point — already implementing it. Adding the regression tests for exactly that confusion.
+- **You don't.** — "왜 내가 X 를 해야 하나"에 "안 해도 된다"고 두 단어로 답한다. 질문의 조동사를 그대로 받는다. ≈ There's no need. ↔ You do, and here's why.
+  - 예: "Why do I need to fill in the budgets by hand?" "You don't. Every one of those is a default already."

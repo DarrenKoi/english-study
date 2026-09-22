@@ -1505,3 +1505,27 @@
   - 예: I only read the logs and didn't restart anything; this was a question, not a change request.
 - **be real in the data** — 예외처럼 보이는 경우가 실제 데이터에 있다. 엣지 케이스가 가상의 걱정이 아니라고 반박할 때. ≈ actually occur in the data / show up in production. ↔ purely hypothetical.
   - 예: Negative durations are real in the data, because some devices report their end time before their start time.
+
+## 2026-09-23
+- **This one I want to push back on before touching anything** — 실행 전에 이의부터 내겠다는 예고. 목적어를 문두로 끌어내 "이것만은"을 강조한다. ≈ I'd like to challenge this before we proceed. ↔ Consider it done. [→ daily](../../daily/2026-09-23/new-expressions.md)
+  - 예: This one I want to push back on before touching anything, because it reverses the one rule the whole safety design hangs on.
+- **the one rule the whole design hangs on** — 설계 전체가 걸려 있는 단 하나의 규칙. `hang on` = 거기에 달려 있다. ≈ the linchpin of the design. ↔ a nice-to-have.
+  - 예: Letting the agent run init reverses the one rule the whole safety design hangs on.
+- **The reason isn't ceremony** — 이 규칙은 형식 절차가 아니라 실질적 이유에서 나왔다. 콜론 뒤에 진짜 이유가 온다. ≈ It's not a formality. ↔ pure ceremony.
+  - 예: The reason isn't ceremony: an IP that reaches the agent sits in its transcript forever.
+- **a design change, not a convenience** — 편의 기능이 아니라 설계 변경이다. 요청의 등급을 다시 매기는 `A, not B`. ≈ this changes the contract. ↔ a quality-of-life tweak.
+  - 예: If you still want the agent to drive it, that is a design change, not a convenience.
+- **take (someone) at their word** — 상대 말을 검증 없이 액면 그대로 믿고 진행하다. 보고문에서는 `taken at your word that …` 로 줄인다. ≈ going by what you said. ↔ verify independently.
+  - 예: I've taken you at your word that the harness owns the LLM config, so init never prompts for it.
+- **make it sound like a step** — 문구가 마치 해야 할 단계처럼 들리게 하다. 잘못이 기능이 아니라 말투에 있었다고 좁힌다. ≈ gives the wrong impression. ↔ states it plainly.
+  - 예: Every one of those is a default already; the wording I left makes it sound like a step.
+- **Two things to know:** — 완료 보고 끝에 알아 둘 부수 사실 두 가지를 묶는 소제목. ≈ Two things to note: / A couple of caveats: ↔ Nothing else to report.
+  - 예: Two things to know: letter 02's hash changed, and nothing is staged or committed yet.
+- **the point of X is proving A, not tuning B** — X 단계의 목적을 다시 세워 엉뚱한 데 공들이지 않게 한다. ≈ X exists to prove A.
+  - 예: Use any budgets big enough to cover the fixture; the point of stage 1 is proving the CLI, not tuning limits.
+- **Worth confirming X before building either.** — 두 후보 중 무엇을 만들든 그 전에 X 부터 확인하자. `It is` 를 떨어뜨린 권고. ≈ I'd verify X first. ↔ build both and see which sticks.
+  - 예: Worth confirming the mode-mismatch theory on one real fail before building either actuator.
+- **The safety story moved rather than vanished.** — 안전 장치는 사라진 게 아니라 자리를 옮겼다. 다음 문장에서 옮겨 간 위치를 설명해야 한다. ≈ the guarantee is narrower but intact. ↔ the guarantee is gone.
+  - 예: The safety story moved rather than vanished: the only facts the agent may carry are exactly the init flags.
+- **is precisely the flow the spec forbids** — 그게 바로 명세가 금지하는 흐름이다. 상대 제안을 따옴표로 세운 뒤 붙인다. ≈ runs directly against the spec. ↔ is squarely within the spec.
+  - 예: "Let the LLM ask me for the IP and fill it in" is precisely the flow the spec forbids.
