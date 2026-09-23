@@ -661,3 +661,19 @@
   - 예: Same point — already implementing it. Adding the regression tests for exactly that confusion.
 - **You don't.** — "왜 내가 X 를 해야 하나"에 "안 해도 된다"고 두 단어로 답한다. 질문의 조동사를 그대로 받는다. ≈ There's no need. ↔ You do, and here's why.
   - 예: "Why do I need to fill in the budgets by hand?" "You don't. Every one of those is a default already."
+
+## 2026-09-24
+- **Short answer: not for X.** — 결론부터 던지는 머리말. `not for` 로 "이 용도로는 아니다"라고 범위를 좁힌다. ≈ In a word, no. / Bottom line: … ↔ It's complicated — let me walk through it. [→ daily](../../daily/2026-09-24/new-expressions.md)
+  - 예: Short answer: not for the equipment file stores themselves.
+- **find its way around** — 낯선 코드베이스·장소에서 길을 찾아다니다. 소유격은 주어에 맞춘다. ≈ get one's bearings. ↔ get lost in. [→ daily](../../daily/2026-09-24/new-expressions.md)
+  - 예: The execution agent could use graphify to find its way around its own build.
+- **the only takeaway** — 긴 검토 끝에 건질 건 그것 하나뿐. ≈ the one thing worth keeping. [→ daily](../../daily/2026-09-24/new-expressions.md)
+  - 예: Yes, that's the only takeaway, and the spec already has it as `observed_vs_inferred`.
+- **Direction change noted** — 상대가 방향을 바꿨을 때 짧게 접수하고 다음 행동으로. 대시 뒤에 바뀐 내용을 요약. ≈ Got it, switching over. [→ daily](../../daily/2026-09-24/new-expressions.md)
+  - 예: Direction change noted — dropping herdr, going pi-only.
+- **Now the riskiest part —** — 진행 보고에서 가장 위험한 단계를 예고. `Now the real test —` 와 같은 틀. ≈ Here's where it could go wrong. [→ daily](../../daily/2026-09-24/new-expressions.md)
+  - 예: Now the riskiest part — parallel fan-out with the `--wait` race.
+- **irrelevant to X anyway** — 못 한 검사가 이번 변경과 무관하다고 덧붙이는 조각. ≈ moot for this diff. ↔ essential for this change. [→ daily](../../daily/2026-09-24/new-expressions.md)
+  - 예: I didn't run the transport check — irrelevant to a docs-only diff anyway.
+- **This changes the answer.** — 새 사실 때문에 앞선 권고를 뒤집는다. 사실을 주어로 세운다. ≈ Well, that changes things. ↔ That doesn't change anything. [→ daily](../../daily/2026-09-24/new-expressions.md)
+  - 예: This changes the answer — pi-subagents already does most of what I hand-rolled.

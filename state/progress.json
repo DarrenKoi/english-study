@@ -830,7 +830,15 @@
     "-Users-daeyoung-Codes-pm-notes-orchestration/ab89c04d-f50a-4f44-9e17-bd685c7383e8.jsonl": 14,
     "-Users-daeyoung-Codes-pm-notes-orchestration/e66b9f4a-aecf-48a3-9a32-6c06781caf93.jsonl": 13,
     "-Users-daeyoung-Codes-pm-notes-orchestration/2d4ed77b-f7cb-4755-9aae-5e22bb673aab.jsonl": 42,
-    "-Users-daeyoung-Codes-auto-recipe-creator/9530f7ff-1875-4986-8dca-f1cba5163f4a.jsonl": 23
+    "-Users-daeyoung-Codes-auto-recipe-creator/9530f7ff-1875-4986-8dca-f1cba5163f4a.jsonl": 23,
+    "-Users-daeyoung-Codes-equipment-data-map/eaa60e63-c914-47e7-b47a-0b661440faff.jsonl": 640,
+    "-Users-daeyoung-Codes-equipment-data-map/8d1ca774-ec02-43a2-9206-2d6e991717b4.jsonl": 15,
+    "-Users-daeyoung-Codes-english-study/23a0f792-eb3f-4458-86ec-7f5628422eee.jsonl": 217,
+    "-Users-daeyoung-Codes-equipment-data-map/cb47a337-e618-4551-b307-9d283aafc712.jsonl": 102,
+    "-Users-daeyoung-Codes-pm-notes/461afad0-0863-4c92-a0e2-0d238daa18d8.jsonl": 2858,
+    "-Users-daeyoung-Codes-equipment-data-map/50bde3b5-7286-4fc3-8b9b-02af4a860309.jsonl": 160,
+    "-Users-daeyoung-Codes-english-study/1e0ec6f1-02f9-42d1-bcc4-48c5f3547f8a.jsonl": 335,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/fce847a6-221a-4578-beda-835a8aa43f20.jsonl": 23
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1317,7 +1325,7 @@
     "llm_serving/docs/01-runtime-layout-and-capacity.md": "llm_serving/docs/01-runtime-layout-and-capacity.md:1789133557.9054632:4551",
     "skewnono_v3_nuxt/docs/progress_report/skewnono_page_catalog_2026-09-03.md": "skewnono_v3_nuxt/docs/progress_report/skewnono_page_catalog_2026-09-03.md:1788419991.1059644:5811",
     "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-03-E-yolo-and-learned-matcher-feasibility.md": "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-03-E-yolo-and-learned-matcher-feasibility.md:1788419369.2714202:59080",
-    "equipment-data-map/docs/architecture/equipment-data-map.md": "equipment-data-map/docs/architecture/equipment-data-map.md:1790065721.2074268:123859",
+    "equipment-data-map/docs/architecture/equipment-data-map.md": "equipment-data-map/docs/architecture/equipment-data-map.md:1790117010.3949711:122545",
     "equipment-data-map/ftp_handler/docs/adr/0001-proxy-batch-sizing.md": "equipment-data-map/ftp_handler/docs/adr/0001-proxy-batch-sizing.md:1788610962.0432134:3349",
     "auto_recipe_creator/docs/align_point_from_cond.md": "auto_recipe_creator/docs/align_point_from_cond.md:1788595090.721349:15008",
     "auto_recipe_creator/poc/workflow_3/docs/runbooks/vlm_service_change_office_checklist.md": "auto_recipe_creator/poc/workflow_3/docs/runbooks/vlm_service_change_office_checklist.md:1788592139.2836466:4930",
@@ -1351,7 +1359,7 @@
     "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-13-sem-align-dl-start-guide.md": "auto_recipe_creator/poc/workflow_2/docs/study/research/2026-09-13-sem-align-dl-start-guide.md:1789257854.6024635:34689",
     "auto_recipe_creator/poc/workflow_3/docs/study/align_display_scale_contract_260913.md": "auto_recipe_creator/poc/workflow_3/docs/study/align_display_scale_contract_260913.md:1789253415.9380925:5836",
     "equipment-data-map/docs/plans/2026-09-13-incremental-improvements.md": "equipment-data-map/docs/plans/2026-09-13-incremental-improvements.md:1789435018.7726808:6676",
-    "equipment-data-map/docs/architecture/equipment-data-parser-llm-behavior.md": "equipment-data-map/docs/architecture/equipment-data-parser-llm-behavior.md:1790065713.0155585:11473",
+    "equipment-data-map/docs/architecture/equipment-data-parser-llm-behavior.md": "equipment-data-map/docs/architecture/equipment-data-parser-llm-behavior.md:1790117185.174138:11473",
     "auto_recipe_creator/docs/research/2026-09-15-qwen3.8-27b-vision-recovery.md": "auto_recipe_creator/docs/research/2026-09-15-qwen3.8-27b-vision-recovery.md:1789468436.5153627:24726",
     "equipment-data-map/docs/research/2026-09-15-agent-framework-and-data-format.md": "equipment-data-map/docs/research/2026-09-15-agent-framework-and-data-format.md:1789434006.6352863:67823",
     "equipment-data-map/docs/architecture/repository-purpose.md": "equipment-data-map/docs/architecture/repository-purpose.md:1789936602.0404007:5819",
@@ -1369,5 +1377,5 @@
     "equipment-data-map/docs/journals/260921/260921_192336_architecture-doc-review-and-office-refresh.md": "equipment-data-map/docs/journals/260921/260921_192336_architecture-doc-review-and-office-refresh.md:1789986275.4037886:9084",
     "auto_recipe_creator/poc/workflow_3/docs/specs/align_correction_methodology_260921.md": "auto_recipe_creator/poc/workflow_3/docs/specs/align_correction_methodology_260921.md:1790053641.673301:17363"
   },
-  "last_run": "2026-09-23"
+  "last_run": "2026-09-24"
 }

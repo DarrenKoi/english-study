@@ -1271,3 +1271,19 @@
   - 예: This is the classic "is it set?" vs "is it non-empty?" split, and only the client author knew about it.
 - **a stale belief in the code** — 코드 주석·분기가 품고 있던, 이제는 틀린 전제. 사람 아닌 시점 문제로 만든다. ≈ an outdated assumption. ↔ a current, verified assumption.
   - 예: Your correction also fixed a stale belief in the code: a comment said msr cond has no Scope, so the parser never checked it.
+
+## 2026-09-24
+- **worked out by a fixed rule** — 원문에 적힌 게 아니라 규칙으로 도출된. `derived` 의 구어판. ≈ derived by rule. ↔ read directly from the file. [→ daily](../../daily/2026-09-24/new-expressions.md)
+  - 예: graphify's `INFERRED` means worked out by a fixed rule, not written in the source.
+- **said so itself rather than faking it** — 에이전트가 못 하는 일을 꾸며내지 않고 스스로 보고했다. ≈ admitted it instead of making something up. ↔ papered over it. [→ daily](../../daily/2026-09-24/new-expressions.md)
+  - 예: The reviewer can't write files, and the agent said so itself rather than faking it.
+- **It would silently not apply.** — 잘못된 자리의 설정이 오류 없이 무시된다. ≈ be ignored without a warning. ↔ fail loudly. [→ daily](../../daily/2026-09-24/new-expressions.md)
+  - 예: `timeoutMs` is a config.json key; in settings.json it would silently not apply.
+- **Filesystem as the bus, terminal as the view.** — 동사 없는 병렬 표어로 설계 원칙 요약. 데이터는 파일로, 터미널은 보기용. [→ daily](../../daily/2026-09-24/new-expressions.md)
+  - 예: Worker output must go to files, not scrollback. Filesystem as the bus, terminal as the view.
+- **deletes an entire class of X** — 설계 하나로 특정 유형의 코드·버그가 통째로 사라진다. ≈ eliminates a whole category of. ↔ adds another layer of. [→ daily](../../daily/2026-09-24/new-expressions.md)
+  - 예: Herdr resolves agents by name, so an orchestrator needs no state file; that deletes an entire class of bookkeeping code.
+- **It keeps what still passes.** — 재빌드가 통과한 부분은 유지한다는 안심. ≈ it only redoes what broke. ↔ it starts from scratch. [→ daily](../../daily/2026-09-24/new-expressions.md)
+  - 예: The agent will redo letters 02, 03, 12 and 14, but it keeps what still passes and rebuilds only the parts that changed.
+- **echo (something) back** — 입력을 출력에 그대로 되돌려 보여 주다. ≈ repeat back. [→ daily](../../daily/2026-09-24/new-expressions.md)
+  - 예: `pi --list-models` echoes the query back in its "No models matching" message, so the grep matched itself.

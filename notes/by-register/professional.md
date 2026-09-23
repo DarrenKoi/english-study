@@ -1529,3 +1529,19 @@
   - 예: The safety story moved rather than vanished: the only facts the agent may carry are exactly the init flags.
 - **is precisely the flow the spec forbids** — 그게 바로 명세가 금지하는 흐름이다. 상대 제안을 따옴표로 세운 뒤 붙인다. ≈ runs directly against the spec. ↔ is squarely within the spec.
   - 예: "Let the LLM ask me for the IP and fill it in" is precisely the flow the spec forbids.
+
+## 2026-09-24
+- **One idea from it is worth borrowing, though.** — 도구는 통째로 안 쓰지만 발상 하나는 가져오자. `worth + 동명사`, `borrow` 는 개념만 빌린다는 뉘앙스. ≈ there's one thing we could take from it. ↔ nothing in it applies to us. [→ daily](../../daily/2026-09-24/new-expressions.md)
+  - 예: We won't adopt the tool, but one idea from it is worth borrowing, though: tagging every edge as extracted or inferred.
+- **leave it out until someone asks for it** — 있으면 좋은 기능을 실제 요구가 올 때까지 빼 두자(YAGNI). ≈ park it until there's demand. ↔ build it in up front. [→ daily](../../daily/2026-09-24/new-expressions.md)
+  - 예: A clickable graph view is a nice-to-have, so leave it out until reviewers ask for it.
+- **read X as proof that …** — 약한 신호를 확실한 증거로 오해하다. `start reading` 이면 "그렇게 오해하기 시작하면". ≈ take X as evidence that. ↔ treat X as a hint. [→ daily](../../daily/2026-09-24/new-expressions.md)
+  - 예: If reviewers start reading `similar_name` as proof that two families are related, the fix would be a third value such as `derived`.
+- **Don't build it until X shows the gap.** — 실제 결과로 빈틈이 드러나기 전엔 만들지 말자. 증거가 먼저, 구현은 나중. ≈ cross that bridge when we come to it. ↔ build it pre-emptively. [→ daily](../../daily/2026-09-24/new-expressions.md)
+  - 예: It needs no new dependency. Don't build it until that rollout shows the gap.
+- **That last fact decides the architecture.** — 사실을 주어로 세워 결정이 객관적으로 들리게 한다. ≈ the architecture hinges on that. [→ daily](../../daily/2026-09-24/new-expressions.md)
+  - 예: `agent read` returns raw terminal text, not JSON — that last fact decides the architecture.
+- **What this costs:** — 변경 보고에서 대가·부작용을 묶는 소제목. ≈ Trade-offs: / The downside: ↔ What we gain: [→ daily](../../daily/2026-09-24/new-expressions.md)
+  - 예: What this costs: the first time the company LLM interprets anything is on real equipment samples.
+- **One thing works differently from what I first described** — 계획과 결과가 다른 점을 스스로 먼저 밝히는 완료 보고의 틀. ≈ One deviation from the plan. [→ daily](../../daily/2026-09-24/new-expressions.md)
+  - 예: One thing works differently from what I first described: the CLI still has `stage 1` and `stage 2` commands.
