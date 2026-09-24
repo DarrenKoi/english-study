@@ -1545,3 +1545,25 @@
   - 예: What this costs: the first time the company LLM interprets anything is on real equipment samples.
 - **One thing works differently from what I first described** — 계획과 결과가 다른 점을 스스로 먼저 밝히는 완료 보고의 틀. ≈ One deviation from the plan. [→ daily](../../daily/2026-09-24/new-expressions.md)
   - 예: One thing works differently from what I first described: the CLI still has `stage 1` and `stage 2` commands.
+
+## 2026-09-25
+- **One decision I made for you:** — 맡긴 일 중 확인 없이 내가 정한 부분을 보고서에서 먼저 밝힌다. 되돌릴 길을 함께 열어 둔다. ≈ One call I made without asking. ↔ I'll leave that decision to you. [→ daily](../../daily/2026-09-25/new-expressions.md)
+  - 예: One decision I made for you: removing PM 튜닝 also takes the Up gate card, the pm_planning fetch and the Hold stat off this page.
+- **the smallest honest place (for X) is …** — 되살린다면 변경은 가장 작고 동작을 속이지 않는 자리. ≈ the least invasive spot. ↔ a bolt-on. [→ daily](../../daily/2026-09-25/new-expressions.md)
+  - 예: If you want it back, the smallest honest place is inside the 튜닝 목표 card for the clicked tool.
+- **so I have a real position to argue from** — 토론 전에 사실 근거를 먼저 챙기는 이유. 전치사 `from` 이 끝에 남는다. ≈ so I'm arguing from facts. ↔ argue from thin air. [→ daily](../../daily/2026-09-25/new-expressions.md)
+  - 예: Before opening Codex I need the current layout on record, so I have a real position to argue from.
+- **Where X changed my mind** — 토론 정리에서 상대에게 설득된 지점을 세우는 소제목. ≈ Points I conceded. ↔ Where I held my ground. [→ daily](../../daily/2026-09-25/new-expressions.md)
+  - 예: Where Codex changed my mind: "the file exists" isn't enough to skip a download.
+- **solve different problems** — 비슷해 보이는 두 방안이 실은 다른 문제를 푼다고 갈라 말한다. ≈ address separate concerns. ↔ do the same job. [→ daily](../../daily/2026-09-25/new-expressions.md)
+  - 예: The old SHA dedup and your "skip if already downloaded" solve different problems.
+- **The drift is already real.** — 중복된 사본이 어긋날 거라는 걱정이 이미 현실이라고 짚는다. ≈ the copies already disagree. ↔ it's only a theoretical risk. [→ daily](../../daily/2026-09-25/new-expressions.md)
+  - 예: The drift is already real: `spike.py` keeps whichever directory is visited first, not the first in code point order.
+- **only if that X proves awkward in practice** — 실제로 써 보고 불편이 드러날 때만 만들자. `prove + 형용사`. ≈ should it prove cumbersome. ↔ just in case. [→ daily](../../daily/2026-09-25/new-expressions.md)
+  - 예: Add a dedicated method only if that call shape proves awkward in practice.
+- **What's really being counted is X, not Y.** — 지표가 겉과 달리 실제로 재는 것을 바로잡는다. ≈ It's really a proxy for X. ↔ It measures exactly what it says. [→ daily](../../daily/2026-09-25/new-expressions.md)
+  - 예: What's really being counted is how often people entered e-beam, not how often they used 장비 상태.
+- **nearly impossible in practice. Still, …** — 확률은 낮다고 인정하고 원칙을 근거로 고칠 이유를 댄다. ≈ vanishingly unlikely. ↔ bound to happen sooner or later. [→ daily](../../daily/2026-09-25/new-expressions.md)
+  - 예: It's nearly impossible in practice. Still, the Episode files are meant never to be deleted.
+- **That tension is the whole decision.** — 양 극단의 부작용을 보인 뒤 판단의 핵심을 한 문장으로 요약한다. ≈ That trade-off is the crux. ↔ There's no real trade-off here. [→ daily](../../daily/2026-09-25/new-expressions.md)
+  - 예: Push too little down and the top bloats; push too much and you hide material the agent needs. That tension is the whole decision.

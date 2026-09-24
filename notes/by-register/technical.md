@@ -1287,3 +1287,19 @@
   - 예: The agent will redo letters 02, 03, 12 and 14, but it keeps what still passes and rebuilds only the parts that changed.
 - **echo (something) back** — 입력을 출력에 그대로 되돌려 보여 주다. ≈ repeat back. [→ daily](../../daily/2026-09-24/new-expressions.md)
   - 예: `pi --list-models` echoes the query back in its "No models matching" message, so the grep matched itself.
+
+## 2026-09-25
+- **a rewiring job and a deletion job** — 새 로직 없이 연결만 바꾸고 지우는 작업이라고 성격을 규정한다. ≈ mostly plumbing. ↔ a from-scratch build. [→ daily](../../daily/2026-09-25/new-expressions.md)
+  - 예: Making the tuning reactive is a rewiring job and a deletion job; no new math is needed.
+- **"X" isn't enough to Y.** — 상대의 단순한 조건을 따옴표로 세워 판단 근거로 부족하다고 반박한다. ≈ necessary but not sufficient. ↔ reason enough. [→ daily](../../daily/2026-09-25/new-expressions.md)
+  - 예: "The file exists" isn't enough to skip: a half-finished download also exists.
+- **a pass-through, not a reimplementation** — 중계 계층이 로직을 새로 짜지 않고 원 구현을 호출할 뿐이다. ≈ a thin wrapper. ↔ a parallel implementation. [→ daily](../../daily/2026-09-25/new-expressions.md)
+  - 예: The proxy route just calls the direct class's `size_dirs`, so the proxy is a pass-through, not a reimplementation.
+- **fail loudly instead of silently** — 문제를 조용히 넘기지 않고 드러나게 실패하다. `make X fail loudly`. ≈ fail fast. ↔ slip through unnoticed. [→ daily](../../daily/2026-09-25/new-expressions.md)
+  - 예: The shared Protocol is what makes a signature drift fail loudly instead of silently.
+- **Don't fork into X. Fix it in place.** — 복제본을 만들지 말고 기존 코드를 제자리에서 고치자. ≈ Keep a single codebase. ↔ Start a fresh copy. [→ daily](../../daily/2026-09-25/new-expressions.md)
+  - 예: Don't fork into `workflow_3_deploy`. Fix it in place.
+- **patches around this problem** — 근본 원인을 고치지 않고 우회해 땜질하다. ≈ works around it. ↔ fixes the root cause. [→ daily](../../daily/2026-09-25/new-expressions.md)
+  - 예: `monitor/cycle_images.py` already patches around this problem by copying images after each cycle.
+- **an optimization nobody has needed yet** — 리뷰 제안 중 성능 개선을 건너뛴 이유. `yet` 이 나중 가능성을 열어 둔다. ≈ not a bottleneck today. ↔ a known bottleneck. [→ daily](../../daily/2026-09-25/new-expressions.md)
+  - 예: Caching extraction for identical files was skipped as an optimization nobody has needed yet.

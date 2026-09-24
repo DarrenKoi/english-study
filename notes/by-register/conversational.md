@@ -677,3 +677,15 @@
   - 예: I didn't run the transport check — irrelevant to a docs-only diff anyway.
 - **This changes the answer.** — 새 사실 때문에 앞선 권고를 뒤집는다. 사실을 주어로 세운다. ≈ Well, that changes things. ↔ That doesn't change anything. [→ daily](../../daily/2026-09-24/new-expressions.md)
   - 예: This changes the answer — pi-subagents already does most of what I hand-rolled.
+
+## 2026-09-25
+- **I think you're right to question it.** — 상대 의문이 타당하다고 먼저 인정한다. `be right to + 동사`. ≈ Good instinct. ↔ I don't think that's a concern. [→ daily](../../daily/2026-09-25/new-expressions.md)
+  - 예: I think you're right to question it: every time someone picks a tool on home, 장비 상태 gets counted.
+- **The data is already there; what's missing is X.** — 수집은 되고 있고 보여 줄 수단만 없다고 범위를 좁힌다. ≈ We already capture it; we just don't surface it. ↔ We'd have to start logging it first. [→ daily](../../daily/2026-09-25/new-expressions.md)
+  - 예: Yes. The data is already there; what's missing is a screen that shows it.
+- **"Who" really means "whose X"** — 질문 속 단어의 실제 의미를 한 단어 바꿔치기로 바로잡는다. ≈ Strictly speaking, X is Y. [→ daily](../../daily/2026-09-25/new-expressions.md)
+  - 예: "Who" really means "whose token": a token shared with a colleague still shows up under the owner.
+- **so one tool can't hog X** — 하나가 공유 자원을 독차지하지 못하게. `hog` 는 구어, 문서체는 `monopolize`. ≈ starve the others. ↔ take turns. [→ daily](../../daily/2026-09-25/new-expressions.md)
+  - 예: Tools that fail go into a 300s cooldown, so one tool can't hog the RCS cursor.
+- **which I don't think is worth it** — 대책이 있지만 비용 대비 가치가 없다는 판단을 덧붙인다. 부정은 `think` 쪽에. ≈ which I'd skip. ↔ which is well worth doing. [→ daily](../../daily/2026-09-25/new-expressions.md)
+  - 예: Fixing that would mean tagging output per thread, which I don't think is worth it.

@@ -8,6 +8,8 @@
 - [a later exercise](daily/2026-09-15/new-expressions.md) — 2026-09-15
 - [a letter, not an edit](daily/2026-09-19/new-expressions.md) — 2026-09-19
 - [a lookup table nobody maintains](daily/2026-09-15/new-expressions.md) — 2026-09-15
+- [a pass-through, not a reimplementation](daily/2026-09-25/new-expressions.md) — 2026-09-25
+- [a rewiring job and a deletion job](daily/2026-09-25/new-expressions.md) — 2026-09-25
 - ["A" and "B" are separate claims](daily/2026-08-03/new-expressions.md) — 2026-08-03
 - [a band-aid](daily/2026-08-12/new-expressions.md) — 2026-08-12
 - [a blanket try/except](daily/2026-07-21/new-expressions.md) — 2026-07-21
@@ -192,6 +194,7 @@
 - [an open redirect](daily/2026-08-01/new-expressions.md) — 2026-08-01
 - [an operational interpretation, not a claim that ...](daily/2026-09-05/new-expressions.md) — 2026-09-05
 - [an opportune moment to (do X)](daily/2026-08-26/new-expressions.md) — 2026-08-26
+- [an optimization nobody has needed yet](daily/2026-09-25/new-expressions.md) — 2026-09-25
 - [an orphan (nothing reads it)](daily/2026-07-21/new-expressions.md) — 2026-07-21
 - [an orphan-clear window, NOT a runtime budget](daily/2026-08-27/new-expressions.md) — 2026-08-27
 - [an unreadable pile](daily/2026-08-18/new-expressions.md) — 2026-08-18
@@ -453,6 +456,7 @@
 - [Don't build it until X shows the gap.](daily/2026-09-24/new-expressions.md) — 2026-09-24
 - [don't couple X to Y](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [don't fail the rest](daily/2026-09-13/new-expressions.md) — 2026-09-13
+- [Don't fork into X. Fix it in place.](daily/2026-09-25/new-expressions.md) — 2026-09-25
 - [Don't invent jobs.](daily/2026-08-10/new-expressions.md) — 2026-08-10
 - [don't over-read (it)](daily/2026-07-11/new-expressions.md) — 2026-07-11
 - [double-shifted](daily/2026-09-02/new-expressions.md) — 2026-09-02
@@ -500,6 +504,7 @@
 - [eyeball it](daily/2026-07-20/new-expressions.md) — 2026-07-20
 - [fabless](daily/2026-09-02/new-expressions.md) — 2026-09-02
 - [fail loudly (with actionable messages)](daily/2026-07-21/new-expressions.md) — 2026-07-21
+- [fail loudly instead of silently](daily/2026-09-25/new-expressions.md) — 2026-09-25
 - [fail open / fail closed](daily/2026-07-18/new-expressions.md) — 2026-07-18
 - [fail partway through](daily/2026-09-20/new-expressions.md) — 2026-09-20
 - [fail spuriously](daily/2026-07-23/new-expressions.md) — 2026-07-23
@@ -633,6 +638,7 @@
 - [I left it alone.](daily/2026-08-24/new-expressions.md) — 2026-08-24
 - [I now have a complete picture](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [I read X as Y](daily/2026-09-18/new-expressions.md) — 2026-09-18
+- [I think you're right to question it.](daily/2026-09-25/new-expressions.md) — 2026-09-25
 - [I want evidence before making that trade.](daily/2026-08-23/new-expressions.md) — 2026-08-23
 - [I'd keep it to a page.](daily/2026-09-17/new-expressions.md) — 2026-09-17
 - [idempotent](daily/2026-07-18/new-expressions.md) — 2026-07-18
@@ -817,6 +823,7 @@
 - [Mystery solved](daily/2026-07-22/new-expressions.md) — 2026-07-22
 - [nail down (the ordering)](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [names the thing it removes](daily/2026-09-22/new-expressions.md) — 2026-09-22
+- [nearly impossible in practice. Still, …](daily/2026-09-25/new-expressions.md) — 2026-09-25
 - [necessary but not sufficient](daily/2026-07-13/new-expressions.md) — 2026-07-13
 - [negligible (the risk is negligible)](daily/2026-07-14/new-expressions.md) — 2026-07-14
 - [neither card needs to know how wide it is](daily/2026-09-14/new-expressions.md) — 2026-09-14
@@ -885,6 +892,7 @@
 - [One change, one measurement.](daily/2026-08-13/new-expressions.md) — 2026-08-13
 - [(one consequence) fell out of the move](daily/2026-08-28/new-expressions.md) — 2026-08-28
 - [One consequence worth stating plainly](daily/2026-08-09/new-expressions.md) — 2026-08-09
+- [One decision I made for you:](daily/2026-09-25/new-expressions.md) — 2026-09-25
 - [one fat-fingered command away](daily/2026-09-17/new-expressions.md) — 2026-09-17
 - [one feature reading as two](daily/2026-08-07/new-expressions.md) — 2026-08-07
 - [One fork I don't want to guess on](daily/2026-08-26/new-expressions.md) — 2026-08-26
@@ -903,6 +911,7 @@
 - [one word means one thing across both tables](daily/2026-08-28/new-expressions.md) — 2026-08-28
 - [one-for-one](daily/2026-09-21/new-expressions.md) — 2026-09-21
 - [one-off fixes unlikely to recur](daily/2026-08-10/new-expressions.md) — 2026-08-10
+- [only if that X proves awkward in practice](daily/2026-09-25/new-expressions.md) — 2026-09-25
 - [only if you're already editing these lines](daily/2026-09-16/new-expressions.md) — 2026-09-16
 - [only nominally kept](daily/2026-08-17/new-expressions.md) — 2026-08-17
 - [only proves the map matches itself](daily/2026-09-20/new-expressions.md) — 2026-09-20
@@ -944,6 +953,7 @@
 - [pass X through (unchanged)](daily/2026-08-08/new-expressions.md) — 2026-08-08
 - [past what (one row) holds](daily/2026-08-28/new-expressions.md) — 2026-08-28
 - [patch-equivalent](daily/2026-08-15/new-expressions.md) — 2026-08-15
+- [patches around this problem](daily/2026-09-25/new-expressions.md) — 2026-09-25
 - [pay off (the fix paid off)](daily/2026-07-11/new-expressions.md) — 2026-07-11
 - [per the (pathspec) rule](daily/2026-08-31/new-expressions.md) — 2026-08-31
 - [per your standing preference](daily/2026-09-05/new-expressions.md) — 2026-09-05
@@ -1146,12 +1156,15 @@
 - [smells like ...](daily/2026-07-22/new-expressions.md) — 2026-07-22
 - [smoke-test](daily/2026-07-30/new-expressions.md) — 2026-07-30
 - [smuggled in by implementation fiat](daily/2026-08-09/new-expressions.md) — 2026-08-09
+- [so I have a real position to argue from](daily/2026-09-25/new-expressions.md) — 2026-09-25
 - [so it cannot be mistaken for X](daily/2026-07-29/new-expressions.md) — 2026-07-29
 - [so it isn't re-asked next session](daily/2026-09-05/new-expressions.md) — 2026-09-05
+- [so one tool can't hog X](daily/2026-09-25/new-expressions.md) — 2026-09-25
 - [so the diagnosis held](daily/2026-09-09/new-expressions.md) — 2026-09-09
 - [so the edits are attributable](daily/2026-09-16/new-expressions.md) — 2026-09-16
 - [so the next incident diagnoses itself](daily/2026-09-19/new-expressions.md) — 2026-09-19
 - [So this is not a stale note.](daily/2026-09-09/new-expressions.md) — 2026-09-09
+- [solve different problems](daily/2026-09-25/new-expressions.md) — 2026-09-25
 - [(something) takes care of itself](daily/2026-07-22/new-expressions.md) — 2026-07-22
 - [sometimes less is more](daily/2026-07-24/new-expressions.md) — 2026-07-24
 - [sounds like a tautology](daily/2026-09-22/new-expressions.md) — 2026-09-22
@@ -1250,6 +1263,7 @@
 - [That rules out X — and it sharpens the diagnosis](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [that settles it](daily/2026-07-11/new-expressions.md) — 2026-07-11
 - [That settles the design.](daily/2026-09-09/new-expressions.md) — 2026-09-09
+- [That tension is the whole decision.](daily/2026-09-25/new-expressions.md) — 2026-09-25
 - [that test was asserting the bug](daily/2026-07-15/new-expressions.md) — 2026-07-15
 - [that write bought nothing](daily/2026-08-09/new-expressions.md) — 2026-08-09
 - [that's a vibe](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -1292,6 +1306,7 @@
 - [the crux (of something)](daily/2026-07-02/new-expressions.md) — 2026-07-02
 - [the dangerous kind of wrong](daily/2026-07-23/new-expressions.md) — 2026-07-23
 - [the data happens to be right, so the code was never asked to be](daily/2026-08-26/new-expressions.md) — 2026-08-26
+- [The data is already there; what's missing is X.](daily/2026-09-25/new-expressions.md) — 2026-09-25
 - [the diagnosis stands](daily/2026-09-11/new-expressions.md) — 2026-09-11
 - [the diff additionally invents (X)](daily/2026-08-28/new-expressions.md) — 2026-08-28
 - [the disciplined move is to X](daily/2026-07-09/new-expressions.md) — 2026-07-09
@@ -1299,6 +1314,7 @@
 - [the docstring describes the old bug as the new behavior](daily/2026-08-23/new-expressions.md) — 2026-08-23
 - [the documented normal case](daily/2026-07-30/new-expressions.md) — 2026-07-30
 - [the done bar](daily/2026-07-18/new-expressions.md) — 2026-07-18
+- [The drift is already real.](daily/2026-09-25/new-expressions.md) — 2026-09-25
 - [the durable record](daily/2026-08-06/new-expressions.md) — 2026-08-06
 - [(the entry) now dangles inside (the prose paragraph)](daily/2026-08-28/new-expressions.md) — 2026-08-28
 - [the error you see is the error path, not the cause](daily/2026-08-04/new-expressions.md) — 2026-08-04
@@ -1370,6 +1386,7 @@
 - [the single highest-leverage thing](daily/2026-07-13/new-expressions.md) — 2026-07-13
 - [the single largest lever available](daily/2026-09-05/new-expressions.md) — 2026-09-05
 - [the (single most likely) culprit](daily/2026-07-09/new-expressions.md) — 2026-07-09
+- [the smallest honest place (for X) is …](daily/2026-09-25/new-expressions.md) — 2026-09-25
 - [the steelman (of an argument)](daily/2026-08-17/new-expressions.md) — 2026-08-17
 - [the system's own case law](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [the tail is just hook noise](daily/2026-09-13/new-expressions.md) — 2026-09-13
@@ -1498,16 +1515,20 @@
 - [what separates A from B](daily/2026-09-12/new-expressions.md) — 2026-09-12
 - [what stands between A and B](daily/2026-07-31/new-expressions.md) — 2026-07-31
 - [What this costs:](daily/2026-09-24/new-expressions.md) — 2026-09-24
+- [What's really being counted is X, not Y.](daily/2026-09-25/new-expressions.md) — 2026-09-25
 - [when a one-liner suffices](daily/2026-08-10/new-expressions.md) — 2026-08-10
 - [when X is evidence](daily/2026-08-10/new-expressions.md) — 2026-08-10
 - [where git does not reach](daily/2026-09-08/new-expressions.md) — 2026-09-08
 - [Where I disagree:](daily/2026-09-21/new-expressions.md) — 2026-09-21
 - [where my head was](daily/2026-09-20/new-expressions.md) — 2026-09-20
 - [where this skill earns its keep](daily/2026-08-27/new-expressions.md) — 2026-08-27
+- [Where X changed my mind](daily/2026-09-25/new-expressions.md) — 2026-09-25
+- [which I don't think is worth it](daily/2026-09-25/new-expressions.md) — 2026-09-25
 - [which is expected, not a regression](daily/2026-09-08/new-expressions.md) — 2026-09-08
 - [which is worse than never](daily/2026-09-01/new-expressions.md) — 2026-09-01
 - [whichever way that goes](daily/2026-08-08/new-expressions.md) — 2026-08-08
 - [while looking like tidying up](daily/2026-08-18/new-expressions.md) — 2026-08-18
+- ["Who" really means "whose X"](daily/2026-09-25/new-expressions.md) — 2026-09-25
 - [Whoever went first, no interleaving](daily/2026-09-14/new-expressions.md) — 2026-09-14
 - [whose entire job is X](daily/2026-08-25/new-expressions.md) — 2026-08-25
 - [why on earth …?](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -1546,6 +1567,7 @@
 - [X beats Y (Turn count beats token price)](daily/2026-07-14/new-expressions.md) — 2026-07-14
 - [X buys A and costs B](daily/2026-09-01/new-expressions.md) — 2026-09-01
 - [X by nature](daily/2026-09-16/new-expressions.md) — 2026-09-16
+- ["X" isn't enough to Y.](daily/2026-09-25/new-expressions.md) — 2026-09-25
 - [(X) can then go](daily/2026-09-21/new-expressions.md) — 2026-09-21
 - [X clears the precondition](daily/2026-09-05/new-expressions.md) — 2026-09-05
 - [X comes from A, not from B itself](daily/2026-07-27/new-expressions.md) — 2026-07-27
