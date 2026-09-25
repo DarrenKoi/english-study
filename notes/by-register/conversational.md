@@ -689,3 +689,18 @@
   - 예: Tools that fail go into a 300s cooldown, so one tool can't hog the RCS cursor.
 - **which I don't think is worth it** — 대책이 있지만 비용 대비 가치가 없다는 판단을 덧붙인다. 부정은 `think` 쪽에. ≈ which I'd skip. ↔ which is well worth doing. [→ daily](../../daily/2026-09-25/new-expressions.md)
   - 예: Fixing that would mean tagging output per thread, which I don't think is worth it.
+## 2026-09-26
+- **It's by design.** — 이상해 보이는 동작이 버그가 아니라 설계라고 첫마디에 정리한다. 뒤에 근거를 붙여야 변명이 안 된다. ≈ It's working as intended. ↔ It's a bug. [→ daily](../../daily/2026-09-26/new-expressions.md)
+  - 예: It's by design. The spec and letters require it; the agent didn't choose it.
+- **Mostly yes, with two catches.** — 대체로 맞다고 인정하며 단서 개수를 먼저 밝힌다. ≈ Yes, with a couple of caveats. ↔ Yes, no strings attached. [→ daily](../../daily/2026-09-26/new-expressions.md)
+  - 예: Mostly yes, with two catches. Once stage 4 has run, the wiki is the place to read.
+- **a stray keystroke** — 무심코 잘못 누른 키 하나. 편집 가능한 파일의 사고 위험을 말할 때. ≈ a slip of the finger. ↔ a deliberate edit. [→ daily](../../daily/2026-09-26/new-expressions.md)
+  - 예: Obsidian opens notes ready for editing, so a stray keystroke changes a page.
+- **too minor to churn a commit over** — 흠은 밝히되 커밋을 새로 만들 가치는 없다. `too A to B` 끝에 `over` 가 남는다. ≈ not worth its own commit. ↔ worth a follow-up commit. [→ daily](../../daily/2026-09-26/new-expressions.md)
+  - 예: One imprecision I found in my own code, too minor to churn a commit over: the message misleads when you hit the abort.
+- **the wrong rung to stop at** — 단계적 시험의 사다리에서 지금 멈추기엔 틀린 단계다. ≈ premature at this stage. ↔ the right place to start. [→ daily](../../daily/2026-09-26/new-expressions.md)
+  - 예: It's 3 lines, so no — but it's still the wrong rung to stop at right now.
+- **it cuts harder than I said** — 상대 지적이 내가 인정한 것보다 더 아프게 들어맞는다고 솔직히 인정한다. ≈ I understated it. ↔ it's less of an issue than it looks. [→ daily](../../daily/2026-09-26/new-expressions.md)
+  - 예: That's the same uncertainty I flagged, but Codex is right that it cuts harder than I said.
+- **the request nobody actually maintains** — 그럴듯해도 막상 아무도 관리하지 않게 되는 요청. ≈ sounds good on paper. ↔ a feature people actually use. [→ daily](../../daily/2026-09-26/new-expressions.md)
+  - 예: Per-page sets are the request nobody actually maintains.

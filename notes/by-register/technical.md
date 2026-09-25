@@ -1303,3 +1303,18 @@
   - 예: `monitor/cycle_images.py` already patches around this problem by copying images after each cycle.
 - **an optimization nobody has needed yet** — 리뷰 제안 중 성능 개선을 건너뛴 이유. `yet` 이 나중 가능성을 열어 둔다. ≈ not a bottleneck today. ↔ a known bottleneck. [→ daily](../../daily/2026-09-25/new-expressions.md)
   - 예: Caching extraction for identical files was skipped as an optimization nobody has needed yet.
+## 2026-09-26
+- **Where the time really goes** — 성능 걱정에 답하며 시간이 실제로 드는 곳을 짚는다. `go` 는 "(시간이) 쓰이다". ≈ the real bottleneck. ↔ a negligible cost. [→ daily](../../daily/2026-09-26/new-expressions.md)
+  - 예: Where the time really goes is FTP listing and the LLM calls, not hashing.
+- **The bug was treating X and Y as one thing.** — 버그의 근원이 다른 두 개념을 하나로 취급한 데 있었다고 요약한다. ≈ conflating X and Y. ↔ keeping X and Y separate. [→ daily](../../daily/2026-09-26/new-expressions.md)
+  - 예: The bug was treating the hash form and the file form as one thing.
+- **can go stale by the time X happens** — 미리 한 검사가 실제 동작 시점엔 낡아 있을 수 있다(TOCTOU 를 쉬운 말로). ≈ be out of date by then. ↔ still hold at the moment of use. [→ daily](../../daily/2026-09-26/new-expressions.md)
+  - 예: A check that runs once can go stale by the time the action happens.
+- **load-bearing** — 없애면 무너지는, 실제로 무언가를 떠받치는(내력벽 은유). ≈ doing real work. ↔ vestigial, dead weight. [→ daily](../../daily/2026-09-26/new-expressions.md)
+  - 예: Scroll never got that treatment, so glide is still load-bearing for the wheel.
+- **collapse X and Y into one** — 구별해야 할 두 경우를 하나로 뭉갠 실수를 인정한다. 과거완료 `I'd collapsed` 와 잘 붙는다. ≈ conflate, lump together. ↔ keep the cases distinct. [→ daily](../../daily/2026-09-26/new-expressions.md)
+  - 예: Losing the detector and the screen becoming clear are different events, and I'd collapsed them into one.
+- **distinguishable after the fact** — 지금 막진 못해도 나중에 로그로 원인을 가릴 수 있다. ≈ identifiable in hindsight. ↔ silent. [→ daily](../../daily/2026-09-26/new-expressions.md)
+  - 예: It's distinguishable after the fact: the manifest shows `stop_reason=max_sec` instead of `window_gone`.
+- **the single chokepoint every frame goes through** — 모든 흐름이 반드시 지나는 한 지점이라 검사를 여기 하나만 두면 된다. ≈ the one path everything funnels through. ↔ scattered call sites. [→ daily](../../daily/2026-09-26/new-expressions.md)
+  - 예: The gate sits in `_capture_full_gray()`, the single chokepoint every frame goes through.

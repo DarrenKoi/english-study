@@ -697,7 +697,7 @@
     "-Users-daeyoung-Codes-pm-notes/e1d6146c-523b-4914-b507-79c52c9de4e3.jsonl": 78,
     "-Users-daeyoung-Codes-llm-serving/ffb06fec-c0b1-4ca0-8247-b8377e1f1641.jsonl": 354,
     "-Users-daeyoung-Codes-auto-recipe-creator/1347cda1-e121-4f2c-b612-99f7c286522c.jsonl": 37,
-    "-Users-daeyoung-Codes-equipment-data-map/dc285099-3284-47cc-830b-d8534170fd18.jsonl": 129,
+    "-Users-daeyoung-Codes-equipment-data-map/dc285099-3284-47cc-830b-d8534170fd18.jsonl": 705,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/9fde8af0-b4e8-4fc6-9318-1f865d4cada2.jsonl": 1138,
     "-Users-daeyoung-Codes-llm-serving/0f164de9-5a5a-4c8a-9ba5-46e8385840ba.jsonl": 1358,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/51ce597c-d80c-427f-8911-cc3d57ffa7fa.jsonl": 12,
@@ -846,7 +846,15 @@
     "-Users-daeyoung-Codes-auto-recipe-creator/bb9c1b15-f5ce-4af2-97cb-f1e169f70557.jsonl": 1415,
     "-Users-daeyoung-Codes-auto-recipe-creator/7c5f82e7-2899-4b59-8902-355d27275b9c.jsonl": 804,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/651485a0-41b7-4197-815b-6bb80c0a168f.jsonl": 145,
-    "-Users-daeyoung-Codes-equipment-data-map/4acae591-dec8-469d-8711-66e21a39bf05.jsonl": 103
+    "-Users-daeyoung-Codes-equipment-data-map/4acae591-dec8-469d-8711-66e21a39bf05.jsonl": 103,
+    "-Users-daeyoung-Codes-english-study/963020b8-bfb0-431f-9ff3-9d9373b70c54.jsonl": 235,
+    "-Users-daeyoung-Codes-auto-recipe-creator/0c675a24-6e87-422f-8ed6-2a015334101a.jsonl": 892,
+    "-Users-daeyoung-Codes-equipment-data-map/7457ae2a-50e4-4096-a1fe-c1824a34ff08.jsonl": 1106,
+    "-Users-daeyoung-Codes-auto-recipe-creator/bd5ef69b-5134-4c26-bb1f-90735345babb.jsonl": 652,
+    "-Users-daeyoung-Codes-english-study/b7a97c67-f156-4b61-a61f-481eb2a10a52.jsonl": 214,
+    "-Users-daeyoung-Codes-auto-recipe-creator/98008308-d8b3-469e-be4a-2411dd4a3665.jsonl": 737,
+    "-Users-daeyoung-Codes-auto-recipe-creator/4a7100a5-ca6f-4b9b-8604-49a25dcf4955.jsonl": 1017,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/47fa38c1-cf50-41b2-9fbe-530b5b2680c4.jsonl": 94
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1385,5 +1393,5 @@
     "equipment-data-map/docs/journals/260921/260921_192336_architecture-doc-review-and-office-refresh.md": "equipment-data-map/docs/journals/260921/260921_192336_architecture-doc-review-and-office-refresh.md:1789986275.4037886:9084",
     "auto_recipe_creator/poc/workflow_3/docs/specs/align_correction_methodology_260921.md": "auto_recipe_creator/poc/workflow_3/docs/specs/align_correction_methodology_260921.md:1790053641.673301:17363"
   },
-  "last_run": "2026-09-25"
+  "last_run": "2026-09-26"
 }

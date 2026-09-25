@@ -1567,3 +1567,20 @@
   - 예: It's nearly impossible in practice. Still, the Episode files are meant never to be deleted.
 - **That tension is the whole decision.** — 양 극단의 부작용을 보인 뒤 판단의 핵심을 한 문장으로 요약한다. ≈ That trade-off is the crux. ↔ There's no real trade-off here. [→ daily](../../daily/2026-09-25/new-expressions.md)
   - 예: Push too little down and the top bloats; push too much and you hide material the agent needs. That tension is the whole decision.
+## 2026-09-26
+- **Next to these, X is negligible.** — 진짜 병목을 먼저 보인 뒤 상대가 걱정한 비용은 미미하다고 접는다. `next to` = "~에 비하면". ≈ By comparison, … ↔ X dominates the runtime. [→ daily](../../daily/2026-09-26/new-expressions.md)
+  - 예: Next to these, hashing time is negligible.
+- **X now costs almost nothing** — 아직 확정 전이라 지금 바꾸면 비용이 거의 없다. 시점 부사 `now` 가 핵심. ≈ it's cheap to change at this point. ↔ it'd be expensive to change later. [→ daily](../../daily/2026-09-26/new-expressions.md)
+  - 예: So the format is still open, and switching to OKF now costs almost nothing.
+- **X is a policy decision** — 기술로는 되지만 무엇을 남길지는 사람이 정할 운영 규칙이라고 넘긴다. ≈ a judgment call for the team. ↔ a purely technical call. [→ daily](../../daily/2026-09-26/new-expressions.md)
+  - 예: Deleting recordings is a policy decision because they're also training data.
+- **real but second-order** — 효과는 인정하되 주된 비용에 비하면 부차적이라고 크기를 매긴다. ≈ a minor factor. ↔ first-order. [→ daily](../../daily/2026-09-26/new-expressions.md)
+  - 예: Against VLM locate calls of seconds each, it's real but second-order.
+- **held its position** — 리뷰 논쟁에서 반박을 받고도 입장을 굽히지 않았다. `conceded`, `sharpened it` 과 짝으로 쓴다. ≈ stood its ground. ↔ conceded the point. [→ daily](../../daily/2026-09-26/new-expressions.md)
+  - 예: Codex held its position: a tooling failure isn't evidence of occlusion, but it isn't evidence of clearance either.
+- **the gating question, not a nice-to-have** — 있으면 좋은 확인이 아니라 다음 단계를 막는 관문이 됐다고 격상한다. ≈ a prerequisite. ↔ optional. [→ daily](../../daily/2026-09-26/new-expressions.md)
+  - 예: So the office check is now the gating question, not a nice-to-have.
+- **measure X before and after rather than guessing** — 효과를 추정으로 다투지 말고 전후 수치로 확인하자. ≈ let the numbers decide. ↔ eyeball it. [→ daily](../../daily/2026-09-26/new-expressions.md)
+  - 예: Measure `correction_sec` before and after rather than guessing.
+- **I'd rather confirm that than build X speculatively.** — 근거 없이 미리 만들기보다 사실 확인이 먼저다(YAGNI 의 정중한 버전). `would rather A than B`, 둘 다 동사원형. ≈ I'd hold off until we know. ↔ build it just in case. [→ daily](../../daily/2026-09-26/new-expressions.md)
+  - 예: I'd rather confirm that than build the second detector speculatively.
