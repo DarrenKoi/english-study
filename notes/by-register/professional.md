@@ -1584,3 +1584,19 @@
   - 예: Measure `correction_sec` before and after rather than guessing.
 - **I'd rather confirm that than build X speculatively.** — 근거 없이 미리 만들기보다 사실 확인이 먼저다(YAGNI 의 정중한 버전). `would rather A than B`, 둘 다 동사원형. ≈ I'd hold off until we know. ↔ build it just in case. [→ daily](../../daily/2026-09-26/new-expressions.md)
   - 예: I'd rather confirm that than build the second detector speculatively.
+
+## 2026-09-27
+- **change the question rather than pad the answer** — 모델이 약한 종류의 답에 보정값을 덧대지 말고 묻는 방식을 바꿔라. `rather than` 앞뒤 동사원형 병렬. ≈ reframe the problem. ↔ pile on correction factors. [→ daily](../../daily/2026-09-27/new-expressions.md)
+  - 예: When a model is unreliable at one kind of answer, change the question rather than pad the answer.
+- **a deliberate trade** — 알고 고른 절충. `but it has a weak point` 를 붙여 방어와 인정을 한 문장에 담는다. ≈ a conscious trade-off. ↔ an oversight. [→ daily](../../daily/2026-09-27/new-expressions.md)
+  - 예: That is a deliberate trade, but it has a weak point.
+- **in order of likelihood** — 가능성이 높은 순서대로. 원인 후보 목록을 열기 전에 정렬 기준을 밝힌다. ≈ from most to least likely. ↔ in no particular order. [→ daily](../../daily/2026-09-27/new-expressions.md)
+  - 예: There are three reasons that happens, in order of likelihood.
+- **turn the problem from X into Y** — 상대 정보가 문제의 성격을 바꿔 풀기 쉬워졌다고 공을 돌리는 말. ≈ reframe the problem as. ↔ leave the problem as hard as it was. [→ daily](../../daily/2026-09-27/new-expressions.md)
+  - 예: A better prompt alone would not have fixed it, but your button list did, because it turned the problem from "find a tiny icon" into "find a text button and count".
+- **X are worth more than Y** — 양보다 확실성이 값지다고 숫자 대비로 말하는 틀. ≈ quality over quantity. ↔ the more, the better. [→ daily](../../daily/2026-09-27/new-expressions.md)
+  - 예: Two confirmed text anchors are worth more than thirteen guessed icons.
+- **building ahead of the data** — 결과가 안 나온 단계 위에 다음 작업을 미리 만드는 것. `would be` 로 부드럽게 말린다. ≈ getting ahead of ourselves. ↔ let the data lead. [→ daily](../../daily/2026-09-27/new-expressions.md)
+  - 예: Steps 3–5 all depend on the step 2 results, so starting them now would be building ahead of the data.
+- **It works, but only while …** — 돌아가긴 하지만 약한 전제에 기대고 있다고 조건을 다는 말. 뒤에 `The weak spot is …` 가 이어지기 좋다. ≈ it holds as long as …. ↔ it works by construction. [→ daily](../../daily/2026-09-27/new-expressions.md)
+  - 예: That works, but only while both sides remember a list of files.

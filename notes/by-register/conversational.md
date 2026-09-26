@@ -704,3 +704,17 @@
   - 예: That's the same uncertainty I flagged, but Codex is right that it cuts harder than I said.
 - **the request nobody actually maintains** — 그럴듯해도 막상 아무도 관리하지 않게 되는 요청. ≈ sounds good on paper. ↔ a feature people actually use. [→ daily](../../daily/2026-09-26/new-expressions.md)
   - 예: Per-page sets are the request nobody actually maintains.
+
+## 2026-09-27
+- **Fair question.** — 허점을 찌르는 질문이 정당하다고 먼저 인정하는 쿠션 말. ≈ Fair point. / You got me there. [→ daily](../../daily/2026-09-27/new-expressions.md)
+  - 예: Fair question. The two earlier icon attempts failed on a full-window capture and on a strip cut to the box height.
+- **over-correct** — 실패를 피하려다 반대쪽으로 너무 나가다. `by + -ing` 로 무엇을 지나치게 했는지 밝힌다. ≈ overshoot, swing too far the other way. ↔ not go far enough. [→ daily](../../daily/2026-09-27/new-expressions.md)
+  - 예: I over-corrected by never retrying once the strip covered the full column.
+- **Not quite.** — `No` 보다 부드러운 정정. 다음 문장에서 어디가 다른지 바로 짚는다. ≈ Close, but …. ↔ Exactly. [→ daily](../../daily/2026-09-27/new-expressions.md)
+  - 예: Not quite. With what I just wrote, the office agent still writes inside the parser folder.
+- **has stopped mattering** — 상황이 바뀌어 할 일이 의미를 잃었다. 현재완료 + `probably` 로 단정을 누그러뜨린다. ≈ is now moot. ↔ still matters. [→ daily](../../daily/2026-09-27/new-expressions.md)
+  - 예: One side note: the proxy redeploy has probably stopped mattering.
+- **slip back in** — 막아 둔 것이 슬그머니 다시 끼어들다. `so … can't slip back in` 으로 장치의 목적을 밝힌다. ≈ creep back in. ↔ stay out. [→ daily](../../daily/2026-09-27/new-expressions.md)
+  - 예: If the model adds `### Inferred` or any other `###` section anyway, it counts as `llm_failed`, so guesses can't slip back in.
+- **go the other way** — 판정이 반대쪽으로 나다. 경계 사례를 보여 주고 뒤집을 게 있으면 알려 달라고 할 때. ≈ be flipped. ↔ stay as they are. [→ daily](../../daily/2026-09-27/new-expressions.md)
+  - 예: Tell me if any of those should go the other way.

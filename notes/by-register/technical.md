@@ -1318,3 +1318,23 @@
   - 예: It's distinguishable after the fact: the manifest shows `stop_reason=max_sec` instead of `window_gone`.
 - **the single chokepoint every frame goes through** — 모든 흐름이 반드시 지나는 한 지점이라 검사를 여기 하나만 두면 된다. ≈ the one path everything funnels through. ↔ scattered call sites. [→ daily](../../daily/2026-09-26/new-expressions.md)
   - 예: The gate sits in `_capture_full_gray()`, the single chokepoint every frame goes through.
+
+## 2026-09-27
+- **fix at the root** — 증상만 덮지 말고 원인 지점에서 고치다. 형용사형은 `root-cause fix`. ≈ address the root cause. ↔ patch over the symptom. [→ daily](../../daily/2026-09-27/new-expressions.md)
+  - 예: I'll trace how the row point gets located here versus the office-verified tool-select path, then fix at the root.
+- **Two gates on the same fact are not twice as safe.** — 같은 사실을 두 번 검사해도 두 배로 안전해지지 않는다. 약한 판독기가 뒤에 있으면 불일치는 거의 다 그쪽 잡음이다. ≈ a redundant check only adds noise. ↔ defense in depth. [→ daily](../../daily/2026-09-27/new-expressions.md)
+  - 예: Two gates on the same fact are not twice as safe.
+- **the same class of bug as X** — 예전 버그와 원인 구조가 같은 부류라고 묶는 말. 조각문 `Same class of bug as …:` 로 시작해 콜론 뒤에 공통 원인을 댄다. ≈ the same failure mode as. ↔ a one-off. [→ daily](../../daily/2026-09-27/new-expressions.md)
+  - 예: Same class of bug as the demo's "wrong Close" lesson: a generic label locator on the whole tool window finds any OK.
+- **The fix is a stronger anchor, not a longer prompt.** — 모델이 못 찾을 때 프롬프트를 늘리지 말고 확실한 기준점을 주자. `The fix is A, not B.` 틀. ≈ better input beats better instructions. ↔ just tweak the prompt. [→ daily](../../daily/2026-09-27/new-expressions.md)
+  - 예: It is coarse-to-fine already, but the fix is a stronger anchor, not a longer prompt.
+- **silently revert to X** — 에러 없이 조용히 더 약한 동작으로 되돌아가다. 개발 영어의 `silently` 는 "경고 없이". ≈ quietly fall back to. ↔ fail loudly. [→ daily](../../daily/2026-09-27/new-expressions.md)
+  - 예: Any consumer that reads the coarse output is silently reverting to the weaker stage.
+- **the dangerous direction** — 오판 두 방향 중 피해가 큰 쪽. 판정 규칙을 안전한 쪽으로 기울이는 근거로 쓴다. ≈ the costlier error. ↔ a safe failure. [→ daily](../../daily/2026-09-27/new-expressions.md)
+  - 예: It does not filter by name shape, because a false free is the dangerous direction.
+- **fight the prompt** — 문구를 고쳐 모델을 설득하려 씨름하다. `rather than fight the prompt again` 으로 코드 쪽 해법으로 방향을 튼다. ≈ wrestle with the prompt. ↔ work around it in code. [→ daily](../../daily/2026-09-27/new-expressions.md)
+  - 예: Rather than fight the prompt again, I'll add an origin shift, default one button up per your observation.
+- **break on refactors** — 구현 세부를 흉내 낸 테스트 대역이 리팩터링마다 깨지다. 긴 주어 뒤 동사 수 일치에 주의. ≈ are brittle. ↔ survive refactors. [→ daily](../../daily/2026-09-27/new-expressions.md)
+  - 예: Doubles that mirror an implementation detail break on refactors; a no-op `close()` is the smaller contract.
+- **a contract with the screen, not a description** — 프롬프트 속 이름은 설명이 아니라 모델이 그대로 따르는 약속이라 틀리면 확신 있게 틀린 결과가 나온다. ≈ the prompt is a spec, not a hint. ↔ a loose description. [→ daily](../../daily/2026-09-27/new-expressions.md)
+  - 예: Column names in prompts are contracts with the screen, not descriptions, so the wrong name yields a confidently wrong crop.
