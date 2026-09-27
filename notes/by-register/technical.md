@@ -1338,3 +1338,17 @@
   - 예: Doubles that mirror an implementation detail break on refactors; a no-op `close()` is the smaller contract.
 - **a contract with the screen, not a description** — 프롬프트 속 이름은 설명이 아니라 모델이 그대로 따르는 약속이라 틀리면 확신 있게 틀린 결과가 나온다. ≈ the prompt is a spec, not a hint. ↔ a loose description. [→ daily](../../daily/2026-09-27/new-expressions.md)
   - 예: Column names in prompts are contracts with the screen, not descriptions, so the wrong name yields a confidently wrong crop.
+
+## 2026-09-28
+- **has been working as a backup** — 본래 목적이 아닌데 모르는 사이 백업 노릇을 해 왔다. 현재완료진행형이 "지금까지 계속"을 담는다. ≈ has doubled as a backup. ↔ was never meant to be a backup. [→ daily](../../daily/2026-09-28/new-expressions.md)
+  - 예: The cloud deploy bundle has been working as a backup of those secrets.
+- **happen to match** — 의도가 아니라 우연히 일치해서 돌아간다. 한쪽만 바꾸면 깨진다는 경고와 짝. ≈ line up by coincidence. ↔ are kept in sync on purpose. [→ daily](../../daily/2026-09-28/new-expressions.md)
+  - 예: When a port is set nowhere, both sides default to 5050 and happen to match.
+- **sticky (per session)** — 한번 정해진 상태가 저절로 풀리지 않고 세션 끝까지 남는다. ≈ persists for the session. ↔ resets on the next visit. [→ daily](../../daily/2026-09-28/new-expressions.md)
+  - 예: The gate's ceiling is a "stuck job" guard, but it cannot tell a stuck job from a large one that is still making progress, and `gaveup` is sticky per session.
+- **Stale skills do more damage than stale docs.** — 같은 형용사를 반복해 두 대상만 비교한다. 자동 발동하는 지시가 낡으면 더 위험하다. ≈ An outdated skill is worse than an outdated doc. ↔ harmless leftovers. [→ daily](../../daily/2026-09-28/new-expressions.md)
+  - 예: Stale skills do more damage than stale docs.
+- **nothing left to fall out of sync over** — 중복을 없애 어긋날 거리 자체가 없다. 전치사 `over` 가 문장 끝에 남는 어순. ≈ no overlap left to drift. ↔ bound to drift apart. [→ daily](../../daily/2026-09-28/new-expressions.md)
+  - 예: `AGENTS.md` now holds only content that `CLAUDE.md` doesn't have, so the two files have nothing left to fall out of sync over.
+- **sediment** — 추가는 쉽고 삭제는 두려워서 문서에 쌓이는 낡은 층. ≈ cruft / accretion. ↔ a well-pruned document. [→ daily](../../daily/2026-09-28/new-expressions.md)
+  - 예: Without a pruning discipline the default fate is sediment: stale layers that settle because adding feels safe and removing feels risky, until you must core down through them to find what is still live.

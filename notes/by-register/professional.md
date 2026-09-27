@@ -1600,3 +1600,19 @@
   - 예: Steps 3–5 all depend on the step 2 results, so starting them now would be building ahead of the data.
 - **It works, but only while …** — 돌아가긴 하지만 약한 전제에 기대고 있다고 조건을 다는 말. 뒤에 `The weak spot is …` 가 이어지기 좋다. ≈ it holds as long as …. ↔ it works by construction. [→ daily](../../daily/2026-09-27/new-expressions.md)
   - 예: That works, but only while both sides remember a list of files.
+
+## 2026-09-28
+- **Only one of them actually has to be recovered. The rest can be recreated.** — 되찾아야 할 것(recover)과 새로 만들면 되는 것(recreate)을 갈라 상대를 안심시킨다. ≈ Only one of these is irreplaceable. ↔ All of them are gone for good. [→ daily](../../daily/2026-09-28/new-expressions.md)
+  - 예: Only one of them actually has to be recovered. The rest can be recreated.
+- **the one mode … is the one mode without a safety net** — `the one X … is the one X` 대구로 가장 중요한 경우만 하필 보호 장치가 없다는 아이러니를 짚는다. ≈ the case that matters most is the least protected. ↔ the riskiest path is the best guarded. [→ daily](../../daily/2026-09-28/new-expressions.md)
+  - 예: The grid mode was added later for HV-SEM and reused the URLs but not the retry wrapper, so the one mode HV-SEM users actually need is the one mode without a safety net.
+- **This alone turns X into Y.** — 수정 하나만으로 증상이 어떻게 바뀌는지 과장 없이 그린다. ≈ On its own, this fixes most of X. ↔ This barely moves the needle. [→ daily](../../daily/2026-09-28/new-expressions.md)
+  - 예: This alone turns most blank tiles into late-arriving images.
+- **targeted the wrong thing** — 내가 돌린 작업이 엉뚱한 대상을 향했다고 먼저 밝히고 콜론 뒤에 원인을 댄다. ≈ reviewed the wrong commit. ↔ hit the right target. [→ daily](../../daily/2026-09-28/new-expressions.md)
+  - 예: The review I launched targeted the wrong thing: passing a commit hash made it review that commit (the earlier FTP fix), not my change on top of it.
+- **The frontier is X.** — 의존 관계가 있는 작업 중 지금 착수할 수 있는 맨 앞 작업. 나머지는 `wait on` 으로 설명한다. ≈ X is up next. ↔ X is still blocked. [→ daily](../../daily/2026-09-28/new-expressions.md)
+  - 예: The frontier is issue #6, the office run.
+- **check facts against the files on disk, not against other documentation** — 다른 문서끼리 대조하지 말고 실제 파일로 확인하라는 감사 원칙. `check A against B`. ≈ verify against the source of truth. ↔ take the docs' word for it. [→ daily](../../daily/2026-09-28/new-expressions.md)
+  - 예: In an audit, check facts against the actual files on disk, not against other documentation.
+- **earn its place** — 쓸모로 자리값을 하다. `only as …` 와 붙여 존재 조건을 좁힌다. ≈ pull its weight. ↔ dead weight. [→ daily](../../daily/2026-09-28/new-expressions.md)
+  - 예: A prohibition earns its place only as a hard guardrail you cannot phrase positively.

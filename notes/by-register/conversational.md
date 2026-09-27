@@ -718,3 +718,23 @@
   - 예: If the model adds `### Inferred` or any other `###` section anyway, it counts as `llm_failed`, so guesses can't slip back in.
 - **go the other way** — 판정이 반대쪽으로 나다. 경계 사례를 보여 주고 뒤집을 게 있으면 알려 달라고 할 때. ≈ be flipped. ↔ stay as they are. [→ daily](../../daily/2026-09-27/new-expressions.md)
   - 예: Tell me if any of those should go the other way.
+
+## 2026-09-28
+- **The cause is almost certainly X.** — 원인을 거의 확신하지만 현장 확인은 아직일 때 결론부터 여는 첫 문장. ≈ The most likely culprit is X. ↔ It's hard to say what's causing it. [→ daily](../../daily/2026-09-28/new-expressions.md)
+  - 예: The cause is almost certainly the folder rename.
+- **stayed behind** — 이동·rename 뒤에 따라가지 못하고 원래 자리에 남았다. 파일에도 그대로 쓴다. ≈ weren't carried over. ↔ moved over with the rename. [→ daily](../../daily/2026-09-28/new-expressions.md)
+  - 예: The ignored files stayed behind in the old folder when the repo was renamed.
+- **best first** — 선택지를 좋은 순서대로 적었다고 먼저 알리는 머리말. `easiest first` 처럼 형용사만 바꾼다. ≈ in order of preference. ↔ in no particular order. [→ daily](../../daily/2026-09-28/new-expressions.md)
+  - 예: Here are three places to get it back, best first.
+- **The catch is that …** — 설계가 옳다고 인정한 뒤 숨은 함정을 꺼낸다. `The problem is` 보다 덜 비난조. ≈ The downside is that … ↔ There's no catch. [→ daily](../../daily/2026-09-28/new-expressions.md)
+  - 예: The catch is that a misconfigured office PC looks exactly like a home PC.
+- **That will pin it down.** — 특정 정보를 부탁한 뒤 그걸로 원인이 확정된다고 알린다. `narrow it down` 보다 한 걸음 더 나간 말. ≈ That should settle it. ↔ That won't tell us much. [→ daily](../../daily/2026-09-28/new-expressions.md)
+  - 예: Tell me which page shows mock data and paste its row from the boot log (or the whole table). That will pin it down.
+- **That error isn't why you're seeing X.** — 상대가 새로 찾은 에러를 곁가지로 정리하고 본론으로 돌아간다. `A isn't why B` 틀. ≈ That's a separate issue. ↔ That's exactly why you're seeing X. [→ daily](../../daily/2026-09-28/new-expressions.md)
+  - 예: That error isn't why you're seeing mock data.
+- **Your setup is in good shape.** — 점검 보고를 결론부터 여는 말. 뒤에 근거와 남은 일을 붙인다. ≈ Everything looks healthy. ↔ It's in rough shape. [→ daily](../../daily/2026-09-28/new-expressions.md)
+  - 예: Your setup is in good shape.
+- **Agreed, and that is cleaner given X.** — 동의 한 단어 뒤에 `given + 절` 로 근거를 바로 붙인다. ≈ Good call — that's cleaner since X. ↔ I'd push back on that. [→ daily](../../daily/2026-09-28/new-expressions.md)
+  - 예: Agreed, and that is cleaner given `ftp_handler/` is read-only here.
+- **could actually have misled X** — `could have + p.p.` 로 일어날 뻔한 피해를 짚고 `actually` 로 목록 중 진짜 중요한 하나를 강조한다. ≈ might have sent X down the wrong path. ↔ was harmless. [→ daily](../../daily/2026-09-28/new-expressions.md)
+  - 예: This one could actually have misled Codex.

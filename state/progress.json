@@ -855,7 +855,7 @@
     "-Users-daeyoung-Codes-auto-recipe-creator/98008308-d8b3-469e-be4a-2411dd4a3665.jsonl": 737,
     "-Users-daeyoung-Codes-auto-recipe-creator/4a7100a5-ca6f-4b9b-8604-49a25dcf4955.jsonl": 1017,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/47fa38c1-cf50-41b2-9fbe-530b5b2680c4.jsonl": 94,
-    "-Users-daeyoung-Codes-auto-recipe-creator/dc56b61d-44af-4075-9f7f-6369e6f334ec.jsonl": 119,
+    "-Users-daeyoung-Codes-auto-recipe-creator/dc56b61d-44af-4075-9f7f-6369e6f334ec.jsonl": 313,
     "-Users-daeyoung-Codes-auto-recipe-creator/972515b8-b759-4fe4-b8db-0dcf2ffc0887.jsonl": 21,
     "-Users-daeyoung-Codes-english-study/a1b90fac-11bd-451f-98fd-97157dbff7c0.jsonl": 305,
     "-Users-daeyoung-Codes-auto-recipe-creator/318edd07-ce82-4ef5-a485-8fccc1f2cc41.jsonl": 2011,
@@ -863,7 +863,15 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/85775542-1040-4d40-9b01-465c0306b085.jsonl": 488,
     "-Users-daeyoung-Codes-equipment-data-map/d3e1b1d6-041b-4674-b7e9-9703ddc694d2.jsonl": 236,
     "-Users-daeyoung-Codes-english-study/60732bd4-ca0f-4515-9710-c2f8b0ed7d88.jsonl": 187,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/d5e9aa9a-f7cb-4552-a7be-9da4950e9d05/subagents/agent-a1947be342355ad2f.jsonl": 129
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/d5e9aa9a-f7cb-4552-a7be-9da4950e9d05/subagents/agent-a1947be342355ad2f.jsonl": 129,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/14ed05e0-2937-4b0e-a7e8-8fb560f4427a.jsonl": 290,
+    "-Users-daeyoung-Codes-english-study/60e5cac5-d99e-4231-9afc-23d9660affed.jsonl": 296,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/312d7c79-9395-4adf-9834-776709868819.jsonl": 255,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/654fb102-bf68-488a-8660-fc7effe526e4.jsonl": 1054,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/0143a2f9-0be6-45b3-9ed3-1e0a88de72c2.jsonl": 641,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/ee78b3b7-ed7d-4793-bb09-bdcd25603d0d.jsonl": 199,
+    "-Users-daeyoung-Codes-equipment-data-map/fe46dbc3-6c14-4124-a755-fb6cae7f2cb6.jsonl": 693,
+    "-Users-daeyoung-Codes-auto-recipe-creator/53984fba-bc77-4cd6-b1ed-589bda3e0f9f/subagents/agent-acceea5651169be8d.jsonl": 40
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1400,7 +1408,13 @@
     "auto_recipe_creator/poc/workflow_3/docs/features/list_occupancy_gate.md": "auto_recipe_creator/poc/workflow_3/docs/features/list_occupancy_gate.md:1789773260.3209403:3572",
     "auto_recipe_creator/poc/workflow_3/docs/features/demonstration_rcs_control.md": "auto_recipe_creator/poc/workflow_3/docs/features/demonstration_rcs_control.md:1789773260.320868:15310",
     "equipment-data-map/docs/journals/260921/260921_192336_architecture-doc-review-and-office-refresh.md": "equipment-data-map/docs/journals/260921/260921_192336_architecture-doc-review-and-office-refresh.md:1789986275.4037886:9084",
-    "auto_recipe_creator/poc/workflow_3/docs/specs/align_correction_methodology_260921.md": "auto_recipe_creator/poc/workflow_3/docs/specs/align_correction_methodology_260921.md:1790053641.673301:17363"
+    "auto_recipe_creator/poc/workflow_3/docs/specs/align_correction_methodology_260921.md": "auto_recipe_creator/poc/workflow_3/docs/specs/align_correction_methodology_260921.md:1790053641.673301:17363",
+    "auto_recipe_creator/poc/workflow_3/docs/features/event_folder.md": "auto_recipe_creator/poc/workflow_3/docs/features/event_folder.md:1790435432.7493446:1555",
+    "auto_recipe_creator/poc/workflow_3/docs/features/manual_cursor_sync_check.md": "auto_recipe_creator/poc/workflow_3/docs/features/manual_cursor_sync_check.md:1790435432.7492807:2077",
+    "auto_recipe_creator/poc/workflow_3/docs/features/alarm_feed_active_check.md": "auto_recipe_creator/poc/workflow_3/docs/features/alarm_feed_active_check.md:1790435432.7492228:2614",
+    "auto_recipe_creator/poc/workflow_3/docs/features/occupied_share_request.md": "auto_recipe_creator/poc/workflow_3/docs/features/occupied_share_request.md:1790435432.749162:2066",
+    "auto_recipe_creator/poc/workflow_3/docs/features/recovery_episode.md": "auto_recipe_creator/poc/workflow_3/docs/features/recovery_episode.md:1790435432.7490907:2509",
+    "auto_recipe_creator/poc/workflow_3/docs/features/demo_video.md": "auto_recipe_creator/poc/workflow_3/docs/features/demo_video.md:1790435432.7489913:3246"
   },
-  "last_run": "2026-09-27"
+  "last_run": "2026-09-28"
 }
