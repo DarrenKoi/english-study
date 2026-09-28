@@ -1616,3 +1616,17 @@
   - 예: In an audit, check facts against the actual files on disk, not against other documentation.
 - **earn its place** — 쓸모로 자리값을 하다. `only as …` 와 붙여 존재 조건을 좁힌다. ≈ pull its weight. ↔ dead weight. [→ daily](../../daily/2026-09-28/new-expressions.md)
   - 예: A prohibition earns its place only as a hard guardrail you cannot phrase positively.
+- **A gap is useful; a guess dressed as a finding is not.** — 모르면 모른다고 적으라는 조사 규칙. `dressed as` 는 "~인 척 꾸민". ≈ Don't pass off a guess as a fact. ↔ a finding backed by evidence. [→ daily](../../daily/2026-09-29/new-expressions.md)
+  - 예: Say what you could not answer and why. A gap is useful; a guess dressed as a finding is not.
+- **Report numbers, not rows.** — 원본 레코드를 붙이지 말고 요약 수치로 보고하라는 네 단어 지시문. ≈ Summarize, don't dump. ↔ paste the raw output. [→ daily](../../daily/2026-09-29/new-expressions.md)
+  - 예: Report numbers, not rows. Where a sample is asked for, keep it to the size asked for.
+- **copy what engineers already trust before inventing a view** — 새로 만들기 전에 현장이 이미 믿고 쓰는 것부터 따라 하라. ≈ don't reinvent the wheel. ↔ design from a blank slate. [→ daily](../../daily/2026-09-29/new-expressions.md)
+  - 예: Before we design the dashboard, let's copy what engineers already trust before inventing a view of our own.
+- **on the user's word** — 직접 검증하지 않고 사용자의 말을 근거로. 출처의 한계를 밝힐 때. ≈ on the user's say-so. ↔ verified against the data. [→ daily](../../daily/2026-09-29/new-expressions.md)
+  - 예: `Ellipticity` was spelled `Ellipicity` here until 2026-09-28 and was corrected on the user's word.
+- **worth reopening** — 확정된 결정을 다시 논의할 가치가 있다. 존중하면서 이의를 제기하는 말. ≈ worth revisiting. ↔ settled / not up for debate. [→ daily](../../daily/2026-09-29/new-expressions.md)
+  - 예: This contradicts ADR-0007, but it's worth reopening because the traffic pattern has changed.
+- **go-ahead message** — 진행 승인 연락. `go-ahead` 는 하이픈 붙은 명사. ≈ green light / sign-off. ↔ a hold. [→ daily](../../daily/2026-09-29/new-expressions.md)
+  - 예: The code side is ready, but three things should go in the go-ahead message.
+- **a rehearsal run first** — 실전 전에 부작용 없는 시험 실행부터. ≈ dry run / trial run. ↔ a live run. [→ daily](../../daily/2026-09-29/new-expressions.md)
+  - 예: To try it in the office, pull and do a rehearsal run first.

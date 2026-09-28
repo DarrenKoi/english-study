@@ -1352,3 +1352,21 @@
   - 예: `AGENTS.md` now holds only content that `CLAUDE.md` doesn't have, so the two files have nothing left to fall out of sync over.
 - **sediment** — 추가는 쉽고 삭제는 두려워서 문서에 쌓이는 낡은 층. ≈ cruft / accretion. ↔ a well-pruned document. [→ daily](../../daily/2026-09-28/new-expressions.md)
   - 예: Without a pruning discipline the default fate is sediment: stale layers that settle because adding feels safe and removing feels risky, until you must core down through them to find what is still live.
+- **so the home mocks stop teaching false shapes** — mock 을 의인화해 틀린 데이터 모양을 가르친다고 지적. `stop + -ing` 는 "그만두다". ≈ so the fixtures reflect reality. ↔ a mock calibrated to real data. [→ daily](../../daily/2026-09-29/new-expressions.md)
+  - 예: Give plain numbers for cadence and value ranges, so the home mocks stop teaching false shapes.
+- **character for character** — 대소문자·공백까지 글자 그대로. `word for word` 와 같은 짜임. ≈ exactly / byte for byte. ↔ roughly the same. [→ daily](../../daily/2026-09-29/new-expressions.md)
+  - 예: The roster's `eqp_id` must match each index's stored `eqp_id` character for character.
+- **It shows as an empty chart, not an error.** — 조용한 실패가 어떤 모습으로 보이는지 설명하는 `show as X, not Y` 틀. ≈ it surfaces as. ↔ it fails loudly. [→ daily](../../daily/2026-09-29/new-expressions.md)
+  - 예: A spelling difference returns zero documents. It shows as an empty chart, not an error.
+- **suspect a change in the ingestion rule, not the tool** — 지표가 움직일 때 먼저 의심할 곳을 지정한다. 조건 → 지시 → 오답 배제. ≈ the likely culprit is the pipeline. ↔ rule out the ingestion rule. [→ daily](../../daily/2026-09-29/new-expressions.md)
+  - 예: If its trend moves, suspect a change in the ingestion rule, not the tool.
+- **barely better than no loop** — 있긴 하지만 없는 것과 다를 바 없다. `barely better than nothing` 변형. ≈ next to useless. ↔ a huge improvement. [→ daily](../../daily/2026-09-29/new-expressions.md)
+  - 예: A 30-second flaky loop is barely better than no loop; a 2-second deterministic one is tight.
+- **Search-around can't fix a wrong gate.** — 하류 복구 장치는 상류 판정 오류를 메우지 못한다. ≈ garbage in, garbage out. ↔ the fallback recovers the miss. [→ daily](../../daily/2026-09-29/new-expressions.md)
+  - 예: Search-around can't fix a wrong gate: it reuses the same gate, so a broken ambiguity signal turned into a guaranteed abort.
+- **a genuine lookalike** — 같은 대상의 중복이 아니라 진짜로 닮은 다른 대상. ≈ a near-duplicate. ↔ a duplicate of the same item. [→ daily](../../daily/2026-09-29/new-expressions.md)
+  - 예: A unique key must not look ambiguous, and a genuine lookalike (two copies) must still read as ambiguous.
+- **A wrong type is caught cheaply then; later it needs a rollover to fix.** — 지금 잡으면 싸고 나중엔 비싸다. `then` ↔ `later` 대비로 점검 시점을 설득. ≈ catch it early while it's still cheap. ↔ easy to fix at any time. [→ daily](../../daily/2026-09-29/new-expressions.md)
+  - 예: Check V0.2 right after the first 6-hour run, not in 2–3 days. A wrong type is caught cheaply then; later it needs a rollover to fix.
+- **bars on a truncated axis exaggerate small differences** — 0 에서 시작하지 않는 축 위의 막대는 차이를 부풀린다. ≈ overstate minor differences. ↔ understate the difference. [→ daily](../../daily/2026-09-29/new-expressions.md)
+  - 예: The laser ranking uses dots: bars on a truncated axis exaggerate small differences.

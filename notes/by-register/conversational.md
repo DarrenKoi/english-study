@@ -738,3 +738,15 @@
   - 예: Agreed, and that is cleaner given `ftp_handler/` is read-only here.
 - **could actually have misled X** — `could have + p.p.` 로 일어날 뻔한 피해를 짚고 `actually` 로 목록 중 진짜 중요한 하나를 강조한다. ≈ might have sent X down the wrong path. ↔ was harmless. [→ daily](../../daily/2026-09-28/new-expressions.md)
   - 예: This one could actually have misled Codex.
+- **that's a signal** — 없거나 어긋난 상황 자체가 단서라는 말. 대시 뒤에 가능성을 `either … or` 로 편다. ≈ that tells you something. ↔ that's just noise. [→ daily](../../daily/2026-09-29/new-expressions.md)
+  - 예: If the concept you need isn't in the glossary yet, that's a signal — either you're inventing language the project doesn't use, or there's a real gap.
+- **Office truth wins.** — 두 출처가 어긋날 때 기준을 한마디로. `X wins` 는 충돌 시 우선순위. ≈ the office is the source of truth. ↔ our local copy is authoritative. [→ daily](../../daily/2026-09-29/new-expressions.md)
+  - 예: Office truth wins, so the writer helper gets realigned before anything reads those fields.
+- **something users truly must not miss** — 고정·알림 같은 강조 장치를 아껴 쓸 대상. `save A for B` 와 짝. ≈ a must-see. ↔ nice-to-know information. [→ daily](../../daily/2026-09-29/new-expressions.md)
+  - 예: They'd show above the timeline whatever page of the list you're on, so save the flag for something users truly must not miss.
+- **fights the layout** — 구조와 맞지 않아 억지로 씨름하게 된다는 구어 비유. ≈ goes against the grain. ↔ works with the layout. [→ daily](../../daily/2026-09-29/new-expressions.md)
+  - 예: Scrolling the inner container fights the layout. Instead I'll make the viewport tall enough to show everything at once.
+- **That's a flaw in the check, not in Codex's code.** — 결함 위치를 검사 쪽으로 바로잡는 공정한 말. ≈ the test was wrong, not the code. ↔ the code itself is broken. [→ daily](../../daily/2026-09-29/new-expressions.md)
+  - 예: My oracle had a bug: the output format is `ℹ fail 0`, not `# fail 0`. That's a flaw in the check, not in Codex's code.
+- **without being asked** — 시키지도 않았는데. 동명사 수동형. ≈ unprompted. ↔ as requested. [→ daily](../../daily/2026-09-29/new-expressions.md)
+  - 예: I reviewed its diff; it had deleted the `중복 없음` warning without being asked, so I restored it.
