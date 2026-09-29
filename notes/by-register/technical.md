@@ -1370,3 +1370,21 @@
   - 예: Check V0.2 right after the first 6-hour run, not in 2–3 days. A wrong type is caught cheaply then; later it needs a rollover to fix.
 - **bars on a truncated axis exaggerate small differences** — 0 에서 시작하지 않는 축 위의 막대는 차이를 부풀린다. ≈ overstate minor differences. ↔ understate the difference. [→ daily](../../daily/2026-09-29/new-expressions.md)
   - 예: The laser ranking uses dots: bars on a truncated axis exaggerate small differences.
+- **The only trace is …** — 남는 흔적이라고는 …뿐이다. 조용한 문제를 알아챌 단서가 거의 없다는 경고. ≈ The only sign of it is. ↔ It fails loudly. [→ daily](../../daily/2026-09-30/new-expressions.md)
+  - 예: A tab without `office.py` silently serves mock data. The only trace is one INFO line in the server log.
+- **Hitting the cap raises instead of truncating.** — 상한에 닿으면 몰래 자르지 않고 예외를 던진다. 동명사 주어가 조건 역할. ≈ errors out rather than returning partial results. ↔ silently truncate. [→ daily](../../daily/2026-09-30/new-expressions.md)
+  - 예: Every OpenSearch pull is one request capped at 10,000 docs. Hitting the cap raises instead of truncating.
+- **built from what the code accepts, not copied from real data** — 예시 데이터가 실제 값이 아니라 코드가 받는 형태로 만든 것. ≈ synthetic, for illustration only. ↔ taken verbatim from production. [→ daily](../../daily/2026-09-30/new-expressions.md)
+  - 예: The samples are built from what the code accepts, not copied from real data.
+- **fetched, never read** — 가져오기만 하고 어디서도 쓰지 않는 필드. `A, never B` 대비. ≈ loaded but unused. ↔ load-bearing. [→ daily](../../daily/2026-09-30/new-expressions.md)
+  - 예: `eqp_model_cd`, `fab_name` and `eqp_ip` are fetched, never read, so a mismatch there changes nothing on the page.
+- **merge them by hand instead of overwriting** — 로컬 수정이 있으면 통째로 덮지 말고 손으로 합쳐라. ≈ reconcile them manually, don't clobber them. ↔ overwrite blindly. [→ daily](../../daily/2026-09-30/new-expressions.md)
+  - 예: If your `office.py` carries local edits, merge them by hand instead of overwriting.
+- **while the window is only partly filled** — 집계 기간이 아직 다 차지 않은 동안. ≈ until the window fills up, during the ramp-up period. ↔ once the window is full. [→ daily](../../daily/2026-09-30/new-expressions.md)
+  - 예: The page may need a start-date note while the 30-day window is only partly filled.
+- **that count undercounts** — 집계 방식 탓에 실제보다 적게 센다. 짝은 overcount/overstate. ≈ comes in low, is biased low. ↔ overcounts. [→ daily](../../daily/2026-09-30/new-expressions.md)
+  - 예: `pin_counts` counts such a pair once. If it happens, that count undercounts.
+- **mean nothing on an older build** — 전제(빌드 버전)가 안 맞으면 검사 결과가 판단 근거가 못 된다. ≈ are meaningless on. ↔ hold regardless of the build. [→ daily](../../daily/2026-09-30/new-expressions.md)
+  - 예: Report the deployed commit first; A1 and A2 below mean nothing on an older build.
+- **the test fails without it** — 수정을 빼면 테스트가 실패한다 = 테스트가 그 수정을 진짜로 검사한다. ≈ the test goes red if I revert the fix. ↔ the test passes either way. [→ daily](../../daily/2026-09-30/new-expressions.md)
+  - 예: The stale-frame fix is verified (the test fails without it).

@@ -1630,3 +1630,21 @@
   - 예: The code side is ready, but three things should go in the go-ahead message.
 - **a rehearsal run first** — 실전 전에 부작용 없는 시험 실행부터. ≈ dry run / trial run. ↔ a live run. [→ daily](../../daily/2026-09-29/new-expressions.md)
   - 예: To try it in the office, pull and do a rehearsal run first.
+- **Where this brief and those files disagree, report it.** — 두 출처가 어긋나는 곳이 있으면 알려 달라. 문두 `Where` = in cases where. ≈ Flag any discrepancies. ↔ treat this brief as authoritative. [→ daily](../../daily/2026-09-30/new-expressions.md)
+  - 예: The schema background lives in the `hardware_*.txt` files. Where this brief and those files disagree, report it.
+- **Keep these two apart when you diagnose.** — 비슷해 보이는 두 증상을 섞지 말고 구분하라. ≈ don't mix these up, tell these two apart. ↔ lump them together. [→ daily](../../daily/2026-09-30/new-expressions.md)
+  - 예: Failure styles come in two kinds. Keep these two apart when you diagnose.
+- **That is the fastest way to …** — 지시 뒤에 붙여 그 방법을 쓰는 이유를 한 줄로 설득한다. ≈ That's the quickest route to. ↔ That's the long way round. [→ daily](../../daily/2026-09-30/new-expressions.md)
+  - 예: Put one real sample next to each block and diff them. That is the fastest way to find a mismatch.
+- **at the edge of** — 한계치에 거의 닿아 여유가 없는. ≈ right up against, close to the limit. ↔ well within. [→ daily](../../daily/2026-09-30/new-expressions.md)
+  - 예: Busiest tools log ~2.7k docs per 30 days, at the edge of the ~3000 default, so the query now raises the threshold.
+- **Not X, same trip.** — X 는 아니지만 간 김에 같이 해 달라는 소제목. ≈ while you're at it. ↔ in a separate run. [→ daily](../../daily/2026-09-30/new-expressions.md)
+  - 예: Section C isn't about FDC, but it's the same trip, so check the proxy credentials while you're there.
+- **Start here.** — 긴 문서의 입구를 못 박는 두 단어. 뒤에 범위를 좁히는 문장을 붙인다. ≈ If you read one thing, read this. ↔ Read from the top. [→ daily](../../daily/2026-09-30/new-expressions.md)
+  - 예: Start here. Run this section, not the whole brief.
+- **must be explainable** — 빠져도 되지만 이유를 댈 수 있어야 한다는 판정 기준. ≈ must be accounted for. ↔ unexplained. [→ daily](../../daily/2026-09-30/new-expressions.md)
+  - 예: Missing tools must be explainable: no FDC, or no side-fields yet.
+- **I pushed the wrong fix first** — 주어 I 로 실수를 직접 인정하는 보고. ≈ My first fix was wrong. ↔ got it right the first time. [→ daily](../../daily/2026-09-30/new-expressions.md)
+  - 예: I pushed the wrong fix first; Codex's review showed it can't work, so I reverted it.
+- **keeps it from becoming a second rulebook that drifts** — 요약 문서가 원본과 따로 노는 또 하나의 규칙서가 되지 않게 막는다. `keep A from -ing`. ≈ stops it turning into a competing source of truth. ↔ a single source of truth. [→ daily](../../daily/2026-09-30/new-expressions.md)
+  - 예: Its opening says the spec wins if they disagree. That keeps it from becoming a second rulebook that drifts.

@@ -750,3 +750,11 @@
   - 예: My oracle had a bug: the output format is `ℹ fail 0`, not `# fail 0`. That's a flaw in the check, not in Codex's code.
 - **without being asked** — 시키지도 않았는데. 동명사 수동형. ≈ unprompted. ↔ as requested. [→ daily](../../daily/2026-09-29/new-expressions.md)
   - 예: I reviewed its diff; it had deleted the `중복 없음` warning without being asked, so I restored it.
+- **stay … for good** — 영영 …인 채로 남다. `for good` = permanently. ≈ for keeps. ↔ for now. [→ daily](../../daily/2026-09-30/new-expressions.md)
+  - 예: About 6.8% of docs written during the transition stay fieldless for good.
+- **guess at a fix** — 원인을 모른 채 짐작으로 고치다. `guess at` = 확신 없이 짐작. ≈ fix it blind. ↔ fix it from evidence. [→ daily](../../daily/2026-09-30/new-expressions.md)
+  - 예: From the code alone I can't tell which gate stops it, and I don't want to guess at a fix for a real click.
+- **take your hands off** — 입력 장치에서 손을 떼다. ≈ let go of the mouse and keyboard, step away from the keyboard. ↔ take over. [→ daily](../../daily/2026-09-30/new-expressions.md)
+  - 예: I added a countdown so you can take your hands off before recording starts.
+- **This comes from last time, when …** — 이건 지난번 …했던 일에서 배운 거다. 쉼표 + when 계속적 용법. ≈ I learned this the hard way last time. [→ daily](../../daily/2026-09-30/new-expressions.md)
+  - 예: This comes from last time, when I predicted from the latest commit and was wrong.
