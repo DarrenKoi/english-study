@@ -758,3 +758,19 @@
   - 예: I added a countdown so you can take your hands off before recording starts.
 - **This comes from last time, when …** — 이건 지난번 …했던 일에서 배운 거다. 쉼표 + when 계속적 용법. ≈ I learned this the hard way last time. [→ daily](../../daily/2026-09-30/new-expressions.md)
   - 예: This comes from last time, when I predicted from the latest commit and was wrong.
+- **until you trust it** — 믿을 만해질 때까지. 기간을 신뢰라는 조건으로 정한다. ≈ until it has earned your trust, until you're comfortable with it. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: Keep a notification, or run visibly by default, until you trust it.
+- **I wouldn't go there.** — 나라면 거기까진 안 간다(권하지 않는다). ≈ I'd steer clear of that, That's a rabbit hole. ↔ I'd go for it. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: The third option would be a different, vendor-dependent project; I wouldn't go there.
+- **won't work the way you expect** — 생각하는 대로 동작하지 않는다. 상대 계획을 부드럽게 부정. ≈ won't do what you think. ↔ works out of the box. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: Copying the folder won't work the way you expect, because every import still points at the original package.
+- **by guesswork** — 짐작으로, 감으로. ≈ on a hunch, by trial and error. ↔ by measurement. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: Not yet for all recipes, and not by adding branches by guesswork either.
+- **instead of racing the hotkey** — 단축키로 타이밍 싸움을 하는 대신. `race` 타동사 = ~와 시간 싸움을 하다. ≈ rather than a race against the clock. ↔ take your time. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: A cleaner way to run this: instead of racing the hotkey, run with the search turned off.
+- **This last line tells you nothing.** — 이 마지막 줄로는 알 수 있는 게 없다. 무생물 주어 + tell you. ≈ This line is noise. ↔ This line tells you everything. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: This last line tells you nothing: it only says you stopped the search.
+- **as many times as you like** — 원하는 만큼 몇 번이든. ≈ as often as you want, freely. ↔ only once. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: You can edit the captions or order and re-run as many times as you like.
+- **the one to watch** — 지켜봐야 할 것. `the one` 이 앞 명사를 받는다. ≈ the one to keep an eye on, the key risk. ↔ the one you can ignore. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: That's why the periodic-wrong-neighbour row is the one to watch.

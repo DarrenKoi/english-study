@@ -1388,3 +1388,13 @@
   - 예: Report the deployed commit first; A1 and A2 below mean nothing on an older build.
 - **the test fails without it** — 수정을 빼면 테스트가 실패한다 = 테스트가 그 수정을 진짜로 검사한다. ≈ the test goes red if I revert the fix. ↔ the test passes either way. [→ daily](../../daily/2026-09-30/new-expressions.md)
   - 예: The stale-frame fix is verified (the test fails without it).
+- **Where it could quietly break** — 조용히 망가질 수 있는 곳. 에러 없이 결과만 틀어지는 실패 지점을 꼽는 소제목. ≈ failure modes, what could go wrong. ↔ fail loudly. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: Before we switch to posted messages, let's list where it could quietly break, starting with modifier keys.
+- **A stale frame is worse than a slow one.** — 낡은 프레임이 느린 프레임보다 나쁘다. `one` 이 앞 명사를 받는다. ≈ Wrong data is worse than late data. ↔ Any frame is better than none. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: The whole loop re-captures after each click, so a stale frame is worse than a slow one.
+- **the break shows up right away instead of failing silently** — 조용히 실패하는 대신 깨진 곳이 바로 드러난다. `break` 는 명사. ≈ it fails fast. ↔ goes unnoticed. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: If I rename a function on the Mac, the break shows up right away instead of failing silently at the office.
+- **The charts follow the chips.** — 차트가 칩 선택을 따라 바뀐다(연동). ≈ X tracks Y, X is driven by Y. ↔ X ignores Y. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: The charts follow the chips: switching models updates them right away, with no refetch.
+- **a flat ridge rather than a peak** — 봉우리가 아니라 평평한 능선. 점수가 한 점에서 솟지 않고 길게 이어지는 모양. ≈ a plateau. ↔ a sharp peak. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: A long horizontal line lines up at every horizontal offset, so the score surface forms a flat ridge rather than a peak.

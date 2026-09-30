@@ -1648,3 +1648,25 @@
   - 예: I pushed the wrong fix first; Codex's review showed it can't work, so I reverted it.
 - **keeps it from becoming a second rulebook that drifts** — 요약 문서가 원본과 따로 노는 또 하나의 규칙서가 되지 않게 막는다. `keep A from -ing`. ≈ stops it turning into a competing source of truth. ↔ a single source of truth. [→ daily](../../daily/2026-09-30/new-expressions.md)
   - 예: Its opening says the spec wins if they disagree. That keeps it from becoming a second rulebook that drifts.
+- **lose sight of what it's doing** — 그것이 무엇을 하는지 놓치다. ≈ lose track of, lose visibility into. ↔ keep an eye on. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: Invisible clicks mean the engineer loses sight of what the automation is doing on production equipment.
+- **Which fits depends on one thing: …** — 어느 쪽이 맞는지는 한 가지에 달렸다. 콜론 뒤에 결정 질문. ≈ It all comes down to …, It hinges on …. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: Which fits depends on one thing: can the office PC push to GitHub?
+- **This is the real danger.** — 이게 진짜 위험이다. 위험 목록 중 하나를 콕 집는다. ≈ This is the one that matters. ↔ This is harmless. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: If the matcher picks the wrong neighbour and NCC still favours it, the rule approves the wrong spot. This is the real danger.
+- **backed by a count rather than a hunch** — 짐작이 아니라 센 숫자로 뒷받침되는. ≈ grounded in data, evidence-based. ↔ a shot in the dark. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: Each of those would be one condition inside the gate, backed by a count rather than a hunch.
+- **The rescue rate doesn't offset them.** — 구해 낸 비율이 그 비용을 상쇄하지 못한다. 동사 `offset` = 상쇄하다. ≈ cancel out, make up for. ↔ compound. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: Its cost is entirely false accepts, and the rescue rate doesn't offset them.
+- **a mitigation, not a guarantee** — 완화책이지 보장은 아니다. ≈ a safeguard, not a cure. ↔ foolproof. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: That's why "same frame" is a mitigation, not a guarantee.
+- **was held back by … (by 0.001)** — 좋은 결과가 어떤 검사에 발목 잡혔다. `by` + 차이의 크기. ≈ was blocked by, was tripped up by. ↔ sailed through. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: The numbers show a correct, strong match that was held back by a chamfer ambiguity check, by 0.001.
+- **It isn't interfering with our work.** — 우리 작업을 방해하지 않는다. `interfere with` 는 `interrupt`(흐름을 끊다)보다 넓다. ≈ get in the way of. ↔ stay out of the way. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: No, the Orca hooks aren't interfering with our work; outside Orca they exit right away.
+- **the lasting fix** — 오래가는 해결책, 근본 해결. ≈ the permanent fix, a proper fix. ↔ a stopgap, a band-aid. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: While Orca.app is still installed, it will add the hooks back, so uninstalling the app is the lasting fix.
+- **Read aloud, …** — 소리 내어 읽으면. 분사구문(= When it is read aloud). ≈ When spoken, Out loud. ↔ On paper. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: Read aloud, "디에프티" ends in a vowel, so "가" is correct.
+- **I took this to mean …** — 이것을 …라는 뜻으로 받아들였다. 모호한 요청의 해석을 밝힌다. ≈ I read this as …, I interpreted this as …. ↔ I wasn't sure what you meant. [→ daily](../../daily/2026-10-01/new-expressions.md)
+  - 예: I took "semi-auto" to mean a manual trigger with an automatic connection.
