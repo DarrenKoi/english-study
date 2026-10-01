@@ -1670,3 +1670,23 @@
   - 예: Read aloud, "디에프티" ends in a vowel, so "가" is correct.
 - **I took this to mean …** — 이것을 …라는 뜻으로 받아들였다. 모호한 요청의 해석을 밝힌다. ≈ I read this as …, I interpreted this as …. ↔ I wasn't sure what you meant. [→ daily](../../daily/2026-10-01/new-expressions.md)
   - 예: I took "semi-auto" to mean a manual trigger with an automatic connection.
+- **at a verified stopping point** — 검증을 마친 매듭 지점에서. ≈ at a natural breakpoint, once the tests are green. ↔ mid-change. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: Heads-up first: the change is already committed and pushed to `main` (59d1c388), because the project rules have me commit at a verified stopping point.
+- **I'm dismissing this one.** — 이 지적은 기각한다. 확인한 뒤 물린다는 뜻으로 `ignore` 와 다르다. ≈ I'm ruling this out, I'll set this one aside. ↔ this one holds up. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: I tested this in the browser and it doesn't happen, so I'm dismissing this one.
+- **Open decision:** — 남은 결정 사항. 상대가 정해 줘야 할 것을 따로 떼는 라벨. ≈ Still to decide:, Pending your call:. ↔ Decisions locked in:. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: Open decision: the table waits for a click rather than opening on the first condition.
+- **which I reproduced before fixing** — 고치기 전에 직접 재현했다. 남의 지적을 곧이듣지 않았다는 보고. ≈ which I confirmed first, I didn't take them on faith. ↔ which I fixed on trust. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: It flagged three real problems in my change, which I reproduced before fixing.
+- **Likely causes, most likely first** — 가능한 원인, 가능성 높은 순. 장애 분석 목록의 제목. ≈ Possible causes, in order of likelihood; Probable causes, ranked. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: Likely causes, most likely first: the PC is off the internal network, company DNS is having trouble, or the host was renamed.
+- **map straight onto** — 곧바로 ~에 대응되다. 따로 해석할 것 없이 할 일로 이어진다. ≈ translate directly into, line up with. ↔ need interpreting first. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: Once the report comes back, the decision table in it should map straight onto concrete panel changes.
+- **a confident done report** — 자신만만한 완료 보고. 증거 없이 말투만 확신에 찬 보고. ≈ an unverified completion claim, taking "it's done" at face value. ↔ a verified result. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: Prove outcomes against a ledger instead of relying on a confident done report.
+- **note the skip rather than arguing with it** — 반박하지 말고 건너뛰었다고만 적는다. `skip` 이 명사. ≈ log it and move on, decline without debate. ↔ push back on it. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: Skip any finding you judge to be a false positive, and note the skip rather than arguing with it.
+- **Two changes you didn't ask for:** — 요청하지 않았지만 바꾼 것 두 가지. 범위 밖 변경을 따로 알리는 소제목. ≈ Beyond the request:, Unrequested changes:. ↔ Exactly as requested. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: Two changes you didn't ask for: the LaserPower mock data and the shared tooltip code.
+- **Spend attention where it compounds** — 복리로 불어나는 곳에 주의를 써라. ≈ Put your effort where it pays off most, Focus on high-leverage work. ↔ spread yourself thin. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: Spend attention where it compounds: use stronger reasoning for design, integration, and verification.

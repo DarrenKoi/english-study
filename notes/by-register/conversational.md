@@ -774,3 +774,15 @@
   - 예: You can edit the captions or order and re-run as many times as you like.
 - **the one to watch** — 지켜봐야 할 것. `the one` 이 앞 명사를 받는다. ≈ the one to keep an eye on, the key risk. ↔ the one you can ignore. [→ daily](../../daily/2026-10-01/new-expressions.md)
   - 예: That's why the periodic-wrong-neighbour row is the one to watch.
+- **unless you say otherwise** — 달리 말씀이 없으면. 기본값을 정하고 거부권만 준다. ≈ unless you tell me differently, unless you object. ↔ only if you say so. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: I'm leaving the toggle markup alone unless you say otherwise.
+- **along the way** — 하는 도중에, 하는 김에. 본래 작업 중 덤으로 한 일을 덧붙일 때. ≈ in passing, while I was at it. ↔ on purpose. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: I found a blank-icon bug along the way and fixed it in the same commit.
+- **cancel out** — 서로 상쇄되다. ≈ offset each other, balance out. ↔ add up. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: The test count stays 1839: the removed `wallClockIso` test and the new icon test cancel out.
+- **take on** — (일을) 맡다. ≈ pick up, tackle. ↔ pass on, hand off. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: Want me to take on either of these?
+- **My mistake:** — 제 실수입니다. 콜론 뒤에 경위를 바로 붙인다. ≈ My bad., That one's on me., I got that wrong. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: My mistake: I restored with `git checkout --`, which reset `chartNearest.ts` to the last commit and wiped the uncommitted `gridDetail` edit.
+- **sort out** — 해결하다, 정리하다. 엉킨 것을 풀어 제자리에 둔다는 느낌. ≈ straighten out, resolve. ↔ mess up. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: To silence only the log shipping while you sort out the network, set `OPENSEARCH_LOGGING_DISABLED=1`.

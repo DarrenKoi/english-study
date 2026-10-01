@@ -889,7 +889,7 @@
     "-Users-daeyoung-Codes-auto-recipe-creator/551caf43-c2e5-4f45-97e3-5e57cc1dedff.jsonl": 15,
     "-Users-daeyoung-Codes-auto-recipe-creator/73289db3-7c2e-43f4-b0e1-a2583db0ffbe.jsonl": 138,
     "-Users-daeyoung-Codes-auto-recipe-creator/27e4ddbd-e169-415d-8569-ff5d5b24579d.jsonl": 67,
-    "-Users-daeyoung-Codes-pm-notes-my-task/f5c7c51a-be72-4386-9aa8-a0b1554d5379.jsonl": 577,
+    "-Users-daeyoung-Codes-pm-notes-my-task/f5c7c51a-be72-4386-9aa8-a0b1554d5379.jsonl": 661,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/a389af06-0011-4cfb-8b44-1bad0cc2a221.jsonl": 356,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/67bb9628-79fc-4460-8674-5bc0743503be.jsonl": 135,
     "-Users-daeyoung-Codes-auto-recipe-creator/3a259956-8fd2-46f9-aa18-320cc3caa054.jsonl": 1072,
@@ -904,7 +904,17 @@
     "-Users-daeyoung-Codes-auto-recipe-creator/2cf5199d-2d4f-40a0-99d6-d537bf215096.jsonl": 661,
     "-Users-daeyoung-Codes-auto-recipe-creator/4a60cb53-4e5b-46ef-83fc-dd1645b8b4b9.jsonl": 97,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/be53a769-3f00-4b57-8f7d-88f67bc203ae.jsonl": 100,
-    "-Users-daeyoung-Codes-llm-serving/e57f2c65-f6fc-4ccf-9466-dec00cd8851a/subagents/agent-a6fab6d10d2dca12f.jsonl": 33
+    "-Users-daeyoung-Codes-llm-serving/e57f2c65-f6fc-4ccf-9466-dec00cd8851a/subagents/agent-a6fab6d10d2dca12f.jsonl": 33,
+    "-Users-daeyoung-Codes-auto-recipe-creator/30910445-6d48-420f-9ba4-db2dd382524e.jsonl": 12,
+    "-Users-daeyoung-Codes-auto-recipe-creator/05e6f1f3-3306-4511-8c38-baca7426b1cf.jsonl": 330,
+    "-Users-daeyoung-Codes-auto-recipe-creator/bb69d29b-addb-4a04-a9ae-df198b3e2fb5.jsonl": 15,
+    "-Users-daeyoung-Codes-auto-recipe-creator/00a178e1-b5f7-49fb-ba98-6415a38bea2b.jsonl": 15,
+    "-Users-daeyoung-Codes-pm-notes-my-task/018b16f7-888c-405c-9bb9-e9ce02497ad4.jsonl": 15,
+    "-Users-daeyoung-Codes-english-study/17088622-b23e-4811-a0b8-2ab7fa722e1c.jsonl": 247,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/c14d5fd8-8ca9-48c4-82f9-7d33eadf97ee.jsonl": 1832,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/43e193df-97ba-4e62-8f29-550f094714c4.jsonl": 1483,
+    "-Users-daeyoung-Codes-english-study/d616c7f4-9442-45e6-855c-4267905895b8.jsonl": 260,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/7bd0039e-b8cc-4563-88d5-9e86c4c6f4ed.jsonl": 235
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1460,5 +1470,5 @@
     "auto_recipe_creator/docs/opencode/2026-09-29-demo-video-inspect-and-alarm-brief.md": "auto_recipe_creator/docs/opencode/2026-09-29-demo-video-inspect-and-alarm-brief.md:1790653175.5422835:5091",
     "skewnono_v3_nuxt/docs/datatables/hitachi/hardware_mdc_setting.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/hardware_mdc_setting.txt:1790751614.0723717:7901"
   },
-  "last_run": "2026-10-01"
+  "last_run": "2026-10-02"
 }

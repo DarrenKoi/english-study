@@ -1398,3 +1398,23 @@
   - 예: The charts follow the chips: switching models updates them right away, with no refetch.
 - **a flat ridge rather than a peak** — 봉우리가 아니라 평평한 능선. 점수가 한 점에서 솟지 않고 길게 이어지는 모양. ≈ a plateau. ↔ a sharp peak. [→ daily](../../daily/2026-10-01/new-expressions.md)
   - 예: A long horizontal line lines up at every horizontal offset, so the score surface forms a flat ridge rather than a peak.
+- **extract it when a third appears** — 중복 코드는 두 번까지 두고 세 번째가 나오면 그때 뽑아낸다(rule of three). ≈ wait for the rule of three, factor it out once it repeats again. ↔ extract it now. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: This is the second copy; extract it when a third appears.
+- **which is exactly the bug X was meant to fix** — 그게 바로 X 가 고치려던 버그다. `, which` 가 앞 절 전체를 받는다. ≈ which defeats the purpose of X, the very problem X was supposed to solve. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: The tooltip then re-pins and runs 6 px ahead of the cursor, which is exactly the bug the pin was meant to fix.
+- **a near-miss hover** — 대상에서 살짝 빗나간 호버. 허용 반경을 시험하는 입력. ≈ an off-target hover, a slightly-off click. ↔ a direct hit. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: Re-testing in the browser with a near-miss hover, about 13px off the dot.
+- **positive control** — 양성 대조. 테스트를 일부러 고장 내 정말 실패하는지 확인한다. ≈ a mutation check, a known-bad case. ↔ negative control. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: Positive control: temporarily making `gridDetail` return the snapped `x` should fail Codex's test.
+- **a test that guards nothing** — 아무것도 지키지 않는 테스트. 호출자가 사라진 코드의 테스트. ≈ a vacuous test, dead test code. ↔ a regression guard. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: Cost: 5 lines plus a test that guards nothing.
+- **The comment admits …** — 주석도 …라고 인정한다. 무생물 주어로 주석을 증인처럼 세운다. ≈ The comment concedes that …, The comment itself says …. ↔ The comment claims …. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: The comment admits data spanning under a day still repeats.
+- **always travel together** — (인자·필드가) 늘 함께 다닌다. Data Clumps 냄새를 말할 때. ≈ always come as a pair, are always passed together. ↔ vary independently. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: `step` and `dateOnly` are two props that always travel together.
+- **different notions of "same"** — "같다"의 기준이 서로 다르다. `notion` 은 `definition` 보다 느슨한 암묵적 기준. ≈ different definitions of "same", inconsistent equality rules. ↔ a single definition. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: "Collapse repeated snapshots" is implemented three times, with different notions of "same".
+- **sit clear of** — ~와 겹치지 않게 떨어져 있다. 화면 요소의 위치를 말할 때. ≈ don't overlap, are well separated from. ↔ print over, overlap. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: The trajectory has its own row, its axis names sit clear of the tick labels, and the trends show only `MM/DD`.
+- **an oracle that cannot fail** — 실패할 수 없는 판정 기준. 늘 통과해 검증 구실을 못 하는 검사. ≈ a check that always passes, a rubber stamp. ↔ a gate that can fail honestly. [→ daily](../../daily/2026-10-02/new-expressions.md)
+  - 예: Lint the ledger before working it, so an oracle that cannot fail is caught at authoring time rather than certified at report time.
