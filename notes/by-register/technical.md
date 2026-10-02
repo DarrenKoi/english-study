@@ -1418,3 +1418,31 @@
   - 예: The trajectory has its own row, its axis names sit clear of the tick labels, and the trends show only `MM/DD`.
 - **an oracle that cannot fail** — 실패할 수 없는 판정 기준. 늘 통과해 검증 구실을 못 하는 검사. ≈ a check that always passes, a rubber stamp. ↔ a gate that can fail honestly. [→ daily](../../daily/2026-10-02/new-expressions.md)
   - 예: Lint the ledger before working it, so an oracle that cannot fail is caught at authoring time rather than certified at report time.
+- **noise next to the VLM/OCR calls** — VLM/OCR 호출 옆에서는 잡음 수준. 비용을 인정한 뒤 옆의 큰 비용에 견줘 크기를 매긴다. `next to` 는 "~에 비하면". ≈ negligible compared with X, a rounding error next to X. ↔ the dominant cost. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: Cost is env parsing plus a millisecond-scale window enumeration, noise next to the VLM/OCR calls.
+- **a separate refactor, not this diff** — 별도 리팩터 거리이지 이번 diff 가 아니다. 맞는 개선이지만 범위 밖이라고 선을 긋는다. ≈ out of scope for this PR, belongs in its own change. ↔ fold it into this diff. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: Promoting an `env_str` is a separate refactor, not this diff.
+- **not made worse by the diff** — 이번 diff 때문에 나빠진 건 아니다. 손대지 않는 근거로 쓴다. ≈ pre-existing, not a regression. ↔ introduced by this diff. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: Double window lookup (`:249`): not made worse by the diff and not trivially removable, since `manual_click_button.main` returns only an int.
+- **no longer advertised** — 더는 안내하지 않는. 기능은 살아 있고 문서에서만 빠졌다. `advertise` 는 문서·도움말이 알린다는 뜻. ≈ undocumented, soft-deprecated. ↔ documented, removed. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: `SAFE_MODE` handling (`:230`, `:283`) and the `[dry-run]` suffix (`:298`) are still live, not dead — the knob still works and is just no longer advertised in this file.
+- **half-applied** — 반만 적용된. `half-` + 과거분사 틀(`half-done`, `half-migrated`). ≈ only partly applied, incomplete. ↔ applied across the board. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: The optional-arg fix is the right mechanism, but it is half-applied.
+- **net about zero lines** — 줄 수 증감이 거의 0. `net` 은 더하고 뺀 뒤 남는 순 양. ≈ roughly line-neutral, no net increase in code. ↔ a net increase. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: The change is net about zero lines and stays backward compatible.
+- **fix the bookkeeping** — 부기(장부)를 바로잡아라. 본 로직은 맞고 건수·합계·순번 같은 부수 기록만 틀렸을 때. ≈ fix the counters and totals, tidy up the accounting. ↔ rework the core logic. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: Q3: agree with interleave-after, but fix the bookkeeping.
+- **aborts the whole run** — 실행 전체를 중단시킨다. 부가 기능 하나가 전체를 끝내 버린다는 결함 보고. ≈ kills the entire run, is fatal to the run. ↔ is logged as a warning and the run continues. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: An overlay failure aborts the whole run.
+- **failure isolation** — 실패 격리. 한 부분의 실패가 다른 부분으로 번지지 않게 가둔다. ≈ fault containment, graceful degradation. ↔ cascading failure. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: Add a regression test for this failure isolation.
+- **sorts before** — 정렬하면 ~앞에 온다. `sort` 를 자동사로 쓴다. ≈ comes before X in lexical order, is ordered ahead of X. ↔ sorts after. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: Once a recording holds more than 9,999 frames, `10000` sorts before `1000`.
+- **admits the same noise** — 같은 잡음을 들여보낸다. `admit` 의 "들여보내다" 쪽 뜻으로, 규칙·필터가 주어. ≈ lets in the same noise, doesn't keep out X. ↔ filters out, rejects. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: The narrow rule admits the same noise whenever cursor detection fails.
+- **hijack the tab** — 탭을 가로채다. 병렬로 도는 다른 에이전트가 내 자원을 빼앗는다. ≈ take over the tab, steal focus. ↔ leave the tab alone. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: Always work in a named session so a parallel agent cannot hijack the tab.
+- **is guaranteed to emit** — 반드시 내보내게 돼 있는. `be guaranteed to + 동사`. ≈ always emits, is certain to produce. ↔ may or may not emit. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: The handler is guaranteed to emit a `done` event, so the test waits on that.
+- **compare structure, not colour** — 색 말고 구조를 비교해라. 환경마다 달라지는 겉모습은 검증 대상에서 뺀다. ≈ check the layout rather than the palette, ignore cosmetic differences. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: A fresh profile has no persisted chart theme, so ECharts may render with a different theme than your own browser shows — compare structure, not colour, unless the theme is what you are checking.

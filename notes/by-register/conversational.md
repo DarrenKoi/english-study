@@ -786,3 +786,11 @@
   - 예: My mistake: I restored with `git checkout --`, which reset `chartNearest.ts` to the last commit and wiped the uncommitted `gridDetail` edit.
 - **sort out** — 해결하다, 정리하다. 엉킨 것을 풀어 제자리에 둔다는 느낌. ≈ straighten out, resolve. ↔ mess up. [→ daily](../../daily/2026-10-02/new-expressions.md)
   - 예: To silence only the log shipping while you sort out the network, set `OPENSEARCH_LOGGING_DISABLED=1`.
+- **got the … treatment and these did not** — 저긴 그 처리를 받았는데 여긴 안 받았다. 한 곳만 고치고 나머지를 빠뜨렸다는 일관성 지적. ≈ was given the same fix, was handled the same way. ↔ was left untouched. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: `manual_open_recipe.py:237` got the `or '(열린 tool 창)'` treatment and these did not.
+- **Gotchas seen so far:** — 지금까지 겪은 함정: 문서 소제목. `gotcha` 는 모르면 당하는 함정. ≈ Known pitfalls:, Caveats:, Things that have bitten us:. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: Gotchas seen so far: `wait --text` times out at 25 s with no partial output, so wait on a string the mock is guaranteed to emit, not on one branch of it.
+- **is a fine answer** — 그렇게 해도 괜찮다. `fine` 은 "그 정도면 된다". ≈ is perfectly acceptable, is a reasonable fallback, works too. ↔ is a last resort. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: If the extension reports "Browser extension is not connected", switching to Playwright is a fine answer — just say which one is being used.
+- **pick by situation** — 상황 보고 골라라. `by` 는 기준. ≈ choose case by case, use whichever fits. ↔ always use the default. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: The other two remain available — pick by situation.

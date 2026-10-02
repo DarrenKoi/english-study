@@ -1690,3 +1690,23 @@
   - 예: Two changes you didn't ask for: the LaserPower mock data and the shared tooltip code.
 - **Spend attention where it compounds** — 복리로 불어나는 곳에 주의를 써라. ≈ Put your effort where it pays off most, Focus on high-leverage work. ↔ spread yourself thin. [→ daily](../../daily/2026-10-02/new-expressions.md)
   - 예: Spend attention where it compounds: use stronger reasoning for design, integration, and verification.
+- **Nothing worth fixing on the efficiency angle** — 효율 관점에서는 고칠 만한 게 없다. 맡은 관점의 결론을 첫 줄에 둔다. `worth` 뒤에는 동명사. ≈ No findings from an efficiency standpoint, Nothing to flag here. ↔ Three findings on the efficiency angle. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: Nothing worth fixing on the efficiency angle; the diff adds no wasted work.
+- **none blocking** — 막을 만한 건 없음. `none (of them is) blocking` 을 줄인 리뷰 요약어. ≈ no blockers, all non-blocking. ↔ a must-fix. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: Three small findings, none blocking; otherwise the diff is clean.
+- **go one step further** — 한 걸음 더 나아가다. 방향은 맞으니 조금만 더 가자고 권한다. 정도에는 `further`. ≈ take it a step further, finish the job. ↔ stop here, dial it back. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: Verdict: go one step further to (c).
+- **Defer it.** — 미루자. 판단해서 뒤로 넘긴다. `postpone` 은 일정, `put off` 는 구어. ≈ Park it for now, Leave it for a follow-up. ↔ Fix it in this diff. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: The real fix needs a 170-line refactor, so defer it to a follow-up.
+- **a hypothesis, not something I tested** — 가설이지 내가 시험해 본 게 아니다. 주장 뒤에 검증 수준을 스스로 밝힌다. ≈ untested, reasoning only, I haven't verified this. ↔ reproduced, confirmed by a test. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: This is a hypothesis, not something I tested.
+- **closeness in time does not prove that the earlier action caused the change** — 시간상 가깝다고 앞선 동작이 원인이라는 증거는 아니다. 무생물 주어 + `does not prove that`. ≈ correlation is not causation, temporal proximity is not evidence of causation. ↔ X directly caused Y. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: The transitive chain can suppress indefinitely while changes keep arriving, and closeness in time does not prove that the earlier action caused the change.
+- **I did not verify that coverage myself.** — 그 범위는 제가 직접 확인하지 않았습니다. 남의 결과를 전하면서 전달과 검증을 가른다. ≈ I'm relaying this unverified, I haven't checked this independently. ↔ I confirmed this myself. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: I did not verify that coverage myself.
+- **Nothing further to report.** — 더 보고할 것 없음. 빈 칸 대신 "없음"을 적는 정형구. ≈ No further findings, Nothing else to flag. ↔ One more thing:. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: I have nothing further to report on the remaining items.
+- **rather than assuming** — 짐작하지 말고. `rather than + -ing` 로 하지 말아야 할 쪽을 뒤에 둔다. ≈ instead of guessing, verify, don't assume. ↔ take it on faith. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: Nuxt takes the next free port when 3000 is busy — read the dev-server log rather than assuming.
+- **a reference to consult, not a session to run** — 찾아보는 참고서이지 실행하는 세션이 아니다. 명사 + to부정사를 두 번 겹친 대구. ≈ a glossary, not a procedure, for lookup only. ↔ a step-by-step procedure. [→ daily](../../daily/2026-10-03/new-expressions.md)
+  - 예: It is the shared source of the module, interface, depth, seam, adapter, leverage and locality terms, and it is a reference to consult, not a session to run.
