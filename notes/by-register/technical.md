@@ -1446,3 +1446,17 @@
   - 예: The handler is guaranteed to emit a `done` event, so the test waits on that.
 - **compare structure, not colour** — 색 말고 구조를 비교해라. 환경마다 달라지는 겉모습은 검증 대상에서 뺀다. ≈ check the layout rather than the palette, ignore cosmetic differences. [→ daily](../../daily/2026-10-03/new-expressions.md)
   - 예: A fresh profile has no persisted chart theme, so ECharts may render with a different theme than your own browser shows — compare structure, not colour, unless the theme is what you are checking.
+- **is filled in only when** — ~일 때만 채워진다. 수동태로 값의 처지에서 조건을 못 박는다. ≈ is populated only when, only gets set if. ↔ is left blank. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: The SLOT badge in 측정 정보 is filled in only when the measurement was opened from the search list.
+- **wrap together as one unit** — 한 덩어리로 같이 줄이 바뀐다. `wrap` 은 자동사. ≈ move as a group, don't split across lines. ↔ wrap independently. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: The chips and the info tag now wrap together as one unit, in both full-width lists.
+- **truncates with an ellipsis** — 말줄임표로 잘린다. `truncate` 를 자동사로 써서 글자를 주어에 세운다. ≈ gets cut off, is clipped. ↔ wraps onto a second line. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: In the narrow sidebar cards a long recipe name truncates with an ellipsis.
+- **in sync with the remote** — 원격과 맞춰진 상태. ≈ up to date with origin, level with origin/main. ↔ out of sync, behind the remote. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: Pushed and in sync with the remote.
+- **acts as if it were** — 마치 ~인 것처럼 동작한다. `as if` 뒤는 가정법 `were`. ≈ behaves like, is treated as. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: When the parent has no fixed height, a percentage basis acts as if it were "fit the content".
+- **add no height of their own** — 스스로는 높이를 보태지 않는다. `of one's own` 은 "자기 몫의". ≈ contribute nothing to the height, take their height from the parent. ↔ stretch the whole row. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: Adding `basis-0` at xl means the cards add no height of their own, so the row is exactly as tall as the chart.
+- **the tests go insensitive to real changes** — 테스트가 실제 변경에 둔감해진다. `go + 형용사` 는 나쁜 쪽으로 변함. ≈ stop catching real changes, become blind to regressions. ↔ fail when behavior actually changes. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: When you write all the tests first, the tests go insensitive to real changes.

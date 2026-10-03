@@ -1710,3 +1710,25 @@
   - 예: Nuxt takes the next free port when 3000 is busy — read the dev-server log rather than assuming.
 - **a reference to consult, not a session to run** — 찾아보는 참고서이지 실행하는 세션이 아니다. 명사 + to부정사를 두 번 겹친 대구. ≈ a glossary, not a procedure, for lookup only. ↔ a step-by-step procedure. [→ daily](../../daily/2026-10-03/new-expressions.md)
   - 예: It is the shared source of the module, interface, depth, seam, adapter, leverage and locality terms, and it is a reference to consult, not a session to run.
+- **follows on from** — ~에 이어지는 것이다. 앞선 질문·문서의 후속임을 밝힌다. ≈ is a follow-up to, builds on. ↔ stands on its own. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: This follows on from Q16 in questionnaire 3, which hasn't been answered yet.
+- **lays out our assumption for each tool** — 장비마다 가정을 정리해 적어 두었다. `lay out` 은 펼쳐 놓듯 차례로 보여 준다. ≈ spells out, sets out. ↔ glosses over. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: The letter lays out our assumption for each tool.
+- **means nothing to users** — 사용자에게는 아무 뜻도 없다. 틀린 게 아니라 통하지 않는다는 지적. ≈ is meaningless to users, is jargon to users. ↔ speaks for itself. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: A design-system color name means nothing to users, so I changed the hint on the trend page.
+- **One gap with links:** — 링크 쪽에 빈 곳이 하나 있다. 다 됐다고 보고한 뒤 남은 구멍 하나를 꺼내는 문단 머리. ≈ One caveat:, A known limitation:. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: One gap with links: the SLOT badge is filled in only when the measurement was opened from the search list.
+- **the rest stay blank** — 나머지는 빈 채로 둔다. 확인된 것만 채운다는 방침. ≈ the rest are left empty, the remainder is omitted. ↔ fall back to a guess. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: I'll only read it from the filename for tools the office confirms; the rest stay blank.
+- **it is what makes the rest work** — 나머지가 되게 하는 것이 바로 그것이다. 시키지 않은 변경을 넣은 이유를 댈 때. ≈ everything else depends on it, it's the linchpin. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: The date change wasn't in your request, but it is what makes the rest work.
+- **so this isn't new, but** — 그러니 새로 생긴 문제는 아니지만. 근거, 면책, 남은 결점 순으로 꺾는다. ≈ this predates the change, not a regression. ↔ this is a regression. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: The old single-line string truncated as well, so this isn't new, but there is no tooltip showing the full name.
+- **Nothing is on main yet beyond the first commit.** — 첫 커밋 말고는 아직 main 에 올라간 게 없다. `nothing … beyond X` 는 "X 뿐". ≈ Only the first commit is on main so far, No further changes have been merged. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: Nothing is on `main` yet beyond the first commit.
+- **tests worth keeping** — 남겨 둘 만한 테스트. `명사 + worth + -ing` 로 뒤에서 꾸민다. ≈ tests that earn their place, tests that pull their weight. ↔ throwaway tests. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: This skill is the reference that makes that loop produce tests worth keeping.
+- **agreeing the seams up front** — 경계를 미리 합의해 두는 것. `up front` 는 "시작 전에". `agree` 타동사는 영국식(미국식 `agree on`). ≈ settling the scope in advance, getting aligned early. ↔ figuring it out as you go. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: You can't test everything — agreeing the seams up front is how testing effort lands on the critical paths and complex logic instead of every edge case.
+- **when the layout calls for it** — 레이아웃이 그걸 요구할 때. `call for` 는 상황이 주어인 "필요로 하다". ≈ when the layout requires it, where it makes sense. ↔ when there's no need. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: Replace `right` with `down` when the layout calls for it.

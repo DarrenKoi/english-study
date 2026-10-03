@@ -794,3 +794,19 @@
   - 예: If the extension reports "Browser extension is not connected", switching to Playwright is a fine answer — just say which one is being used.
 - **pick by situation** — 상황 보고 골라라. `by` 는 기준. ≈ choose case by case, use whichever fits. ↔ always use the default. [→ daily](../../daily/2026-10-03/new-expressions.md)
   - 예: The other two remain available — pick by situation.
+- **hard to spot** — 눈에 잘 안 띄는. 있는 줄 모르고 지나친다는 쪽. ≈ easy to miss, inconspicuous. ↔ stands out, hard to miss. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: If it's still hard to spot, the next steps would be a slightly bigger label or moving the selector to the table's header row.
+- **needs less room** — 자리가 덜 필요하다. `room` 은 셀 수 없는 명사라 `less`. ≈ takes up less space, has a smaller footprint. ↔ needs more room. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: I narrowed it from `w-48` to `w-36` because the count needs less room.
+- **tied with the date** — 날짜와 동률인. 비중이 같아 우열이 없다는 말을 경기 용어로. ≈ on a par with, the same weight as. ↔ outranks. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: Before the change the recipe was 14px semibold, tied with the date.
+- **lead the row** — 행을 이끌다. 여러 요소 중 눈이 먼저 가는 자리를 차지한다. ≈ be the focal point, draw the eye first. ↔ recede, take a back seat. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: While the date stayed the boldest element, the recipe couldn't lead the row.
+- **a deeper pass** — 더 깊이 한 번 훑기. `pass` 는 처음부터 끝까지 한 번 보는 일. ≈ a more thorough review, a closer look. ↔ a quick skim. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: Say `/code-review high` if you want a deeper pass.
+- **Reads cleanly in light mode.** — 라이트 모드에서 깔끔하게 읽힌다. `read` 를 자동사로, 화면이 주어. ≈ looks clean, is easy to scan. ↔ reads as cluttered. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: The new row reads cleanly in light mode, so I'm checking dark mode next.
+- **Both themes hold.** — 두 테마 다 버틴다. `hold` 는 조건을 바꿔도 무너지지 않는다는 자동사. ≈ Both themes hold up, It works in both themes. ↔ falls apart in dark mode. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: Both themes hold, so I'm committing the one file to `main`.
+- **page scroll did nothing** — 페이지 스크롤이 아무 일도 안 했다. 무생물 주어 + `do nothing`. ≈ had no effect, was a no-op. ↔ did the trick. [→ daily](../../daily/2026-10-04/new-expressions.md)
+  - 예: The SPA scrolls an inner container, so page scroll did nothing.
