@@ -1460,3 +1460,23 @@
   - 예: Adding `basis-0` at xl means the cards add no height of their own, so the row is exactly as tall as the chart.
 - **the tests go insensitive to real changes** — 테스트가 실제 변경에 둔감해진다. `go + 형용사` 는 나쁜 쪽으로 변함. ≈ stop catching real changes, become blind to regressions. ↔ fail when behavior actually changes. [→ daily](../../daily/2026-10-04/new-expressions.md)
   - 예: When you write all the tests first, the tests go insensitive to real changes.
+- **fires four live requests** — 실시간 요청 네 개를 쏜다. `fire` 는 요청·이벤트를 내보내는 동사. ≈ sends four requests, kicks off four requests. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: Opening the TAT tab fires four live requests: `ranking`, `summary`, `daily-trend` and `devices`.
+- **still pay the 10 seconds** — 여전히 10초를 치른다. 시간·지연을 비용처럼 `pay` 한다. ≈ still take the full 10 seconds, still incur the delay. ↔ hit the cache. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: A plain "cache on first request" layer barely helps a low-traffic internal page: with a 1-hour lifetime, most opens are the first of that hour and still pay the 10 seconds.
+- **keeps it off the 00:05 reload** — 00:05 재적재 시간대와 겹치지 않게 한다. `keep A off B`. ≈ keeps it clear of, avoids colliding with. ↔ lands on top of. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: Restricting it to working hours keeps it off the 00:05 reload and the quiet-window jobs.
+- **at the finest grain** — 가장 잘게 쪼갠 단위로. `grain` 은 한 행이 나타내는 단위. ≈ at the lowest level of detail, at row-level granularity. ↔ at a coarse grain, rolled up. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: Instead the letter asks for counts and sums at the finest grain: one row per day × fab × tool × recipe × lot.
+- **cap the split count** — 눈금 수에 상한을 건다. `cap` 을 동사로. ≈ limit, put a ceiling on. ↔ leave it unbounded. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: Mileage axis labels overlap at 112px height; I'll cap the split count.
+- **drops out of** — ~에서 빠진다. 조건 때문에 저절로 빠지는 자동사구. ≈ is excluded from, falls out of. ↔ shows up in. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: BSOX group works: the no-data file (TT032O0·02) shows its Summary stats with n "–" and drops out of 02 (stability says 5건).
+- **and nothing errored** — 그런데 에러는 하나도 안 났다. `error` 를 동사로 쓴 개발자 구어. ≈ it failed silently, no error was raised. ↔ it threw, it failed loudly. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: The 01 chart didn't render at all: Nuxt names the file `<AfmTrendChart>`, not the tag I'd used, and nothing errored.
+- **pulls μ far enough to put every point outside the limits** — μ 를 끌고 가서 모든 점이 한계 밖에 놓인다. `enough to` 부정사로 정도와 결과를 잇는다. ≈ skews the mean so much that, drags the average off. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: The spec's μ is a plain mean while σ is outlier-resistant, so in a very small group one big excursion pulls μ far enough to put every point outside the limits.
+- **is covered only by a unit test, not seen in the browser** — 단위 테스트로만 덮였고 브라우저에서 본 것은 아니다. 검증 수준을 경로별로 가른다. ≈ is unit-tested but not verified in the browser. ↔ verified end to end. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: No group I could build contains a STOPPED block, so the "블록 STOPPED" path is covered only by a unit test, not seen in the browser.
+- **checked-in** — 저장소에 커밋해 둔. `check in` 에 하이픈을 넣어 형용사로. ≈ committed, version-controlled, tracked. ↔ generated at build time, git-ignored. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: A standard-library Python builder parses the repository's current Markdown subset into semantic HTML, rewrites collection links, and generates one checked-in page per source document.

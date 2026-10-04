@@ -1732,3 +1732,27 @@
   - 예: You can't test everything — agreeing the seams up front is how testing effort lands on the critical paths and complex logic instead of every edge case.
 - **when the layout calls for it** — 레이아웃이 그걸 요구할 때. `call for` 는 상황이 주어인 "필요로 하다". ≈ when the layout requires it, where it makes sense. ↔ when there's no need. [→ daily](../../daily/2026-10-04/new-expressions.md)
   - 예: Replace `right` with `down` when the layout calls for it.
+- **before I give the verdict** — 결론을 내기 전에. `verdict` 는 따져 본 끝에 내리는 판정. ≈ before I make a call, before I draw a conclusion. ↔ jump to a conclusion. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: Still reading — I've traced the page's requests and the scheduler; two last checks (default fab scope on open, and whether we already write to Redis) before I give the verdict.
+- **That leaves X to pre-compute.** — 그러면 남는 건 X 뿐이다. 경우를 지운 뒤 남은 일을 짚는 `That leaves + 명사 + to부정사`. ≈ So all that's left is X, What remains is X. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: That leaves tool type × fab selection to pre-compute.
+- **well under an hour** — 한 시간보다 한참 짧은. `well` 이 `under/over` 앞에서 "넉넉히". ≈ comfortably under, far below. ↔ just under, well over. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: An hourly job needs a lock lifetime well under an hour and its own minute slot.
+- **a large share of** — ~의 큰 몫. `most of` 라고 단정하기 어려울 때의 수위. ≈ a big chunk of, a significant portion of, the bulk of. ↔ a sliver of. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: It may be a large share of the 10 seconds.
+- **One design choice to confirm before you send it** — 보내기 전에 확인할 설계 결정이 하나 있다. 명사구 + 콜론으로 확인받을 일을 먼저 꺼낸다. ≈ One thing to flag before you send it, One decision needs your sign-off first. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: One design choice to confirm before you send it: the letter asks for a pre-aggregated table, not ready-made page results.
+- **blocked on you sending the letter** — 네가 편지를 보내야 풀리는. `blocked on` + 의미상 주어가 붙은 동명사. ≈ waiting on you to send the letter, pending your sending the letter. ↔ unblocked. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: Two are new today — the recipe-status cube (blocked on you sending the letter and the office reply) and the office log check on where the 10 seconds goes; nothing was closed.
+- **distill this session into** — 이 세션을 ~로 추려 내다. `distill A into B` 는 걸러서 알맹이만 남긴다. ≈ boil this session down to, condense into. ↔ pad out. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: Distill this session into the work that is still open and persist it so the next session can continue without re-reading everything.
+- **because it would otherwise be wrong** — 그대로 두면 틀린 내용이 되므로. `otherwise` 가 가정을 받아 `would` 가 온다. ≈ since leaving it would make it wrong, or it'd be out of date. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: The breakpoints didn't change, but I rewrote one §Grid & Container sentence about this page because it would otherwise be wrong (it said "4/8").
+- **caught five bugs, all fixed before the commit** — 버그 다섯 개를 잡았고 전부 커밋 전에 고쳤다. 쉼표 뒤 분사구로 처리 결과를 덧붙인다. ≈ turned up five bugs, surfaced five bugs. ↔ missed, slipped through. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: The browser pass caught five bugs, all fixed before the commit.
+- **reflects the remote as it is now** — 지금 이 순간의 원격 상태 그대로다. `as it is now` 는 "지금 있는 그대로". ≈ is up to date with the remote, matches the remote's current state. ↔ is based on a stale fetch. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: I fetched before comparing, so that reflects the remote as it is now.
+- **If you expected changes here, they are not in this working tree** — 여기 변경이 있을 줄 알았다면 이 작업 트리에는 없다. 열린 조건 `If you expected` + 현재형 주절. ≈ If you were expecting changes, I can't see any here. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: If you expected changes here, they are not in this working tree — they may be unsaved in an editor or sitting in another checkout.
+- **remains legible without zooming** — 확대하지 않아도 읽힌다. `legible` 은 글자가 판독된다는 뜻. ≈ stays readable, can be read at default zoom. ↔ illegible, too small to read. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: Verify at 360px width: body text remains legible without zooming.

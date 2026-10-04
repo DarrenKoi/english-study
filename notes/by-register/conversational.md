@@ -810,3 +810,19 @@
   - 예: Both themes hold, so I'm committing the one file to `main`.
 - **page scroll did nothing** — 페이지 스크롤이 아무 일도 안 했다. 무생물 주어 + `do nothing`. ≈ had no effect, was a no-op. ↔ did the trick. [→ daily](../../daily/2026-10-04/new-expressions.md)
   - 예: The SPA scrolls an inner container, so page scroll did nothing.
+- **however many** — 몇 개가 되든 그만큼. 개수가 미정인 항을 그대로 두고 말한다. ≈ an unknown number of, whatever number of. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: OpenSearch load: the warm job runs about 9 endpoints × 2 tool types × however many fab scopes, every hour.
+- **Tell me which it is** — 어느 쪽인지 알려 줘. 간접의문문 어순 `which it is`. ≈ Let me know which one applies, Which one is it? [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: Tell me which it is, plus the refresh minute, and I'll build the matching version.
+- **are my picks** — 내가 고른 값이다. 바꿔도 된다는 여지를 둔다. ≈ are my defaults, are what I went with. ↔ are fixed requirements. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: The 45-day window and 3-hour expiry are my picks; change them in the letter if you want different values.
+- **start to finish** — 처음부터 끝까지. `from` 없이 쉼표 사이에 끼우는 부사구. ≈ from beginning to end, all the way through. ↔ partway, piecemeal. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: Read `AFM_TREND_BRIEF.md` and do everything it says, start to finish, without asking me questions.
+- **make reasonable calls yourself** — 적당한 판단은 알아서 내려라. `call` 은 그 자리에서 내리는 결정. ≈ use your judgment, decide as you see fit. ↔ check with me first. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: Make reasonable calls yourself and record them in the report file it names.
+- **I've got the full picture.** — 전체 그림이 잡혔다. 조사가 끝났다는 신호. ≈ I have everything I need, I'm up to speed. ↔ I'm still piecing it together. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: I've got the full picture. Starting the worktree's Flask (:5051) and Nuxt (:3100) in the background while I write the utils.
+- **in one shot** — 한 번에. `shot` 은 시도 한 번이자 사진 한 장. ≈ in one go, in a single pass. ↔ in pieces. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: The app scrolls an inner container, so I'll use a tall viewport to capture the whole page in one shot.
+- **it behaves** — 제대로 동작한다. 목적어 없이 쓰는 `behave` 는 "말을 잘 듣는다". ≈ it works as expected, it holds up. ↔ it misbehaves, it acts up. [→ daily](../../daily/2026-10-05/new-expressions.md)
+  - 예: With 6 or more measurements it behaves, as the screenshots show.
