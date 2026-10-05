@@ -826,3 +826,7 @@
   - 예: The app scrolls an inner container, so I'll use a tall viewport to capture the whole page in one shot.
 - **it behaves** — 제대로 동작한다. 목적어 없이 쓰는 `behave` 는 "말을 잘 듣는다". ≈ it works as expected, it holds up. ↔ it misbehaves, it acts up. [→ daily](../../daily/2026-10-05/new-expressions.md)
   - 예: With 6 or more measurements it behaves, as the screenshots show.
+- **say it is fine where it is** — 지금 자리에 둬도 괜찮다고 말해 줘. `where it is` 는 지금 놓인 자리. 검토를 맡기며 "문제없음"도 답으로 받겠다는 출구. ≈ leave it where it is, it's fine as is. ↔ it belongs somewhere deeper. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: For each item, tell me the deeper change if there is one, or say it is fine where it is. (작성)
+- **without the user's say-so** — 사용자의 허락 없이는. `say-so` 는 그렇게 하라는 말 한마디. `on someone's say-so`(그 사람 말만 믿고)와 전치사로 갈린다. ≈ without approval, without sign-off. ↔ with the user's blessing. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: Don't change the office contract without the user's say-so. (작성)

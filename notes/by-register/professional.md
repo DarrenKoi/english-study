@@ -1756,3 +1756,23 @@
   - 예: If you expected changes here, they are not in this working tree — they may be unsaved in an editor or sitting in another checkout.
 - **remains legible without zooming** — 확대하지 않아도 읽힌다. `legible` 은 글자가 판독된다는 뜻. ≈ stays readable, can be read at default zoom. ↔ illegible, too small to read. [→ daily](../../daily/2026-10-05/new-expressions.md)
   - 예: Verify at 360px width: body text remains legible without zooming.
+- **layered on top of a shared mechanism** — 공용 메커니즘 위에 덧씌운. 아래를 고치지 않고 위에 한 겹 얹었다는 지적으로, 과거분사가 `bandaid` 나 `special case` 를 뒤에서 꾸민다. ≈ bolted on, papered over. ↔ fixed at the source. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: Angle: ALTITUDE — is each change made at the right depth, or is it a special case / bandaid layered on top of a shared mechanism that should have been changed instead?
+- **Weigh against: …** — 다만 이것과 견줘 볼 것. `weigh A against B` 에서 A 를 생략한 명령문에 콜론을 붙여 반대 근거를 곧바로 댄다. ≈ On the other hand, Counterpoint:, Bear in mind that. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: Weigh against: `backend/afm/MIGRATION.md` treats the payload as office-contract surface, and the office adapter (`providers/office_example.py`) is still a stub.
+- **a more direct formulation** — 더 직접적인 식 세우기. `formulation` 은 문제를 식이나 절차로 세우는 방식. ≈ a simpler way to express it, a cleaner approach. ↔ a roundabout way, a workaround. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: Is there a more direct formulation (e.g. generating per calendar day) that would not need the patches?
+- **Be decisive and concise** — 분명하게, 짧게 답해 달라. `Be + 형용사` 명령문으로 검토자에게 얼버무리지 말라고 주문한다. ≈ Give me a clear verdict, Don't hedge. ↔ hedge, sit on the fence. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: Be decisive and concise; I will apply only the ones that are clearly net simpler and do not change the office contract without the user's say-so.
+- **clearly net simpler** — 셈해 봐도 분명히 더 단순한. `net` 은 더하고 빼고 남은 것. ≈ simpler on balance, a net win. ↔ net more complex, a wash. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: I'd take the second option — it is clearly net simpler, even after adding the test. (작성)
+- **places I suspect are at the wrong depth** — 내가 보기에 층위가 잘못된 것 같은 곳들. 관계절 안에 `I suspect` 가 끼어든 꼴이라 `are` 의 주어는 `places`. ≈ places I think are …, places that look … to me. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: Specific places I suspect are at the wrong depth — evaluate each and tell me the deeper/more general change if there is one, or say it is fine where it is.
+- **most-severe first, one line each** — 심각한 것부터, 하나에 한 줄씩. 동사 없는 덧말 둘로 순서와 길이를 정한다. `each` 는 뒤에 붙는다. ≈ worst first, ranked by severity. ↔ in no particular order. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: Output at most 4 findings, most-severe first, one line each: `path/to/file.ext:123 — what's wrong and the concrete failure`.
+- **If nothing qualifies, output exactly `(none)`.** — 해당하는 것이 없으면 정확히 `(none)` 만 출력하라. `qualify` 는 목적어 없이 "기준을 충족하다". ≈ If nothing meets the bar, If there are no findings. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: If nothing qualifies, output exactly `(none)`.
+- **instead of predicting either one** — 둘 중 어느 것도 짐작하지 말고. `predict` 가 "보지 않고 지어낸다"는 뜻으로 쓰였다. ≈ rather than guessing, never make them up. ↔ read it back from the response. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: Read identifiers and state from those responses instead of predicting either one.
+- **If no final changes remain after validation, do not create an empty commit.** — 검증 뒤에 남은 변경이 없으면 빈 커밋을 만들지 않는다. 부정 주어 `no final changes` + `remain`. ≈ If there's nothing left to commit, skip the commit. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: If no final changes remain after validation, do not create an empty commit.

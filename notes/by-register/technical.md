@@ -1480,3 +1480,37 @@
   - 예: No group I could build contains a STOPPED block, so the "블록 STOPPED" path is covered only by a unit test, not seen in the browser.
 - **checked-in** — 저장소에 커밋해 둔. `check in` 에 하이픈을 넣어 형용사로. ≈ committed, version-controlled, tracked. ↔ generated at build time, git-ignored. [→ daily](../../daily/2026-10-05/new-expressions.md)
   - 예: A standard-library Python builder parses the repository's current Markdown subset into semantic HTML, rewrites collection links, and generates one checked-in page per source document.
+- **Should the contract carry … instead?** — 계약(응답)에 ~를 실어 보내야 하지 않나? `carry` 는 payload 가 필드를 싣고 다닌다는 뜻. ≈ include, expose. ↔ reconstruct it on the client, infer it from row order. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: Should the contract carry a block index/name per row instead?
+- **normalising once where rows enter the app** — 행이 앱에 들어오는 자리에서 한 번만 정규화하기. `where` 절이 "경계에서"를 풀어 쓴다. ≈ validate at the boundary, sanitize on the way in. ↔ null-check at every call site. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: Normalise the rows once where they enter the app, so every consumer gets clean strings. (작성)
+- **take its clock from one injectable place** — 시계를 주입 가능한 한 곳에서 받아 오다. `clock` 은 현재 시각을 얻는 출처. ≈ accept a `now` parameter, go through a clock seam. ↔ call `date.today()` inline, hard-code the date. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: It would be cleaner for the mock to take its clock from one injectable place than to pin the date in a repo-wide fixture. (작성)
+- **a hand-measured sum** — 손으로 재서 더한 값. `hand-` + 과거분사는 사람이 직접 했다는 형용사. 근거 없는 숫자를 뜻하는 `magic` 과 함께 쓴다. ≈ a hard-coded offset, an eyeballed number. ↔ a computed value. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: The sticky rail height is handled by a magic `clamp(6rem, calc(100dvh - 28rem), 16rem)` in PointRail, where 28rem is a hand-measured sum of the card's other parts. (작성)
+- **know about (a key that only the page adds)** — ~의 존재를 알고 있다, 곧 거기에 묶여 있다. 코드 리뷰에서 `A knows about B` 는 결합을 탓하는 말. ≈ be coupled to, depend on. ↔ be agnostic of. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: `ID_COLUMN_KEYS` in `afmPointsTable.ts` knows about a key that only the page adds. (작성)
+- **visible from the hunk alone** — 그 hunk 만 보고도 드러나는. `from X alone` 은 "X 만으로". 검토 범위를 diff 조각 하나로 묶는다. ≈ evident from the diff itself. ↔ only visible with full-file context. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: Flag runtime-correctness bugs visible from the hunk alone: inverted/wrong condition, off-by-one, … error swallowed in a catch that should propagate.
+- **where adjacent lines show the value can be absent** — 바로 옆 줄들이 그 값이 없을 수 있음을 보여 주는 곳에서. `where` 절로 지적 조건을 좁힌다. ≈ when the surrounding code proves it can be null. ↔ on suspicion alone. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: Flag a null deref only where adjacent lines show the value can be absent. (작성)
+- **dead code the diff leaves behind** — diff 가 남기고 간 죽은 코드. 목적격 관계대명사를 뺀 관계절이고 주어가 diff 다. ≈ orphaned code, leftover code. ↔ code the diff cleans up. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: Also flag — still from the hunk alone — new code that duplicates an existing helper visible in the diff context, and dead code the diff leaves behind.
+- **a falsy-zero check** — 0 을 거짓으로 취급해 버리는 검사. `if (!x)` 가 정상값 0 까지 "없음"으로 거르는 실수. ≈ a truthiness check. ↔ an explicit null check, a nullish check. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: `if (!count)` is a falsy-zero check: it treats a legitimate 0 as missing. (작성)
+- **do not retarget later resources** — 나중에 생긴 자원을 가리키게 바뀌지 않는다. `retarget` 은 겨냥하는 대상을 바꾸다. ≈ are never recycled, stay bound to the original. ↔ be reused. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: Closed tab and pane IDs are not reused and do not retarget later resources.
+- **unusably narrow columns** — 못 쓸 만큼 좁은 열. `too narrow to use` 를 부사 하나로 접었다(`painfully slow` 계열). ≈ too narrow to be useful, cramped. ↔ comfortably wide. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: Avoid repeated same-direction splits that would create unusably narrow columns or short rows.
+- **preserve unrelated working-tree changes** — 관련 없는 작업 트리 변경은 그대로 둔다. 명사 앞에서는 하이픈을 넣어 `working-tree`. ≈ leave other local changes untouched. ↔ stage everything, discard local changes. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: Stage and commit only the files named in each task; preserve unrelated working-tree changes.
+- **parse every document before rendering any output** — 출력을 하나라도 만들기 전에 문서를 전부 파싱한다. `every` 와 `any` 의 대비가 요점. ≈ validate everything up front, an all-or-nothing build. ↔ render as you go. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: `build_site()` must parse every document before rendering any output.
+- **aggregate every failure and raise one ValueError** — 실패를 전부 모아 예외 하나로 올린다. `every failure` 와 `one ValueError` 가 짝. ≈ collect all errors and report them together. ↔ fail fast, bail on the first error. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: `validate_local_references()` must aggregate every failure and raise one `ValueError` listing source page and broken target.
+- **Run the tests and verify they fail** — 테스트를 돌려 실패하는지 확인한다. TDD 에서 구현 전에 빨간불부터 보는 단계. ≈ watch it fail first, confirm the test is red. ↔ verify they pass. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: Run the tests and verify they fail.
+- **with a scroll-position fallback when unavailable** — 지원되지 않으면 스크롤 위치로 대신한다. `when unavailable` 은 주어와 be 동사를 뺀 축약(`if needed`, `where applicable`). ≈ falling back to scroll position if it isn't supported. ↔ with no fallback. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: Use `IntersectionObserver` for heading anchors, with a scroll-position fallback when unavailable. (작성)
+- **changes and persists after reload** — 바뀌고 새로고침해도 유지된다. `persist` 는 자동사로 "사라지지 않고 남다". ≈ survives a reload, sticks after a refresh. ↔ resets on reload. [→ daily](../../daily/2026-10-06/new-expressions.md)
+  - 예: Verify at desktop width: light/dark theme changes and persists after reload.
