@@ -1514,3 +1514,29 @@
   - 예: Use `IntersectionObserver` for heading anchors, with a scroll-position fallback when unavailable. (작성)
 - **changes and persists after reload** — 바뀌고 새로고침해도 유지된다. `persist` 는 자동사로 "사라지지 않고 남다". ≈ survives a reload, sticks after a refresh. ↔ resets on reload. [→ daily](../../daily/2026-10-06/new-expressions.md)
   - 예: Verify at desktop width: light/dark theme changes and persists after reload.
+- **it has never run against the real Redis and MinIO** — 실제 Redis·MinIO 를 상대로는 한 번도 돌려 본 적이 없다. `run against X` 는 X 를 상대로 실행한다는 뜻. ≈ hasn't been tested against real data, has only run against fakes. ↔ battle-tested. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: Yes, the template is ready to copy, but it has never run against the real Redis and MinIO, so do the read-only smoke run first.
+- **do the read-only smoke run first** — 읽기 전용 스모크 실행부터 먼저. `smoke run` 은 켜지기는 하는지만 보는 가벼운 실행. ≈ do a dry run, do a quick sanity check. ↔ go straight to production. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: Before you copy the adapter into place, do the read-only smoke run first. (작성)
+- **The `cp` is the switch** — 그 복사가 곧 전환 스위치다. 은유를 서술어에 놓고 콜론 뒤에서 `once …` 로 푼다. ≈ Copying the file is what turns it on, The copy itself is the cutover. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: The `cp` is the switch: once `office.py` exists, the office process serves real AFM data instead of the mock.
+- **There is no separate flag to flip.** — 따로 뒤집을 플래그는 없다. `flip a flag` 는 켜고 끄는 값을 젖힌다는 동사. ≈ No extra config is needed, Nothing else to toggle. ↔ It's gated behind a feature flag. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: The `cp` is the switch. There is no separate flag to flip.
+- **To back out, …** — 되돌리려면. `back out` 은 들어간 길을 뒷걸음으로 나온다는 그림이고 문두의 `To + 동사` 가 목적을 먼저 건다. ≈ To roll back, To undo it. ↔ To roll it out. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: To back out, delete `office.py` or set `SKEWNONO_AFM_PROVIDER=mock`.
+- **degrade to a null or a missing button** — null 이나 버튼 하나 빠지는 정도로 낮아진다. `degrade to X` 는 나빠져 봐야 X 까지라는 도착점. ≈ fall back to, the worst case is. ↔ crash the page, fail hard. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: None of the four should crash the page; they degrade to a null or a missing button, so you can copy first and fix in `office.py` afterwards.
+- **Nothing to commit or push** — 커밋할 것도 push 할 것도 없다. `There is` 를 뺀 명사구로 답을 열고 콜론 뒤에 근거를 댄다. `no commits ahead of` 는 git 말 그대로. ≈ Everything is already pushed, You're all caught up. ↔ You have unpushed commits. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: Nothing to commit or push: the working tree is clean, `main` has no commits ahead of `origin/main`, and there are no leftover worktrees.
+- **one bucket for every cookie-less visitor, not one person** — 쿠키 없는 방문자 전부를 담는 통 하나이지 사람 한 명이 아니다. `bucket` 은 분류해 담는 묶음. ≈ a catch-all id, a shared label. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: It is one bucket for every cookie-less visitor, not one person.
+- **404 blames the file, 503 blames the tool or network** — 404 는 파일 탓, 503 은 장비나 네트워크 탓. 숫자가 주어가 되어 `blame` 을 하는 의인화. ≈ 404 points at the file, 404 means the file is the problem. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: The 404/503 split is what makes the log readable: 404 blames the file, 503 blames the tool or network.
+- **would also land as 404** — 그것도 404 로 떨어진다. `land as X` 는 여러 갈래가 X 칸에 내려앉는다는 그림. ≈ would also show up as 404, would also map to 404. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: `ftplib.error_perm` covers every 5xx FTP reply, so a permission refusal on the file would also land as 404, not only a truly missing file.
+- **dropped out of the viewer** — 뷰어에서 튕겨 나갔다. `drop out of X` 는 X 에서 빠져나오다. ≈ kicked you back to the list, exited the viewer. ↔ stayed in the viewer. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: Arrows and keys work; fixing one gap — Tab through an image type with no images dropped out of the viewer — and re-testing the full Tab cycle.
+- **times out at 25 s with no partial output** — 25초에 타임아웃되고 중간 출력은 하나도 없다. 동사는 `time out`, 명사는 `timeout`. ≈ gives up after 25 s and prints nothing, fails silently after 25 s. ↔ streams output as it goes. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: `wait --text` times out at 25 s with no partial output, so wait on a string the mock is guaranteed to emit, not on one branch of it.
+- **Merge, don't overwrite** — 덮어쓰지 말고 합쳐라. 명령문 둘을 쉼표로 붙인 표어 틀(`Show, don't tell`). ≈ Append, don't replace, Update in place. ↔ Start from a clean slate. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: When you update the open-jobs file, merge, don't overwrite. (작성)

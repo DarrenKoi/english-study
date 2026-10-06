@@ -1776,3 +1776,23 @@
   - 예: Read identifiers and state from those responses instead of predicting either one.
 - **If no final changes remain after validation, do not create an empty commit.** — 검증 뒤에 남은 변경이 없으면 빈 커밋을 만들지 않는다. 부정 주어 `no final changes` + `remain`. ≈ If there's nothing left to commit, skip the commit. [→ daily](../../daily/2026-10-06/new-expressions.md)
   - 예: If no final changes remain after validation, do not create an empty commit.
+- **depends on a number I can't see from here** — 여기서는 볼 수 없는 숫자에 달려 있다. 모른다는 말을 무엇이 있어야 아는지로 한다. ≈ I can't tell without the logs, That hinges on data I don't have. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: Whether the 404s are harmless depends on a number I can't see from here.
+- **It is not a missing route and not an outage.** — 라우트가 없는 것도 아니고 장애도 아니다. `not A and not B` 로 걱정 둘을 따로 지운다. ≈ It's neither a routing bug nor downtime, Nothing is down. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: So a 404 means the tool was reachable and refused that one path. It is not a missing route and not an outage.
+- **which points to a stale `office.py` copy** — 그렇다면 묵은 `office.py` 사본이 원인으로 보인다. `point to` 는 단정보다 한 발 물러난 지목이고 `which` 는 앞 절 전체를 받는다. ≈ which suggests, which indicates. ↔ which rules out. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: The cond-sidecar directory bug from 2026-08-10 is back, which points to a stale `office.py` copy.
+- **So the earlier reading stands** — 그러니 앞의 해석은 그대로다. `stand` 는 여전히 유효하다, `reading` 은 해석. ≈ what I said before still holds, My earlier conclusion is unchanged. ↔ That changes things, I take that back. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: So the earlier reading stands: on `/api/msr-image` a 404 can only come from the tool's FTP refusing the file with a 550.
+- **To tell A from B, the useful columns are …** — A 와 B 를 가려내려면 볼 만한 열은 …. `tell A from B` 는 구별하다. ≈ To distinguish A from B, To figure out which it is. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: To tell "old purged images" from "something is broken", the useful columns are how many there are and how clustered they are. (작성)
+- **the log alone can't answer this** — 로그만으로는 답이 나오지 않는다. 명사 뒤의 `alone` 은 "~만으로는". ≈ the log isn't enough on its own, the log is inconclusive. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: If the rows don't carry the query string, the log alone can't answer this.
+- **I only read the code; I have not seen the log rows themselves.** — 코드만 읽었고 로그 행 자체는 보지 못했다. 세미콜론으로 한 것과 안 한 것을 나란히 세워 답의 근거를 밝힌다. ≈ This is based on the code alone, I'm going off the code here. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: I only read the code; I have not seen the log rows themselves.
+- **must keep showing up until it is actually done** — 정말 끝날 때까지 계속 목록에 떠야 한다. `keep -ing` + `show up`, `actually` 가 적힌 완료와 실제 완료를 가른다. ≈ must stay on the list until it's really finished. ↔ quietly drop off the list. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: A job left untouched for days must keep showing up until it is actually done.
+- **If you're tempted to list something finished, it belongs in …** — 끝난 일을 적고 싶어지면 그건 ~에 갈 것. 금지 대신 읽는 사람의 충동을 먼저 알아주는 말투. ≈ If you feel like adding …, put it in … instead, Resist the urge to …. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: If you're tempted to list something finished, it belongs in the journal/today-log, not here.
+- **terse and forward-looking** — 짧게, 그리고 앞으로 할 일 중심으로. `terse` 는 `concise` 보다 더 깎아 낸 짧음. ≈ short and action-oriented, brief and to the point. ↔ wordy and backward-looking. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: Write in English, terse and forward-looking.

@@ -830,3 +830,13 @@
   - 예: For each item, tell me the deeper change if there is one, or say it is fine where it is. (작성)
 - **without the user's say-so** — 사용자의 허락 없이는. `say-so` 는 그렇게 하라는 말 한마디. `on someone's say-so`(그 사람 말만 믿고)와 전치사로 갈린다. ≈ without approval, without sign-off. ↔ with the user's blessing. [→ daily](../../daily/2026-10-06/new-expressions.md)
   - 예: Don't change the office contract without the user's say-so. (작성)
+- **stays visible either way** — 어느 쪽이든 그대로 보인다. `either way` 가 앞의 두 선택지를 한꺼번에 받는다. ≈ in either case, whichever you choose, regardless. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: The page stays visible either way and goes back to showing mock data.
+- **Both halves are on purpose.** — 두 부분 다 일부러 그렇게 한 것. 묶인 질문을 둘로 갈라 받고 질문의 낱말을 되돌려준다. ≈ Both are intentional, Both are by design. ↔ That's a bug. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: Both halves are on purpose.
+- **That field doesn't narrow it down** — 그 필드로는 범위가 좁혀지지 않는다. 주어가 필드라서 상대를 탓하지 않는다. ≈ That doesn't tell us much, That's not conclusive. ↔ That settles it, That pins it down. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: That field doesn't narrow it down: `error_name` is just the HTTP status phrase, not the reason.
+- **a handful across old MSRs is normal** — 오래된 MSR 여기저기에 몇 건 있는 정도면 정상. `a handful` 은 한 줌, `across` 는 흩어져 있다는 뜻. ≈ a few scattered ones, the odd 404 here and there. ↔ a flood of them. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: A handful across old MSRs is normal; every image of one MSR or one tool is not.
+- **passed on the numbers** — 숫자상으로는 통과. 눈으로 볼 확인이 남았다는 뜻을 품는다. ≈ passes on paper, the metrics check out. ↔ looks right to the eye. [→ daily](../../daily/2026-10-07/new-expressions.md)
+  - 예: Browser check passed on the numbers (popup image renders 640×360 at its natural 640×360, zip link present, 0 console errors); just locating the screenshot to eyeball the layout before committing.
