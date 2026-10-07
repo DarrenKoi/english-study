@@ -1796,3 +1796,29 @@
   - 예: If you're tempted to list something finished, it belongs in the journal/today-log, not here.
 - **terse and forward-looking** — 짧게, 그리고 앞으로 할 일 중심으로. `terse` 는 `concise` 보다 더 깎아 낸 짧음. ≈ short and action-oriented, brief and to the point. ↔ wordy and backward-looking. [→ daily](../../daily/2026-10-07/new-expressions.md)
   - 예: Write in English, terse and forward-looking.
+- **Honor a direction requested by the user.** — 사용자가 요청한 방향이 있으면 그대로 따를 것. `honor` 는 요청·설정을 내 판단보다 앞세워 지킨다는 격식 동사. ≈ Respect the user's choice, Defer to the user's stated preference. ↔ override the user's choice. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: Honor a direction requested by the user; otherwise inspect the caller pane's current rectangle.
+- **unless the user explicitly intends to …** — 사용자가 분명히 그럴 의도일 때가 아니면. `Never … unless …` 로 금지와 예외 하나를 한 문장에 담는다. ≈ unless the user explicitly asks for it, absent explicit instruction. ↔ by default. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: Never run `herdr server stop` from an active session unless the user explicitly intends to stop the server and its pane processes.
+- **Interview the user relentlessly until you reach a shared understanding.** — 서로 같은 그림을 그릴 때까지 집요하게 물을 것. `a shared understanding` 은 합의보다 한 발 앞, 같은 것을 같은 뜻으로 아는 상태. ≈ keep asking until we're on the same page. ↔ take the request at face value. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: Interview the user relentlessly until you reach a shared understanding.
+- **without guessing at answers you haven't heard yet** — 아직 듣지 못한 답을 넘겨짚지 않고. `guess at` 의 `at` 은 맞는지 모르고 겨눠 본다는 뜻. ≈ without assuming the answer, without jumping ahead. ↔ fill in the blanks yourself. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: The frontier is the set of questions you can ask now without guessing at answers you haven't heard yet.
+- **push the frontier outward** — 경계선을 바깥으로 밀어내다. 결정이 내려지면서 다음에 다룰 범위가 넓어진다는 무생물 주어 표현. ≈ open up the next set of questions, move the boundary forward. ↔ narrow the scope. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: Settled decisions push the frontier outward and unblock questions that depended on them.
+- **Finding facts is your job, never the user's.** — 사실을 찾는 일은 네 몫이고 사용자 몫이 아니다. 동명사 주어 + 소유격 뒤 `job` 생략. ≈ The legwork is on you, Look it up yourself. ↔ Ask the user for it. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: Finding facts is your job, never the user's.
+- **put each to them and wait** — 하나하나 그들에게 내놓고 기다릴 것. `put a question to someone` 은 결정권이 저쪽에 있음을 드러내는 격식 연어. ≈ run each one by them, ask them one by one. ↔ decide on their behalf. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: The decisions are the user's — put each to them and wait.
+- **nothing left silently assumed** — 말없이 가정해 둔 채 남은 것이 없다. `left + 과거분사`, 요점은 `silently`. ≈ no unstated assumptions, nothing taken for granted. ↔ taken as read. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: The session is done when the frontier is empty: every branch of the design tree visited, nothing left silently assumed.
+- **own the diff directly** — 변경분을 직접 책임지고 맡아라. `own` 은 소유가 아니라 책임. ≈ make the change yourself, it's your change to land. ↔ hand it off, delegate it further. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: You are a code-writing delegate: own the diff directly, do not spawn agents, do not commit.
+- **What is missing is that …** — 빠져 있는 것은 ~라는 점이다. 이미 된 것을 말한 뒤 빠진 하나에 초점을 모으는 의사분열문. ≈ The only gap is that …, The catch is that …. ↔ What is already in place is …. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: What is missing is that the `/endpoints` API reference page does not list them.
+- **drop the sentence if false** — 사실이 아니면 그 문장은 뺄 것. `if false` 는 `if it is false` 의 줄임(`if needed`, `if any`). ≈ leave it out if it doesn't hold, omit it if untrue. ↔ keep it as is. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: Confirm that the pages call no other endpoint, and drop the sentence if false.
+- **anything in my brief you found wrong** — 내 지시문에서 틀렸다고 본 곳이 있으면 무엇이든. `brief` 는 일을 맡기며 건네는 지시·배경 설명. ≈ anything I got wrong, any inaccuracies in the brief. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: In your report, include anything in my brief you found wrong and which endpoints you left out.
+- **Those are charts, not fetchers; the claim holds.** — 그건 차트지 데이터를 가져오는 코드가 아니니 주장은 유효하다. `A, not B` 로 가르고 `hold`(성립하다)로 결론. ≈ so the assumption stands, which confirms the claim. ↔ the claim falls apart. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: Those are charts, not fetchers; the claim holds.

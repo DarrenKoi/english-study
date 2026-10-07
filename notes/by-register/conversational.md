@@ -840,3 +840,13 @@
   - 예: A handful across old MSRs is normal; every image of one MSR or one tool is not.
 - **passed on the numbers** — 숫자상으로는 통과. 눈으로 볼 확인이 남았다는 뜻을 품는다. ≈ passes on paper, the metrics check out. ↔ looks right to the eye. [→ daily](../../daily/2026-10-07/new-expressions.md)
   - 예: Browser check passed on the numbers (popup image renders 640×360 at its natural 640×360, zip link present, 0 console errors); just locating the screenshot to eyeball the layout before committing.
+- **Everything orca-related is gone from …** — orca 와 관련된 것은 ~에서 전부 없어졌다. `-thing` 대명사 뒤에 형용사, `is gone` 은 결과 상태. ≈ I've removed all the orca bits, It's all cleaned out. ↔ is still in there. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: Done. Everything orca-related is gone from the Claude Code config.
+- **which is just a catalogue** — 그건 그냥 목록일 뿐이다. 쉼표 뒤 계속적 용법 `which` + `just` 로 가볍게 일축. 미국식 철자는 `catalog`. ≈ which is only a listing, which is nothing more than an index. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: The only "plugin" hit was the public plugin directory cache, which is just a catalogue.
+- **The Orca app itself stays** — Orca 앱 자체는 그대로 둔다. `itself` 가 본체를 강조하고 `stay` 가 "남는다". ≈ I left the app itself alone, The app proper is untouched. ↔ The app goes too. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: The Orca app itself stays: `/usr/local/bin/orca` and `~/.orca/`.
+- **Say so if you want those gone too.** — 그것들도 없애고 싶으면 말해 줘. `want + 목적어 + gone` 의 5형식. ≈ Let me know if you'd like those removed as well, Just tell me if those should go too. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: The Orca app itself stays; say so if you want those gone too.
+- **Now the frontend logic.** — 이제 프런트 로직 차례. `Now + 명사구` 만으로 다음 단계를 알린다. ≈ Next up: the frontend logic, On to the frontend. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: Now the docs for the 8th reply, while tests run.

@@ -172,6 +172,7 @@
 - [a structural weakness, not a tuning problem](daily/2026-08-25/new-expressions.md) — 2026-08-25
 - [a systematic hole](daily/2026-08-13/new-expressions.md) — 2026-08-13
 - [aggregate every failure and raise one ValueError](daily/2026-10-06/new-expressions.md) — 2026-10-06
+- [anything in my brief you found wrong](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [at a verified stopping point](daily/2026-10-02/new-expressions.md) — 2026-10-02
 - [a testbed](daily/2026-07-02/new-expressions.md) — 2026-07-02
 - [a test that guards nothing](daily/2026-10-02/new-expressions.md) — 2026-10-02
@@ -272,6 +273,7 @@
 - [audience calibration](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [axis furniture](daily/2026-08-08/new-expressions.md) — 2026-08-08
 - [backed by a count rather than a hunch](daily/2026-10-01/new-expressions.md) — 2026-10-01
+- [Backend green (76 passed, ruff clean).](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [backstop](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [backwards from the other two](daily/2026-09-10/new-expressions.md) — 2026-09-10
 - [bake in](daily/2026-07-17/new-expressions.md) — 2026-07-17
@@ -342,6 +344,7 @@
 - [breathing room](daily/2026-07-20/new-expressions.md) — 2026-07-20
 - [briefly co-resident](daily/2026-09-06/new-expressions.md) — 2026-09-06
 - [bring home (the numbers)](daily/2026-09-22/new-expressions.md) — 2026-09-22
+- [broke the string; fixing](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [build to a quality floor](daily/2026-07-24/new-expressions.md) — 2026-07-24
 - [building ahead of the data](daily/2026-09-27/new-expressions.md) — 2026-09-27
 - [built from what the code accepts, not copied from real data](daily/2026-09-30/new-expressions.md) — 2026-09-30
@@ -520,6 +523,7 @@
 - [do it or drop it](daily/2026-09-22/new-expressions.md) — 2026-09-22
 - [do not infer a larger topology from X](daily/2026-08-10/new-expressions.md) — 2026-08-10
 - [do not "optimize" X back up](daily/2026-09-06/new-expressions.md) — 2026-09-06
+- [Do not probe a mutating nested command by omitting arguments](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [do not retarget later resources](daily/2026-10-06/new-expressions.md) — 2026-10-06
 - [do the heavy lifting](daily/2026-07-20/new-expressions.md) — 2026-07-20
 - [do the read-only smoke run first](daily/2026-10-07/new-expressions.md) — 2026-10-07
@@ -548,8 +552,10 @@
 - [drop an objection](daily/2026-08-16/new-expressions.md) — 2026-08-16
 - [drop in without friction](daily/2026-07-19/new-expressions.md) — 2026-07-19
 - [drop straight into (something)](daily/2026-07-11/new-expressions.md) — 2026-07-11
+- [drop the sentence if false](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [dropped out of the viewer](daily/2026-10-07/new-expressions.md) — 2026-10-07
 - [Dropping silently was rejected.](daily/2026-08-24/new-expressions.md) — 2026-08-24
+- [drops everything after it as a fragment](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [drops out of](daily/2026-10-05/new-expressions.md) — 2026-10-05
 - [duplication documented in prose rather than removed](daily/2026-08-31/new-expressions.md) — 2026-08-31
 - [dwell](daily/2026-08-25/new-expressions.md) — 2026-08-25
@@ -574,6 +580,7 @@
 - [every other improvement is guesswork](daily/2026-09-12/new-expressions.md) — 2026-09-12
 - [Every repeated mistake is a harness bug.](daily/2026-09-12/new-expressions.md) — 2026-09-12
 - [Everything else survived scrutiny.](daily/2026-09-01/new-expressions.md) — 2026-09-01
+- [Everything orca-related is gone from …](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [exactly where the symptom lands](daily/2026-09-12/new-expressions.md) — 2026-09-12
 - [exercise (a code path)](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [exist to prevent (X)](daily/2026-08-05/new-expressions.md) — 2026-08-05
@@ -611,6 +618,7 @@
 - [fights the layout](daily/2026-09-29/new-expressions.md) — 2026-09-29
 - [Filesystem as the bus, terminal as the view.](daily/2026-09-24/new-expressions.md) — 2026-09-24
 - [find its way around](daily/2026-09-24/new-expressions.md) — 2026-09-24
+- [Finding facts is your job, never the user's.](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [fire-and-forget](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [fires four live requests](daily/2026-10-05/new-expressions.md) — 2026-10-05
 - [First the blunt part:](daily/2026-09-17/new-expressions.md) — 2026-09-17
@@ -732,6 +740,7 @@
 - [honest but partial](daily/2026-08-25/new-expressions.md) — 2026-08-25
 - [honesty-gated](daily/2026-07-16/new-expressions.md) — 2026-07-16
 - [honor (a filter)](daily/2026-08-05/new-expressions.md) — 2026-08-05
+- [Honor a direction requested by the user.](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [honour (a constraint / rule)](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [horizontal slicing](daily/2026-08-15/new-expressions.md) — 2026-08-15
 - [hostname-agnostic](daily/2026-07-25/new-expressions.md) — 2026-07-25
@@ -798,6 +807,7 @@
 - [Inspect before waiting.](daily/2026-08-10/new-expressions.md) — 2026-08-10
 - [instead of racing the hotkey](daily/2026-10-01/new-expressions.md) — 2026-10-01
 - [internet egress](daily/2026-07-29/new-expressions.md) — 2026-07-29
+- [Interview the user relentlessly until you reach a shared understanding.](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [invent a second look](daily/2026-08-09/new-expressions.md) — 2026-08-09
 - [invent data](daily/2026-07-16/new-expressions.md) — 2026-07-16
 - [invisible to git tooling](daily/2026-09-08/new-expressions.md) — 2026-09-08
@@ -809,6 +819,7 @@
 - [is filled in only when](daily/2026-10-04/new-expressions.md) — 2026-10-04
 - [is guaranteed to emit](daily/2026-10-03/new-expressions.md) — 2026-10-03
 - [is precisely the flow the spec forbids](daily/2026-09-23/new-expressions.md) — 2026-09-23
+- [is thinned for display](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [is well-chosen](daily/2026-07-15/new-expressions.md) — 2026-07-15
 - [isolate exactly one variable](daily/2026-08-15/new-expressions.md) — 2026-08-15
 - [it behaves](daily/2026-10-05/new-expressions.md) — 2026-10-05
@@ -828,11 +839,13 @@
 - [it just needed to stop being the only signal](daily/2026-09-01/new-expressions.md) — 2026-09-01
 - [It keeps what still passes.](daily/2026-09-24/new-expressions.md) — 2026-09-24
 - [it looked worse than it was](daily/2026-08-15/new-expressions.md) — 2026-08-15
+- [it MUST be percent-encoded](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [it names the misreading directly rather than leaving it to be inferred](daily/2026-09-01/new-expressions.md) — 2026-09-01
 - [it now states the opposite of the code](daily/2026-08-28/new-expressions.md) — 2026-08-28
 - [it reads as precedent for X](daily/2026-08-09/new-expressions.md) — 2026-08-09
 - [It shows as an empty chart, not an error.](daily/2026-09-29/new-expressions.md) — 2026-09-29
 - [it wants its own change](daily/2026-08-17/new-expressions.md) — 2026-08-17
+- [it was wired into](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [It works, but only while …](daily/2026-09-27/new-expressions.md) — 2026-09-27
 - [It would silently not apply.](daily/2026-09-24/new-expressions.md) — 2026-09-24
 - [It's a deletion, not an addition.](daily/2026-08-28/new-expressions.md) — 2026-08-28
@@ -999,6 +1012,7 @@
 - [no height to fall from](daily/2026-07-03/new-expressions.md) — 2026-07-03
 - [no longer advertised](daily/2026-10-03/new-expressions.md) — 2026-10-03
 - [no more informative than none](daily/2026-08-26/new-expressions.md) — 2026-08-26
+- [No new comments except a non-obvious why.](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [no orphaned wrapper is left holding the port](daily/2026-08-09/new-expressions.md) — 2026-08-09
 - [no preamble](daily/2026-07-15/new-expressions.md) — 2026-07-15
 - [no reason to wait on that](daily/2026-08-17/new-expressions.md) — 2026-08-17
@@ -1030,6 +1044,7 @@
 - [Nothing else moves.](daily/2026-09-05/new-expressions.md) — 2026-09-05
 - [Nothing further to report.](daily/2026-10-03/new-expressions.md) — 2026-10-03
 - [Nothing is on main yet beyond the first commit.](daily/2026-10-04/new-expressions.md) — 2026-10-04
+- [nothing left silently assumed](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [Nothing left to commit.](daily/2026-09-22/new-expressions.md) — 2026-09-22
 - [nothing left to fall out of sync over](daily/2026-09-28/new-expressions.md) — 2026-09-28
 - [Nothing materially missing.](daily/2026-08-18/new-expressions.md) — 2026-08-18
@@ -1041,6 +1056,7 @@
 - [Nothing worth fixing on the efficiency angle](daily/2026-10-03/new-expressions.md) — 2026-10-03
 - [Notwithstanding any other provision of this License](daily/2026-09-05/new-expressions.md) — 2026-09-05
 - [Now that's genuinely diagnostic.](daily/2026-08-25/new-expressions.md) — 2026-08-25
+- [Now the frontend logic.](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [Now the riskiest part —](daily/2026-09-24/new-expressions.md) — 2026-09-24
 - [nudge (someone) toward](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [Numbers in the same diff disagree with the code they document.](daily/2026-09-07/new-expressions.md) — 2026-09-07
@@ -1124,6 +1140,7 @@
 - [override X where they conflict](daily/2026-07-19/new-expressions.md) — 2026-07-19
 - [over-suppress](daily/2026-08-02/new-expressions.md) — 2026-08-02
 - [overshoot](daily/2026-09-20/new-expressions.md) — 2026-09-20
+- [own the diff directly](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [own this signal](daily/2026-08-13/new-expressions.md) — 2026-08-13
 - [page scroll did nothing](daily/2026-10-04/new-expressions.md) — 2026-10-04
 - [parameter creep](daily/2026-07-09/new-expressions.md) — 2026-07-09
@@ -1184,6 +1201,8 @@
 - [pulls μ far enough to put every point outside the limits](daily/2026-10-05/new-expressions.md) — 2026-10-05
 - [punt to (something)](daily/2026-07-27/new-expressions.md) — 2026-07-27
 - [purge (a nightly cache purge)](daily/2026-07-16/new-expressions.md) — 2026-07-16
+- [push the frontier outward](daily/2026-10-08/new-expressions.md) — 2026-10-08
+- [put each to them and wait](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [put X in play](daily/2026-09-05/new-expressions.md) — 2026-09-05
 - [quarantined](daily/2026-06-22/new-expressions.md) — 2026-06-22
 - [question the fundamentals](daily/2026-08-08/new-expressions.md) — 2026-08-08
@@ -1288,6 +1307,7 @@
 - [Say if you want that gone too.](daily/2026-09-21/new-expressions.md) — 2026-09-21
 - [say it is fine where it is](daily/2026-10-06/new-expressions.md) — 2026-10-06
 - [say so](daily/2026-07-12/new-expressions.md) — 2026-07-12
+- [Say so if you want those gone too.](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [say so instead of pretending](daily/2026-08-06/new-expressions.md) — 2026-08-06
 - [Say so when you get there and I'll do it.](daily/2026-09-23/new-expressions.md) — 2026-09-23
 - [say the word (just say the word)](daily/2026-06-20/new-expressions.md) — 2026-06-20
@@ -1467,6 +1487,7 @@
 - [tautological (test)](daily/2026-08-15/new-expressions.md) — 2026-08-15
 - [teach a relationship the data does not have](daily/2026-08-06/new-expressions.md) — 2026-08-06
 - [tear down](daily/2026-08-05/new-expressions.md) — 2026-08-05
+- [Teardown as its own step.](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [tee up a concrete restart](daily/2026-08-10/new-expressions.md) — 2026-08-10
 - [tell a genuine new arrival from a long-abandoned entry](daily/2026-07-31/new-expressions.md) — 2026-07-31
 - [Tell me which it is](daily/2026-10-05/new-expressions.md) — 2026-10-05
@@ -1612,6 +1633,7 @@
 - [The only trace is …](daily/2026-09-30/new-expressions.md) — 2026-09-30
 - [The only ways out would be …](daily/2026-09-15/new-expressions.md) — 2026-09-15
 - [the operating point](daily/2026-06-29/new-expressions.md) — 2026-06-29
+- [The Orca app itself stays](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [the other way round](daily/2026-09-12/new-expressions.md) — 2026-09-12
 - [the payload for (X rows)](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [the plan's biggest miss](daily/2026-07-19/new-expressions.md) — 2026-07-19
@@ -1656,6 +1678,7 @@
 - [the two places that must agree](daily/2026-08-27/new-expressions.md) — 2026-08-27
 - [The two sides disagreed on what "" means.](daily/2026-09-23/new-expressions.md) — 2026-09-23
 - [the unit of X is A, not B](daily/2026-09-15/new-expressions.md) — 2026-09-15
+- [the untouched original](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [the validated next move](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [the vindication of (a thesis)](daily/2026-07-03/new-expressions.md) — 2026-07-03
 - [the vintage of X](daily/2026-08-12/new-expressions.md) — 2026-08-12
@@ -1694,6 +1717,7 @@
 - [This last line tells you nothing.](daily/2026-10-01/new-expressions.md) — 2026-10-01
 - [This one I want to push back on before touching anything](daily/2026-09-23/new-expressions.md) — 2026-09-23
 - [This was a question, not a change request.](daily/2026-09-22/new-expressions.md) — 2026-09-22
+- [Those are charts, not fetchers; the claim holds.](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [those are readings, not chatter](daily/2026-09-17/new-expressions.md) — 2026-09-17
 - [those aren't comparable outcomes](daily/2026-08-25/new-expressions.md) — 2026-08-25
 - [thread (a value) through](daily/2026-06-20/new-expressions.md) — 2026-06-20
@@ -1755,6 +1779,7 @@
 - [Undo: set that key back to `false`.](daily/2026-09-08/new-expressions.md) — 2026-09-08
 - [unfalsifiable from here](daily/2026-08-16/new-expressions.md) — 2026-08-16
 - [unit-testable in isolation](daily/2026-07-17/new-expressions.md) — 2026-07-17
+- [unless the user explicitly intends to …](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [unless you say otherwise](daily/2026-10-02/new-expressions.md) — 2026-10-02
 - [untested fixes don't stick](daily/2026-07-09/new-expressions.md) — 2026-07-09
 - [until you trust it](daily/2026-10-01/new-expressions.md) — 2026-10-01
@@ -1792,6 +1817,7 @@
 - [what actually pins them apart](daily/2026-08-31/new-expressions.md) — 2026-08-31
 - [what breaks the tie](daily/2026-07-25/new-expressions.md) — 2026-07-25
 - [What checks out](daily/2026-08-19/new-expressions.md) — 2026-08-19
+- [What is missing is that …](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [what separates A from B](daily/2026-09-12/new-expressions.md) — 2026-09-12
 - [what stands between A and B](daily/2026-07-31/new-expressions.md) — 2026-07-31
 - [What this costs:](daily/2026-09-24/new-expressions.md) — 2026-09-24
@@ -1813,6 +1839,7 @@
 - [which I reproduced before fixing](daily/2026-10-02/new-expressions.md) — 2026-10-02
 - [which is exactly the bug X was meant to fix](daily/2026-10-02/new-expressions.md) — 2026-10-02
 - [which is expected, not a regression](daily/2026-09-08/new-expressions.md) — 2026-09-08
+- [which is just a catalogue](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [which is worse than never](daily/2026-09-01/new-expressions.md) — 2026-09-01
 - [which points to a stale `office.py` copy](daily/2026-10-07/new-expressions.md) — 2026-10-07
 - [whichever way that goes](daily/2026-08-08/new-expressions.md) — 2026-08-08
@@ -1830,10 +1857,12 @@
 - [with room to spare](daily/2026-07-24/new-expressions.md) — 2026-07-24
 - [without an explicit agreement from you](daily/2026-09-20/new-expressions.md) — 2026-09-20
 - [without being asked](daily/2026-09-29/new-expressions.md) — 2026-09-29
+- [without guessing at answers you haven't heard yet](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [without spec sanction](daily/2026-08-09/new-expressions.md) — 2026-08-09
 - [without the user's say-so](daily/2026-10-06/new-expressions.md) — 2026-10-06
 - [won't work the way you expect](daily/2026-10-01/new-expressions.md) — 2026-10-01
 - [work against](daily/2026-09-21/new-expressions.md) — 2026-09-21
+- [work as pasted](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [worked out by a fixed rule](daily/2026-09-24/new-expressions.md) — 2026-09-24
 - [works on my machine, breaks on the server](daily/2026-07-27/new-expressions.md) — 2026-07-27
 - [worse than the gap](daily/2026-09-22/new-expressions.md) — 2026-09-22

@@ -1540,3 +1540,25 @@
   - 예: `wait --text` times out at 25 s with no partial output, so wait on a string the mock is guaranteed to emit, not on one branch of it.
 - **Merge, don't overwrite** — 덮어쓰지 말고 합쳐라. 명령문 둘을 쉼표로 붙인 표어 틀(`Show, don't tell`). ≈ Append, don't replace, Update in place. ↔ Start from a clean slate. [→ daily](../../daily/2026-10-07/new-expressions.md)
   - 예: When you update the open-jobs file, merge, don't overwrite. (작성)
+- **Do not probe a mutating nested command by omitting arguments** — 상태를 바꾸는 하위 명령을 인자 없이 찔러 보지 말 것. `probe` 는 반응을 떠보다, `mutating` 은 `read-only` 의 반대. ≈ Don't run a write command just to see its usage. ↔ Run it with `--help` first. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: Do not probe a mutating nested command by omitting arguments; some commands are valid with defaults and will execute.
+- **it MUST be percent-encoded** — 반드시 퍼센트 인코딩해야 한다. `#` → `%23`. 대문자 `MUST` 는 RFC 식 필수 표시. ≈ must be URL-encoded, needs to be escaped. ↔ can be passed as-is. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: It contains `#`, so it MUST be percent-encoded in the URL path, otherwise the HTTP client drops everything after it as a fragment.
+- **drops everything after it as a fragment** — 그 뒤를 전부 프래그먼트로 보고 떼어 버린다. `drop` 은 오류 없이 말없이 뺀다는 뜻. ≈ cuts off the rest of the path, truncates the URL at the `#`. ↔ sends the path intact. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: Unless the filename is encoded, the HTTP client drops everything after the `#` as a fragment. (작성)
+- **work as pasted** — 붙여 넣은 그대로 동작하다. `as + 과거분사`(`as written`, `as is`). ≈ work out of the box, run without edits. ↔ need tweaking first. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: Write every example path with the encoded literal so both the curl and the Python snippet work as pasted.
+- **is thinned for display** — 표시용으로 솎아 낸다. `thin` 은 동사로 솎다. 정식 용어는 `downsample`. ≈ is downsampled, is decimated. ↔ is returned in full. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: Without `full=1`, a dense scan is thinned for display, and comparing `count` with `total` tells you whether that happened. (작성)
+- **the untouched original** — 손대지 않은 원본. `raw` 가 가공 전이라면 `untouched` 는 한 바이트도 안 바꿨다는 보증. ≈ the raw file, the pristine copy. ↔ the converted copy. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: This route returns the untouched original, so an align image comes back as `.bmp` even though the path says `tiff`. (작성)
+- **No new comments except a non-obvious why.** — 뻔하지 않은 "왜"가 아니면 주석을 새로 달지 말 것. 의문사 `why` 를 명사로 썼다. ≈ Explain why, not what. ↔ comment every line. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: Our rule for this repo is simple: no new comments except a non-obvious why. (작성)
+- **it was wired into** — 그것이 연결돼 있던. `wire A into B` 는 훅·이벤트에 물려 두다. 관계절 끝에 전치사가 남는다. ≈ it was hooked into, it was registered on. ↔ was detached from. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: I removed the Orca agent hook command from all 13 hook events it was wired into. (작성)
+- **Backend green (76 passed, ruff clean).** — 백엔드 통과(76건 통과, ruff 지적 없음). `green` 은 CI 초록불, `clean` 은 린터 지적 없음. 괄호에 근거 숫자. ≈ Backend tests all pass. ↔ Backend red. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: Backend green (76 passed, ruff clean). Now the frontend logic.
+- **Teardown as its own step.** — 정리는 별도 단계로. `teardown` 은 `setup` 의 짝, 동사는 `tear down`. ≈ Cleanup comes separately, I'll tear down in a separate step. ↔ all in one go. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: Pushed and verified. Teardown as its own step.
+- **broke the string; fixing** — 문자열이 깨졌고 고치는 중. 원인 + `broke` + 결과, 세미콜론 뒤 `fixing` 한 낱말의 전보체. ≈ ended the string early; I'm fixing it now. [→ daily](../../daily/2026-10-08/new-expressions.md)
+  - 예: Apostrophe in my test title broke the string; fixing.
