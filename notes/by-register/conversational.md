@@ -850,3 +850,11 @@
   - 예: The Orca app itself stays; say so if you want those gone too.
 - **Now the frontend logic.** — 이제 프런트 로직 차례. `Now + 명사구` 만으로 다음 단계를 알린다. ≈ Next up: the frontend logic, On to the frontend. [→ daily](../../daily/2026-10-08/new-expressions.md)
   - 예: Now the docs for the 8th reply, while tests run.
+- **let the result decide** — 결과가 정하게 두다. `let + 목적어 + 원형`, 결정의 주어가 사람이 아니라 결과. ≈ go with whatever the test shows, defer to the evidence. ↔ go with your gut. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: Sketch both layouts and let the result decide.
+- **so this never showed at home** — 그래서 집에서는 한 번도 드러나지 않았다. 목적어 없는 `show` 는 "눈에 띄다". ≈ so we never saw it locally, so it never surfaced in dev. ↔ it showed up right away. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: The home mock already returns point order, so this never showed at home.
+- **If you would prefer it last, say so.** — 맨 뒤에 두는 편이 좋으면 말해 달라. `prefer + 목적어 + 보어`, `so` 는 앞 절 전체를 받는다. ≈ Let me know if you'd rather have it at the end, Should you prefer it last, I can change it. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: The image belongs to no point, so it sorts first; if you would prefer it last, say so.
+- **Nothing to re-copy.** — 다시 복사할 것은 없다. `There is` 를 뺀 조각문 `Nothing to + 동사`. ≈ No need to copy anything again, No further action is required on your side. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: Nothing to re-copy; the fix is frontend-only.

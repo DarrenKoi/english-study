@@ -1562,3 +1562,27 @@
   - 예: Pushed and verified. Teardown as its own step.
 - **broke the string; fixing** — 문자열이 깨졌고 고치는 중. 원인 + `broke` + 결과, 세미콜론 뒤 `fixing` 한 낱말의 전보체. ≈ ended the string early; I'm fixing it now. [→ daily](../../daily/2026-10-08/new-expressions.md)
   - 예: Apostrophe in my test title broke the string; fixing.
+- **dismiss noise with a concrete reason instead of churning code** — 잡음은 구체적 이유를 대고 물리치고 코드를 괜히 뒤집지 말 것. `churn` 은 나아짐 없이 자꾸 바뀌는 것. ≈ push back with specifics rather than thrash the code. ↔ address every comment. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: Dismiss noise with a concrete reason instead of churning code.
+- **Make illegal states unrepresentable** — 있어서는 안 될 상태를 타입으로 적을 수조차 없게 만들 것. `make + 목적어 + 형용사`, 타입 설계의 표어. ≈ encode the invariant in the type, rule it out at compile time. ↔ check for bad states at runtime. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: Make illegal states unrepresentable, and parse external data at boundaries.
+- **sits at the right depth instead of patching a symptom** — 증상을 땜질하지 않고 알맞은 깊이에 놓여 있다. `sit at` 은 변경이 놓인 층, `patch a symptom` 은 겉만 덧대기. ≈ fixes the cause, not the symptom, goes to the root rather than papering over it. ↔ a band-aid fix. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: Check that each change sits at the right depth instead of patching a symptom.
+- **Reproducing the order against the running mock before touching anything.** — 손대기 전에 돌고 있는 mock 을 상대로 순서를 재현하는 중. 주어 없는 `-ing` 진행 보고, `against` 는 "~를 대상으로". ≈ Confirming the repro before making changes. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: Reproducing the order against the running mock before touching anything.
+- **Main moved while I worked** — 내가 작업하는 사이에 main 이 앞으로 나갔다. 브랜치가 `move` 한다 = 새 커밋이 붙었다. ≈ main got ahead of me, my branch fell behind main. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: Main moved while I worked, so I am rebasing my two commits onto it.
+- **rendered them as received** — 받은 그대로 그렸다. `as + 과거분사`(`as written`, `as pasted`)가 "그 상태 그대로". ≈ displayed them unsorted, showed them in whatever order they came in. ↔ sorted them on arrival. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: The office returns rows in stored order, and the page rendered them as received.
+- **where the payload enters the page, so every card inherits the order** — 데이터가 페이지로 들어오는 자리에서 한 번 정렬해 모든 카드가 그 순서를 물려받게. `where` 는 장소 부사절, `inherit` 는 위에서 정한 것을 그대로 받다. ≈ sorts at the boundary so nothing downstream has to. ↔ each card sorts its own copy. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: The page sorts the data once where the payload enters the page, so every card inherits the order.
+- **The sort is stable** — 이 정렬은 안정 정렬이다. `stable` 은 키가 같은 원소끼리 들어온 순서를 지킨다는 용어. ≈ ties keep their original order. ↔ an unstable sort. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: The sort is stable, so the lap numbering of a repeated recipe is unchanged.
+- **a throwaway Flask and Nuxt pair** — 쓰고 버릴 Flask·Nuxt 한 쌍. `throwaway` 는 명사 앞에서 "한 번 쓰고 버리는". ≈ a scratch server, a disposable instance. ↔ the normal dev servers. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: I ran a throwaway Flask and Nuxt pair with the API order reversed and read the rendered page.
+- **predates the final zip-test fix** — 마지막 수정보다 앞선 것이다. `predate` 는 전치사 없이 목적어를 받는 타동사. ≈ was from before the last fix, is stale relative to the last commit. ↔ postdates the fix. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: The one full-suite run predates the final zip-test fix.
+- **I left the route alone and relaxed the test.** — 라우트는 그대로 두고 테스트 쪽을 느슨하게 했다. `relax a test` 는 단언을 덜 엄격하게 바꾸다. ≈ I loosened the assertion instead of changing the code. ↔ tightened the test. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: I left the route alone and relaxed the test.
+- **did not land on disk** — 디스크에 남지 않았다. `land` 는 도착해서 자리를 잡다(`land on main`). ≈ never got written, failed to persist. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: The two screenshots I tried to save did not land on disk, so there is no image evidence.

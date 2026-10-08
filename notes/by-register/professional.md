@@ -1822,3 +1822,25 @@
   - 예: In your report, include anything in my brief you found wrong and which endpoints you left out.
 - **Those are charts, not fetchers; the claim holds.** — 그건 차트지 데이터를 가져오는 코드가 아니니 주장은 유효하다. `A, not B` 로 가르고 `hold`(성립하다)로 결론. ≈ so the assumption stands, which confirms the claim. ↔ the claim falls apart. [→ daily](../../daily/2026-10-08/new-expressions.md)
   - 예: Those are charts, not fetchers; the claim holds.
+- **it is not the human's to answer** — 그건 사람이 답할 몫이 아니다. `be + 소유격 + to 부정사`(`not mine to decide`)로 소관을 가른다. ≈ it isn't the user's call, not a question for the user. ↔ it's yours to decide. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: If the answer is a fact you could observe by running something, it is not the human's to answer.
+- **Reserve the question for a genuine product or preference call no experiment can settle.** — 질문은 실험으로 못 가리는 제품·취향 판단에만 아껴 쓸 것. `reserve A for B`, `call` 은 판단, `settle` 은 물음을 끝내다. ≈ Save your questions for decisions that can't be tested. ↔ ask about everything up front. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: Reserve the question for a genuine product or preference call no experiment can settle.
+- **assess each on its merits** — 하나하나를 내용 자체로 따져 보다. `on its merits` 는 출처·절차가 아니라 타당성으로 본다는 법률 어휘. ≈ take them case by case, judge each one on its own. ↔ accept them wholesale, dismiss them out of hand. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: The bots also file non-issues and nitpicks, so assess each on its merits.
+- **candor over sycophancy** — 아첨보다 솔직함. `A over B` 는 가치 선언의 틀. `candor` 는 불편해도 숨기지 않는 솔직함. ≈ honesty over flattery, frankness rather than deference. ↔ telling people what they want to hear. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: Agreement is not the default, candor over sycophancy.
+- **Terse is not an excuse to drop content.** — 짧게 쓴다는 것이 내용을 빼도 된다는 핑계는 아니다. 형용사가 그대로 주어, `an excuse to + 동사`. ≈ Short doesn't mean incomplete, Brevity must not come at the expense of completeness. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: Terse is not an excuse to drop content.
+- **Never hand the human a check you could run.** — 네가 돌려 볼 수 있는 확인을 사람에게 떠넘기지 말 것. `hand A B` 4형식, `a check you could run` 은 관계대명사 생략. ≈ Don't ask the user to verify what you can verify yourself, Don't punt the testing to them. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: Never hand the human a check you could run.
+- **The deliverable is a diagnosis, not a fix.** — 결과물은 진단이지 수정이 아니다. `deliverable` 은 넘겨줄 결과물, `A, not B` 로 범위를 가른다. ≈ I just need the root cause, not a patch, Diagnose only; don't fix. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: The deliverable is a diagnosis, not a fix.
+- **Do not pad; "leave it" is a valid answer.** — 분량을 부풀리지 말 것, "그대로 두라"도 유효한 답. `pad` 는 쓸데없이 늘리다. ≈ Don't invent findings just to fill the list, An empty result is acceptable. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: Do not pad; "leave it" is a valid answer.
+- **I am holding the merge to `main` until the review comes back.** — 리뷰 결과가 돌아올 때까지 병합은 잡아 두고 있다. `hold` 는 할 준비가 됐는데 붙들고 있다, `until` 절은 현재형. ≈ I'll merge once the review is in, The merge is pending review. ↔ I went ahead and merged. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: I am holding the merge to `main` until the review comes back.
+- **Treat it as "nothing obvious", not as a deep read.** — "눈에 띄는 문제는 없다" 정도로 받아들이고 깊이 읽은 결과로 보지는 말 것. `treat A as B, not as C`, 앞 문장은 `It was a thin pass`. ≈ It's a quick sanity check, not a full review. ↔ a line-by-line review. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: The review found nothing, but treat it as "nothing obvious", not as a deep read.
+- **The check left one thing behind** — 이번 확인이 흔적 하나를 남겼다. `leave A behind`, 주어를 `The check` 로 두어 사실만 전한다. ≈ One side effect to mention, One artifact remains from the verification. ↔ cleaned up after itself. [→ daily](../../daily/2026-10-09/new-expressions.md)
+  - 예: The check left one thing behind: three grouped measurements in the automation browser's profile.
