@@ -1844,3 +1844,43 @@
   - 예: The review found nothing, but treat it as "nothing obvious", not as a deep read.
 - **The check left one thing behind** — 이번 확인이 흔적 하나를 남겼다. `leave A behind`, 주어를 `The check` 로 두어 사실만 전한다. ≈ One side effect to mention, One artifact remains from the verification. ↔ cleaned up after itself. [→ daily](../../daily/2026-10-09/new-expressions.md)
   - 예: The check left one thing behind: three grouped measurements in the automation browser's profile.
+- **the owner's direction of travel** — (결정들이 가리키는) 나아가는 방향. `direction` 하나만 써도 되는데 `of travel` 을 붙이면 "아직 도착하지는 않았고 그쪽으로 움직이는 중"이라는 뜻이 살아난다. ≈ where this is heading, the overall trajectory, the general thrust. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: The owner's direction of travel is clear from what was accepted vs rejected.
+- **thinner than their single-scope twins** — 단일 범위 쪽 짝보다 내용이 얇다. `thin` 은 기능이나 근거가 빈약하다는 뜻으로 자주 쓴다(`a thin wrapper`, `thin evidence`). `twin` 은 같은 틀을 나눠 쓰는 대응물을 가리키는 비유여서 `counterpart` 보다 "원래 같은 모양이어야 한다"는 기대가 실린다. ≈ less developed than their counterparts, not as fleshed out, lag behind the single-scope versions. ↔ on par with. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: The set-scope views are thinner than their single-scope twins.
+- **cannot be judged from code** — 코드만 봐서는 판단할 수 없다. `judge A from B` 는 "B 를 근거로 A 를 판단한다". 수동태로 뒤집어 판단 주체를 지우고 "이 자료로는 안 된다"만 남겼다. ≈ the code alone can't tell us, is not determinable from the source, you'd have to ask the users. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: Whether the radial approach matches what engineers actually look for cannot be judged from code.
+- **Anything under "Inferences" is inference, not fact.** — "추론" 아래 적힌 것은 모두 추론이지 사실이 아니다. `Anything under X` 로 절 제목 아래의 모든 항목을 한꺼번에 받는다. ≈ Items in that section are my reading, not verified findings, Treat that section as conjecture, Take those with a grain of salt. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: Anything under "Inferences" is inference, not fact.
+- **X is in; Y is out** — X 는 범위 안, Y 는 범위 밖. 부사 `in`/`out` 이 보어로 쓰여 "채택됐다/제외됐다"를 뜻한다. ≈ is in scope / is out of scope, made the cut / didn't make the cut, is on the table / is off the table. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: Comparisons the user defines by hand are in; anything that reads as an official verdict is out until an office contract exists.
+- **reads as an official verdict** — 공식 판정처럼 읽힌다. `read as` 는 주어가 글·화면이고 "~로 읽힌다"는 자동사다. ≈ comes across as, could be taken as, gives the impression of. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: Anything that reads as an official verdict is out until an office contract exists.
+- **Where a claim rests on a grep rather than a full read it says so.** — 주장이 통독이 아니라 grep 에 기대는 곳에서는 그렇다고 적어 둔다. 문두의 `Where` 는 장소가 아니라 "~인 경우에는"을 뜻하는 접속사로 규정·계약 문체에 흔하다. ≈ Claims based only on search results are marked as such, I flag anything I only grepped, Unverified statements are labelled. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: Where a claim rests on a grep rather than a full read it says so.
+- **not proofs of absence** — 없다는 증명은 아니다. "Absence of evidence is not evidence of absence" 라는 격언을 줄인 말이다. ≈ doesn't mean it isn't there, a null result, not a negative finding, I can't rule it out. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: The cells marked N mean "not found by the grep patterns used"; they are not proofs of absence.
+- **the connective tissue between pages** — 페이지 사이를 잇는 결합 조직(연결 고리). 해부학의 결합 조직에서 온 비유다. ≈ the glue between pages, the links that tie pages together, the integration layer. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: The connective tissue between pages today is recipe-centric and MSR-centric.
+- **spend its novelty elsewhere** — 새로움은 다른 곳에 쓰다. `spend` 의 목적어로 돈·시간이 아니라 `novelty` 를 둔 표현이다. ≈ save the new ideas for other areas, focus its originality elsewhere, don't waste fresh proposals on settled items. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: A final report should present them as an existing backlog and spend its novelty elsewhere.
+- **The rejections cluster around three reasons** — 거절 사유는 세 가지로 모인다. `cluster around` 는 점들이 몇 군데에 뭉친다는 통계 용어에서 온 동사구다. ≈ fall into three groups, boil down to three reasons, can be grouped under three headings. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: The rejections cluster around three reasons — new collection state, cross-feature coupling in one component, and claims the data cannot support.
+- **noted for completeness** — 빠짐없이 적으려고 덧붙임. `for completeness` 는 "핵심은 아니지만 목록을 온전히 하려고"라는 단서다. ≈ mentioned for the record, just so it's covered, included for reference. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: The Mag/Pixel guide is outside the listed features and is noted for completeness.
+- **must not be re-proposed without new grounds** — 새 근거 없이 다시 제안해서는 안 된다. `grounds` 는 복수로 써서 "근거·사유"(`on what grounds?`, `grounds for appeal`). `re-propose` 는 하이픈으로 "다시 제안하다"를 만들었다. ≈ shouldn't be reopened unless something changes, is closed absent new evidence, don't bring it up again without a reason. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: A long explicit "do not build" list exists and must not be re-proposed without new grounds.
+- **are taken second-hand** — 직접 본 것이 아니라 건너 들은 것이다. `second-hand` 는 중고라는 뜻 말고 "남을 거쳐 얻은"이라는 뜻이 있다(`second-hand information`). 여기서는 부사처럼 쓰여 `take`(받아들이다) 방식을 꾸민다. ≈ come from a secondary source, I got that indirectly, are quoted from someone else's summary. ↔ first-hand. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: The visual-language constraints are taken second-hand from references in another document.
+- **an unsourced assertion** — 출처 없는 단언. `assertion` 은 근거를 대지 않고 내세운 말이라는 어감이 `claim` 보다 짙다. ≈ an unsupported claim, hearsay, an anecdotal remark. ↔ a documented fact. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: The only usage-related statement about engineers found in the docs is an unsourced assertion.
+- **the cheapest available evidence** — 지금 구할 수 있는 가장 값싼 근거. `cheap` 은 돈만이 아니라 드는 수고가 적다는 뜻으로 엔지니어링 글에 자주 나온다(`a cheap check`). 원문은 뒤에 `and requires no code change` 를 붙여 왜 싼지를 댄다. ≈ the lowest-effort way to find out, the most readily available evidence, a quick win. ↔ evidence that needs a full study. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: Reading those numbers there is the cheapest available evidence for prioritising pages and requires no code change.
+- **cannot be created retroactively** — 소급해서 만들 수는 없다. `retroactively` 는 "과거 시점으로 거슬러 적용하여". 법률(`apply retroactively`)과 데이터(`backfill retroactively`) 양쪽에서 쓴다. ≈ can't be backfilled, can't be reconstructed after the fact, you can't go back and collect it. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: The brainstorm itself notes that history cannot be created retroactively.
+- **designing is a given** — 디자인을 한다는 것은 당연한 전제다. `a given` 은 과거분사가 명사로 굳은 말로 "따질 필요 없이 주어진 조건"이다. ≈ goes without saying, is non-negotiable, is taken for granted. ↔ is up for debate. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: Decide the treatment; designing is a given.
+- **used with restraint** — 절제해서 쓴. `with restraint` 는 "자제하며". `with + 추상명사` 가 부사 노릇을 한다(`with care`, `with confidence`). 원문은 `a characterful display face used with restraint` 로 개성 있는 제목 서체는 조금만 쓰라는 뜻이다. ≈ sparingly, in moderation, in small doses. ↔ liberally, to excess. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: Pick a characterful display face, but make sure it is used with restraint.
+- **by choice, never by omission** — 빠뜨려서가 아니라 선택해서. `by choice` 와 `by omission` 을 같은 전치사로 맞세웠다. ≈ on purpose, not by accident, deliberately rather than by default, as a decision, not an oversight. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: A page may stay single-theme, but do this by choice, never by omission.

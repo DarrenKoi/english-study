@@ -858,3 +858,17 @@
   - 예: The image belongs to no point, so it sorts first; if you would prefer it last, say so.
 - **Nothing to re-copy.** — 다시 복사할 것은 없다. `There is` 를 뺀 조각문 `Nothing to + 동사`. ≈ No need to copy anything again, No further action is required on your side. [→ daily](../../daily/2026-10-09/new-expressions.md)
   - 예: Nothing to re-copy; the fix is frontend-only.
+- **is dropped on the floor** — (받아 놓고) 그냥 버려진다. 바닥에 떨어뜨린다는 그림 그대로다. ≈ goes unused, is discarded, falls through the cracks. ↔ is put to use. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: A meaningful amount of already-delivered data is dropped on the floor.
+- **X is in; Y is out** — X 는 범위 안, Y 는 범위 밖. 부사 `in`/`out` 이 보어로 쓰여 "채택됐다/제외됐다"를 뜻한다. ≈ is in scope / is out of scope, made the cut / didn't make the cut, is on the table / is off the table. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: Comparisons the user defines by hand are in; anything that reads as an official verdict is out until an office contract exists.
+- **lean on X for Y** — Y 를 X 에 기대다. `depend on` 과 뜻은 같고 몸을 기댄다는 그림이 남아 있어 "자기 것을 따로 두지 않고 빌려 쓴다"는 어감이 난다. ≈ depend on X for Y, piggyback on X, draw Y from X. ↔ keep their own copy of Y. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: pm_planning, storage and tttm lean on sem_list for their roster.
+- **link dead-ends in both directions** — 양방향 모두 링크가 끊긴 막다른 곳. `dead end` 는 막다른 길. 명사 앞에 `link` 를 붙여 무엇이 막혔는지 밝혔고 `in both directions` 로 들어오는 쪽과 나가는 쪽을 한꺼번에 말했다. ≈ isolated pages, islands, nothing links in or out. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: TTTM, 라이브 알람, 스토리지 and 디바이스 통계 are link dead-ends in both directions under the current policy.
+- **rides in the beacon URL** — 비콘 URL 에 실려 간다. `ride in/on` 은 탈것에 타고 간다는 말이라 "새 자리를 만들지 않고 얹혀 간다"는 뜻이 된다. ≈ is carried in the URL, piggybacks on the request, is encoded in the path. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: The tool family rides in the beacon URL and no index field was added.
+- **fell off before triage finished** — 분류·대응이 끝나기 전에 (목록에서) 떨어져 나갔다. `fall off` 는 목록이나 창의 끝으로 밀려 빠진다는 뜻(`fall off the first page`). `triage` 는 응급실 분류에서 온 말로 들어온 문제의 급한 순서를 가리는 일이다. ≈ scrolled out of view, expired too early, aged out of the window. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: The window was widened from 10 to 20 minutes because alarms fell off before triage finished.
+- **designing is a given** — 디자인을 한다는 것은 당연한 전제다. `a given` 은 과거분사가 명사로 굳은 말로 "따질 필요 없이 주어진 조건"이다. ≈ goes without saying, is non-negotiable, is taken for granted. ↔ is up for debate. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: Decide the treatment; designing is a given.

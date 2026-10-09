@@ -994,7 +994,13 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/24f883c9-7fcc-4137-a718-1674159e971a.jsonl": 19,
     "-Users-daeyoung-Codes-english-study/799774c5-9b08-4955-af4a-bd38aac36606.jsonl": 115,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/5a02e9cd-9841-470b-91ce-4958b448849d/subagents/agent-aa6f62783327dac2f.jsonl": 21,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/cf201adc-8e6f-4bd4-b2fe-34120b4157e0/subagents/agent-ac44a0c45ebe0c287.jsonl": 28
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/cf201adc-8e6f-4bd4-b2fe-34120b4157e0/subagents/agent-ac44a0c45ebe0c287.jsonl": 28,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/7a084e41-ef6b-4db6-b506-6b8255fef028.jsonl": 93,
+    "-Users-daeyoung-Codes-pm-notes/7eb5c51c-5b58-490c-81aa-a54787f45edc.jsonl": 145,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/a076320d-2449-4638-a050-c84753acf96c.jsonl": 19,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/ae11d9e0-f09e-4c4f-a88d-30151d7bc137.jsonl": 12,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/3189b073-dd75-4fa6-8022-e7f85b719c62.jsonl": 448,
+    "-Users-daeyoung-Codes-pm-notes/87d1c3f4-9ec8-472c-a1cf-c9a546183a0f.jsonl": 14
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1589,7 +1595,11 @@
     "skewnono_v3_nuxt/docs/afm/to-questionnaire-afm-261007-2.md": "skewnono_v3_nuxt/docs/afm/to-questionnaire-afm-261007-2.md:1791330838.7391763:6422",
     "skewnono_v3_nuxt/docs/afm/feature-summary.md": "skewnono_v3_nuxt/docs/afm/feature-summary.md:1791430211.1501884:9461",
     "skewnono_v3_nuxt/docs/afm/service-recommendations.md": "skewnono_v3_nuxt/docs/afm/service-recommendations.md:1791413238.9646184:30081",
-    "skewnono_v3_nuxt/docs/afm/to-questionnaire-afm-261007.md": "skewnono_v3_nuxt/docs/afm/to-questionnaire-afm-261007.md:1791328074.7683861:10333"
+    "skewnono_v3_nuxt/docs/afm/to-questionnaire-afm-261007.md": "skewnono_v3_nuxt/docs/afm/to-questionnaire-afm-261007.md:1791328074.7683861:10333",
+    "skewnono_v3_nuxt/docs/progress_report/skewnono_year_end_report_2026.md": "skewnono_v3_nuxt/docs/progress_report/skewnono_year_end_report_2026.md:1791528762.3480368:6007",
+    "skewnono_v3_nuxt/docs/research/2026-10-09-analysis-service-directions.md": "skewnono_v3_nuxt/docs/research/2026-10-09-analysis-service-directions.md:1791527051.5532634:44617",
+    "skewnono_v3_nuxt/docs/research/2026-10-09-analysis-service-directions-notes/skewvoir_current_state.md": "skewnono_v3_nuxt/docs/research/2026-10-09-analysis-service-directions-notes/skewvoir_current_state.md:1791527051.5530167:47395",
+    "skewnono_v3_nuxt/docs/research/2026-10-09-analysis-service-directions-notes/ebeam_pages_current_state.md": "skewnono_v3_nuxt/docs/research/2026-10-09-analysis-service-directions-notes/ebeam_pages_current_state.md:1791527051.5527742:67802"
   },
-  "last_run": "2026-10-09"
+  "last_run": "2026-10-10"
 }

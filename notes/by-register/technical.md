@@ -1586,3 +1586,25 @@
   - 예: I left the route alone and relaxed the test.
 - **did not land on disk** — 디스크에 남지 않았다. `land` 는 도착해서 자리를 잡다(`land on main`). ≈ never got written, failed to persist. [→ daily](../../daily/2026-10-09/new-expressions.md)
   - 예: The two screenshots I tried to save did not land on disk, so there is no image evidence.
+- **is dropped on the floor** — (받아 놓고) 그냥 버려진다. 바닥에 떨어뜨린다는 그림 그대로다. ≈ goes unused, is discarded, falls through the cracks. ↔ is put to use. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: A meaningful amount of already-delivered data is dropped on the floor.
+- **is stale against the code** — 코드에 비해 낡았다(코드와 안 맞는다). `stale` 은 빵이 굳었다는 말에서 온 "갱신 안 된". 전치사 `against` 가 비교 기준을 세운다. ≈ is out of sync with the code, has drifted from the code, lags behind the implementation. ↔ is up to date with the code. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: The API contract file is stale against the code, so it should not be used as a source.
+- **thinner than their single-scope twins** — 단일 범위 쪽 짝보다 내용이 얇다. `thin` 은 기능이나 근거가 빈약하다는 뜻으로 자주 쓴다(`a thin wrapper`, `thin evidence`). `twin` 은 같은 틀을 나눠 쓰는 대응물을 가리키는 비유여서 `counterpart` 보다 "원래 같은 모양이어야 한다"는 기대가 실린다. ≈ less developed than their counterparts, not as fleshed out, lag behind the single-scope versions. ↔ on par with. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: The set-scope views are thinner than their single-scope twins.
+- **silent limits** — 말없이 걸리는 제한. `silent` 는 오류도 안내도 없이 일어난다는 뜻으로 `silent failure`, `silently truncated` 처럼 붙는다. ≈ undisclosed caps, hidden cutoffs, limits the UI never mentions. ↔ an explicit limit with a warning. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: The 30-member cap is one of several silent limits in the workspace.
+- **were grepped, not read in full** — grep 으로만 봤고 끝까지 읽지는 않았다. 도구 이름 `grep` 을 동사로 쓰고 과거분사 `grepped` 로 수동태를 만들었다. ≈ I only skimmed those files, were searched but not reviewed line by line, I didn't read them end to end. ↔ were read in full. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: `DistributionChart.vue` and `SequenceTrend.vue` were grepped, not read in full.
+- **not proofs of absence** — 없다는 증명은 아니다. "Absence of evidence is not evidence of absence" 라는 격언을 줄인 말이다. ≈ doesn't mean it isn't there, a null result, not a negative finding, I can't rule it out. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: The cells marked N mean "not found by the grep patterns used"; they are not proofs of absence.
+- **lean on X for Y** — Y 를 X 에 기대다. `depend on` 과 뜻은 같고 몸을 기댄다는 그림이 남아 있어 "자기 것을 따로 두지 않고 빌려 쓴다"는 어감이 난다. ≈ depend on X for Y, piggyback on X, draw Y from X. ↔ keep their own copy of Y. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: pm_planning, storage and tttm lean on sem_list for their roster.
+- **link dead-ends in both directions** — 양방향 모두 링크가 끊긴 막다른 곳. `dead end` 는 막다른 길. 명사 앞에 `link` 를 붙여 무엇이 막혔는지 밝혔고 `in both directions` 로 들어오는 쪽과 나가는 쪽을 한꺼번에 말했다. ≈ isolated pages, islands, nothing links in or out. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: TTTM, 라이브 알람, 스토리지 and 디바이스 통계 are link dead-ends in both directions under the current policy.
+- **cannot be created retroactively** — 소급해서 만들 수는 없다. `retroactively` 는 "과거 시점으로 거슬러 적용하여". 법률(`apply retroactively`)과 데이터(`backfill retroactively`) 양쪽에서 쓴다. ≈ can't be backfilled, can't be reconstructed after the fact, you can't go back and collect it. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: The brainstorm itself notes that history cannot be created retroactively.
+- **rides in the beacon URL** — 비콘 URL 에 실려 간다. `ride in/on` 은 탈것에 타고 간다는 말이라 "새 자리를 만들지 않고 얹혀 간다"는 뜻이 된다. ≈ is carried in the URL, piggybacks on the request, is encoded in the path. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: The tool family rides in the beacon URL and no index field was added.
+- **fell off before triage finished** — 분류·대응이 끝나기 전에 (목록에서) 떨어져 나갔다. `fall off` 는 목록이나 창의 끝으로 밀려 빠진다는 뜻(`fall off the first page`). `triage` 는 응급실 분류에서 온 말로 들어온 문제의 급한 순서를 가리는 일이다. ≈ scrolled out of view, expired too early, aged out of the window. [→ daily](../../daily/2026-10-10/new-expressions.md)
+  - 예: The window was widened from 10 to 20 minutes because alarms fell off before triage finished.
