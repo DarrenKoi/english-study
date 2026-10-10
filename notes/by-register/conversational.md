@@ -872,3 +872,25 @@
   - 예: The window was widened from 10 to 20 minutes because alarms fell off before triage finished.
 - **designing is a given** — 디자인을 한다는 것은 당연한 전제다. `a given` 은 과거분사가 명사로 굳은 말로 "따질 필요 없이 주어진 조건"이다. ≈ goes without saying, is non-negotiable, is taken for granted. ↔ is up for debate. [→ daily](../../daily/2026-10-10/new-expressions.md)
   - 예: Decide the treatment; designing is a given.
+- **doubles as** — ~을 겸한다, ~ 구실도 한다. `double as B` 는 "A 이면서 B 로도 쓰인다"는 뜻이다. ≈ also serves as, works as … too, does double duty as. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: The PSD noise floor doubles as a free per-image tool-noise monitor.
+- **match or beat** — ~와 맞먹거나 앞선다. 동사 둘을 `or` 로 묶어 "최소한 동급"이라는 뜻을 두 단어로 끝낸다. ≈ is on par with or better than, is at least as good as, holds its own against. ↔ falls short of. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: Design-based offline creation is reported to match or beat expert on-tool recipes.
+- **we are only just scratching the surface** — 이제 겨우 겉만 긁었다. 표면을 긁기만 하고 속은 못 팠다는 관용구다. ≈ we've barely begun, there is much left to explore, this is the tip of the iceberg. ↔ it is a solved problem. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: Some may say that it is a solved problem, while others argue that we are only just scratching the surface.
+- **work outward** — (한 점에서) 바깥으로 넓혀 간다. `work + 방향 부사` 는 "그 방향으로 차근차근 해 나간다"는 뜻이다(`work backward`, `work down the list`). 원문은 전체에서 좁혀 들어가는 길의 반대, 곧 이미 아는 lot 이나 장비에서 시작하는 길을 가리킨다. ≈ expand from there, branch out from, trace outward from. ↔ drill down. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: Start from a known lot or tool and work outward.
+- **available off the shelf** — 기성품으로 바로 쓴다. 가게 선반에서 집어 오면 된다는 말이다. ≈ built in, out of the box, ready-made. ↔ custom-built. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: LTTB downsampling, shared cursors and cross-chart zoom/brush are all available off the shelf in ECharts.
+- **pointed the same way** — 같은 쪽을 가리켰다. 증거를 화살표처럼 말한다. ≈ was consistent with this, told the same story, supported the same conclusion. ↔ pointed the other way. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: Preliminary validation with physicians pointed the same way.
+- **is light by comparison** — 그에 비하면 가벼운 편이다. `by comparison` 은 문장 끝에 붙어 "앞에 든 것과 견주면"이라는 뜻이 된다. ≈ is lenient next to that, is modest in comparison, sets a lower bar. ↔ is strict by comparison. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: Our "3 substantive reviews" before granting approval rights is light by comparison.
+- **is ours to design from scratch** — 우리가 맨바닥에서 설계할 몫이다. `be + 소유대명사 + to 부정사` 는 "그 일은 ~의 몫"이라는 구문이다(`It's yours to keep`, `The decision is theirs to make`). `from scratch` 는 출발선에서, 곧 아무것도 없는 데서. 책임이 누구에게 있는지와 일이 얼마나 큰지를 한 번에 전한다. ≈ we'll have to define it ourselves, there is no template to follow, it falls to us to. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: No scheme I checked requires it; that requirement is ours to design from scratch.
+- **is back to what it was** — 원래대로 돌아왔다. `what it was` 는 "전에 그러했던 상태"다. ≈ is back to normal, has been restored, is clean again. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: I deleted it; `git status` is back to what it was.
+- **Your angle: EFFICIENCY ONLY.** — 네가 볼 관점은 효율 하나다. `angle` 은 "사안을 보는 각도"다. ≈ your focus is, purely from the efficiency side, your remit is limited to. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: Your angle is efficiency only: flag wasted work the diff introduces.
+- **(a Map keyed once) would do** — ~면 충분하다. 이때 `do` 는 "충분하다, 쓸 만하다"는 자동사다(`That will do`, `Any pen will do`). `would` 를 쓰면 "그렇게 했더라면 됐을 텐데"라는 가정이 실려서 리뷰 지적에 어울린다. ≈ would be enough, would suffice, is all you need. ↔ won't cut it. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: The code scans the array inside a loop where a Map keyed once would do.

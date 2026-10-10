@@ -1884,3 +1884,47 @@
   - 예: Pick a characterful display face, but make sure it is used with restraint.
 - **by choice, never by omission** — 빠뜨려서가 아니라 선택해서. `by choice` 와 `by omission` 을 같은 전치사로 맞세웠다. ≈ on purpose, not by accident, deliberately rather than by default, as a decision, not an oversight. [→ daily](../../daily/2026-10-10/new-expressions.md)
   - 예: A page may stay single-theme, but do this by choice, never by omission.
+- **was not pinned down** — (정확히) 특정하지 못했다. `pin down` 은 핀으로 꽂아 움직이지 못하게 고정한다는 그림이다. ≈ could not be identified, couldn't nail it down, remains unconfirmed. ↔ was confirmed. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: The exact patent in the family carrying this claim was not pinned down.
+- **both sides carry uncertainty** — 양쪽 다 불확도를 안고 있다. `carry` 는 "지니고 다닌다"는 동사여서 오차·위험·비용 같은 추상명사와 잘 붙는다(`carry risk`, `carry a cost`). `have uncertainty` 보다 "떼어 낼 수 없이 딸려 온다"는 느낌이 난다. ≈ both are subject to error, neither side is exact, both come with error bars. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: The same Mandel/TMU machinery is the right method for CD-SEM vs reference comparison, since both sides carry uncertainty.
+- **match or beat** — ~와 맞먹거나 앞선다. 동사 둘을 `or` 로 묶어 "최소한 동급"이라는 뜻을 두 단어로 끝낸다. ≈ is on par with or better than, is at least as good as, holds its own against. ↔ falls short of. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: Design-based offline creation is reported to match or beat expert on-tool recipes.
+- **Evidence here is thinner** — 이쪽은 근거가 더 얇다. 근거를 두께로 말한다. ≈ the support is weaker, there is less to go on, the evidence base is limited. ↔ the evidence is solid. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: Evidence here is thinner and mostly patent-level.
+- **siloed by owner** — 주인별로 칸막이가 쳐져 있다. `silo` 는 곡물 저장탑이다. ≈ fragmented across vendors, walled off from each other, compartmentalised. ↔ integrated across. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: The vendor tools are siloed by owner: a tool vendor's offline station covers its own tools and recipes.
+- **The common thread in X is Y** — X 를 꿰는 공통점은 Y 다. 구슬 여럿을 꿰는 실 한 가닥이라는 그림이다. ≈ what these have in common is, the recurring theme is, they all come down to. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: The common thread in the credible results is reuse.
+- **with unstated baselines** — 기준점을 밝히지 않은 (수치). `baseline` 은 비교의 출발점이다. ≈ with no stated point of comparison, compared to what?, unbenchmarked. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: Vendor multipliers should be reported as marketing claims with unstated baselines.
+- **did not surface in any result** — 어느 결과에도 나타나지 않았다. `surface` 는 자동사로 "수면 위로 떠오른다"이고 검색 맥락에서는 "결과에 잡힌다"는 뜻이다. ≈ did not turn up, was not retrieved, the search came up empty. ↔ surfaced repeatedly. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: AFM as a reference for CD-SEM did not surface in any result.
+- **we are only just scratching the surface** — 이제 겨우 겉만 긁었다. 표면을 긁기만 하고 속은 못 팠다는 관용구다. ≈ we've barely begun, there is much left to explore, this is the tip of the iceberg. ↔ it is a solved problem. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: Some may say that it is a solved problem, while others argue that we are only just scratching the surface.
+- **the safest reading** — 가장 무리 없는 해석. `reading` 은 "읽기"가 아니라 "해석"이다(`my reading of the data`). `safest` 를 붙이면 근거가 허락하는 선을 넘지 않는 해석이 된다. ≈ the most cautious interpretation, the conservative takeaway, to be safe, assume …. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: The safest reading for an expert tool: support overview → filter → detail and the reverse path, and make every cross-view link visibly obvious.
+- **alert liberally; page judiciously** — 경보는 넉넉히, 호출은 가려서. 부사 둘이 맞선다. ≈ record broadly, interrupt rarely / with discretion. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: Datadog's advice is to alert liberally; page judiciously.
+- **under another name** — 이름만 다른 (같은 것). 문장 끝에 붙여 "A 는 사실 B 다, 부르는 이름이 다를 뿐"이라고 말한다. ≈ by a different name, in all but name, essentially the same thing as. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: The pattern is the commercial yield tools' "commonality analysis" under another name.
+- **X, not Y, is the bottleneck** — 병목은 Y 가 아니라 X 다. 주어와 동사 사이에 `, not Y,` 를 끼워 넣어 예상을 뒤집는다. ≈ the limiting factor is X rather than Y, what slows us down is X, X is the constraint. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: Verification, not generation, is the bottleneck.
+- **far below headline numbers** — 내세우는 수치에 한참 못 미친다. `headline number` 는 기사 제목에 실릴 만한 대표 수치다. ≈ well short of the advertised figures, nowhere near the numbers people quote, below the top-line result. ↔ in line with headline numbers. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: Benchmarks on realistic enterprise schemas and on chart reading show accuracy far below headline numbers.
+- **satisfice** — 그럭저럭 되는 것에서 멈춘다. `satisfy` 와 `suffice` 를 합친 말로 허버트 사이먼이 만들었다. ≈ settle for good enough, make do with, stop at the first workable option. ↔ optimise. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: Users prefer to learn by doing and satisfice with the first method that works.
+- **pointed the same way** — 같은 쪽을 가리켰다. 증거를 화살표처럼 말한다. ≈ was consistent with this, told the same story, supported the same conclusion. ↔ pointed the other way. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: Preliminary validation with physicians pointed the same way.
+- **has to be assembled from analogues** — 유사 사례를 엮어서 만들어야 한다. `analogue`(미국식 `analog`)는 "성격이 비슷한 다른 분야의 사례"다. ≈ must be pieced together from similar schemes, has no direct precedent, borrow from adjacent fields. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: Guide has to be assembled from analogues.
+- **is light by comparison** — 그에 비하면 가벼운 편이다. `by comparison` 은 문장 끝에 붙어 "앞에 든 것과 견주면"이라는 뜻이 된다. ≈ is lenient next to that, is modest in comparison, sets a lower bar. ↔ is strict by comparison. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: Our "3 substantive reviews" before granting approval rights is light by comparison.
+- **is ours to design from scratch** — 우리가 맨바닥에서 설계할 몫이다. `be + 소유대명사 + to 부정사` 는 "그 일은 ~의 몫"이라는 구문이다(`It's yours to keep`, `The decision is theirs to make`). `from scratch` 는 출발선에서, 곧 아무것도 없는 데서. 책임이 누구에게 있는지와 일이 얼마나 큰지를 한 번에 전한다. ≈ we'll have to define it ourselves, there is no template to follow, it falls to us to. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: No scheme I checked requires it; that requirement is ours to design from scratch.
+- **this is directional only** — 방향만 참고할 것. `directional` 은 "늘려야 하나 줄여야 하나"는 알려 주지만 얼마만큼인지는 못 알려 준다는 뜻의 업계 말이다. ≈ treat it as a rough guide, indicative not definitive, take it with a grain of salt. ↔ this is exact. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: Exam-question weight and teaching hours are not the same scale, so this is directional only.
+- **my reading of X, not a legal review** — 내가 읽은 바일 뿐 법률 검토가 아니다. `my reading of` 는 "내가 해석하기로는"이다. ≈ as I understand it, my interpretation, a layperson's read. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: The copy/adapt columns are my reading of each licence, not a legal review.
+- **judge fan-out accordingly** — 그 점을 감안해 (동시 요청 수를) 판단하라. `accordingly` 는 "앞에 말한 사정에 맞게"다. ≈ with that in mind, take that into account, in light of this. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: The `afm` blueprint is exempt from the rate limit, so judge fan-out accordingly.

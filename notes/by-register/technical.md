@@ -1608,3 +1608,23 @@
   - 예: The tool family rides in the beacon URL and no index field was added.
 - **fell off before triage finished** — 분류·대응이 끝나기 전에 (목록에서) 떨어져 나갔다. `fall off` 는 목록이나 창의 끝으로 밀려 빠진다는 뜻(`fall off the first page`). `triage` 는 응급실 분류에서 온 말로 들어온 문제의 급한 순서를 가리는 일이다. ≈ scrolled out of view, expired too early, aged out of the window. [→ daily](../../daily/2026-10-10/new-expressions.md)
   - 예: The window was widened from 10 to 20 minutes because alarms fell off before triage finished.
+- **both sides carry uncertainty** — 양쪽 다 불확도를 안고 있다. `carry` 는 "지니고 다닌다"는 동사여서 오차·위험·비용 같은 추상명사와 잘 붙는다(`carry risk`, `carry a cost`). `have uncertainty` 보다 "떼어 낼 수 없이 딸려 온다"는 느낌이 난다. ≈ both are subject to error, neither side is exact, both come with error bars. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: The same Mandel/TMU machinery is the right method for CD-SEM vs reference comparison, since both sides carry uncertainty.
+- **doubles as** — ~을 겸한다, ~ 구실도 한다. `double as B` 는 "A 이면서 B 로도 쓰인다"는 뜻이다. ≈ also serves as, works as … too, does double duty as. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: The PSD noise floor doubles as a free per-image tool-noise monitor.
+- **falls out of (the computation)** — (계산에서) 덤으로 나온다. `fall out of` 는 주머니에서 물건이 굴러 떨어지듯 애쓰지 않아도 나온다는 말이다. ≈ comes for free, is a by-product of, follows directly from. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: It falls out of the roughness computation and trends by tool.
+- **work outward** — (한 점에서) 바깥으로 넓혀 간다. `work + 방향 부사` 는 "그 방향으로 차근차근 해 나간다"는 뜻이다(`work backward`, `work down the list`). 원문은 전체에서 좁혀 들어가는 길의 반대, 곧 이미 아는 lot 이나 장비에서 시작하는 길을 가리킨다. ≈ expand from there, branch out from, trace outward from. ↔ drill down. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: Start from a known lot or tool and work outward.
+- **alert liberally; page judiciously** — 경보는 넉넉히, 호출은 가려서. 부사 둘이 맞선다. ≈ record broadly, interrupt rarely / with discretion. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: Datadog's advice is to alert liberally; page judiciously.
+- **available off the shelf** — 기성품으로 바로 쓴다. 가게 선반에서 집어 오면 된다는 말이다. ≈ built in, out of the box, ready-made. ↔ custom-built. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: LTTB downsampling, shared cursors and cross-chart zoom/brush are all available off the shelf in ECharts.
+- **Correlation is not agreement** — 상관이 높다고 일치하는 것은 아니다. `Correlation is not causation` 을 본뜬 문장이다. ≈ moving together is not the same as matching, high r does not rule out bias. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: Correlation is not agreement — a worked example shows near-perfect r with a systematic bias.
+- **is back to what it was** — 원래대로 돌아왔다. `what it was` 는 "전에 그러했던 상태"다. ≈ is back to normal, has been restored, is clean again. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: I deleted it; `git status` is back to what it was.
+- **Your angle: EFFICIENCY ONLY.** — 네가 볼 관점은 효율 하나다. `angle` 은 "사안을 보는 각도"다. ≈ your focus is, purely from the efficiency side, your remit is limited to. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: Your angle is efficiency only: flag wasted work the diff introduces.
+- **judge fan-out accordingly** — 그 점을 감안해 (동시 요청 수를) 판단하라. `accordingly` 는 "앞에 말한 사정에 맞게"다. ≈ with that in mind, take that into account, in light of this. [→ daily](../../daily/2026-10-11/new-expressions.md)
+  - 예: The `afm` blueprint is exempt from the rate limit, so judge fan-out accordingly.
