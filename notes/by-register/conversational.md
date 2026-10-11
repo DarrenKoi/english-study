@@ -894,3 +894,19 @@
   - 예: Your angle is efficiency only: flag wasted work the diff introduces.
 - **(a Map keyed once) would do** — ~면 충분하다. 이때 `do` 는 "충분하다, 쓸 만하다"는 자동사다(`That will do`, `Any pen will do`). `would` 를 쓰면 "그렇게 했더라면 됐을 텐데"라는 가정이 실려서 리뷰 지적에 어울린다. ≈ would be enough, would suffice, is all you need. ↔ won't cut it. [→ daily](../../daily/2026-10-11/new-expressions.md)
   - 예: The code scans the array inside a loop where a Map keyed once would do.
+- **is waiting on (X)** — ~이 끝나기를 기다리며 멈춰 있다. `wait for` 와 달리 "그게 와야 내가 움직인다"는 의존을 담는다. ≈ is blocked on, is pending, depends on. ↔ is unblocked. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: The navigation regrouping is waiting on VeritySEM and Provision onboarding.
+- **(X) is the wrong tool** — ~은 이 문제에 맞는 도구가 아니다. 방법이 나쁘다는 말이 아니라 이 일에 안 맞는다는 판정이다. ≈ is not a good fit for, is overkill for. ↔ is the right tool for the job. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: Machine learning is the wrong tool here, because the question is variance decomposition and no labels exist.
+- **two more turned up in (X)** — ~에서 두 건이 더 나왔다. `turn up` 은 예상 밖의 것이 불쑥 나타난다는 뜻이고 주어가 발견된 쪽이다. ≈ surfaced, showed up, came to light. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: Citations are stripped in 18 files; two more turned up in `.scratch/` tickets, so I'm clearing those too.
+- **Say if you want that pass.** — 그 작업도 한 바퀴 돌릴지 말씀해 주세요. `pass` 는 전체를 한 차례 훑는 작업 단위다. ≈ Let me know if you'd like me to go through them, Want me to do that sweep? [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: Each mention would need checking by hand. Say if you want that pass.
+- **Fix is in** — 수정 넣었음. 관사를 뗀 메모 문체이고 `in` 은 코드에 들어갔다는 뜻이다. 일상 숙어 `the fix is in`(짜고 치는 판)과 헷갈리지 않게 개발 맥락에서만 쓴다. ≈ The fix has landed, Patched, I've applied the fix. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: Fix is in; now checking in the browser that every tool name shows on the heatmap.
+- **(64 sender threads) pile up** — (스레드·요청·일이) 쌓인다. 치우는 속도보다 들어오는 속도가 빠른 그림이다. ≈ back up, accumulate, queue up. ↔ drain. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: Office cube I/O hangs and 64 sender threads pile up.
+- **the graph view just goes dark** — 그래프 화면이 에러 없이 꺼진다. `go dark` 는 신호·출력이 끊기는 것이다. ≈ silently stops working, goes blank. ↔ comes back up. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: The TypeError is swallowed as a one-time warning, so the graph view just goes dark.
+- **removes the trap** — (다음 사람이 밟을) 함정을 없앤다. 코드 리뷰에서 `trap` 은 당장은 멀쩡하지만 나중에 걸려 넘어질 코드다. ≈ closes the pitfall, defuses the footgun, makes it harder to get wrong. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: A plain truthiness check with updated stubs removes the trap.

@@ -1628,3 +1628,33 @@
   - 예: Your angle is efficiency only: flag wasted work the diff introduces.
 - **judge fan-out accordingly** — 그 점을 감안해 (동시 요청 수를) 판단하라. `accordingly` 는 "앞에 말한 사정에 맞게"다. ≈ with that in mind, take that into account, in light of this. [→ daily](../../daily/2026-10-11/new-expressions.md)
   - 예: The `afm` blueprint is exempt from the rate limit, so judge fan-out accordingly.
+- **designed down to file and function names** — 파일명·함수명 수준까지 설계가 끝난. `down to X` 는 "가장 잔 단위인 X 까지"다. ≈ specified in full detail, fully scoped. ↔ only sketched out. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: The unshipped items are already designed down to file and function names, so they are ready work, not new ideas.
+- **need a longer baseline to show up** — 기준 구간이 더 길어야 드러난다. `show up` 은 신호가 그래프에 보이기 시작한다는 뜻이다. ≈ become visible only over a longer window, emerge over time. ↔ is washed out. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: The page shows 30 days, but PM steps and re-tunes need a longer baseline to show up.
+- **whether the (10,000) cap holds** — 상한이 실제 데이터에서도 버티는지. 자동사 `hold` 는 가정·규칙·한도가 "성립한다"이다. ≈ is enough, is sufficient in practice, stands up to real data. ↔ breaks down, is exceeded. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: Count docs per tool per 30 days to see whether the 10,000 cap holds.
+- **must not read as pass/fail** — 합격/불합격으로 읽히면 안 된다. 자동사 `read as` 는 표시·글이 주어가 되어 "~로 읽힌다"이다. ≈ must not look like, must not be taken as, shouldn't come across as. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: If the token is the name of the fitted model, the badge must not read as pass/fail.
+- **a bare verdict** — 근거 없이 판정만 달랑. `bare` 는 덧붙은 것이 없다는 뜻이다(`a bare number`). ≈ a verdict with no context, just a pass/fail flag. ↔ a verdict with its reasoning. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: We can show the margin to the threshold instead of a bare verdict.
+- **separates jitter from real re-tunes** — 잔떨림과 실제 재튜닝을 가른다. 주어는 기준값(`a tolerance`)이다. ≈ tells noise apart from signal, distinguishes A from B, draws the line between. ↔ lumps them together. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: If unchanged days differ by about 1e-9, name a tolerance that separates jitter from real re-tunes.
+- **rewritten rather than left dangling** — 끊긴 채 두지 않고 고쳐 썼다. `dangling` 은 가리키는 대상이 사라져 한쪽 끝이 뜬 상태다. ≈ repointed instead of left broken, updated rather than orphaned. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: Six files that cited the deleted tickets were rewritten rather than left dangling.
+- **the sentence that existed only to carry it** — 그것(링크·인용)을 싣기 위해서만 있던 문장. `carry` 는 문장이 정보를 싣는다는 그림이다. ≈ a sentence that was just a wrapper for the link, a sentence with no other purpose. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: Most edits just drop the pointer, or the sentence that existed only to carry it.
+- **Fix is in** — 수정 넣었음. 관사를 뗀 메모 문체이고 `in` 은 코드에 들어갔다는 뜻이다. 일상 숙어 `the fix is in`(짜고 치는 판)과 헷갈리지 않게 개발 맥락에서만 쓴다. ≈ The fix has landed, Patched, I've applied the fix. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: Fix is in; now checking in the browser that every tool name shows on the heatmap.
+- **inferred from the code rather than observed** — 직접 본 것이 아니라 코드에서 추론한. `inferred` 와 `observed` 는 근거의 등급을 가르는 한 쌍이다. ≈ my reading of the code, not a repro; a deduction, not a measurement. ↔ reproduced and confirmed. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: I did not reproduce the missing label before the change, so the cause is inferred from the code rather than observed.
+- **(64 sender threads) pile up** — (스레드·요청·일이) 쌓인다. 치우는 속도보다 들어오는 속도가 빠른 그림이다. ≈ back up, accumulate, queue up. ↔ drain. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: Office cube I/O hangs and 64 sender threads pile up.
+- **the graph view just goes dark** — 그래프 화면이 에러 없이 꺼진다. `go dark` 는 신호·출력이 끊기는 것이다. ≈ silently stops working, goes blank. ↔ comes back up. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: The TypeError is swallowed as a one-time warning, so the graph view just goes dark.
+- **the situation the raise was meant to surface** — 그 raise 가 드러내려던 바로 그 상황. 타동사 `surface` 는 숨은 것을 수면 위로 올린다는 뜻이다. ≈ the very case it was supposed to catch, the problem it was designed to expose. ↔ bury, mask. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: The next alarm connects with the stale window still open, which is the situation the raise was meant to surface.
+- **removes the trap** — (다음 사람이 밟을) 함정을 없앤다. 코드 리뷰에서 `trap` 은 당장은 멀쩡하지만 나중에 걸려 넘어질 코드다. ≈ closes the pitfall, defuses the footgun, makes it harder to get wrong. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: A plain truthiness check with updated stubs removes the trap.
+- **statistics move with the selection** — 통계가 선택 범위를 따라 움직인다(고정된 비교 기준이 없다). ≈ shift with the filter, are relative to the current query. ↔ are pinned to a fixed baseline. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: There is no comparison baseline, because the statistics move with the selection.

@@ -1928,3 +1928,45 @@
   - 예: The copy/adapt columns are my reading of each licence, not a legal review.
 - **judge fan-out accordingly** — 그 점을 감안해 (동시 요청 수를) 판단하라. `accordingly` 는 "앞에 말한 사정에 맞게"다. ≈ with that in mind, take that into account, in light of this. [→ daily](../../daily/2026-10-11/new-expressions.md)
   - 예: The `afm` blueprint is exempt from the rate limit, so judge fan-out accordingly.
+- **has so far declined** — 지금까지는 (하지 않기로) 거절해 왔다. 현재완료 사이의 `so far` 가 앞으로 바뀔 여지를 남긴다. ≈ has not yet agreed to, has ruled out for now, has turned down. ↔ has signed off on. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: Adding a trend to those pages needs new collection, which the owner has so far declined for storage.
+- **is waiting on (X)** — ~이 끝나기를 기다리며 멈춰 있다. `wait for` 와 달리 "그게 와야 내가 움직인다"는 의존을 담는다. ≈ is blocked on, is pending, depends on. ↔ is unblocked. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: The navigation regrouping is waiting on VeritySEM and Provision onboarding.
+- **designed down to file and function names** — 파일명·함수명 수준까지 설계가 끝난. `down to X` 는 "가장 잔 단위인 X 까지"다. ≈ specified in full detail, fully scoped. ↔ only sketched out. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: The unshipped items are already designed down to file and function names, so they are ready work, not new ideas.
+- **claims the data cannot support** — 데이터로 뒷받침할 수 없는 주장. `support a claim` 연어에 관계대명사를 생략한 꼴이다. ≈ unsupported claims, claims that go beyond the data, overreach. ↔ a well-supported claim. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: We dropped the utilisation figure because it was a claim the data cannot support.
+- **has to argue against the first reason explicitly** — (이미 기각된) 첫 번째 사유를 글로 정면 반박해야 한다. 제안 자체가 주어가 되어 논증한다. ≈ has to address the objection head-on, must rebut. ↔ can take it as given. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: Any proposal that needs stored history has to argue against the first reason explicitly.
+- **deep at "showing" and shallow at "questioning"** — "보여주기"는 깊고 "묻기"는 얕다. `good at / bad at` 의 `at` 을 반대말 한 쌍에 붙인 대칭 진단이다. ≈ strong on display, weak on analysis; long on data and short on insight. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: The pages are deep at "showing" and shallow at "questioning": there is no baseline to compare against.
+- **(X) is the wrong tool** — ~은 이 문제에 맞는 도구가 아니다. 방법이 나쁘다는 말이 아니라 이 일에 안 맞는다는 판정이다. ≈ is not a good fit for, is overkill for. ↔ is the right tool for the job. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: Machine learning is the wrong tool here, because the question is variance decomposition and no labels exist.
+- **several of their display choices are guesses** — 표시 방식 몇몇은 짐작으로 정한 것이다. 명사 보어 `are guesses` 로 닫아 단정하고 `several of` 로 범위를 지킨다. ≈ are educated guesses, are placeholders, are unverified assumptions. ↔ are backed by measurements. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: The panels were built on a mock, so several of their display choices are guesses.
+- **exists to settle (a display decision)** — (결정 하나를) 매듭짓기 위해 있다. `settle` 은 미결 사항을 끝내는 동사다. ≈ is there to decide, serves to resolve, is meant to answer. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: Every question below exists to settle a display decision, so answer with numbers.
+- **must not read as pass/fail** — 합격/불합격으로 읽히면 안 된다. 자동사 `read as` 는 표시·글이 주어가 되어 "~로 읽힌다"이다. ≈ must not look like, must not be taken as, shouldn't come across as. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: If the token is the name of the fitted model, the badge must not read as pass/fail.
+- **a bare verdict** — 근거 없이 판정만 달랑. `bare` 는 덧붙은 것이 없다는 뜻이다(`a bare number`). ≈ a verdict with no context, just a pass/fail flag. ↔ a verdict with its reasoning. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: We can show the margin to the threshold instead of a bare verdict.
+- **rewritten rather than left dangling** — 끊긴 채 두지 않고 고쳐 썼다. `dangling` 은 가리키는 대상이 사라져 한쪽 끝이 뜬 상태다. ≈ repointed instead of left broken, updated rather than orphaned. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: Six files that cited the deleted tickets were rewritten rather than left dangling.
+- **stands as is** — 지금 그대로 유효하다. `stand` 는 결정·기록이 효력을 유지한다는 자동사다. ≈ is fine as it is, needs no changes, can stay. ↔ needs amending. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: That matches the commit message, so the commit stands as is and nothing needs amending.
+- **(the reasons) are my inference** — (그 이유는) 확인된 사실이 아니라 제 추론입니다. ≈ are my best guess, are my reading of it, are an assumption on my part. ↔ are confirmed. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: I had no context on why these were removed, so the commit message's reasons are my inference.
+- **two more turned up in (X)** — ~에서 두 건이 더 나왔다. `turn up` 은 예상 밖의 것이 불쑥 나타난다는 뜻이고 주어가 발견된 쪽이다. ≈ surfaced, showed up, came to light. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: Citations are stripped in 18 files; two more turned up in `.scratch/` tickets, so I'm clearing those too.
+- **the sentence that existed only to carry it** — 그것(링크·인용)을 싣기 위해서만 있던 문장. `carry` 는 문장이 정보를 싣는다는 그림이다. ≈ a sentence that was just a wrapper for the link, a sentence with no other purpose. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: Most edits just drop the pointer, or the sentence that existed only to carry it.
+- **Three went further than a deletion** — 세 건은 삭제에 그치지 않았다. 일반 규칙 뒤에 예외 목록을 여는 머리말이다. ≈ Three needed more than a deletion, Three were more involved. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: Most edits just drop the pointer; three went further than a deletion.
+- **rather than lose them** — 잃어버리느니 (차라리). `rather than` 뒤는 주절 시제와 상관없이 동사원형이다. ≈ instead of losing them, so they aren't lost. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: I inlined three of its four checks in condensed form rather than lose them.
+- **Say if you want that pass.** — 그 작업도 한 바퀴 돌릴지 말씀해 주세요. `pass` 는 전체를 한 차례 훑는 작업 단위다. ≈ Let me know if you'd like me to go through them, Want me to do that sweep? [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: Each mention would need checking by hand. Say if you want that pass.
+- **inferred from the code rather than observed** — 직접 본 것이 아니라 코드에서 추론한. `inferred` 와 `observed` 는 근거의 등급을 가르는 한 쌍이다. ≈ my reading of the code, not a repro; a deduction, not a measurement. ↔ reproduced and confirmed. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: I did not reproduce the missing label before the change, so the cause is inferred from the code rather than observed.
+- **the situation the raise was meant to surface** — 그 raise 가 드러내려던 바로 그 상황. 타동사 `surface` 는 숨은 것을 수면 위로 올린다는 뜻이다. ≈ the very case it was supposed to catch, the problem it was designed to expose. ↔ bury, mask. [→ daily](../../daily/2026-10-12/new-expressions.md)
+  - 예: The next alarm connects with the stale window still open, which is the situation the raise was meant to surface.
