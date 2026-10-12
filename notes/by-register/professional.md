@@ -1970,3 +1970,29 @@
   - 예: I did not reproduce the missing label before the change, so the cause is inferred from the code rather than observed.
 - **the situation the raise was meant to surface** — 그 raise 가 드러내려던 바로 그 상황. 타동사 `surface` 는 숨은 것을 수면 위로 올린다는 뜻이다. ≈ the very case it was supposed to catch, the problem it was designed to expose. ↔ bury, mask. [→ daily](../../daily/2026-10-12/new-expressions.md)
   - 예: The next alarm connects with the stale window still open, which is the situation the raise was meant to surface.
+- **doesn't reopen the rejected design** — 기각된 설계를 다시 꺼내지 않는다. `reopen` 은 닫힌 안건을 다시 여는 것. ≈ doesn't relitigate the earlier decision, leaves the earlier decision alone. ↔ brings the rejected design back in through the side door. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: Option A gets you most of the benefit, and it doesn't reopen the rejected design.
+- **knowingly overrides (the coupling objection)** — (반론을) 알고서 뒤집는다. `knowingly` 는 "모르고 어긴 게 아니다"라는 고백. ≈ deliberately sets aside, goes against … with eyes open. ↔ inadvertently violates. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: This knowingly overrides the coupling objection, so the cap matters.
+- **the unambiguous "something is wrong now" signals** — 달리 읽을 수 없는 "지금 이상" 신호. 인용문을 통째로 명사 앞 수식어로 쓴다. ≈ the clear-cut signals, signals that leave no room for interpretation. ↔ noisy signals, signals that need context to read. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: Tool offline, fail issues and storage are the unambiguous "something is wrong now" signals.
+- **would mislead on a page you open once in the morning** — 아침에 한 번 여는 화면에서는 오해를 부른다. 목적어 없는 `mislead`. ≈ would give the wrong impression, would paint a false picture. ↔ would be accurate at a glance. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: Live alarms expire after 30 minutes, so they would mislead on a page you open once in the morning.
+- **I did not trace which route exposes it** — 어느 경로가 내보내는지는 안 따라가 봤다. "없다"가 아니라 "확인 안 함". ≈ I didn't follow that one through, not traced further. ↔ I traced it end to end. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: The doc mentions an `oper_id` field for lot history; I did not trace which route exposes it.
+- **unverified where noted** — 표시한 곳은 검증 안 됨. `where noted` 는 `where it is noted` 의 줄임. ≈ not confirmed in the places marked, treat flagged items as unconfirmed. ↔ verified throughout. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: I did not open the office adapters, so office-side behaviour is unverified where noted.
+- **what keeps it from becoming (the rejected hub)** — ~로 변질되지 않게 막는 것. `keep A from -ing` + `what` 절 강조. ≈ what stops it turning into, the only thing preventing it from becoming. ↔ what turns it into. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: The cap is what keeps the page from becoming the hub you rejected.
+- **Yes in effect** — 사실상 그렇다. `in fact` 와 달리 "명목은 아니어도 실질은". ≈ effectively yes, for practical purposes. ↔ only nominally. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: Can one request cover several recipes? Yes in effect, since the IDs can come from any recipe.
+- **may well be the right product call** — 제품 판단으로는 충분히 옳을 수 있다. `may well` = 가능성이 꽤 높다. ≈ is quite possibly the right decision, could easily be right. ↔ is clearly the wrong call. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: Suppressing the badge may well be the right product call, but it should be written down.
+- **that call belongs in the spec** — 그 결정의 자리는 명세다. `belong in` = ~에 있어야 마땅하다. ≈ should live in the spec, is a spec-level decision. ↔ can stay an implementation detail. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: The rule may be right, but that call belongs in the spec, recorded with its reasoning.
+- **This is not a mechanical fix** — 기계적으로 고칠 일이 아니다. 판단이 먼저 필요하다는 경고. ≈ this needs a decision, not a patch, it's a judgment call. ↔ a mechanical change, a drive-by fix. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: This is not a mechanical fix: someone has to decide which behavior is correct first.
+- **all behaviour claims are from reading code** — 동작 서술은 전부 코드 읽기에서 나왔다. 실행 안 했음을 밝히는 단서. ≈ this is a static read, not a test, based on code inspection only. ↔ confirmed by running it. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: Nothing was run in a browser, so all behaviour claims are from reading code.
+- **is coarse for CD work** — ~에는 기준이 거칠다. `coarse` ↔ `fine`, `for` 로 용도를 한정. ≈ is too loose for, lacks the resolution for. ↔ is fine-grained enough for. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: A ±20 % outlier rule is coarse for CD work: on a 30 nm CD that is 6 nm.

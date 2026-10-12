@@ -910,3 +910,13 @@
   - 예: The TypeError is swallowed as a one-time warning, so the graph view just goes dark.
 - **removes the trap** — (다음 사람이 밟을) 함정을 없앤다. 코드 리뷰에서 `trap` 은 당장은 멀쩡하지만 나중에 걸려 넘어질 코드다. ≈ closes the pitfall, defuses the footgun, makes it harder to get wrong. [→ daily](../../daily/2026-10-12/new-expressions.md)
   - 예: A plain truthiness check with updated stubs removes the trap.
+- **the scope needs choosing carefully** — 범위를 신중하게 골라야 한다. `need + -ing` 는 `need to be p.p.` 의 짧은 꼴. ≈ the scope needs to be chosen carefully, we should be careful about scope. ↔ the scope is obvious. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: One version of this idea is something you rejected last week, so the scope needs choosing carefully.
+- **The lookup is back.** — 조사 결과가 돌아왔다. 결과·응답에도 `be back` 을 쓴다. ≈ The results are in, I've got the findings. ↔ The lookup is still running. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: The lookup is back, and it doesn't change the Round 1 questions.
+- **is where the real cost of this page is** — 진짜 비용이 몰린 곳. `X is where Y is` 로 초점을 짚는다. ≈ is the expensive part, is where the budget goes. ↔ is essentially free. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: The tools section is cheap; the recipe section is where the real cost of this page is.
+- **one click instead of zero** — 0번이 아니라 1번. 작은 안의 불편을 숫자 하나로 정직하게. ≈ one extra click, a single click away. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: The cheaper option still gets you there, as one click instead of zero.
+- **move only if someone asks** — 요청이 있을 때만 옮긴다. YAGNI 의 구어형. ≈ revisit when there's demand, cross that bridge when we come to it. ↔ build it up front. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: I'd start with localStorage and move only if someone asks.

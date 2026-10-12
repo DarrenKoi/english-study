@@ -1658,3 +1658,25 @@
   - 예: A plain truthiness check with updated stubs removes the trap.
 - **statistics move with the selection** — 통계가 선택 범위를 따라 움직인다(고정된 비교 기준이 없다). ≈ shift with the filter, are relative to the current query. ↔ are pinned to a fixed baseline. [→ daily](../../daily/2026-10-12/new-expressions.md)
   - 예: There is no comparison baseline, because the statistics move with the selection.
+- **a hard cap on (how many features it reads)** — 예외 없는 상한. 전치사는 `on`. ≈ a strict limit on, a ceiling on. ↔ a soft cap, no limit. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: I'd go with live cards, with a hard cap on how many features the page reads.
+- **whole-fleet-then-filter** — 전체를 받은 뒤 거르는 방식. `A-then-B` 는 순서를 이름으로 만드는 조어. ≈ fetch everything and filter client-side, over-fetching. ↔ server-side filtering, scoped queries. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: Only two endpoints accept an arbitrary tool list; everything else is whole-fleet-then-filter.
+- **is misleadingly named** — 이름이 오해를 부른다. 뒤에 콜론으로 실제 정체를 밝힌다. ≈ is a misnomer, the name is deceptive. ↔ is aptly named. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: The composable is misleadingly named: it wraps the point-count API, not recipe statistics.
+- **are precedents (with no API prefix of their own)** — 선례다. `of their own` 은 "자기 몫의". ≈ there is prior art for this, already work this way. ↔ would be a first. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: `mag_pixel` and `chat` are precedents with no API prefix of their own.
+- **couples to (two features)** — ~에 결합된다. 자동사 `couple to`, 수동은 `be coupled to`. ≈ depends on, is tied to. ↔ is decoupled from. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: With option B, home couples to two features and the rate limit caps the card count.
+- **Gates any future (badge-behavior) work** — 뒤따르는 작업의 통과 조건이다. 동사 `gate`. ≈ is a prerequisite for, blocks. ↔ is independent of. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: This decision gates any future badge-behavior work.
+- **narrows a shipped signal's behavior** — 배포된 신호의 동작 범위를 줄인다. `shipped` = 이미 사용자 손에 있음. ≈ restricts an existing feature, quietly changes what users already rely on. ↔ widens, extends. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: The implementation narrows a shipped signal's behavior without spec sanction.
+- **do not survive a view switch** — 화면 전환을 넘기지 못한다. `survive a reload/restart` 와 같은 쓰임. ≈ are lost on view change, reset when you switch views. ↔ persist across views. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: Friction is concentrated in user choices that are not shareable or do not survive a view switch.
+- **not wall clock** — 실제 현재 시각이 아니다. `wall clock` 은 벽시계 시각. ≈ not the current time, not `now()`. ↔ data time, logical time. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: The date range is anchored to the backend's newest timestamp, not wall clock.
+- **consumed once, then stripped** — 한 번 읽고 지운다. `consume` 은 써 버리는 것, `strip` 은 떼어 내는 것. ≈ read once and removed, one-shot. ↔ kept in the URL. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: The landing page takes `?q=…&fab=…`, which is consumed once, then stripped.
+- **eventually stops reproducing** — 언젠가 재현이 안 된다. `eventually` 는 "결국"이지 "가끔"이 아니다. ≈ goes dead after a while, will no longer show the same result. ↔ is a permanent record. [→ daily](../../daily/2026-10-13/new-expressions.md)
+  - 예: Sharing is a live re-query link, so a shared link eventually stops reproducing.
