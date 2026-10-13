@@ -1996,3 +1996,31 @@
   - 예: Nothing was run in a browser, so all behaviour claims are from reading code.
 - **is coarse for CD work** — ~에는 기준이 거칠다. `coarse` ↔ `fine`, `for` 로 용도를 한정. ≈ is too loose for, lacks the resolution for. ↔ is fine-grained enough for. [→ daily](../../daily/2026-10-13/new-expressions.md)
   - 예: A ±20 % outlier rule is coarse for CD work: on a 30 nm CD that is 6 nm.
+- **I read your order literally** — 말씀하신 순서를 글자 그대로 따랐다. 해석을 보태지 않았으니 빠진 것이 있을 수 있다는 책임 정리. ≈ I took you at your word. ↔ I read between the lines. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: I read your order literally, so the alarm-response clip is not in this cut.
+- **stay in step (unless you override the constants)** — 두 산출물이 같은 설정을 공유해 어긋나지 않는다. `unless` 로 어긋날 유일한 조건을 단다. ≈ stay in sync. ↔ drift apart. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: The two cuts stay in step unless you override the constants at the top of the new file.
+- **Three things you might not expect** — 예상 밖일 수 있는 세 가지. 접촉 관계절 소제목. ≈ A few surprises, Caveats. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: Three things you might not expect: the alarm clip is dropped, the cube subtitle is out of context, and the cut range is not carried over.
+- **the overflow should not have been hiding it** — 그것 때문에 가려졌을 리 없다. `should not have been -ing` 는 구조상 불가능하다는 추론. ≈ couldn't have been hiding it. ↔ was almost certainly hiding it. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: On the missing slot number: the overflow should not have been hiding it, because the Slot tag is drawn on top of the Lot tag.
+- **the gap is in X, not the UI** — 빠진 것은 UI 가 아니라 X 쪽이다. 조건절과 짝지어 상대가 스스로 판정하게 하는 기준. ≈ it's a data issue, not a display issue. ↔ it's a rendering bug after all. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: If the Slot tag is still blank after this fix, the gap is in the loader's data, not the UI.
+- **Where the slot is not known at all** — 슬롯 값을 전혀 모르는 경우에는. 장소가 아닌 `in cases where` 의 `where`. ≈ In cases where, When the slot is unknown. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: Where the slot is not known at all, the Slot tag stays hidden as before.
+- **Read-only fact-finding** — 고치지 말고 사실만 모으는 조사. 지시문 머리에 명사구로 역할을 정한다. ≈ reconnaissance, a survey. ↔ a design review. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: Read-only fact-finding, breadth "very thorough": report with file:line references.
+- **I need facts, not design advice.** — 사실만 필요하고 조언은 필요 없다. `A, not B` 로 원치 않는 산출물을 미리 막는다. ≈ Findings only, no recommendations. ↔ Tell me what you'd build. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: I am designing the page myself; I need facts, not design advice.
+- **infer a larger topology from a request** — 요청 하나에서 더 큰 구조를 추론하지 말라. `infer A from B`. ≈ read too much into, extrapolate from. ↔ take the request at face value. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: Do not infer a larger topology from a request to start an agent or command.
+- **labelled as such rather than stated as established fact** — 그 종류(추정·인용)라고 표시하고 확정 사실로 쓰지 말라. `as such` 가 앞 열거를 받는다. ≈ flagged as unverified, caveated. ↔ presented as settled. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: Unverified formulas and the researchers' own inferences must be labelled as such rather than stated as established fact.
+- **build on and assess them rather than repeating them** — 되풀이하지 말고 그 위에서 더 나아가며 평가하라. 동사 둘이 한 목적어를 받는다. ≈ extend and critique, take them further. ↔ restate them. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: Where existing documents already make a recommendation, build on and assess them rather than repeating them.
+- **grounded in data the notes confirm actually exists** — 실재한다고 확인된 데이터에 근거한. 접촉 관계절 두 겹. ≈ based on, backed by. ↔ speculative. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: Recommendations must be grounded in data the notes confirm actually exists.
+- **carry through the notes' own evidence grading** — 원자료가 매긴 증거 등급을 끝까지 유지하라. ≈ preserve, keep intact. ↔ flatten. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: The report must carry through the notes' own evidence grading.
+- **Per memory, …** — 기록에 따르면. `per` 는 ~에 따라(per the spec). 문두에서 뒤 문장의 근거가 된다. ≈ According to, Going by. ↔ Contrary to. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: Per memory, this Herdr build uses `herdr agent wait` rather than `herdr wait`.

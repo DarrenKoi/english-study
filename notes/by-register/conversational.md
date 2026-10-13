@@ -920,3 +920,21 @@
   - 예: The cheaper option still gets you there, as one click instead of zero.
 - **move only if someone asks** — 요청이 있을 때만 옮긴다. YAGNI 의 구어형. ≈ revisit when there's demand, cross that bridge when we come to it. ↔ build it up front. [→ daily](../../daily/2026-10-13/new-expressions.md)
   - 예: I'd start with localStorage and move only if someone asks.
+- **I read your order literally** — 말씀하신 순서를 글자 그대로 따랐다. 해석을 보태지 않았으니 빠진 것이 있을 수 있다는 책임 정리. ≈ I took you at your word. ↔ I read between the lines. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: I read your order literally, so the alarm-response clip is not in this cut.
+- **out of context** — 앞뒤가 바뀌어 맥락에서 떨어져 나온. 자막·인용에 쓴다. ≈ reads oddly now, no longer fits. ↔ in context. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: The cube subtitle is now out of context, since it follows Search Around instead of a failed correction.
+- **if it reads oddly** — 읽기에 어색하면. 글이 주어인 자동사 `read`(reads well / oddly). ≈ if it sounds off. ↔ if it reads fine as is. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: Change `IMAGE_SUBTITLE` at the top of the file if it reads oddly.
+- **spilled out of the tag and ran underneath** — 텍스트가 상자를 넘쳐 다른 요소 밑으로 깔렸다. 액체 은유 + 글줄이 달린다. ≈ overflowed the tag, bled into the next column. ↔ stayed inside its tag. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: A 12-character ID spilled out of the tag and ran underneath the Slot tag.
+- **I skipped showing X; say so if you want it** — X 는 일부러 넣지 않았다, 원하면 말해 달라. `skip + -ing` 은 의도적 생략. ≈ I left X out on purpose. ↔ I went ahead and added X. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: I skipped showing a `–` placeholder for a blank slot; say so if you want it.
+- **safe to ignore** — 무시해도 된다. `safe to + 동사` 는 그렇게 해도 위험하지 않다는 보증. ≈ harmless, can be disregarded. ↔ needs attention. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: It is not part of the repo and is safe to ignore.
+- **the name tells you what it was** — 이름만 봐도 무엇이었는지 알 수 있다. 무생물 주어 `the name` 이 `tell` 한다. ≈ the name gives it away. ↔ the name doesn't say much. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: That file is gone now, but the name tells you what it was.
+- **close that one by hand** — 그건 직접 닫아 달라. `by hand` 는 `manually` 의 구어. ≈ manually, on your end. ↔ let the script handle it. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: If a dead tab is still showing in your main window, close that one by hand.
+- **this kind of thing** — 이런 종류의 일. 범주를 뭉뚱그리는 구어. 격식에서는 tasks of this kind. ≈ tasks like this, stuff like this. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: If you want me to do this kind of thing in future, grant Accessibility to Claude first.

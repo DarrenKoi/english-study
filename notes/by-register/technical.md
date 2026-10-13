@@ -1680,3 +1680,41 @@
   - 예: The landing page takes `?q=…&fab=…`, which is consumed once, then stripped.
 - **eventually stops reproducing** — 언젠가 재현이 안 된다. `eventually` 는 "결국"이지 "가끔"이 아니다. ≈ goes dead after a while, will no longer show the same result. ↔ is a permanent record. [→ daily](../../daily/2026-10-13/new-expressions.md)
   - 예: Sharing is a live re-query link, so a shared link eventually stops reproducing.
+- **flows through here too** — 한 곳의 변경이 참조를 타고 여기에도 자동 반영된다. ≈ propagates here, is picked up automatically. ↔ has to be changed in both places. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: Editing the main cut's wording or swapping the recording flows through here too.
+- **stay in step (unless you override the constants)** — 두 산출물이 같은 설정을 공유해 어긋나지 않는다. `unless` 로 어긋날 유일한 조건을 단다. ≈ stay in sync. ↔ drift apart. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: The two cuts stay in step unless you override the constants at the top of the new file.
+- **Nothing is committed.** — 커밋한 것은 없다. 상태만 수동태로 말해 다음 결정을 상대에게 넘긴다. ≈ Not committed yet. ↔ Pushed to main. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: I also added the run line to `CLAUDE.md` and one test; nothing is committed.
+- **fits about 9 characters** — 고정 너비에 글자 아홉 개쯤 들어간다. 사물 주어의 `fit`. ≈ holds about 9 characters. ↔ overflows at 9 characters. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: The Lot column was a fixed 6.5rem track, which fits about 9 characters.
+- **spilled out of the tag and ran underneath** — 텍스트가 상자를 넘쳐 다른 요소 밑으로 깔렸다. 액체 은유 + 글줄이 달린다. ≈ overflowed the tag, bled into the next column. ↔ stayed inside its tag. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: A 12-character ID spilled out of the tag and ran underneath the Slot tag.
+- **everything to the right stays aligned** — 오른쪽 열은 전부 정렬이 유지된다. 레이아웃 변경의 부작용 범위를 닫는 문장. ≈ nothing else shifts. ↔ pushes the other columns out. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: A long-lot row takes the extra width from its own recipe name, and everything to the right stays aligned.
+- **the overflow should not have been hiding it** — 그것 때문에 가려졌을 리 없다. `should not have been -ing` 는 구조상 불가능하다는 추론. ≈ couldn't have been hiding it. ↔ was almost certainly hiding it. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: On the missing slot number: the overflow should not have been hiding it, because the Slot tag is drawn on top of the Lot tag.
+- **Only an empty string gets the dash.** — 빈 문자열일 때만 대시가 붙는다. 입력이 주어, 출력이 목적어인 `get`. ≈ The dash applies only to empty strings. ↔ Every blank state gets the dash. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: Only an empty string gets the dash; an unknown slot keeps the tag hidden.
+- **Where the slot is not known at all** — 슬롯 값을 전혀 모르는 경우에는. 장소가 아닌 `in cases where` 의 `where`. ≈ In cases where, When the slot is unknown. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: Where the slot is not known at all, the Slot tag stays hidden as before.
+- **a dead buffer** — 원본 파일이 지워져 저장할 곳도 없는 편집기 탭. `dead code` 계열. ≈ an orphaned tab, a stale tab. ↔ a live file. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: The temp file itself is already gone, so the tab is just a dead buffer.
+- **orphaned with no window of its own** — 부모 세션이 끝나 자기 창도 없이 홀로 남은 프로세스. ≈ left behind, detached from its parent. ↔ attached to a live window. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: Its session had already ended and deleted the file, so it was orphaned with no window of its own.
+- **lets a stuck waiter go without killing anything** — 걸린 대기 프로세스를 강제 종료 없이 조건만 바꿔 풀어 준다. ≈ releases the waiter cleanly, unblocks it. ↔ force-kills the process. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: Removing that marker lets a stuck waiter go without killing anything.
+- **safe to ignore** — 무시해도 된다. `safe to + 동사` 는 그렇게 해도 위험하지 않다는 보증. ≈ harmless, can be disregarded. ↔ needs attention. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: It is not part of the repo and is safe to ignore.
+- **that isn't granted** — 그 권한이 부여돼 있지 않다. 권한은 grant / revoke. ≈ hasn't been granted, is not enabled. ↔ is already allowed. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: Controlling VS Code needs macOS Accessibility permission for the Claude desktop app, and that isn't granted.
+- **roughly how heavy is the response** — 응답이 대략 얼마나 무거운가. `heavy` 는 크기·시간·비용을 뭉뚱그린 부담. ≈ how large the payload is, how expensive the call is. ↔ a lightweight response. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: Note roughly how heavy the response is — a whole-fleet payload or a summary.
+- **span more than one fab** — 한 요청이 둘 이상의 fab 에 걸치다. 다리 은유의 `span`. ≈ cover multiple fabs, cross fab boundaries. ↔ be scoped to a single fab. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: Can one request span more than one fab, or is fab a required single-valued param?
+- **renders as intended** — 의도한 대로 렌더링된다. 브라우저 검증 결과를 한 줄로. ≈ looks right, displays correctly. ↔ renders wrong. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: Badge renders as intended; pushing and tearing down.
+- **infer a larger topology from a request** — 요청 하나에서 더 큰 구조를 추론하지 말라. `infer A from B`. ≈ read too much into, extrapolate from. ↔ take the request at face value. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: Do not infer a larger topology from a request to start an agent or command.
+- **Codex is up.** — Codex 가 떴다. 프로세스·서버가 가동 중이라는 `be up`. ≈ is running, is ready. ↔ is down. [→ daily](../../daily/2026-10-14/new-expressions.md)
+  - 예: Codex is up. Sending round 1 and waiting for its reply.
