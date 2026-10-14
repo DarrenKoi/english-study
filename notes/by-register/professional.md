@@ -2024,3 +2024,37 @@
   - 예: The report must carry through the notes' own evidence grading.
 - **Per memory, …** — 기록에 따르면. `per` 는 ~에 따라(per the spec). 문두에서 뒤 문장의 근거가 된다. ≈ According to, Going by. ↔ Contrary to. [→ daily](../../daily/2026-10-14/new-expressions.md)
   - 예: Per memory, this Herdr build uses `herdr agent wait` rather than `herdr wait`.
+- **Coverage is uneven.** — 조사 범위가 고르지 않다. 근거가 두꺼운 곳과 얇은 곳을 미리 밝히는 보고서 서두. ≈ The depth varies by section. ↔ Coverage is comprehensive. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Coverage is uneven: the CMP section is well sourced, but tool matching rests on vendor pages alone.
+- **should be treated as unverified** — 검증되지 않은 것으로 다뤄야 한다. 규칙형 수동태로 자기 근거의 한계를 독자에게 넘긴다. ≈ should be taken with caution. ↔ can be taken as confirmed. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: The page itself was not opened, so wording and numbers should be treated as unverified.
+- **follow from (the applications)** — (전제)에서 자연히 따라 나온다. `from` 뒤가 출발점. ≈ stem from, are driven by. ↔ are unrelated to. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: The questions engineers ask of the data follow from the applications.
+- **a natural cross-check** — 구조상 당연히 해 볼 교차 검증. 억지 지표가 아니라는 정당화. ≈ an obvious sanity check. ↔ an independent validation. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Depth measurements are bounded by tip geometry, so "depth versus tip age" is a natural cross-check.
+- **runs the other way** — 인과·흐름의 방향이 예상과 반대다. ≈ is the reverse, is flipped. ↔ runs the same way. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: The most mature "ML on AFM" pattern in fabs runs the other way: AFM as label source for optical models.
+- **the central weakness vendors compete on** — 업체들이 앞서려고 경쟁하는 핵심 약점. 전치사가 끝에 남는 관계절. ≈ the main battleground. ↔ a solved problem. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Throughput is the central weakness vendors compete on.
+- **is hindered by** — ~때문에 더디다, 발목이 잡혀 있다(완전 차단은 아님). ≈ is held back by, is impeded by. ↔ is driven by. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: BTR uptake is hindered by uncertainty over tip matrix size and threshold.
+- **offered as proof that** — ~의 증거로 내세워진. 단정 없이 제시만 전해 중립을 지킨다. ≈ presented as evidence that. ↔ shown to be. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: The repeat-test numbers are offered as proof that True Non-Contact mode preserves the tip.
+- **provided (that)** — ~라는 조건에서만. `if` 보다 엄격한 단서 조항. ≈ as long as, on condition that. ↔ regardless of whether. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Tool-to-tool matching can use the same Mandel machinery, provided the same wafers and sites are measured on both tools.
+- **a selling point** — 판매 포인트, 상대가 내세우는 장점(거리를 두는 뉘앙스). ≈ a headline feature, a draw. ↔ a drawback. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Vendor text treats flat, background-free profiles as a selling point.
+- **sold and used for** — ~용으로 팔리고 실제로도 쓰인다. 동사 둘이 전치사 하나를 공유. ≈ marketed and deployed for. ↔ marketed for X but used for Y. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Inline AFM is sold and used for four families of measurement.
+- **low-value to rebuild** — 다시 만들어 봐야 얻는 게 적다(build vs buy). ≈ not worth rebuilding. ↔ worth building in-house. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Features vendors already advertise on-tool are low-value to rebuild.
+- **without numbers** — 수치는 밝히지 않고. 형용사 비판 없이 근거 부재를 전한다. ≈ unquantified, with no figures given. ↔ with published figures. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: It also advertises "superior tool-to-tool matching" without numbers.
+- **in what I found** — 내가 찾은 자료 안에서는. 부재 주장을 탐색 범위로 묶는 단서. ≈ as far as I could find. ↔ across the field. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Not demonstrated in what I found: a production-grade tip-condition classifier.
+- **positions X as Y** — X 를 Y 로 자리매김하다(마케팅 포지셔닝). ≈ pitches X as Y, presents X as Y. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Onto Innovation positions OCD as the high-throughput inline Cu-recess method.
+- **say when the cost is negligible so it is not changed needlessly** — 비용이 무시할 만하면 그렇다고 말해 괜히 고치지 않게 하라. ≈ note where no change is warranted. ↔ flag everything. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Name the cheaper alternative, and say when the cost is negligible so it is not changed needlessly.
+- **Name the simpler form that does the same job.** — 같은 일을 하는 더 단순한 형태를 구체적으로 대라. `name` 의 동사 용법. ≈ spell out the simpler version. ↔ just say it's too complex. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Flag awkward control flow and name the simpler form that does the same job.

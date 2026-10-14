@@ -1718,3 +1718,27 @@
   - 예: Do not infer a larger topology from a request to start an agent or command.
 - **Codex is up.** — Codex 가 떴다. 프로세스·서버가 가동 중이라는 `be up`. ≈ is running, is ready. ↔ is down. [→ daily](../../daily/2026-10-14/new-expressions.md)
   - 예: Codex is up. Sending round 1 and waiting for its reply.
+- **a natural cross-check** — 구조상 당연히 해 볼 교차 검증. 억지 지표가 아니라는 정당화. ≈ an obvious sanity check. ↔ an independent validation. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Depth measurements are bounded by tip geometry, so "depth versus tip age" is a natural cross-check.
+- **is not directly comparable** — 보정 없이 그대로는 비교할 수 없다. ≈ isn't apples to apples. ↔ is on the same footing. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Rq from instruments with different bandwidths is not directly comparable.
+- **an estimate of unknown bias** — 치우침의 크기를 알 수 없는 추정치. 성질의 `of`. ≈ an uncalibrated estimate. ↔ a traceable measurement. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Any roughness value computed from a rendered image would be an estimate of unknown bias.
+- **on the order of** — 대략 ~ 정도(자릿수가 그쯤). ≈ roughly, in the ballpark of. ↔ exactly. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Interaction distance for Cu is on the order of 50 to 100 µm.
+- **a hidden parameter** — 결과를 바꾸는데 기록되지 않는 숨은 변수. ≈ a confounder, an unrecorded setting. ↔ a controlled variable. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Levelling choice is a hidden parameter for step height and dishing.
+- **a distinct quantity from** — ~와는 본질이 다른 별개의 양. ≈ separate from. ↔ equivalent to. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Probe-to-probe offset is a distinct quantity from within-tip wear.
+- **more than an order of magnitude above** — 열 배 넘게 웃도는. ≈ over ten times higher. ↔ within the same order of magnitude. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Integrating a PSD over the optical-profiler band can give an rms roughness more than an order of magnitude above a 1 µm AFM scan.
+- **should not be trended together** — 한 추세 그래프에 섞어 그리면 안 된다. `trend` 의 동사 용법. ≈ should not be pooled. ↔ can be trended on one chart. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Results from recipes with different flattening orders should not be trended together without that field recorded.
+- **a weak tip-wear detector** — 그 문제를 잘 못 잡아내는 지표. 데이터를 탐지기로 의인화. ≈ a poor signal for. ↔ a sensitive indicator. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Product results alone are a weak tip-wear detector; a dedicated monitor-site series is required.
+- **a fast initial phase followed by a slower steady phase** — 처음엔 빠르다가 느리고 안정된 구간으로. `A followed by B` 로 순서를 명사구에 압축. ≈ a run-in period and then a steady state. ↔ a constant rate throughout. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Wear shows a fast initial phase followed by a slower steady phase.
+- **the slope of X against Y** — Y(가로축)에 대한 X(세로축)의 기울기. 한국어와 순서가 반대. ≈ X versus Y, X as a function of Y. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Wear rate is then the slope of qualifier width against the usage counter.
+- **at the root-cause depth rather than a bandaid** — 임시방편이 아니라 근본 원인 층에서 고쳤는가. ≈ addresses the cause, not the symptom. ↔ a stopgap. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Check whether each fix is at the root-cause depth rather than a bandaid.

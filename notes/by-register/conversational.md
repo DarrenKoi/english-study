@@ -938,3 +938,13 @@
   - 예: If a dead tab is still showing in your main window, close that one by hand.
 - **this kind of thing** — 이런 종류의 일. 범주를 뭉뚱그리는 구어. 격식에서는 tasks of this kind. ≈ tasks like this, stuff like this. [→ daily](../../daily/2026-10-14/new-expressions.md)
   - 예: If you want me to do this kind of thing in future, grant Accessibility to Claude first.
+- **runs the other way** — 인과·흐름의 방향이 예상과 반대다. ≈ is the reverse, is flipped. ↔ runs the same way. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: The most mature "ML on AFM" pattern in fabs runs the other way: AFM as label source for optical models.
+- **on the order of** — 대략 ~ 정도(자릿수가 그쯤). ≈ roughly, in the ballpark of. ↔ exactly. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Interaction distance for Cu is on the order of 50 to 100 µm.
+- **a selling point** — 판매 포인트, 상대가 내세우는 장점(거리를 두는 뉘앙스). ≈ a headline feature, a draw. ↔ a drawback. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Vendor text treats flat, background-free profiles as a selling point.
+- **at the root-cause depth rather than a bandaid** — 임시방편이 아니라 근본 원인 층에서 고쳤는가. ≈ addresses the cause, not the symptom. ↔ a stopgap. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Check whether each fix is at the root-cause depth rather than a bandaid.
+- **Now the fix — fleet downloader first.** — 이제 수정 차례, fleet downloader 부터. 동사 없이 대시로 순서를 알리는 구어(casual). ≈ Next up: …, On to the fix. [→ daily](../../daily/2026-10-15/new-expressions.md)
+  - 예: Now the fix — fleet downloader first, then the proxy client.
