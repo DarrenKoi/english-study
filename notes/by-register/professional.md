@@ -2058,3 +2058,29 @@
   - 예: Name the cheaper alternative, and say when the cost is negligible so it is not changed needlessly.
 - **Name the simpler form that does the same job.** — 같은 일을 하는 더 단순한 형태를 구체적으로 대라. `name` 의 동사 용법. ≈ spell out the simpler version. ↔ just say it's too complex. [→ daily](../../daily/2026-10-15/new-expressions.md)
   - 예: Flag awkward control flow and name the simpler form that does the same job.
+- **counts X rather than Y** — Y 가 아니라 X 를 센다. 실제와 기대를 나란히 놓는 리뷰 화법. ≈ measures X instead of Y. ↔ counts exactly what it claims to. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: The cap is `len(_IN_FLIGHT)`, which counts dict entries rather than live threads.
+- **It is only safe if …** — ~일 때에만 안전하다. 단정 대신 안전 조건을 드러내고 `otherwise …` 로 잇는다. ≈ this holds only as long as …. ↔ it is safe regardless of …. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: It is only safe if the prune runs before this check on every call; otherwise rcp downloads stop after four distinct keys.
+- **…, leaving the alert window open** — (그 결과) 창이 열린 채 남는다. 귀결을 꼬리에 다는 결과 분사구. ≈ …, so the window stays open. ↔ …, closing it cleanly. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: The following `_close_alert` and popup backstop are skipped, leaving the alert window open.
+- **X implies (that) Y** — X 로 보아 Y 다. 증거를 주어로 세운 추론. ≈ X suggests Y(더 약함). ↔ X rules out Y. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: The adjacent `is_alive()` check implies finished threads stay in the dict.
+- **must reach the engineer** — 엔지니어에게 반드시 전달돼야 한다. `reach` = 사람에게 닿다. ≈ must get to the engineer. ↔ never reaches anyone. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: The escalation outcomes must reach the engineer even when the send queue is full.
+- **re-implements something the codebase already has** — 코드베이스에 이미 있는 것을 다시 구현한다. ≈ duplicates an existing helper, reinvents the wheel. ↔ reuses the existing helper. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: Flag new code in the diff that re-implements something the codebase already has.
+- **Typical suspects:** — 흔히 의심할 만한 곳들(`the usual suspects` 를 비튼 말). ≈ Common places to look:. ↔ unlikely places. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: Typical suspects: mean/σ/median math, number formatting, date formatting, and xlsx sheet building.
+- **Drop anything you cannot confirm.** — 확인할 수 없는 것은 빼라. ≈ Leave out anything unverified. ↔ include everything, even hunches. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: Verify every finding against the existing helper, and drop anything you cannot confirm.
+- **Not in scope:** — 범위 밖(하지 말 일을 먼저 못 박는 머리말). ≈ Out of scope:. ↔ In scope:. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: Not in scope: correctness bugs, style nits, test files' internal duplication, docs.
+- **most valuable first** — 가장 가치 있는 것부터(정렬 지정). ≈ in order of value. ↔ in no particular order. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: Return at most 12 findings, most valuable first.
+- **areas you checked and found clean** — 확인해 보니 문제없던 영역. `find + 목적어 + 형용사`. ≈ areas that came back clean. ↔ areas you did not get to. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: End with a one-line note on areas you checked and found clean.
+- **concrete cost** — 셀 수 있는 구체적 손해. ≈ tangible impact. ↔ a vague concern. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: For each finding, give the concrete cost: lines duplicated and the risk of the copies drifting apart.
+- **alter intended behaviour** — 의도된 동작을 바꾸다(`alter` 는 `change` 의 문어체). ≈ change what the code does. ↔ behaviour-preserving. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: Do not propose changes that alter intended behaviour or visible strings.

@@ -948,3 +948,9 @@
   - 예: Check whether each fix is at the root-cause depth rather than a bandaid.
 - **Now the fix — fleet downloader first.** — 이제 수정 차례, fleet downloader 부터. 동사 없이 대시로 순서를 알리는 구어(casual). ≈ Next up: …, On to the fix. [→ daily](../../daily/2026-10-15/new-expressions.md)
   - 예: Now the fix — fleet downloader first, then the proxy client.
+- **Typical suspects:** — 흔히 의심할 만한 곳들(`the usual suspects` 를 비튼 말). ≈ Common places to look:. ↔ unlikely places. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: Typical suspects: mean/σ/median math, number formatting, date formatting, and xlsx sheet building.
+- **There's a … page — that's the …** — ~가 있네요 — 그게 말씀하신 ~예요. 상대의 말을 코드 속 대상과 연결. ≈ That must be the …. ↔ That's not the … I'm looking for. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: There's a `/notices` page — that's the announcements board you meant.
+- **Now X, then Y.** — 이제 X, 그다음 Y(동사 뺀 진행 보고). ≈ Next up: X, then Y. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: Now the tests, then the docs.

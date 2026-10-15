@@ -1742,3 +1742,27 @@
   - 예: Wear rate is then the slope of qualifier width against the usage counter.
 - **at the root-cause depth rather than a bandaid** — 임시방편이 아니라 근본 원인 층에서 고쳤는가. ≈ addresses the cause, not the symptom. ↔ a stopgap. [→ daily](../../daily/2026-10-15/new-expressions.md)
   - 예: Check whether each fix is at the root-cause depth rather than a bandaid.
+- **counts X rather than Y** — Y 가 아니라 X 를 센다. 실제와 기대를 나란히 놓는 리뷰 화법. ≈ measures X instead of Y. ↔ counts exactly what it claims to. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: The cap is `len(_IN_FLIGHT)`, which counts dict entries rather than live threads.
+- **for the life of the process** — 프로세스가 살아 있는 내내(재시작 전까지). ≈ until the process restarts. ↔ only for the current call. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: After four distinct recipes, every later consensus gather is skipped for the life of the process.
+- **(a) silent permanent fallback** — 경고 없이 대체 경로로 영영 빠지는 실패. ≈ fails quietly and never recovers. ↔ a loud failure, a transient fallback. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: Every later gather is skipped for the life of the process (silent permanent rcp fallback).
+- **It is only safe if …** — ~일 때에만 안전하다. 단정 대신 안전 조건을 드러내고 `otherwise …` 로 잇는다. ≈ this holds only as long as …. ↔ it is safe regardless of …. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: It is only safe if the prune runs before this check on every call; otherwise rcp downloads stop after four distinct keys.
+- **is dropped with no retry** — 재시도 없이 버려진다. ≈ is lost for good. ↔ is retried until it succeeds. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: The outcome cube for that alarm is dropped with no retry.
+- **…, leaving the alert window open** — (그 결과) 창이 열린 채 남는다. 귀결을 꼬리에 다는 결과 분사구. ≈ …, so the window stays open. ↔ …, closing it cleanly. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: The following `_close_alert` and popup backstop are skipped, leaving the alert window open.
+- **unless they are pruned before this line** — 이 줄 앞에서 정리(제거)되지 않는 한. 실행 순서까지 조건에 넣는다. ≈ unless stale entries are evicted first. ↔ if they accumulate. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: Unless finished threads are pruned before this line, the cap fills up after four recipes.
+- **re-implements something the codebase already has** — 코드베이스에 이미 있는 것을 다시 구현한다. ≈ duplicates an existing helper, reinvents the wheel. ↔ reuses the existing helper. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: Flag new code in the diff that re-implements something the codebase already has.
+- **confirm the semantics really match** — 이름이 아니라 실제 동작 규칙이 같은지 확인하라. ≈ check they behave the same. ↔ only the names match. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: Confirm the semantics really match, e.g. sample vs population σ and null handling.
+- **alter intended behaviour** — 의도된 동작을 바꾸다(`alter` 는 `change` 의 문어체). ≈ change what the code does. ↔ behaviour-preserving. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: Do not propose changes that alter intended behaviour or visible strings.
+- **operator wiring** — DAG 에서 태스크를 서로 잇는 연결 코드. ≈ plumbing, glue code. ↔ business logic. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: The DAG file handles only scheduling, dependencies, and operator wiring; the business logic lives in plain Python functions.
+- **JSON-safe** — JSON 으로 그대로 직렬화해도 깨지지 않는(`X-safe` 합성어). ≈ JSON-serializable. ↔ non-serializable. [→ daily](../../daily/2026-10-16/new-expressions.md)
+  - 예: `normalize_document` converts `datetime`, `Decimal`, and `NaN` into JSON-safe values.
