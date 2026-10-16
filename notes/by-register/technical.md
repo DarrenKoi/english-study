@@ -1766,3 +1766,29 @@
   - 예: The DAG file handles only scheduling, dependencies, and operator wiring; the business logic lives in plain Python functions.
 - **JSON-safe** — JSON 으로 그대로 직렬화해도 깨지지 않는(`X-safe` 합성어). ≈ JSON-serializable. ↔ non-serializable. [→ daily](../../daily/2026-10-16/new-expressions.md)
   - 예: `normalize_document` converts `datetime`, `Decimal`, and `NaN` into JSON-safe values.
+- **a debugging superpower** — 디버깅의 비장의 무기. 대시 뒤에 붙여 결론을 한마디로 찍는다. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: A 2-second deterministic loop is tight — a debugging superpower.
+- **One breakpoint beats ten logs.** — 중단점 하나가 로그 열 줄보다 낫다. `X beats Y` 에 숫자 대비를 더한 격언. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: Use the debugger if the environment supports it — one breakpoint beats ten logs.
+- **Untagged logs survive; tagged logs die.** — 꼬리표 없는 로그는 남고 단 로그는 지워진다. 세미콜론 대구. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: Tag every debug log with a unique prefix: untagged logs survive; tagged logs die.
+- **lock down (a bug)** — 테스트로 버그를 단단히 묶어 재발을 막다. `locked-down PC` 와 뜻이 다르다. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: The codebase architecture is preventing the bug from being locked down.
+- **hidden coupling** — 겉으로 안 보이는 모듈 간 의존. ↔ loose coupling. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: If the answer involves architectural change, such as hidden coupling, hand it off with the specifics.
+- **red-capable** — 이 버그에서 실패를 낼 수 있는. `X-capable` 합성어. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: Phase 1 is done when the loop is tight and red-capable.
+- **run it unattended** — 사람 손 없이 혼자 돌리다(무인 실행). [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: The loop must be agent-runnable: you can run it unattended.
+- **shrink the repro** — 재현 사례를 최소로 줄이다. `repro` = reproduction. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: Once it's red, shrink the repro to the smallest scenario that still goes red.
+- **Gates are clean.** — 자동 검사 관문을 모두 통과했다. `clean` = 오류 없음. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: Gates are clean (the 2 lint warnings are pre-existing, in `ImageViewer.vue`).
+- **navigating away mid-eval** — 평가 도중 페이지가 떠나 버림. `mid-` + 명사 = ~ 도중. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: The row-open check ended with the page navigating away mid-eval.
+- **wasn't read back** — 결과를 되읽어 확인하지 못했다. 무전의 복창도 `read back`. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: The page navigated away mid-eval, so the destination wasn't read back.
+- **nothing amended, not pushed** — 커밋을 고쳐 쓰지 않았고 푸시도 안 했다(git `amend`). [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: All five findings are fixed in a second commit on `work/afm-recipes` (nothing amended, not pushed).
+- **Both server exits are my own shutdown.** — 두 서버 종료는 내가 한 것이다(이상 징후를 먼저 해명). [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: Both server exits are my own shutdown, not crashes.

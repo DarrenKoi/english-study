@@ -2084,3 +2084,29 @@
   - 예: For each finding, give the concrete cost: lines duplicated and the risk of the copies drifting apart.
 - **alter intended behaviour** — 의도된 동작을 바꾸다(`alter` 는 `change` 의 문어체). ≈ change what the code does. ↔ behaviour-preserving. [→ daily](../../daily/2026-10-16/new-expressions.md)
   - 예: Do not propose changes that alter intended behaviour or visible strings.
+- **Refuse to give up.** — 포기를 거절하라. `Don't give up` 보다 의지가 센 명령문. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: Spend disproportionate effort here: be aggressive, be creative, and refuse to give up.
+- **Stop and say so explicitly.** — 멈추고 분명히 밝혀라. `so` 가 앞 내용을 받는다. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: If you genuinely cannot build a loop, stop and say so explicitly.
+- **re-ranks instantly** — 순위를 단번에 다시 매긴다. 무생물 주어(`domain knowledge`)와 잘 어울린다. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: The user often has domain knowledge that re-ranks the list instantly.
+- **Cheap checkpoint, big time saver.** — 작은 확인, 큰 시간 절약. 동사 없는 대구 슬로건. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: Show the ranked list to the user before testing — cheap checkpoint, big time saver.
+- **lock down (a bug)** — 테스트로 버그를 단단히 묶어 재발을 막다. `locked-down PC` 와 뜻이 다르다. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: The codebase architecture is preventing the bug from being locked down.
+- **so the next debugger learns** — 다음 사람이 배우도록. 목적절 `so` 뒤 현재형 동사. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: State the hypothesis that turned out correct in the commit message, so the next debugger learns.
+- **anchors on the first plausible idea** — 첫 그럴듯한 생각에 묶이다(앵커링 편향). [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: Single-hypothesis generation anchors on the first plausible idea.
+- **run it unattended** — 사람 손 없이 혼자 돌리다(무인 실행). [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: The loop must be agent-runnable: you can run it unattended.
+- **Decisions the manager should know about** — 윗사람이 알아야 할 결정 모음. 관계절 끝에 전치사가 남는 어순. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: Decisions the manager should know about (all 14 are in the report): the subtitle gains a third clause.
+- **has no slot for it** — 틀 안에 그걸 넣을 칸이 없다. 두 요구의 충돌을 짚을 때. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: The common brief asks for undated rows to be counted there, and the item brief's string has no slot for it.
+- **behave as the brief describes** — 지시서대로 동작한다. `as + 주어 + 동사` = ~하는 대로. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: Tile filters, sorting and both empty states all behave as the brief describes.
+- **in neither X nor Y** — X 에도 Y 에도 들지 않는다. 긍정 동사 + 전치사구 부정. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: A recipe with no dated row is in neither the recent nor the stale tile.
+- **Known and intentional, do not report:** — 의도된 것이니 지적하지 말라는 리뷰 지시문 머리말. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: Known and intentional, do not report: the parser accepts only `YYYY.MM.DD HH:mm:ss` read as KST.

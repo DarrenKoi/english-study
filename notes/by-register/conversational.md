@@ -954,3 +954,15 @@
   - 예: There's a `/notices` page — that's the announcements board you meant.
 - **Now X, then Y.** — 이제 X, 그다음 Y(동사 뺀 진행 보고). ≈ Next up: X, then Y. [→ daily](../../daily/2026-10-16/new-expressions.md)
   - 예: Now the tests, then the docs.
+- **Refuse to give up.** — 포기를 거절하라. `Don't give up` 보다 의지가 센 명령문. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: Spend disproportionate effort here: be aggressive, be creative, and refuse to give up.
+- **a debugging superpower** — 디버깅의 비장의 무기. 대시 뒤에 붙여 결론을 한마디로 찍는다. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: A 2-second deterministic loop is tight — a debugging superpower.
+- **the hypothesis is a vibe** — 검증할 예측이 없는 가설은 그냥 느낌이다(구어 `vibe`). [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: If you cannot state the prediction, the hypothesis is a vibe — discard or sharpen it.
+- **Cheap checkpoint, big time saver.** — 작은 확인, 큰 시간 절약. 동사 없는 대구 슬로건. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: Show the ranked list to the user before testing — cheap checkpoint, big time saver.
+- **if the user is AFK** — 자리 비움(away from keyboard). 격식 글에서는 `unavailable`. [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: Don't block on it — proceed with your ranking if the user is AFK.
+- **Both server exits are my own shutdown.** — 두 서버 종료는 내가 한 것이다(이상 징후를 먼저 해명). [→ daily](../../daily/2026-10-17/new-expressions.md)
+  - 예: Both server exits are my own shutdown, not crashes.
