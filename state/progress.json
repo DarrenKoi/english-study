@@ -1048,7 +1048,10 @@
     "-Users-daeyoung-Codes-english-study/a5da3fde-b415-407f-b72e-3a6591c55b35.jsonl": 106,
     "-Users-daeyoung-Codes-english-study/1f51d06a-d585-4cd4-9bce-51663611ec3f.jsonl": 105,
     "-Users-daeyoung-Codes-skewnono-afm-recipes/4e1c4ef9-51c0-480d-a524-32f62e2a247f.jsonl": 360,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/cf201adc-8e6f-4bd4-b2fe-34120b4157e0/subagents/agent-a49adc4ccadcdafe4.jsonl": 30
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/cf201adc-8e6f-4bd4-b2fe-34120b4157e0/subagents/agent-a49adc4ccadcdafe4.jsonl": 30,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/07a4eb85-8b3a-4808-9f90-ad931ffac71f.jsonl": 222,
+    "-Users-daeyoung-Codes-english-study/3fda560a-0f0b-45b6-98ae-0231c4a4013a.jsonl": 262,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/6bb18a63-0d56-4f6d-a4cb-29e7383e4f5f.jsonl": 408
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1662,5 +1665,5 @@
     "skewnono_v3_nuxt/docs/journals/261014/261014_094319_ftp-cp949-filename-encoding.md": "skewnono_v3_nuxt/docs/journals/261014/261014_094319_ftp-cp949-filename-encoding.md:1791939975.8105278:11107",
     "skewnono_v3_nuxt/docs/research/2026-10-09-analysis-service-directions-notes/afm_metrology_analytics_external.md": "skewnono_v3_nuxt/docs/research/2026-10-09-analysis-service-directions-notes/afm_metrology_analytics_external.md:1791527051.5518527:53288"
   },
-  "last_run": "2026-10-17"
+  "last_run": "2026-10-18"
 }

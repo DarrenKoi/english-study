@@ -966,3 +966,29 @@
   - 예: Don't block on it — proceed with your ranking if the user is AFK.
 - **Both server exits are my own shutdown.** — 두 서버 종료는 내가 한 것이다(이상 징후를 먼저 해명). [→ daily](../../daily/2026-10-17/new-expressions.md)
   - 예: Both server exits are my own shutdown, not crashes.
+
+## 2026-10-18
+- **Lazy means efficient, not careless.** — 게으름은 효율이지 대충이 아니다. `X means Y, not Z` 로 단어를 재정의하는 틀. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Lazy means efficient, not careless; the goal is less code, not less care.
+- **been paged at 3am for one** — 그런 것 때문에 새벽 3시에 온콜 호출을 받아 봤다. `get paged` = 알림으로 불려 나가다. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: I've been paged at 3am for a cache layer nobody needed, so I'm wary of adding one here.
+- **The best code is the code never written.** — 가장 좋은 코드는 애초에 안 쓴 코드. `never written` 은 관계사 생략 과거분사 수식. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Before we add the retry wrapper, remember that the best code is the code never written.
+- **Look before you write** — 쓰기 전에 기존 코드를 먼저 찾아봐라. `Look before you leap` 의 변형. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Look before you write; the helper you need is probably a few files over.
+- **the most common slop** — 가장 흔한 날림 코드. `slop` 은 불가산 비격식어. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Re-implementing a helper that already lives three files over is the most common slop I see in reviews.
+- **a reflex, not a research project** — 반사 동작이지 연구 과제가 아니다. 절차를 가볍게 넘기라는 대비. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Checking for an existing helper should be a reflex, not a research project.
+- **Deletion over addition. Boring over clever.** — 더하기보다 빼기, 영리함보다 지루함. `X over Y` 선호 슬로건. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Our review bar is simple: deletion over addition, boring over clever.
+- **Read fully, then be lazy.** — 다 읽고 나서 게을러져라. `A, then B` 로 순서를 못 박는 슬로건. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Trace every caller first; read fully, then be lazy.
+- **The shortest path to done is the right path.** — 끝내는 데 가장 짧은 길이 옳은 길. `done` 을 명사로 쓴 격언. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Don't gold-plate the migration script; the shortest path to done is the right path.
+- **That is where the seconds go.** — 시간은 거기서 다 간다. 느린 원인을 짚으며 정상임을 알리는 구어. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Each snapshot test builds a real 4000-lot payload; that is where the seconds go.
+- **the way it did before the link was added** — 링크가 들어가기 전에 그랬던 것처럼. 되돌림 보고에서 원래 상태를 가리킨다. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: The column now shows just the ID, the way it did before the link was added.
+- **changes how you get there, not who can get in** — 경로만 바뀌고 권한은 안 바뀐다. 간접의문문 두 개의 대비. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Removing the button changes how you get there, not who can get in.

@@ -1792,3 +1792,29 @@
   - 예: All five findings are fixed in a second commit on `work/afm-recipes` (nothing amended, not pushed).
 - **Both server exits are my own shutdown.** — 두 서버 종료는 내가 한 것이다(이상 징후를 먼저 해명). [→ daily](../../daily/2026-10-17/new-expressions.md)
   - 예: Both server exits are my own shutdown, not crashes.
+
+## 2026-10-18
+- **been paged at 3am for one** — 그런 것 때문에 새벽 3시에 온콜 호출을 받아 봤다. `get paged` = 알림으로 불려 나가다. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: I've been paged at 3am for a cache layer nobody needed, so I'm wary of adding one here.
+- **the most common slop** — 가장 흔한 날림 코드. `slop` 은 불가산 비격식어. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Re-implementing a helper that already lives three files over is the most common slop I see in reviews.
+- **cut a real corner with a known ceiling** — 한계를 알고서 의도적으로 지름길을 택하다. `ceiling` = 성능·규모 상한. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: The global lock cuts a real corner with a known ceiling, so the comment names the upgrade path.
+- **Leave the calibration knob** — 보정용 조정값은 남겨 둬라. `knob` = 사용자가 돌려 맞추는 설정. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: The motor runs a few percent fast, so leave the calibration knob even in the minimal version.
+- **Fix it once, where all callers route through.** — 모든 호출자가 지나는 한 곳에서 한 번만 고쳐라. `route through` = 경유하다. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Put the null guard in the shared loader; fix it once, where all callers route through.
+- **A report names a symptom.** — 리포트에 적힌 건 증상이다. `name` = 지목하다. 원인은 따로 찾으라는 전제. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: A report names a symptom, so the first job is to find where the symptom actually comes from.
+- **the failure mode to avoid** — 피해야 할 실패 형태. `failure mode` 는 공학 용어. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Fixing the doc and leaving the mock untouched is the failure mode to avoid.
+- **That is where the seconds go.** — 시간은 거기서 다 간다. 느린 원인을 짚으며 정상임을 알리는 구어. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Each snapshot test builds a real 4000-lot payload; that is where the seconds go.
+- **Nothing errors — the log just gets corrupted.** — 에러는 안 나고 로그만 조용히 망가진다. `error` 를 자동사로 쓴 조용한 실패 경고. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: A broad `git add` won't fail; nothing errors — the log just gets corrupted.
+- **Do not rename one side alone.** — 짝으로 묶인 이름을 한쪽만 바꾸지 마라. `alone` = 그것만 단독으로. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: The slug is shared by routing and logging, so do not rename one side alone.
+- **so it doesn't linger as dead code** — 죽은 코드로 남아 있지 않게. `linger` 는 떠나야 할 것이 미적거린다는 뉘앙스. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: I removed the `prefix` field along with the labels so it doesn't linger as dead code.
+- **not confirmed from the hunk whether …** — 이 diff 조각만으로는 …인지 확인되지 않음. 리뷰어가 판단 한계를 밝히는 꼬리말. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: The new gate may block health probes; not confirmed from the hunk whether health is exempted earlier in the hook.

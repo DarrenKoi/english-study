@@ -2110,3 +2110,43 @@
   - 예: A recipe with no dated row is in neither the recent nor the stale tile.
 - **Known and intentional, do not report:** — 의도된 것이니 지적하지 말라는 리뷰 지시문 머리말. [→ daily](../../daily/2026-10-17/new-expressions.md)
   - 예: Known and intentional, do not report: the parser accepts only `YYYY.MM.DD HH:mm:ss` read as KST.
+
+## 2026-10-18
+- **Lazy means efficient, not careless.** — 게으름은 효율이지 대충이 아니다. `X means Y, not Z` 로 단어를 재정의하는 틀. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Lazy means efficient, not careless; the goal is less code, not less care.
+- **The best code is the code never written.** — 가장 좋은 코드는 애초에 안 쓴 코드. `never written` 은 관계사 생략 과거분사 수식. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Before we add the retry wrapper, remember that the best code is the code never written.
+- **Stop at the first rung that holds.** — 성립하는 첫 단계에서 멈춰라. `rung` = 사다리 가로대, `hold` = 성립하다. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Walk the options top to bottom and stop at the first rung that holds.
+- **a reflex, not a research project** — 반사 동작이지 연구 과제가 아니다. 절차를 가볍게 넘기라는 대비. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Checking for an existing helper should be a reflex, not a research project.
+- **Deletion over addition. Boring over clever.** — 더하기보다 빼기, 영리함보다 지루함. `X over Y` 선호 슬로건. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Our review bar is simple: deletion over addition, boring over clever.
+- **Never stall on an answer you can default.** — 기본값으로 정할 수 있는 답을 기다리느라 멈추지 마라. `default` 가 동사. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: If the naming question has an obvious default, take it and move on; never stall on an answer you can default.
+- **complexity smuggled back in as prose** — 글의 모습으로 다시 몰래 들여온 복잡성. 긴 변호문도 복잡성이라는 지적. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: A three-paragraph justification for a one-line change is complexity smuggled back in as prose.
+- **cut a real corner with a known ceiling** — 한계를 알고서 의도적으로 지름길을 택하다. `ceiling` = 성능·규모 상한. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: The global lock cuts a real corner with a known ceiling, so the comment names the upgrade path.
+- **dresses up as efficiency** — 효율로 분장하고 나타난다. 나쁜 습관의 위장을 의인화. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Skipping the read-through dresses up as efficiency, but it ships a confident wrong fix.
+- **The shortest path to done is the right path.** — 끝내는 데 가장 짧은 길이 옳은 길. `done` 을 명사로 쓴 격언. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Don't gold-plate the migration script; the shortest path to done is the right path.
+- **A report names a symptom.** — 리포트에 적힌 건 증상이다. `name` = 지목하다. 원인은 따로 찾으라는 전제. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: A report names a symptom, so the first job is to find where the symptom actually comes from.
+- **the same act that switches it on** — 그걸 켜는 바로 그 행동. 한 행동이 두 효과를 내는 동일성 강조. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Copying the template is the same act that switches the adapter on, so copy it only when you mean to go live.
+- **the failure mode to avoid** — 피해야 할 실패 형태. `failure mode` 는 공학 용어. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Fixing the doc and leaving the mock untouched is the failure mode to avoid.
+- **standing in for the real thing rather than drifting from it** — 실물에서 멀어지지 않고 실물을 대신하도록. `stand in for` ↔ `drift from`. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Keep the mock's docstring current so it is standing in for the real thing rather than drifting from it.
+- **a guess never has to be avoided, only labelled** — 추측은 피할 게 아니라 표시만 하면 된다. `never X, only Y` 조건부 허용. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Mark the fabricated value `OFFICE-VERIFY`; a guess never has to be avoided, only labelled.
+- **mislead the next session about what work is still open** — 다음 세션이 미완료 작업을 잘못 알게 만든다. `open` = 미완료. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Leftover worktrees mislead the next session about what work is still open.
+- **is not untidy, it is an app that does not start** — 지저분한 게 아니라 아예 안 뜨는 앱이다. 미관 문제를 치명적 오류로 고쳐 말하기. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Two features with the same folder name is not untidy, it is an app that does not start.
+- **changes how you get there, not who can get in** — 경로만 바뀌고 권한은 안 바뀐다. 간접의문문 두 개의 대비. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: Removing the button changes how you get there, not who can get in.
+- **not confirmed from the hunk whether …** — 이 diff 조각만으로는 …인지 확인되지 않음. 리뷰어가 판단 한계를 밝히는 꼬리말. [→ daily](../../daily/2026-10-18/new-expressions.md)
+  - 예: The new gate may block health probes; not confirmed from the hunk whether health is exempted earlier in the hook.
