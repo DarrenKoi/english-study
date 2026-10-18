@@ -2150,3 +2150,31 @@
   - 예: Removing the button changes how you get there, not who can get in.
 - **not confirmed from the hunk whether …** — 이 diff 조각만으로는 …인지 확인되지 않음. 리뷰어가 판단 한계를 밝히는 꼬리말. [→ daily](../../daily/2026-10-18/new-expressions.md)
   - 예: The new gate may block health probes; not confirmed from the hunk whether health is exempted earlier in the hook.
+- **a fresh agent picking up the … work** — 이 일을 멈춘 지점부터 이어받는 새 담당자. `take over` 보다 "이어 간다"에 가깝다. ↔ hand off. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: This note is context for a fresh agent picking up the equipment-FTP collection work.
+- **Fix direction chosen: …** — 선택한 수정 방향. `Root cause:` 와 짝을 이뤄 원인 → 방향 두 줄로 결론을 낸다. ≈ Chosen approach:. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: Root cause: unbounded concurrency. Fix direction chosen: a bounded thread pool with per-host isolation.
+- **not inherently riskier than** — 그 자체로는 ~보다 더 위험하지 않다. 뒤에 진짜 위험 요인을 대야 선다. ↔ inherently unsafe. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: In-memory buffering is not inherently riskier than writing to disk; shared state is what causes the mixing.
+- **The fear that X comes from Y, not from Z.** — X 라는 걱정은 Z 가 아니라 Y 에서 나온다. 걱정을 인정하며 범인을 옮겨 주는 정중한 반박 틀. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: The fear that async mixes one host's data into another's comes from shared mutable state, not from memory itself.
+- **When X genuinely wins: …** — X 가 정말로 나은 경우. 한쪽을 편든 뒤 반대쪽 조건을 공정하게 덧붙이는 소제목. ≈ The case for X:. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: When disk genuinely wins: memory pressure, not correctness.
+- **lowest common denominator** — 최소 공통분모. 어디서나 되지만 기능은 가장 빈약한 것(기술 문서에선 중립적). ↔ the richest option. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: NLST is the lowest common denominator: every server supports it, but it returns names only.
+- **borrows from that same budget — it does not get a fresh one** — 같은 한도에서 빌려 쓰며 새 몫은 없다. 긍정·부정으로 두 번 말해 오해를 막는다. ↔ gets its own budget. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: The proxy borrows from the uWSGI worker's memory budget; it does not get a fresh one.
+- **size the defaults against the shared envelope** — 공유 자원의 운영 한계에 맞춰 기본값을 정하다. `envelope` 는 flight envelope 에서 온 "안전 범위". ≈ headroom. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: We sized the batch defaults against the shared 8 GiB envelope rather than the proxy alone.
+- **a caller who hasn't done this math** — 이 계산을 따져 보지 않은 호출자. 안전 기본값의 존재 이유를 사람 중심으로 말한다. `do the math` = 따져 보다. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: The defaults exist to give a caller who hasn't done this math a safe result on the shared host.
+- **the rewrite this ADR deliberately defers** — 이 ADR 이 의도적으로 미루는 재작성. 빠진 일을 누락이 아닌 결정으로 기록한다. ≈ out of scope for now. ↔ in scope. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: A streaming transport is the rewrite this ADR deliberately defers.
+- **Do not "optimize" X back up without re-checking …** — 재검토 없이 X 를 도로 올리는 "최적화" 금지. 따옴표가 "그건 최적화가 아니다"를 말한다. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: Do not "optimize" request_batch back up without re-checking the memory math above.
+- **deprioritized … during design** — 설계 중 우선순위를 낮췄다. `skipped` 와 달리 판단을 거친 결정. ≈ put on the back burner. ↔ fast-tracked. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: The user deprioritized storage detail during design, so parse_records is still a stub.
+- **was offered … — not confirmed** — 제안은 했으나 확정 안 됨. 다음 담당자가 제안을 결정으로 착각하지 않게 한다. ↔ signed off. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: The user was offered baking these values in as defaults — not confirmed.
+- **Terms only; no implementation detail (that lives in X).** — 용어만 다루고 구현 세부는 X 에 있다. `lives in` = 그 문서가 정본이다. ≈ see X for …. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: This file defines terms only; the implementation detail lives in the reference doc.

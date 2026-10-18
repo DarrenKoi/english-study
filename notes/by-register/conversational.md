@@ -992,3 +992,11 @@
   - 예: The column now shows just the ID, the way it did before the link was added.
 - **changes how you get there, not who can get in** — 경로만 바뀌고 권한은 안 바뀐다. 간접의문문 두 개의 대비. [→ daily](../../daily/2026-10-18/new-expressions.md)
   - 예: Removing the button changes how you get there, not who can get in.
+- **When X genuinely wins: …** — X 가 정말로 나은 경우. 한쪽을 편든 뒤 반대쪽 조건을 공정하게 덧붙이는 소제목. ≈ The case for X:. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: When disk genuinely wins: memory pressure, not correctness.
+- **handed to you the moment it downloads, then dropped** — 내려받는 순간 넘겨지고 곧 버려진다. `the moment S V` = as soon as. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: Each file is handed to your callback the moment it downloads, then dropped.
+- **a caller who hasn't done this math** — 이 계산을 따져 보지 않은 호출자. 안전 기본값의 존재 이유를 사람 중심으로 말한다. `do the math` = 따져 보다. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: The defaults exist to give a caller who hasn't done this math a safe result on the shared host.
+- **edit the fleet without a code deploy** — 코드 배포 없이 대상 목록을 고친다. `a deploy` 는 명사. ↔ hard-coded. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: The host list is re-read every run, so you can edit the fleet without a code deploy.

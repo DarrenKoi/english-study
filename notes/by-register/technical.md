@@ -1818,3 +1818,37 @@
   - 예: I removed the `prefix` field along with the labels so it doesn't linger as dead code.
 - **not confirmed from the hunk whether …** — 이 diff 조각만으로는 …인지 확인되지 않음. 리뷰어가 판단 한계를 밝히는 꼬리말. [→ daily](../../daily/2026-10-18/new-expressions.md)
   - 예: The new gate may block health probes; not confirmed from the hunk whether health is exempted earlier in the hook.
+- **a fresh agent picking up the … work** — 이 일을 멈춘 지점부터 이어받는 새 담당자. `take over` 보다 "이어 간다"에 가깝다. ↔ hand off. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: This note is context for a fresh agent picking up the equipment-FTP collection work.
+- **Fix direction chosen: …** — 선택한 수정 방향. `Root cause:` 와 짝을 이뤄 원인 → 방향 두 줄로 결론을 낸다. ≈ Chosen approach:. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: Root cause: unbounded concurrency. Fix direction chosen: a bounded thread pool with per-host isolation.
+- **fans out hundreds of hosts concurrently with zero extra packages** — 추가 패키지 없이 수백 호스트로 동시에 퍼져 나간다. `zero` 가 "정말 하나도"를 강조. ↔ fan in / run serially. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: A bounded thread pool fans out hundreds of hosts concurrently with zero extra packages.
+- **failures are collected, not raised** — 실패를 예외로 던지지 않고 모아 둔다. ≈ fail soft. ↔ fail fast / fail-on-any. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: One bad host can't abort the run, because failures are collected, not raised.
+- **not inherently riskier than** — 그 자체로는 ~보다 더 위험하지 않다. 뒤에 진짜 위험 요인을 대야 선다. ↔ inherently unsafe. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: In-memory buffering is not inherently riskier than writing to disk; shared state is what causes the mixing.
+- **Cross-host contamination** — 호스트 간 데이터 오염. `mixing` 보다 "결과를 못 믿게 됐다"는 심각성이 강하다. ≈ data bleed. ↔ isolation. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: Cross-host contamination happens only if concurrent units share a destination or a stateful resource.
+- **handed to you the moment it downloads, then dropped** — 내려받는 순간 넘겨지고 곧 버려진다. `the moment S V` = as soon as. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: Each file is handed to your callback the moment it downloads, then dropped.
+- **lowest common denominator** — 최소 공통분모. 어디서나 되지만 기능은 가장 빈약한 것(기술 문서에선 중립적). ↔ the richest option. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: NLST is the lowest common denominator: every server supports it, but it returns names only.
+- **in decreasing fidelity / increasing compatibility** — 정확도는 내려가고 호환성은 올라가는 순서로. 나열 순서로 트레이드오프를 보여 준다. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: There are three ways to list a directory, in decreasing fidelity and increasing compatibility.
+- **rolling back if it lands in the future** — (추론한 날짜가) 미래로 떨어지면 한 단계 되돌린다. `land` = 계산 결과가 어느 값에 떨어지다. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: The year-less form assumes the current year, rolling back one year if the date lands in the future.
+- **borrows from that same budget — it does not get a fresh one** — 같은 한도에서 빌려 쓰며 새 몫은 없다. 긍정·부정으로 두 번 말해 오해를 막는다. ↔ gets its own budget. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: The proxy borrows from the uWSGI worker's memory budget; it does not get a fresh one.
+- **size the defaults against the shared envelope** — 공유 자원의 운영 한계에 맞춰 기본값을 정하다. `envelope` 는 flight envelope 에서 온 "안전 범위". ≈ headroom. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: We sized the batch defaults against the shared 8 GiB envelope rather than the proxy alone.
+- **returns partial results instead of being killed** — 강제 종료되는 대신 일부 결과라도 돌려준다. ↔ fails wholesale / all-or-nothing. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: With host_timeout under harakiri, the batch returns partial results instead of being killed.
+- **the rewrite this ADR deliberately defers** — 이 ADR 이 의도적으로 미루는 재작성. 빠진 일을 누락이 아닌 결정으로 기록한다. ≈ out of scope for now. ↔ in scope. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: A streaming transport is the rewrite this ADR deliberately defers.
+- **Do not "optimize" X back up without re-checking …** — 재검토 없이 X 를 도로 올리는 "최적화" 금지. 따옴표가 "그건 최적화가 아니다"를 말한다. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: Do not "optimize" request_batch back up without re-checking the memory math above.
+- **edit the fleet without a code deploy** — 코드 배포 없이 대상 목록을 고친다. `a deploy` 는 명사. ↔ hard-coded. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: The host list is re-read every run, so you can edit the fleet without a code deploy.
+- **Terms only; no implementation detail (that lives in X).** — 용어만 다루고 구현 세부는 X 에 있다. `lives in` = 그 문서가 정본이다. ≈ see X for …. [→ daily](../../daily/2026-10-19/new-expressions.md)
+  - 예: This file defines terms only; the implementation detail lives in the reference doc.
