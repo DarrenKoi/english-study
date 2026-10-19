@@ -1000,3 +1000,17 @@
   - 예: The defaults exist to give a caller who hasn't done this math a safe result on the shared host.
 - **edit the fleet without a code deploy** — 코드 배포 없이 대상 목록을 고친다. `a deploy` 는 명사. ↔ hard-coded. [→ daily](../../daily/2026-10-19/new-expressions.md)
   - 예: The host list is re-read every run, so you can edit the fleet without a code deploy.
+- **Either is allowed.** — 둘 다 가능합니다. 선택지 두 개를 나열한 뒤 어느 쪽도 막혀 있지 않다고 짧게 확인해 줄 때. ≈ Either works.. ↔ Neither is acceptable.. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: You can use a separate app or scale up the current host; either is allowed.
+- **What breaks if …?** — …라면 무엇이 깨지나?. 가정이 어긋났을 때 무엇이 깨지는지 실패 모드를 물을 때. ≈ What goes wrong if …?. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: What breaks if the FTP server doesn't support directory rename?
+- **where the ceiling is** — 상한이 어디에 걸리는지. 처리량·동시성의 상한이 어디서 걸리는지 물을 때. ≈ the upper bound. ↔ the floor. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: Tell me where the ceiling is: the server's session limit or our CPU.
+- **No restating the handoff.** — 인수인계 문서 내용을 되풀이하지 마세요. 이미 아는 내용을 요약하지 말고 새 판단만 달라고 할 때. ≈ Skip the recap.. ↔ Start with a summary.. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: Numbered findings only. No restating the original proposal.
+- **from your boss's point of view** — 상사 입장에서 보면. 문서 구성을 읽을 사람 입장에 맞췄다고 설명할 때. ≈ through your manager's eyes. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: From your boss's point of view, impact matters more than the tech stack.
+- **you went from building things to planning projects and training people** — 만드는 사람에서 과제를 기획하고 사람을 가르치는 사람으로 넘어갔다. 한 해 동안 역할이 어떻게 넓어졌는지 성장 서사로 한 문장에 담을 때. ≈ grew from X into Y. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: This year I went from building tools to planning projects and training other engineers.
+- **it prints cleanly and works in dark mode** — 인쇄해도 깔끔하고 다크 모드에서도 잘 보인다. 산출물. ≈ is print-friendly. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: The report is one self-contained file; it prints cleanly and works in dark mode.

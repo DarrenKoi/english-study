@@ -2178,3 +2178,43 @@
   - 예: The user was offered baking these values in as defaults — not confirmed.
 - **Terms only; no implementation detail (that lives in X).** — 용어만 다루고 구현 세부는 X 에 있다. `lives in` = 그 문서가 정본이다. ≈ see X for …. [→ daily](../../daily/2026-10-19/new-expressions.md)
   - 예: This file defines terms only; the implementation detail lives in the reference doc.
+- **Read-only; do not edit files.** — 읽기만 하고 파일은 고치지 마세요. 리뷰·조사를 맡기면서 권한 범위를 맨 앞에 못 박을 때. ≈ look but don't touch. ↔ feel free to edit. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: Read-only; do not edit files — just leave your notes in the review doc.
+- **New constraints from the user (not yet in handoff.md)** — 사용자가 새로 준 제약(아직 handoff.md 에 없음). 기존 문서에 아직 반영되지 않은 새 조건을 따로 묶어 알릴 때. ≈ pending update to X. ↔ already captured in X. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: Here are two new constraints from the customer, not yet in the spec.
+- **at once, reliably** — 한꺼번에, 그리고 확실하게. 요구 사항의 핵심 두 축. ≈ in one go, without failures. ↔ one at a time. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: The goal is to push the same recipe to ten tools at once, reliably.
+- **Either is allowed.** — 둘 다 가능합니다. 선택지 두 개를 나열한 뒤 어느 쪽도 막혀 있지 않다고 짧게 확인해 줄 때. ≈ Either works.. ↔ Neither is acceptable.. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: You can use a separate app or scale up the current host; either is allowed.
+- **Hard requirement: X must not affect Y.** — 절대 조건: X 는 Y 에 영향을 주면 안 된다. 협상 불가능한 조건을 다른 조건과 구분해 맨 앞에 박을 때. ≈ non-negotiable. ↔ nice to have. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: Hard requirement: the new batch job must not affect the running production service.
+- **Questions I want your independent view on** — 독립적인 의견을 듣고 싶은 질문들. 다른 검토자의 의견에 끌려가지 말고 따로 판단해 달라고 부탁할 때. ≈ your fresh take on. ↔ just confirm what we've decided. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: These are the questions I want your independent view on before we compare notes.
+- **Give the decisive reason** — 결정적인 이유를 대라. 근거를 늘어놓지 말고 결론을 가른 이유 하나만 대라고 할 때. ≈ the deciding factor. ↔ a minor consideration. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: Pick one option and give the decisive reason in a single sentence.
+- **what must be true of X for Y to work** — Y 가 성립하려면 X 가 어떤 조건을 만족해야 하는가. 방안이 성립하는 전제 조건을 묻거나 적을 때. ≈ the preconditions for. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: List what must be true of the network for the remote worker to work.
+- **acceptable, or propose cheaper that is still trustworthy** — 이대로 괜찮은가, 아니면 여전히 믿을 만하면서 더 싼 방법을 제안하라. 현재 방식을 승인할지, 아니면 같은 신뢰도의 더 싼 대안을 낼지 양자택일로 물을 때. ≈ good enough as is, or …. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: Is a full re-download acceptable, or can you propose a cheaper check that is still trustworthy?
+- **The handoff admits X is unresolved.** — 인수인계 문서도 X 가 해결되지 않았다고 인정한다. 문서가 스스로 인정한 빈틈을 짚으며 그 부분을 다뤄 달라고 할 때. ≈ concedes. ↔ claims X is solved. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: The design doc admits the race condition is unresolved, so start there.
+- **the best achievable mitigation** — 달성 가능한 최선의 완화책. 완전한 해결이 불가능함을 전제하고 현실적 최선책을 요구할 때. ≈ the best we can do under the constraints. ↔ a complete fix. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: Propose the best achievable mitigation without a lock.
+- **state the residual risk plainly** — 남는 위험을 있는 그대로 적어라. 대책 뒤에 남는 위험을 돌려 말하지 말고 문장으로 적으라고 할 때. ≈ spell out what's left. ↔ gloss over the risk. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: After the mitigation, state the residual risk plainly so the operators know what to watch.
+- **wrong, contradictory, over-engineered, or missing** — 틀렸거나, 서로 모순되거나, 과하게 설계됐거나, 빠진 것. 리뷰어에게 찾아야 할 결함의 종류를 네 갈래로 나눠 줄 때. ≈ errors, inconsistencies, overkill, or gaps. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: Flag anything in the spec that is wrong, contradictory, over-engineered, or missing.
+- **No restating the handoff.** — 인수인계 문서 내용을 되풀이하지 마세요. 이미 아는 내용을 요약하지 말고 새 판단만 달라고 할 때. ≈ Skip the recap.. ↔ Start with a summary.. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: Numbered findings only. No restating the original proposal.
+- **from your boss's point of view** — 상사 입장에서 보면. 문서 구성을 읽을 사람 입장에 맞췄다고 설명할 때. ≈ through your manager's eyes. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: From your boss's point of view, impact matters more than the tech stack.
+- **I left these blank rather than invent figures.** — 수치를 지어내는 대신 비워 두었습니다. 모르는 수치를 지어내지 않고 빈칸으로 남긴 이유를 밝힐 때. ≈ rather than guess. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: I left the cost line blank rather than invent a figure; please fill in the real number.
+- **would make the strongest claims hard to dispute** — 가장 강한 주장들을 반박하기 어렵게 만든다. 근거 보강이 주장에 어떤 힘을 주는지 설명할 때. ≈ airtight. ↔ easy to poke holes in. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: Adding the before-and-after numbers would make your strongest claims hard to dispute.
+- **Impact comes before features.** — 기능보다 효과가 먼저다. 성과 보고·제안서의 서술 순서 원칙을 한 줄로 말할 때. ≈ lead with the outcome. ↔ features first. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: In a promotion review, impact comes before features.
+- **proof from outside your own work** — 내 일 바깥에서 온 증거. 자기 주장이 아니라 제3자. ≈ third-party validation. ↔ self-assessment. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: The award and the other team's dependence are proof from outside your own work.
+- **you went from building things to planning projects and training people** — 만드는 사람에서 과제를 기획하고 사람을 가르치는 사람으로 넘어갔다. 한 해 동안 역할이 어떻게 넓어졌는지 성장 서사로 한 문장에 담을 때. ≈ grew from X into Y. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: This year I went from building tools to planning projects and training other engineers.

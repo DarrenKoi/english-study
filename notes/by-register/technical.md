@@ -1852,3 +1852,27 @@
   - 예: The host list is re-read every run, so you can edit the fleet without a code deploy.
 - **Terms only; no implementation detail (that lives in X).** — 용어만 다루고 구현 세부는 X 에 있다. `lives in` = 그 문서가 정본이다. ≈ see X for …. [→ daily](../../daily/2026-10-19/new-expressions.md)
   - 예: This file defines terms only; the implementation detail lives in the reference doc.
+- **Read-only; do not edit files.** — 읽기만 하고 파일은 고치지 마세요. 리뷰·조사를 맡기면서 권한 범위를 맨 앞에 못 박을 때. ≈ look but don't touch. ↔ feel free to edit. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: Read-only; do not edit files — just leave your notes in the review doc.
+- **New constraints from the user (not yet in handoff.md)** — 사용자가 새로 준 제약(아직 handoff.md 에 없음). 기존 문서에 아직 반영되지 않은 새 조건을 따로 묶어 알릴 때. ≈ pending update to X. ↔ already captured in X. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: Here are two new constraints from the customer, not yet in the spec.
+- **at once, reliably** — 한꺼번에, 그리고 확실하게. 요구 사항의 핵심 두 축. ≈ in one go, without failures. ↔ one at a time. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: The goal is to push the same recipe to ten tools at once, reliably.
+- **Hard requirement: X must not affect Y.** — 절대 조건: X 는 Y 에 영향을 주면 안 된다. 협상 불가능한 조건을 다른 조건과 구분해 맨 앞에 박을 때. ≈ non-negotiable. ↔ nice to have. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: Hard requirement: the new batch job must not affect the running production service.
+- **what must be true of X for Y to work** — Y 가 성립하려면 X 가 어떤 조건을 만족해야 하는가. 방안이 성립하는 전제 조건을 묻거나 적을 때. ≈ the preconditions for. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: List what must be true of the network for the remote worker to work.
+- **What breaks if …?** — …라면 무엇이 깨지나?. 가정이 어긋났을 때 무엇이 깨지는지 실패 모드를 물을 때. ≈ What goes wrong if …?. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: What breaks if the FTP server doesn't support directory rename?
+- **where the ceiling is** — 상한이 어디에 걸리는지. 처리량·동시성의 상한이 어디서 걸리는지 물을 때. ≈ the upper bound. ↔ the floor. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: Tell me where the ceiling is: the server's session limit or our CPU.
+- **acceptable, or propose cheaper that is still trustworthy** — 이대로 괜찮은가, 아니면 여전히 믿을 만하면서 더 싼 방법을 제안하라. 현재 방식을 승인할지, 아니면 같은 신뢰도의 더 싼 대안을 낼지 양자택일로 물을 때. ≈ good enough as is, or …. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: Is a full re-download acceptable, or can you propose a cheaper check that is still trustworthy?
+- **the best achievable mitigation** — 달성 가능한 최선의 완화책. 완전한 해결이 불가능함을 전제하고 현실적 최선책을 요구할 때. ≈ the best we can do under the constraints. ↔ a complete fix. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: Propose the best achievable mitigation without a lock.
+- **wrong, contradictory, over-engineered, or missing** — 틀렸거나, 서로 모순되거나, 과하게 설계됐거나, 빠진 것. 리뷰어에게 찾아야 할 결함의 종류를 네 갈래로 나눠 줄 때. ≈ errors, inconsistencies, overkill, or gaps. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: Flag anything in the spec that is wrong, contradictory, over-engineered, or missing.
+- **it prints cleanly and works in dark mode** — 인쇄해도 깔끔하고 다크 모드에서도 잘 보인다. 산출물. ≈ is print-friendly. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: The report is one self-contained file; it prints cleanly and works in dark mode.
+- **To review X instead, pass it as the target** — 대신 X 를 검토하려면 그걸 대상으로 넘기세요. 지금 요청으로는 할 일이 없을 때 원하는 결과를 얻는 다른 사용법을 안내할 때. ≈ If you meant X, run …. [→ daily](../../daily/2026-10-20/new-expressions.md)
+  - 예: To review the latest commit instead, pass it as the target, e.g. `/code-review HEAD~1`.

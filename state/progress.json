@@ -1056,7 +1056,11 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/222a22b3-ef71-4187-8706-537f9f54747c.jsonl": 16,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/9461a13d-c945-4677-ae06-2cb66b3cea36.jsonl": 13,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/bc5425f9-4fd7-4cc2-8ba2-a45436647a61.jsonl": 225,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/cf201adc-8e6f-4bd4-b2fe-34120b4157e0/subagents/agent-a0389aadcedc2dc7e.jsonl": 21
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/cf201adc-8e6f-4bd4-b2fe-34120b4157e0/subagents/agent-a0389aadcedc2dc7e.jsonl": 21,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/49cf97e0-0b99-4cb6-984f-eeaa02f8d648.jsonl": 11,
+    "-Users-daeyoung-Codes-bulk-recipe-copy/43e2683c-2e16-45fe-b1b9-c044940b7318.jsonl": 219,
+    "-Users-daeyoung-Codes-pm-notes-my-task/e80cbfc4-6c19-42af-9f15-c0a6d1dff688.jsonl": 533,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/cf201adc-8e6f-4bd4-b2fe-34120b4157e0/subagents/agent-a08dc2962ed95c24e.jsonl": 24
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1698,7 +1702,12 @@
     "bulk_recipe_copy/docs/design/skewnono-ftp-adr-0001-proxy-batch-sizing.md": "bulk_recipe_copy/docs/design/skewnono-ftp-adr-0001-proxy-batch-sizing.md:1792275032.4566114:3349",
     "bulk_recipe_copy/docs/datatables/hitachi/sem_list.txt": "bulk_recipe_copy/docs/datatables/hitachi/sem_list.txt:1792275032.4547482:8422",
     "bulk_recipe_copy/docs/datatables/hitachi/msr_image_ftp.txt": "bulk_recipe_copy/docs/datatables/hitachi/msr_image_ftp.txt:1792275032.45454:9912",
-    "bulk_recipe_copy/docs/datatables/hitachi/recipe_idp.txt": "bulk_recipe_copy/docs/datatables/hitachi/recipe_idp.txt:1792275032.4543138:66192"
+    "bulk_recipe_copy/docs/datatables/hitachi/recipe_idp.txt": "bulk_recipe_copy/docs/datatables/hitachi/recipe_idp.txt:1792275032.4543138:66192",
+    "bulk_recipe_copy/docs/design/codex-r1-prompt.md": "bulk_recipe_copy/docs/design/codex-r1-prompt.md:1792275032.45053:3465",
+    "bulk_recipe_copy/docs/design/codex-r1.md": "bulk_recipe_copy/docs/design/codex-r1.md:1792275032.4501097:14657",
+    "bulk_recipe_copy/docs/design/claude-r1.md": "bulk_recipe_copy/docs/design/claude-r1.md:1792275032.449738:8396",
+    "bulk_recipe_copy/docs/design/review-r1.md": "bulk_recipe_copy/docs/design/review-r1.md:1792275032.4492974:7311",
+    "skewnono_v3_nuxt/docs/office-migration/to-office-recipe-copy-261018.md": "skewnono_v3_nuxt/docs/office-migration/to-office-recipe-copy-261018.md:1792274576.9743278:8014"
   },
-  "last_run": "2026-10-19"
+  "last_run": "2026-10-20"
 }
