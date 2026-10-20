@@ -2218,3 +2218,29 @@
   - 예: The award and the other team's dependence are proof from outside your own work.
 - **you went from building things to planning projects and training people** — 만드는 사람에서 과제를 기획하고 사람을 가르치는 사람으로 넘어갔다. 한 해 동안 역할이 어떻게 넓어졌는지 성장 서사로 한 문장에 담을 때. ≈ grew from X into Y. [→ daily](../../daily/2026-10-20/new-expressions.md)
   - 예: This year I went from building tools to planning projects and training other engineers.
+- **Things you may want to rule on** — 판단해 주셨으면 하는 것들. 보고 끝에서 상대가 결정해 줘야 할 항목을 따로 묶을 때. ≈ open questions for you. ↔ already settled. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: Things you may want to rule on: the default date range and whether hidden recipes should stay hidden after a reload.
+- **I followed the code.** — 코드를 따랐습니다. 문서 지시끼리 충돌할 때 실제 코드를 기준으로 삼았다고 밝힐 때. ≈ I went with what the code does. ↔ I followed the spec. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: The spec and the existing charts disagreed on where the selection lives, so I followed the code.
+- **I checked this by reading the config, not by building the offline bundle.** — 설정을 읽어서 확인했지, 오프라인 번들을 직접 빌드해 본 건 아닙니다. 무엇을 확인했는지와 함께 *어떻게* 확인했는지. ≈ I only checked X. ↔ verified end to end. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: I confirmed the fix by reading the logs, not by reproducing the crash.
+- **Not verified: real office data.** — 검증 안 함: 실제 사무실 데이터. 보고서에서 검증하지 못한 범위를 머리말 하나로 분리할 때. ≈ Untested:. ↔ Verified:. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: Not verified: the Windows build and anything behind the company proxy.
+- **were not looked at** — 살펴보지 않았다. 검토·확인하지 않은 항목을 담담하게 나열할 때. ≈ weren't checked. ↔ were reviewed. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: Light theme and the mobile layout were not looked at this round.
+- **differ by colour only** — 색으로만 다르다. 두 항목을 구분하는 단서가 하나뿐이라는 한계를 지적할 때. ≈ are told apart only by. ↔ are clearly distinct. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: If two recipes share a name, their legend entries differ by colour only.
+- **That held in every screenshot, but adding X later would make it drift.** — 모든 스크린숏에서는 그 가정이 맞았지만, 나중에 X 를 추가하면 어긋날 것이다. 지금은 가정이 맞지만 어떤 변경이 들어오면 깨질 수 있다고 경고할 때. ≈ works for now. ↔ is robust to. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: The offset held at every zoom level, but a sticky header would make it drift.
+- **only the legend case was reproduced** — 직접 재현한 건 범례 케이스뿐이다. 원인은 고쳤지만 직접 재현해 본 건 일부뿐이라고 정직하게 구분할 때. ≈ I only reproduced X. ↔ all cases were reproduced. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: Both crashes share the same root cause, but only the first one was reproduced.
+- **needed nothing, as you decided** — 결정하신 대로 손댈 게 없었다. 상대가 이미 정한 대로 손대지 않았다고 짧게 확인할 때. ≈ left as is. ↔ needed rework. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: The retry logic needed nothing, as you decided in the last review.
+- **Noticed, not changed:** — 발견했지만 고치지 않음:. 범위 밖이라 고치지 않았지만 발견한 문제를 기록해 둘 때. ≈ Out of scope. ↔ Fixed along the way:. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: Noticed, not changed: the export button has no loading state.
+- **sits between its correct alphabetical neighbours** — 알파벳 순으로 올바른 이웃 사이에 있다. 정렬된 목록에서 항목이 제자리에 들어갔다고 확인할 때. ≈ is in the right place. ↔ is out of order. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: After the fix, each new entry sits between its correct alphabetical neighbours.
+- **write them out as full sentences** — 완전한 문장으로 풀어 쓰다. 압축된 메모·지시문을 사람에게 보낼 때 풀어 쓰라고 조언할 때. ≈ spell them out. ↔ boil them down. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: Bullet fragments are fine in a checklist, but in an email you should write them out as full sentences.
+- **has R&D causing the harm when it's the one being harmed** — 피해를 입는 쪽인 R&D 를 피해를 주는 쪽으로 쓰고 있다. 문장의 주어·목적어가 뒤바뀐 실수를 짚어 줄 때. ≈ makes X the doer instead of the target. ↔ gets the roles right. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: Your draft has the customer approving the change when they're the one asking for it.

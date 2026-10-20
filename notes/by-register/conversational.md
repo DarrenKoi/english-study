@@ -1014,3 +1014,17 @@
   - 예: This year I went from building tools to planning projects and training other engineers.
 - **it prints cleanly and works in dark mode** — 인쇄해도 깔끔하고 다크 모드에서도 잘 보인다. 산출물. ≈ is print-friendly. [→ daily](../../daily/2026-10-20/new-expressions.md)
   - 예: The report is one self-contained file; it prints cleanly and works in dark mode.
+- **it comes back if you widen the window again** — 기간을 다시 넓히면 되돌아온다. 사라졌던 상태가 조건이 돌아오면 되살아나는 동작을 설명할 때. ≈ it's restored when …. ↔ it's cleared for good. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: The filter disappears when you switch tools, but it comes back if you return to the first one.
+- **were not looked at** — 살펴보지 않았다. 검토·확인하지 않은 항목을 담담하게 나열할 때. ≈ weren't checked. ↔ were reviewed. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: Light theme and the mobile layout were not looked at this round.
+- **needed nothing, as you decided** — 결정하신 대로 손댈 게 없었다. 상대가 이미 정한 대로 손대지 않았다고 짧게 확인할 때. ≈ left as is. ↔ needed rework. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: The retry logic needed nothing, as you decided in the last review.
+- **it scrolled fine** — 스크롤은 잘 됐다. 우려되는 점을 말하면서도 실제 체감은 문제없었다고 덧붙일 때. ≈ it ran smoothly. ↔ it stuttered / it lagged. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: The table has no virtualisation, but it scrolled fine with two thousand rows.
+- **the scan never got past it** — 스캔이 그 지점을 넘어가지 못했다. 루프나 검색이 어떤 지점에서 멈춰 그 뒤를 처리하지 못한 원인을 설명할 때. ≈ got stuck on. ↔ ran to the end. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: The parser hit a malformed row, and the import never got past it.
+- **write them out as full sentences** — 완전한 문장으로 풀어 쓰다. 압축된 메모·지시문을 사람에게 보낼 때 풀어 쓰라고 조언할 때. ≈ spell them out. ↔ boil them down. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: Bullet fragments are fine in a checklist, but in an email you should write them out as full sentences.
+- **has R&D causing the harm when it's the one being harmed** — 피해를 입는 쪽인 R&D 를 피해를 주는 쪽으로 쓰고 있다. 문장의 주어·목적어가 뒤바뀐 실수를 짚어 줄 때. ≈ makes X the doer instead of the target. ↔ gets the roles right. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: Your draft has the customer approving the change when they're the one asking for it.

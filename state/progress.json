@@ -955,7 +955,7 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/fb71e834-0557-4b8a-8b7c-abbbf71267a6/subagents/agent-a8ea49ca3b6cbe2e9.jsonl": 212,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/59357718-eb33-4b80-9af4-2349ace0d2a1/subagents/agent-ade6011666f09b835.jsonl": 27,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/1a46a6bd-6698-4893-a14c-57d296d1643c.jsonl": 20,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/65d07138-090f-45c1-8fa1-2141a92fdc48.jsonl": 588,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/65d07138-090f-45c1-8fa1-2141a92fdc48.jsonl": 778,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/21117b7d-b95f-4efb-abbc-18f0f05ff68a.jsonl": 15,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/ed100bf2-315a-47b7-9777-ae17ed3768e5.jsonl": 251,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/4ea859f9-778e-4e66-a21f-88ab9b3c8c22.jsonl": 565,
@@ -1057,10 +1057,14 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/9461a13d-c945-4677-ae06-2cb66b3cea36.jsonl": 13,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/bc5425f9-4fd7-4cc2-8ba2-a45436647a61.jsonl": 225,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/cf201adc-8e6f-4bd4-b2fe-34120b4157e0/subagents/agent-a0389aadcedc2dc7e.jsonl": 21,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/49cf97e0-0b99-4cb6-984f-eeaa02f8d648.jsonl": 11,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/49cf97e0-0b99-4cb6-984f-eeaa02f8d648.jsonl": 21,
     "-Users-daeyoung-Codes-bulk-recipe-copy/43e2683c-2e16-45fe-b1b9-c044940b7318.jsonl": 219,
     "-Users-daeyoung-Codes-pm-notes-my-task/e80cbfc4-6c19-42af-9f15-c0a6d1dff688.jsonl": 533,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/cf201adc-8e6f-4bd4-b2fe-34120b4157e0/subagents/agent-a08dc2962ed95c24e.jsonl": 24
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/cf201adc-8e6f-4bd4-b2fe-34120b4157e0/subagents/agent-a08dc2962ed95c24e.jsonl": 24,
+    "-Users-daeyoung-Codes-pm-notes-my-task/c70e4eff-c48d-4d38-bee9-8f3517c167f8.jsonl": 168,
+    "-Users-daeyoung-Codes-pm-notes-my-task/f3a7fa1b-9fbf-4c05-94b6-37775637d0c9.jsonl": 14,
+    "-Users-daeyoung-Codes-english-study/2870a073-4ea6-4d05-9af4-e7abd8b26301.jsonl": 214,
+    "-Users-daeyoung-Codes-skewnono-afm-usage/5135755a-d446-4f08-aa28-a70f55651968.jsonl": 473
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1656,7 +1660,7 @@
     "skewnono_v3_nuxt/docs/afm/feature-summary.md": "skewnono_v3_nuxt/docs/afm/feature-summary.md:1791526185.8905947:20892",
     "skewnono_v3_nuxt/docs/afm/service-recommendations.md": "skewnono_v3_nuxt/docs/afm/service-recommendations.md:1791524119.800413:44013",
     "skewnono_v3_nuxt/docs/afm/to-questionnaire-afm-261007.md": "skewnono_v3_nuxt/docs/afm/to-questionnaire-afm-261007.md:1791328074.7683861:10333",
-    "skewnono_v3_nuxt/docs/progress_report/skewnono_year_end_report_2026.md": "skewnono_v3_nuxt/docs/progress_report/skewnono_year_end_report_2026.md:1791528762.3480368:6007",
+    "skewnono_v3_nuxt/docs/progress_report/skewnono_year_end_report_2026.md": "skewnono_v3_nuxt/docs/progress_report/skewnono_year_end_report_2026.md:1792475917.9162219:8656",
     "skewnono_v3_nuxt/docs/research/2026-10-09-analysis-service-directions.md": "skewnono_v3_nuxt/docs/research/2026-10-09-analysis-service-directions.md:1791674309.2192936:44542",
     "skewnono_v3_nuxt/docs/research/2026-10-09-analysis-service-directions-notes/skewvoir_current_state.md": "skewnono_v3_nuxt/docs/research/2026-10-09-analysis-service-directions-notes/skewvoir_current_state.md:1791674309.2191021:47261",
     "skewnono_v3_nuxt/docs/research/2026-10-09-analysis-service-directions-notes/ebeam_pages_current_state.md": "skewnono_v3_nuxt/docs/research/2026-10-09-analysis-service-directions-notes/ebeam_pages_current_state.md:1791674737.4425268:67754",
@@ -1709,5 +1713,5 @@
     "bulk_recipe_copy/docs/design/review-r1.md": "bulk_recipe_copy/docs/design/review-r1.md:1792275032.4492974:7311",
     "skewnono_v3_nuxt/docs/office-migration/to-office-recipe-copy-261018.md": "skewnono_v3_nuxt/docs/office-migration/to-office-recipe-copy-261018.md:1792274576.9743278:8014"
   },
-  "last_run": "2026-10-20"
+  "last_run": "2026-10-21"
 }

@@ -1876,3 +1876,43 @@
   - 예: The report is one self-contained file; it prints cleanly and works in dark mode.
 - **To review X instead, pass it as the target** — 대신 X 를 검토하려면 그걸 대상으로 넘기세요. 지금 요청으로는 할 일이 없을 때 원하는 결과를 얻는 다른 사용법을 안내할 때. ≈ If you meant X, run …. [→ daily](../../daily/2026-10-20/new-expressions.md)
   - 예: To review the latest commit instead, pass it as the target, e.g. `/code-review HEAD~1`.
+- **I followed the code.** — 코드를 따랐습니다. 문서 지시끼리 충돌할 때 실제 코드를 기준으로 삼았다고 밝힐 때. ≈ I went with what the code does. ↔ I followed the spec. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: The spec and the existing charts disagreed on where the selection lives, so I followed the code.
+- **it comes back if you widen the window again** — 기간을 다시 넓히면 되돌아온다. 사라졌던 상태가 조건이 돌아오면 되살아나는 동작을 설명할 때. ≈ it's restored when …. ↔ it's cleared for good. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: The filter disappears when you switch tools, but it comes back if you return to the first one.
+- **picked up by the bundle scan, so no substitute was needed** — 번들 스캔이 잡아내서 대체품이 필요 없었다. 도구가 자동으로 감지해 주니 대체 작업이 필요 없었다고 밝힐 때. ≈ detected by. ↔ missed by. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: The new route is picked up by the file-based router, so no manual registration was needed.
+- **I checked this by reading the config, not by building the offline bundle.** — 설정을 읽어서 확인했지, 오프라인 번들을 직접 빌드해 본 건 아닙니다. 무엇을 확인했는지와 함께 *어떻게* 확인했는지. ≈ I only checked X. ↔ verified end to end. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: I confirmed the fix by reading the logs, not by reproducing the crash.
+- **Not verified: real office data.** — 검증 안 함: 실제 사무실 데이터. 보고서에서 검증하지 못한 범위를 머리말 하나로 분리할 때. ≈ Untested:. ↔ Verified:. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: Not verified: the Windows build and anything behind the company proxy.
+- **were exercised by the node tests** — 노드 테스트가 그 경로를 실제로 돌려 봤다. 어떤 코드 경로·입력을 테스트가 실제로 거쳐 갔다고 말할 때. ≈ covered by. ↔ unexercised / never hit. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: The empty-list branch is exercised by two unit tests and one browser replay.
+- **an office-shaped response** — 사무실 응답 모양을 한 응답. 실제 데이터는 아니지만 그 모양. ≈ realistic. ↔ the real thing. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: I tested the parser against a production-shaped payload with every optional field missing.
+- **only exists once the sibling branch merges** — 형제 브랜치가 머지되어야 비로소 존재한다. 다른 브랜치가 머지돼야 의미가 생기는 의존 관계를 경고할 때. ≈ depends on X landing. ↔ works on its own. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: The settings link only works once the auth branch merges.
+- **it reads `기타` but is its own legend entry** — `기타` 로 읽히지만 별도의 범례 항목이다. 겉보기에는 같지만 내부적으로는 별개인 것을 설명할 때. ≈ looks like X but is actually Y. ↔ is the same entry. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: The label reads "Other" but is its own category in the database.
+- **differ by colour only** — 색으로만 다르다. 두 항목을 구분하는 단서가 하나뿐이라는 한계를 지적할 때. ≈ are told apart only by. ↔ are clearly distinct. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: If two recipes share a name, their legend entries differ by colour only.
+- **That held in every screenshot, but adding X later would make it drift.** — 모든 스크린숏에서는 그 가정이 맞았지만, 나중에 X 를 추가하면 어긋날 것이다. 지금은 가정이 맞지만 어떤 변경이 들어오면 깨질 수 있다고 경고할 때. ≈ works for now. ↔ is robust to. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: The offset held at every zoom level, but a sticky header would make it drift.
+- **is not part of the PNG export, since it sits above the canvas** — 캔버스 위에 떠 있어서 PNG 내보내기에는 포함되지 않는다. 구현 방식 때문에 생기는 부수 효과를 원인과 함께 밝힐 때. ≈ is left out of. ↔ is baked into. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: The watermark is not part of the printout, since it lives in a separate overlay.
+- **only the legend case was reproduced** — 직접 재현한 건 범례 케이스뿐이다. 원인은 고쳤지만 직접 재현해 본 건 일부뿐이라고 정직하게 구분할 때. ≈ I only reproduced X. ↔ all cases were reproduced. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: Both crashes share the same root cause, but only the first one was reproduced.
+- **I pinned the grid rather than reading the chart instance** — 차트 인스턴스를 읽는 대신 격자를 고정했다. 두 가지 해결책 중 하나를 골랐다고 첫 문장에서 밝힐 때. ≈ fixed X in place. ↔ computed X dynamically. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: I pinned the dependency version rather than chasing the latest release.
+- **so a four-digit tick fits** — 네 자리 눈금이 들어가도록. 수치를 바꾼 목적을 짧게 붙일 때. ≈ to make room for. ↔ gets clipped. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: I widened the column to 120px so a full date fits.
+- **Noticed, not changed:** — 발견했지만 고치지 않음:. 범위 밖이라 고치지 않았지만 발견한 문제를 기록해 둘 때. ≈ Out of scope. ↔ Fixed along the way:. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: Noticed, not changed: the export button has no loading state.
+- **would have its axis label clipped at the left edge** — 축 라벨이 왼쪽 끝에서 잘릴 것이다. 극단적인 입력에서 생길 화면 결함을 미리 짚을 때. ≈ would get cut off. ↔ would fit. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: A user with a very long name would have it truncated in the header.
+- **it scrolled fine** — 스크롤은 잘 됐다. 우려되는 점을 말하면서도 실제 체감은 문제없었다고 덧붙일 때. ≈ it ran smoothly. ↔ it stuttered / it lagged. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: The table has no virtualisation, but it scrolled fine with two thousand rows.
+- **the scan never got past it** — 스캔이 그 지점을 넘어가지 못했다. 루프나 검색이 어떤 지점에서 멈춰 그 뒤를 처리하지 못한 원인을 설명할 때. ≈ got stuck on. ↔ ran to the end. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: The parser hit a malformed row, and the import never got past it.
+- **sits between its correct alphabetical neighbours** — 알파벳 순으로 올바른 이웃 사이에 있다. 정렬된 목록에서 항목이 제자리에 들어갔다고 확인할 때. ≈ is in the right place. ↔ is out of order. [→ daily](../../daily/2026-10-21/new-expressions.md)
+  - 예: After the fix, each new entry sits between its correct alphabetical neighbours.
