@@ -1061,10 +1061,19 @@
     "-Users-daeyoung-Codes-bulk-recipe-copy/43e2683c-2e16-45fe-b1b9-c044940b7318.jsonl": 219,
     "-Users-daeyoung-Codes-pm-notes-my-task/e80cbfc4-6c19-42af-9f15-c0a6d1dff688.jsonl": 533,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/cf201adc-8e6f-4bd4-b2fe-34120b4157e0/subagents/agent-a08dc2962ed95c24e.jsonl": 24,
-    "-Users-daeyoung-Codes-pm-notes-my-task/c70e4eff-c48d-4d38-bee9-8f3517c167f8.jsonl": 168,
+    "-Users-daeyoung-Codes-pm-notes-my-task/c70e4eff-c48d-4d38-bee9-8f3517c167f8.jsonl": 315,
     "-Users-daeyoung-Codes-pm-notes-my-task/f3a7fa1b-9fbf-4c05-94b6-37775637d0c9.jsonl": 14,
     "-Users-daeyoung-Codes-english-study/2870a073-4ea6-4d05-9af4-e7abd8b26301.jsonl": 214,
-    "-Users-daeyoung-Codes-skewnono-afm-usage/5135755a-d446-4f08-aa28-a70f55651968.jsonl": 473
+    "-Users-daeyoung-Codes-skewnono-afm-usage/5135755a-d446-4f08-aa28-a70f55651968.jsonl": 473,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/db79ae31-20df-491c-8b4e-c5b1896c6515.jsonl": 176,
+    "-Users-daeyoung-Codes-pm-notes-my-task/1b7b5ffb-8880-4f52-848e-ce67934ff439.jsonl": 11,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/f532bbe8-6c8b-4877-87aa-b2641a47ea2a.jsonl": 22,
+    "-Users-daeyoung-Codes-pm-notes-my-task/a211c117-887f-4bef-aa26-150171bbad86.jsonl": 14,
+    "-Users-daeyoung-Codes-pm-notes-my-task/e43250c7-d19f-4ddb-9761-dad237fcd394.jsonl": 14,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/96052662-e744-44e2-b787-5bdc6c39ffd7.jsonl": 14,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/850ee222-fcb4-445e-aaec-f11d35995791.jsonl": 654,
+    "-Users-daeyoung-Codes-english-study/07d038bc-05ef-4447-8fd9-3932db58b598.jsonl": 173,
+    "-Users-daeyoung-Codes-skewnono-s5/4e0cf4f5-57be-422c-ab08-74d2cb808bb7.jsonl": 432
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1450,7 +1459,7 @@
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-08-fail-issue-by-equipment-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-08-fail-issue-by-equipment-design.md:1789082962.1755133:33746",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-07-recipe-tat-by-equipment-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-08-07-recipe-tat-by-equipment-design.md:1789082962.174966:35591",
     "skewnono_v3_nuxt/docs/datatables/hitachi/msr_image_ftp.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/msr_image_ftp.txt:1791939975.8099263:9912",
-    "skewnono_v3_nuxt/docs/datatables/hitachi/msr_file_pickle.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/msr_file_pickle.txt:1787555360.1463275:31501",
+    "skewnono_v3_nuxt/docs/datatables/hitachi/msr_file_pickle.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/msr_file_pickle.txt:1792568601.553873:32709",
     "skewnono_v3_nuxt/docs/orchestration/2026-08-24-herdr-orchestration_v1.md": "skewnono_v3_nuxt/docs/orchestration/2026-08-24-herdr-orchestration_v1.md:1787525711.9321113:19730",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-07-recipe-tat-by-equipment.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-07-recipe-tat-by-equipment.md:1789082962.165301:130398",
     "skewnono_v3_nuxt/docs/opencode/2026-08-25-hardware-tool-strip-review.md": "skewnono_v3_nuxt/docs/opencode/2026-08-25-hardware-tool-strip-review.md:1787645178.6073713:13110",
@@ -1660,7 +1669,7 @@
     "skewnono_v3_nuxt/docs/afm/feature-summary.md": "skewnono_v3_nuxt/docs/afm/feature-summary.md:1791526185.8905947:20892",
     "skewnono_v3_nuxt/docs/afm/service-recommendations.md": "skewnono_v3_nuxt/docs/afm/service-recommendations.md:1791524119.800413:44013",
     "skewnono_v3_nuxt/docs/afm/to-questionnaire-afm-261007.md": "skewnono_v3_nuxt/docs/afm/to-questionnaire-afm-261007.md:1791328074.7683861:10333",
-    "skewnono_v3_nuxt/docs/progress_report/skewnono_year_end_report_2026.md": "skewnono_v3_nuxt/docs/progress_report/skewnono_year_end_report_2026.md:1792475917.9162219:8656",
+    "skewnono_v3_nuxt/docs/progress_report/skewnono_year_end_report_2026.md": "skewnono_v3_nuxt/docs/progress_report/skewnono_year_end_report_2026.md:1792541964.2948508:7881",
     "skewnono_v3_nuxt/docs/research/2026-10-09-analysis-service-directions.md": "skewnono_v3_nuxt/docs/research/2026-10-09-analysis-service-directions.md:1791674309.2192936:44542",
     "skewnono_v3_nuxt/docs/research/2026-10-09-analysis-service-directions-notes/skewvoir_current_state.md": "skewnono_v3_nuxt/docs/research/2026-10-09-analysis-service-directions-notes/skewvoir_current_state.md:1791674309.2191021:47261",
     "skewnono_v3_nuxt/docs/research/2026-10-09-analysis-service-directions-notes/ebeam_pages_current_state.md": "skewnono_v3_nuxt/docs/research/2026-10-09-analysis-service-directions-notes/ebeam_pages_current_state.md:1791674737.4425268:67754",
@@ -1713,5 +1722,5 @@
     "bulk_recipe_copy/docs/design/review-r1.md": "bulk_recipe_copy/docs/design/review-r1.md:1792275032.4492974:7311",
     "skewnono_v3_nuxt/docs/office-migration/to-office-recipe-copy-261018.md": "skewnono_v3_nuxt/docs/office-migration/to-office-recipe-copy-261018.md:1792274576.9743278:8014"
   },
-  "last_run": "2026-10-21"
+  "last_run": "2026-10-22"
 }

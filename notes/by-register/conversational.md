@@ -1028,3 +1028,9 @@
   - 예: Bullet fragments are fine in a checklist, but in an email you should write them out as full sentences.
 - **has R&D causing the harm when it's the one being harmed** — 피해를 입는 쪽인 R&D 를 피해를 주는 쪽으로 쓰고 있다. 문장의 주어·목적어가 뒤바뀐 실수를 짚어 줄 때. ≈ makes X the doer instead of the target. ↔ gets the roles right. [→ daily](../../daily/2026-10-21/new-expressions.md)
   - 예: Your draft has the customer approving the change when they're the one asking for it.
+- **make the call and record it** — 직접 판단하고 그 판단을 기록해 둬라. 일을 맡기며 묻지 말고 정하되 근거는 남기라고 할 때. ≈ use your judgment. ↔ check with me first. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: If the spec is unclear, make the call and record it in the report so I can review it later.
+- **Paperwork:** — 기록 정리(서류 작업). 보고서·리뷰 파일 갱신 같은 부수 작업을 따로 묶는 머리말. ≈ Bookkeeping:, Housekeeping:. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: Paperwork: the changelog and the ticket are both updated.
+- **Status: X are read; now Y-ing** — 상황: X 는 읽었고 지금은 Y 중. 끝난 것·진행 중·다음을 한 줄에 담는 진척 보고. ≈ Quick update:, Where I am:. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: Status: the logs are pulled; now matching them against the deploy times, then writing up the timeline.

@@ -2244,3 +2244,29 @@
   - 예: Bullet fragments are fine in a checklist, but in an email you should write them out as full sentences.
 - **has R&D causing the harm when it's the one being harmed** — 피해를 입는 쪽인 R&D 를 피해를 주는 쪽으로 쓰고 있다. 문장의 주어·목적어가 뒤바뀐 실수를 짚어 줄 때. ≈ makes X the doer instead of the target. ↔ gets the roles right. [→ daily](../../daily/2026-10-21/new-expressions.md)
   - 예: Your draft has the customer approving the change when they're the one asking for it.
+- **make the call and record it** — 직접 판단하고 그 판단을 기록해 둬라. 일을 맡기며 묻지 말고 정하되 근거는 남기라고 할 때. ≈ use your judgment. ↔ check with me first. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: If the spec is unclear, make the call and record it in the report so I can review it later.
+- **Calls I made that differ from the brief** — 브리프와 다르게 내린 판단들. 작업 보고에서 지시와 어긋난 처리를 따로 묶는 머리말. ≈ Deviations from the brief. ↔ Done as briefed. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: Calls I made that differ from the brief: I kept the old endpoint, and I skipped the dark-theme check.
+- **I did not read or act on it.** — 읽지도, 그에 따라 움직이지도 않았다. 범위 밖 파일·메시지에 손대지 않았다고 분명히 할 때. ≈ I left it alone. ↔ I picked it up and applied it. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: A second config file showed up in the repo during the run; I did not read or act on it.
+- **the sentence must not claim every parameter is within cap** — 그 문구가 모든 파라미터가 cap 이내라고 주장해서는 안 된다. 출력 문구가 사실보다 많이 단언하면 안 된다고 지적할 때. ≈ must not overstate. ↔ must say exactly what was checked. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: The summary must not claim the migration is complete while two tables are still pending.
+- **it must be true to cap_source** — cap_source 에 충실해야 한다. 표현은 맡기되 원천 데이터와 어긋나면 안 된다고 할 때. ≈ must reflect. ↔ misrepresents. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: Pick whatever label reads best, but it must be true to the status the API returns.
+- **This wording is mine; your example covered only the mixed case.** — 이 문구는 제가 정했습니다, 주신 예시는 섞인 경우만 다뤘습니다. 지시에 없던 부분을 내가 채웠다고 밝힐 때. ≈ I wrote this part myself. ↔ taken verbatim from the spec. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: The error message for the empty case is mine; the spec only described the partial failure.
+- **Paperwork:** — 기록 정리(서류 작업). 보고서·리뷰 파일 갱신 같은 부수 작업을 따로 묶는 머리말. ≈ Bookkeeping:, Housekeeping:. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: Paperwork: the changelog and the ticket are both updated.
+- **I did not re-run the browser check, since the change is sentence text in a pure function.** — 바뀐 게 순수 함수 안의 문장뿐이라 브라우저 확인은 다시 돌리지 않았다. 건너뛴 검증과 그게 안전한 근거를 함께 밝힐 때. ≈ I skipped X because …. ↔ I re-ran the full check to be safe. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: I did not redeploy staging, since the change only touches a test fixture.
+- **that is listed under Open questions** — 그건 미결 질문 항목에 적어 두었다. 지금 정하지 않은 대안을 결정권자에게 넘겼다고 알릴 때. ≈ I've parked that under …. ↔ already decided. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: Moving the job to a queue is another option; that is listed under Open questions.
+- **Status: X are read; now Y-ing** — 상황: X 는 읽었고 지금은 Y 중. 끝난 것·진행 중·다음을 한 줄에 담는 진척 보고. ≈ Quick update:, Where I am:. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: Status: the logs are pulled; now matching them against the deploy times, then writing up the timeline.
+- **the difference is whether the result has been seen** — 차이는 결과를 봤느냐뿐이다. 비슷한 두 값의 차이를 예/아니오 기준 하나로 압축할 때. ≈ it comes down to whether …. ↔ they differ in many ways. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: Both endpoints return the same data; the difference is whether the response is cached.
+- **Finding 1 is valid** — 지적 1은 타당하다. 리뷰 지적을 받아들일지 먼저 판정하고 처리 방향을 줄 때. ≈ Finding 1 holds. ↔ Finding 1 doesn't hold. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: Finding 1 is valid: the retry loop can run forever if the server keeps returning 503.
+- **write a rebuttal directly under the finding** — 지적 바로 아래에 반박을 적어라. 동의하지 않는 리뷰 지적에 그 자리에서 반론을 남기라고 할 때. ≈ push back on it in writing. ↔ accept the finding. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: If you disagree with a comment, write a rebuttal directly under it instead of resolving it silently.

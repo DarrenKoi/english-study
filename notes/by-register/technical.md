@@ -1916,3 +1916,19 @@
   - 예: The parser hit a malformed row, and the import never got past it.
 - **sits between its correct alphabetical neighbours** — 알파벳 순으로 올바른 이웃 사이에 있다. 정렬된 목록에서 항목이 제자리에 들어갔다고 확인할 때. ≈ is in the right place. ↔ is out of order. [→ daily](../../daily/2026-10-21/new-expressions.md)
   - 예: After the fix, each new entry sits between its correct alphabetical neighbours.
+- **regardless of the toggle** — 토글 값과 상관없이. 동작이 설정과 무관하게 같다고 밝힐 때. ≈ irrespective of the toggle. ↔ depending on the toggle. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: The cache is cleared on every deploy, regardless of the feature flag.
+- **the sentence must not claim every parameter is within cap** — 그 문구가 모든 파라미터가 cap 이내라고 주장해서는 안 된다. 출력 문구가 사실보다 많이 단언하면 안 된다고 지적할 때. ≈ must not overstate. ↔ must say exactly what was checked. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: The summary must not claim the migration is complete while two tables are still pending.
+- **it must be true to cap_source** — cap_source 에 충실해야 한다. 표현은 맡기되 원천 데이터와 어긋나면 안 된다고 할 때. ≈ must reflect. ↔ misrepresents. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: Pick whatever label reads best, but it must be true to the status the API returns.
+- **sons that ride on a mother** — mother 에 얹혀 가는 son 들. 하위 항목이 상위 설정에 의존해 움직인다고 설명할 때. ≈ piggyback on. ↔ stand on their own. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: Child jobs that ride on the parent's schedule are skipped when the parent is paused.
+- **I did not re-run the browser check, since the change is sentence text in a pure function.** — 바뀐 게 순수 함수 안의 문장뿐이라 브라우저 확인은 다시 돌리지 않았다. 건너뛴 검증과 그게 안전한 근거를 함께 밝힐 때. ≈ I skipped X because …. ↔ I re-ran the full check to be safe. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: I did not redeploy staging, since the change only touches a test fixture.
+- **the same underlying state with different attention state** — 바탕 상태는 같고 확인 여부만 다른 것. 이름이 다른 두 값이 실체는 같다고 정리할 때. ≈ two names for one state. ↔ fundamentally different states. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: `archived` and `hidden` are the same underlying record with different visibility settings.
+- **the difference is whether the result has been seen** — 차이는 결과를 봤느냐뿐이다. 비슷한 두 값의 차이를 예/아니오 기준 하나로 압축할 때. ≈ it comes down to whether …. ↔ they differ in many ways. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: Both endpoints return the same data; the difference is whether the response is cached.
+- **turn an existing X into Y** — 이미 있는 X 를 Y 로 바꾸다. 어떤 동작이 기존 상태를 바꾸지 않는다고 범위를 그을 때. ≈ convert X to Y, flip X to Y. ↔ leave X as it is. [→ daily](../../daily/2026-10-22/new-expressions.md)
+  - 예: Re-running the import does not turn an existing draft into a published post.
