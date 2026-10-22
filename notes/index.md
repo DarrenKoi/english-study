@@ -1,6 +1,8 @@
 # 표현 인덱스
 
 알파벳 순. 각 표현 → 처음 수집된 daily 링크.
+- [(such a row) may land out of place](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [(the cards) drop below (the description)](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [404 blames the file, 503 blames the tool or network](daily/2026-10-07/new-expressions.md) — 2026-10-07
 - [(64 sender threads) pile up](daily/2026-10-12/new-expressions.md) — 2026-10-12
 - [A and B are different things.](daily/2026-09-15/new-expressions.md) — 2026-09-15
@@ -452,6 +454,7 @@
 - [claims the data cannot support](daily/2026-10-12/new-expressions.md) — 2026-10-12
 - [Clean point:](daily/2026-08-31/new-expressions.md) — 2026-08-31
 - [clearly net simpler](daily/2026-10-06/new-expressions.md) — 2026-10-06
+- [clip instead of overflow](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [clobber](daily/2026-07-20/new-expressions.md) — 2026-07-20
 - [close it by structure](daily/2026-08-07/new-expressions.md) — 2026-08-07
 - [close (most of) the gap](daily/2026-07-11/new-expressions.md) — 2026-07-11
@@ -459,6 +462,7 @@
 - [close that one by hand](daily/2026-10-14/new-expressions.md) — 2026-10-14
 - [close the loop on X](daily/2026-07-24/new-expressions.md) — 2026-07-24
 - [closeness in time does not prove that the earlier action caused the change](daily/2026-10-03/new-expressions.md) — 2026-10-03
+- [closer to the real thing rather than a regression](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [Codex is up.](daily/2026-10-14/new-expressions.md) — 2026-10-14
 - [coexist by design](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [cognitive debt](daily/2026-07-18/new-expressions.md) — 2026-07-18
@@ -593,6 +597,7 @@
 - [division of labour](daily/2026-09-17/new-expressions.md) — 2026-09-17
 - [do double duty (as)](daily/2026-07-13/new-expressions.md) — 2026-07-13
 - [do it or drop it](daily/2026-09-22/new-expressions.md) — 2026-09-22
+- [do NOT assume (parens or a function context)](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [do not infer a larger topology from X](daily/2026-08-10/new-expressions.md) — 2026-08-10
 - [Do not "optimize" X back up without re-checking …](daily/2026-10-19/new-expressions.md) — 2026-10-19
 - [do not "optimize" X back up](daily/2026-09-06/new-expressions.md) — 2026-09-06
@@ -810,6 +815,7 @@
 - [hard to spot](daily/2026-10-04/new-expressions.md) — 2026-10-04
 - [harden (a gate / a check)](daily/2026-08-25/new-expressions.md) — 2026-08-25
 - [hard-won (lessons)](daily/2026-07-18/new-expressions.md) — 2026-07-18
+- [harmless for (substitution)](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [harmless while X, actively misleading now that Y](daily/2026-08-03/new-expressions.md) — 2026-08-03
 - [has been working as a backup](daily/2026-09-28/new-expressions.md) — 2026-09-28
 - [has never met real data](daily/2026-07-30/new-expressions.md) — 2026-07-30
@@ -868,6 +874,7 @@
 - [I did not trace which route exposes it](daily/2026-10-13/new-expressions.md) — 2026-10-13
 - [I did not verify that coverage myself.](daily/2026-10-03/new-expressions.md) — 2026-10-03
 - [I followed the code.](daily/2026-10-21/new-expressions.md) — 2026-10-21
+- [I found one problem my fix didn't cause](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [I left it alone.](daily/2026-08-24/new-expressions.md) — 2026-08-24
 - [I left the route alone and relaxed the test.](daily/2026-10-09/new-expressions.md) — 2026-10-09
 - [I left these blank rather than invent figures.](daily/2026-10-20/new-expressions.md) — 2026-10-20
@@ -875,6 +882,8 @@
 - [I only read the code; I have not seen the log rows themselves.](daily/2026-10-07/new-expressions.md) — 2026-10-07
 - [I pinned the grid rather than reading the chart instance](daily/2026-10-21/new-expressions.md) — 2026-10-21
 - [I skipped showing X; say so if you want it](daily/2026-10-14/new-expressions.md) — 2026-10-14
+- [I've mapped the flow](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [if it turns out to be common](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [If no final changes remain after validation, do not create an empty commit.](daily/2026-10-06/new-expressions.md) — 2026-10-06
 - [If nothing qualifies, output exactly `(none)`.](daily/2026-10-06/new-expressions.md) — 2026-10-06
 - [I'm dismissing this one.](daily/2026-10-02/new-expressions.md) — 2026-10-02
@@ -1066,9 +1075,25 @@
 - [leave it as is](daily/2026-09-12/new-expressions.md) — 2026-09-12
 - [leave (points) on the table](daily/2026-07-11/new-expressions.md) — 2026-07-11
 - [leave (something) alone](daily/2026-08-17/new-expressions.md) — 2026-08-17
+- [leave it as it is](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [leave it out until someone asks for it](daily/2026-09-24/new-expressions.md) — 2026-09-24
 - [Leave the calibration knob](daily/2026-10-18/new-expressions.md) — 2026-10-18
 - [leaving it invites someone to restore the field](daily/2026-08-31/new-expressions.md) — 2026-08-31
+- [nothing was merged or pushed](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [One change beyond the manager's decision.](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [one is a judgement call for you](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [one look at a few real rows would settle it](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [One number to explain before pushing](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [paints over the next item](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [Pushing and tearing down.](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [reads off (Down order)](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [say so if you'd rather I (review that range directly)](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [The card fix holds everywhere.](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [the group's presence is the flag](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [verified by reading only](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [Want me to fix it anyway?](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [wiring it into (HardwareView)](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [Zero regressions.](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - […, leaving the alert window open](daily/2026-10-16/new-expressions.md) — 2026-10-16
 - [leaving X alone](daily/2026-07-29/new-expressions.md) — 2026-07-29
 - [left ... residue behind](daily/2026-09-02/new-expressions.md) — 2026-09-02

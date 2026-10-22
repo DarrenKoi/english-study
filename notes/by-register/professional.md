@@ -2270,3 +2270,29 @@
   - 예: Finding 1 is valid: the retry loop can run forever if the server keeps returning 503.
 - **write a rebuttal directly under the finding** — 지적 바로 아래에 반박을 적어라. 동의하지 않는 리뷰 지적에 그 자리에서 반론을 남기라고 할 때. ≈ push back on it in writing. ↔ accept the finding. [→ daily](../../daily/2026-10-22/new-expressions.md)
   - 예: If you disagree with a comment, write a rebuttal directly under it instead of resolving it silently.
+- **Zero regressions.** — 회귀 없음. 변경 전후 테스트 결과가 같다고 보고를 닫을 때(짧은 상태 보고). ≈ no new failures (더 풀어 쓴 말), nothing broke that wasn't already broken (회화). ↔ this introduces a regression. [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: The failure count is identical with and without the patch — zero regressions.
+- **I've mapped the flow** — 흐름을 파악(정리)했다. 조사 단계를 끝내고 구현으로 넘어간다고 알릴 때(진행 보고). ≈ I've traced the path (코드 추적 뉘앙스), I've worked out how it goes (회화). [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: I've mapped the flow from login to checkout, and the token is refreshed twice.
+- **The card fix holds everywhere.** — 카드 수정이 어디서나 유지된다(다 잘 된다). 고친 것이 다른 조건에서도 깨지지 않았다고 확인 결과를 요약할 때. ≈ the fix works across the board (회화), the fix is robust to X (격식). ↔ the fix breaks down at … [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: I tried it on Safari and Firefox too, and the fix holds.
+- **I found one problem my fix didn't cause** — 제 수정 때문은 아닌 문제를 하나 찾았습니다. 작업 중 발견한 별개 문제를 보고하면서 내 변경 탓이 아님을 먼저 밝힐 때. ≈ unrelated to my change, I noticed … (조금 격식), separately, … (짧게). [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: I found one problem my change didn't cause: the footer overlaps the menu on small screens.
+- **One number to explain before pushing** — 푸시하기 전에 설명할 숫자가 하나 있습니다. 결과에서 이상해 보일 수치를 먼저 해명하겠다고 예고할 때(리뷰·보고). ≈ One thing to flag (흔한 업무 구어), A note on the numbers (문어 헤딩). [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: One thing to flag before we merge: the build time went up by about 20%.
+- **closer to the real thing rather than a regression** — 회귀라기보다 실제에 더 가까워진 것이다. 커진 수치·바뀐 동작이 퇴보가 아니라 실제 환경에 가까워진 결과라고 해석할 때. ≈ more realistic, not worse (회화), a more faithful approximation (격식). ↔ a step backwards. [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: The test data is slower to load now, but that is closer to the real thing rather than a regression.
+- **one look at a few real rows would settle it** — 실제 행 몇 개만 보면 결론이 난다. 미해결 질문을 간단한 확인 한 번이면 정리된다고 제안할 때. ≈ a quick check would answer that (평이), that can be resolved by inspecting … (격식). [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: We keep guessing about the timezone; one look at the raw log would settle it.
+- **one is a judgement call for you** — 하나는 당신이 판단할 문제다. 사실로 정할 수 없고 상대가 판단해야 하는 항목을 구분해 넘길 때. ≈ that's your call (회화), that's a decision for you (평이). [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: Both options work; which one to ship is a judgement call for you.
+- **One change beyond the manager's decision.** — 매니저 결정 외에 바꾼 것 하나. 지시받은 것 외에 내가 추가로 바꾼 것을 따로 밝히는 보고 머리말. ≈ One deviation from the plan (격식), I also changed … (평이). [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: One change beyond the spec: I also renamed the column so the export matches.
+- **if it turns out to be common** — 그게 흔한 걸로 드러나면. 지금은 드문 경우라 두되 자주 생기면 대응하겠다고 조건을 걸 때. ≈ if it proves (to be) common (격식), if it keeps happening (회화). [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: We can add a cache later if slow lookups turn out to be common.
+- **verified by reading only** — 코드를 읽어서만 확인했다. 실행해 보지 않고 코드만 읽어 확인했다고 검증 수준을 밝힐 때. ≈ checked by inspection (격식), I only eyeballed the code (회화). ↔ verified end to end / exercised in the browser. [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: The retry path was verified by reading only; I couldn't trigger a timeout locally.
+- **nothing was merged or pushed** — merge 나 push 는 하지 않았다. 작업 결과를 보고하며 공유 브랜치에는 영향이 없다고 못 박을 때. ≈ it's all local (회화), no changes have reached main (격식). [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: The branch is ready for review; nothing was merged or pushed.
+- **say so if you'd rather I (review that range directly)** — 제가 (그 범위를 직접 리뷰하길) 원하시면 말씀하세요. 내가 다른 방식을 해도 된다고 공손하게 선택지를 열어 둘 때. ≈ let me know if you'd prefer that I … (격식), just tell me if you want me to … (회화). [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: I've left the old endpoint in place — say so if you'd rather I remove it.

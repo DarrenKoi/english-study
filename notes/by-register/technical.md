@@ -1932,3 +1932,29 @@
   - 예: Both endpoints return the same data; the difference is whether the response is cached.
 - **turn an existing X into Y** — 이미 있는 X 를 Y 로 바꾸다. 어떤 동작이 기존 상태를 바꾸지 않는다고 범위를 그을 때. ≈ convert X to Y, flip X to Y. ↔ leave X as it is. [→ daily](../../daily/2026-10-22/new-expressions.md)
   - 예: Re-running the import does not turn an existing draft into a published post.
+- **the group's presence is the flag** — 그 group 이 있다는 사실 자체가 표지다. 별도 boolean 없이 "있느냐 없느냐" 자체가 신호라고 설계를 설명할 때(기술 문서·리뷰). ≈ the mere presence of X signals Y (조금 더 문어), if X is there, it's a Y (회화). ↔ its absence means … (부재 쪽에서 정의). [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: Empty values set nothing, so the field's presence is the flag.
+- **Zero regressions.** — 회귀 없음. 변경 전후 테스트 결과가 같다고 보고를 닫을 때(짧은 상태 보고). ≈ no new failures (더 풀어 쓴 말), nothing broke that wasn't already broken (회화). ↔ this introduces a regression. [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: The failure count is identical with and without the patch — zero regressions.
+- **harmless for (substitution)** — (치환)에는 해가 없다. 이상해 보이는 입력이 특정 처리에는 문제가 안 된다고 범위를 그을 때. ≈ doesn't affect X (평이), is a no-op for X (기술 구어). ↔ breaks X. [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: Trailing spaces in the name are harmless for lookup because we strip them first.
+- **do NOT assume (parens or a function context)** — (괄호나 함수 안에 있다고) 가정하지 마라. 구현자가 빠지기 쉬운 가정을 미리 금지할 때(명세·인수인계 메모). ≈ don't rely on X (평이), make no assumption about X (격식). [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: The ID can appear anywhere in the line, so do not assume it follows a colon.
+- **I've mapped the flow** — 흐름을 파악(정리)했다. 조사 단계를 끝내고 구현으로 넘어간다고 알릴 때(진행 보고). ≈ I've traced the path (코드 추적 뉘앙스), I've worked out how it goes (회화). [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: I've mapped the flow from login to checkout, and the token is refreshed twice.
+- **wiring it into (HardwareView)** — (HardwareView 에) 연결해 넣다. 만든 helper 를 실제 화면·모듈에 연결하는 단계를 말할 때(개발자 구어). ≈ hook it up to (회화), integrate it into (격식). ↔ unhook / decouple it from. [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: The parser works on its own; next I'm wiring it into the upload handler.
+- **(the cards) drop below (the description)** — (카드가 설명 글) 아래로 내려간다. 반응형 레이아웃에서 요소가 다음 줄로 내려가는 모습을 묘사할 때. ≈ wrap onto the next line (텍스트에 자주), stack under (세로 배치 강조). ↔ sit beside / sit side by side. [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: On narrow screens the sidebar drops below the main content.
+- **Pushing and tearing down.** — 푸시하고 정리하는 중. 마무리 단계(푸시, 서버·환경 정리)를 진행 중이라고 짧게 알릴 때. ≈ cleaning up (평이), shutting everything down (회화). ↔ spin up / set up. [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: Tests are green; merging and tearing down the preview environment.
+- **reads off (Down order)** — (Down 순서)를 기준으로 읽어 낸다. 어떤 값이 어느 기준에서 읽혀 나오는지 설명할 때. ≈ is derived from (격식), takes its value from (평이). [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: The badge reads off the cached count, so it lags behind by a minute.
+- **(such a row) may land out of place** — (그런 행은) 엉뚱한 자리에 들어갈 수 있다. 정렬·배치 결과에서 일부 항목이 엉뚱한 자리에 갈 수 있다고 경고할 때. ≈ end up in the wrong spot (회화), be misordered (기술 문어). ↔ land where it belongs. [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: Rows with a blank date may land out of place at the top of the list.
+- **paints over the next item** — 다음 항목 위에 덧그려진다. UI 요소가 넘쳐서 옆 요소를 덮어 그리는 버그를 묘사할 때. ≈ overlaps (중립), bleeds into (비유적). [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: A long filename overflows the cell and paints over the next column.
+- **clip instead of overflow** — 넘치게 두지 말고 잘라라. 넘치는 내용을 잘라서 처리하라고 방식을 정할 때(UI 지시·리뷰). ≈ truncate rather than spill over (조금 문어), cut it off with an ellipsis (회화). ↔ let it overflow / let it wrap. [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: Long titles should clip instead of overflow, with the full text in a tooltip.
+- **verified by reading only** — 코드를 읽어서만 확인했다. 실행해 보지 않고 코드만 읽어 확인했다고 검증 수준을 밝힐 때. ≈ checked by inspection (격식), I only eyeballed the code (회화). ↔ verified end to end / exercised in the browser. [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: The retry path was verified by reading only; I couldn't trigger a timeout locally.

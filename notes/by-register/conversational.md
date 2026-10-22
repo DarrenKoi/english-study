@@ -1034,3 +1034,21 @@
   - 예: Paperwork: the changelog and the ticket are both updated.
 - **Status: X are read; now Y-ing** — 상황: X 는 읽었고 지금은 Y 중. 끝난 것·진행 중·다음을 한 줄에 담는 진척 보고. ≈ Quick update:, Where I am:. [→ daily](../../daily/2026-10-22/new-expressions.md)
   - 예: Status: the logs are pulled; now matching them against the deploy times, then writing up the timeline.
+- **wiring it into (HardwareView)** — (HardwareView 에) 연결해 넣다. 만든 helper 를 실제 화면·모듈에 연결하는 단계를 말할 때(개발자 구어). ≈ hook it up to (회화), integrate it into (격식). ↔ unhook / decouple it from. [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: The parser works on its own; next I'm wiring it into the upload handler.
+- **The card fix holds everywhere.** — 카드 수정이 어디서나 유지된다(다 잘 된다). 고친 것이 다른 조건에서도 깨지지 않았다고 확인 결과를 요약할 때. ≈ the fix works across the board (회화), the fix is robust to X (격식). ↔ the fix breaks down at … [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: I tried it on Safari and Firefox too, and the fix holds.
+- **Want me to fix it anyway?** — 그래도 고칠까요?. 손대지 않은 이유를 말한 뒤 그래도 할지 결정을 넘길 때(가벼운 업무 대화). ≈ Should I fix it regardless? (조금 격식), Shall I go ahead and fix it? (공손). [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: It only shows up on phones, so I left it — want me to fix it anyway?
+- **leave it as it is** — 그냥 그대로 둬. 제안받은 변경을 하지 말라고 짧게 답할 때(구어·채팅). ≈ leave it alone (회화), keep it as is (짧게), no change needed there (업무 문어). ↔ go ahead and change it. [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: The header looks fine on desktop, so let's leave it as it is.
+- **(the cards) drop below (the description)** — (카드가 설명 글) 아래로 내려간다. 반응형 레이아웃에서 요소가 다음 줄로 내려가는 모습을 묘사할 때. ≈ wrap onto the next line (텍스트에 자주), stack under (세로 배치 강조). ↔ sit beside / sit side by side. [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: On narrow screens the sidebar drops below the main content.
+- **Pushing and tearing down.** — 푸시하고 정리하는 중. 마무리 단계(푸시, 서버·환경 정리)를 진행 중이라고 짧게 알릴 때. ≈ cleaning up (평이), shutting everything down (회화). ↔ spin up / set up. [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: Tests are green; merging and tearing down the preview environment.
+- **one look at a few real rows would settle it** — 실제 행 몇 개만 보면 결론이 난다. 미해결 질문을 간단한 확인 한 번이면 정리된다고 제안할 때. ≈ a quick check would answer that (평이), that can be resolved by inspecting … (격식). [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: We keep guessing about the timezone; one look at the raw log would settle it.
+- **if it turns out to be common** — 그게 흔한 걸로 드러나면. 지금은 드문 경우라 두되 자주 생기면 대응하겠다고 조건을 걸 때. ≈ if it proves (to be) common (격식), if it keeps happening (회화). [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: We can add a cache later if slow lookups turn out to be common.
+- **say so if you'd rather I (review that range directly)** — 제가 (그 범위를 직접 리뷰하길) 원하시면 말씀하세요. 내가 다른 방식을 해도 된다고 공손하게 선택지를 열어 둘 때. ≈ let me know if you'd prefer that I … (격식), just tell me if you want me to … (회화). [→ daily](../../daily/2026-10-23/new-expressions.md)
+  - 예: I've left the old endpoint in place — say so if you'd rather I remove it.
