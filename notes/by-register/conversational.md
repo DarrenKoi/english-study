@@ -1052,3 +1052,11 @@
   - 예: We can add a cache later if slow lookups turn out to be common.
 - **say so if you'd rather I (review that range directly)** — 제가 (그 범위를 직접 리뷰하길) 원하시면 말씀하세요. 내가 다른 방식을 해도 된다고 공손하게 선택지를 열어 둘 때. ≈ let me know if you'd prefer that I … (격식), just tell me if you want me to … (회화). [→ daily](../../daily/2026-10-23/new-expressions.md)
   - 예: I've left the old endpoint in place — say so if you'd rather I remove it.
+- **It's just stuck inside a folder for one feature.** — 그게 그냥 한 기능 폴더 안에 갇혀 있을 뿐이다. 좋은 게 엉뚱한 자리에 묻혀 있을 때. ≈ buried in, tucked away in. [→ daily](../../daily/2026-10-24/new-expressions.md)
+  - 예: The AFM summary already has the format you want; it's just stuck inside a folder for one feature.
+- **would have been extra work for nothing** — 괜히 일만 늘었을 것이다. 하지 않은 선택을 정당화할 때. ≈ overkill (회화), not worth the overhead (격식). [→ daily](../../daily/2026-10-24/new-expressions.md)
+  - 예: This was a single-file change, so a worktree would have been extra work for nothing.
+- **Do you want to pick that up, or work on something else?** — 그거 이어서 할래요, 아니면 다른 거 할래요? 하다 만 일을 이어 갈지 고르게 할 때. ≈ get back to it, resume that (격식). [→ daily](../../daily/2026-10-24/new-expressions.md)
+  - 예: You were partway through the Provision work — do you want to pick that up, or work on something else?
+- **a little different from what you named** — 말씀하신 것과 조금 다르다. 상대 목록을 부드럽게 정정할 때. ≈ slightly off from what you listed, differs somewhat from your list (격식). [→ daily](../../daily/2026-10-24/new-expressions.md)
+  - 예: The tabs come from `FeatureTabs.vue`, so the list is a little different from what you named.

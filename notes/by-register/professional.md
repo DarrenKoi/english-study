@@ -2296,3 +2296,27 @@
   - 예: The branch is ready for review; nothing was merged or pushed.
 - **say so if you'd rather I (review that range directly)** — 제가 (그 범위를 직접 리뷰하길) 원하시면 말씀하세요. 내가 다른 방식을 해도 된다고 공손하게 선택지를 열어 둘 때. ≈ let me know if you'd prefer that I … (격식), just tell me if you want me to … (회화). [→ daily](../../daily/2026-10-23/new-expressions.md)
   - 예: I've left the old endpoint in place — say so if you'd rather I remove it.
+- **pitches the whole project** — (그 문서는) 프로젝트 전체를 소개·설득하는 글이다. 문서의 성격을 규정할 때. ≈ presents, makes the case for. [→ daily](../../daily/2026-10-24/new-expressions.md)
+  - 예: `project-overview.md` pitches the whole project, so adding a section for every tab would make it too long.
+- **stops matching the app without anyone noticing** — 아무도 모르는 사이에 앱과 어긋나 버린다. 문서가 조용히 낡는 위험을 말할 때. ≈ silently drifts out of sync (격식), quietly goes out of date. [→ daily](../../daily/2026-10-24/new-expressions.md)
+  - 예: Without that rule, an index like this stops matching the app without anyone noticing.
+- **Calls I made that the reviewer may push on** — 리뷰어가 문제 삼을 수 있는 내 판단들. 반박 나올 지점을 먼저 꺼내 놓는 소제목. ≈ decisions open to challenge (격식), things you might question (회화). [→ daily](../../daily/2026-10-24/new-expressions.md)
+  - 예: Calls I made that the reviewer may push on, all recorded in the report: the lot column wording and the clock source.
+- **the house rules apply** — 우리(저장소) 고유 규칙이 그대로 적용된다. 콜론 뒤에 규칙 목록을 붙인다. ≈ the usual conventions apply. [→ daily](../../daily/2026-10-24/new-expressions.md)
+  - 예: These docs are for teammates, so the house rules apply: Korean with formal endings and compact tables.
+- **the one sanctioned exception** — 공식 허용된 유일한 예외. 규약 문서에서 예외를 소개할 때(격식). ≈ the only approved exception. [→ daily](../../daily/2026-10-24/new-expressions.md)
+  - 예: A worktree branch is the one sanctioned exception to "work directly on main".
+- **per your ruling** — 판정하신 대로. 결정권자의 판단에 따랐다고 근거를 밝힐 때(격식). ≈ as you decided (회화), in line with your decision. [→ daily](../../daily/2026-10-24/new-expressions.md)
+  - 예: I kept the original wording on the lot column, per your ruling.
+- **One thing the manager should look at** — 결정권자가 봐야 할 문제 하나. 보고 끝에 내가 정할 수 없는 일을 따로 꺼낼 때. ≈ One item for your review (격식), One thing worth flagging. [→ daily](../../daily/2026-10-24/new-expressions.md)
+  - 예: One thing the manager should look at: the 8-character label just repeats the timestamp column.
+- **whenever you judge it necessary** — 필요하다고 판단되면 언제든. 판단을 위임하는 지시(judge + 목적어 + 형용사). ≈ as you see fit (격식). [→ daily](../../daily/2026-10-24/new-expressions.md)
+  - 예: Commit and push whenever you judge it necessary — no need to ask first.
+- **Works as specified.** — 명세대로 동작합니다. 명세와 대조해 확인했다는 짧은 보고체. ≈ Matches the spec, Behaves as expected. [→ daily](../../daily/2026-10-24/new-expressions.md)
+  - 예: Works as specified. Stopping the servers, committing, and writing the report.
+- **The ban is on claims, not on disclaimers.** — 금지 대상은 단정이지 단서 문구가 아니다. 규칙 적용 범위를 `X, not Y` 로 좁혀 판정할 때. ≈ The rule targets X, not Y. [→ daily](../../daily/2026-10-24/new-expressions.md)
+  - 예: The caption with 원인 stays: the ban is on claims, not on disclaimers.
+- **the code is what gets corrected** — 고쳐지는 쪽은 코드다(의사분열문). 둘이 어긋날 때 진실 원천을 못 박을 때. ≈ the doc wins (회화). [→ daily](../../daily/2026-10-24/new-expressions.md)
+  - 예: Where the code and `DESIGN.md` disagree, the code is what gets corrected.
+- **I haven't checked that it's active yet** — 아직 적용됐는지는 확인 안 했다. 바꾼 것과 확인한 것을 구분해 보고할 때. ≈ This is unverified so far (격식). [→ daily](../../daily/2026-10-24/new-expressions.md)
+  - 예: I haven't checked that it's active yet; one way to check is to look for a 1M context limit in the next session.

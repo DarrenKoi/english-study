@@ -1080,7 +1080,14 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/4914b1b5-cf18-43d4-bec2-fd17c2c3c354.jsonl": 15,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/008466b8-5cd1-4d34-9e67-80bf26270309.jsonl": 379,
     "-Users-daeyoung-Codes-skewnono-s3/283e893e-b8df-4a76-b991-9e6b296b7aa4.jsonl": 435,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/6bb18a63-0d56-4f6d-a4cb-29e7383e4f5f/subagents/agent-ae2e862e185879c22.jsonl": 25
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/6bb18a63-0d56-4f6d-a4cb-29e7383e4f5f/subagents/agent-ae2e862e185879c22.jsonl": 25,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/3df93f7f-eb20-4931-a4fb-2d742ae3d87f.jsonl": 133,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/9306a6b3-aa7d-4072-ad7a-b1d7c3b6ff5f.jsonl": 76,
+    "-Users-daeyoung-Codes-skewnono-s1/cf64f1f6-02e2-45b1-ac74-b70a492fd645.jsonl": 348,
+    "-Users-daeyoung-Codes-skewnono-s2/8142838c-d13a-4593-b4a3-306e7f804162.jsonl": 327,
+    "-Users-daeyoung-Codes-english-study/c949b1b2-11de-4fb4-b672-586e19454142.jsonl": 330,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/d2f430dc-11f2-442d-a3e1-8a7a3b639026/subagents/agent-a3b7c5b5a423dcbdd.jsonl": 90,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/6bb18a63-0d56-4f6d-a4cb-29e7383e4f5f/subagents/agent-a6e97f99a24bf79ec.jsonl": 23
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1335,7 +1342,7 @@
     "pm_notes/docs/superpowers/specs/2026-07-28-ai-terms-html-reader-design.md": "pm_notes/docs/superpowers/specs/2026-07-28-ai-terms-html-reader-design.md:1791182032.318329:10672",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-28-idp-image-info-boolean-columns-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-07-28-idp-image-info-boolean-columns-design.md:1785222925.159243:11835",
     "skewnono_v3_nuxt/docs/datatables/skewnono_logging.txt": "skewnono_v3_nuxt/docs/datatables/skewnono_logging.txt:1787174554.3008296:10728",
-    "skewnono_v3_nuxt/docs/datatables/README.md": "skewnono_v3_nuxt/docs/datatables/README.md:1791851766.152966:11734",
+    "skewnono_v3_nuxt/docs/datatables/README.md": "skewnono_v3_nuxt/docs/datatables/README.md:1792727798.9370801:12174",
     "skewnono_v3_nuxt/docs/handoff/handoff-2026-07-27-opensearch-logging-activity.md": "skewnono_v3_nuxt/docs/handoff/handoff-2026-07-27-opensearch-logging-activity.md:1785153297.394354:9556",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-27-opensearch-logging-activity.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-27-opensearch-logging-activity.md:1785131816.754487:74126",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-29-skewvoir-fdc-graph-view-toggle.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-07-29-skewvoir-fdc-graph-view-toggle.md:1785323228.7908304:30628",
@@ -1480,12 +1487,12 @@
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-01-scheduler-runtime.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-01-scheduler-runtime.md:1787483776.6639402:92330",
     "skewnono_v3_nuxt/docs/datatables/hitachi/chat_rag_contract.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/chat_rag_contract.txt:1791674309.2187054:33780",
     "skewnono_v3_nuxt/docs/datatables/hitachi/meas_hist.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/meas_hist.txt:1791873818.4527612:27146",
-    "skewnono_v3_nuxt/docs/datatables/veritysem/README.md": "skewnono_v3_nuxt/docs/datatables/veritysem/README.md:1791932144.768252:1756",
-    "skewnono_v3_nuxt/docs/datatables/provision/README.md": "skewnono_v3_nuxt/docs/datatables/provision/README.md:1791932144.7681463:1774",
+    "skewnono_v3_nuxt/docs/datatables/veritysem/README.md": "skewnono_v3_nuxt/docs/datatables/veritysem/README.md:1792728578.2508335:2385",
+    "skewnono_v3_nuxt/docs/datatables/provision/README.md": "skewnono_v3_nuxt/docs/datatables/provision/README.md:1792717817.8928618:2370",
     "skewnono_v3_nuxt/docs/datatables/hitachi/storage_ppid.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/storage_ppid.txt:1787483776.6622112:2059",
     "skewnono_v3_nuxt/docs/datatables/hitachi/skewnono_logging.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/skewnono_logging.txt:1791939075.9561617:16061",
     "skewnono_v3_nuxt/docs/datatables/hitachi/skewnono_chat_logging.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/skewnono_chat_logging.txt:1787483776.6619503:5144",
-    "skewnono_v3_nuxt/docs/datatables/hitachi/sem_list.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/sem_list.txt:1791876925.2648861:8422",
+    "skewnono_v3_nuxt/docs/datatables/hitachi/sem_list.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/sem_list.txt:1792716298.6616492:8702",
     "skewnono_v3_nuxt/docs/datatables/hitachi/recipe_idp.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/recipe_idp.txt:1792651212.43821:72014",
     "skewnono_v3_nuxt/docs/datatables/hitachi/planstep_r3.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/planstep_r3.txt:1791851899.3010495:17605",
     "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-08-28-search-around-zoomout-grid-design.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-08-28-search-around-zoomout-grid-design.md:1789705957.2402158:12364",
@@ -1728,7 +1735,10 @@
     "bulk_recipe_copy/docs/design/claude-r1.md": "bulk_recipe_copy/docs/design/claude-r1.md:1792275032.449738:8396",
     "bulk_recipe_copy/docs/design/review-r1.md": "bulk_recipe_copy/docs/design/review-r1.md:1792275032.4492974:7311",
     "skewnono_v3_nuxt/docs/office-migration/to-office-recipe-copy-261018.md": "skewnono_v3_nuxt/docs/office-migration/to-office-recipe-copy-261018.md:1792274576.9743278:8014",
-    "skewnono_v3_nuxt/docs/office-migration/office-replies-recipe-formula-261022.md": "skewnono_v3_nuxt/docs/office-migration/office-replies-recipe-formula-261022.md:1792625549.865956:6522"
+    "skewnono_v3_nuxt/docs/office-migration/office-replies-recipe-formula-261022.md": "skewnono_v3_nuxt/docs/office-migration/office-replies-recipe-formula-261022.md:1792625549.865956:6522",
+    "skewnono_v3_nuxt/docs/datatables/provision/provision_hosts.txt": "skewnono_v3_nuxt/docs/datatables/provision/provision_hosts.txt:1792733003.1247094:7038",
+    "skewnono_v3_nuxt/docs/features/README.md": "skewnono_v3_nuxt/docs/features/README.md:1792731712.2804196:1541",
+    "skewnono_v3_nuxt/docs/datatables/veritysem/verity_hosts.txt": "skewnono_v3_nuxt/docs/datatables/veritysem/verity_hosts.txt:1792730926.2655978:5313"
   },
-  "last_run": "2026-10-23"
+  "last_run": "2026-10-24"
 }

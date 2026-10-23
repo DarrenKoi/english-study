@@ -1958,3 +1958,9 @@
   - 예: Long titles should clip instead of overflow, with the full text in a tooltip.
 - **verified by reading only** — 코드를 읽어서만 확인했다. 실행해 보지 않고 코드만 읽어 확인했다고 검증 수준을 밝힐 때. ≈ checked by inspection (격식), I only eyeballed the code (회화). ↔ verified end to end / exercised in the browser. [→ daily](../../daily/2026-10-23/new-expressions.md)
   - 예: The retry path was verified by reading only; I couldn't trigger a timeout locally.
+- **read-modify-write** — 읽고 → 고치고 → 다시 쓰기. 파일을 통째로 덮어쓰지 않고 기존 내용을 보존할 때. ≈ in-place update; 반대 overwrite. [→ daily](../../daily/2026-10-24/new-expressions.md)
+  - 예: I added the key with a JSON read-modify-write instead of rewriting the file, so nothing else in it was changed.
+- **fail-soft** — 부분 실패를 허용하며 계속 동작하는. 깨진 부분은 건너뛰고 앱은 뜰 때. ≈ graceful degradation; 반대 fail-fast. [→ daily](../../daily/2026-10-24/new-expressions.md)
+  - 예: `backend/contrib/<slug>/` loads fail-soft: a broken package is skipped and listed in the boot log.
+- **counts in full ink, labels may stay muted** — 숫자는 진하게, 라벨은 흐리게. UI 글자 위계를 지시할 때. ≈ primary vs. secondary text color. [→ daily](../../daily/2026-10-24/new-expressions.md)
+  - 예: The Align and 측정 counts are now in full ink; the labels stay muted.
