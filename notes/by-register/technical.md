@@ -1964,3 +1964,17 @@
   - 예: `backend/contrib/<slug>/` loads fail-soft: a broken package is skipped and listed in the boot log.
 - **counts in full ink, labels may stay muted** — 숫자는 진하게, 라벨은 흐리게. UI 글자 위계를 지시할 때. ≈ primary vs. secondary text color. [→ daily](../../daily/2026-10-24/new-expressions.md)
   - 예: The Align and 측정 counts are now in full ink; the labels stay muted.
+- **the contract shape, not the mock's conveniences** — 목의 편의가 아니라 계약(스키마)의 모양. 설계 기준을 못 박는 대비. ≈ the interface, not the fixture. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: Build the view against the contract shape, not the mock's conveniences, or it will break on the first real file.
+- **never by the metric alone** — 지표 하나만으로는 절대 판단하지 않는다. ≈ not in isolation. ↔ taken together with. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: Fit quality is judged by MSE together with residuals and correlations — never by the metric alone.
+- **under-determined** — 해가 하나로 안 정해지는(과소결정). 데이터보다 변수가 많을 때. ≈ ill-posed, ambiguous. ↔ well-determined. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: Strong correlations mean the model is under-determined even when the curve looks fine.
+- **trivially cheap** — 따질 필요도 없이 싸다(성능 비용). ≈ negligible, basically free. ↔ the bottleneck. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: A spectra overlay with a few 1000-point lines is trivially cheap in ECharts.
+- **exists purely to dodge (the rate limit)** — 오로지 (제한을) 피하려고 있다. 우회책이라는 존재 이유. ≈ works around, sidesteps. ↔ is subject to. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: The batch endpoint exists purely to dodge the 50-req/5s rate limit.
+- **would be rejected rather than applied** — 적용되지 않고 거절된다. 안전한 쪽으로 실패함을 설명. ≈ fails loudly instead of silently. ↔ is silently applied. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: If the body tried to change an existing field, the request would be rejected rather than applied.
+- **would have charged every … a …** — 모든 ~에 ~ 비용을 물렸을 것이다(가정법 과거완료). ≈ would have cost every …. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: Reading the roster first would have charged every recipe open a parquet load at cold start.

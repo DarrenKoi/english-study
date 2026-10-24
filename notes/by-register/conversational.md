@@ -1060,3 +1060,17 @@
   - 예: You were partway through the Provision work — do you want to pick that up, or work on something else?
 - **a little different from what you named** — 말씀하신 것과 조금 다르다. 상대 목록을 부드럽게 정정할 때. ≈ slightly off from what you listed, differs somewhat from your list (격식). [→ daily](../../daily/2026-10-24/new-expressions.md)
   - 예: The tabs come from `FeatureTabs.vue`, so the list is a little different from what you named.
+- **research-grade eye candy** — 연구용 눈요깃거리. 화려하지만 실무엔 쓸모 적은 기능. ≈ a flashy demo, a showpiece. ↔ a workhorse view. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: A raw-cube explorer is research-grade eye candy, not what fab engineers need.
+- **a research question nobody in a fab asks daily** — 현장에서 매일 묻지는 않는 질문. 우선순위를 낮출 때. ≈ not an everyday question. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: The hyperspectral explorer answers a research question nobody in a fab asks daily.
+- **perfectly sane to ship** — 보내도 전혀 무리 없는(크기·비용이 상식선). ≈ totally fine, well within budget. ↔ prohibitive. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: A point-SE wafer is about 1–5 MB of JSON, which is perfectly sane to ship per measurement.
+- **One thing has to change at the same time, or you'll end up with …** — 하나는 같이 바꿔야 한다, 안 그러면 결국 ~된다. 조건부 '예'. ≈ there's a catch, as long as you also …. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: You can remove the adapter, but one thing has to change at the same time, or you'll end up with no MCP at all.
+- **(only matters if you used these)** — (이걸 썼을 때만 해당). 목록 앞에서 관련 여부를 먼저 알린다. ≈ if applicable. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: What you'd lose (only matters if you used these): the gateway tool and the save-script feature.
+- **stay exactly as they are** — 지금 그대로 남는다. 기존 데이터가 안 바뀐다고 안심시킬 때. ≈ remain untouched. ↔ get overwritten. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: Previously stored rows, including the visit and page-view rows, stay exactly as they are.
+- **Nothing is lost either way.** — 어느 쪽이든 잃는 건 없다. 두 경우 설명 뒤 결론. ≈ you're fine both ways. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: Rows written before the update just lack the field; nothing is lost either way.

@@ -1,6 +1,7 @@
 # 표현 인덱스
 
 알파벳 순. 각 표현 → 처음 수집된 daily 링크.
+- [(only matters if you used these)](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [(such a row) may land out of place](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [(the cards) drop below (the description)](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [404 blames the file, 503 blames the tool or network](daily/2026-10-07/new-expressions.md) — 2026-10-07
@@ -32,6 +33,7 @@
 - [a natural cross-check](daily/2026-10-15/new-expressions.md) — 2026-10-15
 - [a reflex, not a research project](daily/2026-10-18/new-expressions.md) — 2026-10-18
 - [A report names a symptom.](daily/2026-10-18/new-expressions.md) — 2026-10-18
+- [a research question nobody in a fab asks daily](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [a selling point](daily/2026-10-15/new-expressions.md) — 2026-10-15
 - [a throwaway Flask and Nuxt pair](daily/2026-10-09/new-expressions.md) — 2026-10-09
 - [a weak tip-wear detector](daily/2026-10-15/new-expressions.md) — 2026-10-15
@@ -373,6 +375,7 @@
 - [borderline](daily/2026-08-11/new-expressions.md) — 2026-08-11
 - [borrow strength](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [borrows from that same budget — it does not get a fresh one](daily/2026-10-19/new-expressions.md) — 2026-10-19
+- [Both cannot be right; X is better sourced.](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [Both halves are on purpose.](daily/2026-10-07/new-expressions.md) — 2026-10-07
 - [both have a trap in them](daily/2026-09-13/new-expressions.md) — 2026-09-13
 - [Both resolve on their own](daily/2026-09-10/new-expressions.md) — 2026-09-10
@@ -453,6 +456,7 @@
 - [churn](daily/2026-07-20/new-expressions.md) — 2026-07-20
 - [circuit breaker](daily/2026-07-16/new-expressions.md) — 2026-07-16
 - [circular (by construction)](daily/2026-06-29/new-expressions.md) — 2026-06-29
+- [claims outrun verifiable detail](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [claims the data cannot support](daily/2026-10-12/new-expressions.md) — 2026-10-12
 - [Clean point:](daily/2026-08-31/new-expressions.md) — 2026-08-31
 - [clearly net simpler](daily/2026-10-06/new-expressions.md) — 2026-10-06
@@ -576,6 +580,7 @@
 - [deserve real suspicion](daily/2026-08-12/new-expressions.md) — 2026-08-12
 - [design debt](daily/2026-07-12/new-expressions.md) — 2026-07-12
 - [designed down to file and function names](daily/2026-10-12/new-expressions.md) — 2026-10-12
+- [designing against guessed data](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [designing is a given](daily/2026-10-10/new-expressions.md) — 2026-10-10
 - [did not land on disk](daily/2026-10-09/new-expressions.md) — 2026-10-09
 - [did not surface in any result](daily/2026-10-11/new-expressions.md) — 2026-10-11
@@ -679,6 +684,7 @@
 - [exercise (a code path)](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [exist to prevent (X)](daily/2026-08-05/new-expressions.md) — 2026-08-05
 - [Existing drift elsewhere doesn't authorize a new instance.](daily/2026-08-23/new-expressions.md) — 2026-08-23
+- [exists purely to dodge (the rate limit)](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [exists to settle (a display decision)](daily/2026-10-12/new-expressions.md) — 2026-10-12
 - [extract it when a third appears](daily/2026-10-02/new-expressions.md) — 2026-10-02
 - [extra dependency surface](daily/2026-09-06/new-expressions.md) — 2026-09-06
@@ -888,6 +894,7 @@
 - [I only read the code; I have not seen the log rows themselves.](daily/2026-10-07/new-expressions.md) — 2026-10-07
 - [I pinned the grid rather than reading the chart instance](daily/2026-10-21/new-expressions.md) — 2026-10-21
 - [I skipped showing X; say so if you want it](daily/2026-10-14/new-expressions.md) — 2026-10-14
+- [I'll fix them now rather than hand them back](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [I've mapped the flow](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [if it turns out to be common](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [If no final changes remain after validation, do not create an empty commit.](daily/2026-10-06/new-expressions.md) — 2026-10-06
@@ -904,6 +911,7 @@
 - [I'd keep it to a page.](daily/2026-09-17/new-expressions.md) — 2026-09-17
 - [I'd rather confirm that than build X speculatively.](daily/2026-09-26/new-expressions.md) — 2026-09-26
 - [if the user is AFK](daily/2026-10-17/new-expressions.md) — 2026-10-17
+- [If you rely on that, test one … after you switch.](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [If you would prefer it last, say so.](daily/2026-10-09/new-expressions.md) — 2026-10-09
 - [If you're tempted to list something finished, it belongs in …](daily/2026-10-07/new-expressions.md) — 2026-10-07
 - [Impact comes before features.](daily/2026-10-20/new-expressions.md) — 2026-10-20
@@ -1086,20 +1094,35 @@
 - [leave it out until someone asks for it](daily/2026-09-24/new-expressions.md) — 2026-09-24
 - [Leave the calibration knob](daily/2026-10-18/new-expressions.md) — 2026-10-18
 - [leaving it invites someone to restore the field](daily/2026-08-31/new-expressions.md) — 2026-08-31
+- [limits the damage only if …](daily/2026-10-25/new-expressions.md) — 2026-10-25
+- [never by the metric alone](daily/2026-10-25/new-expressions.md) — 2026-10-25
+- [Nothing is lost either way.](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [nothing was merged or pushed](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [One change beyond the manager's decision.](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [one is a judgement call for you](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [one look at a few real rows would settle it](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [One number to explain before pushing](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [One thing has to change at the same time, or you'll end up with …](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [paints over the next item](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [perfectly sane to ship](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [Pushing and tearing down.](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [reads off (Down order)](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [research-grade eye candy](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [say so if you'd rather I (review that range directly)](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [showing derived thickness as bare truth](daily/2026-10-25/new-expressions.md) — 2026-10-25
+- [stay exactly as they are](daily/2026-10-25/new-expressions.md) — 2026-10-25
+- [the bad numbers will be most convincing exactly when the model is wrong](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [The card fix holds everywhere.](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [the contract shape, not the mock's conveniences](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [the group's presence is the flag](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [trivially cheap](daily/2026-10-25/new-expressions.md) — 2026-10-25
+- [under-determined](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [verified by reading only](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [volume hubris](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [Want me to fix it anyway?](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [wiring it into (HardwareView)](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [would be rejected rather than applied](daily/2026-10-25/new-expressions.md) — 2026-10-25
+- [would have charged every … a …](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [Zero regressions.](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - […, leaving the alert window open](daily/2026-10-16/new-expressions.md) — 2026-10-16
 - [leaving X alone](daily/2026-07-29/new-expressions.md) — 2026-07-29

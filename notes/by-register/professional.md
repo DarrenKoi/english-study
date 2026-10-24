@@ -2320,3 +2320,21 @@
   - 예: Where the code and `DESIGN.md` disagree, the code is what gets corrected.
 - **I haven't checked that it's active yet** — 아직 적용됐는지는 확인 안 했다. 바꾼 것과 확인한 것을 구분해 보고할 때. ≈ This is unverified so far (격식). [→ daily](../../daily/2026-10-24/new-expressions.md)
   - 예: I haven't checked that it's active yet; one way to check is to look for a 1M context limit in the next session.
+- **showing derived thickness as bare truth** — 파생값을 맥락 없는 진실처럼 보여 주기. 신뢰도 정보가 벗겨진 숫자의 위험. ≈ taking X at face value. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: Showing derived thickness as bare truth is the biggest quality trap, because a degenerate fit looks exactly like a good one.
+- **the bad numbers will be most convincing exactly when the model is wrong** — 모델이 틀린 바로 그때 나쁜 숫자가 가장 그럴듯해 보인다. 역설형 경고. ≈ look most plausible precisely when. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: Engineers will trust bad numbers, and the bad numbers will be most convincing exactly when the model is wrong.
+- **designing against guessed data** — 짐작한 데이터를 기준으로 설계하기(위험 항목 이름). ≈ designing in the dark. ↔ designing against real exports. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: Designing against guessed data is risky, since the real tool's export will contradict most of our mock's choices.
+- **limits the damage only if …** — ~할 때에만 피해를 줄여 준다. 안전장치의 효력을 조건으로 좁힌다. ≈ contains the damage, keeps the blast radius small. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: The repo's mock rule limits the damage only if the UI is built against the contract shape.
+- **volume hubris** — 데이터량을 얕보는 자만. 위험 목록의 짧은 명사구 제목. ≈ overconfidence about scale. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: Imaging-SE volume hubris is the third risk: raw cubes cannot ride a JSON-over-fetch architecture.
+- **claims outrun verifiable detail** — 주장이 검증 가능한 근거보다 앞서 나간다(점잖은 '과장'). ≈ go beyond the evidence. ↔ are backed by. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: Product-page claims outrun verifiable UI detail, so treat the exact competitor layouts as unknown.
+- **Both cannot be right; X is better sourced.** — 둘 다 맞을 순 없고 X 쪽이 출처가 탄탄하다. 상충하는 출처를 판정할 때. ≈ X has stronger backing. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: Both cannot be right; the Cimetrix/SEMI grouping is better sourced.
+- **If you rely on that, test one … after you switch.** — 그걸 쓴다면 바꾼 뒤 하나만 시험해 보라. 미확인 부분에 최소 점검을 제안. ≈ it would be worth verifying. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: I didn't check the child-agent grant; if you rely on that, test one subagent after you switch.
+- **I'll fix them now rather than hand them back** — 리뷰 지적을 되넘기지 않고 지금 고치겠다. ≈ instead of passing them back. ↔ hand them back for a decision. [→ daily](../../daily/2026-10-25/new-expressions.md)
+  - 예: I agree with all six and will fix them now rather than hand them back.
