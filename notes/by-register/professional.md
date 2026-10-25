@@ -2338,3 +2338,25 @@
   - 예: I didn't check the child-agent grant; if you rely on that, test one subagent after you switch.
 - **I'll fix them now rather than hand them back** — 리뷰 지적을 되넘기지 않고 지금 고치겠다. ≈ instead of passing them back. ↔ hand them back for a decision. [→ daily](../../daily/2026-10-25/new-expressions.md)
   - 예: I agree with all six and will fix them now rather than hand them back.
+- **hold (X) back** — (X를) 내보내지 않고 붙잡아 두다, 보류하다. 기능·카드 공개를 당분간 보류하자고 제안할 때. ≈ hold off on. [→ daily](../../daily/2026-10-26/new-expressions.md)
+  - 예: It needs the adapter written (or the card held back on cloud) before this build is packed.
+- **You didn't ask for this one; it follows from (X).** — 이건 요청하지 않으셨지만 (X)에서 자연히 따라 나온 일입니다. 요청 범위 밖의 작업을 했다고 먼저 밝히며 이유를 댈 때. ≈ This goes slightly beyond what you asked. [→ daily](../../daily/2026-10-26/new-expressions.md)
+  - 예: The `home-to-office` skill no longer skips afm. You didn't ask for this one; it follows from the reveal.
+- **Two things remain open:** — 아직 남은(미해결) 일이 두 가지 있습니다. 보고 끝에 아직 해결 안 된 일을 정리할 때. ≈ Two items are still outstanding. [→ daily](../../daily/2026-10-26/new-expressions.md)
+  - 예: Two things remain open: the AFM office adapter and the tttm row in STATUS.md.
+- **I can't tell (from home) whether it should read A or B** — (집에서는) A로 적어야 할지 B로 적어야 할지 알 수 없다. 판단할 정보가 없어 결정을 상대에게 넘길 때. ≈ I have no way of knowing whether .... [→ daily](../../daily/2026-10-26/new-expressions.md)
+  - 예: I left it because I can't tell from home whether it should read 구현완료 or office.
+- **reconcile (the three)** — (세 결과를) 대조해 하나로 정리하다. 여러 리뷰·출처의 결과를 대조해 하나로 맞출 때. ≈ merge. [→ daily](../../daily/2026-10-26/new-expressions.md)
+  - 예: I read the same code in parallel and reconciled the three.
+- **fits naturally with (X)** — X와 자연스럽게 맞물린다(같이 하기 좋다). 어떤 작업을 다른 작업과 묶어서 하자고 제안할 때. ≈ goes hand in hand with. [→ daily](../../daily/2026-10-26/new-expressions.md)
+  - 예: Switching to the API makes the landing page async; it fits naturally with writing the office adapter.
+- **X works; Y does not exist, because ...** — X는 된다. Y는 아예 없다, 왜냐하면…. 두 갈래 질문에 결론부터 하나씩 답할 때. ≈ Yes for X. [→ daily](../../daily/2026-10-26/new-expressions.md)
+  - 예: Lot ID search works; lot code search does not exist, because AFM rows carry no lot code field at all.
+- **which will matter once (X)** — X하게 되면 그때 문제가 될. 지금은 괜찮지만 나중에 문제가 될 조건을 미리 짚을 때. ≈ which becomes an issue when. [→ daily](../../daily/2026-10-26/new-expressions.md)
+  - 예: So a lot that isn't in that returned list can't be found, which will matter once the office adapter returns a bounded window of files.
+- **If you want X, I need to know one thing:** — X를 원하시면 하나만 알려 주세요. 다음 작업 전에 필요한 정보를 질문 하나로 좁힐 때. ≈ Before I start on X. [→ daily](../../daily/2026-10-26/new-expressions.md)
+  - 예: If you want lot code search, I need to know one thing about the office AFM data: is the lot code a separate field, or derivable from the lot ID?
+- **A is what forces B, not C** — B를 일으키는 건 A이지 C가 아니다. 진짜 원인을 짚으면서 흔한 오해를 부정할 때. ≈ It is A. [→ daily](../../daily/2026-10-26/new-expressions.md)
+  - 예: Revealing the page is what forces the status change, not any adapter progress.
+- **that isn't mine; I left it untouched** — 제가 만든 게 아니라서 손대지 않았습니다. 남이 만든 파일·변경을 건드리지 않았다고 밝힐 때. ≈ I didn't touch it. [→ daily](../../daily/2026-10-26/new-expressions.md)
+  - 예: There is an untracked `docs/afm/to-questionnaire-afm.md` in the main tree that isn't mine; I left it untouched.

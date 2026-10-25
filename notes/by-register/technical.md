@@ -1978,3 +1978,21 @@
   - 예: If the body tried to change an existing field, the request would be rejected rather than applied.
 - **would have charged every … a …** — 모든 ~에 ~ 비용을 물렸을 것이다(가정법 과거완료). ≈ would have cost every …. [→ daily](../../daily/2026-10-25/new-expressions.md)
   - 예: Reading the roster first would have charged every recipe open a parquet load at cold start.
+- **one flip opens both the invitation and the door** — 스위치 한 번에 초대장과 문이 같이 열린다. 설정 하나가 여러 곳을 함께 바꾼다는 구조를 비유로 설명할 때. ≈ one change covers both. [→ daily](../../daily/2026-10-26/new-expressions.md)
+  - 예: The landing card and the route middleware both read the same constant, so one flip opens both the invitation and the door.
+- **behind a normal 200** — 평범한 200 응답 뒤에 숨어서(정상인 척하면서). 겉으로는 정상 응답인데 속 데이터가 틀린 위험을 짚을 때. ≈ under a success status. [→ daily](../../daily/2026-10-26/new-expressions.md)
+  - 예: With no `office.py`, the next office build serves the mock measurements behind a normal 200.
+- **a one-word change** — 단어 하나만 바꾸면 되는 수정. 수정 범위가 아주 작다는 걸 알릴 때. ≈ a one-line fix. [→ daily](../../daily/2026-10-26/new-expressions.md)
+  - 예: `visibleSections` in `intro.vue` omits `'afm'`; adding it is a one-word change.
+- **(N) lines lighter** — N줄 가벼워진. 리팩터링으로 코드가 줄었다고 말할 때. ≈ N lines shorter. [→ daily](../../daily/2026-10-26/new-expressions.md)
+  - 예: The AFM pages are now aligned to `DESIGN.md` and about 825 lines lighter.
+- **(a failed request) looked like "no data"** — 실패한 요청이 '데이터 없음'처럼 보였다. 오류가 다른 정상 상태로 오인되던 버그를 설명할 때. ≈ was indistinguishable from. [→ daily](../../daily/2026-10-26/new-expressions.md)
+  - 예: Loading and error states never rendered on the list, detail and comparison pages; a failed request looked like "no data".
+- **did not exercise (X) by hand** — (그 부분은) 손으로 직접 돌려 보지 않았다. 무엇을 직접 테스트하지 않았는지 정직하게 밝힐 때. ≈ test. [→ daily](../../daily/2026-10-26/new-expressions.md)
+  - 예: Pure display changes such as tooltip escaping I did not exercise by hand.
+- **that (the cache keys) already cover** — (캐시 키가) 이미 처리해 주는. 다른 장치가 이미 처리해서 중복 코드를 지웠다고 설명할 때. ≈ already handled by. [→ daily](../../daily/2026-10-26/new-expressions.md)
+  - 예: The API composable lost five request-dedupe maps that the cache keys already cover.
+- **only hits if it happens to be (X)** — 마침 X일 때만 (검색에) 걸린다. 우연히 조건이 맞을 때만 검색에 걸린다고 설명할 때. ≈ only matches by coincidence. [→ daily](../../daily/2026-10-26/new-expressions.md)
+  - 예: Typing a lot code only hits if it happens to be a substring of the lot ID or the filename.
+- **a bounded window of (files)** — 범위가 제한된 일부 구간(의 파일). 전체가 아니라 범위가 잘린 일부만 돌려주는 API를 설명할 때. ≈ a capped page of results. [→ daily](../../daily/2026-10-26/new-expressions.md)
+  - 예: The search can't find older lots once the office adapter returns a bounded window of files.

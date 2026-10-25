@@ -1095,7 +1095,10 @@
     "-Users-daeyoung-Codes-auto-recipe-creator/9e69eb41-11ce-4a74-9dcc-73817354709e.jsonl": 14,
     "-Users-daeyoung-Codes-english-study/31e23457-435c-4e9d-9738-7f539dd86c7e.jsonl": 289,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/d2f430dc-11f2-442d-a3e1-8a7a3b639026/subagents/agent-a58242efd36b764d9.jsonl": 59,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/466cd9af-a4c1-495d-91d4-cdf101366743/subagents/agent-ae6055d5b17de74c2.jsonl": 112
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/466cd9af-a4c1-495d-91d4-cdf101366743/subagents/agent-ae6055d5b17de74c2.jsonl": 112,
+    "-Users-daeyoung-Codes-pm-notes/2d9719b4-7aa6-4da2-a044-18bcc12a65c0.jsonl": 510,
+    "-Users-daeyoung-Codes-english-study/853682c0-cb99-42a8-b199-7ca1ce39106b.jsonl": 269,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/a9d51677-c251-48b9-89e9-3d396e2ca63f.jsonl": 1077
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1752,5 +1755,5 @@
     "skewnono_v3_nuxt/docs/research/2026-10-24-optical-metrology-analysis-display-notes/skewvoir_thickness_local_code.md": "skewnono_v3_nuxt/docs/research/2026-10-24-optical-metrology-analysis-display-notes/skewvoir_thickness_local_code.md:1792826532.252488:28879",
     "skewnono_v3_nuxt/docs/research/2026-10-24-optical-metrology-analysis-display-notes/display_approach_tradeoffs.md": "skewnono_v3_nuxt/docs/research/2026-10-24-optical-metrology-analysis-display-notes/display_approach_tradeoffs.md:1792826513.3435652:26747"
   },
-  "last_run": "2026-10-25"
+  "last_run": "2026-10-26"
 }

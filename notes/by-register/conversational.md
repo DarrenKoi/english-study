@@ -1074,3 +1074,7 @@
   - 예: Previously stored rows, including the visit and page-view rows, stay exactly as they are.
 - **Nothing is lost either way.** — 어느 쪽이든 잃는 건 없다. 두 경우 설명 뒤 결론. ≈ you're fine both ways. [→ daily](../../daily/2026-10-25/new-expressions.md)
   - 예: Rows written before the update just lack the field; nothing is lost either way.
+- **only showed up in (X), not in (Y)** — X에서만 드러났고 Y에서는 보이지 않았다. 문제가 어떤 방법으로만 드러났는지 대비할 때. ≈ only surfaced in. [→ daily](../../daily/2026-10-26/new-expressions.md)
+  - 예: The xs badge size renders below the 12px floor; this only showed up in the screenshot, not in the code read.
+- **which is why (X) didn't cover it** — 그래서 X로는 처리되지 않았던 것. 앞의 사실이 왜 문제로 이어졌는지 바로 이어 설명할 때. ≈ That's why .... [→ daily](../../daily/2026-10-26/new-expressions.md)
+  - 예: The intro page kept its own hide separate from `AFM_ENABLED`, which is why the first flip didn't cover it.
