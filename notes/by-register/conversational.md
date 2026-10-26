@@ -1078,3 +1078,13 @@
   - 예: The xs badge size renders below the 12px floor; this only showed up in the screenshot, not in the code read.
 - **which is why (X) didn't cover it** — 그래서 X로는 처리되지 않았던 것. 앞의 사실이 왜 문제로 이어졌는지 바로 이어 설명할 때. ≈ That's why .... [→ daily](../../daily/2026-10-26/new-expressions.md)
   - 예: The intro page kept its own hide separate from `AFM_ENABLED`, which is why the first flip didn't cover it.
+- **blows past (a limit)** — (한도를) 훌쩍 넘어서다. exceed 보다 생생하고 통제 불능 느낌. ↔ stays within. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: Opening ~200 connections at once blows past `ulimit -n` and the equipment's connection caps.
+- **(tools) go offline routinely** — (장비가) 일상적으로 꺼진다. 장애가 일상이라 실패 격리가 기본이라고 말할 때. ≈ drop off regularly. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: Callers gate on `failure_ratio` — tools go offline routinely.
+- **without looking first** — 먼저 살펴보지 않고. 확인 단계를 건너뛰어도 된다고 할 때. ≈ without checking. ↔ look before you leap. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: Callers run `mkdir` before an upload without looking first.
+- **roughly triples it** — 대략 세 배로 불린다. double·triple 을 동사로 쓴다. ≈ inflates it threefold. ↔ roughly halves it. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: The proxy holds a whole batch in memory, and base64 + jsonify roughly triples it.
+- **in one sitting** — 한자리에서, 한 번에. ≈ in one go. ↔ over several sessions. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: Catch every real bug a careful reviewer would catch in one sitting.

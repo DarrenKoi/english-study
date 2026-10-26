@@ -1996,3 +1996,27 @@
   - 예: Typing a lot code only hits if it happens to be a substring of the lot ID or the filename.
 - **a bounded window of (files)** — 범위가 제한된 일부 구간(의 파일). 전체가 아니라 범위가 잘린 일부만 돌려주는 API를 설명할 때. ≈ a capped page of results. [→ daily](../../daily/2026-10-26/new-expressions.md)
   - 예: The search can't find older lots once the office adapter returns a bounded window of files.
+- **the dead-host detector** — 죽은 호스트 감지기. 설정값을 역할 이름으로 불러 존재 이유를 설명할 때. ≈ liveness check. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: `connect_timeout` (default 8 s) is the dead-host detector: it bounds every blocking socket op, so an offline tool is abandoned in seconds.
+- **a host that connects and then stalls** — 연결은 됐는데 그 뒤로 멈추는 호스트. 접속 실패와 다른 고장 유형을 구분할 때. ≈ hangs after connecting. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: `host_timeout` is the whole-host backstop for a host that connects and then stalls.
+- **is not tied to (CPU count)** — (그 기준에) 묶여 있지 않다. 통념적 기준을 부정할 때. ≈ is independent of. ↔ scales with. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: The threads are I/O-bound, so the cap is not tied to CPU count.
+- **measured from when (X), not from (Y)** — X 시점부터 잰다, Y 부터가 아니라. 시간 제한의 기준점을 못 박을 때. ≈ the clock starts when. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: It is measured from when that host's worker starts, not from submit.
+- **Keep it above (X).** — X 보다 크게 유지하라. 설정값의 하한을 한 줄 규칙으로 남길 때. ≈ make sure it exceeds. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: Keep `host_timeout` above `connect_timeout × files-per-host`.
+- **counts as success** — 성공으로 친다. 판정 규칙을 밝힐 때. ≈ is treated as success. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: An existing directory counts as success, so the call is safe to repeat.
+- **sits in an unknown (directory)** — 알 수 없는 상태에 머물러 있다. 세션·시스템 상태를 묘사할 때. ≈ is left in an unknown state. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: If that CWD back fails, the session sits in an unknown directory.
+- **Credentials travel with the spec.** — 인증 정보는 spec 에 실려 함께 간다. 정보가 요청 데이터와 같이 이동한다고 할 때. ≈ are carried in the request. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: Credentials travel with the spec, so each host can log in with its own account.
+- **hand-worked literals, not recomputed with the same formula** — 손으로 계산한 기댓값, 같은 공식으로 다시 낸 값이 아니라. 테스트가 구현을 베끼지 않게 할 때. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: Expected values must be hand-worked literals, not recomputed with the same formula.
+- **wins over (X) instead of falling back to it** — (기본값으로) 넘어가는 대신 그것을 이겨 버린다. 우선순위 버그를 설명할 때. ≈ takes precedence over. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: An `error` dict without code or message yields the truthy string ": ", which wins over the reason phrase instead of falling back to it.
+- **the suite stays green** — 테스트가 계속 통과한다. 회귀를 못 잡는 테스트 공백을 경고할 때. ≈ CI still passes. ↔ the suite goes red. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: Someone later drops the fallback, and the suite stays green because no route returns that shape.
+- **pins what (the docs) now document** — (문서에 적힌 동작을 테스트로) 고정한다. ≈ locks in, codifies. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: One test per branch pins what the logging doc now documents.

@@ -2360,3 +2360,21 @@
   - 예: Revealing the page is what forces the status change, not any adapter progress.
 - **that isn't mine; I left it untouched** — 제가 만든 게 아니라서 손대지 않았습니다. 남이 만든 파일·변경을 건드리지 않았다고 밝힐 때. ≈ I didn't touch it. [→ daily](../../daily/2026-10-26/new-expressions.md)
   - 예: There is an untracked `docs/afm/to-questionnaire-afm.md` in the main tree that isn't mine; I left it untouched.
+- **the real limits are (X), (Y), and (Z)** — 진짜 제약은 X, Y, Z 다. 통념을 부정한 직후 실제 기준을 세울 때. ≈ the binding constraints are. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: The cap is not tied to CPU count; the real limits are file descriptors, peak RAM, and the servers.
+- **is settled by (doing X)** — (X 를 해서) 판가름한다. 모호한 결과를 다른 수단으로 가를 때. ≈ is resolved by. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: A refused MKD is settled by CWD into that path.
+- **reported failed rather than (created) in the wrong place** — 엉뚱한 곳에 만들어지느니 실패로 보고된다. 틀린 성공보다 정직한 실패를 고를 때. ≈ fail safe. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: The host's remaining dirs are all reported failed rather than created in the wrong place.
+- **The design exists — do not redesign it.** — 설계는 이미 있으니 다시 설계하지 마라. 위임할 때 범위를 선 그을 때. ≈ build to the existing design. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: The design exists — do not redesign it; follow the S6 section of the plans doc.
+- **(a stated precondition) no longer holds** — (전제가) 더는 성립하지 않는다. 걸어 둔 조건이 풀렸다고 알릴 때. ≈ no longer applies. ↔ still holds. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: One of its stated preconditions no longer holds — the adapter ran at the office on 2026-10-07 — so the feature is unblocked.
+- **exactly this, nothing more** — 딱 이것만, 더도 말고. 위임 범위의 위쪽 경계를 못 박을 때. ≈ strictly limited to. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: Scope: exactly this, nothing more — no backend changes and no new endpoints.
+- **leave the branch for review** — 브랜치를 리뷰용으로 남겨 두다. 위임 작업의 끝 상태를 정할 때. ≈ hand it over for review. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: Do not merge, push, or remove the worktree — leave the branch for review.
+- **is reported identically to (a missing one)** — (다른 경우와) 똑같이 보고된다. 두 원인이 같은 메시지로 뭉개질 때. ≈ is indistinguishable from. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: A one-sided own-fab entry is now reported identically to a missing one.
+- **be judged against a reference that does not move** — 움직이지 않는 기준에 비추어 판단되다. 고정 기준선이 왜 필요한지 말할 때. ≈ be compared with a fixed baseline. [→ daily](../../daily/2026-10-27/new-expressions.md)
+  - 예: Pin earlier measurements as a fixed baseline, so later measurements are judged against a reference that does not move.
