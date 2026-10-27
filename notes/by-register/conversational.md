@@ -1088,3 +1088,17 @@
   - 예: The proxy holds a whole batch in memory, and base64 + jsonify roughly triples it.
 - **in one sitting** — 한자리에서, 한 번에. ≈ in one go. ↔ over several sessions. [→ daily](../../daily/2026-10-27/new-expressions.md)
   - 예: Catch every real bug a careful reviewer would catch in one sitting.
+- **That needs (the 550) settled again.** — (그것을) 다시 판가름해야 한다. need + 목적어 + p.p. 구조. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: That needs the 550 settled again: after a refused DELE the path counts as gone only if `SIZE` answers 550.
+- **(PASV) is right behind NAT** — (그 조건에서는) 그게 맞는 선택이다. right = 상황에 맞다. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: `ftplib` defaults to PASV, which is right behind NAT.
+- **if login works but every RETR hangs only from the server** — ~는 되는데 ~에서만 멈춘다면. 증상을 되는 것/안 되는 것으로 대비할 때. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: If login works but every `RETR` hangs only from the server, try `passive=False`.
+- **Disk wins only on memory pressure.** — (X)가 나은 건 (조건)일 때뿐이다. win = 비교에서 더 낫다. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: Disk wins only on memory pressure; files here are KB–few MB, so the default is in-memory.
+- **the original "works locally, fails on the server" bug** — '로컬에선 되고 서버에선 안 되는' 버그. 증상 문장을 형용사처럼 붙인다. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: Unpinned `aioftp` installed at task runtime was the original "works locally, fails on the server" bug.
+- **I would not change it, but (X) would be cleaner if the file is touched again.** — 지금 바꿀 정도는 아니지만, 다음에 손댈 때는 X 가 낫다. 부드러운 리뷰 제안. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: I would not change it, but a plain `push` would be cleaner if the file is touched again.
+- **not worth hoisting** — (반복 계산을) 밖으로 빼낼 가치가 없다. hoist = 루프 밖으로 끌어올리다. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: The key compare appears three times per row, but it is a string compare and not worth hoisting.

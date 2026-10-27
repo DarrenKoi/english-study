@@ -2020,3 +2020,33 @@
   - 예: Someone later drops the fallback, and the suite stays green because no route returns that shape.
 - **pins what (the docs) now document** — (문서에 적힌 동작을 테스트로) 고정한다. ≈ locks in, codifies. [→ daily](../../daily/2026-10-27/new-expressions.md)
   - 예: One test per branch pins what the logging doc now documents.
+- **a retried run is harmless** — 다시 돌려도 해가 없다. 멱등성을 결과로 풀어 말할 때. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: A path already gone is a success, so a retried run is harmless.
+- **proves nothing about (the path)** — ~을 두고 아무것도 증명하지 못한다. 신호가 근거가 못 된다고 선을 그을 때. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: A probe refused with anything but 550 proves nothing about the path, so it keeps the failure too.
+- **(a host) given up on at (host_timeout)** — (시점에) 포기된 (대상). give up on 의 수동형이라 on 이 끝에 남는다. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: A host given up on at `host_timeout` keeps its thread, and `delete` sets that host's stop flag.
+- **The command already in flight cannot be recalled.** — 이미 나간 명령은 회수할 수 없다. 되돌릴 수 없는 한계를 밝힐 때. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: The command already in flight cannot be recalled; its outcome is unknown.
+- **That needs (the 550) settled again.** — (그것을) 다시 판가름해야 한다. need + 목적어 + p.p. 구조. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: That needs the 550 settled again: after a refused DELE the path counts as gone only if `SIZE` answers 550.
+- **match it method by method** — 메서드 하나하나까지 일치하다. 명사 by 명사 = 하나씩 빠짐없이. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: A conformance test asserts both adapters match `FleetTransport` method by method.
+- **(a field missing from the wire) falls back alone** — (빠진 필드만) 혼자서 기본값으로 넘어간다. alone = 다른 값은 그대로. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: `user` and `password` resolve independently, and a field missing from the wire falls back alone.
+- **cross the HTTP hop** — HTTP 경유 구간을 건너가다. 노출 지점을 짚을 때. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: Bytes and credentials both cross the HTTP hop: serve it behind HTTPS and set `FTP_PROXY_TOKEN`.
+- **marks every host in it failed** — 모두를 실패로 표시하다. mark + O + 보어(as 생략). [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: A whole-batch transport failure marks every host in it failed.
+- **(PASV) is right behind NAT** — (그 조건에서는) 그게 맞는 선택이다. right = 상황에 맞다. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: `ftplib` defaults to PASV, which is right behind NAT.
+- **if login works but every RETR hangs only from the server** — ~는 되는데 ~에서만 멈춘다면. 증상을 되는 것/안 되는 것으로 대비할 때. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: If login works but every `RETR` hangs only from the server, try `passive=False`.
+- **tolerates (large files) easily; (the other) is sensitive to them** — ~을 쉽게 견딘다 / ~에 민감하다. 두 대상의 반응을 대구로 대비할 때. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: The direct path tolerates large files easily; the proxy path is sensitive to them.
+- **asserts neither drifts** — 어느 쪽도 어긋나지 않는지 단언한다. neither 는 단수 → drifts. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: Both classes satisfy the seam structurally, and a conformance test asserts neither drifts.
+- **keep (large payloads) alive** — (큰 데이터를) 계속 살려 두다. 참조가 남아 메모리가 안 풀릴 때. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: Flag closures that keep large payloads alive after the page no longer needs them.
+- **not worth hoisting** — (반복 계산을) 밖으로 빼낼 가치가 없다. hoist = 루프 밖으로 끌어올리다. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: The key compare appears three times per row, but it is a string compare and not worth hoisting.

@@ -2378,3 +2378,23 @@
   - 예: A one-sided own-fab entry is now reported identically to a missing one.
 - **be judged against a reference that does not move** — 움직이지 않는 기준에 비추어 판단되다. 고정 기준선이 왜 필요한지 말할 때. ≈ be compared with a fixed baseline. [→ daily](../../daily/2026-10-27/new-expressions.md)
   - 예: Pin earlier measurements as a fixed baseline, so later measurements are judged against a reference that does not move.
+- **a retried run is harmless** — 다시 돌려도 해가 없다. 멱등성을 결과로 풀어 말할 때. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: A path already gone is a success, so a retried run is harmless.
+- **proves nothing about (the path)** — ~을 두고 아무것도 증명하지 못한다. 신호가 근거가 못 된다고 선을 그을 때. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: A probe refused with anything but 550 proves nothing about the path, so it keeps the failure too.
+- **The command already in flight cannot be recalled.** — 이미 나간 명령은 회수할 수 없다. 되돌릴 수 없는 한계를 밝힐 때. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: The command already in flight cannot be recalled; its outcome is unknown.
+- **Disk wins only on memory pressure.** — (X)가 나은 건 (조건)일 때뿐이다. win = 비교에서 더 낫다. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: Disk wins only on memory pressure; files here are KB–few MB, so the default is in-memory.
+- **Both paths are in use.** — 둘 다 실제로 쓰이고 있다. 어느 쪽도 버릴 수 없다고 밝힐 때. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: The proxy does the real FTP and returns file bytes. Both paths are in use.
+- **tolerates (large files) easily; (the other) is sensitive to them** — ~을 쉽게 견딘다 / ~에 민감하다. 두 대상의 반응을 대구로 대비할 때. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: The direct path tolerates large files easily; the proxy path is sensitive to them.
+- **real at that scale** — 그 규모에서 실제로 문제가 되는. 위임할 때 지적의 기준을 정한다. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: Only report something that is real at that scale.
+- **Context that bounds the cost:** — 비용의 상한을 정하는 맥락. 리뷰어에게 규모를 먼저 알릴 때. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: Context that bounds the cost: the group holds at most 20 measurements.
+- **I would not change it, but (X) would be cleaner if the file is touched again.** — 지금 바꿀 정도는 아니지만, 다음에 손댈 때는 X 가 낫다. 부드러운 리뷰 제안. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: I would not change it, but a plain `push` would be cleaner if the file is touched again.
+- **That is inherent to (the highlight).** — 그건 (기능에) 본래 따르는 것이다. 피할 수 없는 비용이라고 판정할 때. [→ daily](../../daily/2026-10-28/new-expressions.md)
+  - 예: The row list re-renders on each click, but that is inherent to the highlight.
