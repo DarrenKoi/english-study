@@ -1102,3 +1102,17 @@
   - 예: I would not change it, but a plain `push` would be cleaner if the file is touched again.
 - **not worth hoisting** — (반복 계산을) 밖으로 빼낼 가치가 없다. hoist = 루프 밖으로 끌어올리다. [→ daily](../../daily/2026-10-28/new-expressions.md)
   - 예: The key compare appears three times per row, but it is a string compare and not worth hoisting.
+- **high on (the duplication), low on (value)** — (중복이라는 점은) 확실하지만 (고칠 가치는) 낮다. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: Confidence: high on the duplication, low on value.
+- **only worth it if (X) moves somewhere neutral** — X 가 중립적인 곳으로 옮겨질 때만 할 가치가 있다. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: It is a cross-domain import from an AFM module; only worth it if `summaryNumber` moves somewhere neutral.
+- **where the evidence was thin** — 근거가 빈약했던 곳. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: Report anything where the evidence was thin.
+- **If you find yourself wanting one, stop and report.** — 그게 필요해진다 싶으면 멈추고 보고해라. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: No backend, contract or provider change. If you find yourself wanting one, stop and report.
+- **Write as little as possible** — 가능한 한 적게 써라. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: Write as little as possible: reuse existing helpers; no speculative options.
+- **(exactly the one file) the brief named** — 지시서(brief)에 적힌 바로 그 파일 하나. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: The approval is exactly the one file the brief named; approving.
+- **(the file check) just raced the write** — (파일 확인이) 쓰기와 경합했을 뿐이다. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: It was written; the file check just raced the write.

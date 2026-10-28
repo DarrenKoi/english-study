@@ -2398,3 +2398,41 @@
   - 예: I would not change it, but a plain `push` would be cleaner if the file is touched again.
 - **That is inherent to (the highlight).** — 그건 (기능에) 본래 따르는 것이다. 피할 수 없는 비용이라고 판정할 때. [→ daily](../../daily/2026-10-28/new-expressions.md)
   - 예: The row list re-renders on each click, but that is inherent to the highlight.
+- **Why (X) is shaped the way it is** — X 가 왜 지금 같은 모양이 되었는가. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: Why `direct_downloader.FtpFleetDownloader` and its proxy twin are shaped the way they are.
+- **(the sets) agree today only because (three different inputs) happen to coincide** — (세 집합이) 지금 일치하는 건 서로 다른 입력 셋이 우연히 겹쳤기 때문일 뿐이다. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: The sets agree today only because three different inputs happen to coincide.
+- **a deliberate-scope call** — 범위를 의도적으로 정해야 하는 판단. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: Two tests in `scaleLabel.test.ts` pin those cases, so it is a deliberate-scope call.
+- **high on (the duplication), low on (value)** — (중복이라는 점은) 확실하지만 (고칠 가치는) 낮다. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: Confidence: high on the duplication, low on value.
+- **treat it as a question rather than a mechanical cleanup** — 기계적인 정리가 아니라 질문으로 다뤄라. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: It needs a decision on which is intended, so treat it as a question rather than a mechanical cleanup.
+- **Each comment documents its own rule; neither mentions the other.** — 주석마다 자기 규칙을 적어 두었고, 어느 쪽도 다른 쪽을 언급하지 않는다. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: Each comment documents its own rule; neither mentions the other.
+- **(X) that (msrRows.ts) says lives in one place** — msrRows.ts 가 한 곳에만 있다고 밝힌 (규칙). [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: It is a second copy of the "measured values of a parameter" rule that `msrRows.ts` says lives in one place.
+- **only worth it if (X) moves somewhere neutral** — X 가 중립적인 곳으로 옮겨질 때만 할 가치가 있다. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: It is a cross-domain import from an AFM module; only worth it if `summaryNumber` moves somewhere neutral.
+- **The output feeds the decision (X).** — 이 결과물은 (X 라는) 결정의 입력이 된다. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: The output feeds the decision "what do we teach in Builder and in Guide".
+- **how much of it survives when you strip out (X)** — X 를 걷어 내면 그중 얼마나 살아남는가. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: For each source, judge how much of it survives when you strip out the vendor's own product.
+- **Follow each claim to the page that owns it.** — 주장마다 그것을 책임지는 원래 페이지까지 따라가라. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: Not blog summaries or listicles. Follow each claim to the page that owns it.
+- **Mark your own judgments clearly as judgment, separate from what the source states.** — 자기 판단은 판단이라고 분명히 표시하고, 출처가 말한 것과 분리하라. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: Mark your own judgments clearly as judgment, separate from what the source states.
+- **If a number is not stated, write (X) — do not estimate.** — 숫자가 명시돼 있지 않으면 X 라고 적어라. 추정하지 마라. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: If a number is not stated on the source page, write "not stated" — do not estimate.
+- **where the evidence was thin** — 근거가 빈약했던 곳. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: Report anything where the evidence was thin.
+- **label it so it cannot be read as the same quantity** — 같은 양으로 읽히지 않도록 이름을 붙여라. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: Where a backend summary value must still be shown, label it so it cannot be read as the same quantity.
+- **If you find yourself wanting one, stop and report.** — 그게 필요해진다 싶으면 멈추고 보고해라. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: No backend, contract or provider change. If you find yourself wanting one, stop and report.
+- **Write as little as possible** — 가능한 한 적게 써라. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: Write as little as possible: reuse existing helpers; no speculative options.
+- **every ambiguity and how you resolve(d) it** — 애매했던 모든 점과 그것을 어떻게 정리했는지. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: Report every ambiguity and how you resolved it.
+- **(exactly the one file) the brief named** — 지시서(brief)에 적힌 바로 그 파일 하나. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: The approval is exactly the one file the brief named; approving.

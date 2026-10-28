@@ -2050,3 +2050,17 @@
   - 예: Flag closures that keep large payloads alive after the page no longer needs them.
 - **not worth hoisting** — (반복 계산을) 밖으로 빼낼 가치가 없다. hoist = 루프 밖으로 끌어올리다. [→ daily](../../daily/2026-10-28/new-expressions.md)
   - 예: The key compare appears three times per row, but it is a string compare and not worth hoisting.
+- **Why (X) is shaped the way it is** — X 가 왜 지금 같은 모양이 되었는가. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: Why `direct_downloader.FtpFleetDownloader` and its proxy twin are shaped the way they are.
+- **(an offline tool) is abandoned in seconds** — (꺼진 장비는) 몇 초 만에 포기된다. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: `connect_timeout` bounds every blocking socket op, so an offline tool is abandoned in seconds.
+- **(the sets) agree today only because (three different inputs) happen to coincide** — (세 집합이) 지금 일치하는 건 서로 다른 입력 셋이 우연히 겹쳤기 때문일 뿐이다. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: The sets agree today only because three different inputs happen to coincide.
+- **hand-threaded through four layers** — 네 계층에 걸쳐 손으로 꿰어 전달된. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: A new URL param is hand-threaded through four layers.
+- **(X) that (msrRows.ts) says lives in one place** — msrRows.ts 가 한 곳에만 있다고 밝힌 (규칙). [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: It is a second copy of the "measured values of a parameter" rule that `msrRows.ts` says lives in one place.
+- **label it so it cannot be read as the same quantity** — 같은 양으로 읽히지 않도록 이름을 붙여라. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: Where a backend summary value must still be shown, label it so it cannot be read as the same quantity.
+- **(the file check) just raced the write** — (파일 확인이) 쓰기와 경합했을 뿐이다. [→ daily](../../daily/2026-10-29/new-expressions.md)
+  - 예: It was written; the file check just raced the write.
