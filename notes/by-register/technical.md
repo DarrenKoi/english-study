@@ -2064,3 +2064,29 @@
   - 예: Where a backend summary value must still be shown, label it so it cannot be read as the same quantity.
 - **(the file check) just raced the write** — (파일 확인이) 쓰기와 경합했을 뿐이다. [→ daily](../../daily/2026-10-29/new-expressions.md)
   - 예: It was written; the file check just raced the write.
+- **user-confirmed (2026-08-21)** — 사용자가 확인함(날짜). [→ daily](../../daily/2026-10-30/new-expressions.md)
+  - 예: The align image is a single `IMAP{p:04d}.jpeg`, just as on CD-SEM (user-confirmed 2026-08-21).
+- **user-noted** — 사용자가 언급함(확인된 사실은 아님). [→ daily](../../daily/2026-10-30/new-expressions.md)
+  - 예: These key names may change as the office parser reads more of the raw data (user-noted 2026-07-30).
+- **targeting sub-position** — (측정 대상을 겨누는) 하위 위치. [→ daily](../../daily/2026-10-30/new-expressions.md)
+  - 예: HV-SEM splits one measurement slot into several files, one per targeting sub-position.
+- **4-digit zero padding** — 네 자리 0 채우기. [→ daily](../../daily/2026-10-30/new-expressions.md)
+  - 예: Point numbers are zero-padded to four digits, so P.No 1 becomes `ENAP0001`.
+- **firewalled / firewall-free** — 방화벽에 막힌 / 방화벽이 없는. [→ daily](../../daily/2026-10-30/new-expressions.md)
+  - 예: The client PC is firewalled, so it reaches the FTP servers through a proxy on a firewall-free host.
+- **each doc stamped (minio_key)** — 각 문서에 (minio_key 를) 찍어 둠. [→ daily](../../daily/2026-10-30/new-expressions.md)
+  - 예: Each OpenSearch doc is stamped with the `minio_key` of its raw source.
+- **(bytes released)** — (처리 후) 바이트를 놓아줌. [→ daily](../../daily/2026-10-30/new-expressions.md)
+  - 예: Once the doc is indexed, the bytes are released, so peak RAM stays at concurrency times file size.
+- **systemic failure** — 구조적(전면적) 실패. [→ daily](../../daily/2026-10-30/new-expressions.md)
+  - 예: `raise RuntimeError(f"systemic failure: ok={report.ok} ng={report.ng}")`
+- **re-export hub** — 재노출 허브(하위 이름을 모아 다시 내보내는 곳). [→ daily](../../daily/2026-10-30/new-expressions.md)
+  - 예: Each subpackage is a re-export hub, so callers import leaf names from the package itself.
+- **copy-out** — 밖으로 복사해 단독 사용(하는 방식). [→ daily](../../daily/2026-10-30/new-expressions.md)
+  - 예: For a copy-out, drop these four files flat on the client PC and import them by bare name.
+- **in-process registry** — 프로세스 내부(메모리) 레지스트리. [→ daily](../../daily/2026-10-30/new-expressions.md)
+  - 예: The registry is in-process, so a status poll may hit a worker that never saw the job.
+- **cond sidecar** — 곁따르는 cond 파일(이미지 옆의 부속 파일). [→ daily](../../daily/2026-10-30/new-expressions.md)
+  - 예: The cond sidecar is per file, not per slot: `.IMMS0001-U.jpeg/cond.txt`.
+- **covered by a tracked contract test** — 추적되는 계약 테스트로 덮는다. [→ daily](../../daily/2026-10-30/new-expressions.md)
+  - 예: The mock does not produce NaNs, but the adapter tolerates them, and that path is covered by a tracked contract test.

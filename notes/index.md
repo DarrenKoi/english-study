@@ -1,6 +1,7 @@
 # 표현 인덱스
 
 알파벳 순. 각 표현 → 처음 수집된 daily 링크.
+- [4-digit zero padding](daily/2026-10-30/new-expressions.md) — 2026-10-30
 - [(only matters if you used these)](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [(such a row) may land out of place](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [(the cards) drop below (the description)](daily/2026-10-23/new-expressions.md) — 2026-10-23
@@ -424,6 +425,7 @@
 - [by the litmus test](daily/2026-08-09/new-expressions.md) — 2026-08-09
 - [byte for byte](daily/2026-09-08/new-expressions.md) — 2026-09-08
 - [byte-identical](daily/2026-06-23/new-expressions.md) — 2026-06-23
+- [(bytes released)](daily/2026-10-30/new-expressions.md) — 2026-10-30
 - [calibration-fragile ↔ calibration-light](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [call it out](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [call it out / surface it](daily/2026-06-17/new-expressions.md) — 2026-06-17
@@ -511,6 +513,7 @@
 - [concede plainly](daily/2026-08-17/new-expressions.md) — 2026-08-17
 - [conceded, and it's the finding that mattered](daily/2026-08-27/new-expressions.md) — 2026-08-27
 - [concrete cost](daily/2026-10-16/new-expressions.md) — 2026-10-16
+- [cond sidecar](daily/2026-10-30/new-expressions.md) — 2026-10-30
 - [conditional on two points](daily/2026-09-15/new-expressions.md) — 2026-09-15
 - [confirm or overrule](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [confirm the semantics really match](daily/2026-10-16/new-expressions.md) — 2026-10-16
@@ -527,6 +530,7 @@
 - [converge confidently wrong](daily/2026-08-29/new-expressions.md) — 2026-08-29
 - [converged (the design)](daily/2026-06-18/new-expressions.md) — 2026-06-18
 - [copy what engineers already trust before inventing a view](daily/2026-09-29/new-expressions.md) — 2026-09-29
+- [copy-out](daily/2026-10-30/new-expressions.md) — 2026-10-30
 - [correct by design](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [correct on the headline laws](daily/2026-08-19/new-expressions.md) — 2026-08-19
 - [Correctness comes from A — not from B](daily/2026-08-16/new-expressions.md) — 2026-08-16
@@ -543,6 +547,7 @@
 - [couples to (two features)](daily/2026-10-13/new-expressions.md) — 2026-10-13
 - [course-correction(s)](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [Coverage is uneven.](daily/2026-10-15/new-expressions.md) — 2026-10-15
+- [covered by a tracked contract test](daily/2026-10-30/new-expressions.md) — 2026-10-30
 - [create X lazily — only when needed](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [Credentials travel with the spec.](daily/2026-10-27/new-expressions.md) — 2026-10-27
 - [creep in (crept in)](daily/2026-07-13/new-expressions.md) — 2026-07-13
@@ -675,6 +680,7 @@
 - [dwell](daily/2026-08-25/new-expressions.md) — 2026-08-25
 - [each carrying their own sizing rule](daily/2026-09-14/new-expressions.md) — 2026-09-14
 - [Each comment documents its own rule; neither mentions the other.](daily/2026-10-29/new-expressions.md) — 2026-10-29
+- [each doc stamped (minio_key)](daily/2026-10-30/new-expressions.md) — 2026-10-30
 - [each hop / hopping among (screens)](daily/2026-07-17/new-expressions.md) — 2026-07-17
 - [Each needs its situation to occur.](daily/2026-09-08/new-expressions.md) — 2026-09-08
 - [each one reproduces](daily/2026-09-20/new-expressions.md) — 2026-09-20
@@ -752,6 +758,7 @@
 - [Finding 1 is valid](daily/2026-10-22/new-expressions.md) — 2026-10-22
 - [Finding facts is your job, never the user's.](daily/2026-10-08/new-expressions.md) — 2026-10-08
 - [fire-and-forget](daily/2026-07-09/new-expressions.md) — 2026-07-09
+- [firewalled / firewall-free](daily/2026-10-30/new-expressions.md) — 2026-10-30
 - [fits naturally with (X)](daily/2026-10-26/new-expressions.md) — 2026-10-26
 - [fires four live requests](daily/2026-10-05/new-expressions.md) — 2026-10-05
 - [First the blunt part:](daily/2026-09-17/new-expressions.md) — 2026-09-17
@@ -998,6 +1005,7 @@
 - [in-flight](daily/2026-07-18/new-expressions.md) — 2026-07-18
 - [ingest (X) and turn it into (Y)](daily/2026-06-28/new-expressions.md) — 2026-06-28
 - [inherited, not introduced](daily/2026-08-17/new-expressions.md) — 2026-08-17
+- [in-process registry](daily/2026-10-30/new-expressions.md) — 2026-10-30
 - [inside run-to-run noise](daily/2026-08-07/new-expressions.md) — 2026-08-07
 - [Inspect before waiting.](daily/2026-08-10/new-expressions.md) — 2026-08-10
 - [instead of racing the hotkey](daily/2026-10-01/new-expressions.md) — 2026-10-01
@@ -1602,6 +1610,7 @@
 - [red-capable](daily/2026-10-17/new-expressions.md) — 2026-10-17
 - [redirect here first](daily/2026-06-23/new-expressions.md) — 2026-06-23
 - [rediscover each bug one incident at a time](daily/2026-09-19/new-expressions.md) — 2026-09-19
+- [re-export hub](daily/2026-10-30/new-expressions.md) — 2026-10-30
 - [reference, not restate](daily/2026-08-11/new-expressions.md) — 2026-08-11
 - [reflects the remote as it is now](daily/2026-10-05/new-expressions.md) — 2026-10-05
 - [reframe (the whole thing)](daily/2026-06-29/new-expressions.md) — 2026-06-29
@@ -1726,6 +1735,7 @@
 - [Should the contract carry … instead?](daily/2026-10-06/new-expressions.md) — 2026-10-06
 - [shrink the hypothesis space](daily/2026-09-01/new-expressions.md) — 2026-09-01
 - [shrink the repro](daily/2026-10-17/new-expressions.md) — 2026-10-17
+- [side-by-side](daily/2026-10-30/new-expressions.md) — 2026-10-30
 - [side-effect-runs](daily/2026-09-03/new-expressions.md) — 2026-09-03
 - [sidestep](daily/2026-08-04/new-expressions.md) — 2026-08-04
 - [signposting](daily/2026-07-24/new-expressions.md) — 2026-07-24
@@ -1881,6 +1891,7 @@
 - [sweep in](daily/2026-07-20/new-expressions.md) — 2026-07-20
 - [sweep up (unrelated WIP)](daily/2026-07-04/new-expressions.md) — 2026-07-04
 - [systematically overstate generalization](daily/2026-08-30/new-expressions.md) — 2026-08-30
+- [systemic failure](daily/2026-10-30/new-expressions.md) — 2026-10-30
 - [Tail for a follow-up](daily/2026-08-31/new-expressions.md) — 2026-08-31
 - [take its clock from one injectable place](daily/2026-10-06/new-expressions.md) — 2026-10-06
 - [take on](daily/2026-10-02/new-expressions.md) — 2026-10-02
@@ -1892,6 +1903,7 @@
 - [take your hands off](daily/2026-09-30/new-expressions.md) — 2026-09-30
 - [Taking that as: …](daily/2026-09-20/new-expressions.md) — 2026-09-20
 - [targeted the wrong thing](daily/2026-09-28/new-expressions.md) — 2026-09-28
+- [targeting sub-position](daily/2026-10-30/new-expressions.md) — 2026-10-30
 - [tautological (test)](daily/2026-08-15/new-expressions.md) — 2026-08-15
 - [teach a relationship the data does not have](daily/2026-08-06/new-expressions.md) — 2026-08-06
 - [tear down](daily/2026-08-05/new-expressions.md) — 2026-08-05
@@ -2276,6 +2288,8 @@
 - [upgrade-only (it must never downgrade)](daily/2026-06-30/new-expressions.md) — 2026-06-30
 - [used to double as](daily/2026-09-14/new-expressions.md) — 2026-09-14
 - [used with restraint](daily/2026-10-10/new-expressions.md) — 2026-10-10
+- [user-confirmed (2026-08-21)](daily/2026-10-30/new-expressions.md) — 2026-10-30
+- [user-noted](daily/2026-10-30/new-expressions.md) — 2026-10-30
 - [vacuous (a vacuous test)](daily/2026-07-14/new-expressions.md) — 2026-07-14
 - [Value is in the tail, not the happy path.](daily/2026-09-16/new-expressions.md) — 2026-09-16
 - [vendor (a package)](daily/2026-07-27/new-expressions.md) — 2026-07-27

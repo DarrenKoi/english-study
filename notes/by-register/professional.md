@@ -2436,3 +2436,11 @@
   - 예: Report every ambiguity and how you resolved it.
 - **(exactly the one file) the brief named** — 지시서(brief)에 적힌 바로 그 파일 하나. [→ daily](../../daily/2026-10-29/new-expressions.md)
   - 예: The approval is exactly the one file the brief named; approving.
+- **user-confirmed (2026-08-21)** — 사용자가 확인함(날짜). [→ daily](../../daily/2026-10-30/new-expressions.md)
+  - 예: The align image is a single `IMAP{p:04d}.jpeg`, just as on CD-SEM (user-confirmed 2026-08-21).
+- **user-noted** — 사용자가 언급함(확인된 사실은 아님). [→ daily](../../daily/2026-10-30/new-expressions.md)
+  - 예: These key names may change as the office parser reads more of the raw data (user-noted 2026-07-30).
+- **side-by-side** — 나란히(놓고). [→ daily](../../daily/2026-10-30/new-expressions.md)
+  - 예: Place the OM and SEM images side by side and draw each with its own cond.
+- **systemic failure** — 구조적(전면적) 실패. [→ daily](../../daily/2026-10-30/new-expressions.md)
+  - 예: `raise RuntimeError(f"systemic failure: ok={report.ok} ng={report.ng}")`

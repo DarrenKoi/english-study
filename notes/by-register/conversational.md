@@ -1116,3 +1116,5 @@
   - 예: The approval is exactly the one file the brief named; approving.
 - **(the file check) just raced the write** — (파일 확인이) 쓰기와 경합했을 뿐이다. [→ daily](../../daily/2026-10-29/new-expressions.md)
   - 예: It was written; the file check just raced the write.
+- **side-by-side** — 나란히(놓고). [→ daily](../../daily/2026-10-30/new-expressions.md)
+  - 예: Place the OM and SEM images side by side and draw each with its own cond.
