@@ -2,8 +2,23 @@
 
 알파벳 순. 각 표현 → 처음 수집된 daily 링크.
 - [4-digit zero padding](daily/2026-10-30/new-expressions.md) — 2026-10-30
+- [Agreement is high-signal.](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [Bias to deletion](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [Both are true but read as a contradiction.](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [checked by DOM only, not by eye](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [gnarly (concurrency)](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [Green is not safe.](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [has no design fork](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [in case you pick it up later](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [It is illustrative, like X elsewhere on the page](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [Never hand the human a check you could run.](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [No is an acceptable answer.](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [(one thing users) would trip on](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [(only matters if you used these)](daily/2026-10-25/new-expressions.md) — 2026-10-25
+- [only when the new work strictly needs ...](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [Say so if you want it reworded](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [(such a row) may land out of place](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [(the behaviour) is inferred from the shared route code](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [(the cards) drop below (the description)](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [404 blames the file, 503 blames the tool or network](daily/2026-10-07/new-expressions.md) — 2026-10-07
 - [(64 sender threads) pile up](daily/2026-10-12/new-expressions.md) — 2026-10-12
@@ -819,6 +834,11 @@
 - [go away with (the new version)](daily/2026-09-18/new-expressions.md) — 2026-09-18
 - [Go direct, not through the proxy](daily/2026-09-05/new-expressions.md) — 2026-09-05
 - [go live](daily/2026-09-21/new-expressions.md) — 2026-09-21
+- [(the endpoints) are exempt from the rate limit](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [The real gap is that ...](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [the same prompt against a different model](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [(the server) behaves exactly as before](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [to the letter](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [(tools) go offline routinely](daily/2026-10-27/new-expressions.md) — 2026-10-27
 - [go one step further](daily/2026-10-03/new-expressions.md) — 2026-10-03
 - [go stale](daily/2026-07-18/new-expressions.md) — 2026-07-18
@@ -1175,14 +1195,18 @@
 - [the group's presence is the flag](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [treat it as a question rather than a mechanical cleanup](daily/2026-10-29/new-expressions.md) — 2026-10-29
 - [trivially cheap](daily/2026-10-25/new-expressions.md) — 2026-10-25
+- [turned X into Y](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [under-determined](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [verified by reading only](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [volume hubris](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [Want me to fix it anyway?](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [(a failed request) looked like "no data"](daily/2026-10-26/new-expressions.md) — 2026-10-26
+- [want X precomputed](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [where the evidence was thin](daily/2026-10-29/new-expressions.md) — 2026-10-29
+- [Where your brief was off](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [Why (X) is shaped the way it is](daily/2026-10-29/new-expressions.md) — 2026-10-29
 - [wiring it into (HardwareView)](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [with consolidated scope](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [would be rejected rather than applied](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [would have charged every … a …](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [Write as little as possible](daily/2026-10-29/new-expressions.md) — 2026-10-29

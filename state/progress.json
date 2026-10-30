@@ -1118,7 +1118,11 @@
     "-Users-daeyoung-Codes-bulk-recipe-copy/87a47375-d6ea-4a6b-a35c-927e8e431d4d.jsonl": 9,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/49197ea2-ee7e-4667-9b16-8dbf77fdcae8.jsonl": 14,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/fb03aeee-2be1-4b37-b1fa-893995ce9bfa.jsonl": 14,
-    "-Users-daeyoung-Codes-english-study/23213c1b-44ab-479a-a6fd-54ae504fc519.jsonl": 270
+    "-Users-daeyoung-Codes-english-study/23213c1b-44ab-479a-a6fd-54ae504fc519.jsonl": 270,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/d5f5ede9-5945-497c-aaec-05d52f7c5388.jsonl": 225,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/466cd9af-a4c1-495d-91d4-cdf101366743/subagents/agent-ae4a2a7efb6f4e470.jsonl": 65,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/466cd9af-a4c1-495d-91d4-cdf101366743/subagents/agent-aec35a866c5bbc743.jsonl": 104,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/eeafaf6d-f121-4d69-afee-e196d086e850/subagents/agent-abc1a48c0fec7ce3c.jsonl": 27
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1154,13 +1158,13 @@
     "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-10-production-trust-consensus-cache-and-decision-layer.md": "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-10-production-trust-consensus-cache-and-decision-layer.md:1781881273.6334097:11068",
     "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-10-consensus-gather-in-loop.md": "auto_recipe_creator/poc/workflow_2/docs/superpowers/plans/2026-06-10-consensus-gather-in-loop.md:1781881273.6328495:33577",
     "auto_recipe_creator/poc/workflow_2/docs/study/runbooks/golden_combined_office_runbook.md": "auto_recipe_creator/poc/workflow_2/docs/study/runbooks/golden_combined_office_runbook.md:1789250965.4882884:6875",
-    "auto_recipe_creator/docs/project_progress/README.md": "auto_recipe_creator/docs/project_progress/README.md:1788993571.3190322:5968",
+    "auto_recipe_creator/docs/project_progress/README.md": "auto_recipe_creator/docs/project_progress/README.md:1793323224.131017:6766",
     "auto_recipe_creator/docs/project_progress/05_status_roadmap.md": "auto_recipe_creator/docs/project_progress/05_status_roadmap.md:1782187232.4860828:5851",
-    "auto_recipe_creator/docs/project_progress/04_workflow_3.md": "auto_recipe_creator/docs/project_progress/04_workflow_3.md:1788993571.3133967:24810",
+    "auto_recipe_creator/docs/project_progress/04_workflow_3.md": "auto_recipe_creator/docs/project_progress/04_workflow_3.md:1793323224.0838156:38099",
     "auto_recipe_creator/docs/project_progress/03_workflow_2.md": "auto_recipe_creator/docs/project_progress/03_workflow_2.md:1788993571.3122807:14743",
     "auto_recipe_creator/docs/project_progress/02_workflow_1.md": "auto_recipe_creator/docs/project_progress/02_workflow_1.md:1788993571.3102062:5115",
-    "auto_recipe_creator/docs/project_progress/01_vlm_deployment.md": "auto_recipe_creator/docs/project_progress/01_vlm_deployment.md:1788993571.3094711:5988",
-    "auto_recipe_creator/docs/project_progress/00_executive_summary.md": "auto_recipe_creator/docs/project_progress/00_executive_summary.md:1788993571.3081455:13370",
+    "auto_recipe_creator/docs/project_progress/01_vlm_deployment.md": "auto_recipe_creator/docs/project_progress/01_vlm_deployment.md:1793323224.1023662:17027",
+    "auto_recipe_creator/docs/project_progress/00_executive_summary.md": "auto_recipe_creator/docs/project_progress/00_executive_summary.md:1793323224.1175246:17578",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-switcher-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-switcher-design.md:1781811112.0144095:7541",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-comparison-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-comparison-design.md:1781811112.014338:10951",
     "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-compare-refinements-design.md": "skewnono_v3_nuxt/docs/superpowers/specs/2026-06-14-recipe-compare-refinements-design.md:1781811112.0142772:7396",
@@ -1367,7 +1371,7 @@
     "flask_modules/ftp_handler/docs/adr/ftp_fleet_downloader.md": "flask_modules/ftp_handler/docs/adr/ftp_fleet_downloader.md:1793064762.8860867:7511",
     "flask_modules/minio_handler/docs/usage.md": "flask_modules/minio_handler/docs/usage.md:1785894433.9292839:20243",
     "flask_modules/ftp_handler/docs/guides/summary.md": "flask_modules/ftp_handler/docs/guides/summary.md:1793005956.5119028:7065",
-    "flask_modules/ftp_handler/docs/guides/usage.md": "flask_modules/ftp_handler/docs/guides/usage.md:1793141211.0667174:28251",
+    "flask_modules/ftp_handler/docs/guides/usage.md": "flask_modules/ftp_handler/docs/guides/usage.md:1793219745.7928433:30326",
     "skewnono_v3_nuxt/docs/datatables/recipe_idp.txt": "skewnono_v3_nuxt/docs/datatables/recipe_idp.txt:1787351219.1697772:63279",
     "pm_notes/docs/superpowers/plans/2026-07-28-ai-terms-html-reader.md": "pm_notes/docs/superpowers/plans/2026-07-28-ai-terms-html-reader.md:1791182032.3177047:31257",
     "pm_notes/docs/superpowers/specs/2026-07-28-ai-terms-html-reader-design.md": "pm_notes/docs/superpowers/specs/2026-07-28-ai-terms-html-reader-design.md:1791182032.318329:10672",
@@ -1524,7 +1528,7 @@
     "skewnono_v3_nuxt/docs/datatables/hitachi/skewnono_logging.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/skewnono_logging.txt:1791939075.9561617:16061",
     "skewnono_v3_nuxt/docs/datatables/hitachi/skewnono_chat_logging.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/skewnono_chat_logging.txt:1787483776.6619503:5144",
     "skewnono_v3_nuxt/docs/datatables/hitachi/sem_list.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/sem_list.txt:1792716298.6616492:8702",
-    "skewnono_v3_nuxt/docs/datatables/hitachi/recipe_idp.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/recipe_idp.txt:1793257149.1947293:78040",
+    "skewnono_v3_nuxt/docs/datatables/hitachi/recipe_idp.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/recipe_idp.txt:1793322461.825362:78660",
     "skewnono_v3_nuxt/docs/datatables/hitachi/planstep_r3.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/planstep_r3.txt:1793086274.0974066:21439",
     "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-08-28-search-around-zoomout-grid-design.md": "auto_recipe_creator/poc/workflow_3/docs/superpowers/specs/2026-08-28-search-around-zoomout-grid-design.md:1789705957.2402158:12364",
     "auto_recipe_creator/docs/opencode/2026-08-28-search-around-zoomout-grid-debate.md": "auto_recipe_creator/docs/opencode/2026-08-28-search-around-zoomout-grid-debate.md:1787919317.858681:9263",
@@ -1743,7 +1747,7 @@
     "bulk_recipe_copy/docs/tickets/03-source-browse.md": "bulk_recipe_copy/docs/tickets/03-source-browse.md:1792279504.4387872:1950",
     "bulk_recipe_copy/docs/tickets/01-app-skeleton.md": "bulk_recipe_copy/docs/tickets/01-app-skeleton.md:1792278892.6221128:2389",
     "bulk_recipe_copy/docs/tickets/02-ftpclient-overwrite-mkdir.md": "bulk_recipe_copy/docs/tickets/02-ftpclient-overwrite-mkdir.md:1792278534.9329064:1107",
-    "bulk_recipe_copy/docs/tickets/README.md": "bulk_recipe_copy/docs/tickets/README.md:1792278230.9709377:1224",
+    "bulk_recipe_copy/docs/tickets/README.md": "bulk_recipe_copy/docs/tickets/README.md:1793219857.437885:1257",
     "bulk_recipe_copy/docs/tickets/14-office-first-run.md": "bulk_recipe_copy/docs/tickets/14-office-first-run.md:1793082899.6818326:852",
     "bulk_recipe_copy/docs/tickets/13-recipe-list-command.md": "bulk_recipe_copy/docs/tickets/13-recipe-list-command.md:1792278230.970781:578",
     "bulk_recipe_copy/docs/office/to-office-recipe-copy-261018.md": "bulk_recipe_copy/docs/office/to-office-recipe-copy-261018.md:1792277409.8352034:10288",
@@ -1755,7 +1759,7 @@
     "bulk_recipe_copy/ftp_handler/docs/adr/0001-proxy-batch-sizing.md": "bulk_recipe_copy/ftp_handler/docs/adr/0001-proxy-batch-sizing.md:1793142085.2105677:3355",
     "bulk_recipe_copy/ftp_handler/docs/journals/260527/260527_075101-ftp-handler-airflow-proxy-import-cleanup.md": "bulk_recipe_copy/ftp_handler/docs/journals/260527/260527_075101-ftp-handler-airflow-proxy-import-cleanup.md:1792275139.0:4181",
     "bulk_recipe_copy/ftp_handler/docs/journals/260527/260527_083325_ftp-handler-restructure-and-web-runner.md": "bulk_recipe_copy/ftp_handler/docs/journals/260527/260527_083325_ftp-handler-restructure-and-web-runner.md:1792275139.0:7015",
-    "bulk_recipe_copy/ftp_handler/docs/guides/summary.md": "bulk_recipe_copy/ftp_handler/docs/guides/summary.md:1793142085.2111092:7370",
+    "bulk_recipe_copy/ftp_handler/docs/guides/summary.md": "bulk_recipe_copy/ftp_handler/docs/guides/summary.md:1793219857.4384928:7431",
     "bulk_recipe_copy/ftp_handler/docs/guides/usage.md": "bulk_recipe_copy/ftp_handler/docs/guides/usage.md:1793219857.4387352:30326",
     "bulk_recipe_copy/docs/design/skewnono-ftp-adr-0001-proxy-batch-sizing.md": "bulk_recipe_copy/docs/design/skewnono-ftp-adr-0001-proxy-batch-sizing.md:1792275032.4566114:3349",
     "bulk_recipe_copy/docs/datatables/hitachi/sem_list.txt": "bulk_recipe_copy/docs/datatables/hitachi/sem_list.txt:1792275032.4547482:8422",
@@ -1782,7 +1786,9 @@
     "skewnono_v3_nuxt/docs/measurement-box/approach.md": "skewnono_v3_nuxt/docs/measurement-box/approach.md:1793249994.1454852:13087",
     "bulk_recipe_copy/docs/design/ops-261027.md": "bulk_recipe_copy/docs/design/ops-261027.md:1793161405.2420223:8715",
     "skewnono_v3_nuxt/docs/measurement-box/office-replies.md": "skewnono_v3_nuxt/docs/measurement-box/office-replies.md:1793257785.945542:15603",
-    "skewnono_v3_nuxt/docs/measurement-box/to-office-meas-marks.md": "skewnono_v3_nuxt/docs/measurement-box/to-office-meas-marks.md:1793248703.7009065:7988"
+    "skewnono_v3_nuxt/docs/measurement-box/to-office-meas-marks.md": "skewnono_v3_nuxt/docs/measurement-box/to-office-meas-marks.md:1793248703.7009065:7988",
+    "auto_recipe_creator/docs/project_progress/06_headless_recipe_injection.md": "auto_recipe_creator/docs/project_progress/06_headless_recipe_injection.md:1793320775.4400954:5717",
+    "auto_recipe_creator/docs/study/2026-10-30-jev-computer-use-feasibility.md": "auto_recipe_creator/docs/study/2026-10-30-jev-computer-use-feasibility.md:1793319543.0064683:17787"
   },
-  "last_run": "2026-10-30"
+  "last_run": "2026-10-31"
 }

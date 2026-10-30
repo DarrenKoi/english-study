@@ -1118,3 +1118,11 @@
   - 예: It was written; the file check just raced the write.
 - **side-by-side** — 나란히(놓고). [→ daily](../../daily/2026-10-30/new-expressions.md)
   - 예: Place the OM and SEM images side by side and draw each with its own cond.
+
+## 2026-10-31
+- **(one thing users) would trip on** — (사용자가) 걸려 넘어질 만한 것. 함정을 미리 짚는다. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: One thing users would trip on: AFM filenames contain `#`, so a script must percent-encode them.
+- **in case you pick it up later** — 나중에 다시 이어서 할 경우를 대비해. in case 뒤는 현재형. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: I'm keeping the diff as a patch in case you pick it up later.
+- **gnarly (concurrency)** — 고약하게 꼬인(동시성 문제). 개발자 구어. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: The hardest changes, like gnarly concurrency, go to your strongest model.

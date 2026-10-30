@@ -2090,3 +2090,21 @@
   - 예: The cond sidecar is per file, not per slot: `.IMMS0001-U.jpeg/cond.txt`.
 - **covered by a tracked contract test** — 추적되는 계약 테스트로 덮는다. [→ daily](../../daily/2026-10-30/new-expressions.md)
   - 예: The mock does not produce NaNs, but the adapter tolerates them, and that path is covered by a tracked contract test.
+
+## 2026-10-31
+- **(the server) behaves exactly as before** — 전과 똑같이 동작한다. 되돌린 뒤 변화 없음을 확인할 때. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: The rate-limit change is not on `main` and the server behaves exactly as before.
+- **(the endpoints) are exempt from the rate limit** — 요청 제한에서 면제된다. `be exempt from`. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: The `afm` blueprint is exempt from the rate limit, so the description says so.
+- **has no design fork** — 설계상 갈림길이 없다. 설계 검토를 건너뛴 이유. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: I skipped `architect` because the change adds data entries to an existing catalog and has no design fork.
+- **checked by DOM only, not by eye** — DOM 으로만 확인했고 눈으로는 안 봤다. `by + 무관사 명사`. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: The screenshot did not save, so layout is checked by DOM only, not by eye.
+- **(the behaviour) is inferred from the shared route code** — 공유 라우트 코드에서 추론한 것이다. 실측과 추론을 가른다. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: Nothing was run against the office adapter; the office behaviour is inferred from the shared route code.
+- **the same prompt against a different model** — 같은 프롬프트를 다른 모델에 돌리는 것. 교차 검증의 정의. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: A second opinion is the same prompt against a different model.
+- **Green is not safe.** — CI 통과(초록불)가 곧 안전은 아니다. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: Green is not safe; nothing gets armed before an independent per-PR verdict.
+- **Bias to deletion** — 삭제 쪽으로 기울어라. 추가보다 삭제를 먼저 고르는 원칙. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: Bias to deletion and the smallest change that solves the problem.

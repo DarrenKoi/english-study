@@ -2444,3 +2444,31 @@
   - 예: Place the OM and SEM images side by side and draw each with its own cond.
 - **systemic failure** — 구조적(전면적) 실패. [→ daily](../../daily/2026-10-30/new-expressions.md)
   - 예: `raise RuntimeError(f"systemic failure: ok={report.ok} ng={report.ng}")`
+
+## 2026-10-31
+- **The real gap is that ...** — 진짜 빠져 있는 건 ~이다. 요청의 전제를 깬 뒤 진짜 할 일을 세울 때. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: The real gap is that the `/endpoints` reference page has no AFM section, so users cannot discover the endpoints.
+- **Both are true but read as a contradiction.** — 둘 다 사실이지만 모순처럼 읽힌다. `read as` 가 사실과 인상을 가른다. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: The general note says the API is rate-limited and the AFM group says AFM is exempt; both are true but read as a contradiction.
+- **Say so if you want it reworded** — 고치길 원하면 말해 달라. `want + 목적어 + 과거분사`로 결정권을 넘긴다. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: I left the general note alone. Say so if you want it reworded to name the exempt features.
+- **turned X into Y** — (원칙이) 과제를 다른 과제로 바꿔 놓았다. 무생물 주어 구문. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: Laziness Protocol turned "create endpoints" into "document the ones that exist".
+- **It is illustrative, like X elsewhere on the page** — 예시용일 뿐이다, 페이지의 다른 X 처럼. 기존 관례에 기대 질문을 미리 막는다. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: It is illustrative, like `MSR_001` elsewhere on the page, and will not exist on the office server.
+- **want X precomputed** — X 가 미리 계산돼 있기를 원하다. 뒤에 a separate task 로 범위를 자른다. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: If users want the usage numbers precomputed, that is a real new endpoint and a separate task.
+- **Where your brief was off** — 지시서가 어긋났던 부분. wrong 보다 부드러운 보고서 소제목. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: Where your brief was off: the base note says the API is rate-limited, but this group is exempt.
+- **with consolidated scope** — 흩어진 지시를 한데 모아 정리한 범위로. 뒤에 meaning 으로 내용을 푼다. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: Give new work to a fresh subagent with consolidated scope, meaning the original brief and every later directive.
+- **only when the new work strictly needs ...** — 새 작업이 꼭 ~을 필요로 할 때에만. 예외를 아주 좁게 허용하는 규칙문. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: Resume an existing subagent only when the new work strictly needs state that lives in that agent.
+- **to the letter** — 한 치도 어김없이, 글자 그대로. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: It can be a precisely specified sequence of steps to execute to the letter.
+- **No is an acceptable answer.** — 아니라고 답해도 된다. No 를 명사로 주어 자리에 썼다. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: No is an acceptable answer, so reply with your real judgment.
+- **Never hand the human a check you could run.** — 직접 돌려 볼 수 있는 확인을 사람에게 떠넘기지 마라. `hand + 사람 + 사물`. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: Never hand the human a check you could run; run it yourself and report the result.
+- **Agreement is high-signal.** — (독립된 판단끼리) 일치하면 신뢰도가 높다. signal ↔ noise. [→ daily](../../daily/2026-10-31/new-expressions.md)
+  - 예: Run the review on two models; agreement is high-signal.
