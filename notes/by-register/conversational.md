@@ -1126,3 +1126,11 @@
   - 예: I'm keeping the diff as a patch in case you pick it up later.
 - **gnarly (concurrency)** — 고약하게 꼬인(동시성 문제). 개발자 구어. [→ daily](../../daily/2026-10-31/new-expressions.md)
   - 예: The hardest changes, like gnarly concurrency, go to your strongest model.
+- **Copy them when one does.** — 쓰는 화면이 생기면 그때 복사하라. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: No test needs the fixture yet, so add it when one does.
+- **If you're fine publishing them, it's one small commit to add them.** — 공개해도 괜찮다면 추가는 작은 커밋 하나면 된다. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: If you're fine waiting a day, it's one small change to switch the job to nightly.
+- **later can scaffold for itself** — 나중 일은 나중이 알아서 뼈대를 세운다. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: Don't add a plugin system for later; later can scaffold for itself.
+- **no re-arguing** — 다시 따지지 말고. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: Once the team picks an option, we go with it, no re-arguing.

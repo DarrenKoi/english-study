@@ -2472,3 +2472,11 @@
   - 예: Never hand the human a check you could run; run it yourself and report the result.
 - **Agreement is high-signal.** — (독립된 판단끼리) 일치하면 신뢰도가 높다. signal ↔ noise. [→ daily](../../daily/2026-10-31/new-expressions.md)
   - 예: Run the review on two models; agreement is high-signal.
+- **a few small items that may be worth a decision** — 정해 둘 만한 자잘한 항목 몇 개. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: The migration is done; the only gaps are a few small items that may be worth a decision.
+- **more about identity than the shared design** — 공용 디자인이라기보다 정체성(브랜드) 문제에 가깝다. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: The favicon question is more about identity than the shared design, so it's your call.
+- **Rank by payoff; cap at the 10 best.** — 효과가 큰 순으로 정렬하고 상위 10개까지만. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: List the refactor candidates, rank them by payoff, and cap the list at the five best.
+- **Only report what you verified.** — 직접 확인한 것만 보고하라. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: Please only report what you verified; mark anything else as a guess.

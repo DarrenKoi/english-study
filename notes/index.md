@@ -2,20 +2,37 @@
 
 알파벳 순. 각 표현 → 처음 수집된 daily 링크.
 - [4-digit zero padding](daily/2026-10-30/new-expressions.md) — 2026-10-30
+- [a few small items that may be worth a decision](daily/2026-11-01/new-expressions.md) — 2026-11-01
+- [a mock that is tidier than the office is a mock that hides the office's bugs](daily/2026-11-01/new-expressions.md) — 2026-11-01
+- [a stale overlay sends a delegated reviewer at the wrong surfaces](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [Agreement is high-signal.](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [back in sync with](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [Bias to deletion](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [Both are true but read as a contradiction.](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [checked by DOM only, not by eye](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [Copy them when one does.](daily/2026-11-01/new-expressions.md) — 2026-11-01
+- [folded into flat files](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [gnarly (concurrency)](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [Green is not safe.](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [Hardware is never the ideal on paper](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [has no design fork](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [If you're fine publishing them, it's one small commit to add them.](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [in case you pick it up later](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [It is illustrative, like X elsewhere on the page](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [later can scaffold for itself](daily/2026-11-01/new-expressions.md) — 2026-11-01
+- [legitimately exceeds the budget](daily/2026-11-01/new-expressions.md) — 2026-11-01
+- [line for line](daily/2026-11-01/new-expressions.md) — 2026-11-01
+- [more about identity than the shared design](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [Never hand the human a check you could run.](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [Never simplify away](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [No is an acceptable answer.](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [(one thing users) would trip on](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [(only matters if you used these)](daily/2026-10-25/new-expressions.md) — 2026-10-25
+- [no re-arguing](daily/2026-11-01/new-expressions.md) — 2026-11-01
+- [Only report what you verified.](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [only when the new work strictly needs ...](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [Project facts so you don't raise false positives](daily/2026-11-01/new-expressions.md) — 2026-11-01
+- [Rank by payoff; cap at the 10 best.](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [Say so if you want it reworded](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [(such a row) may land out of place](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [(the behaviour) is inferred from the shared route code](daily/2026-10-31/new-expressions.md) — 2026-10-31
@@ -835,9 +852,12 @@
 - [Go direct, not through the proxy](daily/2026-09-05/new-expressions.md) — 2026-09-05
 - [go live](daily/2026-09-21/new-expressions.md) — 2026-09-21
 - [(the endpoints) are exempt from the rate limit](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [the next sync can be a plain diff](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [The real gap is that ...](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [the same prompt against a different model](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [(the server) behaves exactly as before](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [The suite has not rotted — that is where the seconds go.](daily/2026-11-01/new-expressions.md) — 2026-11-01
+- [the whole visual contract](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [to the letter](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [(tools) go offline routinely](daily/2026-10-27/new-expressions.md) — 2026-10-27
 - [go one step further](daily/2026-10-03/new-expressions.md) — 2026-10-03
@@ -1194,6 +1214,7 @@
 - [the contract shape, not the mock's conveniences](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [the group's presence is the flag](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [treat it as a question rather than a mechanical cleanup](daily/2026-10-29/new-expressions.md) — 2026-10-29
+- [trimmed on purpose](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [trivially cheap](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [turned X into Y](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [under-determined](daily/2026-10-25/new-expressions.md) — 2026-10-25
@@ -1207,9 +1228,11 @@
 - [Why (X) is shaped the way it is](daily/2026-10-29/new-expressions.md) — 2026-10-29
 - [wiring it into (HardwareView)](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [with consolidated scope](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [with no backend change](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [would be rejected rather than applied](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [would have charged every … a …](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [Write as little as possible](daily/2026-10-29/new-expressions.md) — 2026-10-29
+- [YAGNI applies to tests too](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [Zero regressions.](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - […, leaving the alert window open](daily/2026-10-16/new-expressions.md) — 2026-10-16
 - [leaving X alone](daily/2026-07-29/new-expressions.md) — 2026-07-29

@@ -2108,3 +2108,33 @@
   - 예: Green is not safe; nothing gets armed before an independent per-PR verdict.
 - **Bias to deletion** — 삭제 쪽으로 기울어라. 추가보다 삭제를 먼저 고르는 원칙. [→ daily](../../daily/2026-10-31/new-expressions.md)
   - 예: Bias to deletion and the smallest change that solves the problem.
+- **line for line** — 한 줄 한 줄 그대로, 줄 단위로 똑같이. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: The vendored copy matches upstream line for line, so we can drop the local patch.
+- **trimmed on purpose** — 일부러 덜어 냈다. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: The config looks shorter than the original because it was trimmed on purpose.
+- **folded into flat files** — 평평한(하위 폴더 없는) 파일들로 접어 넣었다. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: We folded the helper modules into a single flat file rather than keeping the original package layout.
+- **the whole visual contract** — 시각적 약속(계약)의 전부. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: Because colours come from tokens only, the stylesheet is the whole visual contract.
+- **back in sync with** — (원본과) 다시 맞춰졌다. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: After the resync, our copy of the design doc is back in sync with the original.
+- **with no backend change** — 백엔드를 고치지 않고도. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: The new route works with no backend change because Flask already serves everything in dist/.
+- **the next sync can be a plain diff** — 다음 동기화는 그냥 diff 한 번이면 된다. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: Now that both files are identical, the next sync can be a plain diff.
+- **The suite has not rotted — that is where the seconds go.** — 테스트가 망가진 게 아니라 시간이 거기서 드는 것이다. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: The build isn't broken; the image step is just where the minutes go.
+- **a mock that is tidier than the office is a mock that hides the office's bugs** — 실제보다 깔끔한 mock 은 실제 버그를 감추는 mock 이다. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: Keep the nulls in the fixture; a fixture that is tidier than production is a fixture that hides production's bugs.
+- **legitimately exceeds the budget** — 정당하게(정상 사용으로도) 예산을 넘는다. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: One gallery view legitimately exceeds the request budget, so its blueprint is exempt.
+- **a stale overlay sends a delegated reviewer at the wrong surfaces** — 낡은 오버레이는 위임받은 리뷰어를 엉뚱한 곳으로 보낸다. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: An outdated runbook sends the on-call engineer at the wrong dashboard.
+- **Never simplify away** — 단순화한답시고 없애 버리지 마라. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: Never simplify away input validation at a trust boundary.
+- **Hardware is never the ideal on paper** — 하드웨어는 결코 종이 위의 이상과 같지 않다. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: Leave a calibration offset in the config; hardware is never the ideal on paper.
+- **YAGNI applies to tests too** — YAGNI 는 테스트에도 적용된다. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: You don't need a fixture for a one-liner; YAGNI applies to tests too.
+- **Project facts so you don't raise false positives** — 오탐을 내지 않도록 미리 알려 두는 프로젝트 사실. [→ daily](../../daily/2026-11-01/new-expressions.md)
+  - 예: Here are a few project conventions so you don't raise false positives about unused imports.
