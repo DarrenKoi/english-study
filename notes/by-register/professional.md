@@ -2480,3 +2480,29 @@
   - 예: List the refactor candidates, rank them by payoff, and cap the list at the five best.
 - **Only report what you verified.** — 직접 확인한 것만 보고하라. [→ daily](../../daily/2026-11-01/new-expressions.md)
   - 예: Please only report what you verified; mark anything else as a guess.
+- **ranked by payoff** — 효과가 큰 순서로 (늘어놓은). [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: Here are eight findings, ranked by payoff, so you can stop after the first three if time is short.
+- **stated twice, differently** — 같은 규칙이 두 곳에 서로 다르게 적혀 있다. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: The "not recorded" rule is stated twice, differently, so the two pages already disagree on blank values.
+- **on top of (X)** — ~에 더해, ~ 위에 또 얹혀. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: Each point change costs two re-initialisations on top of the normal redraw.
+- **do not leave hooks for them** — 범위 밖 기능을 위한 확장 지점도 남기지 마라. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: These are non-goals; do not build them and do not leave hooks for them.
+- **Verify each of these against the code and docs before relying on it.** — 기대기 전에 하나하나 코드·문서와 대조해 확인하라. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: The figures below come from last month's notes; verify each of them against the dashboard before relying on it.
+- **testing effort lands on the critical paths** — 테스트 노력이 핵심 경로에 쏠리게 된다. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: Agreeing the seams up front is how testing effort lands on the critical paths instead of every edge case.
+- **Checked, nothing to fix.** — 확인함, 고칠 것 없음. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: Listener cleanup: checked, nothing to fix.
+- **tell the next reader something false** — 다음에 읽는 사람에게 틀린 사실을 알려 준다(낡은 주석). [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: Delete the comment; it is eleven lines that tell the next reader something false about the office adapter.
+- **I did not observe a 429.** — (추정은 했지만) 429를 실제로 본 것은 아니다. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: One open can exceed the rate limit in theory, but I did not observe a 429.
+- **No shared helper exists yet.** — 아직 공용 도우미 함수가 없다. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: No shared helper exists yet, so the copy toast is written out three times.
+- **against DESIGN.md** — DESIGN.md 에 어긋나게. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: Several components pick their own red, against the design guide.
+- **Prefer no backend change.** — 가능하면 백엔드는 건드리지 마라. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: Prefer no schema change; if one is truly required, stop and report instead of making it.
+- **a reference to consult, not a session to run** — 실행할 절차가 아니라 펼쳐 볼 참고서. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: The style guide is a reference to consult, not a checklist to run through every time.

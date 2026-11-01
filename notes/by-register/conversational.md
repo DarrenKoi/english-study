@@ -1134,3 +1134,11 @@
   - 예: Don't add a plugin system for later; later can scaffold for itself.
 - **no re-arguing** — 다시 따지지 말고. [→ daily](../../daily/2026-11-01/new-expressions.md)
   - 예: Once the team picks an option, we go with it, no re-arguing.
+- **on top of (X)** — ~에 더해, ~ 위에 또 얹혀. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: Each point change costs two re-initialisations on top of the normal redraw.
+- **it matters past roughly 5k rows** — 대략 5천 행을 넘어야 문제가 된다. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: The scan is linear, so it only matters past roughly ten thousand items.
+- **Checked, nothing to fix.** — 확인함, 고칠 것 없음. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: Listener cleanup: checked, nothing to fix.
+- **two rules for one job** — 한 가지 일에 규칙이 둘. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: We have two sanitisers for file names, which is two rules for one job.

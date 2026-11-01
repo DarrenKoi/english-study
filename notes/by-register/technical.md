@@ -2138,3 +2138,35 @@
   - 예: You don't need a fixture for a one-liner; YAGNI applies to tests too.
 - **Project facts so you don't raise false positives** — 오탐을 내지 않도록 미리 알려 두는 프로젝트 사실. [→ daily](../../daily/2026-11-01/new-expressions.md)
   - 예: Here are a few project conventions so you don't raise false positives about unused imports.
+- **ranked by payoff** — 효과가 큰 순서로 (늘어놓은). [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: Here are eight findings, ranked by payoff, so you can stop after the first three if time is short.
+- **stated twice, differently** — 같은 규칙이 두 곳에 서로 다르게 적혀 있다. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: The "not recorded" rule is stated twice, differently, so the two pages already disagree on blank values.
+- **that is the worst case, not X** — 최악이어도 그 정도지 X 까지는 아니다. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: The API pages at 500 rows, so that is the worst case for one request, not the full table.
+- **at true scale** — 실제 축척 그대로. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: Overlay the line profiles of the same point across measurements, at true scale.
+- **do not leave hooks for them** — 범위 밖 기능을 위한 확장 지점도 남기지 마라. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: These are non-goals; do not build them and do not leave hooks for them.
+- **Verify each of these against the code and docs before relying on it.** — 기대기 전에 하나하나 코드·문서와 대조해 확인하라. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: The figures below come from last month's notes; verify each of them against the dashboard before relying on it.
+- **a retune** — (토큰·파라미터의) 재조정. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: A retune of the spacing scale will miss any component that hard-codes its own padding.
+- **it matters past roughly 5k rows** — 대략 5천 행을 넘어야 문제가 된다. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: The scan is linear, so it only matters past roughly ten thousand items.
+- **its correction lands in a .vue** — 그 수정이 (테스트 어려운) .vue 파일에 들어가게 된다. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: If the regex stays in the page, its correction lands in a component that has no tests.
+- **I did not observe a 429.** — (추정은 했지만) 429를 실제로 본 것은 아니다. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: One open can exceed the rate limit in theory, but I did not observe a 429.
+- **two rules for one job** — 한 가지 일에 규칙이 둘. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: We have two sanitisers for file names, which is two rules for one job.
+- **Expected values must be hand-worked literals.** — 기대값은 손으로 풀어 둔 상수여야 한다. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: For the line-removal test, the expected values must be hand-worked literals from a four-point example.
+- **Nil at X; noticeable only on Y** — X 에서는 사실상 0, Y 에서만 체감된다. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: The extra allocation is nil for a single line; noticeable only on dense grids.
+- **No shared helper exists yet.** — 아직 공용 도우미 함수가 없다. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: No shared helper exists yet, so the copy toast is written out three times.
+- **against DESIGN.md** — DESIGN.md 에 어긋나게. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: Several components pick their own red, against the design guide.
+- **Prefer no backend change.** — 가능하면 백엔드는 건드리지 마라. [→ daily](../../daily/2026-11-02/new-expressions.md)
+  - 예: Prefer no schema change; if one is truly required, stop and report instead of making it.
