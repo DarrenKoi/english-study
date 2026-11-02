@@ -2506,3 +2506,31 @@
   - 예: Prefer no schema change; if one is truly required, stop and report instead of making it.
 - **a reference to consult, not a session to run** — 실행할 절차가 아니라 펼쳐 볼 참고서. [→ daily](../../daily/2026-11-02/new-expressions.md)
   - 예: The style guide is a reference to consult, not a checklist to run through every time.
+- **display-only** — 표시 전용. 화면에만 보이고 판정·계산에는 들어가지 않는 값. ≈ informational only. ↔ load-bearing. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: These axes are display-only: they must not feed the anomaly verdict or any warning colour.
+- **lets the engineer look; it must not decide for them** — 엔지니어가 볼 수 있게만 하고 대신 판단하지는 않는다. 세미콜론 대구로 허용/금지를 맞세운 설계 원칙. ≈ inform, not judge. ↔ make the call automatically. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: The overlay lets the engineer look; it must not decide for them.
+- **the first question is "did X, or did Y?"** — 맨 먼저 드는 질문은 "X 인가 Y 인가". 질문을 직접 인용해 현장감을 준다. ≈ the first thing to rule out is. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: When a CD value moves, the first question is "did the measurement itself degrade, or did the wafer change?"
+- **rest on** — ~에 근거해 서 있다. 근거가 약하면 위의 것도 무너진다는 함의. ≈ be based on, hinge on. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: Do not show the drift status anywhere new; it rests on nominals the mock invented.
+- **If, and only if,** — 그 조건일 때만, 그리고 그때는 반드시. 지시문에서 "그 외엔 하지 말라"를 강조. ≈ only when, provided that. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: If, and only if, the chart already supports an extra lane, add the score as an optional series.
+- **stop after any slice that turns out larger than a modest addition** — 해 보니 생각보다 커지는 슬라이스가 있으면 멈춰라. `turn out + 비교급`. ≈ if the scope balloons, stop. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: Stop after any slice that turns out larger than a modest addition, and tell me what you found.
+- **exactly what is interesting** — 바로 그게 봐야 할 부분이다. 버리기 쉬운 대상을 주어로 두어 반전. ≈ precisely the point, the whole point. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: A failed measurement's score is exactly what is interesting, so do not drop those rows without saying so.
+- **decide and state whether** — ~할지 정하고 정한 것을 밝혀라. 동사 둘이 whether 절 하나를 공유. ≈ make the call and say which way you went. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: Decide and state whether failed rows are included in the median.
+- **every ambiguity and how you resolved it** — 애매했던 점 전부와 각각의 처리 방식. 보고 요청 항목. ≈ any judgement calls you made. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: In your report, list every ambiguity and how you resolved it.
+- **what you could not verify without a browser** — 브라우저 없이는 확인하지 못한 것. 검증 범위의 한계 보고. ≈ what is still unverified. ↔ browser-verified. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: Also list what you could not verify without a browser, so I know what to click through.
+- **insufficient for** — ~에 충분하지 않다(not enough 의 격식형). 보고 첫 줄 결론에. ≈ fall short of, won't cover. ↔ sufficient for. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: The two tables are insufficient for the existing non-rule screens.
+- **Step counts cannot replace measurement counts.** — step 수로 측정 건수를 대신할 수 없다. 비슷해 보이는 두 지표를 바꿔 쓰지 말라. ≈ X is no substitute for Y, X is not a proxy for Y. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: Step counts cannot replace measurement counts; they measure different things.
+- **underspecified** — 명세가 덜 된. 틀렸다가 아니라 빈칸이 남았다는 지적. ≈ not pinned down, loosely defined. ↔ fully specified. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: The join key is underspecified: the spec never says whether the tool family is part of it.
+- **X and Y were not verified.** — X 와 Y 는 확인하지 않았다. 수동태로 행위자를 빼고 미검증 범위만 남기는 보고 꼬리말. ≈ X and Y remain unconfirmed. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: No files changed. Office coverage and live behavior were not verified.

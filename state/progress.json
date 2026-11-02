@@ -1088,7 +1088,7 @@
     "-Users-daeyoung-Codes-english-study/c949b1b2-11de-4fb4-b672-586e19454142.jsonl": 330,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/d2f430dc-11f2-442d-a3e1-8a7a3b639026/subagents/agent-a3b7c5b5a423dcbdd.jsonl": 90,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/6bb18a63-0d56-4f6d-a4cb-29e7383e4f5f/subagents/agent-a6e97f99a24bf79ec.jsonl": 23,
-    "-Users-daeyoung-Codes-pm-notes/4c8acdf2-6882-41a7-9966-cc1fc4ee5937.jsonl": 34,
+    "-Users-daeyoung-Codes-pm-notes/4c8acdf2-6882-41a7-9966-cc1fc4ee5937.jsonl": 165,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/20360a5c-64b1-4bbf-93a7-9dcc88939fa8.jsonl": 14,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/fc3f283c-f0c7-4dab-9537-c6ec43631395.jsonl": 90,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/7272d4e5-0de4-4505-9469-47c4e33af310.jsonl": 12,
@@ -1127,7 +1127,11 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/eeafaf6d-f121-4d69-afee-e196d086e850/subagents/agent-a809dbc8baa6032e8.jsonl": 81,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/3258b0fd-c17e-47b8-9a3e-e4f55b8a365e.jsonl": 453,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/eeafaf6d-f121-4d69-afee-e196d086e850.jsonl": 842,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/466cd9af-a4c1-495d-91d4-cdf101366743/subagents/agent-a783642749c58e394.jsonl": 104
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/466cd9af-a4c1-495d-91d4-cdf101366743/subagents/agent-a783642749c58e394.jsonl": 104,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/0028e27e-8341-4f52-8454-f41a769fd250.jsonl": 440,
+    "-Users-daeyoung-Codes-auto-recipe-creator/4ddf7d8b-644d-4663-b449-2fbfd0f42684.jsonl": 15,
+    "-Users-daeyoung-Codes-pm-notes-my-task/a01e73a3-63df-4089-92bb-2746c10a43ee.jsonl": 18,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/466cd9af-a4c1-495d-91d4-cdf101366743/subagents/agent-a3c12319802cec8cf.jsonl": 115
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1198,7 +1202,7 @@
     "auto_recipe_creator/poc/workflow_2/docs/plans/2026-06-23-reregister-report-plan.md": "auto_recipe_creator/poc/workflow_2/docs/plans/2026-06-23-reregister-report-plan.md:1782171635.6668851:40945",
     "auto_recipe_creator/poc/workflow_2/docs/study/adr/0005-whitebox-box-crop-consensus-arm-rejected.md": "auto_recipe_creator/poc/workflow_2/docs/study/adr/0005-whitebox-box-crop-consensus-arm-rejected.md:1782167620.8124833:4242",
     "skewnono_v3_nuxt/docs/issues/ground_rules/progress-and-next-steps.md": "skewnono_v3_nuxt/docs/issues/ground_rules/progress-and-next-steps.md:1781811112.0123882:9470",
-    "skewnono_v3_nuxt/docs/issues/ground_rules/grilling-log.md": "skewnono_v3_nuxt/docs/issues/ground_rules/grilling-log.md:1781811112.0122716:32887",
+    "skewnono_v3_nuxt/docs/issues/ground_rules/grilling-log.md": "skewnono_v3_nuxt/docs/issues/ground_rules/grilling-log.md:1793604778.476936:35800",
     "skewnono_v3_nuxt/docs/datatables/recipe_params.txt": "skewnono_v3_nuxt/docs/datatables/recipe_params.txt:1787037662.2875073:24109",
     "auto_recipe_creator/poc/workflow_2/docs/plans/2026-06-24-template-bank-matching-plan.md": "auto_recipe_creator/poc/workflow_2/docs/plans/2026-06-24-template-bank-matching-plan.md:1782359192.998236:40658",
     "auto_recipe_creator/poc/workflow_3/docs/weekly_report/2026-06-24/weekly_report.md": "auto_recipe_creator/poc/workflow_3/docs/weekly_report/2026-06-24/weekly_report.md:1782284929.0568938:8140",
@@ -1517,9 +1521,9 @@
     "skewnono_v3_nuxt/docs/orchestration/2026-08-24-herdr-orchestration_v1.md": "skewnono_v3_nuxt/docs/orchestration/2026-08-24-herdr-orchestration_v1.md:1787525711.9321113:19730",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-07-recipe-tat-by-equipment.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-07-recipe-tat-by-equipment.md:1789082962.165301:130398",
     "skewnono_v3_nuxt/docs/opencode/2026-08-25-hardware-tool-strip-review.md": "skewnono_v3_nuxt/docs/opencode/2026-08-25-hardware-tool-strip-review.md:1787645178.6073713:13110",
-    "skewnono_v3_nuxt/docs/datatables/hitachi/recipe_params.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/recipe_params.txt:1787640050.7846267:24890",
-    "skewnono_v3_nuxt/docs/datatables/hitachi/r3_device_grp.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/r3_device_grp.txt:1791851899.301375:4137",
-    "skewnono_v3_nuxt/docs/datatables/hitachi/device_desc.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/device_desc.txt:1791851899.3007731:4653",
+    "skewnono_v3_nuxt/docs/datatables/hitachi/recipe_params.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/recipe_params.txt:1793604778.4766695:24899",
+    "skewnono_v3_nuxt/docs/datatables/hitachi/r3_device_grp.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/r3_device_grp.txt:1793604267.4320662:4621",
+    "skewnono_v3_nuxt/docs/datatables/hitachi/device_desc.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/device_desc.txt:1793604267.4314873:5137",
     "skewnono_v3_nuxt/docs/datatables/hitachi/recipe_name_list.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/recipe_name_list.txt:1791932444.081396:7001",
     "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-07-chat-rag-manuals-connection.md": "skewnono_v3_nuxt/docs/superpowers/plans/2026-08-07-chat-rag-manuals-connection.md:1787483776.6658936:37215",
     "skewnono_v3_nuxt/docs/opencode/2026-08-26-window-weeks-two-axis-review.md": "skewnono_v3_nuxt/docs/opencode/2026-08-26-window-weeks-two-axis-review.md:1787725902.6145284:8842",
@@ -1794,7 +1798,9 @@
     "skewnono_v3_nuxt/docs/measurement-box/to-office-meas-marks.md": "skewnono_v3_nuxt/docs/measurement-box/to-office-meas-marks.md:1793248703.7009065:7988",
     "auto_recipe_creator/docs/project_progress/06_headless_recipe_injection.md": "auto_recipe_creator/docs/project_progress/06_headless_recipe_injection.md:1793320775.4400954:5717",
     "auto_recipe_creator/docs/study/2026-10-30-jev-computer-use-feasibility.md": "auto_recipe_creator/docs/study/2026-10-30-jev-computer-use-feasibility.md:1793319543.0064683:17787",
-    "auto_recipe_creator/docs/research/2026-11-01-home-office-split-methodology.md": "auto_recipe_creator/docs/research/2026-11-01-home-office-split-methodology.md:1793487657.7505593:17550"
+    "auto_recipe_creator/docs/research/2026-11-01-home-office-split-methodology.md": "auto_recipe_creator/docs/research/2026-11-01-home-office-split-methodology.md:1793487657.7505593:17550",
+    "skewnono_v3_nuxt/docs/issues/ground_rules/ground_rules.txt": "skewnono_v3_nuxt/docs/issues/ground_rules/ground_rules.txt:1793604267.4335535:3654",
+    "skewnono_v3_nuxt/docs/office-migration/to-office-device-statistics-families-261102.md": "skewnono_v3_nuxt/docs/office-migration/to-office-device-statistics-families-261102.md:1793602745.5032403:15588"
   },
-  "last_run": "2026-11-02"
+  "last_run": "2026-11-03"
 }

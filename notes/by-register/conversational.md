@@ -1142,3 +1142,9 @@
   - 예: Listener cleanup: checked, nothing to fix.
 - **two rules for one job** — 한 가지 일에 규칙이 둘. [→ daily](../../daily/2026-11-02/new-expressions.md)
   - 예: We have two sanitisers for file names, which is two rules for one job.
+- **the first question is "did X, or did Y?"** — 맨 먼저 드는 질문은 "X 인가 Y 인가". 질문을 직접 인용해 현장감을 준다. ≈ the first thing to rule out is. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: When a CD value moves, the first question is "did the measurement itself degrade, or did the wafer change?"
+- **exactly what is interesting** — 바로 그게 봐야 할 부분이다. 버리기 쉬운 대상을 주어로 두어 반전. ≈ precisely the point, the whole point. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: A failed measurement's score is exactly what is interesting, so do not drop those rows without saying so.
+- **stays the same across phases** — 단계가 바뀌어도 그대로다. `stay + 형용사`. ≈ is identical across, doesn't change between. ↔ varies by phase. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: Frontend code stays the same across phases; only the API target changes.

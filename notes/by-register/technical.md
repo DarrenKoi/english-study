@@ -2170,3 +2170,27 @@
   - 예: Several components pick their own red, against the design guide.
 - **Prefer no backend change.** — 가능하면 백엔드는 건드리지 마라. [→ daily](../../daily/2026-11-02/new-expressions.md)
   - 예: Prefer no schema change; if one is truly required, stop and report instead of making it.
+- **display-only** — 표시 전용. 화면에만 보이고 판정·계산에는 들어가지 않는 값. ≈ informational only. ↔ load-bearing. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: These axes are display-only: they must not feed the anomaly verdict or any warning colour.
+- **manufactured by the generator** — 생성기가 지어낸(실재하지 않는) 관계. ≈ an artefact of the generator. ↔ observed in real data. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: Any score-to-CD relation you see at home is manufactured by the generator, not found in the data.
+- **rest on** — ~에 근거해 서 있다. 근거가 약하면 위의 것도 무너진다는 함의. ≈ be based on, hinge on. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: Do not show the drift status anywhere new; it rests on nominals the mock invented.
+- **If, and only if,** — 그 조건일 때만, 그리고 그때는 반드시. 지시문에서 "그 외엔 하지 말라"를 강조. ≈ only when, provided that. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: If, and only if, the chart already supports an extra lane, add the score as an optional series.
+- **what you could not verify without a browser** — 브라우저 없이는 확인하지 못한 것. 검증 범위의 한계 보고. ≈ what is still unverified. ↔ browser-verified. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: Also list what you could not verify without a browser, so I know what to click through.
+- **insufficient for** — ~에 충분하지 않다(not enough 의 격식형). 보고 첫 줄 결론에. ≈ fall short of, won't cover. ↔ sufficient for. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: The two tables are insufficient for the existing non-rule screens.
+- **Step counts cannot replace measurement counts.** — step 수로 측정 건수를 대신할 수 없다. 비슷해 보이는 두 지표를 바꿔 쓰지 말라. ≈ X is no substitute for Y, X is not a proxy for Y. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: Step counts cannot replace measurement counts; they measure different things.
+- **cannot distinguish A from B** — A 와 B 를 구별하지 못한다. 구조를 주어로 둔 지적. ≈ can't tell A and B apart, conflates A and B. ↔ keeps A and B separate. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: Table B alone cannot distinguish an empty recipe from a failed extraction.
+- **underspecified** — 명세가 덜 된. 틀렸다가 아니라 빈칸이 남았다는 지적. ≈ not pinned down, loosely defined. ↔ fully specified. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: The join key is underspecified: the spec never says whether the tool family is part of it.
+- **Snapshots only preserve future collection.** — 스냅샷은 앞으로 모이는 것만 남긴다(과거는 없다). ≈ it does not backfill. ↔ backfill historical data. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: Snapshots only preserve future collection, so there will be no trend from before the launch.
+- **the logical AND of two independent questions** — 서로 독립된 두 질문의 논리곱. 둘 다 참이어야 결과가 정해진다. ≈ depends on both X and Y. ↔ either condition is enough. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: Whether the office adapter runs is the logical AND of two independent questions: are we at the office, and is the adapter written?
+- **stays the same across phases** — 단계가 바뀌어도 그대로다. `stay + 형용사`. ≈ is identical across, doesn't change between. ↔ varies by phase. [→ daily](../../daily/2026-11-03/new-expressions.md)
+  - 예: Frontend code stays the same across phases; only the API target changes.
