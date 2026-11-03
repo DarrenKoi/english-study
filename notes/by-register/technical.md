@@ -2194,3 +2194,27 @@
   - 예: Whether the office adapter runs is the logical AND of two independent questions: are we at the office, and is the adapter written?
 - **stays the same across phases** — 단계가 바뀌어도 그대로다. `stay + 형용사`. ≈ is identical across, doesn't change between. ↔ varies by phase. [→ daily](../../daily/2026-11-03/new-expressions.md)
   - 예: Frontend code stays the same across phases; only the API target changes.
+- **a special case layered on shared infrastructure** — 공통 기반 위에 덧댄 특수 처리. ≈ bolted on, a one-off exception, a patch over the abstraction. ↔ built into the shared layer, a general change. [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: Check whether the new branch in ToolInventoryView is a special case layered on shared infrastructure.
+- **within the diff's scope** — 이번 diff 가 다루는 범위 안에서. ≈ in scope for this change, part of this PR. ↔ out of scope, scope creep. [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: Moving the registry is a good idea, but it is not within the diff's scope, so leave it for a follow-up.
+- **Flag wasted work** — 헛도는 연산을 짚어 내라. ≈ point out redundant computation, call out needless work. ↔ necessary work, load-bearing computation. [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: Flag wasted work: the same histogram is binned in three components from the same props.
+- **depend on more than they need** — 필요한 것보다 많은 것에 의존한다. ≈ over-subscribed, has too wide a dependency set. ↔ depends only on what it reads. [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: The heatmap option re-runs on every point click because it depends on more than it needs.
+- **created and not released** — 만들어 놓고 해제하지 않은. ≈ leaked, never cleaned up. ↔ disposed of, torn down. [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: Object URLs for the profile images are created and not released when the page unmounts.
+- **depending on something volatile** — 자주 바뀌는 무언가에 기대는. ≈ tied to fast-changing state, reactive to every change. ↔ depending only on stable inputs. [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: Keep the selected point out of the option computed; anything depending on something volatile pays for a full rebuild.
+- **say what size makes it matter** — 어느 크기부터 의미가 생기는지 밝혀라. ≈ state the threshold where it starts to hurt, tell me when it'd actually bite. ↔ . [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: An O(n²) scan over 17 columns is harmless, so say what size makes it matter before you flag it.
+- **be judged by X instead of Y** — Y 대신 X 로 판정된다. ≈ be determined by, go by. ↔ . [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: Tool availability is now judged by the host keys instead of the old availability table.
+- **Users are on FHD desktops.** — 사용자는 FHD 데스크톱을 쓴다. ≈ use, run, work on. ↔ . [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: Most of our users are on FHD desktops, so don't optimise for phones.
+- **check whether the blocker cleared** — 막던 원인이 풀렸는지 확인하다. ≈ see if it's unblocked, confirm the dependency is resolved. ↔ still blocked. [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: Before you restart the migration ticket, check whether the blocker cleared overnight.
+- **doesn't exist anywhere in the raw data** — 원본 데이터 어디에도 없다. ≈ is nowhere to be found in, is missing from. ↔ is present throughout. [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: The Fab field doesn't exist anywhere in the raw data, so we can't derive it at ETL time.
+- **the primary extraction method** — 주된(기본) 추출 방법. ≈ the default approach, the main path. ↔ the fallback, a secondary method. [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: Because most files are DRM-protected, screenshot-plus-VLM is the primary extraction method and text parsing is the fallback.

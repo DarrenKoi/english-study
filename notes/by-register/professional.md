@@ -2534,3 +2534,25 @@
   - 예: The join key is underspecified: the spec never says whether the tool family is part of it.
 - **X and Y were not verified.** — X 와 Y 는 확인하지 않았다. 수동태로 행위자를 빼고 미검증 범위만 남기는 보고 꼬리말. ≈ X and Y remain unconfirmed. [→ daily](../../daily/2026-11-03/new-expressions.md)
   - 예: No files changed. Office coverage and live behavior were not verified.
+- **a special case layered on shared infrastructure** — 공통 기반 위에 덧댄 특수 처리. ≈ bolted on, a one-off exception, a patch over the abstraction. ↔ built into the shared layer, a general change. [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: Check whether the new branch in ToolInventoryView is a special case layered on shared infrastructure.
+- **within the diff's scope** — 이번 diff 가 다루는 범위 안에서. ≈ in scope for this change, part of this PR. ↔ out of scope, scope creep. [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: Moving the registry is a good idea, but it is not within the diff's scope, so leave it for a follow-up.
+- **Name the cheaper alternative concretely.** — 더 싼 대안을 구체적으로 짚어라. ≈ spell out the fix, propose a specific alternative. ↔ hand-wave. [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: If a computed re-runs on every hover, name the cheaper alternative concretely, such as memoizing it by point ID.
+- **Flag wasted work** — 헛도는 연산을 짚어 내라. ≈ point out redundant computation, call out needless work. ↔ necessary work, load-bearing computation. [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: Flag wasted work: the same histogram is binned in three components from the same props.
+- **say what size makes it matter** — 어느 크기부터 의미가 생기는지 밝혀라. ≈ state the threshold where it starts to hurt, tell me when it'd actually bite. ↔ . [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: An O(n²) scan over 17 columns is harmless, so say what size makes it matter before you flag it.
+- **Not hunting for correctness bugs — skip those.** — 정확성 버그를 찾는 게 아니다, 그건 건너뛰어라. ≈ Bugs are out of scope for this pass., Leave bugs aside.. ↔ Report every bug you find.. [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: Not hunting for correctness bugs — skip those and stick to wasted renders.
+- **be judged by X instead of Y** — Y 대신 X 로 판정된다. ≈ be determined by, go by. ↔ . [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: Tool availability is now judged by the host keys instead of the old availability table.
+- **Start-of-day ritual** — 하루를 여는 의례, 출근 루틴. ≈ morning routine, daily kickoff. ↔ end-of-day wrap-up. [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: Reading the open-jobs file is my start-of-day ritual before I touch any code.
+- **Call out anything whose since date is several days old** — since 날짜가 며칠 지난 항목은 따로 짚어라. ≈ flag, highlight, point out. ↔ gloss over. [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: In the standup, call out anything whose deadline has already slipped.
+- **The carryover tells you where the user stopped; only the user knows where they want to start.** — 이월 기록은 어디서 멈췄는지를 알려 줄 뿐, 어디서 시작할지는 사용자만 안다. ≈ The notes show where you left off, not where to go next., History informs the choice; it does not make it.. ↔ . [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: The log tells you where the build stopped; only you know where you want to pick up.
+- **the primary extraction method** — 주된(기본) 추출 방법. ≈ the default approach, the main path. ↔ the fallback, a secondary method. [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: Because most files are DRM-protected, screenshot-plus-VLM is the primary extraction method and text parsing is the fallback.

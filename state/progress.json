@@ -1128,10 +1128,14 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/3258b0fd-c17e-47b8-9a3e-e4f55b8a365e.jsonl": 453,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/eeafaf6d-f121-4d69-afee-e196d086e850.jsonl": 842,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/466cd9af-a4c1-495d-91d4-cdf101366743/subagents/agent-a783642749c58e394.jsonl": 104,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/0028e27e-8341-4f52-8454-f41a769fd250.jsonl": 440,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/0028e27e-8341-4f52-8454-f41a769fd250.jsonl": 569,
     "-Users-daeyoung-Codes-auto-recipe-creator/4ddf7d8b-644d-4663-b449-2fbfd0f42684.jsonl": 15,
     "-Users-daeyoung-Codes-pm-notes-my-task/a01e73a3-63df-4089-92bb-2746c10a43ee.jsonl": 18,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/466cd9af-a4c1-495d-91d4-cdf101366743/subagents/agent-a3c12319802cec8cf.jsonl": 115
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/466cd9af-a4c1-495d-91d4-cdf101366743/subagents/agent-a3c12319802cec8cf.jsonl": 115,
+    "-Users-daeyoung-Codes-pm-notes/65f7b337-3d53-4f66-b6d9-bcb5424a212a.jsonl": 175,
+    "-Users-daeyoung-Codes-pm-notes/2a5960c3-1c91-48f8-b498-a285e765687b.jsonl": 17,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/71930ffc-83dd-4eb9-86aa-30e8353a8866/subagents/agent-a3c93e7c85d47a1c4.jsonl": 61,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/eeafaf6d-f121-4d69-afee-e196d086e850/subagents/agent-aa56b14db0e44627f.jsonl": 119
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1688,7 +1692,7 @@
     "skewnono_v3_nuxt/docs/datatables/hitachi/hardware_mdc_setting.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/hardware_mdc_setting.txt:1791247333.0850077:8308",
     "skewnono_v3_nuxt/docs/datatables/afm/afm_raw_files.txt": "skewnono_v3_nuxt/docs/datatables/afm/afm_raw_files.txt:1791523210.4111402:31249",
     "skewnono_v3_nuxt/docs/afm/to-questionnaire-afm-2.md": "skewnono_v3_nuxt/docs/afm/to-questionnaire-afm-2.md:1790923771.415511:10799",
-    "skewnono_v3_nuxt/docs/afm/office-data-findings.md": "skewnono_v3_nuxt/docs/afm/office-data-findings.md:1791523181.0372462:69158",
+    "skewnono_v3_nuxt/docs/afm/office-data-findings.md": "skewnono_v3_nuxt/docs/afm/office-data-findings.md:1793667745.823708:69308",
     "skewnono_v3_nuxt/docs/afm/to-questionnaire-afm.md": "skewnono_v3_nuxt/docs/afm/to-questionnaire-afm.md:1791523181.0380816:11229",
     "skewnono_v3_nuxt/docs/back-end/vendor-onboarding.md": "skewnono_v3_nuxt/docs/back-end/vendor-onboarding.md:1791873818.45252:17085",
     "auto_recipe_creator/docs/study/dl/02-dataset-preparation.md": "auto_recipe_creator/docs/study/dl/02-dataset-preparation.md:1791674450.7031333:12507",
@@ -1802,5 +1806,5 @@
     "skewnono_v3_nuxt/docs/issues/ground_rules/ground_rules.txt": "skewnono_v3_nuxt/docs/issues/ground_rules/ground_rules.txt:1793604267.4335535:3654",
     "skewnono_v3_nuxt/docs/office-migration/to-office-device-statistics-families-261102.md": "skewnono_v3_nuxt/docs/office-migration/to-office-device-statistics-families-261102.md:1793602745.5032403:15588"
   },
-  "last_run": "2026-11-03"
+  "last_run": "2026-11-04"
 }

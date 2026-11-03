@@ -1148,3 +1148,13 @@
   - 예: A failed measurement's score is exactly what is interesting, so do not drop those rows without saying so.
 - **stays the same across phases** — 단계가 바뀌어도 그대로다. `stay + 형용사`. ≈ is identical across, doesn't change between. ↔ varies by phase. [→ daily](../../daily/2026-11-03/new-expressions.md)
   - 예: Frontend code stays the same across phases; only the API target changes.
+- **Not hunting for correctness bugs — skip those.** — 정확성 버그를 찾는 게 아니다, 그건 건너뛰어라. ≈ Bugs are out of scope for this pass., Leave bugs aside.. ↔ Report every bug you find.. [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: Not hunting for correctness bugs — skip those and stick to wasted renders.
+- **Users are on FHD desktops.** — 사용자는 FHD 데스크톱을 쓴다. ≈ use, run, work on. ↔ . [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: Most of our users are on FHD desktops, so don't optimise for phones.
+- **Start-of-day ritual** — 하루를 여는 의례, 출근 루틴. ≈ morning routine, daily kickoff. ↔ end-of-day wrap-up. [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: Reading the open-jobs file is my start-of-day ritual before I touch any code.
+- **check whether the blocker cleared** — 막던 원인이 풀렸는지 확인하다. ≈ see if it's unblocked, confirm the dependency is resolved. ↔ still blocked. [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: Before you restart the migration ticket, check whether the blocker cleared overnight.
+- **doesn't exist anywhere in the raw data** — 원본 데이터 어디에도 없다. ≈ is nowhere to be found in, is missing from. ↔ is present throughout. [→ daily](../../daily/2026-11-04/new-expressions.md)
+  - 예: The Fab field doesn't exist anywhere in the raw data, so we can't derive it at ETL time.
