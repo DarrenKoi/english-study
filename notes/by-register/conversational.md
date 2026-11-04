@@ -1158,3 +1158,17 @@
   - 예: Before you restart the migration ticket, check whether the blocker cleared overnight.
 - **doesn't exist anywhere in the raw data** — 원본 데이터 어디에도 없다. ≈ is nowhere to be found in, is missing from. ↔ is present throughout. [→ daily](../../daily/2026-11-04/new-expressions.md)
   - 예: The Fab field doesn't exist anywhere in the raw data, so we can't derive it at ETL time.
+- **This is about what's available, not error handling.** — 이건 무엇이 있느냐의 문제지 오류 처리 규칙이 아니다. `This is about X, not Y` 로 범위를 좁힌다. ≈ The point here is X, not Y. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: This is about which index we read, not how we handle a missing field.
+- **looks off** — 뭔가 이상해 보인다. 단정하지 않고 직감을 말할 때. ≈ something's not right, seems fishy. ↔ checks out. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: The R4 count for -cd looks off to me; can we rerun it against the raw index?
+- **if it is at all unfamiliar** — 조금이라도 낯설다면. if 절의 `at all` 은 '조금이라도'. ≈ if in doubt, if it's even slightly unfamiliar. ↔ only if you're sure it's wrong. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: If the field name is at all unfamiliar, check the datatables doc before you write the query.
+- **mid-task** — 작업 도중에. mid- 접두사로 부사를 만든다. ≈ partway through, midstream. ↔ up front. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: The schema changed mid-migration, so half the documents still carry the old field.
+- **Use it even when you think you know the answer.** — 답을 안다고 생각될 때도 확인하라. ≈ double-check even if you're confident. ↔ skip it if you already know. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: Check the datatables doc even when you think you know the field name; the index was split last week.
+- **goes straight to the user** — 중간 경유 없이 곧장 사용자에게 간다. ≈ is sent directly to, goes right to. ↔ is routed through. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: The proxy doesn't cache anything; each response goes straight to the client.
+- **don't decline it just because there's no X** — X 가 없다는 이유만으로 거절하지 마라. ≈ that alone isn't a reason to, don't write it off because. ↔ that's reason enough to skip it. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: Don't drop the VeritySEM row just because there's no planstep data for it yet.

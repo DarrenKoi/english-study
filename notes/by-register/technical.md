@@ -2218,3 +2218,21 @@
   - 예: The Fab field doesn't exist anywhere in the raw data, so we can't derive it at ETL time.
 - **the primary extraction method** — 주된(기본) 추출 방법. ≈ the default approach, the main path. ↔ the fallback, a secondary method. [→ daily](../../daily/2026-11-04/new-expressions.md)
   - 예: Because most files are DRM-protected, screenshot-plus-VLM is the primary extraction method and text parsing is the fallback.
+- **Look before you assert.** — 단정하기 전에 먼저 확인하라. Look before you leap 의 변형. ≈ verify before you claim, check first. ↔ answer from memory. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: Look before you assert: open the index mapping before telling the office agent which field holds the fab.
+- **trades speed against coverage** — 속도를 얻는 대신 적용 범위를 내준다. `trade A against B` 는 둘의 긴장 관계. ≈ there's a trade-off between, give up A for B. ↔ get the best of both worlds. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: The proxy path trades latency against reach: it is slower, but it works from behind the firewall.
+- **is cheaper than a wrong assertion** — 틀린 단정보다 싸게 먹힌다. 확인 비용을 틀렸을 때의 대가와 견준다. ≈ it's worth the extra step. ↔ not worth the effort. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: One extra query against the office index is cheaper than a wrong assertion in the next reply document.
+- **load them in bulk, not one-by-one** — 하나씩 말고 한꺼번에 불러와라. ≈ batch them, in a single call. ↔ one at a time, piecemeal. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: Fetch the per-family host keys in bulk, not one-by-one, or the page waits on four round-trips.
+- **suspicious by default** — 확인되기 전까지 기본적으로 의심한다. `treat A as B by default`. ≈ untrusted until proven otherwise, zero trust. ↔ take at face value. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: Treat values pasted from the office reply as suspicious by default until they match the raw index.
+- **mid-task** — 작업 도중에. mid- 접두사로 부사를 만든다. ≈ partway through, midstream. ↔ up front. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: The schema changed mid-migration, so half the documents still carry the old field.
+- **may not reflect recent changes** — 최근 변경을 반영하지 못했을 수 있다. 정중한 경고. ≈ may be out of date, could be stale. ↔ is up to date. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: The 2026-10-27 counts may not reflect recent changes, because the office keeps loading new documents.
+- **goes straight to the user** — 중간 경유 없이 곧장 사용자에게 간다. ≈ is sent directly to, goes right to. ↔ is routed through. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: The proxy doesn't cache anything; each response goes straight to the client.
+- **is enforced by** — ~에 의해 강제된다. 규칙과 집행 장치를 한 문장에. ≈ is guaranteed by, X checks for it. ↔ is only a convention. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: The 90-day window is enforced by the query's lower bound, not by the index itself.

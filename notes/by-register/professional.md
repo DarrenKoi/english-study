@@ -2556,3 +2556,25 @@
   - 예: The log tells you where the build stopped; only you know where you want to pick up.
 - **the primary extraction method** — 주된(기본) 추출 방법. ≈ the default approach, the main path. ↔ the fallback, a secondary method. [→ daily](../../daily/2026-11-04/new-expressions.md)
   - 예: Because most files are DRM-protected, screenshot-plus-VLM is the primary extraction method and text parsing is the fallback.
+- **Look before you assert.** — 단정하기 전에 먼저 확인하라. Look before you leap 의 변형. ≈ verify before you claim, check first. ↔ answer from memory. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: Look before you assert: open the index mapping before telling the office agent which field holds the fab.
+- **trades speed against coverage** — 속도를 얻는 대신 적용 범위를 내준다. `trade A against B` 는 둘의 긴장 관계. ≈ there's a trade-off between, give up A for B. ↔ get the best of both worlds. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: The proxy path trades latency against reach: it is slower, but it works from behind the firewall.
+- **This is about what's available, not error handling.** — 이건 무엇이 있느냐의 문제지 오류 처리 규칙이 아니다. `This is about X, not Y` 로 범위를 좁힌다. ≈ The point here is X, not Y. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: This is about which index we read, not how we handle a missing field.
+- **is cheaper than a wrong assertion** — 틀린 단정보다 싸게 먹힌다. 확인 비용을 틀렸을 때의 대가와 견준다. ≈ it's worth the extra step. ↔ not worth the effort. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: One extra query against the office index is cheaper than a wrong assertion in the next reply document.
+- **suspicious by default** — 확인되기 전까지 기본적으로 의심한다. `treat A as B by default`. ≈ untrusted until proven otherwise, zero trust. ↔ take at face value. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: Treat values pasted from the office reply as suspicious by default until they match the raw index.
+- **if it is at all unfamiliar** — 조금이라도 낯설다면. if 절의 `at all` 은 '조금이라도'. ≈ if in doubt, if it's even slightly unfamiliar. ↔ only if you're sure it's wrong. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: If the field name is at all unfamiliar, check the datatables doc before you write the query.
+- **on the user's behalf** — 사용자를 대신해서. 대리·권한 문맥. ≈ on behalf of the user, acting as the user. ↔ by the user themselves. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: The office agent can run read-only queries on my behalf, but it should never reindex anything.
+- **Use it even when you think you know the answer.** — 답을 안다고 생각될 때도 확인하라. ≈ double-check even if you're confident. ↔ skip it if you already know. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: Check the datatables doc even when you think you know the field name; the index was split last week.
+- **may not reflect recent changes** — 최근 변경을 반영하지 못했을 수 있다. 정중한 경고. ≈ may be out of date, could be stale. ↔ is up to date. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: The 2026-10-27 counts may not reflect recent changes, because the office keeps loading new documents.
+- **Keep the report under 300 words.** — 보고서는 300단어 안으로. `keep + 목적어 + 전치사구`. ≈ limit it to 300 words, keep it brief. ↔ go into full detail. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: Keep the reply to the office under ten lines so they can answer it from their phone.
+- **don't decline it just because there's no X** — X 가 없다는 이유만으로 거절하지 마라. ≈ that alone isn't a reason to, don't write it off because. ↔ that's reason enough to skip it. [→ daily](../../daily/2026-11-05/new-expressions.md)
+  - 예: Don't drop the VeritySEM row just because there's no planstep data for it yet.

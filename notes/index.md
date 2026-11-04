@@ -14,23 +14,34 @@
 - [Copy them when one does.](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [decide and state whether](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [display-only](daily/2026-11-03/new-expressions.md) — 2026-11-03
+- [don't decline it just because there's no X](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [every ambiguity and how you resolved it](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [exactly what is interesting](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [folded into flat files](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [gnarly (concurrency)](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [goes straight to the user](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [Green is not safe.](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [Hardware is never the ideal on paper](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [has no design fork](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [if it is at all unfamiliar](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [If you're fine publishing them, it's one small commit to add them.](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [If, and only if,](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [in case you pick it up later](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [insufficient for](daily/2026-11-03/new-expressions.md) — 2026-11-03
+- [is cheaper than a wrong assertion](daily/2026-11-05/new-expressions.md) — 2026-11-05
+- [is enforced by](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [It is illustrative, like X elsewhere on the page](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [Keep the report under 300 words.](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [later can scaffold for itself](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [legitimately exceeds the budget](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [lets the engineer look; it must not decide for them](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [line for line](daily/2026-11-01/new-expressions.md) — 2026-11-01
+- [load them in bulk, not one-by-one](daily/2026-11-05/new-expressions.md) — 2026-11-05
+- [Look before you assert.](daily/2026-11-05/new-expressions.md) — 2026-11-05
+- [looks off](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [manufactured by the generator](daily/2026-11-03/new-expressions.md) — 2026-11-03
+- [may not reflect recent changes](daily/2026-11-05/new-expressions.md) — 2026-11-05
+- [mid-task](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [more about identity than the shared design](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [Never hand the human a check you could run.](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [Never simplify away](daily/2026-11-01/new-expressions.md) — 2026-11-01
@@ -38,6 +49,7 @@
 - [(one thing users) would trip on](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [(only matters if you used these)](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [no re-arguing](daily/2026-11-01/new-expressions.md) — 2026-11-01
+- [on the user's behalf](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [Only report what you verified.](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [only when the new work strictly needs ...](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [Project facts so you don't raise false positives](daily/2026-11-01/new-expressions.md) — 2026-11-01
@@ -881,6 +893,7 @@
 - [stays the same across phases](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [Step counts cannot replace measurement counts.](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [stop after any slice that turns out larger than a modest addition](daily/2026-11-03/new-expressions.md) — 2026-11-03
+- [suspicious by default](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [the first question is "did X, or did Y?"](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [the logical AND of two independent questions](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [the next sync can be a plain diff](daily/2026-11-01/new-expressions.md) — 2026-11-01
@@ -890,6 +903,7 @@
 - [(the server) behaves exactly as before](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [The suite has not rotted — that is where the seconds go.](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [the whole visual contract](daily/2026-11-01/new-expressions.md) — 2026-11-01
+- [This is about what's available, not error handling.](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [to the letter](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [(tools) go offline routinely](daily/2026-10-27/new-expressions.md) — 2026-10-27
 - [go one step further](daily/2026-10-03/new-expressions.md) — 2026-10-03
@@ -1248,12 +1262,14 @@
 - [The card fix holds everywhere.](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [the contract shape, not the mock's conveniences](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [the group's presence is the flag](daily/2026-10-23/new-expressions.md) — 2026-10-23
+- [trades speed against coverage](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [treat it as a question rather than a mechanical cleanup](daily/2026-10-29/new-expressions.md) — 2026-10-29
 - [trimmed on purpose](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [trivially cheap](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [turned X into Y](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [under-determined](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [underspecified](daily/2026-11-03/new-expressions.md) — 2026-11-03
+- [Use it even when you think you know the answer.](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [Users are on FHD desktops.](daily/2026-11-04/new-expressions.md) — 2026-11-04
 - [verified by reading only](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [volume hubris](daily/2026-10-25/new-expressions.md) — 2026-10-25
