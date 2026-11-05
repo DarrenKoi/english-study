@@ -1172,3 +1172,9 @@
   - 예: The proxy doesn't cache anything; each response goes straight to the client.
 - **don't decline it just because there's no X** — X 가 없다는 이유만으로 거절하지 마라. ≈ that alone isn't a reason to, don't write it off because. ↔ that's reason enough to skip it. [→ daily](../../daily/2026-11-05/new-expressions.md)
   - 예: Don't drop the VeritySEM row just because there's no planstep data for it yet.
+- **in turn** — 차례로, 하나씩 돌아가며. `each ... in turn` 으로 반복의 수고를 그린다. ≈ one by one, one after another. ↔ all at once. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: Today I open each office reply in turn and copy the field names into the datatables doc by hand.
+- **hands over state** — 로직 없이 상태를 넘겨주기만 한다. ≈ passes along, forwards. ↔ owns the logic. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: The page only hands over the filters and shows an error if the request fails.
+- **read how far the target moved** — 대상이 기준 대비 얼마나 움직였는지 읽어 내다. ≈ see how much X shifted, measure the drift. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: Pin last month's lots as the baseline, and you can read how far this week's lots moved.

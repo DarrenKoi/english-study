@@ -2236,3 +2236,27 @@
   - 예: The proxy doesn't cache anything; each response goes straight to the client.
 - **is enforced by** — ~에 의해 강제된다. 규칙과 집행 장치를 한 문장에. ≈ is guaranteed by, X checks for it. ↔ is only a convention. [→ daily](../../daily/2026-11-05/new-expressions.md)
   - 예: The 90-day window is enforced by the query's lower bound, not by the index itself.
+- **sits outside the band** — (값이) 기준 범위 밖에 놓여 있다. 판정 없이 위치만 말한다. ≈ falls outside the range, is out of band. ↔ sits within the band. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: Two lots sit outside the group band, but nothing in the report calls them defective.
+- **the reference moves with the selection** — 기준이 사용자가 고른 데이터에 따라 같이 움직인다. ≈ the baseline shifts with the selection. ↔ a fixed reference. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: If the band is computed from whatever the user filters, the reference moves with the selection and last week's numbers can't be compared.
+- **with the suspects flagged in their own column** — 의심 항목은 전용 열에 따로 표시해서. `with + 명사 + p.p.` 부대상황. ≈ marked in a separate column. ↔ left unmarked. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: Export every lot, with the mismatched fab codes flagged in their own column.
+- **is omitted rather than written empty** — 빈 채로 쓰지 말고 아예 뺀다. ≈ is skipped instead of left blank. ↔ is always included, even if empty. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: A section with nothing to say is omitted rather than written empty, so the digest never shows a bare heading.
+- **never pool recipes into one reference** — 서로 다른 레시피를 하나의 기준으로 합치지 마라. `pool` = 한데 모으다. ≈ lump together, aggregate across. ↔ compute per recipe. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: Never pool R3 and R4 lots into one baseline; their tools sit in different locations.
+- **hands over state** — 로직 없이 상태를 넘겨주기만 한다. ≈ passes along, forwards. ↔ owns the logic. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: The page only hands over the filters and shows an error if the request fails.
+- **stored nowhere** — 어디에도 저장되지 않는다. ≈ not saved anywhere, never persisted. ↔ saved server-side. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: The token is read from the environment at startup and stored nowhere else.
+- **keep it strictly additive** — 기존 동작은 건드리지 말고 추가만 하는 변경으로 유지해라. ≈ backward-compatible, non-breaking. ↔ a breaking change. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: You can add a new op to the proxy, but keep it strictly additive so older clients still work.
+- **there is a known race when ...** — ~할 때 경합 문제가 있다는 게 알려져 있다. `race` = race condition. ≈ the two can clobber each other. ↔ the writes are serialized. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: There is a known race when two jobs write the same progress file, so only finalize is allowed to touch it.
+- **so the URL stays clean** — URL 에 불필요한 키가 붙지 않도록. `stay + 형용사`. ≈ avoids clutter, keeps the query string minimal. ↔ clutters the URL. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: Unset filters aren't written to the query string, so the URL stays clean and easy to share.
+- **shows as no-data, never as zero** — 0이 아니라 '데이터 없음'으로 보인다. `X, never Y` 는 `not` 보다 강하다. ≈ is left blank rather than zero-filled. ↔ defaults to zero. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: A lot with no planstep row shows as no-data, never as zero, in the weekly trend.
+- **diverging and centred on zero** — 0을 중심으로 양쪽으로 갈라지는 색 척도. centred 는 영국식(미국식 centered). ≈ a zero-centred palette. ↔ a sequential scale. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: Use a diverging scale centred on zero, so a negative delta and a positive one read as opposite colours.

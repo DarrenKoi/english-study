@@ -2578,3 +2578,21 @@
   - 예: Keep the reply to the office under ten lines so they can answer it from their phone.
 - **don't decline it just because there's no X** — X 가 없다는 이유만으로 거절하지 마라. ≈ that alone isn't a reason to, don't write it off because. ↔ that's reason enough to skip it. [→ daily](../../daily/2026-11-05/new-expressions.md)
   - 예: Don't drop the VeritySEM row just because there's no planstep data for it yet.
+- **in turn** — 차례로, 하나씩 돌아가며. `each ... in turn` 으로 반복의 수고를 그린다. ≈ one by one, one after another. ↔ all at once. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: Today I open each office reply in turn and copy the field names into the datatables doc by hand.
+- **sits outside the band** — (값이) 기준 범위 밖에 놓여 있다. 판정 없이 위치만 말한다. ≈ falls outside the range, is out of band. ↔ sits within the band. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: Two lots sit outside the group band, but nothing in the report calls them defective.
+- **the reference moves with the selection** — 기준이 사용자가 고른 데이터에 따라 같이 움직인다. ≈ the baseline shifts with the selection. ↔ a fixed reference. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: If the band is computed from whatever the user filters, the reference moves with the selection and last week's numbers can't be compared.
+- **is omitted rather than written empty** — 빈 채로 쓰지 말고 아예 뺀다. ≈ is skipped instead of left blank. ↔ is always included, even if empty. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: A section with nothing to say is omitted rather than written empty, so the digest never shows a bare heading.
+- **the stated reason there is none** — 값이 없는 경우 그 이유를 밝힌 것. ≈ or why it's missing. ↔ left blank without explanation. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: For each tool, show the last sync time, or the stated reason there is none.
+- **stored nowhere** — 어디에도 저장되지 않는다. ≈ not saved anywhere, never persisted. ↔ saved server-side. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: The token is read from the environment at startup and stored nowhere else.
+- **as of the generation time** — 생성 시점 기준으로. `as of + 시점`. ≈ at the time of generation, current as of. ↔ live. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: All counts in this reply are as of 2026-11-05 09:00, before the office reloaded the index.
+- **One requested extension beyond the plan, and only this one** — 계획을 넘어서는 추가 요청 하나, 딱 그것만. 예외를 하나로 못 박는다. ≈ a single exception to the plan. ↔ while you're at it. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: One change beyond the office's request, and only this one: the mock now pairs A to D by lot_cd.
+- **read how far the target moved** — 대상이 기준 대비 얼마나 움직였는지 읽어 내다. ≈ see how much X shifted, measure the drift. [→ daily](../../daily/2026-11-06/new-expressions.md)
+  - 예: Pin last month's lots as the baseline, and you can read how far this week's lots moved.
