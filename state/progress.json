@@ -1141,7 +1141,10 @@
     "-Users-daeyoung-Codes-english-study/f5637556-4dcb-421f-ac76-0ad9234e0732.jsonl": 197,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/466cd9af-a4c1-495d-91d4-cdf101366743/subagents/agent-a59ee0d6ec67b1254.jsonl": 119,
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/466cd9af-a4c1-495d-91d4-cdf101366743/subagents/agent-afc27a967f75bdaac.jsonl": 107,
-    "-Users-daeyoung-Codes-skewnono-v3-nuxt/eeafaf6d-f121-4d69-afee-e196d086e850/subagents/agent-a8cae4ddedbe718fb.jsonl": 92
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/eeafaf6d-f121-4d69-afee-e196d086e850/subagents/agent-a8cae4ddedbe718fb.jsonl": 92,
+    "-Users-daeyoung-Codes-auto-recipe-creator/59bde568-0aea-47cf-aa8a-ce786b8d5e2c.jsonl": 312,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/466cd9af-a4c1-495d-91d4-cdf101366743/subagents/agent-aee643958837330f5.jsonl": 94,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/466cd9af-a4c1-495d-91d4-cdf101366743/subagents/agent-a92bd579621675da5.jsonl": 89
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1821,7 +1824,8 @@
     "skewnono_v3_nuxt/docs/office-migration/reply-device-statistics-families-261105.md": "skewnono_v3_nuxt/docs/office-migration/reply-device-statistics-families-261105.md:1793862109.4632094:7001",
     "skewnono_v3_nuxt/docs/office-migration/to-office-device-statistics-families-261105.md": "skewnono_v3_nuxt/docs/office-migration/to-office-device-statistics-families-261105.md:1793841435.0161154:3598",
     "skewnono_v3_nuxt/docs/office-migration/to-office-device-statistics-families-261104.md": "skewnono_v3_nuxt/docs/office-migration/to-office-device-statistics-families-261104.md:1793749675.3787642:3831",
-    "skewnono_v3_nuxt/docs/datatables/hitachi/device_statistics_weekly_trend.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/device_statistics_weekly_trend.txt:1793748642.1435485:6060"
+    "skewnono_v3_nuxt/docs/datatables/hitachi/device_statistics_weekly_trend.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/device_statistics_weekly_trend.txt:1793748642.1435485:6060",
+    "auto_recipe_creator/docs/research/2026-11-06-codex-hf-gui-vlm-scan.md": "auto_recipe_creator/docs/research/2026-11-06-codex-hf-gui-vlm-scan.md:1793933902.9740438:34298"
   },
-  "last_run": "2026-11-06"
+  "last_run": "2026-11-07"
 }

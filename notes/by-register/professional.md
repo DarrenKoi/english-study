@@ -2596,3 +2596,31 @@
   - 예: One change beyond the office's request, and only this one: the mock now pairs A to D by lot_cd.
 - **read how far the target moved** — 대상이 기준 대비 얼마나 움직였는지 읽어 내다. ≈ see how much X shifted, measure the drift. [→ daily](../../daily/2026-11-06/new-expressions.md)
   - 예: Pin last month's lots as the baseline, and you can read how far this week's lots moved.
+- **a straight swap can at best tie** — 그대로 바꿔 끼워 봐야 기껏해야 동점이다. 이미 만점일 때 교체 이득의 상한을 짚는다. ≈ the upside is capped. ↔ there's plenty of headroom. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: The current parser already passes every fixture, so a straight swap to the new library can at best tie.
+- **It is a long shot.** — 가능성이 낮은 시도다. 근거를 다 댄 뒤 짧게 판정을 닫을 때. ≈ an outside chance. ↔ a safe bet. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: Merging all three roles into Muse-Glimmer would be ideal, but it is a long shot.
+- **the only merge worth testing** — 시험해 볼 만한 유일한 통합안. `worth + -ing` 가 명사를 뒤에서 꾸민다. ↔ not worth the effort. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: Grounding into Qwen3.8 is the only merge worth testing, because we already serve that model.
+- **scores are the authors' own; none were reproduced** — 점수는 저자 자체 보고값이고 재현한 것은 없다. 인용 수치의 신뢰 범위를 밝히는 문장. ≈ self-reported figures. ↔ independently reproduced. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: All latency figures below are the vendor's own; none were reproduced on our server.
+- **comes close to 100%** — 100%에 근접하다. 딱 닿지 않아도 된다는 여유를 남긴 조건. ≈ approaches. ↔ falls well short of. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: If the single-call mode comes close to the two-call accuracy, we can drop the fine stage.
+- **guesses unreadable text into something plausible** — 못 읽은 글자를 그럴듯하게 짐작해 채운다. `guess A into B` 결과 구문. ≈ hallucinates a plausible reading. ↔ reports it as unreadable. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: A general VLM guesses a smudged tool ID into something plausible, and the confirm gate then approves the wrong row.
+- **is the figure that says whether the tool is getting slower** — 장비가 느려지는지를 말해 주는 수치다. 지표를 의인화해 쓸모를 정의한다. ≈ the number to watch. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: Seconds per point, not total duration, is the figure that says whether the tool is getting slower.
+- **use the one that section already has in hand** — 그 섹션이 이미 손에 쥔 값을 써라. `have ... in hand` = 이미 확보한. ≈ already loaded. ↔ fetch it fresh. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: Don't call the detail API again; use the point list the page already has in hand.
+- **Rename that existing card so it says what it is** — 이름을 바꿔 실제로 무엇인지 드러나게 하라. ≈ name it for what it shows. ↔ a misleading label. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: The card shows one point's height map, so rename it so it says what it is.
+- **stay inside what it allows** — 그 문서가 허용하는 범위 안에 머물러라. ≈ stay within its scope. ↔ overstep the brief. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: Read the recommendation doc first and stay inside what it allows; anything beyond that needs a new decision.
+- **rejected as needing more data** — 데이터가 더 필요하다는 이유로 기각됨. `rejected as + -ing` 분사구. ≈ set aside pending more data. ↔ adopted. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: Uptime and OEE are out of scope (rejected as needing more data than the logs carry).
+- **do not treat any pattern seen at home as real** — mock 환경에서 본 패턴을 진짜로 여기지 마라. `treat A as B`. ≈ don't read anything into it. ↔ take it at face value. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: The mock's values are fabricated, so do not treat any trend you see in it as real.
+- **Which pages are thin (a table over raw data) versus analytic?** — 어떤 페이지가 원자료 위 표 하나뿐이고 어떤 페이지가 분석적인가. `thin` = 빈약한. ≈ bare-bones. ↔ insight-driven. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: Most of our dashboards are thin, a table over raw data, rather than analytic.
+- **requires a maintainability case before adding cross-page links** — 링크를 넣기 전에 유지보수성 논거를 요구한다. `case` = 뒷받침 논거. ≈ a justification. ↔ add it without justification. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: The owner requires a maintainability case before we add another shared filter.

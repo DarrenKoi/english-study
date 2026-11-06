@@ -2260,3 +2260,15 @@
   - 예: A lot with no planstep row shows as no-data, never as zero, in the weekly trend.
 - **diverging and centred on zero** — 0을 중심으로 양쪽으로 갈라지는 색 척도. centred 는 영국식(미국식 centered). ≈ a zero-centred palette. ↔ a sequential scale. [→ daily](../../daily/2026-11-06/new-expressions.md)
   - 예: Use a diverging scale centred on zero, so a negative delta and a positive one read as opposite colours.
+- **scores are the authors' own; none were reproduced** — 점수는 저자 자체 보고값이고 재현한 것은 없다. 인용 수치의 신뢰 범위를 밝히는 문장. ≈ self-reported figures. ↔ independently reproduced. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: All latency figures below are the vendor's own; none were reproduced on our server.
+- **guesses unreadable text into something plausible** — 못 읽은 글자를 그럴듯하게 짐작해 채운다. `guess A into B` 결과 구문. ≈ hallucinates a plausible reading. ↔ reports it as unreadable. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: A general VLM guesses a smudged tool ID into something plausible, and the confirm gate then approves the wrong row.
+- **spend their token budget on reasoning instead of answering** — 토큰 예산을 답 대신 추론에 써 버린다. `spend A on B`. ≈ burn through the token budget. ↔ go straight to the answer. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: Without `enable_thinking=false`, short grounding calls spend their token budget on reasoning instead of answering.
+- **rather than a hand-built SVG if one fits** — 맞는 게 있으면 손으로 짠 SVG 대신 그걸 써라. `one` = 앞의 기존 컴포넌트. ≈ where possible. ↔ build from scratch. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: Reuse an existing heatmap component rather than a hand-built SVG if one fits.
+- **Landed today on main** — 오늘 main 에 병합됐다. `land` 는 merge 의 개발자 구어. ≈ went in, was merged. ↔ was reverted. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: The baseline fix landed on main this morning, so rebase before you start.
+- **survives refactors because it doesn't care about internal structure** — 내부 구조에 의존하지 않아 리팩터링을 견딘다. ≈ is robust to refactoring. ↔ is brittle. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: A test that calls only the public function survives refactors because it doesn't care about internal structure.

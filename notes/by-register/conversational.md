@@ -1178,3 +1178,17 @@
   - 예: The page only hands over the filters and shows an error if the request fails.
 - **read how far the target moved** — 대상이 기준 대비 얼마나 움직였는지 읽어 내다. ≈ see how much X shifted, measure the drift. [→ daily](../../daily/2026-11-06/new-expressions.md)
   - 예: Pin last month's lots as the baseline, and you can read how far this week's lots moved.
+- **a straight swap can at best tie** — 그대로 바꿔 끼워 봐야 기껏해야 동점이다. 이미 만점일 때 교체 이득의 상한을 짚는다. ≈ the upside is capped. ↔ there's plenty of headroom. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: The current parser already passes every fixture, so a straight swap to the new library can at best tie.
+- **It is a long shot.** — 가능성이 낮은 시도다. 근거를 다 댄 뒤 짧게 판정을 닫을 때. ≈ an outside chance. ↔ a safe bet. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: Merging all three roles into Muse-Glimmer would be ideal, but it is a long shot.
+- **comes close to 100%** — 100%에 근접하다. 딱 닿지 않아도 된다는 여유를 남긴 조건. ≈ approaches. ↔ falls well short of. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: If the single-call mode comes close to the two-call accuracy, we can drop the fine stage.
+- **use the one that section already has in hand** — 그 섹션이 이미 손에 쥔 값을 써라. `have ... in hand` = 이미 확보한. ≈ already loaded. ↔ fetch it fresh. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: Don't call the detail API again; use the point list the page already has in hand.
+- **Rename that existing card so it says what it is** — 이름을 바꿔 실제로 무엇인지 드러나게 하라. ≈ name it for what it shows. ↔ a misleading label. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: The card shows one point's height map, so rename it so it says what it is.
+- **rather than a hand-built SVG if one fits** — 맞는 게 있으면 손으로 짠 SVG 대신 그걸 써라. `one` = 앞의 기존 컴포넌트. ≈ where possible. ↔ build from scratch. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: Reuse an existing heatmap component rather than a hand-built SVG if one fits.
+- **Landed today on main** — 오늘 main 에 병합됐다. `land` 는 merge 의 개발자 구어. ≈ went in, was merged. ↔ was reverted. [→ daily](../../daily/2026-11-07/new-expressions.md)
+  - 예: The baseline fix landed on main this morning, so rebase before you start.
