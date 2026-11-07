@@ -2272,3 +2272,31 @@
   - 예: The baseline fix landed on main this morning, so rebase before you start.
 - **survives refactors because it doesn't care about internal structure** — 내부 구조에 의존하지 않아 리팩터링을 견딘다. ≈ is robust to refactoring. ↔ is brittle. [→ daily](../../daily/2026-11-07/new-expressions.md)
   - 예: A test that calls only the public function survives refactors because it doesn't care about internal structure.
+- **without any error** — 에러 하나 없이 (틀린 채로) 돈다. 조용한 실패를 경고할 때. ≈ silently. ↔ fails loudly. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: The migration skipped half the rows without any error, which is why nobody noticed for a week.
+- **were measured with the window broken** — 창이 고장 난 상태에서 잰 것이다. `with + 명사 + p.p.` 부대상황. ≈ were taken before the fix. ↔ were measured after the fix. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: Those benchmark numbers were taken with the cache disabled, so they overstate the latency.
+- **When fab doesn't settle it** — fab 으로 결정이 안 나면. `settle` = 결판내다. ≈ break the tie. ↔ leaves it open. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: If the timestamp doesn't settle it, fall back to the lowest document ID.
+- **That one is a counting artifact** — 그건 세는 방식이 만든 착시다. ≈ not a real regression. ↔ a genuine bug. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: The spike on Monday is a reporting artifact; the dashboard double-counts retries.
+- **My helper landed between `_lot_bridge` and its cache decorator.** — 내 헬퍼가 엉뚱한 자리에 끼어 들어갔다. `land` = (코드가) 어떤 자리에 들어가다. ≈ ended up. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: The new import landed inside the `if TYPE_CHECKING` block, so it fails at runtime.
+- **Because `fab_name` is finer than `fac_id`** — `fab_name` 이 더 잘게 나뉘므로. `finer` = 더 세분된. ≈ more granular. ↔ coarser than. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: Because the hourly bucket is finer than the shift, grouping by shift adds nothing.
+- **so the mock's numbers stay the same** — 그래서 mock 숫자는 그대로다. 난수 뽑는 횟수가 같아 시드 난수열이 안 밀린다. ≈ remain unchanged. ↔ shift. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: The new field reuses the existing draw, so every other generated value stays the same.
+- **random variation in the long tail** — 분포 긴 꼬리 쪽의 우연한 변동. ≈ sampling noise. ↔ a systematic bias. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: The p99 jumped because of a few outliers in the long tail, not a general slowdown.
+- **Saving this to memory so it sticks for later sessions** — 다음 세션에도 남도록 저장한다. `stick` = (결정이) 정착하다. ≈ so it persists. ↔ it won't stick. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: I'll add it to the README so the convention sticks for new hires.
+- **Expected failure (old assumption).** — 예상한 실패(테스트가 옛 가정을 믿고 있음). 동사 없는 진행 로그. ≈ red as expected. ↔ an unexpected failure. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: Expected failure: the test still asserts the old 15% skip rate.
+- **Be dense and factual** — 밀도 있게, 사실 위주로 써라. 글에 쓰는 `dense` 는 칭찬. ≈ no fluff. ↔ pad it out. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: Keep the summary dense and factual; skip the background we already know.
+- **nothing new needs fetching** — 새로 가져올 것이 없다. `need + -ing` = 수동 의미. ≈ no new API calls. ↔ needs a new endpoint. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: The page already holds every row it needs; nothing new needs fetching.
+- **an observed relation in a hand-picked group** — 손으로 고른 묶음에서 관찰된 관계. 인과·일반화를 막는 문구. ≈ a correlation in this sample only. ↔ a causal effect. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: Treat the trend as an observed relation in a hand-picked set of lots, not as a rule.
+- **beyond what falls out for free** — 저절로 따라 나오는 것 이상으로. `fall out` = 결과로 생기다. ≈ comes for free. ↔ needs dedicated work. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: Don't build a CSV export; take whatever falls out for free from the table component.

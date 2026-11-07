@@ -2624,3 +2624,29 @@
   - 예: Most of our dashboards are thin, a table over raw data, rather than analytic.
 - **requires a maintainability case before adding cross-page links** — 링크를 넣기 전에 유지보수성 논거를 요구한다. `case` = 뒷받침 논거. ≈ a justification. ↔ add it without justification. [→ daily](../../daily/2026-11-07/new-expressions.md)
   - 예: The owner requires a maintainability case before we add another shared filter.
+- **you can paste the file as-is** — 파일을 고치지 말고 그대로 붙여 넣으면 된다. `as-is` = 있는 그대로. ≈ use it unchanged. ↔ it needs adapting first. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: The script has no machine-specific paths, so you can run it as-is on the office laptop.
+- **without any error** — 에러 하나 없이 (틀린 채로) 돈다. 조용한 실패를 경고할 때. ≈ silently. ↔ fails loudly. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: The migration skipped half the rows without any error, which is why nobody noticed for a week.
+- **were measured with the window broken** — 창이 고장 난 상태에서 잰 것이다. `with + 명사 + p.p.` 부대상황. ≈ were taken before the fix. ↔ were measured after the fix. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: Those benchmark numbers were taken with the cache disabled, so they overstate the latency.
+- **That's my guess; the office didn't say.** — 제 추측입니다, 상대는 명시하지 않았어요. 확신 수준을 밝히는 단서. ≈ I'm inferring this. ↔ the office confirmed it. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: I assumed the timestamps are KST; that's my guess, the spec didn't say.
+- **When fab doesn't settle it** — fab 으로 결정이 안 나면. `settle` = 결판내다. ≈ break the tie. ↔ leaves it open. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: If the timestamp doesn't settle it, fall back to the lowest document ID.
+- **This corrects how I recorded S3 last round.** — 지난 회차 기록을 이것으로 바로잡는다. 주어를 변경 사항에 세운 담백한 인정. ≈ this supersedes my earlier note. ↔ this confirms what I recorded. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: This corrects how I described the retry policy in yesterday's update.
+- **Because `fab_name` is finer than `fac_id`** — `fab_name` 이 더 잘게 나뉘므로. `finer` = 더 세분된. ≈ more granular. ↔ coarser than. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: Because the hourly bucket is finer than the shift, grouping by shift adds nothing.
+- **random variation in the long tail** — 분포 긴 꼬리 쪽의 우연한 변동. ≈ sampling noise. ↔ a systematic bias. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: The p99 jumped because of a few outliers in the long tail, not a general slowdown.
+- **Clearly separate facts from your own inferences.** — 사실과 본인의 추론을 분명히 구분하라. `inference` 는 근거에서 끌어낸 추론. ≈ distinguish fact from interpretation. ↔ blend speculation into the findings. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: In the incident write-up, clearly separate what the logs show from your own inferences.
+- **Be dense and factual** — 밀도 있게, 사실 위주로 써라. 글에 쓰는 `dense` 는 칭찬. ≈ no fluff. ↔ pad it out. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: Keep the summary dense and factual; skip the background we already know.
+- **cannot be asked** — (그런 질문은) 던질 수조차 없다. 사용자 질문을 주어로 세워 기능의 필요를 보여 준다. ≈ there's no way to answer. ↔ can be answered at a glance. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: With only daily totals in the report, "which hour did the spike start?" cannot be asked.
+- **nothing new needs fetching** — 새로 가져올 것이 없다. `need + -ing` = 수동 의미. ≈ no new API calls. ↔ needs a new endpoint. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: The page already holds every row it needs; nothing new needs fetching.
+- **an observed relation in a hand-picked group** — 손으로 고른 묶음에서 관찰된 관계. 인과·일반화를 막는 문구. ≈ a correlation in this sample only. ↔ a causal effect. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: Treat the trend as an observed relation in a hand-picked set of lots, not as a rule.

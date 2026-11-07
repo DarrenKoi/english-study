@@ -1192,3 +1192,15 @@
   - 예: Reuse an existing heatmap component rather than a hand-built SVG if one fits.
 - **Landed today on main** — 오늘 main 에 병합됐다. `land` 는 merge 의 개발자 구어. ≈ went in, was merged. ↔ was reverted. [→ daily](../../daily/2026-11-07/new-expressions.md)
   - 예: The baseline fix landed on main this morning, so rebase before you start.
+- **you can paste the file as-is** — 파일을 고치지 말고 그대로 붙여 넣으면 된다. `as-is` = 있는 그대로. ≈ use it unchanged. ↔ it needs adapting first. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: The script has no machine-specific paths, so you can run it as-is on the office laptop.
+- **That's my guess; the office didn't say.** — 제 추측입니다, 상대는 명시하지 않았어요. 확신 수준을 밝히는 단서. ≈ I'm inferring this. ↔ the office confirmed it. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: I assumed the timestamps are KST; that's my guess, the spec didn't say.
+- **That one is a counting artifact** — 그건 세는 방식이 만든 착시다. ≈ not a real regression. ↔ a genuine bug. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: The spike on Monday is a reporting artifact; the dashboard double-counts retries.
+- **My helper landed between `_lot_bridge` and its cache decorator.** — 내 헬퍼가 엉뚱한 자리에 끼어 들어갔다. `land` = (코드가) 어떤 자리에 들어가다. ≈ ended up. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: The new import landed inside the `if TYPE_CHECKING` block, so it fails at runtime.
+- **Saving this to memory so it sticks for later sessions** — 다음 세션에도 남도록 저장한다. `stick` = (결정이) 정착하다. ≈ so it persists. ↔ it won't stick. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: I'll add it to the README so the convention sticks for new hires.
+- **beyond what falls out for free** — 저절로 따라 나오는 것 이상으로. `fall out` = 결과로 생기다. ≈ comes for free. ↔ needs dedicated work. [→ daily](../../daily/2026-11-08/new-expressions.md)
+  - 예: Don't build a CSV export; take whatever falls out for free from the table component.
