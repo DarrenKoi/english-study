@@ -2300,3 +2300,17 @@
   - 예: Treat the trend as an observed relation in a hand-picked set of lots, not as a rule.
 - **beyond what falls out for free** — 저절로 따라 나오는 것 이상으로. `fall out` = 결과로 생기다. ≈ comes for free. ↔ needs dedicated work. [→ daily](../../daily/2026-11-08/new-expressions.md)
   - 예: Don't build a CSV export; take whatever falls out for free from the table component.
+- **had already been mined on an earlier day** — 이미 이전에 (쓸 만한 것을) 캐낸 상태였다. 과거완료 수동. ≈ had already been processed. ↔ is still untapped. [→ daily](../../daily/2026-11-09/new-expressions.md)
+  - 예: Most of these logs had already been mined for error patterns, so I focused on the new ones.
+- **which keeps the diff small** — 그러면 변경분이 작게 유지된다. 앞 문장 전체를 받는 which. ≈ which minimizes the change. ↔ which bloats the diff. [→ daily](../../daily/2026-11-09/new-expressions.md)
+  - 예: I renamed the function in place instead of moving it, which keeps the diff small for reviewers.
+- **does not look sorted as one list** — 하나의 목록으로 정렬돼 보이지 않는다. ≈ isn't in a single sorted order. ↔ is fully sorted. [→ daily](../../daily/2026-11-09/new-expressions.md)
+  - 예: The config keys do not look sorted as one list; some groups restart from A halfway down.
+- **I haven't committed or pushed, because finalize handles that.** — 커밋·푸시는 안 했다, 그건 finalize 몫이다. ≈ X takes care of that. [→ daily](../../daily/2026-11-09/new-expressions.md)
+  - 예: I haven't deployed it yet, because the release job handles that every evening.
+- **one expression can go in more than one** — 한 항목이 여러 분류에 들어갈 수 있다. go in = (칸에) 들어가다. ≈ can belong to several. [→ daily](../../daily/2026-11-09/new-expressions.md)
+  - 예: Tags aren't exclusive, so one ticket can go in more than one column.
+- **close the codex pane** — (분할된) codex 창을 닫아. pane ≠ window ≠ tab. ↔ split a new pane. [→ daily](../../daily/2026-11-09/new-expressions.md)
+  - 예: Close the codex pane once it finishes, and keep the log pane open.
+- **Now record the build list.** — 이제 빌드 목록을 기록하자(진행 메모 명령형). ≈ Next, write down the build list. [→ daily](../../daily/2026-11-09/new-expressions.md)
+  - 예: Tests pass. Now record the build list so the next rebuild matches.

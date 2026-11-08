@@ -6,6 +6,7 @@
 - [a mock that is tidier than the office is a mock that hides the office's bugs](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [a stale overlay sends a delegated reviewer at the wrong surfaces](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [a straight swap can at best tie](daily/2026-11-07/new-expressions.md) — 2026-11-07
+- [abbreviated notes ending in noun forms](daily/2026-11-09/new-expressions.md) — 2026-11-09
 - [Agreement is high-signal.](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [an observed relation in a hand-picked group](daily/2026-11-08/new-expressions.md) — 2026-11-08
 - [as of the generation time](daily/2026-11-06/new-expressions.md) — 2026-11-06
@@ -19,12 +20,14 @@
 - [cannot distinguish A from B](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [checked by DOM only, not by eye](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [Clearly separate facts from your own inferences.](daily/2026-11-08/new-expressions.md) — 2026-11-08
+- [close the codex pane](daily/2026-11-09/new-expressions.md) — 2026-11-09
 - [comes close to 100%](daily/2026-11-07/new-expressions.md) — 2026-11-07
 - [Copy them when one does.](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [decide and state whether](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [display-only](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [diverging and centred on zero](daily/2026-11-06/new-expressions.md) — 2026-11-06
 - [do not treat any pattern seen at home as real](daily/2026-11-07/new-expressions.md) — 2026-11-07
+- [does not look sorted as one list](daily/2026-11-09/new-expressions.md) — 2026-11-09
 - [don't decline it just because there's no X](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [every ambiguity and how you resolved it](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [exactly what is interesting](daily/2026-11-03/new-expressions.md) — 2026-11-03
@@ -34,9 +37,14 @@
 - [goes straight to the user](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [Green is not safe.](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [guesses unreadable text into something plausible](daily/2026-11-07/new-expressions.md) — 2026-11-07
+- [had already been mined on an earlier day](daily/2026-11-09/new-expressions.md) — 2026-11-09
 - [hands over state](daily/2026-11-06/new-expressions.md) — 2026-11-06
 - [Hardware is never the ideal on paper](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [has no design fork](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [I drew the expressions from X](daily/2026-11-09/new-expressions.md) — 2026-11-09
+- [I haven't committed or pushed, because finalize handles that.](daily/2026-11-09/new-expressions.md) — 2026-11-09
+- [I took only new phrases, mostly from X](daily/2026-11-09/new-expressions.md) — 2026-11-09
+- [idioms that literal translation misses](daily/2026-11-09/new-expressions.md) — 2026-11-09
 - [if it is at all unfamiliar](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [If you're fine publishing them, it's one small commit to add them.](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [If, and only if,](daily/2026-11-03/new-expressions.md) — 2026-11-03
@@ -72,11 +80,14 @@
 - [(one thing users) would trip on](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [(only matters if you used these)](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [no re-arguing](daily/2026-11-01/new-expressions.md) — 2026-11-01
+- [Now record the build list.](daily/2026-11-09/new-expressions.md) — 2026-11-09
 - [on the user's behalf](daily/2026-11-05/new-expressions.md) — 2026-11-05
+- [one expression can go in more than one](daily/2026-11-09/new-expressions.md) — 2026-11-09
 - [One requested extension beyond the plan, and only this one](daily/2026-11-06/new-expressions.md) — 2026-11-06
 - [Only report what you verified.](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [only when the new work strictly needs ...](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [Project facts so you don't raise false positives](daily/2026-11-01/new-expressions.md) — 2026-11-01
+- [putting the subject and verb back](daily/2026-11-09/new-expressions.md) — 2026-11-09
 - [random variation in the long tail](daily/2026-11-08/new-expressions.md) — 2026-11-08
 - [Rank by payoff; cap at the 10 best.](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [rather than a hand-built SVG if one fits](daily/2026-11-07/new-expressions.md) — 2026-11-07
@@ -1329,6 +1340,7 @@
 - [When fab doesn't settle it](daily/2026-11-08/new-expressions.md) — 2026-11-08
 - [where the evidence was thin](daily/2026-10-29/new-expressions.md) — 2026-10-29
 - [Where your brief was off](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [which keeps the diff small](daily/2026-11-09/new-expressions.md) — 2026-11-09
 - [Which pages are thin (a table over raw data) versus analytic?](daily/2026-11-07/new-expressions.md) — 2026-11-07
 - [Why (X) is shaped the way it is](daily/2026-10-29/new-expressions.md) — 2026-10-29
 - [wiring it into (HardwareView)](daily/2026-10-23/new-expressions.md) — 2026-10-23

@@ -2650,3 +2650,19 @@
   - 예: The page already holds every row it needs; nothing new needs fetching.
 - **an observed relation in a hand-picked group** — 손으로 고른 묶음에서 관찰된 관계. 인과·일반화를 막는 문구. ≈ a correlation in this sample only. ↔ a causal effect. [→ daily](../../daily/2026-11-08/new-expressions.md)
   - 예: Treat the trend as an observed relation in a hand-picked set of lots, not as a rule.
+- **I drew the expressions from X** — X에서 (표현·자료를) 골라 가져왔다. ≈ took X from, sourced X from. [→ daily](../../daily/2026-11-09/new-expressions.md)
+  - 예: For the risk section, I drew the numbers from last quarter's incident log.
+- **had already been mined on an earlier day** — 이미 이전에 (쓸 만한 것을) 캐낸 상태였다. 과거완료 수동. ≈ had already been processed. ↔ is still untapped. [→ daily](../../daily/2026-11-09/new-expressions.md)
+  - 예: Most of these logs had already been mined for error patterns, so I focused on the new ones.
+- **which keeps the diff small** — 그러면 변경분이 작게 유지된다. 앞 문장 전체를 받는 which. ≈ which minimizes the change. ↔ which bloats the diff. [→ daily](../../daily/2026-11-09/new-expressions.md)
+  - 예: I renamed the function in place instead of moving it, which keeps the diff small for reviewers.
+- **abbreviated notes ending in noun forms** — 명사형으로 끝나는 축약 메모(개조식). ≈ telegraphic notes. [→ daily](../../daily/2026-11-09/new-expressions.md)
+  - 예: The status report is mostly abbreviated notes ending in noun forms, so the English version needs full sentences.
+- **putting the subject and verb back** — 빠진 주어·동사를 되살려 넣기. ≈ restoring the subject and verb. [→ daily](../../daily/2026-11-09/new-expressions.md)
+  - 예: Most of the fixes are just putting the subject and verb back into the bullet points.
+- **idioms that literal translation misses** — 직역으로는 놓치는 관용 표현. 무생물 주어 관계절. ≈ expressions lost in direct translation. [→ daily](../../daily/2026-11-09/new-expressions.md)
+  - 예: The glossary lists the idioms that literal translation misses, such as "off by one."
+- **I haven't committed or pushed, because finalize handles that.** — 커밋·푸시는 안 했다, 그건 finalize 몫이다. ≈ X takes care of that. [→ daily](../../daily/2026-11-09/new-expressions.md)
+  - 예: I haven't deployed it yet, because the release job handles that every evening.
+- **I took only new phrases, mostly from X** — 새 표현만 골랐고 대부분 X에서 나왔다. ≈ I picked out only the new ones. [→ daily](../../daily/2026-11-09/new-expressions.md)
+  - 예: I kept only the failing cases, mostly from the nightly run.

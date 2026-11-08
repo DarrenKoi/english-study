@@ -1204,3 +1204,15 @@
   - 예: I'll add it to the README so the convention sticks for new hires.
 - **beyond what falls out for free** — 저절로 따라 나오는 것 이상으로. `fall out` = 결과로 생기다. ≈ comes for free. ↔ needs dedicated work. [→ daily](../../daily/2026-11-08/new-expressions.md)
   - 예: Don't build a CSV export; take whatever falls out for free from the table component.
+- **I drew the expressions from X** — X에서 (표현·자료를) 골라 가져왔다. ≈ took X from, sourced X from. [→ daily](../../daily/2026-11-09/new-expressions.md)
+  - 예: For the risk section, I drew the numbers from last quarter's incident log.
+- **putting the subject and verb back** — 빠진 주어·동사를 되살려 넣기. ≈ restoring the subject and verb. [→ daily](../../daily/2026-11-09/new-expressions.md)
+  - 예: Most of the fixes are just putting the subject and verb back into the bullet points.
+- **one expression can go in more than one** — 한 항목이 여러 분류에 들어갈 수 있다. go in = (칸에) 들어가다. ≈ can belong to several. [→ daily](../../daily/2026-11-09/new-expressions.md)
+  - 예: Tags aren't exclusive, so one ticket can go in more than one column.
+- **close the codex pane** — (분할된) codex 창을 닫아. pane ≠ window ≠ tab. ↔ split a new pane. [→ daily](../../daily/2026-11-09/new-expressions.md)
+  - 예: Close the codex pane once it finishes, and keep the log pane open.
+- **Now record the build list.** — 이제 빌드 목록을 기록하자(진행 메모 명령형). ≈ Next, write down the build list. [→ daily](../../daily/2026-11-09/new-expressions.md)
+  - 예: Tests pass. Now record the build list so the next rebuild matches.
+- **I took only new phrases, mostly from X** — 새 표현만 골랐고 대부분 X에서 나왔다. ≈ I picked out only the new ones. [→ daily](../../daily/2026-11-09/new-expressions.md)
+  - 예: I kept only the failing cases, mostly from the nightly run.
