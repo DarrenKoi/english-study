@@ -2666,3 +2666,33 @@
   - 예: I haven't deployed it yet, because the release job handles that every evening.
 - **I took only new phrases, mostly from X** — 새 표현만 골랐고 대부분 X에서 나왔다. ≈ I picked out only the new ones. [→ daily](../../daily/2026-11-09/new-expressions.md)
   - 예: I kept only the failing cases, mostly from the nightly run.
+- **it didn't need its own slide** — 별도 장이 필요 없었다(기존 자리에 합침). [→ daily](../../daily/2026-11-10/new-expressions.md)
+  - 예: The FAQ fit at the end of the guide, so it didn't need its own page.
+- **right after the cover** — 표지 바로 다음에. [→ daily](../../daily/2026-11-10/new-expressions.md)
+  - 예: I put the summary table right after the cover, so it's the first thing they see.
+- **the slide count went from 15 to 16** — 장수가 15장에서 16장이 됐다. go from A to B 로 변화량을 말함. [→ daily](../../daily/2026-11-10/new-expressions.md)
+  - 예: After the cleanup, the test count went from 212 to 198.
+- **with your content as written** — 주신 내용을 쓰신 그대로. ≈ verbatim. [→ daily](../../daily/2026-11-10/new-expressions.md)
+  - 예: I pasted the three requirements as written and only fixed the numbering.
+- **I wrote this, please check** — 제가 쓴 부분이니 확인해 주세요(받은 내용과 구분). [→ daily](../../daily/2026-11-10/new-expressions.md)
+  - 예: The closing sentence is new (I wrote this, please check), the rest is from your notes.
+- **tell me and I'll add it** — 말씀하시면 추가하겠습니다. 명령형 + and 조건 제안. [→ daily](../../daily/2026-11-10/new-expressions.md)
+  - 예: If you want the old chart back, tell me and I'll restore it.
+- **this change went the other way** — 이번엔 평소와 반대 방향(순서)으로 했다. [→ daily](../../daily/2026-11-10/new-expressions.md)
+  - 예: Usually the backend leads, but this feature went the other way: UI first, then the API.
+- **While there, I fixed a leftover phrase** — 간 김에 남아 있던 문구도 고쳤다. ≈ while I was at it. [→ daily](../../daily/2026-11-10/new-expressions.md)
+  - 예: While there, I fixed a leftover typo in the config comment.
+- **I left the section unnumbered so the existing sections don't shift** — 기존 번호가 밀리지 않게 번호 없이 뒀다. leave + O + 형용사. [→ daily](../../daily/2026-11-10/new-expressions.md)
+  - 예: I left the new column untyped so the old imports don't break.
+- **these two stay as they are** — 이 둘은 그대로 둔다. ≈ remain unchanged. [→ daily](../../daily/2026-11-10/new-expressions.md)
+  - 예: The old migrations are history, not live code, so they stay as they are.
+- **published to the existing link, which stays private** — 기존 링크에 올렸고 계속 비공개다. 비제한적 which. [→ daily](../../daily/2026-11-10/new-expressions.md)
+  - 예: I re-uploaded the report to the same folder, which stays restricted to our team.
+- **Constraints that remain in force** — 여전히 유효한 제약 조건. 구어로는 still apply. [→ daily](../../daily/2026-11-10/new-expressions.md)
+  - 예: The freeze on schema changes remains in force until the audit ends.
+- **something it says has not happened yet may already have happened** — 요약에 아직이라고 적힌 일이 이미 일어났을 수 있다. [→ daily](../../daily/2026-11-10/new-expressions.md)
+  - 예: The handover notes are a day old, so a task they list as open may already have been closed.
+- **No further edits unless the user asks.** — 요청 없으면 더 수정하지 않는다. 동사 없는 지시문. [→ daily](../../daily/2026-11-10/new-expressions.md)
+  - 예: No further changes to the schema unless the data team asks.
+- **An earlier offer is still open** — 앞서 한 제안이 아직 미결로 남아 있다. ≈ still on the table. [→ daily](../../daily/2026-11-10/new-expressions.md)
+  - 예: My offer to review the migration plan is still open; nobody has picked it up.

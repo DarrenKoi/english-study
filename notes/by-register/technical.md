@@ -2314,3 +2314,15 @@
   - 예: Close the codex pane once it finishes, and keep the log pane open.
 - **Now record the build list.** — 이제 빌드 목록을 기록하자(진행 메모 명령형). ≈ Next, write down the build list. [→ daily](../../daily/2026-11-09/new-expressions.md)
   - 예: Tests pass. Now record the build list so the next rebuild matches.
+- **shifts that position** — 앞에 끼워 넣어 뒤 위치·인덱스를 밀어낸다. [→ daily](../../daily/2026-11-10/new-expressions.md)
+  - 예: Inserting a header row shifts every index below it by one.
+- **would have landed one slide too early** — (안 고쳤다면) 한 장 앞에 들어갔을 것. 가정법 과거완료. [→ daily](../../daily/2026-11-10/new-expressions.md)
+  - 예: Otherwise the footnote would have landed one page too late.
+- **I left the section unnumbered so the existing sections don't shift** — 기존 번호가 밀리지 않게 번호 없이 뒀다. leave + O + 형용사. [→ daily](../../daily/2026-11-10/new-expressions.md)
+  - 예: I left the new column untyped so the old imports don't break.
+- **published to the existing link, which stays private** — 기존 링크에 올렸고 계속 비공개다. 비제한적 which. [→ daily](../../daily/2026-11-10/new-expressions.md)
+  - 예: I re-uploaded the report to the same folder, which stays restricted to our team.
+- **a previous conversation that ran out of context** — 컨텍스트가 바닥난 이전 대화. run out of X. [→ daily](../../daily/2026-11-10/new-expressions.md)
+  - 예: The agent ran out of context halfway through the refactor, so I had to summarize and restart.
+- **something it says has not happened yet may already have happened** — 요약에 아직이라고 적힌 일이 이미 일어났을 수 있다. [→ daily](../../daily/2026-11-10/new-expressions.md)
+  - 예: The handover notes are a day old, so a task they list as open may already have been closed.
