@@ -2696,3 +2696,21 @@
   - 예: No further changes to the schema unless the data team asks.
 - **An earlier offer is still open** — 앞서 한 제안이 아직 미결로 남아 있다. ≈ still on the table. [→ daily](../../daily/2026-11-10/new-expressions.md)
   - 예: My offer to review the migration plan is still open; nobody has picked it up.
+- **all there and all checked out** — 빠짐없이 있고 확인해 보니 모두 맞다. 자동사 `check out` = 사실로 드러나다. ≈ all accounted for, everything lines up. ↔ doesn't hold up. [→ daily](../../daily/2026-11-11/new-expressions.md)
+  - 예: Backend, frontend and markdown-lint commands are all there and all checked out.
+- **with the details pushed out to linked docs** — 세부는 링크한 문서로 빼 두고. with+명사+과거분사 부대상황. ≈ deferring the specifics to linked docs. ↔ with everything inlined. [→ daily](../../daily/2026-11-11/new-expressions.md)
+  - 예: The README stays short, with the details pushed out to linked docs.
+- **Nothing points to them, so …** — 가리키는 곳이 없어 묻혀 있다(그래서 중복 구현이 생긴다). ≈ they aren't referenced anywhere. ↔ linked from the main guide. [→ daily](../../daily/2026-11-11/new-expressions.md)
+  - 예: The shared helpers are solid, but nothing points to them, so a new adapter could rebuild code that already exists.
+- **I'm leaving out X because …** — X는 일부러 뺀다, 이유는 …. 빠뜨림이 아닌 선택임을 밝힌다. ≈ X is out of scope here, I'm not touching X. ↔ I'm folding X in as well. [→ daily](../../daily/2026-11-11/new-expressions.md)
+  - 예: I'm leaving out the Git Workflow rationale paragraphs because they're long on purpose.
+- **the only carrier of what we know about X** — X에 관한 지식을 실어 나르는 유일한 수단. ≈ the sole record of, our single source of truth for. ↔ a throwaway placeholder. [→ daily](../../daily/2026-11-11/new-expressions.md)
+  - 예: The office databases are unreachable from home, so mock data is the only carrier of what we know about them.
+- **a fact the next session will contradict** — 다음 세션이 거스르게 될 사실. `A fact … is a fact …` 반복 경구. ≈ a fact bound to be overwritten. ↔ a fact that sticks. [→ daily](../../daily/2026-11-11/new-expressions.md)
+  - 예: A fact recorded in one and not the other is a fact the next home session will contradict.
+- **Use judgement** — 알아서 판단하라(콜론 뒤에 기준을 준다). 미국식 judgment. ≈ use your discretion, it's your call. ↔ follow the checklist exactly. [→ daily](../../daily/2026-11-11/new-expressions.md)
+  - 예: Use judgement: commit at coherent stopping points, not mid-edit.
+- **jumping straight to a hypothesis** — 증거 없이 곧장 가설로 뛰어드는 것. ≈ jumping to conclusions, shooting from the hip. ↔ letting the evidence lead. [→ daily](../../daily/2026-11-11/new-expressions.md)
+  - 예: Jumping straight to a hypothesis is the exact failure this skill prevents.
+- **measurably falls short** — 측정해 보니 확실히 모자라다. 섣부른 최적화를 막는 조건. ≈ proves inadequate in practice. ↔ holds up, does the job. [→ daily](../../daily/2026-11-11/new-expressions.md)
+  - 예: Skipped the custom cache class; add it when lru_cache measurably falls short.

@@ -1151,7 +1151,9 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/466cd9af-a4c1-495d-91d4-cdf101366743/subagents/agent-a282d5896e8a330d6.jsonl": 129,
     "-Users-daeyoung-Codes-pm-notes-my-task/664613ff-36c3-4544-90b1-3b8dc18911aa.jsonl": 741,
     "-Users-daeyoung-Codes-english-study/fe6be242-8ae7-471e-8e7a-4c45caaa30df.jsonl": 190,
-    "-Users-daeyoung-Codes-pm-notes-my-task/2825a965-d4ec-4484-8bc0-4a2dcb1828de.jsonl": 1632
+    "-Users-daeyoung-Codes-pm-notes-my-task/2825a965-d4ec-4484-8bc0-4a2dcb1828de.jsonl": 1632,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/d0eba2c5-4f9b-4497-ad09-00be7ad1b528.jsonl": 517,
+    "-Users-daeyoung-Codes-pm-notes-my-task/986f5f20-45cd-44fa-85dc-d6acb74be9d3.jsonl": 16
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1834,5 +1836,5 @@
     "skewnono_v3_nuxt/docs/datatables/hitachi/device_statistics_weekly_trend.txt": "skewnono_v3_nuxt/docs/datatables/hitachi/device_statistics_weekly_trend.txt:1793748642.1435485:6060",
     "auto_recipe_creator/docs/research/2026-11-06-codex-hf-gui-vlm-scan.md": "auto_recipe_creator/docs/research/2026-11-06-codex-hf-gui-vlm-scan.md:1793933902.9740438:34298"
   },
-  "last_run": "2026-11-10"
+  "last_run": "2026-11-11"
 }

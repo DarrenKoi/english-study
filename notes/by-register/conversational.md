@@ -1236,3 +1236,13 @@
   - 예: The old migrations are history, not live code, so they stay as they are.
 - **An earlier offer is still open** — 앞서 한 제안이 아직 미결로 남아 있다. ≈ still on the table. [→ daily](../../daily/2026-11-10/new-expressions.md)
   - 예: My offer to review the migration plan is still open; nobody has picked it up.
+- **all there and all checked out** — 빠짐없이 있고 확인해 보니 모두 맞다. 자동사 `check out` = 사실로 드러나다. ≈ all accounted for, everything lines up. ↔ doesn't hold up. [→ daily](../../daily/2026-11-11/new-expressions.md)
+  - 예: Backend, frontend and markdown-lint commands are all there and all checked out.
+- **I'm leaving out X because …** — X는 일부러 뺀다, 이유는 …. 빠뜨림이 아닌 선택임을 밝힌다. ≈ X is out of scope here, I'm not touching X. ↔ I'm folding X in as well. [→ daily](../../daily/2026-11-11/new-expressions.md)
+  - 예: I'm leaving out the Git Workflow rationale paragraphs because they're long on purpose.
+- **at coherent stopping points, not mid-edit** — 일단락된 지점에서, 편집 도중이 아니라. `mid-` 접두사 응용. ≈ at a natural breakpoint. ↔ halfway through a change. [→ daily](../../daily/2026-11-11/new-expressions.md)
+  - 예: Commit at coherent stopping points, like a passing test suite, not mid-edit.
+- **Wrong bug = wrong fix.** — 버그를 잘못 잡으면 수정도 틀린다. 등호 슬로건. 말로는 If it's the wrong bug, it's the wrong fix. ≈ fix the wrong thing and you've fixed nothing. [→ daily](../../daily/2026-11-11/new-expressions.md)
+  - 예: Make sure the test fails the way the user described; wrong bug = wrong fix.
+- **jumping straight to a hypothesis** — 증거 없이 곧장 가설로 뛰어드는 것. ≈ jumping to conclusions, shooting from the hip. ↔ letting the evidence lead. [→ daily](../../daily/2026-11-11/new-expressions.md)
+  - 예: Jumping straight to a hypothesis is the exact failure this skill prevents.

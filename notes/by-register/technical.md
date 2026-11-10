@@ -2326,3 +2326,17 @@
   - 예: The agent ran out of context halfway through the refactor, so I had to summarize and restart.
 - **something it says has not happened yet may already have happened** — 요약에 아직이라고 적힌 일이 이미 일어났을 수 있다. [→ daily](../../daily/2026-11-10/new-expressions.md)
   - 예: The handover notes are a day old, so a task they list as open may already have been closed.
+- **with the details pushed out to linked docs** — 세부는 링크한 문서로 빼 두고. with+명사+과거분사 부대상황. ≈ deferring the specifics to linked docs. ↔ with everything inlined. [→ daily](../../daily/2026-11-11/new-expressions.md)
+  - 예: The README stays short, with the details pushed out to linked docs.
+- **at coherent stopping points, not mid-edit** — 일단락된 지점에서, 편집 도중이 아니라. `mid-` 접두사 응용. ≈ at a natural breakpoint. ↔ halfway through a change. [→ daily](../../daily/2026-11-11/new-expressions.md)
+  - 예: Commit at coherent stopping points, like a passing test suite, not mid-edit.
+- **hold onto merged branches** — 이미 병합된 브랜치를 계속 붙들고 있다. 놓아야 할 것을 붙잡는 뉘앙스. ≈ keep alive, cling to. ↔ release. [→ daily](../../daily/2026-11-11/new-expressions.md)
+  - 예: Leftover worktrees accumulate stale checkouts, hold onto merged branches, and mislead the next session about what work is still open.
+- **under an unrelated subject line** — 관계없는 커밋 제목 아래 섞여서. `under` = 이름표 아래. ≈ mislabeled as part of another change. ↔ in its own commit. [→ daily](../../daily/2026-11-11/new-expressions.md)
+  - 예: A broad stage sweeps another session's half-finished edits into your commit under an unrelated subject line.
+- **Wrong bug = wrong fix.** — 버그를 잘못 잡으면 수정도 틀린다. 등호 슬로건. 말로는 If it's the wrong bug, it's the wrong fix. ≈ fix the wrong thing and you've fixed nothing. [→ daily](../../daily/2026-11-11/new-expressions.md)
+  - 예: Make sure the test fails the way the user described; wrong bug = wrong fix.
+- **a different failure that happens to be nearby** — 마침 근처에서 난 다른 실패. `happen to` = 우연히. ≈ a red herring. ↔ the exact symptom. [→ daily](../../daily/2026-11-11/new-expressions.md)
+  - 예: The loop must produce the failure the user described, not a different failure that happens to be nearby.
+- **is isolated to X** — (영향·변경이) X 안에만 국한된다. ≈ is confined to, is scoped to. ↔ leaks into, spreads across. [→ daily](../../daily/2026-11-11/new-expressions.md)
+  - 예: Handlers never touch DB drivers directly, so the home↔office swap is isolated to `providers/office.py`.

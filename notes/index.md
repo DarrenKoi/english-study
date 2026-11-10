@@ -2,6 +2,8 @@
 
 알파벳 순. 각 표현 → 처음 수집된 daily 링크.
 - [4-digit zero padding](daily/2026-10-30/new-expressions.md) — 2026-10-30
+- [a different failure that happens to be nearby](daily/2026-11-11/new-expressions.md) — 2026-11-11
+- [a fact the next session will contradict](daily/2026-11-11/new-expressions.md) — 2026-11-11
 - [a few small items that may be worth a decision](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [a mock that is tidier than the office is a mock that hides the office's bugs](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [a previous conversation that ran out of context](daily/2026-11-10/new-expressions.md) — 2026-11-10
@@ -9,9 +11,11 @@
 - [a straight swap can at best tie](daily/2026-11-07/new-expressions.md) — 2026-11-07
 - [abbreviated notes ending in noun forms](daily/2026-11-09/new-expressions.md) — 2026-11-09
 - [Agreement is high-signal.](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [all there and all checked out](daily/2026-11-11/new-expressions.md) — 2026-11-11
 - [An earlier offer is still open](daily/2026-11-10/new-expressions.md) — 2026-11-10
 - [an observed relation in a hand-picked group](daily/2026-11-08/new-expressions.md) — 2026-11-08
 - [as of the generation time](daily/2026-11-06/new-expressions.md) — 2026-11-06
+- [at coherent stopping points, not mid-edit](daily/2026-11-11/new-expressions.md) — 2026-11-11
 - [back in sync with](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [Be dense and factual](daily/2026-11-08/new-expressions.md) — 2026-11-08
 - [Because `fab_name` is finer than `fac_id`](daily/2026-11-08/new-expressions.md) — 2026-11-08
@@ -44,11 +48,13 @@
 - [hands over state](daily/2026-11-06/new-expressions.md) — 2026-11-06
 - [Hardware is never the ideal on paper](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [has no design fork](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [hold onto merged branches](daily/2026-11-11/new-expressions.md) — 2026-11-11
 - [I drew the expressions from X](daily/2026-11-09/new-expressions.md) — 2026-11-09
 - [I haven't committed or pushed, because finalize handles that.](daily/2026-11-09/new-expressions.md) — 2026-11-09
 - [I left the section unnumbered so the existing sections don't shift](daily/2026-11-10/new-expressions.md) — 2026-11-10
 - [I took only new phrases, mostly from X](daily/2026-11-09/new-expressions.md) — 2026-11-09
 - [I wrote this, please check](daily/2026-11-10/new-expressions.md) — 2026-11-10
+- [I'm leaving out X because …](daily/2026-11-11/new-expressions.md) — 2026-11-11
 - [idioms that literal translation misses](daily/2026-11-09/new-expressions.md) — 2026-11-09
 - [if it is at all unfamiliar](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [If you're fine publishing them, it's one small commit to add them.](daily/2026-11-01/new-expressions.md) — 2026-11-01
@@ -58,11 +64,13 @@
 - [insufficient for](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [is cheaper than a wrong assertion](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [is enforced by](daily/2026-11-05/new-expressions.md) — 2026-11-05
+- [is isolated to X](daily/2026-11-11/new-expressions.md) — 2026-11-11
 - [is omitted rather than written empty](daily/2026-11-06/new-expressions.md) — 2026-11-06
 - [is the figure that says whether the tool is getting slower](daily/2026-11-07/new-expressions.md) — 2026-11-07
 - [it didn't need its own slide](daily/2026-11-10/new-expressions.md) — 2026-11-10
 - [It is a long shot.](daily/2026-11-07/new-expressions.md) — 2026-11-07
 - [It is illustrative, like X elsewhere on the page](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [jumping straight to a hypothesis](daily/2026-11-11/new-expressions.md) — 2026-11-11
 - [keep it strictly additive](daily/2026-11-06/new-expressions.md) — 2026-11-06
 - [Keep the report under 300 words.](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [Landed today on main](daily/2026-11-07/new-expressions.md) — 2026-11-07
@@ -75,6 +83,7 @@
 - [looks off](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [manufactured by the generator](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [may not reflect recent changes](daily/2026-11-05/new-expressions.md) — 2026-11-05
+- [measurably falls short](daily/2026-11-11/new-expressions.md) — 2026-11-11
 - [mid-task](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [more about identity than the shared design](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [My helper landed between `_lot_bridge` and its cache decorator.](daily/2026-11-08/new-expressions.md) — 2026-11-08
@@ -87,6 +96,7 @@
 - [(one thing users) would trip on](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [(only matters if you used these)](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [no re-arguing](daily/2026-11-01/new-expressions.md) — 2026-11-01
+- [Nothing points to them, so …](daily/2026-11-11/new-expressions.md) — 2026-11-11
 - [Now record the build list.](daily/2026-11-09/new-expressions.md) — 2026-11-09
 - [on the user's behalf](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [one expression can go in more than one](daily/2026-11-09/new-expressions.md) — 2026-11-09
@@ -962,6 +972,7 @@
 - [the first question is "did X, or did Y?"](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [the logical AND of two independent questions](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [the next sync can be a plain diff](daily/2026-11-01/new-expressions.md) — 2026-11-01
+- [the only carrier of what we know about X](daily/2026-11-11/new-expressions.md) — 2026-11-11
 - [the only merge worth testing](daily/2026-11-07/new-expressions.md) — 2026-11-07
 - [the primary extraction method](daily/2026-11-04/new-expressions.md) — 2026-11-04
 - [The real gap is that ...](daily/2026-10-31/new-expressions.md) — 2026-10-31
@@ -1340,9 +1351,11 @@
 - [trimmed on purpose](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [trivially cheap](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [turned X into Y](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [under an unrelated subject line](daily/2026-11-11/new-expressions.md) — 2026-11-11
 - [under-determined](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [underspecified](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [Use it even when you think you know the answer.](daily/2026-11-05/new-expressions.md) — 2026-11-05
+- [Use judgement](daily/2026-11-11/new-expressions.md) — 2026-11-11
 - [use the one that section already has in hand](daily/2026-11-07/new-expressions.md) — 2026-11-07
 - [Users are on FHD desktops.](daily/2026-11-04/new-expressions.md) — 2026-11-04
 - [verified by reading only](daily/2026-10-23/new-expressions.md) — 2026-10-23
@@ -1362,6 +1375,7 @@
 - [wiring it into (HardwareView)](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [with consolidated scope](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [with no backend change](daily/2026-11-01/new-expressions.md) — 2026-11-01
+- [with the details pushed out to linked docs](daily/2026-11-11/new-expressions.md) — 2026-11-11
 - [with the suspects flagged in their own column](daily/2026-11-06/new-expressions.md) — 2026-11-06
 - [with your content as written](daily/2026-11-10/new-expressions.md) — 2026-11-10
 - [within the diff's scope](daily/2026-11-04/new-expressions.md) — 2026-11-04
@@ -1370,6 +1384,7 @@
 - [would have charged every … a …](daily/2026-10-25/new-expressions.md) — 2026-10-25
 - [would have landed one slide too early](daily/2026-11-10/new-expressions.md) — 2026-11-10
 - [Write as little as possible](daily/2026-10-29/new-expressions.md) — 2026-10-29
+- [Wrong bug = wrong fix.](daily/2026-11-11/new-expressions.md) — 2026-11-11
 - [X and Y were not verified.](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [YAGNI applies to tests too](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [you can paste the file as-is](daily/2026-11-08/new-expressions.md) — 2026-11-08
