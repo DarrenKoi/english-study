@@ -2714,3 +2714,19 @@
   - 예: Jumping straight to a hypothesis is the exact failure this skill prevents.
 - **measurably falls short** — 측정해 보니 확실히 모자라다. 섣부른 최적화를 막는 조건. ≈ proves inadequate in practice. ↔ holds up, does the job. [→ daily](../../daily/2026-11-11/new-expressions.md)
   - 예: Skipped the custom cache class; add it when lru_cache measurably falls short.
+- **which may belong to the user or another client** — 그건 사용자나 다른 클라이언트의 것일 수도 있는데. 계속적 용법 `which` 로 위험을 덧붙임. ≈ which might not be yours, which is not necessarily owned by the caller. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: Omitting a target can use the UI-focused pane, which may belong to the user or another client.
+- **Default to a sibling pane** — 기본은 옆 pane으로. `default to X` = 따로 지시가 없으면 X. ≈ use X unless told otherwise, go with X by default. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: Default to a sibling pane in the current tab and current working directory.
+- **If a wait times out, inspect … before deciding what to do.** — 시간 초과가 나면 판단 전에 먼저 살펴본다. `time out` 은 자동사 구동사. ≈ don't retry blindly, investigate before acting. ↔ retry right away. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: If a wait times out, inspect the pane's status and recent output before deciding what to do.
+- **panes, or sessions you did not create** — 내가 만들지 않은 pane이나 세션. 관계대명사 생략. ≈ resources you don't own, anything that isn't yours. ↔ the ones you spun up yourself. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: Do not close workspaces, tabs, panes, or sessions you did not create unless the user explicitly asked.
+- **This is how Claude Code surfaces messages the user sends mid-turn** — 시스템이 정보를 이런 식으로 띄워 준다. `surface` 타동사 = 보이게 올리다. ≈ this is how X shows you …. ↔ bury, swallow silently. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: This is how the dashboard surfaces alerts that fire while a deploy is still running.
+- **take it as the current state rather than reverting it** — 되돌리지 말고 지금 상태로 받아들여라. `take A as B`. ≈ treat it as the source of truth, go with what's there. ↔ roll it back. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: The config changed while you were away; that's usually deliberate, so take it as the current state rather than reverting it.
+- **if the change looks wrong, say so rather than undoing it yourself** — 틀려 보이면 직접 되돌리지 말고 그렇다고 말해라. `say so` 의 `so` 가 앞 절을 받음. ≈ flag it instead of fixing it, raise it with the author. ↔ quietly revert it. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: If the change looks wrong, say so rather than undoing it yourself.
+- **a tool you did not anticipate** — 미리 예상하지 못한 도구. `anticipate` = 내다보고 대비하다. ≈ an unforeseen requirement, something you hadn't planned for. ↔ a tool you expected to need. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: Only issue a second ToolSearch if the task later needs a tool you did not anticipate.

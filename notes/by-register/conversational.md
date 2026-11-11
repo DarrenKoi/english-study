@@ -1246,3 +1246,11 @@
   - 예: Make sure the test fails the way the user described; wrong bug = wrong fix.
 - **jumping straight to a hypothesis** — 증거 없이 곧장 가설로 뛰어드는 것. ≈ jumping to conclusions, shooting from the hip. ↔ letting the evidence lead. [→ daily](../../daily/2026-11-11/new-expressions.md)
   - 예: Jumping straight to a hypothesis is the exact failure this skill prevents.
+- **if the change looks wrong, say so rather than undoing it yourself** — 틀려 보이면 직접 되돌리지 말고 그렇다고 말해라. `say so` 의 `so` 가 앞 절을 받음. ≈ flag it instead of fixing it, raise it with the author. ↔ quietly revert it. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: If the change looks wrong, say so rather than undoing it yourself.
+- **otherwise no need to call it out** — 그게 아니면 굳이 짚어 말할 필요 없다. `there is` 를 뺀 메모체. ≈ no need to mention it, don't bother flagging it. ↔ worth calling out. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: Mention it if the numbers look off; otherwise no need to call it out.
+- **say in a few words what you're doing, then continue** — 지금 뭘 하는지 몇 마디로 말하고 계속해라. ≈ give a quick status update, drop a one-liner on where you are. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: The team hasn't heard from you in a while, so say in a few words what you're doing, then continue.
+- **I'll restore the file and insert only the new lines.** — 파일을 되돌리고 새 줄만 끼워 넣겠다. 실수 뒤 복구 계획을 한 문장으로. ≈ I'll revert and add just the new entries, I'll back that out and re-apply the additions only. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: My sort reordered existing index lines. I'll restore the file and insert only the new lines.

@@ -2340,3 +2340,29 @@
   - 예: The loop must produce the failure the user described, not a different failure that happens to be nearby.
 - **is isolated to X** — (영향·변경이) X 안에만 국한된다. ≈ is confined to, is scoped to. ↔ leaks into, spreads across. [→ daily](../../daily/2026-11-11/new-expressions.md)
   - 예: Handlers never touch DB drivers directly, so the home↔office swap is isolated to `providers/office.py`.
+- **never construct an ID from a workspace or display number** — 번호 규칙으로 ID를 조립하지 말 것. `construct A from B` = B로 A를 짜 맞추다. ≈ don't guess the ID, do not derive IDs from position. ↔ read the ID from the response. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: Re-read the create response after each split; never construct an ID from a workspace or display number.
+- **which may belong to the user or another client** — 그건 사용자나 다른 클라이언트의 것일 수도 있는데. 계속적 용법 `which` 로 위험을 덧붙임. ≈ which might not be yours, which is not necessarily owned by the caller. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: Omitting a target can use the UI-focused pane, which may belong to the user or another client.
+- **the same underlying semantic state with different attention state** — 바탕의 의미 상태는 같고 봤는지 여부만 다른. `the same A with different B` 틀. ≈ two labels for one state. ↔ two genuinely distinct states. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: `idle` and `done` are the same underlying semantic state with different attention state.
+- **Default to a sibling pane** — 기본은 옆 pane으로. `default to X` = 따로 지시가 없으면 X. ≈ use X unless told otherwise, go with X by default. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: Default to a sibling pane in the current tab and current working directory.
+- **Keep the user's focus in the calling pane** — 사용자의 포커스는 호출한 pane에 그대로 둔다. ≈ don't steal focus, without moving the user's focus. ↔ switch focus to the new pane. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: Split to the right with `--no-focus` to keep the user's focus in the calling pane.
+- **Do not pass the task as an argv prompt by default.** — 작업을 실행 인자 프롬프트로 넘기지 않는 것이 기본. 끝의 `by default` 가 예외의 여지를 남김. ≈ don't put the prompt on the command line. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: Do not pass the task as an argv prompt by default; start the TUI first and submit the task once it is idle.
+- **instead of coordinating `send-text` and `send-keys` separately** — 두 명령을 따로 맞춰 쓰는 대신. `coordinate A and B` = 순서·타이밍을 맞추다. ≈ rather than juggling two commands. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: Use `pane run` for initial prompts and follow-ups instead of coordinating `send-text` and `send-keys` separately.
+- **If a wait times out, inspect … before deciding what to do.** — 시간 초과가 나면 판단 전에 먼저 살펴본다. `time out` 은 자동사 구동사. ≈ don't retry blindly, investigate before acting. ↔ retry right away. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: If a wait times out, inspect the pane's status and recent output before deciding what to do.
+- **Do not derive them from sidebar order or examples.** — 화면 순서나 예시에서 미루어 만들지 말 것. `derive A from B`. ≈ don't infer them from X, don't work them out from the UI. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: Parse IDs from JSON responses. Do not derive them from sidebar order or examples.
+- **panes, or sessions you did not create** — 내가 만들지 않은 pane이나 세션. 관계대명사 생략. ≈ resources you don't own, anything that isn't yours. ↔ the ones you spun up yourself. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: Do not close workspaces, tabs, panes, or sessions you did not create unless the user explicitly asked.
+- **This is how Claude Code surfaces messages the user sends mid-turn** — 시스템이 정보를 이런 식으로 띄워 준다. `surface` 타동사 = 보이게 올리다. ≈ this is how X shows you …. ↔ bury, swallow silently. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: This is how the dashboard surfaces alerts that fire while a deploy is still running.
+- **take it as the current state rather than reverting it** — 되돌리지 말고 지금 상태로 받아들여라. `take A as B`. ≈ treat it as the source of truth, go with what's there. ↔ roll it back. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: The config changed while you were away; that's usually deliberate, so take it as the current state rather than reverting it.
+- **I'll restore the file and insert only the new lines.** — 파일을 되돌리고 새 줄만 끼워 넣겠다. 실수 뒤 복구 계획을 한 문장으로. ≈ I'll revert and add just the new entries, I'll back that out and re-apply the additions only. [→ daily](../../daily/2026-11-12/new-expressions.md)
+  - 예: My sort reordered existing index lines. I'll restore the file and insert only the new lines.
