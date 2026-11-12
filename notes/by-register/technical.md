@@ -2366,3 +2366,25 @@
   - 예: The config changed while you were away; that's usually deliberate, so take it as the current state rather than reverting it.
 - **I'll restore the file and insert only the new lines.** — 파일을 되돌리고 새 줄만 끼워 넣겠다. 실수 뒤 복구 계획을 한 문장으로. ≈ I'll revert and add just the new entries, I'll back that out and re-apply the additions only. [→ daily](../../daily/2026-11-12/new-expressions.md)
   - 예: My sort reordered existing index lines. I'll restore the file and insert only the new lines.
+- **Two rungs work → take the higher one and move on.** — 두 칸 다 되면 위 칸을 택하고 넘어가라. `move on` 이 고민을 끊는다. ≈ pick one and keep going, don't overthink it. ↔ keep weighing the options. [→ daily](../../daily/2026-11-13/new-expressions.md)
+  - 예: Both libraries would do the job, so take the smaller one and move on.
+- **clever is what someone decodes at 3am** — 기발한 코드는 누군가 새벽 3시에 해독해야 하는 코드다. 형용사 `clever` 를 주어로 세운 정의문. ≈ clever code is a maintenance burden, don't be cute. [→ daily](../../daily/2026-11-13/new-expressions.md)
+  - 예: Keep the query plain, because clever is what someone decodes at 3am.
+- **The smallest change in the wrong place isn't lazy, it's a second bug.** — 엉뚱한 자리의 최소 수정은 게으름이 아니라 두 번째 버그다. `isn't A, it's B`. ≈ a quick fix in the wrong layer just moves the problem. [→ daily](../../daily/2026-11-13/new-expressions.md)
+  - 예: Patching the template would hide the symptom, but the smallest change in the wrong place isn't lazy, it's a second bug.
+- **Take the one that's correct on edge cases.** — 경계 사례에서 맞게 동작하는 쪽을 골라라. 입력 종류 앞 전치사는 `on`. ≈ prefer the one that handles corner cases. ↔ pick the flimsier algorithm. [→ daily](../../daily/2026-11-13/new-expressions.md)
+  - 예: Both parsers are ten lines long, so take the one that's correct on edge cases.
+- **patching only the path the ticket names leaves every sibling caller still broken** — 티켓에 적힌 경로만 고치면 다른 호출자는 고장 난 채 남는다. 동명사구 주어 + `leave + 목적어 + 형용사`. ≈ fixing just the reported case leaves the others exposed. ↔ fix it once, where all callers route through. [→ daily](../../daily/2026-11-13/new-expressions.md)
+  - 예: Patching only the path the ticket names leaves every sibling caller still broken, so the guard belongs in the shared helper.
+- **Lazy code without its check is unfinished.** — 확인 코드가 없는 간결한 코드는 끝난 게 아니다. 금지문 대신 정의문으로 말하는 규칙. ≈ it's not done until it's tested, no test, no merge. [→ daily](../../daily/2026-11-13/new-expressions.md)
+  - 예: The parser looks fine, but lazy code without its check is unfinished, so add one assert before you merge.
+- **Ponytail governs what you build, not how you talk** — 규칙이 정하는 것은 무엇을 만드느냐이지 어떻게 말하느냐가 아니다. `govern` = 적용 대상으로 삼다. ≈ applies to, covers, is scoped to. ↔ is out of scope for. [→ daily](../../daily/2026-11-13/new-expressions.md)
+  - 예: This policy governs what gets deployed, not how teams organize their branches.
+- **Do NOT interpret this as user acknowledgement, confirmation, or response to any pending question.** — 이것을 사용자의 확인, 승인, 대기 중인 질문의 답으로 해석하지 말 것. `interpret A as B`. ≈ don't take this as a yes, this does not constitute approval. [→ daily](../../daily/2026-11-13/new-expressions.md)
+  - 예: Do not interpret the automated receipt as acknowledgement, confirmation, or response to any pending question.
+- **debug or report it rather than silently retrying via a slower tier** — 더 느린 단계로 말없이 재시도하지 말고 원인을 찾거나 보고하라. `rather than` 뒤 동명사. ≈ don't quietly fall back to the slow path. ↔ fall back silently. [→ daily](../../daily/2026-11-13/new-expressions.md)
+  - 예: If the API call fails, debug or report it rather than silently retrying via a slower tier.
+- **Treat this as a connection failure, not a missing capability** — 기능이 없는 게 아니라 연결이 실패한 것으로 다뤄라. `treat A as B, not C`. ≈ it's down, not gone; this is an outage rather than an unsupported feature. [→ daily](../../daily/2026-11-13/new-expressions.md)
+  - 예: Treat this as a connection failure, not a missing capability, and ask the user to retry the server.
+- **no interface with one implementation, no factory for one product** — 구현이 하나뿐인 인터페이스도, 제품이 하나뿐인 팩토리도 만들지 않는다. 동사 없는 `no + 명사구` 나열. ≈ don't abstract until you have two users, avoid premature abstraction. [→ daily](../../daily/2026-11-13/new-expressions.md)
+  - 예: Keep the module flat: no interface with one implementation, no factory for one product.

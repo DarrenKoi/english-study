@@ -1254,3 +1254,9 @@
   - 예: The team hasn't heard from you in a while, so say in a few words what you're doing, then continue.
 - **I'll restore the file and insert only the new lines.** — 파일을 되돌리고 새 줄만 끼워 넣겠다. 실수 뒤 복구 계획을 한 문장으로. ≈ I'll revert and add just the new entries, I'll back that out and re-apply the additions only. [→ daily](../../daily/2026-11-12/new-expressions.md)
   - 예: My sort reordered existing index lines. I'll restore the file and insert only the new lines.
+- **Two rungs work → take the higher one and move on.** — 두 칸 다 되면 위 칸을 택하고 넘어가라. `move on` 이 고민을 끊는다. ≈ pick one and keep going, don't overthink it. ↔ keep weighing the options. [→ daily](../../daily/2026-11-13/new-expressions.md)
+  - 예: Both libraries would do the job, so take the smaller one and move on.
+- **clever is what someone decodes at 3am** — 기발한 코드는 누군가 새벽 3시에 해독해야 하는 코드다. 형용사 `clever` 를 주어로 세운 정의문. ≈ clever code is a maintenance burden, don't be cute. [→ daily](../../daily/2026-11-13/new-expressions.md)
+  - 예: Keep the query plain, because clever is what someone decodes at 3am.
+- **No need to announce the new date — the user's own clock shows it.** — 새 날짜를 알릴 필요 없다, 사용자 시계에 나와 있다. `There is` 생략형 `No need to`. ≈ you don't have to mention it, it goes without saying. [→ daily](../../daily/2026-11-13/new-expressions.md)
+  - 예: No need to announce the deploy time — the dashboard already shows it.
