@@ -2746,3 +2746,33 @@
   - 예: Silence from the reviewer must not be treated as approval or consent.
 - **Treat this as a connection failure, not a missing capability** — 기능이 없는 게 아니라 연결이 실패한 것으로 다뤄라. `treat A as B, not C`. ≈ it's down, not gone; this is an outage rather than an unsupported feature. [→ daily](../../daily/2026-11-13/new-expressions.md)
   - 예: Treat this as a connection failure, not a missing capability, and ask the user to retry the server.
+- **every decision branches into the decisions that hang off it** — 모든 결정은 거기 매달린 다음 결정들로 가지를 친다. `hang off` = ~에 매달려 있다. ≈ depend on, follow from, be downstream of. ↔ stand on its own. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Pick the database first, because every other decision branches into the decisions that hang off it.
+- **Word each question so "yes" accepts your recommended answer.** — "예" 한마디로 추천안이 채택되게 질문 문구를 잡아라. `word` 가 동사. ≈ phrase, frame. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Word each question so "yes" accepts your recommended answer, and the reviewer can approve in one word.
+- **don't ask the user for anything you could look up yourself** — 스스로 찾아볼 수 있는 건 묻지 마라. `ask A for B` + 관계절. ≈ check it yourself first, do your own legwork. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Before you message the team, don't ask them for anything you could look up yourself in the wiki.
+- **The packaging differs; the writing does not** — 포장은 달라도 쓰는 법은 같다. 세미콜론 대구, `does not (differ)` 생략. ≈ same principles, different wrapper; the form varies but the substance holds. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: A README and a runbook look nothing alike, but the packaging differs; the writing does not.
+- **split only when the cut earns it** — 나눠서 얻는 게 있을 때만 나눠라. 사물 주어 + `earn`. ≈ only if it pays for itself, when the benefit justifies the cost. ↔ split by default. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Two files mean two things to maintain, so split only when the cut earns it.
+- **Attention thins across the excess** — 분량이 넘치면 주의력이 얇게 퍼진다. `thin` 이 자동사. ≈ focus gets diluted, readers lose the thread. ↔ attention stays sharp. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Add twenty more rules and attention thins across the excess, so the three that matter get skimmed.
+- **adding feels safe and removing feels risky** — 더하는 건 안전하게, 빼는 건 위험하게 느껴진다. `is` 가 아닌 `feels`. ≈ nobody dares delete anything, it's easier to add than to take away. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Our config file keeps growing because adding feels safe and removing feels risky.
+- **reach for an existing word first** — 이미 있는 말부터 집어라. `reach for` = 먼저 떠올려 쓰다. ≈ default to, start with what's already there. ↔ coin your own. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Before you coin a new term for the design doc, reach for an existing word first.
+- **A prohibition earns its place only as a hard guardrail** — 금지 조항은 넘으면 안 되는 안전장치일 때만 자리값을 한다. ≈ is justified only when, should be the exception, not the rule. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: In our style guide, a prohibition earns its place only as a hard guardrail, such as never logging passwords.
+- **settle it by running the document, not by debate** — 토론 말고 직접 돌려 봐서 결판을 내라. `by A, not by B`. ≈ let the data decide, resolve it empirically. ↔ argue it out. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: We disagreed about the timeout value, so we settled it by running a load test, not by debate.
+- **It solves none of our problems** — 우리 문제를 하나도 못 푼다. `doesn't solve any` 보다 단호. ≈ it doesn't address the actual issue, it misses the point. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Switching to a new framework sounds exciting, but it solves none of our problems.
+- **This removes the stale-copy problem at its source** — 낡은 복사본 문제를 근원에서 없앤다. `at its source` = 발생 지점에서. ≈ fix the root cause, nip it in the bud. ↔ patch the symptom. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Generating the types from the schema removes the mismatch problem at its source.
+- **a structural misunderstanding that statistics would not have revealed** — 통계로는 드러나지 않았을 구조적 오해. `would not have p.p.` 가정. ≈ something no amount of data would have caught. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: The outage came from a wrong assumption about time zones, a structural misunderstanding that more unit tests would not have revealed.
+- **Two principles carry over** — 원칙 두 가지는 여기에도 통한다. `carry over` 자동사. ≈ still apply here, translate well. ↔ don't apply here. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: We can't reuse their code, but two principles carry over: small releases and automatic rollback.
+- **Answer: modify the skewnono pattern, don't replace it.** — 결론: 고쳐 쓰고 갈아치우지는 말 것. 보고 첫 줄에 결론을 주는 `A, don't B`. ≈ evolve it rather than replace it; fix it, don't scrap it. ↔ rip and replace. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Answer: tune the existing index, don't rebuild the table.

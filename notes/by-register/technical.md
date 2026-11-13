@@ -2388,3 +2388,17 @@
   - 예: Treat this as a connection failure, not a missing capability, and ask the user to retry the server.
 - **no interface with one implementation, no factory for one product** — 구현이 하나뿐인 인터페이스도, 제품이 하나뿐인 팩토리도 만들지 않는다. 동사 없는 `no + 명사구` 나열. ≈ don't abstract until you have two users, avoid premature abstraction. [→ daily](../../daily/2026-11-13/new-expressions.md)
   - 예: Keep the module flat: no interface with one implementation, no factory for one product.
+- **every decision branches into the decisions that hang off it** — 모든 결정은 거기 매달린 다음 결정들로 가지를 친다. `hang off` = ~에 매달려 있다. ≈ depend on, follow from, be downstream of. ↔ stand on its own. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Pick the database first, because every other decision branches into the decisions that hang off it.
+- **split only when the cut earns it** — 나눠서 얻는 게 있을 때만 나눠라. 사물 주어 + `earn`. ≈ only if it pays for itself, when the benefit justifies the cost. ↔ split by default. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Two files mean two things to maintain, so split only when the cut earns it.
+- **Push too little down and the top bloats** — 아래로 너무 적게 내리면 위가 비대해진다. `명령문 + and` 조건 구문. ≈ if you keep too much up front, it gets unwieldy. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Push too little down and the top bloats; push too much and nobody can find the setup steps.
+- **pays load to say nothing** — 아무 말도 안 하면서 비용만 치른다. 없어도 되는 지시문을 가리킬 때. ≈ is dead weight, is a no-op. ↔ earns its place. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: "Write clean code" in a system prompt pays load to say nothing, because the model does that by default.
+- **where they cannot go stale** — 낡을 일이 없는 곳에. `go + 형용사` 는 나쁜 쪽 변화. ≈ stay in sync, never drift. ↔ fall out of date. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Leave the script names in package.json, where they cannot go stale, instead of copying them into the README.
+- **This removes the stale-copy problem at its source** — 낡은 복사본 문제를 근원에서 없앤다. `at its source` = 발생 지점에서. ≈ fix the root cause, nip it in the bud. ↔ patch the symptom. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Generating the types from the schema removes the mismatch problem at its source.
+- **can't be copied into this repo as-is** — 이 repo 에 그대로는 못 가져온다. `as-is` = 손대지 않은 그대로. ≈ verbatim, out of the box. ↔ with some adaptation. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Their CI config depends on a private runner, so it can't be copied into this repo as-is.

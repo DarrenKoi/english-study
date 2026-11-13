@@ -1260,3 +1260,19 @@
   - 예: Keep the query plain, because clever is what someone decodes at 3am.
 - **No need to announce the new date — the user's own clock shows it.** — 새 날짜를 알릴 필요 없다, 사용자 시계에 나와 있다. `There is` 생략형 `No need to`. ≈ you don't have to mention it, it goes without saying. [→ daily](../../daily/2026-11-13/new-expressions.md)
   - 예: No need to announce the deploy time — the dashboard already shows it.
+- **don't ask the user for anything you could look up yourself** — 스스로 찾아볼 수 있는 건 묻지 마라. `ask A for B` + 관계절. ≈ check it yourself first, do your own legwork. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Before you message the team, don't ask them for anything you could look up yourself in the wiki.
+- **Push too little down and the top bloats** — 아래로 너무 적게 내리면 위가 비대해진다. `명령문 + and` 조건 구문. ≈ if you keep too much up front, it gets unwieldy. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Push too little down and the top bloats; push too much and nobody can find the setup steps.
+- **adding feels safe and removing feels risky** — 더하는 건 안전하게, 빼는 건 위험하게 느껴진다. `is` 가 아닌 `feels`. ≈ nobody dares delete anything, it's easier to add than to take away. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Our config file keeps growing because adding feels safe and removing feels risky.
+- **reach for an existing word first** — 이미 있는 말부터 집어라. `reach for` = 먼저 떠올려 쓰다. ≈ default to, start with what's already there. ↔ coin your own. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Before you coin a new term for the design doc, reach for an existing word first.
+- **settle it by running the document, not by debate** — 토론 말고 직접 돌려 봐서 결판을 내라. `by A, not by B`. ≈ let the data decide, resolve it empirically. ↔ argue it out. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: We disagreed about the timeout value, so we settled it by running a load test, not by debate.
+- **It solves none of our problems** — 우리 문제를 하나도 못 푼다. `doesn't solve any` 보다 단호. ≈ it doesn't address the actual issue, it misses the point. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Switching to a new framework sounds exciting, but it solves none of our problems.
+- **can't be copied into this repo as-is** — 이 repo 에 그대로는 못 가져온다. `as-is` = 손대지 않은 그대로. ≈ verbatim, out of the box. ↔ with some adaptation. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Their CI config depends on a private runner, so it can't be copied into this repo as-is.
+- **Answer: modify the skewnono pattern, don't replace it.** — 결론: 고쳐 쓰고 갈아치우지는 말 것. 보고 첫 줄에 결론을 주는 `A, don't B`. ≈ evolve it rather than replace it; fix it, don't scrap it. ↔ rip and replace. [→ daily](../../daily/2026-11-14/new-expressions.md)
+  - 예: Answer: tune the existing index, don't rebuild the table.
