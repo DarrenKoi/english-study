@@ -2402,3 +2402,15 @@
   - 예: Generating the types from the schema removes the mismatch problem at its source.
 - **can't be copied into this repo as-is** — 이 repo 에 그대로는 못 가져온다. `as-is` = 손대지 않은 그대로. ≈ verbatim, out of the box. ↔ with some adaptation. [→ daily](../../daily/2026-11-14/new-expressions.md)
   - 예: Their CI config depends on a private runner, so it can't be copied into this repo as-is.
+- **The model knows the API; these are the footguns** — 기본은 알 테니 발등 찍는 함정만 적는다. `footgun` 은 `shoot yourself in the foot` 에서 온 엔지니어 속어. ≈ pitfalls(격식), gotchas. ↔ guardrails. [→ daily](../../daily/2026-11-15/new-expressions.md)
+  - 예: I won't walk you through the whole config format; these are the footguns that cost us a day each.
+- **A pass is not proof of a valid file** — 통과했다고 유효하다는 증명은 아니다. `pass` 가 명사("통과 판정"). ≈ passing doesn't guarantee, necessary but not sufficient. [→ daily](../../daily/2026-11-15/new-expressions.md)
+  - 예: A green CI run is not proof of a correct migration, so check the row counts too.
+- **a genuine regression can hide among them** — 원래 있던 실패가 많으면 진짜 회귀가 그 사이에 숨는다. `genuine` 은 가짜 경보와 대비되는 "진짜". ≈ get lost in the noise, be masked by. ↔ stand out. [→ daily](../../daily/2026-11-15/new-expressions.md)
+  - 예: If we leave forty known warnings in the log, a genuine regression can hide among them.
+- **Every failure names its fix** — 실패마다 고치는 법이 적혀 나온다. 사물 주어 + `name`(지목하다). ≈ actionable error messages. ↔ cryptic errors. [→ daily](../../daily/2026-11-15/new-expressions.md)
+  - 예: The linter is easy to live with because every failure names its fix.
+- **once you reach that floor, cut words** — 그 하한에 닿으면 더 줄이지 말고 단어를 덜어내라. `floor` 는 하한선, `once` 는 전환점이 뚜렷한 접속사. ≈ hit the lower bound, bottom out. ↔ hit the ceiling. [→ daily](../../daily/2026-11-15/new-expressions.md)
+  - 예: Once you reach that floor, cut scope instead of cutting more test time.
+- **the app ships inside every deck** — 앱이 파일마다 들어 있는 채로 배포된다. `ship` 을 자동사로 써서 "딸려 나오다". ≈ comes bundled with, is baked into. ↔ requires a separate install. [→ daily](../../daily/2026-11-15/new-expressions.md)
+  - 예: You don't need a viewer installed because the runtime ships inside every report.

@@ -2776,3 +2776,19 @@
   - 예: We can't reuse their code, but two principles carry over: small releases and automatic rollback.
 - **Answer: modify the skewnono pattern, don't replace it.** — 결론: 고쳐 쓰고 갈아치우지는 말 것. 보고 첫 줄에 결론을 주는 `A, don't B`. ≈ evolve it rather than replace it; fix it, don't scrap it. ↔ rip and replace. [→ daily](../../daily/2026-11-14/new-expressions.md)
   - 예: Answer: tune the existing index, don't rebuild the table.
+- **a pre-read has to carry the whole narrative itself** — 사전 배포 자료는 발표자 없이 설명 전체를 혼자 감당해야 한다. `pre-read` 는 회의 전에 돌려 읽는 문서. ≈ stand on its own, be self-explanatory. ↔ rely on the presenter. [→ daily](../../daily/2026-11-15/new-expressions.md)
+  - 예: Nobody will be there to explain the chart, so the pre-read has to carry the whole narrative itself.
+- **Size a live deck to the talk** — 발표용 deck 분량은 발표 시간에 맞춰라. `size A to B` 에서 `size` 가 동사. ≈ scale A to B, tailor A to B. [→ daily](../../daily/2026-11-15/new-expressions.md)
+  - 예: Size the agenda to the meeting, not the other way around.
+- **these are a hallmark of AI-generated slides** — AI가 만든 슬라이드에서 전형적으로 보이는 특징이다. `a hallmark of` 는 정체를 알아보게 하는 표시. ≈ a telltale sign of, a dead giveaway(구어). [→ daily](../../daily/2026-11-15/new-expressions.md)
+  - 예: Long sentences joined by three conjunctions are a hallmark of translated text.
+- **commit fully or keep it simple throughout** — 제대로 다 하든지 끝까지 단순하게 가든지. `commit` 은 "마음먹고 끝까지 가다", `throughout` 은 문장 끝 부사. ≈ go all in or not at all. ↔ do it halfway. [→ daily](../../daily/2026-11-15/new-expressions.md)
+  - 예: If you add animations, commit fully or keep it simple throughout; one animated slide in thirty looks like a mistake.
+- **you tend to see what you expect rather than what rendered** — 실제로 그려진 것이 아니라 기대한 것을 보게 된다. 자기 작업물을 스스로 검수하기 어려운 이유. ≈ be too close to it. ↔ look at it fresh. [→ daily](../../daily/2026-11-15/new-expressions.md)
+  - 예: After writing the query yourself, you tend to see what you expect rather than what it actually returns.
+- **read those on their own merits** — 다른 것과 엮지 말고 그 자체의 내용으로 판단하라. `on its own merits` 는 심사·법률 문맥에서 온 말. ≈ case by case, taken in isolation. [→ daily](../../daily/2026-11-15/new-expressions.md)
+  - 예: Ignore who filed the ticket and judge each request on its own merits.
+- **Aim for one pass from request to opened deck** — 요청에서 결과물까지 왕복 없이 한 번에 가는 것을 목표로 하라. `aim for + 명사`. ≈ get it done in one go, single round trip. ↔ go back and forth. [→ daily](../../daily/2026-11-15/new-expressions.md)
+  - 예: Aim for one pass from bug report to merged fix; ask questions only when you are blocked.
+- **were intentionally left untouched** — 일부러 건드리지 않고 두었다. `leave + 목적어 + 형용사` 의 수동태. 보고문에서 누락이 아니라 의도임을 밝힌다. ≈ deliberately not changed, out of scope for this change. [→ daily](../../daily/2026-11-15/new-expressions.md)
+  - 예: The legacy endpoints were intentionally left untouched because another team owns them.

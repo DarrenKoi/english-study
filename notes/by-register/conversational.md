@@ -1276,3 +1276,11 @@
   - 예: Their CI config depends on a private runner, so it can't be copied into this repo as-is.
 - **Answer: modify the skewnono pattern, don't replace it.** — 결론: 고쳐 쓰고 갈아치우지는 말 것. 보고 첫 줄에 결론을 주는 `A, don't B`. ≈ evolve it rather than replace it; fix it, don't scrap it. ↔ rip and replace. [→ daily](../../daily/2026-11-14/new-expressions.md)
   - 예: Answer: tune the existing index, don't rebuild the table.
+- **edited in PowerPoint without fighting it** — 도구와 씨름하지 않고 편집되는. `fight a tool` 은 도구의 방식과 어긋나게 써서 애먹는 것. ≈ work with the grain, play nicely with. ↔ work against the tool. [→ daily](../../daily/2026-11-15/new-expressions.md)
+  - 예: If you use the framework's router, you can add pages without fighting it.
+- **Don't skimp on size contrast** — 크기 대비를 아끼지 마라. `skimp on X` 는 너무 아껴 품질을 떨어뜨리는 것. ≈ cut corners on, scrimp on. ↔ go heavy on. [→ daily](../../daily/2026-11-15/new-expressions.md)
+  - 예: Don't skimp on test data; three rows won't show you the edge cases.
+- **Bento's signature move — reach for it liberally** — 이 도구의 주특기이니 마음껏 꺼내 써라. `signature move` 는 전매특허 기술, `reach for` 는 수단으로 택하다. ≈ trademark feature, use it freely. ↔ use it sparingly. [→ daily](../../daily/2026-11-15/new-expressions.md)
+  - 예: Early returns are this codebase's signature move, so reach for them liberally.
+- **Pick up the last task as if the break never happened** — 중단이 없었던 것처럼 마지막 작업을 이어서 하라. `as if + 과거형` 은 가정법. ≈ pick up where you left off. ↔ start over from scratch. [→ daily](../../daily/2026-11-15/new-expressions.md)
+  - 예: When you're back from lunch, just pick up the review as if the break never happened.
