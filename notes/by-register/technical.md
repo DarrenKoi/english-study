@@ -2414,3 +2414,9 @@
   - 예: Once you reach that floor, cut scope instead of cutting more test time.
 - **the app ships inside every deck** — 앱이 파일마다 들어 있는 채로 배포된다. `ship` 을 자동사로 써서 "딸려 나오다". ≈ comes bundled with, is baked into. ↔ requires a separate install. [→ daily](../../daily/2026-11-15/new-expressions.md)
   - 예: You don't need a viewer installed because the runtime ships inside every report.
+- **so it isn't anchored on our conversation** — 앞선 대화에 판단이 끌려가지 않도록. `be anchored on` 은 처음 본 정보에 묶이는 것(anchoring bias). ≈ biased by, primed by. ↔ comes to it fresh. [→ daily](../../daily/2026-11-16/new-expressions.md)
+  - 예: Ask a second reviewer who hasn't seen the ticket, so they aren't anchored on my explanation.
+- **An advisor slot is load-bearing** — 그 자리는 빠지면 전체가 흔들리는 내력벽 같은 자리다. ≈ critical-path, a single point of failure. ↔ redundant by design. [→ daily](../../daily/2026-11-16/new-expressions.md)
+  - 예: That retry wrapper looks like boilerplate, but it is load-bearing; remove it and the nightly job fails.
+- **degrades cleanly to two reviewers** — 일부가 빠져도 덜 좋은 상태로 뒤탈 없이 내려앉는다. 표준 표현은 `degrades gracefully`. ≈ falls back to, fails soft. ↔ fails hard, leaves a hole. [→ daily](../../daily/2026-11-16/new-expressions.md)
+  - 예: If the cache server is down, the page degrades cleanly to a slower direct query.

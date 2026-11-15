@@ -2792,3 +2792,19 @@
   - 예: Aim for one pass from bug report to merged fix; ask questions only when you are blocked.
 - **were intentionally left untouched** — 일부러 건드리지 않고 두었다. `leave + 목적어 + 형용사` 의 수동태. 보고문에서 누락이 아니라 의도임을 밝힌다. ≈ deliberately not changed, out of scope for this change. [→ daily](../../daily/2026-11-15/new-expressions.md)
   - 예: The legacy endpoints were intentionally left untouched because another team owns them.
+- **they add cost without adding perspective** — 비용만 늘리고 관점은 늘리지 못한다. 같은 동사 `add` 를 두 번 써서 맞세운다. ≈ all cost and no benefit, redundant. ↔ earns its keep. [→ daily](../../daily/2026-11-16/new-expressions.md)
+  - 예: Two more approval steps would add delay without adding safety.
+- **Then measure instead of debating** — 말로 다투지 말고 재 보라. `instead of + -ing`. ≈ let the data decide, run the experiment. ↔ keep going back and forth. [→ daily](../../daily/2026-11-16/new-expressions.md)
+  - 예: We've argued about the cache size for a week; let's measure instead of debating.
+- **want dissent shown rather than averaged away** — 이견이 평균에 묻히지 않고 드러나기를 바란다. `want + 목적어 + 과거분사`, `away` 는 "닳아 없어지게". ≈ smoothed over, glossed over. ↔ surfaced, called out. [→ daily](../../daily/2026-11-16/new-expressions.md)
+  - 예: In the summary, I want the two objections shown rather than averaged away into "mostly positive".
+- **I am siding with the minority** — 소수 의견 편에 선다. `side with` 는 "~편을 들다". ≈ I'm going with, I come down on the side of. ↔ side against, go with the majority. [→ daily](../../daily/2026-11-16/new-expressions.md)
+  - 예: I am siding with the two engineers who want to delay the release, even though most of the team disagrees.
+- **rests on evidence that does not transfer** — 여기로 옮겨 올 수 없는 근거에 기대고 있다. `rest on` 은 "토대로 삼다", `transfer` 는 자동사. ≈ hinges on, doesn't carry over. ↔ generalizes. [→ daily](../../daily/2026-11-16/new-expressions.md)
+  - 예: The plan rests on benchmarks from a much smaller dataset, and those results do not transfer.
+- **only the Contrarian is still outstanding** — 그것만 아직 안 들어왔다. `outstanding` 은 "미처리의". 도착한 쪽은 `are in`. ≈ pending, yet to come in. ↔ in, settled. [→ daily](../../daily/2026-11-16/new-expressions.md)
+  - 예: Three of the four approvals are in; only the security review is still outstanding.
+- **Yes, modestly.** — 네, 조금은요. 답과 크기를 두 단어로 함께 말한다. ≈ Somewhat. / Marginally. ↔ Yes, substantially. [→ daily](../../daily/2026-11-16/new-expressions.md)
+  - 예: Does the new index speed things up? Yes, modestly: about eight percent on the slowest queries.
+- **folding what the run taught into the skill** — 시험에서 배운 것을 본문에 녹여 넣는 중. `fold A into B` 는 자연스럽게 합치다. ≈ incorporate, work A into B. ↔ leave out. [→ daily](../../daily/2026-11-16/new-expressions.md)
+  - 예: I'm folding the review comments into the design doc before I send it around again.

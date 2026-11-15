@@ -1284,3 +1284,19 @@
   - 예: Early returns are this codebase's signature move, so reach for them liberally.
 - **Pick up the last task as if the break never happened** — 중단이 없었던 것처럼 마지막 작업을 이어서 하라. `as if + 과거형` 은 가정법. ≈ pick up where you left off. ↔ start over from scratch. [→ daily](../../daily/2026-11-15/new-expressions.md)
   - 예: When you're back from lunch, just pick up the review as if the break never happened.
+- **before calling it installed** — 확인을 마치기 전에는 설치됐다고 하지 않겠다. `call it + 과거분사` 는 "~로 치다". ≈ before signing off on it, before marking it complete. ↔ call it a day. [→ daily](../../daily/2026-11-16/new-expressions.md)
+  - 예: I want to run the migration on a copy of the database before calling it done.
+- **Nothing runs on its own** — 저절로 실행되는 것은 없다. `on its own` 은 "시키지 않아도 혼자서". ≈ nothing executes automatically, it's inert. ↔ it fires automatically. [→ daily](../../daily/2026-11-16/new-expressions.md)
+  - 예: Nothing runs on its own in this repo; every script has to be started by hand.
+- **That cancels the one thing this advisor is for** — 그러면 이 부품이 있는 단 하나의 이유가 사라진다. 전치사 `for` 가 문장 끝에 남는다. ≈ that defeats the purpose. ↔ that plays to its strength. [→ daily](../../daily/2026-11-16/new-expressions.md)
+  - 예: Caching the health check cancels the one thing a health check is for.
+- **one person wearing five hats** — 모자 다섯 개를 번갈아 쓴 한 사람. 여럿처럼 보여도 주체는 하나라고 꼬집는 비유. ≈ playing multiple roles, a one-man band. ↔ independent minds. [→ daily](../../daily/2026-11-16/new-expressions.md)
+  - 예: At a startup that size, the CTO is one person wearing five hats.
+- **grading your own homework** — 자기 숙제를 자기가 채점하기. 만든 쪽이 검증까지 하면 의미가 없다는 비유(영국식 `marking`). ≈ a rubber stamp, self-certification. ↔ independent review, a second pair of eyes. [→ daily](../../daily/2026-11-16/new-expressions.md)
+  - 예: Letting the team that wrote the feature approve its own release is grading your own homework.
+- **Reading this cold** — 아무 배경 없이 읽어 보면. `cold` 는 "준비·맥락 없이"(`cold start`, `go in cold`). ≈ coming to this fresh, with no context. ↔ knowing the backstory. [→ daily](../../daily/2026-11-16/new-expressions.md)
+  - 예: Reading this cold, I couldn't tell which of the three services owns the retry logic.
+- **The peer review took that apart** — 검토가 그 주장을 조목조목 깼다. `take apart` 는 분해하듯 무너뜨리는 것. ≈ picked it apart, poked holes in. ↔ backed it up, held up. [→ daily](../../daily/2026-11-16/new-expressions.md)
+  - 예: I thought my estimate was solid until the review took it apart in ten minutes.
+- **just vibe with me** — 절차 없이 편하게 나랑 맞춰 가자(casual, 속어). 메일·회의록에는 쓰지 않는다. ≈ let's wing it, play it by ear. ↔ do it by the book. [→ daily](../../daily/2026-11-16/new-expressions.md)
+  - 예: We don't need a spec for this prototype; just vibe with me for an hour and we'll see what works.
