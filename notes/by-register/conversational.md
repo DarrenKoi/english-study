@@ -1300,3 +1300,15 @@
   - 예: I thought my estimate was solid until the review took it apart in ten minutes.
 - **just vibe with me** — 절차 없이 편하게 나랑 맞춰 가자(casual, 속어). 메일·회의록에는 쓰지 않는다. ≈ let's wing it, play it by ear. ↔ do it by the book. [→ daily](../../daily/2026-11-16/new-expressions.md)
   - 예: We don't need a spec for this prototype; just vibe with me for an hour and we'll see what works.
+- **they don't need it reported back** — 이미 아는 사람에게 다시 보고할 필요 없다. `need + 목적어 + 과거분사`. ≈ they're already in the loop. ↔ keep them posted. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: The client already has the test results, so they don't need it reported back; just send the final invoice.
+- **X is an application like any other** — X도 다른 것과 똑같은 하나일 뿐이다. 예외일 거라는 오해를 먼저 깬다. ≈ no exception, just another X. ↔ a special case. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: The admin account is a user like any other, so it still needs to go through the same password rotation.
+- **No drift back to over-building.** — 모르는 사이 다시 과하게 만드는 쪽으로 흘러가지 말 것. `drift back to`. ≈ slide back into, revert to. ↔ stick with. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: After the first sprint, the team started to drift back to long status meetings, so we capped them at fifteen minutes.
+- **Ship the lazy version and question it in the same response.** — 최소안을 내놓으면서 같은 답에서 그걸로 충분한지 물어라. ≈ deliver a first cut and ask for feedback. ↔ wait for full requirements. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: I shipped the simple CSV export and questioned it in the same message: "Does this cover it, or do you need Excel formatting too?"
+- **User insists on the full version → build it** — 상대가 끝까지 원하면 따지지 말고 해 줘라. `insist on`. ≈ is set on, holds firm on. ↔ is open to alternatives. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: If the client insists on a printed report, we print it, even though the dashboard has the same numbers.
+- **when the task obviously needs them** — 작업에 뻔히 필요할 때만. 추측으로 다 챙기지 말라는 기준. ≈ when it's clearly required. ↔ just in case. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: Pack the extra cables when the site visit obviously needs them; otherwise travel light.

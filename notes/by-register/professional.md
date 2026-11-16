@@ -2808,3 +2808,23 @@
   - 예: Does the new index speed things up? Yes, modestly: about eight percent on the slowest queries.
 - **folding what the run taught into the skill** — 시험에서 배운 것을 본문에 녹여 넣는 중. `fold A into B` 는 자연스럽게 합치다. ≈ incorporate, work A into B. ↔ leave out. [→ daily](../../daily/2026-11-16/new-expressions.md)
   - 예: I'm folding the review comments into the design doc before I send it around again.
+- **a snapshot in time** — 한 시점에 찍힌 모습. 금방 낡는 정보에 단서를 달 때. ≈ as of, a point-in-time view. ↔ a live view. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: These figures are a snapshot in time, so please check the live dashboard before you quote them in the review.
+- **they don't need it reported back** — 이미 아는 사람에게 다시 보고할 필요 없다. `need + 목적어 + 과거분사`. ≈ they're already in the loop. ↔ keep them posted. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: The client already has the test results, so they don't need it reported back; just send the final invoice.
+- **without asking and getting explicit approval first** — 먼저 묻고 명시적 승인까지 받지 않고서는. 두 단계를 모두 요구. ≈ without prior written consent, unless X signs off. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: Do not forward customer data to a vendor without asking and getting explicit approval from the data owner first.
+- **grounded in what you just saw on screen, not general knowledge** — 일반론이 아니라 방금 직접 확인한 것에 근거한. ≈ based on, backed by. ↔ off the top of one's head. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: Any estimate in the proposal should be grounded in this quarter's measured data, not general industry benchmarks.
+- **Ship the lazy version and question it in the same response.** — 최소안을 내놓으면서 같은 답에서 그걸로 충분한지 물어라. ≈ deliver a first cut and ask for feedback. ↔ wait for full requirements. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: I shipped the simple CSV export and questioned it in the same message: "Does this cover it, or do you need Excel formatting too?"
+- **it runs after you understand the problem, not instead of it** — 이해한 다음에 하는 것이지 이해를 대신하는 게 아니다. `after A, not instead of A`. ≈ a complement to, not a substitute for. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: Automated tests come after a careful code review, not instead of it.
+- **Explanation the user explicitly asked for is not debt.** — 요청받은 설명은 부채가 아니다(기술 부채 비유). ≈ is part of the deliverable, earns its keep. ↔ dead weight, bloat. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: A detailed migration guide is not debt when the operations team explicitly asked for one; write it in full.
+- **User insists on the full version → build it** — 상대가 끝까지 원하면 따지지 말고 해 줘라. `insist on`. ≈ is set on, holds firm on. ↔ is open to alternatives. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: If the client insists on a printed report, we print it, even though the dashboard has the same numbers.
+- **It's recorded here as context for later messages.** — 이후를 위한 참고 맥락으로 남겨 둔다(수동태로 주체 숨김). ≈ for reference only, FYI. ↔ an action item. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: This thread isn't a request for action; it's recorded here as context for next week's planning meeting.
+- **Address the message above as you continue this turn.** — 하던 일을 이어 가면서 새 요청도 처리하라. `as` = ~하면서. ≈ fold X into the current work. ↔ put X on hold. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: Please address the reviewer's comments as you continue the refactor, rather than opening a separate PR.

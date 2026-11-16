@@ -2420,3 +2420,17 @@
   - 예: That retry wrapper looks like boilerplate, but it is load-bearing; remove it and the nightly job fails.
 - **degrades cleanly to two reviewers** — 일부가 빠져도 덜 좋은 상태로 뒤탈 없이 내려앉는다. 표준 표현은 `degrades gracefully`. ≈ falls back to, fails soft. ↔ fails hard, leaves a hole. [→ daily](../../daily/2026-11-16/new-expressions.md)
   - 예: If the cache server is down, the page degrades cleanly to a slower direct query.
+- **a snapshot in time** — 한 시점에 찍힌 모습. 금방 낡는 정보에 단서를 달 때. ≈ as of, a point-in-time view. ↔ a live view. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: These figures are a snapshot in time, so please check the live dashboard before you quote them in the review.
+- **bringing an app forward** — 앱(창)을 앞으로 띄우기. 일정에서는 "앞당기다"로도. ≈ bring to the front, focus a window. ↔ send to the back. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: The script fails if another window has focus, so it brings the terminal forward before sending any keystrokes.
+- **No drift back to over-building.** — 모르는 사이 다시 과하게 만드는 쪽으로 흘러가지 말 것. `drift back to`. ≈ slide back into, revert to. ↔ stick with. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: After the first sprint, the team started to drift back to long status meetings, so we capped them at fifteen minutes.
+- **Explanation the user explicitly asked for is not debt.** — 요청받은 설명은 부채가 아니다(기술 부채 비유). ≈ is part of the deliverable, earns its keep. ↔ dead weight, bloat. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: A detailed migration guide is not debt when the operations team explicitly asked for one; write it in full.
+- **the physical world needs tuning a minimal model can't see** — 실제 장비·센서에는 최소 모델이 못 보는 보정이 필요하다. ≈ real-world drift, field conditions differ. ↔ works exactly as modeled. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: The simulator assumes a perfect stage, but the physical world needs tuning a minimal model can't see, so keep the offset parameters configurable.
+- **Level persists until changed or session end.** — 바꾸거나 세션이 끝날 때까지 유지된다. `until changed` 는 축약 문서체. ≈ stays in effect until. ↔ resets on each run. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: The selected filter persists until changed or until you log out.
+- **It's recorded here as context for later messages.** — 이후를 위한 참고 맥락으로 남겨 둔다(수동태로 주체 숨김). ≈ for reference only, FYI. ↔ an action item. [→ daily](../../daily/2026-11-17/new-expressions.md)
+  - 예: This thread isn't a request for action; it's recorded here as context for next week's planning meeting.
