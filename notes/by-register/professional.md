@@ -2828,3 +2828,29 @@
   - 예: This thread isn't a request for action; it's recorded here as context for next week's planning meeting.
 - **Address the message above as you continue this turn.** — 하던 일을 이어 가면서 새 요청도 처리하라. `as` = ~하면서. ≈ fold X into the current work. ↔ put X on hold. [→ daily](../../daily/2026-11-17/new-expressions.md)
   - 예: Please address the reviewer's comments as you continue the refactor, rather than opening a separate PR.
+- **One thing to reconcile before merge.** — 병합 전에 맞춰야 할 것 하나. `reconcile` 은 어긋난 두 상태를 맞춘다. ≈ one thing to sort out first. ↔ good to merge as is. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: One thing to reconcile before merge: the migration file on my branch and the one on main both claim version 42.
+- **Nothing blocked the build.** — 작업을 막은 건 없었다. 문제 목록 앞에서 수위를 먼저 정한다. ≈ there were no blockers. ↔ we hit a blocker. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: Nothing blocked the build, but two questions came up that the spec doesn't answer.
+- **I did not invent a cadence.** — 근거 없는 주기를 지어내지 않았다. `cadence` 는 되풀이 간격, `invent` 는 꾸며 내다. ≈ I didn't make one up. ↔ I assumed a default. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: The source gave no refresh time, so I did not invent one; the page shows only the data date.
+- **which I treated as a typo** — 그걸 오타로 보고 처리했다. `treat A as B` 로 내 해석을 밝힌다. ≈ which I took to be a typo. ↔ which I took literally. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: The ticket says "Febuary 30", which I treated as a typo for February 28.
+- **Every field name is honoured; nothing diverges.** — 필드 이름을 전부 지켰고 어긋난 곳이 없다. `honour a contract` 는 약속을 지키다. ≈ it matches the spec exactly. ↔ it deviates from the contract. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: Every deadline in the agreement is honoured; nothing diverges from the schedule we signed.
+- **Choices the contract left open** — 계약이 정해 두지 않아 내가 판단한 선택들. `leave + 목적어 + open`. ≈ judgment calls, unspecified details. ↔ fixed requirements. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: Here are the choices the spec left open and how I settled each one.
+- **That test exists to force a conversation** — 그 검사는 논의를 강제하려고 있다. `exist to + 동사` 로 존재 이유. ≈ it's a tripwire, a checkpoint for discussion. ↔ a rubber stamp. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: The sign-off field exists to force a conversation between design and engineering before anything ships.
+- **it was outside my scope** — 내가 맡은 범위 밖이었다. 발견은 보고하되 손대지 않았다는 선 긋기. ≈ that wasn't mine to change, outside my remit. ↔ within my scope. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: I noticed the pricing table is out of date, but I didn't change it; it was outside my scope.
+- **A recommendation is a judgment, not a validation.** — 추천은 판단이지 맞장구가 아니다. `A is B, not C` 대구. ≈ an honest take, not a rubber stamp. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: When I ask for your view on the design, remember that a recommendation is a judgment, not a validation.
+- **You own every subagent's work.** — 맡긴 일의 결과도 네 책임이다. `own` 은 끝까지 책임지다. ≈ you're accountable for it, the buck stops with you. ↔ it's not on me. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: You own every contractor's work, so read the report yourself before you forward it to the client.
+- **Every claim carries its evidence or its label in the same sentence.** — 모든 주장은 같은 문장에 근거나 딱지(측정·추론·추측)를 단다. `carry` = 지니고 다니다. ≈ cite or caveat. ↔ an unsupported claim. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: In our incident reports, every claim carries its evidence or its label in the same sentence, so readers never wonder what was actually measured.
+- **however program-shaped the phrasing sounds** — 말만 들으면 아무리 큰 과제 같아도. `however + 형용사 + S + V` 양보절, `명사-shaped` 조어. ≈ no matter how … it sounds. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: A request one person can finish in a day is a task, not a project, however ambitious the wording sounds.
+- **work the user steps away from to trust later** — 자리를 비웠다가 나중에 믿고 받을 작업. `step away from` = 잠깐 자리를 뜨다. ≈ hands-off work, set-and-forget tasks. ↔ work you supervise live. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: Overnight batch jobs are work you step away from to trust later, so they need clear logs.

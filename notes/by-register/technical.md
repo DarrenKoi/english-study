@@ -2434,3 +2434,17 @@
   - 예: The selected filter persists until changed or until you log out.
 - **It's recorded here as context for later messages.** — 이후를 위한 참고 맥락으로 남겨 둔다(수동태로 주체 숨김). ≈ for reference only, FYI. ↔ an action item. [→ daily](../../daily/2026-11-17/new-expressions.md)
   - 예: This thread isn't a request for action; it's recorded here as context for next week's planning meeting.
+- **One thing to reconcile before merge.** — 병합 전에 맞춰야 할 것 하나. `reconcile` 은 어긋난 두 상태를 맞춘다. ≈ one thing to sort out first. ↔ good to merge as is. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: One thing to reconcile before merge: the migration file on my branch and the one on main both claim version 42.
+- **the branch is red on `npm test` until it is committed** — 커밋되기 전까지 이 브랜치는 그 검사에서 실패한다. `red on + 검사`, `until` 로 해소 조건. ≈ the tests fail until …. ↔ the branch is green. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: Main is red on the lint step until someone removes the unused import in `auth.ts`.
+- **I left it unstaged as theirs.** — 그쪽 작업이라 스테이징하지 않고 뒀다. `leave + 목적어 + 형용사`, `as theirs` 가 이유. ≈ I kept it out of my commit. ↔ I folded it into my commit. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: The config change wasn't part of my task, so I left it unstaged as theirs.
+- **Every field name is honoured; nothing diverges.** — 필드 이름을 전부 지켰고 어긋난 곳이 없다. `honour a contract` 는 약속을 지키다. ≈ it matches the spec exactly. ↔ it deviates from the contract. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: Every deadline in the agreement is honoured; nothing diverges from the schedule we signed.
+- **The tests caught one real mock bug** — 테스트가 진짜 버그를 하나 잡아냈다. `catch a bug` 연어, `real` 은 형식적 지적이 아님. ≈ the tests flagged a genuine bug. ↔ the bug slipped through. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: The new contract tests caught one real bug: the total came out as a string when the list was empty.
+- **cannot be masked as a bad request** — (다른 오류가) 잘못된 요청인 것처럼 가려질 수 없다. `mask A as B`. ≈ can't be mistaken for. ↔ surfaces as what it is. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: We raise a dedicated error type so that a database failure cannot be masked as a validation problem.
+- **Don't silently work around it.** — 말없이 우회하지 마라. `work around` 는 고치지 않고 피해 가기, 금지의 핵심은 `silently`. ≈ don't paper over it. ↔ flag it, raise it. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: If the deploy script fails, file a ticket; don't silently work around it by copying files by hand.

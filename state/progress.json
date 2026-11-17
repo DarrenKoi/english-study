@@ -1164,7 +1164,8 @@
     "-Users-daeyoung-Codes-skewnono-v3-nuxt/af7f128f-b44b-43c3-817a-86a0671324c7.jsonl": 655,
     "-Users-daeyoung-Codes-pm-notes/5ab92045-1535-4743-a8ba-39193a2ec90b.jsonl": 691,
     "-Users-daeyoung-Codes-pm-notes/e832b360-05ac-42d0-a13f-818a5ac60dc2.jsonl": 231,
-    "-Users-daeyoung-Codes-pm-notes/7ebc990c-aacd-435c-9a6a-4486541c4967.jsonl": 19
+    "-Users-daeyoung-Codes-pm-notes/7ebc990c-aacd-435c-9a6a-4486541c4967.jsonl": 19,
+    "-Users-daeyoung-Codes-skewnono-v3-nuxt/444fbcbd-d4a2-4d45-b6a5-0a95e1d74063.jsonl": 665
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1850,5 +1851,5 @@
     "skewnono_v3_nuxt/docs/office-migration/veritysem_provision_recipe_usage.txt": "skewnono_v3_nuxt/docs/office-migration/veritysem_provision_recipe_usage.txt:1794454172.2907808:1860",
     "skewnono_v3_nuxt/docs/office-migration/veritysem_provision_recipe_list.txt": "skewnono_v3_nuxt/docs/office-migration/veritysem_provision_recipe_list.txt:1794453701.0940468:2035"
   },
-  "last_run": "2026-11-17"
+  "last_run": "2026-11-18"
 }

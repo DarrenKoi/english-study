@@ -1312,3 +1312,15 @@
   - 예: If the client insists on a printed report, we print it, even though the dashboard has the same numbers.
 - **when the task obviously needs them** — 작업에 뻔히 필요할 때만. 추측으로 다 챙기지 말라는 기준. ≈ when it's clearly required. ↔ just in case. [→ daily](../../daily/2026-11-17/new-expressions.md)
   - 예: Pack the extra cables when the site visit obviously needs them; otherwise travel light.
+- **I left it unstaged as theirs.** — 그쪽 작업이라 스테이징하지 않고 뒀다. `leave + 목적어 + 형용사`, `as theirs` 가 이유. ≈ I kept it out of my commit. ↔ I folded it into my commit. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: The config change wasn't part of my task, so I left it unstaged as theirs.
+- **Nothing blocked the build.** — 작업을 막은 건 없었다. 문제 목록 앞에서 수위를 먼저 정한다. ≈ there were no blockers. ↔ we hit a blocker. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: Nothing blocked the build, but two questions came up that the spec doesn't answer.
+- **The tests caught one real mock bug** — 테스트가 진짜 버그를 하나 잡아냈다. `catch a bug` 연어, `real` 은 형식적 지적이 아님. ≈ the tests flagged a genuine bug. ↔ the bug slipped through. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: The new contract tests caught one real bug: the total came out as a string when the list was empty.
+- **Don't silently work around it.** — 말없이 우회하지 마라. `work around` 는 고치지 않고 피해 가기, 금지의 핵심은 `silently`. ≈ don't paper over it. ↔ flag it, raise it. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: If the deploy script fails, file a ticket; don't silently work around it by copying files by hand.
+- **You own every subagent's work.** — 맡긴 일의 결과도 네 책임이다. `own` 은 끝까지 책임지다. ≈ you're accountable for it, the buck stops with you. ↔ it's not on me. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: You own every contractor's work, so read the report yourself before you forward it to the client.
+- **work the user steps away from to trust later** — 자리를 비웠다가 나중에 믿고 받을 작업. `step away from` = 잠깐 자리를 뜨다. ≈ hands-off work, set-and-forget tasks. ↔ work you supervise live. [→ daily](../../daily/2026-11-18/new-expressions.md)
+  - 예: Overnight batch jobs are work you step away from to trust later, so they need clear logs.
