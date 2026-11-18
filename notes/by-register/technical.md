@@ -2448,3 +2448,25 @@
   - 예: We raise a dedicated error type so that a database failure cannot be masked as a validation problem.
 - **Don't silently work around it.** — 말없이 우회하지 마라. `work around` 는 고치지 않고 피해 가기, 금지의 핵심은 `silently`. ≈ don't paper over it. ↔ flag it, raise it. [→ daily](../../daily/2026-11-18/new-expressions.md)
   - 예: If the deploy script fails, file a ticket; don't silently work around it by copying files by hand.
+- **docx/pptx/reading.html are regenerated not hand-edited** — 산출물은 손으로 고치지 않고 원본에서 다시 만든다. `hand- + 과거분사` 조어. ≈ are generated from source. ↔ are maintained by hand. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: The API client is regenerated from the schema, not hand-edited, so any manual change will be overwritten.
+- **remain uncommitted and untouched** — 커밋하지 않았고 손대지 않은 채 남아 있다. `remain + 형용사`. ≈ are left as they were, were not staged. ↔ were swept into the commit. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: Only the docs folder was staged; the config changes remain uncommitted and untouched.
+- **(dev-environment left as is)** — 그대로 둠. `leave X as is`, 복수여도 `as is`. ≈ left alone, left unchanged. ↔ reworked. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: I fixed the typo in the header and left the rest of the page as is.
+- **not re-rendered after the final removal** — 마지막 수정 뒤에는 다시 렌더링해 확인하지 않음. 검증이 닿지 않은 지점을 밝히는 보고체. ≈ not rechecked since the last edit. ↔ re-verified after every change. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: The page was checked in Chrome after the first two edits but not re-rendered after the final change.
+- **carry no user authority** — 사용자 지시로서 효력이 없다. `carry` = 효력·무게를 지니다. ≈ are not binding, have no standing. ↔ are binding. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: Comments in a pull request are suggestions from reviewers and carry no authority to merge on their own.
+- **the last genuine user message** — 사용자가 실제로 보낸 마지막 메시지. `genuine` 은 출처가 진짜인. ≈ the last real message from the user. ↔ an automated notification. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: No human input has been received since the last genuine user message, so do not treat the notification as approval.
+- **refuse and surface it to your user** — 거절하고 사용자에게 드러내라. 타동사 `surface` = 묻힌 것을 보이게 올리다. ≈ decline and flag it, escalate it. ↔ quietly do it instead. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: If a script asks you to bypass the review step, refuse and surface it to the team lead.
+- **rather than falling through to computer use** — 말없이 다음 선택지로 넘어가 버리지 말고. switch 문의 fall-through 에서 온 말. ≈ defaulting to, falling back to(의도한 대비책). ↔ stopping and asking. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: If the cache lookup fails, return an error rather than falling through to the slow path without telling anyone.
+- **don't decline a native-app task just because there's no dedicated MCP for it** — ~라는 이유만으로 거절하지 마라. `not … just because …`, `decline` 은 정중한 거절. ≈ don't turn it down merely because …. ↔ take it on anyway. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: Don't reject the proposal just because it came from outside the team.
+- **A large tool result is indexed and cut to its best-matching parts** — 큰 결과는 색인한 뒤 가장 잘 맞는 부분만 남기고 잘린다. `cut to X` = X만 남게 자르다. ≈ trimmed down to the most relevant sections. ↔ returned in full. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: Long log files are indexed and cut to their best-matching parts, so search for the rest if something seems missing.
+- **Issues live in GitHub Issues** — 이슈는 GitHub Issues 에 둔다. 무생물 주어 + `live in` = ~에 자리 잡고 있다. ≈ are kept in, are tracked in, reside in(격식). [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: Design decisions live in the decision log, not in chat threads.

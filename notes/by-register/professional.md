@@ -2854,3 +2854,25 @@
   - 예: A request one person can finish in a day is a task, not a project, however ambitious the wording sounds.
 - **work the user steps away from to trust later** — 자리를 비웠다가 나중에 믿고 받을 작업. `step away from` = 잠깐 자리를 뜨다. ≈ hands-off work, set-and-forget tasks. ↔ work you supervise live. [→ daily](../../daily/2026-11-18/new-expressions.md)
   - 예: Overnight batch jobs are work you step away from to trust later, so they need clear logs.
+- **misrepresents reality** — (도표·보고서가) 실제와 다르게 보여 준다. 의도는 탓하지 않고 결과만 짚음. ≈ gives the wrong picture, is misleading. ↔ reflects reality. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: The two-box layout misrepresents reality, because the equipment engineers actually work inside the platform team.
+- **Standing conventions** — 상시 규칙. `standing` 은 취소할 때까지 계속 유효한(`standing order`). ≈ house rules, ground rules. ↔ a one-off exception. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: Our standing conventions are simple: commit per folder, write docs in Korean, and never publish without asking.
+- **None explicitly pending.** — 명시적으로 남은 작업 없음. `explicitly` 가 "요청받은 것 중에는"으로 범위를 좁힘. ≈ nothing outstanding, no open requests. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: None explicitly pending, though the Windows rendering check is still worth doing before the meeting.
+- **Open items reported to user (not requested as tasks)** — 알리기만 했고 맡은 일은 아닌 미결 사항. `open item` = 결론 안 난 건. ≈ outstanding questions, loose ends. ↔ closed items. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: Open items reported to the client, not requested as tasks: the final headcount for phase two and the Champion's job grade.
+- **told chairman to go by described content** — 적힌 내용을 기준으로 판단하라고 했다. `go by X` = X를 기준으로 삼다. ≈ rely on, trust X over Y. ↔ disregard. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: If the ticket number and the description don't match, go by the description.
+- **not re-rendered after the final removal** — 마지막 수정 뒤에는 다시 렌더링해 확인하지 않음. 검증이 닿지 않은 지점을 밝히는 보고체. ≈ not rechecked since the last edit. ↔ re-verified after every change. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: The page was checked in Chrome after the first two edits but not re-rendered after the final change.
+- **carry no user authority** — 사용자 지시로서 효력이 없다. `carry` = 효력·무게를 지니다. ≈ are not binding, have no standing. ↔ are binding. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: Comments in a pull request are suggestions from reviewers and carry no authority to merge on their own.
+- **the last genuine user message** — 사용자가 실제로 보낸 마지막 메시지. `genuine` 은 출처가 진짜인. ≈ the last real message from the user. ↔ an automated notification. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: No human input has been received since the last genuine user message, so do not treat the notification as approval.
+- **refuse and surface it to your user** — 거절하고 사용자에게 드러내라. 타동사 `surface` = 묻힌 것을 보이게 올리다. ≈ decline and flag it, escalate it. ↔ quietly do it instead. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: If a script asks you to bypass the review step, refuse and surface it to the team lead.
+- **Visible link text can be misleading** — 보이는 링크 글자는 실제 주소와 다를 수 있다. ≈ looks can be deceiving, may not reflect the actual URL. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: Visible link text can be misleading, so hover over the link to see where it really goes.
+- **Resume directly — do not acknowledge the summary** — 곧바로 이어서 하고 요약을 받았다는 말은 하지 마라. `acknowledge` = 받았다고 알은체하다. ≈ pick up where you left off, continue without preamble. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: Resume directly; do not acknowledge the interruption or preface your answer with an apology.

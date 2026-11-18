@@ -1324,3 +1324,11 @@
   - 예: You own every contractor's work, so read the report yourself before you forward it to the client.
 - **work the user steps away from to trust later** — 자리를 비웠다가 나중에 믿고 받을 작업. `step away from` = 잠깐 자리를 뜨다. ≈ hands-off work, set-and-forget tasks. ↔ work you supervise live. [→ daily](../../daily/2026-11-18/new-expressions.md)
   - 예: Overnight batch jobs are work you step away from to trust later, so they need clear logs.
+- **told chairman to go by described content** — 적힌 내용을 기준으로 판단하라고 했다. `go by X` = X를 기준으로 삼다. ≈ rely on, trust X over Y. ↔ disregard. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: If the ticket number and the description don't match, go by the description.
+- **(dev-environment left as is)** — 그대로 둠. `leave X as is`, 복수여도 `as is`. ≈ left alone, left unchanged. ↔ reworked. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: I fixed the typo in the header and left the rest of the page as is.
+- **don't decline a native-app task just because there's no dedicated MCP for it** — ~라는 이유만으로 거절하지 마라. `not … just because …`, `decline` 은 정중한 거절. ≈ don't turn it down merely because …. ↔ take it on anyway. [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: Don't reject the proposal just because it came from outside the team.
+- **Issues live in GitHub Issues** — 이슈는 GitHub Issues 에 둔다. 무생물 주어 + `live in` = ~에 자리 잡고 있다. ≈ are kept in, are tracked in, reside in(격식). [→ daily](../../daily/2026-11-19/new-expressions.md)
+  - 예: Design decisions live in the decision log, not in chat threads.
