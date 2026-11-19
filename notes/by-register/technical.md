@@ -2470,3 +2470,27 @@
   - 예: Long log files are indexed and cut to their best-matching parts, so search for the rest if something seems missing.
 - **Issues live in GitHub Issues** — 이슈는 GitHub Issues 에 둔다. 무생물 주어 + `live in` = ~에 자리 잡고 있다. ≈ are kept in, are tracked in, reside in(격식). [→ daily](../../daily/2026-11-19/new-expressions.md)
   - 예: Design decisions live in the decision log, not in chat threads.
+- **cannot see or drive the actual RCS application** — 볼 수도 조작할 수도 없다. `drive` 는 프로그램·GUI 를 조작하다. ≈ control, operate, interact with. [→ daily](../../daily/2026-11-20/new-expressions.md)
+  - 예: On the build server, the test runner cannot see or drive the actual desktop app, so UI tests are skipped there.
+- **git history is the restore path** — 복구 경로는 git 이력이다. `the + 명사 + path` 조어(upgrade path, rollback path). ≈ you can recover it from git history. [→ daily](../../daily/2026-11-20/new-expressions.md)
+  - 예: We deleted the old migration scripts, and git history is the restore path if we ever need them again.
+- **fails at slug resolution … not at the proxy** — 프록시가 아니라 slug 를 찾는 단계에서 실패한다. `fail at + 단계`. ≈ breaks at, errors out during. ↔ gets past, makes it through. [→ daily](../../daily/2026-11-20/new-expressions.md)
+  - 예: The request fails at token validation, not at the database, so check the auth header first.
+- **Never let a VLM answer override a low CV score** — 낮은 CV 점수를 VLM 답이 뒤집게 두지 마라. `let A override B`. ≈ take precedence over, overrule, trump(구어). ↔ defer to, yield to. [→ daily](../../daily/2026-11-20/new-expressions.md)
+  - 예: Never let a manager's hunch override a failing test.
+- **ECC dominates SEM so mixing dilutes it** — ECC 가 압도적이라 섞으면 희석된다. `dilute` = 효과·신호를 묽게 하다. ≈ waters down, weakens, washes out. ↔ sharpens, reinforces. [→ daily](../../daily/2026-11-20/new-expressions.md)
+  - 예: The first feature dominates the ranking, so adding weaker signals only dilutes it.
+- **deleting it just falls back to `config.py` defaults** — 지워도 기본값으로 돌아갈 뿐이다. `fall back to` = 의도한 대비책으로 물러나다. ≈ reverts to, defaults to, drops back to. [→ daily](../../daily/2026-11-20/new-expressions.md)
+  - 예: If the cache is unavailable, the service just falls back to reading from disk.
+- **real env still wins** — 그래도 실제 환경 변수가 우선한다. 우선순위를 `win` 으로 말하는 개발자 구어. ≈ takes precedence(격식), takes priority. ↔ loses out, is ignored. [→ daily](../../daily/2026-11-20/new-expressions.md)
+  - 예: You can set a default in the file, but the command-line flag still wins.
+- **lowering only the ratio is a no-op because the two floors dominate** — 비율만 낮추면 하한 둘이 지배해서 효과가 없다. `no-op` = 해도 달라지지 않는 것, `floor` = 하한. ≈ has no effect, does nothing, is moot. [→ daily](../../daily/2026-11-20/new-expressions.md)
+  - 예: Raising the timeout alone is a no-op because the retry limit kicks in first.
+- **cleanup … is guaranteed by `try/finally`, not steps** — 정리 작업은 step 이 아니라 `try/finally` 가 보장한다. 수동태 + `A, not B`. ≈ is enforced by, is handled by, is ensured by(격식). [→ daily](../../daily/2026-11-20/new-expressions.md)
+  - 예: Ordering is guaranteed by the queue, not by the consumers.
+- **is a library, not an entry point** — 라이브러리이지 실행 진입점이 아니다. `X is A, not B` 로 성격 규정. ≈ isn't meant to be run directly, is not a standalone script. [→ daily](../../daily/2026-11-20/new-expressions.md)
+  - 예: This module is a library, not an entry point, so import it instead of running it directly.
+- **so cost scales with generations, not frames** — 비용은 프레임 수가 아니라 세대 수에 비례한다. `scale with X`. ≈ grows with, is proportional to. ↔ stays flat, is constant regardless of. [→ daily](../../daily/2026-11-20/new-expressions.md)
+  - 예: We cache per user, so memory scales with active users, not with requests.
+- **a missing adapter just disables that integration with a warning** — adapter 가 없으면 경고를 내고 그 연동만 꺼진다. 조건절 대신 명사구 주어. ≈ degrades gracefully. ↔ crashes at startup, fails hard. [→ daily](../../daily/2026-11-20/new-expressions.md)
+  - 예: A missing API key just disables the export feature with a warning instead of stopping the whole app.

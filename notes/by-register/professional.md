@@ -2876,3 +2876,17 @@
   - 예: Visible link text can be misleading, so hover over the link to see where it really goes.
 - **Resume directly — do not acknowledge the summary** — 곧바로 이어서 하고 요약을 받았다는 말은 하지 마라. `acknowledge` = 받았다고 알은체하다. ≈ pick up where you left off, continue without preamble. [→ daily](../../daily/2026-11-19/new-expressions.md)
   - 예: Resume directly; do not acknowledge the interruption or preface your answer with an apology.
+- **debugging relies on the user reporting console output** — 디버깅은 사용자가 콘솔 출력을 알려 주는 것에 기댄다. `rely on + 명사 + -ing`(의미상 주어). ≈ depends on, hinges on, counts on. [→ daily](../../daily/2026-11-20/new-expressions.md)
+  - 예: Our release process relies on each team updating the changelog before the freeze.
+- **Never let a VLM answer override a low CV score** — 낮은 CV 점수를 VLM 답이 뒤집게 두지 마라. `let A override B`. ≈ take precedence over, overrule, trump(구어). ↔ defer to, yield to. [→ daily](../../daily/2026-11-20/new-expressions.md)
+  - 예: Never let a manager's hunch override a failing test.
+- **the two VLMs are not independent votes** — 두 VLM 은 서로 독립된 표가 아니다. 판정을 `vote` 에 빗댐. ≈ don't count as separate checks, are correlated. ↔ independent confirmation. [→ daily](../../daily/2026-11-20/new-expressions.md)
+  - 예: The two reviewers are not independent votes, because the second one only read the first one's summary.
+- **Ships notify-only behind a double gate** — 이중 게이트 뒤에 두고 알림만 보내는 상태로 출시한다. `ship + 형용사`, `behind a gate/flag`. ≈ is released in dry-run mode, goes out disabled by default. [→ daily](../../daily/2026-11-20/new-expressions.md)
+  - 예: The auto-delete feature ships read-only behind a feature flag until we finish the audit.
+- **the look-alike that drives the ambiguity** — 모호함을 일으키는 닮은꼴. `drive` = ~의 주된 원인이 되다. ≈ the near-duplicate behind the confusion, the decoy, the main source of ambiguity. [→ daily](../../daily/2026-11-20/new-expressions.md)
+  - 예: The second-best match is the look-alike that drives the ambiguity, so we draw it on the debug image.
+- **to cut payload size without hurting accuracy** — 정확도를 해치지 않으면서 전송 크기를 줄이려고. `A without hurting B`. ≈ reduce … without compromising …(격식), trim … while preserving …. [→ daily](../../daily/2026-11-20/new-expressions.md)
+  - 예: We compress the screenshots to cut upload time without hurting OCR accuracy.
+- **Lead with the result** — 결과부터 말하라. `lead with X` = X 를 맨 앞에 내세우다. ≈ start with the conclusion, put the bottom line up front. ↔ bury the lede. [→ daily](../../daily/2026-11-20/new-expressions.md)
+  - 예: When you write the incident summary, lead with the result and put the timeline below it.

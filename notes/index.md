@@ -6,6 +6,7 @@
 - [a fact the next session will contradict](daily/2026-11-11/new-expressions.md) — 2026-11-11
 - [a few small items that may be worth a decision](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [A large tool result is indexed and cut to its best-matching parts](daily/2026-11-19/new-expressions.md) — 2026-11-19
+- [a missing adapter just disables that integration with a warning](daily/2026-11-20/new-expressions.md) — 2026-11-20
 - [a mock that is tidier than the office is a mock that hides the office's bugs](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [a previous conversation that ran out of context](daily/2026-11-10/new-expressions.md) — 2026-11-10
 - [A prohibition earns its place only as a hard guardrail](daily/2026-11-14/new-expressions.md) — 2026-11-14
@@ -39,9 +40,11 @@
 - [cannot be asked](daily/2026-11-08/new-expressions.md) — 2026-11-08
 - [cannot be masked as a bad request](daily/2026-11-18/new-expressions.md) — 2026-11-18
 - [cannot distinguish A from B](daily/2026-11-03/new-expressions.md) — 2026-11-03
+- [cannot see or drive the actual RCS application](daily/2026-11-20/new-expressions.md) — 2026-11-20
 - [carry no user authority](daily/2026-11-19/new-expressions.md) — 2026-11-19
 - [checked by DOM only, not by eye](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [Choices the contract left open](daily/2026-11-18/new-expressions.md) — 2026-11-18
+- [cleanup … is guaranteed by `try/finally`, not steps](daily/2026-11-20/new-expressions.md) — 2026-11-20
 - [Clearly separate facts from your own inferences.](daily/2026-11-08/new-expressions.md) — 2026-11-08
 - [clever is what someone decodes at 3am](daily/2026-11-13/new-expressions.md) — 2026-11-13
 - [close the codex pane](daily/2026-11-09/new-expressions.md) — 2026-11-09
@@ -49,10 +52,12 @@
 - [Constraints that remain in force](daily/2026-11-10/new-expressions.md) — 2026-11-10
 - [Copy them when one does.](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [debug or report it rather than silently retrying via a slower tier](daily/2026-11-13/new-expressions.md) — 2026-11-13
+- [debugging relies on the user reporting console output](daily/2026-11-20/new-expressions.md) — 2026-11-20
 - [decide and state whether](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [Default to a sibling pane](daily/2026-11-12/new-expressions.md) — 2026-11-12
 - [degrades cleanly to two reviewers](daily/2026-11-16/new-expressions.md) — 2026-11-16
 - [(dev-environment left as is)](daily/2026-11-19/new-expressions.md) — 2026-11-19
+- [deleting it just falls back to `config.py` defaults](daily/2026-11-20/new-expressions.md) — 2026-11-20
 - [display-only](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [diverging and centred on zero](daily/2026-11-06/new-expressions.md) — 2026-11-06
 - [Do not derive them from sidebar order or examples.](daily/2026-11-12/new-expressions.md) — 2026-11-12
@@ -65,6 +70,7 @@
 - [don't decline a native-app task just because there's no dedicated MCP for it](daily/2026-11-19/new-expressions.md) — 2026-11-19
 - [don't decline it just because there's no X](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [Don't silently work around it.](daily/2026-11-18/new-expressions.md) — 2026-11-18
+- [ECC dominates SEM so mixing dilutes it](daily/2026-11-20/new-expressions.md) — 2026-11-20
 - [every ambiguity and how you resolved it](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [Every claim carries its evidence or its label in the same sentence.](daily/2026-11-18/new-expressions.md) — 2026-11-18
 - [every decision branches into the decisions that hang off it](daily/2026-11-14/new-expressions.md) — 2026-11-14
@@ -72,8 +78,10 @@
 - [exactly what is interesting](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [Expected failure (old assumption).](daily/2026-11-08/new-expressions.md) — 2026-11-08
 - [Explanation the user explicitly asked for is not debt.](daily/2026-11-17/new-expressions.md) — 2026-11-17
+- [fails at slug resolution … not at the proxy](daily/2026-11-20/new-expressions.md) — 2026-11-20
 - [folded into flat files](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [folding what the run taught into the skill](daily/2026-11-16/new-expressions.md) — 2026-11-16
+- [git history is the restore path](daily/2026-11-20/new-expressions.md) — 2026-11-20
 - [gnarly (concurrency)](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [goes straight to the user](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [grading your own homework](daily/2026-11-16/new-expressions.md) — 2026-11-16
@@ -106,6 +114,7 @@
 - [in turn](daily/2026-11-06/new-expressions.md) — 2026-11-06
 - [instead of coordinating `send-text` and `send-keys` separately](daily/2026-11-12/new-expressions.md) — 2026-11-12
 - [insufficient for](daily/2026-11-03/new-expressions.md) — 2026-11-03
+- [is a library, not an entry point](daily/2026-11-20/new-expressions.md) — 2026-11-20
 - [is cheaper than a wrong assertion](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [is enforced by](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [is isolated to X](daily/2026-11-11/new-expressions.md) — 2026-11-11
@@ -127,6 +136,7 @@
 - [Landed today on main](daily/2026-11-07/new-expressions.md) — 2026-11-07
 - [later can scaffold for itself](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [Lazy code without its check is unfinished.](daily/2026-11-13/new-expressions.md) — 2026-11-13
+- [Lead with the result](daily/2026-11-20/new-expressions.md) — 2026-11-20
 - [legitimately exceeds the budget](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [lets the engineer look; it must not decide for them](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [Level persists until changed or session end.](daily/2026-11-17/new-expressions.md) — 2026-11-17
@@ -134,6 +144,7 @@
 - [load them in bulk, not one-by-one](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [Look before you assert.](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [looks off](daily/2026-11-05/new-expressions.md) — 2026-11-05
+- [lowering only the ratio is a no-op because the two floors dominate](daily/2026-11-20/new-expressions.md) — 2026-11-20
 - [manufactured by the generator](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [may not reflect recent changes](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [measurably falls short](daily/2026-11-11/new-expressions.md) — 2026-11-11
@@ -144,6 +155,7 @@
 - [My helper landed between `_lot_bridge` and its cache decorator.](daily/2026-11-08/new-expressions.md) — 2026-11-08
 - [never construct an ID from a workspace or display number](daily/2026-11-12/new-expressions.md) — 2026-11-12
 - [Never hand the human a check you could run.](daily/2026-10-31/new-expressions.md) — 2026-10-31
+- [Never let a VLM answer override a low CV score](daily/2026-11-20/new-expressions.md) — 2026-11-20
 - [never pool recipes into one reference](daily/2026-11-06/new-expressions.md) — 2026-11-06
 - [Never simplify away](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [No drift back to over-building.](daily/2026-11-17/new-expressions.md) — 2026-11-17
@@ -186,6 +198,7 @@
 - [reach for an existing word first](daily/2026-11-14/new-expressions.md) — 2026-11-14
 - [read how far the target moved](daily/2026-11-06/new-expressions.md) — 2026-11-06
 - [Reading this cold](daily/2026-11-16/new-expressions.md) — 2026-11-16
+- [real env still wins](daily/2026-11-20/new-expressions.md) — 2026-11-20
 - [refuse and surface it to your user](daily/2026-11-19/new-expressions.md) — 2026-11-19
 - [rejected as needing more data](daily/2026-11-07/new-expressions.md) — 2026-11-07
 - [remain uncommitted and untouched](daily/2026-11-19/new-expressions.md) — 2026-11-19
@@ -202,6 +215,8 @@
 - [settle it by running the document, not by debate](daily/2026-11-14/new-expressions.md) — 2026-11-14
 - [shifts that position](daily/2026-11-10/new-expressions.md) — 2026-11-10
 - [Ship the lazy version and question it in the same response.](daily/2026-11-17/new-expressions.md) — 2026-11-17
+- [Ships notify-only behind a double gate](daily/2026-11-20/new-expressions.md) — 2026-11-20
+- [so cost scales with generations, not frames](daily/2026-11-20/new-expressions.md) — 2026-11-20
 - [so it isn't anchored on our conversation](daily/2026-11-16/new-expressions.md) — 2026-11-16
 - [so the mock's numbers stay the same](daily/2026-11-08/new-expressions.md) — 2026-11-08
 - [something it says has not happened yet may already have happened](daily/2026-11-10/new-expressions.md) — 2026-11-10
@@ -1070,10 +1085,12 @@
 - [stored nowhere](daily/2026-11-06/new-expressions.md) — 2026-11-06
 - [suspicious by default](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [Take the one that's correct on edge cases.](daily/2026-11-13/new-expressions.md) — 2026-11-13
+- [The choice is yours](daily/2026-11-20/new-expressions.md) — 2026-11-20
 - [the first question is "did X, or did Y?"](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [The ladder shortens the solution, never the reading.](daily/2026-11-13/new-expressions.md) — 2026-11-13
 - [the last genuine user message](daily/2026-11-19/new-expressions.md) — 2026-11-19
 - [the logical AND of two independent questions](daily/2026-11-03/new-expressions.md) — 2026-11-03
+- [the look-alike that drives the ambiguity](daily/2026-11-20/new-expressions.md) — 2026-11-20
 - [the next sync can be a plain diff](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [the only carrier of what we know about X](daily/2026-11-11/new-expressions.md) — 2026-11-11
 - [the only merge worth testing](daily/2026-11-07/new-expressions.md) — 2026-11-07
@@ -1091,6 +1108,7 @@
 - [the stated reason there is none](daily/2026-11-06/new-expressions.md) — 2026-11-06
 - [The suite has not rotted — that is where the seconds go.](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [The tests caught one real mock bug](daily/2026-11-18/new-expressions.md) — 2026-11-18
+- [the two VLMs are not independent votes](daily/2026-11-20/new-expressions.md) — 2026-11-20
 - [the whole visual contract](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [Then measure instead of debating](daily/2026-11-16/new-expressions.md) — 2026-11-16
 - [there is a known race when ...](daily/2026-11-06/new-expressions.md) — 2026-11-06
@@ -1102,6 +1120,7 @@
 - [This is about what's available, not error handling.](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [This is how Claude Code surfaces messages the user sends mid-turn](daily/2026-11-12/new-expressions.md) — 2026-11-12
 - [This removes the stale-copy problem at its source](daily/2026-11-14/new-expressions.md) — 2026-11-14
+- [to cut payload size without hurting accuracy](daily/2026-11-20/new-expressions.md) — 2026-11-20
 - [to the letter](daily/2026-10-31/new-expressions.md) — 2026-10-31
 - [told chairman to go by described content](daily/2026-11-19/new-expressions.md) — 2026-11-19
 - [(tools) go offline routinely](daily/2026-10-27/new-expressions.md) — 2026-10-27

@@ -1332,3 +1332,9 @@
   - 예: Don't reject the proposal just because it came from outside the team.
 - **Issues live in GitHub Issues** — 이슈는 GitHub Issues 에 둔다. 무생물 주어 + `live in` = ~에 자리 잡고 있다. ≈ are kept in, are tracked in, reside in(격식). [→ daily](../../daily/2026-11-19/new-expressions.md)
   - 예: Design decisions live in the decision log, not in chat threads.
+- **real env still wins** — 그래도 실제 환경 변수가 우선한다. 우선순위를 `win` 으로 말하는 개발자 구어. ≈ takes precedence(격식), takes priority. ↔ loses out, is ignored. [→ daily](../../daily/2026-11-20/new-expressions.md)
+  - 예: You can set a default in the file, but the command-line flag still wins.
+- **Lead with the result** — 결과부터 말하라. `lead with X` = X 를 맨 앞에 내세우다. ≈ start with the conclusion, put the bottom line up front. ↔ bury the lede. [→ daily](../../daily/2026-11-20/new-expressions.md)
+  - 예: When you write the incident summary, lead with the result and put the timeline below it.
+- **The choice is yours** — 고르는 건 네 몫이다. 선택지를 설명한 뒤 결정을 넘길 때. ≈ It's up to you, It's your call(구어), at your discretion(격식). [→ daily](../../daily/2026-11-20/new-expressions.md)
+  - 예: We can ship today or wait for the fix; the choice is yours, but I'd wait.
