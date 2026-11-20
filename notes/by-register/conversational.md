@@ -1338,3 +1338,15 @@
   - 예: When you write the incident summary, lead with the result and put the timeline below it.
 - **The choice is yours** — 고르는 건 네 몫이다. 선택지를 설명한 뒤 결정을 넘길 때. ≈ It's up to you, It's your call(구어), at your discretion(격식). [→ daily](../../daily/2026-11-20/new-expressions.md)
   - 예: We can ship today or wait for the fix; the choice is yours, but I'd wait.
+- **Don't lowball `max_tokens`** — `max_tokens` 를 너무 낮게 잡지 마라. ≈ underestimate (중립, 문어), set … too low (가장 평이), skimp on (아낀다는 어감, 구어). ↔ pad (넉넉히 얹다), overprovision. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: Don't lowball the timeout, because a retry costs more than a few extra seconds of waiting.
+- **`high` is often the sweet spot balancing quality and token efficiency** — `high` 가 품질과 토큰 효율의 균형이 가장 좋은 지점인 경우가 많다. ≈ the optimal trade-off (격식, 문어), a good middle ground (타협이라는 어감), the right balance (가장 평이). [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: For this dataset, a batch size of 64 is the sweet spot between speed and memory use.
+- **These sound alike but are different packages** — 이름은 비슷하게 들리지만 서로 다른 패키지다. ≈ are easy to confuse (혼동 가능성에 초점), have similar names (가장 평이), are not to be confused with (격식, 문어). [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: `debounce` and `throttle` sound alike but are different tools: one waits for silence, the other limits the rate.
+- **a batteries-included coding/filesystem agent** — 필요한 게 다 들어 있는 코딩·파일시스템 에이전트. ≈ full-featured (기능이 많다는 중립 표현), out-of-the-box (설정 없이 바로), all-in-one (제품 소개 어투). ↔ bare-bones, bring-your-own. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: Django is a batteries-included framework, so you get auth and an admin panel on day one.
+- **they tell you what to do but not where, so ask** — 무엇을 하라는 건 알려 주지만 어디에 하라는 건 없으니, 물어라. ≈ the scope is unclear (명사로 짧게, 격식), it leaves the scope open (문어), it doesn't say which files (가장 평이). [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: The ticket tells us what to change but not why, so ask before you start.
+- **On no, move on without pushing.** — 거절하면 더 권하지 말고 넘어가라. ≈ don't press the point (조금 격식), let it go (회화), don't insist (가장 평이). ↔ keep nudging, follow up repeatedly. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: Offer the upgrade once; on no, move on without pushing.

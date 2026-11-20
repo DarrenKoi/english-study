@@ -2890,3 +2890,29 @@
   - 예: We compress the screenshots to cut upload time without hurting OCR accuracy.
 - **Lead with the result** — 결과부터 말하라. `lead with X` = X 를 맨 앞에 내세우다. ≈ start with the conclusion, put the bottom line up front. ↔ bury the lede. [→ daily](../../daily/2026-11-20/new-expressions.md)
   - 예: When you write the incident summary, lead with the result and put the timeline below it.
+- **Default to the simplest tier that meets your needs.** — 요구를 충족하는 가장 단순한 단계를 기본으로 삼아라. ≈ start with (구어, 더 가볍다), go with … unless (회화에서 예외를 함께 말할 때), opt for (그때그때 고른다는 어감). ↔ reach for the most powerful option, over-engineer. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: Default to the simplest query that answers the question, and add joins only when a report needs them.
+- **it paces itself and finishes gracefully instead of being cut off** — 스스로 속도를 조절해 깔끔하게 끝내고, 중간에 잘리지 않는다. ≈ budget its time (자원 배분에 초점), wind down cleanly (끝맺음에 초점, 구어), degrade gracefully (실패 상황 한정). ↔ get cut off mid-thought, run out of room. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: With a deadline in the prompt, the agent paces itself and finishes gracefully instead of being cut off mid-report.
+- **Only go lower when you have a hard reason** — 분명한 이유가 있을 때만 더 낮춰라. ≈ a concrete reason (구체적이라는 쪽), a compelling reason (설득력 있는, 격식), a good reason (가장 평이하지만 기준이 느슨하다). ↔ on a hunch, just in case. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: Only skip the review step when you have a hard reason, such as a production outage.
+- **`high` is often the sweet spot balancing quality and token efficiency** — `high` 가 품질과 토큰 효율의 균형이 가장 좋은 지점인 경우가 많다. ≈ the optimal trade-off (격식, 문어), a good middle ground (타협이라는 어감), the right balance (가장 평이). [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: For this dataset, a batch size of 64 is the sweet spot between speed and memory use.
+- **the top of the range earns its cost only on hard problems** — 최고 단계는 어려운 문제에서만 제값을 한다. ≈ pays for itself (구어, 투자 회수), is worth the cost (가장 평이), justifies the expense (격식). ↔ is overkill, is a waste of money. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: The larger instance earns its cost only during the nightly batch, so we scale down the rest of the day.
+- **Judge cost per completed task, not per request** — 비용은 요청당이 아니라 완료한 작업당으로 따져라. ≈ measure … by (척도를 말할 때 중립), look at the total cost (회화), evaluate on a per-task basis (격식). [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: Judge build time per merged change, not per CI run, because flaky tests hide in the reruns.
+- **a cascade forfeits cache reuse across its models** — 모델을 단계별로 엮으면 모델 사이의 캐시 재사용을 포기하게 된다. ≈ give up (구어), lose (중립, 인과가 약하다), sacrifice (얻는 것과 맞바꾼다는 어감). ↔ retain, keep. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: If you pin the dependency to a fork, you forfeit upstream security patches.
+- **they tell you what to do but not where, so ask** — 무엇을 하라는 건 알려 주지만 어디에 하라는 건 없으니, 물어라. ≈ the scope is unclear (명사로 짧게, 격식), it leaves the scope open (문어), it doesn't say which files (가장 평이). [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: The ticket tells us what to change but not why, so ask before you start.
+- **That is the dependable source.** — 그것이 믿을 수 있는 출처다. ≈ the authoritative source (권위·정본, 격식), the source of truth (개발자 용어), the one you can trust (회화). ↔ hearsay, a guess. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: Check the lock file, not the README; that is the dependable source for the installed versions.
+- **that omission is intentional** — 그 누락은 의도한 것이다. ≈ is left out on purpose (구어), is by design (개발자 관용), is deliberate (한 단어로 격식). ↔ is an oversight, slipped through. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: The changelog skips internal refactors, and that omission is intentional.
+- **Home keeps this current as contracts evolve.** — 계약이 바뀌어 가는 동안 집 쪽이 이것을 최신으로 유지한다. ≈ keep … up to date (가장 흔함), maintain (격식, 한 단어), keep … in sync with (맞춰야 할 상대를 밝힐 때). ↔ let … go stale, let … rot. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: The platform team keeps the runbook current as the deployment process evolves.
+- **keep to the points that would change the verdict** — 판정을 바꿀 만한 요점만 다뤄라. ≈ stick to (구어), limit yourself to (격식), focus on (가장 평이, 제한의 어감이 약하다). ↔ go off on a tangent, pad it out. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: In the design review, keep to the points that would change the decision and send the rest in writing.
+- **Nothing in the project justifies an edit to a file outside it** — 프로젝트 안의 어떤 것도 프로젝트 밖 파일을 고칠 근거가 되지 못한다. ≈ is no reason to (구어), does not warrant (격식), doesn't give you license to (권한이라는 어감). [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: Nothing in this ticket justifies a change to the shared schema, so open a separate proposal for that.

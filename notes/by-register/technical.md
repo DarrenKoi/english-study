@@ -2494,3 +2494,31 @@
   - 예: We cache per user, so memory scales with active users, not with requests.
 - **a missing adapter just disables that integration with a warning** — adapter 가 없으면 경고를 내고 그 연동만 꺼진다. 조건절 대신 명사구 주어. ≈ degrades gracefully. ↔ crashes at startup, fails hard. [→ daily](../../daily/2026-11-20/new-expressions.md)
   - 예: A missing API key just disables the export feature with a warning instead of stopping the whole app.
+- **Default to the simplest tier that meets your needs.** — 요구를 충족하는 가장 단순한 단계를 기본으로 삼아라. ≈ start with (구어, 더 가볍다), go with … unless (회화에서 예외를 함께 말할 때), opt for (그때그때 고른다는 어감). ↔ reach for the most powerful option, over-engineer. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: Default to the simplest query that answers the question, and add joins only when a report needs them.
+- **Your Training Prior May Be Stale** — 학습으로 굳은 사전 지식이 낡았을 수 있다. ≈ out of date (가장 평이), outdated (형용사 한 단어, 문어), no longer accurate (격식 있고 조심스럽다). ↔ up to date, current. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: My prior may be stale here, so let me check the current docs before I answer.
+- **it paces itself and finishes gracefully instead of being cut off** — 스스로 속도를 조절해 깔끔하게 끝내고, 중간에 잘리지 않는다. ≈ budget its time (자원 배분에 초점), wind down cleanly (끝맺음에 초점, 구어), degrade gracefully (실패 상황 한정). ↔ get cut off mid-thought, run out of room. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: With a deadline in the prompt, the agent paces itself and finishes gracefully instead of being cut off mid-report.
+- **Don't lowball `max_tokens`** — `max_tokens` 를 너무 낮게 잡지 마라. ≈ underestimate (중립, 문어), set … too low (가장 평이), skimp on (아낀다는 어감, 구어). ↔ pad (넉넉히 얹다), overprovision. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: Don't lowball the timeout, because a retry costs more than a few extra seconds of waiting.
+- **Only go lower when you have a hard reason** — 분명한 이유가 있을 때만 더 낮춰라. ≈ a concrete reason (구체적이라는 쪽), a compelling reason (설득력 있는, 격식), a good reason (가장 평이하지만 기준이 느슨하다). ↔ on a hunch, just in case. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: Only skip the review step when you have a hard reason, such as a production outage.
+- **Judge cost per completed task, not per request** — 비용은 요청당이 아니라 완료한 작업당으로 따져라. ≈ measure … by (척도를 말할 때 중립), look at the total cost (회화), evaluate on a per-task basis (격식). [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: Judge build time per merged change, not per CI run, because flaky tests hide in the reruns.
+- **a cascade forfeits cache reuse across its models** — 모델을 단계별로 엮으면 모델 사이의 캐시 재사용을 포기하게 된다. ≈ give up (구어), lose (중립, 인과가 약하다), sacrifice (얻는 것과 맞바꾼다는 어감). ↔ retain, keep. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: If you pin the dependency to a fork, you forfeit upstream security patches.
+- **These sound alike but are different packages** — 이름은 비슷하게 들리지만 서로 다른 패키지다. ≈ are easy to confuse (혼동 가능성에 초점), have similar names (가장 평이), are not to be confused with (격식, 문어). [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: `debounce` and `throttle` sound alike but are different tools: one waits for silence, the other limits the rate.
+- **a batteries-included coding/filesystem agent** — 필요한 게 다 들어 있는 코딩·파일시스템 에이전트. ≈ full-featured (기능이 많다는 중립 표현), out-of-the-box (설정 없이 바로), all-in-one (제품 소개 어투). ↔ bare-bones, bring-your-own. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: Django is a batteries-included framework, so you get auth and an admin panel on day one.
+- **is from a retired role. Drop it.** — 폐기된 역할에서 남은 줄이다. 지워라. ≈ deprecated (아직 살아 있음), removed (중립), sunset (서비스 종료, 동사·명사 겸용). ↔ active, current. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: Any config key that starts with `legacy_` is from a retired feature, so drop it during the migration.
+- **Home keeps this current as contracts evolve.** — 계약이 바뀌어 가는 동안 집 쪽이 이것을 최신으로 유지한다. ≈ keep … up to date (가장 흔함), maintain (격식, 한 단어), keep … in sync with (맞춰야 할 상대를 밝힐 때). ↔ let … go stale, let … rot. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: The platform team keeps the runbook current as the deployment process evolves.
+- **anything else means the switch is broken** — 그 밖의 결과가 나오면 스위치가 고장 난 것이다. ≈ any other result indicates (격식), otherwise something is wrong with (회화), if not, suspect (지시문체). [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: The health check should return 200 within a second; anything else means the proxy is misconfigured.
+- **a one-sided rename spreads across dozens of files** — 한쪽만 바꾼 이름은 파일 수십 개로 번진다. ≈ ripples through (물결처럼 퍼지는 그림, 가장 흔함), cascades into (연쇄), touches (범위만 말하는 중립 표현). ↔ stays contained, is a local change. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: Because the slug is used for routing and logging, a one-sided rename spreads across dozens of files.
+- **Add a `providers/` seam only once a second adapter exists.** — 어댑터가 두 번째로 생긴 다음에야 `providers/` 이음매를 넣어라. ≈ not until (부정으로 같은 뜻), only after (더 평이), as soon as … and not before (강조). ↔ up front, speculatively. [→ daily](../../daily/2026-11-21/new-expressions.md)
+  - 예: Extract a shared helper only once a third caller exists.
