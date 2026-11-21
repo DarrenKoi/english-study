@@ -1350,3 +1350,9 @@
   - 예: The ticket tells us what to change but not why, so ask before you start.
 - **On no, move on without pushing.** — 거절하면 더 권하지 말고 넘어가라. ≈ don't press the point (조금 격식), let it go (회화), don't insist (가장 평이). ↔ keep nudging, follow up repeatedly. [→ daily](../../daily/2026-11-21/new-expressions.md)
   - 예: Offer the upgrade once; on no, move on without pushing.
+- **The user chose brevity over narration.** — 사용자는 과정 설명보다 간결함을 택했다. ≈ prefer A to B (취향·경향), opt for A rather than B (격식, 문어), go with A, not B (회화). ↔ want both, refuse to pick. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: For the incident report, we chose accuracy over speed and held it until the logs were verified.
+- **Skip hedging boilerplate.** — 얼버무리는 상투 문구는 빼라. ≈ drop the disclaimers (회화), cut the qualifiers (글쓰기 조언), omit unnecessary caveats (격식). ↔ hedge your bets, pile on caveats. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: Skip the hedging boilerplate and just tell me whether the migration is safe to run.
+- **Lazy means writing less code, not picking the flimsier algorithm.** — 게으르다는 것은 코드를 덜 쓴다는 뜻이지 더 부실한 알고리즘을 고른다는 뜻이 아니다. ≈ shakier (불안정), weaker (가장 평이), less robust (격식). ↔ sturdier, more robust. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: Moving fast means shipping smaller changes, not picking the flimsier design.

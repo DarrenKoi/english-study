@@ -2916,3 +2916,25 @@
   - 예: In the design review, keep to the points that would change the decision and send the rest in writing.
 - **Nothing in the project justifies an edit to a file outside it** — 프로젝트 안의 어떤 것도 프로젝트 밖 파일을 고칠 근거가 되지 못한다. ≈ is no reason to (구어), does not warrant (격식), doesn't give you license to (권한이라는 어감). [→ daily](../../daily/2026-11-21/new-expressions.md)
   - 예: Nothing in this ticket justifies a change to the shared schema, so open a separate proposal for that.
+- **The user chose brevity over narration.** — 사용자는 과정 설명보다 간결함을 택했다. ≈ prefer A to B (취향·경향), opt for A rather than B (격식, 문어), go with A, not B (회화). ↔ want both, refuse to pick. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: For the incident report, we chose accuracy over speed and held it until the logs were verified.
+- **Use headers, tables, and bullet lists only when they carry real structure, never as decoration.** — 제목·표·글머리표는 실제 구조를 담을 때만 쓰고 장식으로는 쓰지 마라. ≈ only where they add structure (평이), solely to convey structure (격식), not just to look tidy (회화). ↔ for show, as window dressing. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: Use color in a chart only when it carries information, never as decoration.
+- **Never trade correctness for brevity** — 간결함을 얻자고 정확성을 내주지 마라(내주는 쪽이 먼저 온다). ≈ sacrifice A for B (격식), give up A to get B (회화), compromise on A for the sake of B (타협). ↔ have it both ways, keep both. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: We should never trade data integrity for a faster release.
+- **Conciseness never means withholding requested information.** — 간결하게 쓴다는 것이 요청받은 정보를 주지 않는다는 뜻은 아니다. ≈ hold back (구어), keep … from someone (평이), leave out (고의성은 약하다). ↔ disclose, hand over, volunteer. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: Being polite never means withholding bad news from the customer.
+- **Skip hedging boilerplate.** — 얼버무리는 상투 문구는 빼라. ≈ drop the disclaimers (회화), cut the qualifiers (글쓰기 조언), omit unnecessary caveats (격식). ↔ hedge your bets, pile on caveats. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: Skip the hedging boilerplate and just tell me whether the migration is safe to run.
+- **Report outcomes, decisions, and anything the user must act on.** — 결과와 결정, 사용자가 조치해야 할 것은 모두 보고하라. ≈ anything that needs the user's attention (평이), action items (회의 용어), anything requiring follow-up (격식). ↔ FYI only, for the record. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: The weekly summary should list only the alerts that someone must act on.
+- **Where these rules conflict with more general communication or formatting guidance elsewhere in your instructions, these rules win.** — 이 규칙이 다른 곳의 일반 안내와 충돌하면 이 규칙이 이긴다. ≈ take precedence (격식), override (기술 문서), prevail (법률 문체). ↔ yield to, defer to. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: Where the team style guide conflicts with the linter's defaults, the style guide wins.
+- **take precedence over this reminder** — 이 안내보다 우선한다. ≈ win (구어), override (기술 문서), come first (회화). ↔ be subordinate to, give way to. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: Environment variables take precedence over the values in the config file.
+- **`WorkflowRunner` is not to be given routing** — `WorkflowRunner` 에 라우팅을 넣어서는 안 된다(이미 내려진 결정을 알리는 금지). ≈ must not be given (직접적), should stay free of (부드럽게), don't add routing to (회화). ↔ is free to, may. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: The staging database is not to be used for load tests.
+- **deliberately omits `eqp_id` so it can't be re-added** — 다시 넣지 못하게 하려고 `eqp_id` 를 일부러 뺐다. ≈ leaves out … on purpose (구어), intentionally excludes (격식), has no … by design (결과만). ↔ forgets to include, accidentally drops. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: The function deliberately omits a timeout parameter so callers can't shorten it by accident.
+- **What touches production today is only the read-only mirror** — 지금 운영에 닿는 것은 읽기 전용 미러뿐이다. ≈ the only thing that affects production is (평이), production exposure is limited to (격식), only … runs in prod (회화). ↔ is wired into the hot path, runs everywhere. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: What touches the payment tables today is only the nightly reconciliation job.

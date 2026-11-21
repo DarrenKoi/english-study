@@ -247,6 +247,7 @@
 - [accounted for](daily/2026-08-01/new-expressions.md) — 2026-08-01
 - [acknowledged intent, not accident](daily/2026-08-09/new-expressions.md) — 2026-08-09
 - [actionable, not aspirational](daily/2026-07-04/new-expressions.md) — 2026-07-04
+- [`action_enabled`/`typing_enabled` default to the inverse of `SAFE_MODE`](daily/2026-11-22/new-expressions.md) — 2026-11-22
 - [actively point at the wrong file](daily/2026-08-12/new-expressions.md) — 2026-08-12
 - [actively teaches the next session wrong](daily/2026-08-09/new-expressions.md) — 2026-08-09
 - [acts as if it were](daily/2026-10-04/new-expressions.md) — 2026-10-04
@@ -578,6 +579,7 @@
 - [compound the damage](daily/2026-08-18/new-expressions.md) — 2026-08-18
 - [concede plainly](daily/2026-08-17/new-expressions.md) — 2026-08-17
 - [conceded, and it's the finding that mattered](daily/2026-08-27/new-expressions.md) — 2026-08-27
+- [Conciseness never means withholding requested information.](daily/2026-11-22/new-expressions.md) — 2026-11-22
 - [concrete cost](daily/2026-10-16/new-expressions.md) — 2026-10-16
 - [cond sidecar](daily/2026-10-30/new-expressions.md) — 2026-10-30
 - [conditional on two points](daily/2026-09-15/new-expressions.md) — 2026-09-15
@@ -669,6 +671,7 @@
 - [deliberately mirror (the already-validated X)](daily/2026-07-08/new-expressions.md) — 2026-07-08
 - [deliberately narrow](daily/2026-08-06/new-expressions.md) — 2026-08-06
 - [Deliberately not done:](daily/2026-08-31/new-expressions.md) — 2026-08-31
+- [deliberately omits `eqp_id` so it can't be re-added](daily/2026-11-22/new-expressions.md) — 2026-11-22
 - [Deliberately per-process](daily/2026-09-14/new-expressions.md) — 2026-09-14
 - [dense is better than verbose](daily/2026-08-10/new-expressions.md) — 2026-08-10
 - [depend on more than they need](daily/2026-11-04/new-expressions.md) — 2026-11-04
@@ -1309,6 +1312,7 @@
 - [lays out our assumption for each tool](daily/2026-10-04/new-expressions.md) — 2026-10-04
 - [Lazy code without its check is unfinished.](daily/2026-11-13/new-expressions.md) — 2026-11-13
 - [Lazy means efficient, not careless.](daily/2026-10-18/new-expressions.md) — 2026-10-18
+- [Lazy means writing less code, not picking the flimsier algorithm.](daily/2026-11-22/new-expressions.md) — 2026-11-22
 - [lead the row](daily/2026-10-04/new-expressions.md) — 2026-10-04
 - [Lead with the result](daily/2026-11-20/new-expressions.md) — 2026-11-20
 - [leak (past a rule)](daily/2026-08-22/new-expressions.md) — 2026-08-22
@@ -1473,6 +1477,7 @@
 - [never refactor while RED; get to GREEN first](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [Never simplify away](daily/2026-11-01/new-expressions.md) — 2026-11-01
 - [Never stall on an answer you can default.](daily/2026-10-18/new-expressions.md) — 2026-10-18
+- [Never trade correctness for brevity](daily/2026-11-22/new-expressions.md) — 2026-11-22
 - [New constraints from the user (not yet in handoff.md)](daily/2026-10-20/new-expressions.md) — 2026-10-20
 - [next in line](daily/2026-07-24/new-expressions.md) — 2026-07-24
 - [Next to these, X is negligible.](daily/2026-09-26/new-expressions.md) — 2026-09-26
@@ -1618,6 +1623,7 @@
 - [one look at a few real rows would settle it](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [One number to explain before pushing](daily/2026-10-23/new-expressions.md) — 2026-10-23
 - [one person wearing five hats](daily/2026-11-16/new-expressions.md) — 2026-11-16
+- [one process, so the single RCS cursor stays serialized](daily/2026-11-22/new-expressions.md) — 2026-11-22
 - [One requested extension beyond the plan, and only this one](daily/2026-11-06/new-expressions.md) — 2026-11-06
 - [one slot family over](daily/2026-08-23/new-expressions.md) — 2026-08-23
 - [One thing has to change at the same time, or you'll end up with …](daily/2026-10-25/new-expressions.md) — 2026-10-25
@@ -1669,6 +1675,7 @@
 - [orphaned, not migrated](daily/2026-09-18/new-expressions.md) — 2026-09-18
 - [orthogonal](daily/2026-06-20/new-expressions.md) — 2026-06-20
 - [otherwise no need to call it out](daily/2026-11-12/new-expressions.md) — 2026-11-12
+- [otherwise the code reads an empty root and rcp/msr appear absent](daily/2026-11-22/new-expressions.md) — 2026-11-22
 - [out from under](daily/2026-07-12/new-expressions.md) — 2026-07-12
 - [out of context](daily/2026-10-14/new-expressions.md) — 2026-10-14
 - [out of line with](daily/2026-09-20/new-expressions.md) — 2026-09-20
@@ -1758,6 +1765,7 @@
 - [promote X to blocking](daily/2026-07-25/new-expressions.md) — 2026-07-25
 - [proof from outside your own work](daily/2026-10-20/new-expressions.md) — 2026-10-20
 - [Provable by the next acquisition succeeding](daily/2026-09-14/new-expressions.md) — 2026-09-14
+- [prove a CV change in workflow_2 → port only the verified change into workflow_3](daily/2026-11-22/new-expressions.md) — 2026-11-22
 - [prove out (end to end)](daily/2026-07-21/new-expressions.md) — 2026-07-21
 - [proves nothing about (the path)](daily/2026-10-28/new-expressions.md) — 2026-10-28
 - [provided (that)](daily/2026-10-15/new-expressions.md) — 2026-10-15
@@ -1868,6 +1876,7 @@
 - [repo-scoped, not global](daily/2026-08-30/new-expressions.md) — 2026-08-30
 - [report findings ranked by severity](daily/2026-08-10/new-expressions.md) — 2026-08-10
 - [Report numbers, not rows.](daily/2026-09-29/new-expressions.md) — 2026-09-29
+- [Report outcomes, decisions, and anything the user must act on.](daily/2026-11-22/new-expressions.md) — 2026-11-22
 - [reported failed rather than (created) in the wrong place](daily/2026-10-27/new-expressions.md) — 2026-10-27
 - [reproduce the bug in miniature](daily/2026-07-31/new-expressions.md) — 2026-07-31
 - [Reproducing the order against the running mock before touching anything.](daily/2026-10-09/new-expressions.md) — 2026-10-09
@@ -1888,6 +1897,7 @@
 - [returns partial results instead of being killed](daily/2026-10-19/new-expressions.md) — 2026-10-19
 - [reuse over re-derivation](daily/2026-08-23/new-expressions.md) — 2026-08-23
 - [reuse, not reimplement](daily/2026-09-10/new-expressions.md) — 2026-09-10
+- [Reviving one needs the checkpoint re-imported first](daily/2026-11-22/new-expressions.md) — 2026-11-22
 - [rewritten rather than left dangling](daily/2026-10-12/new-expressions.md) — 2026-10-12
 - [ride along (as a row)](daily/2026-07-03/new-expressions.md) — 2026-07-03
 - [ride the same commit](daily/2026-07-19/new-expressions.md) — 2026-07-19
@@ -1965,6 +1975,7 @@
 - [several of their display choices are guesses](daily/2026-10-12/new-expressions.md) — 2026-10-12
 - [shadow (the real package)](daily/2026-07-29/new-expressions.md) — 2026-07-29
 - [shadow mode](daily/2026-06-18/new-expressions.md) — 2026-06-18
+- [shared per-recipe staging would otherwise race across tools](daily/2026-11-22/new-expressions.md) — 2026-11-22
 - [sharpen fuzzy language](daily/2026-06-17/new-expressions.md) — 2026-06-17
 - [shave (a wait)](daily/2026-08-25/new-expressions.md) — 2026-08-25
 - [shelve (shelved)](daily/2026-07-14/new-expressions.md) — 2026-07-14
@@ -2018,6 +2029,7 @@
 - [sitting in someone's queue](daily/2026-09-17/new-expressions.md) — 2026-09-17
 - [Size a live deck to the talk](daily/2026-11-15/new-expressions.md) — 2026-11-15
 - [size the defaults against the shared envelope](daily/2026-10-19/new-expressions.md) — 2026-10-19
+- [Skip hedging boilerplate.](daily/2026-11-22/new-expressions.md) — 2026-11-22
 - [Skipped, needs your call.](daily/2026-09-11/new-expressions.md) — 2026-09-11
 - [slated for (update)](daily/2026-07-18/new-expressions.md) — 2026-07-18
 - [slip back in](daily/2026-09-27/new-expressions.md) — 2026-09-27
@@ -2171,6 +2183,7 @@
 - [take its clock from one injectable place](daily/2026-10-06/new-expressions.md) — 2026-10-06
 - [take its own word for it](daily/2026-09-17/new-expressions.md) — 2026-09-17
 - [take on](daily/2026-10-02/new-expressions.md) — 2026-10-02
+- [take precedence over this reminder](daily/2026-11-22/new-expressions.md) — 2026-11-22
 - [Take the one that's correct on edge cases.](daily/2026-11-13/new-expressions.md) — 2026-11-13
 - [take your hands off](daily/2026-09-30/new-expressions.md) — 2026-09-30
 - [Taking that as: …](daily/2026-09-20/new-expressions.md) — 2026-09-20
@@ -2476,6 +2489,7 @@
 - [the unambiguous "something is wrong now" signals](daily/2026-10-13/new-expressions.md) — 2026-10-13
 - [the unit of X is A, not B](daily/2026-09-15/new-expressions.md) — 2026-09-15
 - [the untouched original](daily/2026-10-08/new-expressions.md) — 2026-10-08
+- [The user chose brevity over narration.](daily/2026-11-22/new-expressions.md) — 2026-11-22
 - [the validated next move](daily/2026-06-26/new-expressions.md) — 2026-06-26
 - [the vindication of (a thesis)](daily/2026-07-03/new-expressions.md) — 2026-07-03
 - [the vintage of X](daily/2026-08-12/new-expressions.md) — 2026-08-12
@@ -2634,6 +2648,7 @@
 - [unusually thorough](daily/2026-08-27/new-expressions.md) — 2026-08-27
 - [unverified where noted](daily/2026-10-13/new-expressions.md) — 2026-10-13
 - [upgrade-only (it must never downgrade)](daily/2026-06-30/new-expressions.md) — 2026-06-30
+- [Use headers, tables, and bullet lists only when they carry real structure, never as decoration.](daily/2026-11-22/new-expressions.md) — 2026-11-22
 - [Use it even when you think you know the answer.](daily/2026-11-05/new-expressions.md) — 2026-11-05
 - [Use judgement](daily/2026-11-11/new-expressions.md) — 2026-11-11
 - [use the one that section already has in hand](daily/2026-11-07/new-expressions.md) — 2026-11-07
@@ -2696,6 +2711,7 @@
 - [what separates A from B](daily/2026-09-12/new-expressions.md) — 2026-09-12
 - [what stands between A and B](daily/2026-07-31/new-expressions.md) — 2026-07-31
 - [What this costs:](daily/2026-09-24/new-expressions.md) — 2026-09-24
+- [What touches production today is only the read-only mirror](daily/2026-11-22/new-expressions.md) — 2026-11-22
 - [what you could not verify without a browser](daily/2026-11-03/new-expressions.md) — 2026-11-03
 - [What's really being counted is X, not Y.](daily/2026-09-25/new-expressions.md) — 2026-09-25
 - [when a one-liner suffices](daily/2026-08-10/new-expressions.md) — 2026-08-10
@@ -2716,6 +2732,7 @@
 - [where the payload enters the page, so every card inherits the order](daily/2026-10-09/new-expressions.md) — 2026-10-09
 - [Where the slot is not known at all](daily/2026-10-14/new-expressions.md) — 2026-10-14
 - [Where the time really goes](daily/2026-09-26/new-expressions.md) — 2026-09-26
+- [Where these rules conflict with more general communication or formatting guidance elsewhere in your instructions, these rules win.](daily/2026-11-22/new-expressions.md) — 2026-11-22
 - [where they cannot go stale](daily/2026-11-14/new-expressions.md) — 2026-11-14
 - [Where this brief and those files disagree, report it.](daily/2026-09-30/new-expressions.md) — 2026-09-30
 - [where this skill earns its keep](daily/2026-08-27/new-expressions.md) — 2026-08-27
@@ -2777,6 +2794,7 @@
 - [work outward](daily/2026-10-11/new-expressions.md) — 2026-10-11
 - [work the user steps away from to trust later](daily/2026-11-18/new-expressions.md) — 2026-11-18
 - [worked out by a fixed rule](daily/2026-09-24/new-expressions.md) — 2026-09-24
+- [`WorkflowRunner` is not to be given routing](daily/2026-11-22/new-expressions.md) — 2026-11-22
 - [Works as specified.](daily/2026-10-24/new-expressions.md) — 2026-10-24
 - [works on my machine, breaks on the server](daily/2026-07-27/new-expressions.md) — 2026-07-27
 - [worse than the gap](daily/2026-09-22/new-expressions.md) — 2026-09-22

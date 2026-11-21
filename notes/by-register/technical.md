@@ -2522,3 +2522,23 @@
   - 예: Because the slug is used for routing and logging, a one-sided rename spreads across dozens of files.
 - **Add a `providers/` seam only once a second adapter exists.** — 어댑터가 두 번째로 생긴 다음에야 `providers/` 이음매를 넣어라. ≈ not until (부정으로 같은 뜻), only after (더 평이), as soon as … and not before (강조). ↔ up front, speculatively. [→ daily](../../daily/2026-11-21/new-expressions.md)
   - 예: Extract a shared helper only once a third caller exists.
+- **Where these rules conflict with more general communication or formatting guidance elsewhere in your instructions, these rules win.** — 이 규칙이 다른 곳의 일반 안내와 충돌하면 이 규칙이 이긴다. ≈ take precedence (격식), override (기술 문서), prevail (법률 문체). ↔ yield to, defer to. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: Where the team style guide conflicts with the linter's defaults, the style guide wins.
+- **one process, so the single RCS cursor stays serialized** — 프로세스가 하나라서 하나뿐인 RCS 커서는 직렬 상태를 유지한다. ≈ runs one at a time (평이), is mutually exclusive (격식, 이론 용어), never overlaps (결과만). ↔ runs concurrently, races. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: All writes go through one worker, so access to the file stays serialized without a lock.
+- **`WorkflowRunner` is not to be given routing** — `WorkflowRunner` 에 라우팅을 넣어서는 안 된다(이미 내려진 결정을 알리는 금지). ≈ must not be given (직접적), should stay free of (부드럽게), don't add routing to (회화). ↔ is free to, may. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: The staging database is not to be used for load tests.
+- **prove a CV change in workflow_2 → port only the verified change into workflow_3** — 변경은 실험장에서 입증하고 검증된 것만 운영 코드로 옮긴다. ≈ validate … then migrate (격식), try it out in … and bring over what works (회화), backport (이전 버전으로 옮길 때만). ↔ develop in place, ship untested. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: We prove each optimization on the benchmark first and port only the verified ones into the main branch.
+- **deliberately omits `eqp_id` so it can't be re-added** — 다시 넣지 못하게 하려고 `eqp_id` 를 일부러 뺐다. ≈ leaves out … on purpose (구어), intentionally excludes (격식), has no … by design (결과만). ↔ forgets to include, accidentally drops. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: The function deliberately omits a timeout parameter so callers can't shorten it by accident.
+- **shared per-recipe staging would otherwise race across tools** — 그러지 않으면 공용 staging 을 두고 장비끼리 경쟁 상태가 된다. ≈ would collide (충돌이라는 결과), would step on each other (회화), would contend for (격식). ↔ is isolated per tool, runs sequentially. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: The lock exists because two cron jobs would otherwise race on the same output file.
+- **otherwise the code reads an empty root and rcp/msr appear absent** — 그러지 않으면 코드가 빈 루트를 읽어서 rcp/msr 가 없는 것처럼 보인다. ≈ look like they're missing (회화), seem to be missing (평이), show up as missing (화면·로그). ↔ show up, are found. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: Set the region first; otherwise the CLI queries the wrong account and your buckets appear empty.
+- **`action_enabled`/`typing_enabled` default to the inverse of `SAFE_MODE`** — 기본값은 `SAFE_MODE` 의 반대값이다. ≈ the opposite of (평이), the negation of (논리 용어), mirrors … inverted (풀어 쓴 말). ↔ follows, mirrors. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: The `verbose` flag defaults to the inverse of `quiet`, so setting both is rarely necessary.
+- **Reviving one needs the checkpoint re-imported first** — 하나를 되살리려면 먼저 체크포인트를 다시 들여와야 한다(`need + 목적어 + p.p.`). ≈ bring back (구어), restore (원상 복구), resurrect (과장 섞인 말). ↔ retire, decommission. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: Reviving the old dashboard needs its database restored first.
+- **What touches production today is only the read-only mirror** — 지금 운영에 닿는 것은 읽기 전용 미러뿐이다. ≈ the only thing that affects production is (평이), production exposure is limited to (격식), only … runs in prod (회화). ↔ is wired into the hot path, runs everywhere. [→ daily](../../daily/2026-11-22/new-expressions.md)
+  - 예: What touches the payment tables today is only the nightly reconciliation job.
