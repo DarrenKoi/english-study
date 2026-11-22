@@ -2938,3 +2938,27 @@
   - 예: The function deliberately omits a timeout parameter so callers can't shorten it by accident.
 - **What touches production today is only the read-only mirror** — 지금 운영에 닿는 것은 읽기 전용 미러뿐이다. ≈ the only thing that affects production is (평이), production exposure is limited to (격식), only … runs in prod (회화). ↔ is wired into the hot path, runs everywhere. [→ daily](../../daily/2026-11-22/new-expressions.md)
   - 예: What touches the payment tables today is only the nightly reconciliation job.
+- **Otherwise carry on with the request and do not mention these servers.** — 그 밖의 경우에는 요청을 그대로 진행하고 이 서버들은 언급하지 마라. ≈ proceed with the request (격식), go ahead with it (회화), keep going as usual (가장 평이). ↔ hold off on the request, stop and flag it. [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: If the build fails, ping me; otherwise carry on with the deploy and don't wait for my review.
+- **Try that first, and tell the user only if it is refused.** — 그것부터 해 보고, 거부당했을 때만 사용자에게 알려라. ≈ escalate only on failure (명사구로 줄인 런북체), let them know if it doesn't go through (회화), report it solely in the event of a refusal (매우 격식). ↔ tell the user up front, report regardless. [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: Retry the upload once, and page the on-call engineer only if it is rejected again.
+- **Do not report a capability as unavailable without first searching.** — 먼저 찾아보지도 않고 기능이 없다고 보고하지 마라. ≈ check before you say it's not there (회화), don't rule it out until you've looked (구어, `rule out` = 배제하다), verify availability before reporting (격식·명사화). ↔ assume it's missing, take its absence for granted. [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: Do not mark a test as flaky without first reproducing the failure locally.
+- **it locates code; it doesn't review or audit it** — 코드를 찾아 줄 뿐, 검토하거나 감사하지는 않는다. ≈ it finds code, nothing more (회화), it's a search tool, not a reviewer (명사로 맞세움), its scope is limited to locating code (격식). [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: The linter flags style issues; it doesn't check whether the logic is correct.
+- **a web search result that does not settle the question** — 질문에 결론을 내 주지 못하는 웹 검색 결과. ≈ is inconclusive (형용사 하나로, 격식), doesn't answer it either way (회화), leaves the question open (열린 채로 둔다는 쪽에 초점). ↔ is conclusive, puts the question to rest. [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: The benchmark alone does not settle the question; we still need numbers from production traffic.
+- **Do NOT answer from this page alone if the answer may be further in the file.** — 답이 파일 뒤쪽에 있을지도 모르니 이 페이지만 보고 답하지 마라. ≈ based solely on this page (격식), just going by this page (회화), on the strength of this page alone (근거의 무게를 말하는 문어). [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: Don't judge the migration from the summary alone if the details may be further down in the PR.
+- **wants unfinished work recorded so it isn't lost overnight** — 밤사이 사라지지 않도록 못 끝낸 일을 적어 두고 싶어 한다. ≈ wants a record of what's left (명사로), needs the open items logged (업무 어투), would like outstanding work captured (격식, `outstanding` = 미결). [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: She wants the rollback steps written down so they aren't forgotten by the next release.
+- **work that has returned half-done** — 하다 만 채로 돌아온 일. ≈ half-finished (거의 같음), incomplete (격식·중립), a half-baked job (구어, 깔보는 어감). ↔ fully done, finished end to end. [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: The refactor came back half-done, with two of the five modules still on the old interface.
+- **turning tribal knowledge into exact step-by-step commands** — 구전 지식을 정확한 단계별 명령으로 바꾸기. ≈ undocumented know-how (중립), institutional knowledge (조직에 쌓인 지식, 긍정적), stuff only Dana knows (구어). ↔ documented procedure, written runbook. [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: Half of our deploy process is tribal knowledge, so new hires keep asking the same three people.
+- **formalizing a process that lives in someone's head** — 누군가의 머릿속에만 있는 절차를 공식화하기. ≈ exists only in someone's memory (격식), nobody ever wrote it down (회화), is undocumented (한 단어, 건조). ↔ is written down, is documented. [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: Right now the release checklist lives in Minsu's head, and that's a risk every time he's on leave.
+- **the team feels overallocated and you need the numbers** — 팀에 일이 과하게 배정된 것 같은데 수치가 필요하다. ≈ stretched thin (구어, 얇게 펴졌다는 그림), over capacity (용량 기준), overcommitted (약속을 너무 많이 한 쪽에 초점). ↔ underutilized, has slack. [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: Everyone says we're overallocated this quarter, but I need the numbers before I ask for another hire.
+- **reading legwork delegated to a background agent** — 자료 읽는 품을 백그라운드 에이전트에게 넘기기. ≈ grunt work (더 낮춰 부르는 구어), the groundwork (기초를 닦는 일, 긍정적), preliminary research (격식). [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: I'll make the call on the vendor, but can you do the legwork of collecting the three quotes?

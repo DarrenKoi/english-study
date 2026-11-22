@@ -1356,3 +1356,23 @@
   - 예: Skip the hedging boilerplate and just tell me whether the migration is safe to run.
 - **Lazy means writing less code, not picking the flimsier algorithm.** — 게으르다는 것은 코드를 덜 쓴다는 뜻이지 더 부실한 알고리즘을 고른다는 뜻이 아니다. ≈ shakier (불안정), weaker (가장 평이), less robust (격식). ↔ sturdier, more robust. [→ daily](../../daily/2026-11-22/new-expressions.md)
   - 예: Moving fast means shipping smaller changes, not picking the flimsier design.
+- **Otherwise carry on with the request and do not mention these servers.** — 그 밖의 경우에는 요청을 그대로 진행하고 이 서버들은 언급하지 마라. ≈ proceed with the request (격식), go ahead with it (회화), keep going as usual (가장 평이). ↔ hold off on the request, stop and flag it. [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: If the build fails, ping me; otherwise carry on with the deploy and don't wait for my review.
+- **a sign-in may still be good** — 로그인이 아직 살아 있을지도 모른다. ≈ may still be valid (격식·문서), might not have expired yet (풀어 쓴 말), is probably still live (구어, 세션·연결에). ↔ has expired, has been revoked. [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: Try the old API key first; it may still be good until the end of the month.
+- **Proactively use when Claude Code is stuck** — Claude Code 가 막혔을 때 먼저 나서서 써라. ≈ has hit a wall (더 세고 생생함), is blocked (남·외부 요인 때문에 못 나감), isn't making headway (격식 섞인 완곡). ↔ is making progress, is unblocked. [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: I've been stuck on this race condition since Monday, so I'd like a second pair of eyes.
+- **picking up where you left off** — 멈춘 데서부터 다시 이어 가기. ≈ resume (격식, 한 단어), get back to it (회화, 어디서부터인지는 말 안 함), continue from the last checkpoint (기술 문서). ↔ start over, start from scratch. [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: I saved my notes last night, so this morning I just picked up where I left off.
+- **wants unfinished work recorded so it isn't lost overnight** — 밤사이 사라지지 않도록 못 끝낸 일을 적어 두고 싶어 한다. ≈ wants a record of what's left (명사로), needs the open items logged (업무 어투), would like outstanding work captured (격식, `outstanding` = 미결). [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: She wants the rollback steps written down so they aren't forgotten by the next release.
+- **work that has returned half-done** — 하다 만 채로 돌아온 일. ≈ half-finished (거의 같음), incomplete (격식·중립), a half-baked job (구어, 깔보는 어감). ↔ fully done, finished end to end. [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: The refactor came back half-done, with two of the five modules still on the old interface.
+- **formalizing a process that lives in someone's head** — 누군가의 머릿속에만 있는 절차를 공식화하기. ≈ exists only in someone's memory (격식), nobody ever wrote it down (회화), is undocumented (한 단어, 건조). ↔ is written down, is documented. [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: Right now the release checklist lives in Minsu's head, and that's a risk every time he's on leave.
+- **Channels a senior dev who has seen everything** — 볼 꼴 다 본 시니어 개발자를 빙의한다. ≈ takes on the mindset of (격식·중립), acts like (가장 평이), does its best impression of (흉내, 농담조). [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: In code review she channels a QA engineer who has seen everything break at least once.
+- **reading legwork delegated to a background agent** — 자료 읽는 품을 백그라운드 에이전트에게 넘기기. ≈ grunt work (더 낮춰 부르는 구어), the groundwork (기초를 닦는 일, 긍정적), preliminary research (격식). [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: I'll make the call on the vendor, but can you do the legwork of collecting the three quotes?
+- **I'm torn between X and Y** — X 와 Y 사이에서 갈팡질팡이다. ≈ I can't decide between (가장 평이), I'm on the fence about (어느 쪽으로도 안 기운 상태, 구어), I'm weighing A against B (저울질 중, 격식 섞임). ↔ I've made up my mind, I'm set on X. [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: I'm torn between rewriting the parser and patching it one more time.

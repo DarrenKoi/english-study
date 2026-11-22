@@ -2542,3 +2542,11 @@
   - 예: Reviving the old dashboard needs its database restored first.
 - **What touches production today is only the read-only mirror** — 지금 운영에 닿는 것은 읽기 전용 미러뿐이다. ≈ the only thing that affects production is (평이), production exposure is limited to (격식), only … runs in prod (회화). ↔ is wired into the hot path, runs everywhere. [→ daily](../../daily/2026-11-22/new-expressions.md)
   - 예: What touches the payment tables today is only the nightly reconciliation job.
+- **a planted `json.py` runs on `import json`** — 심어 둔 `json.py` 가 `import json` 때 실행된다. ≈ a malicious `json.py` (의도만 말함, 놓인 경위는 없음), a rogue file (제멋대로 끼어든 것, 구어), a booby-trapped archive (건드리면 터지게 꾸민 것, 생생한 구어). ↔ a legitimate module, a vetted dependency. [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: A planted `.pth` file in the archive would run on the next interpreter start.
+- **a sign-in may still be good** — 로그인이 아직 살아 있을지도 모른다. ≈ may still be valid (격식·문서), might not have expired yet (풀어 쓴 말), is probably still live (구어, 세션·연결에). ↔ has expired, has been revoked. [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: Try the old API key first; it may still be good until the end of the month.
+- **it locates code; it doesn't review or audit it** — 코드를 찾아 줄 뿐, 검토하거나 감사하지는 않는다. ≈ it finds code, nothing more (회화), it's a search tool, not a reviewer (명사로 맞세움), its scope is limited to locating code (격식). [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: The linter flags style issues; it doesn't check whether the logic is correct.
+- **Proactively use when Claude Code is stuck** — Claude Code 가 막혔을 때 먼저 나서서 써라. ≈ has hit a wall (더 세고 생생함), is blocked (남·외부 요인 때문에 못 나감), isn't making headway (격식 섞인 완곡). ↔ is making progress, is unblocked. [→ daily](../../daily/2026-11-23/new-expressions.md)
+  - 예: I've been stuck on this race condition since Monday, so I'd like a second pair of eyes.
