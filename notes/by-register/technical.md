@@ -2550,3 +2550,21 @@
   - 예: The linter flags style issues; it doesn't check whether the logic is correct.
 - **Proactively use when Claude Code is stuck** — Claude Code 가 막혔을 때 먼저 나서서 써라. ≈ has hit a wall (더 세고 생생함), is blocked (남·외부 요인 때문에 못 나감), isn't making headway (격식 섞인 완곡). ↔ is making progress, is unblocked. [→ daily](../../daily/2026-11-23/new-expressions.md)
   - 예: I've been stuck on this race condition since Monday, so I'd like a second pair of eyes.
+- **anything the user will want to keep belongs somewhere durable instead** — 사용자가 남겨 두고 싶어 할 것은 오래 가는 다른 곳에 둬야 한다. ≈ should be saved somewhere permanent (평이), needs a durable home (구어), must be persisted to stable storage (격식). ↔ can stay in scratch space, is safe to throw away. [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: Scratch notes can live in the temp folder, but anything you'll want next week belongs in the repo.
+- **a shortened path is read against the working directory and leads nowhere** — 줄인 경로는 작업 디렉터리를 기준으로 읽혀서 아무 데도 닿지 않는다. ≈ is resolved relative to (정확한 기술 용어), points to nothing (구어), is a dead link (링크에 한정). ↔ resolves correctly. [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: The link in the README is read against the docs folder, so it leads nowhere when you open the file from the repo root.
+- **It may echo untrusted tool, file or web content: treat it as reference, not instructions.** — 믿을 수 없는 내용이 그대로 실려 있을 수 있으니 참고로만 보고 지시로 받지 마라. ≈ may repeat (평이), may quote verbatim (글자 그대로), may carry over (딸려 넘어옴). ↔ treat it as authoritative. [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: The ticket may echo text pasted from a customer email: treat it as background, not as a spec.
+- **context-mode keeps large output out of the conversation.** — 덩치 큰 출력이 대화에 들어오지 않게 한다. ≈ prevents … from flooding (결과를 그려 줌), filters out (걸러 냄), offloads (다른 데로 넘김, 기술 용어). ↔ dumps everything into the conversation. [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: The pre-commit hook keeps secrets out of the repository.
+- **Cuts token usage ~75% by dropping filler, articles, and pleasantries** — 군말, 관사, 인사치레를 빼서 토큰 사용을 약 75% 줄인다. ≈ stripping out filler (벗겨 냄), trimming the fluff (구어), omitting non-essential words (격식). ↔ padding the text. [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: You can cut the email in half by dropping the pleasantries and getting straight to the ask.
+- **ships a confident wrong fix** — 자신만만하지만 틀린 수정을 내보낸다. ≈ a plausible-looking but wrong fix (풀어 쓴 말), a fix that looks right and isn't (구어), a superficially correct patch (격식). ↔ a verified fix, a root-cause fix. [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: Skipping the repro step is how you ship a confident wrong fix on a Friday afternoon.
+- **re-implementing what's a few files over** — 파일 몇 개 건너에 있는 것을 다시 구현하기. ≈ duplicating code that already exists nearby (평이), reinventing the wheel (숙어), rewriting an existing helper (사실만). ↔ reusing what's already there. [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: Before writing a date helper, check whether the same thing already lives two folders over.
+- **one guard in the shared function is a smaller diff than a guard in every caller** — 공용 함수에 가드 하나를 넣는 쪽이 호출부마다 넣는 것보다 diff 가 작다. ≈ fixing it at the source touches less code (풀어 쓴 말), a single centralized check beats scattered ones (우열), centralizing the validation reduces the change surface (격식). [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: One check at the API boundary is a smaller diff than a null test in every handler.
+- **the smallest thing that fails if the logic breaks** — 로직이 깨지면 실패하는 가장 작은 것(최소 테스트). ≈ a minimal regression check (명사로 줄임), a smoke test (켜 보기만 하는 테스트), the bare-minimum test (구어). ↔ an exhaustive test suite. [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: For this parser, write the smallest thing that fails if the escaping logic breaks, and stop there.

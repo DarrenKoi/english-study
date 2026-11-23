@@ -1376,3 +1376,17 @@
   - 예: I'll make the call on the vendor, but can you do the legwork of collecting the three quotes?
 - **I'm torn between X and Y** — X 와 Y 사이에서 갈팡질팡이다. ≈ I can't decide between (가장 평이), I'm on the fence about (어느 쪽으로도 안 기운 상태, 구어), I'm weighing A against B (저울질 중, 격식 섞임). ↔ I've made up my mind, I'm set on X. [→ daily](../../daily/2026-11-23/new-expressions.md)
   - 예: I'm torn between rewriting the parser and patching it one more time.
+- **The user hasn't heard from you in a while** — 사용자가 한동안 너에게서 소식을 못 들었다. ≈ It's been a while since you last checked in (풀어 쓴 말), you've gone quiet (구어, 살짝 채근), there has been no update for some time (격식). ↔ you've been keeping the user posted. [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: I haven't heard from the vendor in a while, so I'll send a quick follow-up today.
+- **context-mode keeps large output out of the conversation.** — 덩치 큰 출력이 대화에 들어오지 않게 한다. ≈ prevents … from flooding (결과를 그려 줌), filters out (걸러 냄), offloads (다른 데로 넘김, 기술 용어). ↔ dumps everything into the conversation. [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: The pre-commit hook keeps secrets out of the repository.
+- **Never use it, AppleScript or other scripting to get around these limits.** — 이 제한을 피해 가려고 스크립트를 쓰지 마라. ≈ circumvent (격식), bypass (기술·보안), sidestep (슬쩍 비켜 가는 구어). ↔ stay within these limits, abide by the limits. [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: Don't disable the linter to get around the rule; fix the code or ask for an exception.
+- **Cuts token usage ~75% by dropping filler, articles, and pleasantries** — 군말, 관사, 인사치레를 빼서 토큰 사용을 약 75% 줄인다. ≈ stripping out filler (벗겨 냄), trimming the fluff (구어), omitting non-essential words (격식). ↔ padding the text. [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: You can cut the email in half by dropping the pleasantries and getting straight to the ask.
+- **ships a confident wrong fix** — 자신만만하지만 틀린 수정을 내보낸다. ≈ a plausible-looking but wrong fix (풀어 쓴 말), a fix that looks right and isn't (구어), a superficially correct patch (격식). ↔ a verified fix, a root-cause fix. [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: Skipping the repro step is how you ship a confident wrong fix on a Friday afternoon.
+- **No essays, no feature tours, no design notes.** — 긴 글도, 기능 구경도, 설계 메모도 없이. ≈ Skip the long explanations (평이), Keep it short (가장 짧음), Refrain from lengthy commentary (격식). [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: Keep the PR description to what changed and why: no essays, no screenshots of unrelated pages, no apologies.
+- **re-implementing what's a few files over** — 파일 몇 개 건너에 있는 것을 다시 구현하기. ≈ duplicating code that already exists nearby (평이), reinventing the wheel (숙어), rewriting an existing helper (사실만). ↔ reusing what's already there. [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: Before writing a date helper, check whether the same thing already lives two folders over.

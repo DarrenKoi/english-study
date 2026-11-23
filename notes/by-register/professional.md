@@ -2962,3 +2962,17 @@
   - 예: Everyone says we're overallocated this quarter, but I need the numbers before I ask for another hire.
 - **reading legwork delegated to a background agent** — 자료 읽는 품을 백그라운드 에이전트에게 넘기기. ≈ grunt work (더 낮춰 부르는 구어), the groundwork (기초를 닦는 일, 긍정적), preliminary research (격식). [→ daily](../../daily/2026-11-23/new-expressions.md)
   - 예: I'll make the call on the vendor, but can you do the legwork of collecting the three quotes?
+- **anything the user will want to keep belongs somewhere durable instead** — 사용자가 남겨 두고 싶어 할 것은 오래 가는 다른 곳에 둬야 한다. ≈ should be saved somewhere permanent (평이), needs a durable home (구어), must be persisted to stable storage (격식). ↔ can stay in scratch space, is safe to throw away. [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: Scratch notes can live in the temp folder, but anything you'll want next week belongs in the repo.
+- **look it up there … rather than asking them to repeat it** — 다시 말해 달라고 하지 말고 거기서 찾아봐라. ≈ check the record instead of asking again (평이), refer to the transcript (격식), dig it out of the log (구어). ↔ ask them to walk you through it again. [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: If you missed the decision, look it up in the meeting notes rather than asking the team to go over it again.
+- **Markdown is never a shortcut past the design pass.** — 마크다운이라고 디자인 검토를 건너뛰는 지름길이 되지는 않는다. ≈ is no excuse to skip (구어), does not exempt you from (격식·규정), doesn't let you off the hook (회화 숙어). [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: A passing test suite is never a shortcut past code review.
+- **Never use it, AppleScript or other scripting to get around these limits.** — 이 제한을 피해 가려고 스크립트를 쓰지 마라. ≈ circumvent (격식), bypass (기술·보안), sidestep (슬쩍 비켜 가는 구어). ↔ stay within these limits, abide by the limits. [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: Don't disable the linter to get around the rule; fix the code or ask for an exception.
+- **No essays, no feature tours, no design notes.** — 긴 글도, 기능 구경도, 설계 메모도 없이. ≈ Skip the long explanations (평이), Keep it short (가장 짧음), Refrain from lengthy commentary (격식). [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: Keep the PR description to what changed and why: no essays, no screenshots of unrelated pages, no apologies.
+- **do not execute trades or move money** — 매매를 체결하거나 돈을 옮기지 마라. ≈ do not make transactions (넓게 묶음), do not transfer funds (격식), don't touch the money (구어). [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: The assistant can draft the invoice, but it must not move money or approve payments on its own.
+- **so it opens with the feedback list and each question slide carries 답변, 검토, 논의** — 피드백 목록으로 시작하고 질문 장마다 답변, 검토, 논의가 실린다. ≈ starts with (평이), leads with (가장 중요한 것을 앞에), begins by presenting (격식). ↔ closes with, ends on. [→ daily](../../daily/2026-11-24/new-expressions.md)
+  - 예: The deck opens with last quarter's numbers, and each following slide carries one decision we need from the team.
