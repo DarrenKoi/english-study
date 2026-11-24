@@ -2568,3 +2568,17 @@
   - 예: One check at the API boundary is a smaller diff than a null test in every handler.
 - **the smallest thing that fails if the logic breaks** — 로직이 깨지면 실패하는 가장 작은 것(최소 테스트). ≈ a minimal regression check (명사로 줄임), a smoke test (켜 보기만 하는 테스트), the bare-minimum test (구어). ↔ an exhaustive test suite. [→ daily](../../daily/2026-11-24/new-expressions.md)
   - 예: For this parser, write the smallest thing that fails if the escaping logic breaks, and stop there.
+- **editing existing notes still means driving the app's UI** — 기존 노트를 고치려면 여전히 앱 화면을 직접 조작해야 한다. ≈ requires automating the UI (격식), has to go through the screen (구어). ↔ can be done through the API. [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: Without an API, exporting the report still means driving the web UI with a script.
+- **which I'm assuming UpNote picks up as a tag** — UpNote 가 태그로 알아챌 것이라고 내가 가정하는 것. ≈ which I expect UpNote to treat as a tag (조금 격식), which should register as a tag (should 로 추측). [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: The file starts with a shebang line, which I'm assuming the installer picks up as a sign that it's executable.
+- **a typo would silently create a stray one** — 오타 하나로 경고 없이 엉뚱한 것이 생긴다. ≈ would create an unwanted one without warning (풀어 씀), would quietly leave an orphan behind (기술 구어). [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: The config loader accepts unknown keys, so a typo would silently create a stray setting that nothing reads.
+- **a 21,000-character note goes through uncut** — 21,000자짜리 노트가 잘리지 않고 그대로 넘어간다. ≈ arrives complete (평이), is delivered in full (격식). ↔ gets cut off, is truncated. [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: The payment went through, but the receipt email arrived with the last line cut off.
+- **The copy can be up to an hour old** — 사본은 길게는 한 시간 전 것일 수 있다. ≈ may lag by as much as an hour (지연 쪽), is at most an hour stale (기술 구어). ↔ is always current, is live. [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: The dashboard reads from a cache, so the numbers can be up to five minutes old.
+- **any link you made to the old one would no longer point to it** — 예전 것으로 걸어 둔 링크는 더는 그것을 가리키지 않는다. ≈ would break (가장 짧음), would become a dead link (결과 쪽), would cease to resolve (격식). ↔ would keep working. [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: If you rename the branch, any bookmark you saved to the old URL would no longer point to it.
+- **so the Mac never goes idle and locks** — 그래서 Mac 이 유휴 상태로 넘어가 잠기는 일이 없다. ≈ so the Mac stays awake (평이), which prevents the idle lock from kicking in (기술 구어). ↔ goes to sleep, times out. [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: Keep the session active with a ping every minute so the connection never goes idle and drops.

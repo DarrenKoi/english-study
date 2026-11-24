@@ -1390,3 +1390,19 @@
   - 예: Keep the PR description to what changed and why: no essays, no screenshots of unrelated pages, no apologies.
 - **re-implementing what's a few files over** — 파일 몇 개 건너에 있는 것을 다시 구현하기. ≈ duplicating code that already exists nearby (평이), reinventing the wheel (숙어), rewriting an existing helper (사실만). ↔ reusing what's already there. [→ daily](../../daily/2026-11-24/new-expressions.md)
   - 예: Before writing a date helper, check whether the same thing already lives two folders over.
+- **come from sources I can't vouch for** — 내가 보증할 수 없는 출처에서 나왔다. ≈ I can't verify these sources (격식), I don't know who's behind them (구어). ↔ from a trusted publisher. [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: I haven't used that library myself, so I can't vouch for it.
+- **Note IDs come back after all** — 알고 보니 노트 ID 가 돌아온다(문장 끝 after all = 예상과 달리 결국). ≈ as it turns out (서술적), contrary to what I said earlier (격식). [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: The old endpoint is still up after all, so we don't need to migrate this week.
+- **which I'm assuming UpNote picks up as a tag** — UpNote 가 태그로 알아챌 것이라고 내가 가정하는 것. ≈ which I expect UpNote to treat as a tag (조금 격식), which should register as a tag (should 로 추측). [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: The file starts with a shebang line, which I'm assuming the installer picks up as a sign that it's executable.
+- **That settles both questions** — 그걸로 두 가지 물음이 다 정리됐다. ≈ That answers both questions (평이), Both points are now resolved (격식). ↔ That leaves both questions open. [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: The benchmark came back twice as fast, which settles the question of whether the rewrite was worth it.
+- **a 21,000-character note goes through uncut** — 21,000자짜리 노트가 잘리지 않고 그대로 넘어간다. ≈ arrives complete (평이), is delivered in full (격식). ↔ gets cut off, is truncated. [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: The payment went through, but the receipt email arrived with the last line cut off.
+- **Both come down to the same thing** — 둘 다 따지고 보면 같은 문제다. ≈ both boil down to (구어), both stem from the same cause (격식), it's the same root cause (기술 보고). [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: The slow build and the flaky tests both come down to the same thing: the CI machine is out of memory.
+- **test reading and editing in one go** — 읽기와 고치기를 한 번에 시험하다. ≈ all at once (평이), in a single pass (기술 문서), in one sitting (읽기·쓰기에). ↔ one at a time, in stages. [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: Once the server is back, I'll run the migration and the smoke tests in one go.
+- **Two ways around it while you're remote** — 원격에 있는 동안 이를 피해 가는 방법 두 가지. ≈ two workarounds (기술 문서), two options in the meantime (평이), two ways to get by (구어). [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: There's no way around the approval step, but you can start the paperwork today.

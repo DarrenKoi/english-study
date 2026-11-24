@@ -2976,3 +2976,21 @@
   - 예: The assistant can draft the invoice, but it must not move money or approve payments on its own.
 - **so it opens with the feedback list and each question slide carries 답변, 검토, 논의** — 피드백 목록으로 시작하고 질문 장마다 답변, 검토, 논의가 실린다. ≈ starts with (평이), leads with (가장 중요한 것을 앞에), begins by presenting (격식). ↔ closes with, ends on. [→ daily](../../daily/2026-11-24/new-expressions.md)
   - 예: The deck opens with last quarter's numbers, and each following slide carries one decision we need from the team.
+- **come from sources I can't vouch for** — 내가 보증할 수 없는 출처에서 나왔다. ≈ I can't verify these sources (격식), I don't know who's behind them (구어). ↔ from a trusted publisher. [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: I haven't used that library myself, so I can't vouch for it.
+- **well below the bar for a skill worth trusting** — 믿을 만한 스킬의 기준에 한참 못 미친다. ≈ falls far short of the standard (격식), doesn't make the cut (구어). ↔ clears the bar. [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: Two stars and no commits in three years is well below the bar for a dependency worth adding.
+- **A broader search … turned up nothing relevant** — 범위를 넓혀 찾아봐도 관련 있는 것은 나오지 않았다. ≈ found nothing relevant (평이), came up empty (구어), yielded no relevant results (격식). [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: A quick search of the issue tracker turned up nothing relevant, so I opened a new ticket.
+- **My tag plan was wrong, and it has left the test notes scattered** — 내 태그 계획이 틀렸고 그 탓에 테스트 노트가 흩어져 있다. ≈ I got the tagging wrong, so the notes are all over the place (구어), the approach failed, leaving the notes dispersed (격식). [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: My estimate was wrong, and it has left the team short by two days.
+- **That settles both questions** — 그걸로 두 가지 물음이 다 정리됐다. ≈ That answers both questions (평이), Both points are now resolved (격식). ↔ That leaves both questions open. [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: The benchmark came back twice as fast, which settles the question of whether the rewrite was worth it.
+- **The skill works as it stands** — 스킬은 지금 상태 그대로 동작한다. ≈ as is (짧은 구어), in its current form (격식), the way it is now (평이). ↔ once it's been reworked. [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: The proposal is fine as it stands, though a cost table would make it easier to approve.
+- **leave the test notes in place** — 테스트 노트를 그 자리에 그대로 두다. ≈ leave them as they are (평이), don't touch them yet (구어). ↔ clear them out. [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: Please leave the old config in place until the new one has run for a full day.
+- **which is now out of date** — 그것은 이제 낡은 내용이다. ≈ is no longer accurate (격식), is stale (기술 구어), is outdated (중립). ↔ is up to date. [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: The README still tells you to install Node 16, which is now out of date.
+- **That's a security trade-off for a machine left unattended** — 지켜보는 사람 없이 둔 기기에는 보안을 내주는 선택이다. ≈ it comes at a cost to security (격식), you're giving up some safety for convenience (구어), there's a downside (가벼움). [→ daily](../../daily/2026-11-25/new-expressions.md)
+  - 예: Turning off two-factor login saves a few seconds, but that's a security trade-off for an account with admin rights.
