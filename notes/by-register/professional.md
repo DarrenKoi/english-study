@@ -2994,3 +2994,31 @@
   - 예: The README still tells you to install Node 16, which is now out of date.
 - **That's a security trade-off for a machine left unattended** — 지켜보는 사람 없이 둔 기기에는 보안을 내주는 선택이다. ≈ it comes at a cost to security (격식), you're giving up some safety for convenience (구어), there's a downside (가벼움). [→ daily](../../daily/2026-11-25/new-expressions.md)
   - 예: Turning off two-factor login saves a few seconds, but that's a security trade-off for an account with admin rights.
+- **that answer leans toward however the question was framed** — 그 답은 질문을 어떻게 틀 잡았느냐에 따라 그쪽으로 기운다. `however` 는 "어떤 식으로든". ≈ is biased by the wording (직설), is shaped by how you ask (평이). ↔ is independent of the framing. [→ daily](../../daily/2026-11-26/new-expressions.md)
+  - 예: Survey results lean toward however the options were worded, so we tested two versions of the question.
+- **a chairman with no stake in the conversation** — 그 대화에 걸린 이해관계가 없는 의장. ≈ a neutral party (격식), an impartial chair (격식), someone with no skin in the game (구어). ↔ an interested party, someone with a vested interest. [→ daily](../../daily/2026-11-26/new-expressions.md)
+  - 예: We asked someone with no stake in the outcome to review both proposals.
+- **questions where being wrong is expensive and reasonable people could disagree** — 틀리면 대가가 크고 합리적인 사람끼리도 의견이 갈릴 질문. ≈ high-stakes judgment calls (업무 구어), decisions that are costly to get wrong (평이). ↔ a no-brainer. [→ daily](../../daily/2026-11-26/new-expressions.md)
+  - 예: Save the design review for decisions where being wrong is expensive and reasonable people could disagree.
+- **They are chosen to pull against each other** — 서로 반대쪽으로 당기도록 골랐다. ≈ are deliberately opposed (격식), balance each other out (결과 쪽), are in tension (문어). ↔ pull in the same direction. [→ daily](../../daily/2026-11-26/new-expressions.md)
+  - 예: Speed and safety pull against each other, so every release is a compromise between them.
+- **generic briefs get generic advice** — 뻔한 브리프에는 뻔한 조언이 돌아온다. ≈ garbage in, garbage out (기술 구어), vague questions get vague answers (같은 틀). [→ daily](../../daily/2026-11-26/new-expressions.md)
+  - 예: Give the agency real numbers, because generic briefs get generic advice.
+- **so the council does not re-tread it** — 그래서 이미 다룬 것을 다시 밟지 않게. ≈ go over old ground (가장 흔함), rehash (구어), duplicate earlier work (격식). ↔ break new ground. [→ daily](../../daily/2026-11-26/new-expressions.md)
+  - 예: Read last quarter's notes first so the meeting does not re-tread the same arguments.
+- **Catches the curse of knowledge** — 지식의 저주(아는 사람 눈에는 당연해서 설명이 빠지는 문제)를 잡아낸다. ≈ being too close to it (구어), expert blind spot (교육 용어). ↔ fresh eyes. [→ daily](../../daily/2026-11-26/new-expressions.md)
+  - 예: Ask someone outside the team to read the README, because the curse of knowledge hides the gaps from us.
+- **It adds nothing to a question with one right answer** — 정답이 하나인 질문에는 보탤 것이 없다. ≈ is overkill for (구어), brings no benefit to (격식), is wasted on (구어). ↔ earns its keep, pays off. [→ daily](../../daily/2026-11-26/new-expressions.md)
+  - 예: A second approval step adds nothing to a change that is already covered by tests.
+- **an omitted option or a baked-in assumption is one the whole council shares** — 빠진 선택지나 밑에 깔린 가정은 전체가 같이 떠안는다. `baked-in` 은 나중에 빼낼 수 없이 섞여 있다는 뜻. ≈ a built-in assumption (중립), a hidden premise (문어), an unstated assumption (격식). ↔ an explicit assumption. [→ daily](../../daily/2026-11-26/new-expressions.md)
+  - 예: The benchmark has a baked-in assumption that every request is the same size.
+- **so they judge the argument rather than defer to a role** — 그래서 역할에 눌리지 않고 논증 자체를 판단한다. `defer to` 는 권위에 판단을 넘기기. ≈ evaluate on the merits (격식), go by the content, not the name (평이). ↔ pull rank, argue from authority. [→ daily](../../daily/2026-11-26/new-expressions.md)
+  - 예: Reviews are anonymous so that people judge the code rather than defer to seniority.
+- **do not mark a response down for leaving out context it was never given** — 받은 적 없는 맥락을 빠뜨렸다고 감점하지 마라. `mark A down for B`. ≈ penalize (격식), hold it against (구어), dock points for (채점 구어). ↔ give credit for. [→ daily](../../daily/2026-11-26/new-expressions.md)
+  - 예: Don't mark the intern down for missing a rule nobody told her about.
+- **with the brief in reach it becomes a fifth insider** — 브리프가 손 닿는 데 있으면 다섯 번째 내부자가 되고 만다. ≈ within reach (더 흔함), at hand (문어), with access to the brief (기술 문체). ↔ out of reach, off limits. [→ daily](../../daily/2026-11-26/new-expressions.md)
+  - 예: With the answer key in reach, the test stops measuring anything.
+- **proceed on assumptions and record them** — 가정을 세워 진행하고 그 가정을 기록하라. ≈ make a judgment call and note it (구어), work from stated assumptions (격식), go with your best guess (가벼움). ↔ block on confirmation, wait for sign-off. [→ daily](../../daily/2026-11-26/new-expressions.md)
+  - 예: If the client doesn't reply by noon, proceed on assumptions and record them in the ticket.
+- **Only the final report to the user is owed** — 사용자에게 드릴 최종 보고만 남아 있다. `be owed` 는 아직 해 줘야 할. ≈ is still outstanding (격식), is left to do (평이), is pending (중립). ↔ is done, has been delivered. [→ daily](../../daily/2026-11-26/new-expressions.md)
+  - 예: The code is merged, so only the release notes are owed.

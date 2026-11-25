@@ -2582,3 +2582,7 @@
   - 예: If you rename the branch, any bookmark you saved to the old URL would no longer point to it.
 - **so the Mac never goes idle and locks** — 그래서 Mac 이 유휴 상태로 넘어가 잠기는 일이 없다. ≈ so the Mac stays awake (평이), which prevents the idle lock from kicking in (기술 구어). ↔ goes to sleep, times out. [→ daily](../../daily/2026-11-25/new-expressions.md)
   - 예: Keep the session active with a ping every minute so the connection never goes idle and drops.
+- **an omitted option or a baked-in assumption is one the whole council shares** — 빠진 선택지나 밑에 깔린 가정은 전체가 같이 떠안는다. `baked-in` 은 나중에 빼낼 수 없이 섞여 있다는 뜻. ≈ a built-in assumption (중립), a hidden premise (문어), an unstated assumption (격식). ↔ an explicit assumption. [→ daily](../../daily/2026-11-26/new-expressions.md)
+  - 예: The benchmark has a baked-in assumption that every request is the same size.
+- **files keep every stage verbatim** — 파일은 모든 단계를 한 글자도 바꾸지 않고 보존한다. ≈ word for word (평이), as-is (기술 구어), unaltered (격식). ↔ paraphrased, summarized. [→ daily](../../daily/2026-11-26/new-expressions.md)
+  - 예: Log the request body verbatim so we can replay it later.

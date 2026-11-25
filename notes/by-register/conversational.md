@@ -1406,3 +1406,15 @@
   - 예: Once the server is back, I'll run the migration and the smoke tests in one go.
 - **Two ways around it while you're remote** — 원격에 있는 동안 이를 피해 가는 방법 두 가지. ≈ two workarounds (기술 문서), two options in the meantime (평이), two ways to get by (구어). [→ daily](../../daily/2026-11-25/new-expressions.md)
   - 예: There's no way around the approval step, but you can start the paperwork today.
+- **They are chosen to pull against each other** — 서로 반대쪽으로 당기도록 골랐다. ≈ are deliberately opposed (격식), balance each other out (결과 쪽), are in tension (문어). ↔ pull in the same direction. [→ daily](../../daily/2026-11-26/new-expressions.md)
+  - 예: Speed and safety pull against each other, so every release is a compromise between them.
+- **the friend who asks the questions you are avoiding** — 네가 피하고 있는 질문을 던져 주는 친구. ≈ a devil's advocate (일부러 반대편), a straight shooter (돌려 말하지 않는 사람). ↔ a yes-man. [→ daily](../../daily/2026-11-26/new-expressions.md)
+  - 예: A good reviewer is the colleague who asks the questions you are avoiding.
+- **A brilliant idea with no first step gets called out** — 첫걸음이 없는 멋진 아이디어는 지적당한다. `get called out` 은 빈틈을 사람들 앞에서 짚이는 것. ≈ gets flagged (중립), gets challenged (격식), gets shot down (기각). ↔ gets waved through. [→ daily](../../daily/2026-11-26/new-expressions.md)
+  - 예: Estimates with no buffer get called out in our planning meetings.
+- **generic briefs get generic advice** — 뻔한 브리프에는 뻔한 조언이 돌아온다. ≈ garbage in, garbage out (기술 구어), vague questions get vague answers (같은 틀). [→ daily](../../daily/2026-11-26/new-expressions.md)
+  - 예: Give the agency real numbers, because generic briefs get generic advice.
+- **lean fully into your angle** — 균형 잡으려 하지 말고 네 관점을 끝까지 밀어라. ≈ commit to your position (격식), go all in on (구어). ↔ hedge, sit on the fence. [→ daily](../../daily/2026-11-26/new-expressions.md)
+  - 예: Don't apologize for the constraint, lean into it and make it the feature.
+- **with the brief in reach it becomes a fifth insider** — 브리프가 손 닿는 데 있으면 다섯 번째 내부자가 되고 만다. ≈ within reach (더 흔함), at hand (문어), with access to the brief (기술 문체). ↔ out of reach, off limits. [→ daily](../../daily/2026-11-26/new-expressions.md)
+  - 예: With the answer key in reach, the test stops measuring anything.
