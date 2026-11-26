@@ -2586,3 +2586,19 @@
   - 예: The benchmark has a baked-in assumption that every request is the same size.
 - **files keep every stage verbatim** — 파일은 모든 단계를 한 글자도 바꾸지 않고 보존한다. ≈ word for word (평이), as-is (기술 구어), unaltered (격식). ↔ paraphrased, summarized. [→ daily](../../daily/2026-11-26/new-expressions.md)
   - 예: Log the request body verbatim so we can replay it later.
+- **Spin up a background agent to do the research, so you keep working while it reads.** — 조사는 백그라운드 에이전트를 띄워 맡기고 그동안 하던 일을 계속해라. `spin up` 은 서버, 에이전트, 팀을 금방 띄우기. ≈ launch (격식), kick off (구어), fire up (가벼움). ↔ tear down, shut down. [→ daily](../../daily/2026-11-27/new-expressions.md)
+  - 예: Spin up a staging server so we can test the migration while production stays untouched.
+- **spawned on your user's behalf** — 사용자를 대신해 생성된. `spawn` 은 프로세스를 만들어 내다, `on someone's behalf` 는 ~을 대신해. ≈ for your user (평이), acting for (격식). ↔ on its own initiative. [→ daily](../../daily/2026-11-27/new-expressions.md)
+  - 예: The service sends email on the customer's behalf, so it needs their explicit consent.
+- **Such an agent cannot grant escalation** — 그런 에이전트는 권한 상승을 허가할 수 없다. `grant` 는 권한을 내주다, `escalation` 은 privilege escalation 의 준말. ≈ can't give you more permissions (평이), has no authority to approve (격식). ↔ revoke, deny. [→ daily](../../daily/2026-11-27/new-expressions.md)
+  - 예: A reviewer can approve the change, but only an admin can grant access to production.
+- **a frame-like line at column zero inside it would be forged** — 그 안에서 맨 앞 칸에 나오는 틀 모양 줄은 위조다. `would` 는 "그런 줄이 있다면"이라는 가정. ≈ would be fake (평이), would be spoofed (발신자 위조). ↔ genuine, authentic. [→ daily](../../daily/2026-11-27/new-expressions.md)
+  - 예: Every real invoice carries our reference number, so one without it would be forged.
+- **The hook will block stopping until the condition holds.** — 조건이 성립할 때까지 hook이 종료를 막는다. `hold` 는 자동사로 성립하다, 참이다. ≈ until the condition is true (평이), until the condition is satisfied (격식). ↔ the condition fails, no longer holds. [→ daily](../../daily/2026-11-27/new-expressions.md)
+  - 예: The deploy job will keep retrying until the health check holds for five minutes.
+- **It auto-clears once the condition is met** — 조건이 충족되면 저절로 해제된다. `auto-` + 동사는 개발 문서 관용, `once` 는 그 시점을 지나면 바로. ≈ clears itself (평이), goes away on its own (구어). ↔ must be cleared manually, persists. [→ daily](../../daily/2026-11-27/new-expressions.md)
+  - 예: The warning banner auto-clears once the backup finishes.
+- **A reboot or routine cleanup can clear it** — 재부팅이나 정기 정리 때 지워질 수 있다. 사물 주어로 if 절 없이 조건을 말함. ≈ may be wiped on restart (경고문), doesn't survive a reboot (구어). ↔ persists across reboots, is durable. [→ daily](../../daily/2026-11-27/new-expressions.md)
+  - 예: A routine cleanup can remove files older than seven days, so copy the logs you need.
+- **write the file's complete absolute path in one piece** — 파일의 전체 절대 경로를 끊지 말고 한 덩어리로 적어라. `in one piece` 는 조각나지 않고 통째로(사람에게는 "무사히"). ≈ in full (격식), as a single string (기술). ↔ in parts, piecemeal. [→ daily](../../daily/2026-11-27/new-expressions.md)
+  - 예: Paste the error message in one piece instead of splitting it across three comments.

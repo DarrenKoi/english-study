@@ -1418,3 +1418,7 @@
   - 예: Don't apologize for the constraint, lean into it and make it the feature.
 - **with the brief in reach it becomes a fifth insider** — 브리프가 손 닿는 데 있으면 다섯 번째 내부자가 되고 만다. ≈ within reach (더 흔함), at hand (문어), with access to the brief (기술 문체). ↔ out of reach, off limits. [→ daily](../../daily/2026-11-26/new-expressions.md)
   - 예: With the answer key in reach, the test stops measuring anything.
+- **Spin up a background agent to do the research, so you keep working while it reads.** — 조사는 백그라운드 에이전트를 띄워 맡기고 그동안 하던 일을 계속해라. `spin up` 은 서버, 에이전트, 팀을 금방 띄우기. ≈ launch (격식), kick off (구어), fire up (가벼움). ↔ tear down, shut down. [→ daily](../../daily/2026-11-27/new-expressions.md)
+  - 예: Spin up a staging server so we can test the migration while production stays untouched.
+- **match the existing convention, and if there is none, put it somewhere sensible and say where** — 있는 관례에 맞추고, 없으면 적당한 곳에 두고 어디인지 말해라. 위임할 때 쓰는 세 토막(규칙 있을 때, 없을 때, 보고). ≈ follow the house style (문서), use your judgment and let me know (구어). ↔ invent a new structure. [→ daily](../../daily/2026-11-27/new-expressions.md)
+  - 예: Follow the naming scheme in the repo, and if there isn't one, pick something sensible and tell me what you chose.

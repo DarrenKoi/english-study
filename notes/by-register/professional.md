@@ -3022,3 +3022,17 @@
   - 예: If the client doesn't reply by noon, proceed on assumptions and record them in the ticket.
 - **Only the final report to the user is owed** — 사용자에게 드릴 최종 보고만 남아 있다. `be owed` 는 아직 해 줘야 할. ≈ is still outstanding (격식), is left to do (평이), is pending (중립). ↔ is done, has been delivered. [→ daily](../../daily/2026-11-26/new-expressions.md)
   - 예: The code is merged, so only the release notes are owed.
+- **not a secondary write-up of them** — 원자료가 아니라 남이 정리해 놓은 2차 글. `write-up` 은 글로 정리한 것(명사는 하이픈). ≈ a summary (평이), a secondhand account (문어). ↔ a primary source, the original. [→ daily](../../daily/2026-11-27/new-expressions.md)
+  - 예: I read the RFC itself, not a secondary write-up of it, because blog posts often skip the edge cases.
+- **Follow every claim back to the source that owns it.** — 모든 주장을 그 내용을 책임지는 출처까지 거슬러 확인하라. `own` 은 소유가 아니라 책임. ≈ trace each claim to its origin (격식), check where it actually comes from (평이), go to the horse's mouth (관용). ↔ take it on hearsay. [→ daily](../../daily/2026-11-27/new-expressions.md)
+  - 예: Before quoting that number in the report, follow it back to the team that owns the dashboard.
+- **citing each claim's source** — 주장마다 출처를 밝히면서. `cite` 는 출처를 대다, `quote` 는 그대로 옮기다. ≈ with a reference for each claim (문어), backing up each claim (구어). ↔ unsourced, without attribution. [→ daily](../../daily/2026-11-27/new-expressions.md)
+  - 예: Write the findings in one page, citing the source of each number.
+- **match the existing convention, and if there is none, put it somewhere sensible and say where** — 있는 관례에 맞추고, 없으면 적당한 곳에 두고 어디인지 말해라. 위임할 때 쓰는 세 토막(규칙 있을 때, 없을 때, 보고). ≈ follow the house style (문서), use your judgment and let me know (구어). ↔ invent a new structure. [→ daily](../../daily/2026-11-27/new-expressions.md)
+  - 예: Follow the naming scheme in the repo, and if there isn't one, pick something sensible and tell me what you chose.
+- **spawned on your user's behalf** — 사용자를 대신해 생성된. `spawn` 은 프로세스를 만들어 내다, `on someone's behalf` 는 ~을 대신해. ≈ for your user (평이), acting for (격식). ↔ on its own initiative. [→ daily](../../daily/2026-11-27/new-expressions.md)
+  - 예: The service sends email on the customer's behalf, so it needs their explicit consent.
+- **treat the condition itself as your directive and do not pause to ask the user what to do** — 그 조건 자체를 지시로 삼고, 물으려고 멈추지 마라. `directive` 는 instruction 보다 무거운 지시. ≈ go by the condition (평이), act on it without checking in (구어). ↔ wait for instructions, check in first. [→ daily](../../daily/2026-11-27/new-expressions.md)
+  - 예: Treat the acceptance criteria as your spec and don't pause to ask for approval on each step.
+- **one customer, many capabilities / one capability, many customers** — 한 고객에 여러 기능 / 한 기능을 여러 고객에. 현장 맞춤 조직과 제품 일반화 조직을 대비하는 교차 대구(Palantir). ≈ go deep with one account vs. go wide across accounts (구어), bespoke vs. productized (업계 용어). [→ daily](../../daily/2026-11-27/new-expressions.md)
+  - 예: The field team works on the principle of one customer, many capabilities, while the platform team builds one capability for many customers.
