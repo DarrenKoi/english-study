@@ -3036,3 +3036,19 @@
   - 예: Treat the acceptance criteria as your spec and don't pause to ask for approval on each step.
 - **one customer, many capabilities / one capability, many customers** — 한 고객에 여러 기능 / 한 기능을 여러 고객에. 현장 맞춤 조직과 제품 일반화 조직을 대비하는 교차 대구(Palantir). ≈ go deep with one account vs. go wide across accounts (구어), bespoke vs. productized (업계 용어). [→ daily](../../daily/2026-11-27/new-expressions.md)
   - 예: The field team works on the principle of one customer, many capabilities, while the platform team builds one capability for many customers.
+- **splits the work three ways: the LLM proposes, a deterministic scoring function judges, and restricted tools execute** — 역할 분담을 한 문장으로 정리하는 틀. 동사만 바꿔 다른 분업에도 쓴다. ≈ divides responsibility among three parts. ↔ one model does everything. [→ daily](../../daily/2026-11-28/new-expressions.md)
+  - 예: Our review process splits the work three ways: the author proposes, CI judges, and the release bot executes.
+- **standing constraints … to keep applying** — 계속 유효한 상시 제약. `standing order`, `standing meeting` 과 같은 standing. ≈ ground rules, ongoing requirements. ↔ one-off instructions. [→ daily](../../daily/2026-11-28/new-expressions.md)
+  - 예: Standing constraints from the project rules, to keep applying: no company names in committed files, and SAFE_MODE stays on at home.
+- **could not be confirmed and is marked …** — 확인하지 못해 ~로 표시해 두었다. 수동태 둘로 결과 상태만 전함. ≈ remains unconfirmed, is pending verification. ↔ was independently confirmed. [→ daily](../../daily/2026-11-28/new-expressions.md)
+  - 예: TEM Agent was confirmed against the paper; GoldiBench could not be confirmed and is marked "unverified" in the report.
+- **Most numbers are author- or vendor-reported.** — 수치 대부분은 저자·공급사 보고값이다. suspended hyphen(`author- or vendor-`). ≈ self-reported figures. ↔ independently reproduced results. [→ daily](../../daily/2026-11-28/new-expressions.md)
+  - 예: Most numbers are author- or vendor-reported, and we did not reproduce any of them independently.
+- **Items marked for in-company verification** — 사내 확인 대상으로 표시한 항목. `mark A for B`. 일반적으로는 `in-house` 가 더 자연스럽다. ≈ flagged for follow-up, open questions. ↔ closed items. [→ daily](../../daily/2026-11-28/new-expressions.md)
+  - 예: Items marked for in-house verification: whether the equipment apps expose UIA, and whether scores can be read from the screen.
+- **which belong to other work** — 다른 작업의 것이라서. 계속적 용법 `, which` 로 손대지 않은 이유를 덧붙임. ≈ which fall outside this task. ↔ which are part of this change. [→ daily](../../daily/2026-11-28/new-expressions.md)
+  - 예: Leave the unrelated modified files in `core/` alone, which belong to other work.
+- **kept intentionally** — 일부러 남겨 둔. 리뷰어가 되묻기 전에 의도를 밝힘. ≈ retained by design, left on purpose. ↔ missed, overlooked. [→ daily](../../daily/2026-11-28/new-expressions.md)
+  - 예: Three remaining patterns were kept intentionally, because rewriting them would have changed the meaning of the table captions.
+- **(not requested explicitly)** — (명시적으로 요청받지 않음). 할 일 목록에서 범위 밖 선택 작업 표시. ≈ (nice to have), (only if asked). ↔ (required). [→ daily](../../daily/2026-11-28/new-expressions.md)
+  - 예: Optional: sync the humanized text back into the shared doc (not explicitly requested).

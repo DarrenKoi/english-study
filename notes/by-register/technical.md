@@ -2602,3 +2602,15 @@
   - 예: A routine cleanup can remove files older than seven days, so copy the logs you need.
 - **write the file's complete absolute path in one piece** — 파일의 전체 절대 경로를 끊지 말고 한 덩어리로 적어라. `in one piece` 는 조각나지 않고 통째로(사람에게는 "무사히"). ≈ in full (격식), as a single string (기술). ↔ in parts, piecemeal. [→ daily](../../daily/2026-11-27/new-expressions.md)
   - 예: Paste the error message in one piece instead of splitting it across three comments.
+- **on the healthy path** — 정상 경로에서는. 실패·복구 경로와 짝을 이루는 운영 용어. ≈ on the happy path, in the normal case. ↔ on the failure path. [→ daily](../../daily/2026-11-28/new-expressions.md)
+  - 예: OpenAdapt Flow makes zero model calls on the healthy path and falls back to a grounding model only when local matching fails.
+- **false success** — 성공했다고 착각한 실패. `false positive` 를 본뜬 말. ≈ a silent failure, a false completion claim. ↔ a verified success. [→ daily](../../daily/2026-11-28/new-expressions.md)
+  - 예: Most of the agent's failures were false success: it reported the form as submitted while the screen still showed the validation error.
+- **splits the work three ways: the LLM proposes, a deterministic scoring function judges, and restricted tools execute** — 일을 셋으로 나눈다. 콜론 뒤에 '주어 + 동사' 셋을 같은 꼴로 나열. ≈ a clean division of labor. ↔ one model does everything end to end. [→ daily](../../daily/2026-11-28/new-expressions.md)
+  - 예: The tuning loop splits the work three ways: the LLM proposes a setting, an OCR-based score judges it, and the SAFE_MODE layer executes only values inside the allowed range.
+- **resolution ladder** — 대상을 찾는 방법을 싼 것부터 차례로 시도하는 단계. ≈ fallback chain, tiered lookup. ↔ a single-shot lookup. [→ daily](../../daily/2026-11-28/new-expressions.md)
+  - 예: Our resolution ladder tries UIA first, then template matching, then OCR, and calls the VLM only at the last rung.
+- **a closed VLM question (A/B/unknown)** — 선택지 안에서만 답하게 하는 닫힌 질문. `unknown` 이 사람에게 넘기는 출구. ≈ a constrained classification. ↔ free-form generation. [→ daily](../../daily/2026-11-28/new-expressions.md)
+  - 예: At a branch point we ask the VLM a closed question — is this screen state A, B, or unknown? — and never let it generate a free-form action.
+- **with the summary block stripped** — 요약 블록을 떼어 낸 채로. `with + 명사 + 과거분사` 부대상황. ≈ minus the summary block. ↔ with the summary block intact. [→ daily](../../daily/2026-11-28/new-expressions.md)
+  - 예: I saved the report to `docs/` with the HUMANIZE-SUMMARY block stripped, so the committed file holds only the prose.

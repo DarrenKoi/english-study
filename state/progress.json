@@ -1182,7 +1182,8 @@
     "-Users-daeyoung-Codes-pm-notes-my-task/2fb60678-eab0-48fa-b624-d3a5577f9975.jsonl": 1195,
     "-Users-daeyoung-Codes-pm-notes-my-task/d43a02f6-cd7c-43cb-8d63-6e63c85fb331.jsonl": 1567,
     "-Users-daeyoung-Codes-pm-notes-my-task/6bab7821-7bbc-4fbf-86a5-af02db5f35b1.jsonl": 554,
-    "-Users-daeyoung-Codes-pm-notes-my-task/0bdc1ca4-1ade-4c81-8af8-73c79c726785.jsonl": 50
+    "-Users-daeyoung-Codes-pm-notes-my-task/0bdc1ca4-1ade-4c81-8af8-73c79c726785.jsonl": 50,
+    "-Users-daeyoung-Codes-arc-engine/466d352b-b92e-4fa9-8932-45e1673cc78f.jsonl": 838
   },
   "docs_seen": {
     "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md": "auto_recipe_creator/docs/journals/260618/260618_102452_vlm-align-point-kimi-migration-debugging.md:1781745958.4095376:7758",
@@ -1866,7 +1867,8 @@
     "auto_recipe_creator/docs/research/2026-11-06-codex-hf-gui-vlm-scan.md": "auto_recipe_creator/docs/research/2026-11-06-codex-hf-gui-vlm-scan.md:1793933902.9740438:34298",
     "skewnono_v3_nuxt/docs/datatables/veritysem/recipe_usage.txt": "skewnono_v3_nuxt/docs/datatables/veritysem/recipe_usage.txt:1794803983.725745:9563",
     "skewnono_v3_nuxt/docs/office-migration/veritysem_provision_recipe_usage.txt": "skewnono_v3_nuxt/docs/office-migration/veritysem_provision_recipe_usage.txt:1794454172.2907808:1860",
-    "skewnono_v3_nuxt/docs/office-migration/veritysem_provision_recipe_list.txt": "skewnono_v3_nuxt/docs/office-migration/veritysem_provision_recipe_list.txt:1794453701.0940468:2035"
+    "skewnono_v3_nuxt/docs/office-migration/veritysem_provision_recipe_list.txt": "skewnono_v3_nuxt/docs/office-migration/veritysem_provision_recipe_list.txt:1794453701.0940468:2035",
+    "arc-engine/docs/computer-use-research-2026-11.md": "arc-engine/docs/computer-use-research-2026-11.md:1795735198.3353937:39326"
   },
-  "last_run": "2026-11-27"
+  "last_run": "2026-11-28"
 }

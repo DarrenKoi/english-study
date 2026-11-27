@@ -1422,3 +1422,7 @@
   - 예: Spin up a staging server so we can test the migration while production stays untouched.
 - **match the existing convention, and if there is none, put it somewhere sensible and say where** — 있는 관례에 맞추고, 없으면 적당한 곳에 두고 어디인지 말해라. 위임할 때 쓰는 세 토막(규칙 있을 때, 없을 때, 보고). ≈ follow the house style (문서), use your judgment and let me know (구어). ↔ invent a new structure. [→ daily](../../daily/2026-11-27/new-expressions.md)
   - 예: Follow the naming scheme in the repo, and if there isn't one, pick something sensible and tell me what you chose.
+- **which belong to other work** — 내 것이 아닌 변경을 건드리지 않았다고 알릴 때. ≈ which aren't ours, which are from another session. ↔ which are part of this change. [→ daily](../../daily/2026-11-28/new-expressions.md)
+  - 예: I didn't touch the `core/` changes, which belong to other work.
+- **I adjusted the scope to …** — 범위를 ~에 맞게 조정했다. 바뀐 조건을 `to` 뒤에 나열. ≈ I narrowed the scope to, I switched gears to. ↔ I widened the scope. [→ daily](../../daily/2026-11-28/new-expressions.md)
+  - 예: You added the vLLM-only condition, so I adjusted the scope to small open-weight models that run on our own GPUs.
